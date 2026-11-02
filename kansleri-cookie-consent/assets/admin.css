@@ -71,22 +71,30 @@
   border-left: 4px solid #ef4444;
 }
 
-.kncc-blocking-guide {
-  margin-top: 12px;
-  padding: 12px 14px;
-  background: #f6f7f7;
-  border: 1px solid #dcdcde;
-  border-radius: 4px;
-  max-width: 640px;
+/* Script Blocking tab: the Advanced Consent Mode note above the form */
+
+.kncc-blocking-note {
+  margin-bottom: 1rem;
+  color: #b45309;
 }
 
-.kncc-blocking-guide ul {
-  margin: 8px 0 8px 1.2em;
-  list-style: disc;
+.kncc-blocking-note .dashicons {
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  vertical-align: text-bottom;
 }
 
-.kncc-blocking-guide li {
-  margin-bottom: 4px;
+.kncc-html-rules-note[hidden] {
+  display: none;
+}
+
+.kncc-blocking-tab > h3 {
+  margin-top: 2rem;
+}
+
+.kncc-recognized-tools {
+  margin-bottom: 2rem;
 }
 
 /* Cookies tab */
@@ -491,6 +499,12 @@
   transition-delay: 0s;
 }
 
+/* A tooltip beside a row heading: the heading cell is narrow, so the bubble gets its own width. */
+.kncc-tooltip-row--heading .kncc-tooltip__bubble {
+  width: 460px;
+  max-width: calc(100vw - 60px);
+}
+
 .kncc-tooltip__para {
   display: block;
 }
@@ -729,6 +743,191 @@
   width: calc(100% - 2rem);
 }
 
+/* A dashicon beside the text of a button or link button: both are centred on the same line. */
+.kncc-wrap .button.kncc-button-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.kncc-wrap .button.kncc-button-with-icon .dashicons {
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* Keep the width of the page the same whether or not it is tall enough for a scrollbar: a short tab, a group that
+   opens or a new row would otherwise move everything sideways when the scrollbar appears. */
+html:has(.kncc-wrap) {
+  scrollbar-gutter: stable;
+}
+
+/* Collapsible groups of settings (a <details> element): closed until opened; admin.js remembers the open ones. */
+.kncc-accordion {
+  margin: 8px 0 0;
+  background: #fff;
+  border: 1px solid #c3c4c7;
+}
+
+.form-table + .kncc-accordion,
+.kncc-blocking-form + .kncc-accordion {
+  margin-top: 20px;
+}
+
+.kncc-accordion > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  cursor: pointer;
+  list-style: none;
+}
+
+.kncc-accordion > summary::-webkit-details-marker {
+  display: none;
+}
+
+.kncc-accordion > summary::after {
+  content: "\f140";
+  font: normal 20px/1 dashicons;
+  color: #50575e;
+}
+
+.kncc-accordion[open] > summary::after {
+  content: "\f142";
+}
+
+.kncc-accordion > summary:hover {
+  background: #f6f7f7;
+}
+
+.kncc-accordion > summary:focus-visible {
+  outline: 2px solid #2271b1;
+  outline-offset: -2px;
+}
+
+.kncc-accordion__body {
+  padding: 4px 16px 12px;
+  border-top: 1px solid #dcdcde;
+}
+
+.kncc-accordion__body > .description:first-child {
+  margin-top: 12px;
+}
+
+.kncc-accordion__body .form-table {
+  margin-top: 0;
+}
+
+.kncc-accordion + .form-table {
+  margin-top: 16px;
+}
+
+.kncc-shortcode-tip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0 0;
+  color: #50575e;
+}
+
+.kncc-shortcode-tip code {
+  user-select: all;
+}
+
+/* The "Block by address" table sits in a settings row, where WordPress styles every th and td of the row
+   (a 200 px wide heading cell without left padding, tall cells). Give the table its own cell spacing and fixed
+   column widths, so it keeps one size with no rows, with many rows and in a narrow window. */
+.form-table .kncc-url-rules {
+  table-layout: fixed;
+  width: 100%;
+  max-width: 760px;
+  margin-bottom: 8px;
+}
+
+.form-table .kncc-url-rules th,
+.form-table .kncc-url-rules td {
+  width: auto;
+  padding: 8px 10px;
+  line-height: 1.4;
+  vertical-align: middle;
+}
+
+.form-table .kncc-url-rules thead th {
+  font-weight: 600;
+}
+
+.form-table .kncc-url-rules .kncc-col-category {
+  width: 28%;
+}
+
+.form-table .kncc-url-rules .kncc-col-message {
+  width: 17%;
+  text-align: center;
+}
+
+.form-table .kncc-url-rules .kncc-col-remove {
+  width: 12%;
+  text-align: right;
+}
+
+.kncc-url-rules input[type="text"],
+.kncc-url-rules select {
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+}
+
+.kncc-col-message label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* The words "Show message" stay for screen readers; the column heading says them on a wide screen. */
+.kncc-url-rule__message-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 782px) {
+  .form-table .kncc-url-rules {
+    table-layout: auto;
+  }
+
+  .form-table .kncc-url-rules thead {
+    display: none;
+  }
+
+  .form-table .kncc-url-rules .kncc-col-category,
+  .form-table .kncc-url-rules .kncc-col-message,
+  .form-table .kncc-url-rules .kncc-col-remove {
+    width: auto;
+    text-align: left;
+  }
+
+  .kncc-url-rule__message-label {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+}
+
 /* Hide the native checkbox in the preview — WP admin's default input[type="checkbox"] styles
    would otherwise leak through and show a checkmark next to the custom toggle UI. */
 .kncc-banner--preview .kncc-category__check {
@@ -740,28 +939,5 @@
   padding: 0 !important;
   -webkit-appearance: none !important;
   appearance: none !important;
-}
-
-/* Grouped visitor-facing text fields (cookie categories, policy page texts). */
-.kncc-texts-help {
-  margin: 0 0 12px;
-}
-
-.kncc-text-group {
-  max-width: 640px;
-  margin: 0 0 14px;
-  padding: 8px 14px 2px;
-  border: 1px solid #dcdcde;
-  border-radius: 4px;
-  background: #fff;
-}
-
-.kncc-text-group legend {
-  padding: 0 4px;
-  font-weight: 600;
-}
-
-.kncc-text-group p {
-  margin: 0 0 10px;
 }
 

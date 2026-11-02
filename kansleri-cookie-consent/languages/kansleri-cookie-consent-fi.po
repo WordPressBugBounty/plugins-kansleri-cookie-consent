@@ -3,10 +3,10 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Kansleri Cookie Consent 1.8.11\n"
+"Project-Id-Version: Kansleri Cookie Consent 1.8.12\n"
 "Report-Msgid-Bugs-To: https://kansleri.fi\n"
-"POT-Creation-Date: 2026-10-29 12:00+0200\n"
-"PO-Revision-Date: 2026-10-29 12:00+0200\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
+"PO-Revision-Date: 2026-10-30 15:00+0200\n"
 "Last-Translator: Kansleri.fi\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -215,57 +215,9 @@ msgstr "Tilastot"
 msgid "Documentations"
 msgstr "Dokumentaatio"
 
-#: includes/class-admin.php:159
-#, php-format
-msgid ""
-"You are editing settings for language: %s. Saves go to this language only — "
-"switch the admin-bar language filter to edit another language. Banner texts "
-"use this language's saved overrides, then WPML String Translation if "
-"available, then plugin defaults (English if unsupported) — not a copy of the"
-" default language."
-msgstr ""
-"Muokkaat asetuksia kielelle: %s. Tallennus kohdistuu vain tähän kieleen — "
-"vaihda hallintapalkin kielivalitsinta muokataksesi toista kieltä. "
-"Banneritekstit käyttävät tämän kielen tallennettuja ylikirjoituksia, sitten "
-"WPML String Translationia jos saatavilla, sitten lisäosan oletuksia "
-"(englanti, jos kieltä ei tueta) — eivät kopiota oletuskielestä."
-
-#: includes/class-admin.php:166
-msgid ""
-"You are editing the default-language settings. Secondary languages use their"
-" own saved overrides, WPML String Translation of these fields (if set), or "
-"that language's plugin defaults (English if unsupported) — texts are not "
-"copied from this language. Colors and other non-text settings still inherit "
-"unless overridden."
-msgstr ""
-"Muokkaat oletuskielen asetuksia. Muut kielet käyttävät omia tallennettuja "
-"ylikirjoituksiaan, WPML String Translationia näille kentille (jos asetettu) "
-"tai kyseisen kielen lisäosan oletuksia (englanti, jos kieltä ei tueta) — "
-"tekstejä ei kopioida tästä kielestä. Värit ja muut ei-tekstiasetukset "
-"peritään edelleen, ellei niitä ylikirjoiteta."
-
 #: includes/class-admin.php:210
 msgid "Open banner preview"
 msgstr "Avaa bannerin esikatselu"
-
-#: includes/class-admin.php:213
-msgid ""
-"Test how the banner looks with your current (unsaved) settings — the preview"
-" stays visible while you edit."
-msgstr ""
-"Testaa miltä banneri näyttää nykyisillä (tallentamattomilla) asetuksilla — "
-"esikatselu pysyy näkyvissä muokkauksen aikana."
-
-#: includes/class-admin.php:216
-msgid ""
-"Live preview is not available with Theme style — the banner inherits your "
-"site theme's typography, which only loads on the frontend. Visit your live "
-"site to see the result, or switch to Plugin style above to preview here."
-msgstr ""
-"Suora esikatselu ei ole saatavilla Teema-tyylillä — banneri perii sivustosi "
-"teeman typografian, joka latautuu vain etusivulla. Käy aidolla sivustollasi "
-"nähdäksesi tuloksen, tai vaihda yllä Lisäosa-tyyliin esikatsellaksesi "
-"täällä."
 
 #: includes/class-admin.php:222 includes/class-admin.php:689
 msgid "Banner style"
@@ -315,10 +267,6 @@ msgstr "Toissijainen painike"
 msgid "Secondary button text"
 msgstr "Toissijaisen painikkeen teksti"
 
-#: includes/class-admin.php:261
-msgid "Click a swatch to choose a color. The preview below updates instantly."
-msgstr "Klikkaa palettia valitaksesi värin. Esikatselu alla päivittyy heti."
-
 #: includes/class-admin.php:265 includes/class-admin.php:691
 msgid "Text and font style"
 msgstr "Teksti- ja kirjasintyyli"
@@ -330,14 +278,6 @@ msgstr "Teeman tyyli (perii sivuston typografian)"
 #: includes/class-admin.php:269 includes/class-admin.php:522
 msgid "Plugin style (strict font sizes/colors)"
 msgstr "Lisäosan tyyli (tiukat kirjasinkoot/-värit)"
-
-#: includes/class-admin.php:271
-msgid ""
-"Use Plugin style by default for consistent readability. Switch to Theme "
-"style to inherit your site typography."
-msgstr ""
-"Käytä oletuksena lisäosan tyyliä yhtenäisen luettavuuden vuoksi. Vaihda "
-"teeman tyyliin, jos haluat periä sivuston typografian."
 
 #: includes/class-admin.php:281
 msgid "Description text"
@@ -367,22 +307,6 @@ msgstr "Tämä sisältö on estetty, koska se vaatii markkinointievästeitä."
 msgid "Accept marketing cookies"
 msgstr "Hyväksy markkinointievästeet"
 
-#: includes/class-admin.php:307
-msgid "Blocked iframe message"
-msgstr "Estetyn iframen viesti"
-
-#: includes/class-admin.php:310
-msgid ""
-"Shown over blocked YouTube and Vimeo embeds before the visitor accepts "
-"marketing cookies."
-msgstr ""
-"Näytetään estettyjen YouTube- ja Vimeo-upotusten päällä ennen kuin kävijä "
-"hyväksyy markkinointievästeet."
-
-#: includes/class-admin.php:314
-msgid "Blocked iframe accept button"
-msgstr "Estetyn iframen hyväksy-painike"
-
 #: includes/class-admin.php:318 includes/class-admin.php:693
 msgid "Floating settings button"
 msgstr "Kelluva asetuspainike"
@@ -395,14 +319,6 @@ msgstr ""
 "Näytä pieni kelluva painike, jotta kävijät voivat avata evästeasetukset "
 "uudelleen"
 
-#: includes/class-admin.php:326
-msgid ""
-"You can also add a link to open cookie settings anywhere (e.g. footer) using"
-" this shortcode:"
-msgstr ""
-"Voit myös lisätä linkin evästeasetusten avaamiseen minne tahansa (esim. "
-"alatunnisteeseen) tällä lyhytkoodilla:"
-
 #: includes/class-admin.php:329
 msgid "Copied!"
 msgstr "Kopioitu!"
@@ -410,15 +326,6 @@ msgstr "Kopioitu!"
 #: includes/class-admin.php:329 includes/class-admin.php:330
 msgid "Copy"
 msgstr "Kopioi"
-
-#: includes/class-admin.php:336
-#, php-format
-msgid "Use the text attribute to customize the link text: %s"
-msgstr "Käytä text-attribuuttia muokataksesi linkin tekstiä: %s"
-
-#: includes/class-admin.php:337
-msgid "Manage cookies"
-msgstr "Hallitse evästeitä"
 
 #: includes/class-admin.php:346 includes/class-admin.php:531
 #: includes/class-admin.php:664
@@ -428,10 +335,6 @@ msgstr "Tallenna asetukset"
 #: includes/class-admin.php:370
 msgid "Banner preview"
 msgstr "Bannerin esikatselu"
-
-#: includes/class-admin.php:371
-msgid "Close preview"
-msgstr "Sulje esikatselu"
 
 #: includes/class-admin.php:415
 msgid "Add Cookie"
@@ -923,15 +826,8 @@ msgstr ""
 "seurannan, kunnes kävijä antaa suostumuksen."
 
 #: includes/class-admin.php:719
-msgid ""
-"Video embeds from YouTube and Vimeo are automatically blocked until the "
-"visitor accepts marketing cookies. A placeholder with an accept button is "
-"shown instead. When the visitor has already consented, videos load normally."
-msgstr ""
-"YouTube- ja Vimeo-videoupotukset estetään automaattisesti, kunnes kävijä "
-"hyväksyy markkinointievästeet. Videon tilalla näytetään paikkamerkki "
-"hyväksymispainikkeella. Jos kävijä on jo antanut suostumuksensa, videot "
-"latautuvat normaalisti."
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
+msgstr "YouTube- ja Vimeo-videoupotukset estetään automaattisesti, kunnes kävijä hyväksyy markkinointievästeet. Videon tilalla näytetään viesti ja hyväksymispainike. Jos kävijä on jo antanut suostumuksensa, videot latautuvat normaalisti."
 
 #: includes/class-admin.php:719
 msgid "YouTube & Vimeo iframe blocking"
@@ -1235,63 +1131,12 @@ msgstr "Lisäosa tarkistaa evästeet automaattisesti päivittäin."
 msgid "Next check: %s"
 msgstr "Seuraava tarkistus: %s"
 
-#: includes/class-admin.php:1064
-msgid "Tracking tools wait for consent."
-msgstr "Seurantatyökalut odottavat suostumusta."
-
-#: includes/class-admin.php:1065
-msgid ""
-"Google Analytics, Clarity, and similar scripts do not run until the visitor "
-"accepts the matching cookie category."
-msgstr ""
-"Google Analytics, Clarity ja vastaavat skriptit eivät toimi, ennen kuin "
-"kävijä hyväksyy asianmukaisen evästekategorian."
-
 #: includes/class-admin.php:1075
 msgid ""
 "Also block tracking added in Bricks, Elementor, or other Custom Code fields"
 msgstr ""
 "Estä myös Bricks-, Elementor- tai muihin Custom Code -kenttiin lisätty "
 "seuranta"
-
-#: includes/class-admin.php:1078
-msgid ""
-"Recommended. Use this if you pasted analytics or ads into a page builder or "
-"“header scripts” box."
-msgstr ""
-"Suositeltu. Käytä tätä, jos liitit analytiikan tai mainokset sivurakentajaan"
-" tai otsikkoskriptien kenttään."
-
-#: includes/class-admin.php:1081
-msgid "When should I turn this off?"
-msgstr "Milloin tämä kannattaa kytkeä pois?"
-
-#: includes/class-admin.php:1084
-msgid ""
-"Your site looks broken or behaves oddly after you installed a cache or speed"
-" plugin (e.g. WP Rocket, LiteSpeed Cache, Autoptimize)."
-msgstr ""
-"Sivusto näyttää rikkinäiseltä tai toimii oudosti välimuisti- tai "
-"nopeuslisäosan asennuksen jälkeen (esim. WP Rocket, LiteSpeed Cache, "
-"Autoptimize)."
-
-#: includes/class-admin.php:1085
-msgid "Tracking works but other scripts or features stop working."
-msgstr ""
-"Seuranta toimii, mutta muut skriptit tai toiminnot lakkaavat toimimasta."
-
-#: includes/class-admin.php:1086
-msgid "Another plugin’s support team asks you to disable HTML output changes."
-msgstr ""
-"Toisen lisäosan tuki pyytää poistamaan HTML-tulosteen muokkauksen käytöstä."
-
-#: includes/class-admin.php:1088
-msgid ""
-"Most sites should leave this on. Turn it off only if you run into one of the"
-" issues above."
-msgstr ""
-"Useimmilla sivustoilla tämä kannattaa pitää päällä. Kytke pois vain, jos "
-"kohtaat jonkin yllä olevista ongelmista."
 
 #: includes/class-admin.php:1094
 msgid "Save blocking settings"
@@ -1300,14 +1145,6 @@ msgstr "Tallenna estoasetukset"
 #: includes/class-admin.php:1099
 msgid "Recognized tracking tools"
 msgstr "Tunnistetut seurantatyökalut"
-
-#: includes/class-admin.php:1101
-msgid ""
-"These tools are blocked automatically when added through WordPress plugins "
-"(for example Google Site Kit). You do not need to configure them."
-msgstr ""
-"Nämä työkalut estetään automaattisesti, kun ne lisätään WordPress-lisäosien "
-"kautta (esimerkiksi Google Site Kit). Niitä ei tarvitse erikseen määrittää."
 
 #: includes/class-admin.php:1106
 msgid "Script Handle"
@@ -1556,15 +1393,6 @@ msgstr "Näytä, mutta lukitse (poista käytöstä) valitsin"
 msgid "Hide categories with no cookies"
 msgstr "Piilota kategoriat, joissa ei ole evästeitä"
 
-#: includes/class-admin.php:325
-msgid ""
-"Controls what happens to a category (e.g. Marketing) when no cookies are "
-"registered for it. Necessary is always shown and always locked on."
-msgstr ""
-"Määrittää, mitä kategorialle (esim. Markkinointi) tapahtuu, kun siihen ei "
-"ole rekisteröity evästeitä. Välttämättömät näytetään aina ja ovat aina "
-"lukittuna päällä."
-
 #: includes/class-admin.php:378 includes/class-consent.php:95
 msgid "No analytics cookies are used on this site."
 msgstr "Tällä sivustolla ei käytetä analytiikkaevästeitä."
@@ -1766,15 +1594,6 @@ msgid ""
 msgstr ""
 "Estä YouTube- ja Vimeo-videot, kunnes kävijä hyväksyy "
 "markkinointievästeet"
-
-#: includes/class-admin.php:1171
-msgid ""
-"Recommended. When this is off, embedded videos load right away, and YouTube "
-"and Vimeo can set their cookies before the visitor has made a choice."
-msgstr ""
-"Suositeltu. Kun tämä on pois päältä, upotetut videot latautuvat heti, "
-"ja YouTube ja Vimeo voivat tallentaa evästeensä ennen kuin kävijä on "
-"tehnyt valintansa."
 
 #: includes/class-admin.php:684
 msgid "More information"
@@ -2160,14 +1979,6 @@ msgstr "Hyväksy mieltymysevästeet"
 msgid "Block by address"
 msgstr "Estä osoitteen perusteella"
 
-#: includes/class-admin.php:1206
-msgid "Hold back any other script until the visitor accepts a category: enter part of its address, for example widget.example.com. Use this for embeds and tools the plugin does not recognize. A rule here also overrides the built-in category for the same address; choose “Necessary (never blocked)” to let it load right away."
-msgstr "Pidätä mikä tahansa muu skripti, kunnes kävijä hyväksyy kategorian: kirjoita osa sen osoitteesta, esimerkiksi widget.example.com. Käytä tätä upotuksiin ja työkaluihin, joita lisäosa ei tunnista. Sääntö ohittaa myös saman osoitteen sisäänrakennetun kategorian. Valitse ”Välttämättömät (ei estetä koskaan)”, jos skriptin pitää latautua heti."
-
-#: includes/class-admin.php:1210
-msgid "Placeholder: show a message with an accept button where the script would show content, such as a reviews widget. Leave it off for tracking scripts, which show nothing on the page."
-msgstr "Paikkamerkki: näytä viesti ja hyväksymispainike kohdassa, jossa skripti näyttäisi sisältöä, esimerkiksi arvostelut. Jätä se pois seurantaskripteiltä, koska ne eivät näytä sivulla mitään."
-
 #: includes/class-admin.php:1213
 msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
 msgstr "Sivun HTML:ään lisätyt skriptit tunnistetaan vain, kun Custom Code -esto on päällä."
@@ -2175,10 +1986,6 @@ msgstr "Sivun HTML:ään lisätyt skriptit tunnistetaan vain, kun Custom Code -e
 #: includes/class-admin.php:1259 includes/class-admin.php:1289
 msgid "Address contains"
 msgstr "Osoitteessa on"
-
-#: includes/class-admin.php:1261
-msgid "Placeholder"
-msgstr "Paikkamerkki"
 
 #: includes/class-admin.php:1274
 msgid "Add address"
@@ -2188,21 +1995,17 @@ msgstr "Lisää osoite"
 msgid "Necessary (never blocked)"
 msgstr "Välttämättömät (ei estetä koskaan)"
 
-#: includes/class-admin.php:1299
-msgid "Show a placeholder"
-msgstr "Näytä paikkamerkki"
-
 #: includes/class-admin.php:889
 msgid "Reviews widgets"
 msgstr "Arvosteluwidgetit"
 
 #: includes/class-admin.php:889
-msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A placeholder with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
-msgstr "Trustmaryn arvosteluwidget odottaa analytiikkasuostumusta, koska se tallentaa selaimeen kävijätunnisteen. Sen paikalla näytetään paikkamerkki ja hyväksymispainike. Jos haluat sen latautuvan heti, lisää widget.trustmary.com kohtaan Estä osoitteen perusteella kategorialla ”Välttämättömät (ei estetä koskaan)”."
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgstr "Trustmaryn arvosteluwidget odottaa analytiikkasuostumusta, koska se tallentaa selaimeen kävijätunnisteen. Sen paikalla näytetään viesti ja hyväksymispainike. Jos haluat sen latautuvan heti, lisää widget.trustmary.com kohtaan Estä osoitteen perusteella kategorialla ”Välttämättömät (ei estetä koskaan)”."
 
 #: includes/class-admin.php:890
-msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Placeholder for scripts that show content on the page."
-msgstr "Estää minkä tahansa muun skriptin osoitteen osan perusteella, kunnes kävijä hyväksyy valitsemasi kategorian, esimerkiksi widgetin, jota lisäosa ei tunnista. Ota paikkamerkki käyttöön skripteille, jotka näyttävät sivulla sisältöä."
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
+msgstr "Estää minkä tahansa muun skriptin osoitteen osan perusteella, kunnes kävijä hyväksyy valitsemasi kategorian, esimerkiksi widgetin, jota lisäosa ei tunnista. Ota Näytä viesti käyttöön skripteille, jotka näyttävät sivulla sisältöä."
 
 #: includes/class-scanner.php:137
 msgctxt "cookie duration"
@@ -2281,36 +2084,8 @@ msgid "Cookie categories"
 msgstr "Evästekategoriat"
 
 #: includes/class-admin.php
-msgid "Names and descriptions shown when visitors open Customize. Leave a field empty to use the built-in text, which is translated into each language."
-msgstr "Nimet ja kuvaukset, jotka näytetään, kun kävijä avaa Muokkaa-näkymän. Jätä kenttä tyhjäksi, niin käytetään valmista tekstiä, joka on käännetty kullekin kielelle."
-
-#: includes/class-admin.php
 msgid "Text when no cookies are used"
 msgstr "Teksti, kun evästeitä ei käytetä"
-
-#: includes/class-admin.php
-msgid "Blocked analytics content message"
-msgstr "Estetyn analytiikkasisällön viesti"
-
-#: includes/class-admin.php
-msgid "Blocked analytics content accept button"
-msgstr "Estetyn analytiikkasisällön hyväksy-painike"
-
-#: includes/class-admin.php
-msgid "Shown over blocked content that needs analytics cookies, such as a review widget."
-msgstr "Näytetään analytiikkaevästeitä vaativan estetyn sisällön päällä, esimerkiksi arvosteluwidgetissä."
-
-#: includes/class-admin.php
-msgid "Blocked preferences content message"
-msgstr "Estetyn mieltymyssisällön viesti"
-
-#: includes/class-admin.php
-msgid "Blocked preferences content accept button"
-msgstr "Estetyn mieltymyssisällön hyväksy-painike"
-
-#: includes/class-admin.php
-msgid "Shown over blocked content that needs preference cookies, such as a chat or booking widget."
-msgstr "Näytetään mieltymysevästeitä vaativan estetyn sisällön päällä, esimerkiksi chat- tai ajanvarauswidgetissä."
 
 #: includes/class-admin.php
 msgid "Policy page texts"
@@ -2375,3 +2150,95 @@ msgstr "Palauta evästeet"
 #: includes/class-admin.php
 msgid "Hide this notice"
 msgstr "Piilota tämä ilmoitus"
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr "Näkyy, kun kävijä painaa Muokkaa. Jätä kenttä tyhjäksi, niin käytetään valmista tekstiä."
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr "Estetyn sisällön viestit"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr "YouTube- ja Vimeo-viesti"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr "YouTube- ja Vimeo-hyväksy-painike"
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr "Analytiikkasisällön viesti"
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr "Analytiikkasisällön hyväksy-painike"
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr "Mieltymyssisällön viesti"
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr "Mieltymyssisällön hyväksy-painike"
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr "Tai lisää linkki mihin tahansa lyhytkoodilla:"
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr "Suositus. Kytke pois vain, jos välimuisti- tai nopeuslisäosa rikkoo sivuston."
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr "Estetään automaattisesti, asetuksia ei tarvita."
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr "Näytä viesti"
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr "Evästeitä ei ole valittu."
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr "%s-skriptejä ei enää havaita etusivulla"
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr "Muokattava kieli: %s. Tallennus koskee vain tätä kieltä."
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr "Muokkaat oletuskieltä. Muilla kielillä on omat tekstinsä."
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr "Esikatsele banneria nykyisillä, tallentamattomilla asetuksilla."
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr "Esikatselu toimii vain Lisäosan tyylillä."
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr "Ruudunlukijan nimi ×-painikkeelle."
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr "Pidättää minkä tahansa muun skriptin, kunnes kävijä hyväksyy sen kategorian. Käytä sitä widgeteille ja työkaluille, joita lisäosa ei tunnista."
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr "Välttämättömät (ei estetä koskaan) päästää osoitteen latautumaan heti, myös sellaisen, jonka lisäosa muuten estäisi."
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr "Näytä viesti: kohdassa, jossa estetty skripti näyttäisi sisältöä (arvostelut, ajanvaraus, kartta), näytetään tyhjän aukon sijaan viesti ja hyväksymispainike. Ei tarvita seurantaskripteille."
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
+msgstr "avautuu uuteen välilehteen"

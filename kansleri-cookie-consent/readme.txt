@@ -3,7 +3,7 @@ Contributors: tapiokansleri
 Tags: cookie consent, gdpr, google consent mode, cookie banner, privacy
 Requires at least: 6.0
 Tested up to: 7.1
-Stable tag: 1.8.11
+Stable tag: 1.8.12
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -22,7 +22,7 @@ Kansleri Cookie Consent is a free, lightweight, and easy-to-use WordPress cookie
 * Four consent categories: Necessary, Analytics, Marketing, Preferences
 * **Script auto-blocking** — prevents third-party scripts from running until consent is given, including WordPress-enqueued scripts and raw HTML scripts from page builders (Bricks, Elementor, custom code injectors)
 * **YouTube & Vimeo iframe blocking** — video embeds are blocked until marketing cookies are accepted, with a user-friendly placeholder (can be turned off)
-* **Block by address** — hold back any other script, such as a widget the plugin does not recognize, by part of its address until the visitor accepts the category you choose, with an optional placeholder where it would show content
+* **Block by address** — hold back any other script, such as a widget the plugin does not recognize, by part of its address until the visitor accepts the category you choose, with an optional message and accept button where it would show content
 * **Reviews widgets** — the Trustmary reviews widget waits for analytics consent, with a placeholder and accept button in its place
 * Google Consent Mode v2 integration with automatic default/update signals, in Basic mode (Google tags wait for consent) or Advanced mode (Google tags load right away with consent denied)
 * GTM dataLayer push on consent changes
@@ -40,7 +40,7 @@ Kansleri Cookie Consent is a free, lightweight, and easy-to-use WordPress cookie
 * Google Site Kit integration — auto-detects and avoids duplicate consent signals
 * WP Consent API integration — shares consent status with other plugins
 * **Full WPML and Polylang support** — per-language banner texts, cookie descriptions, banner style, colors, and policy page
-* Finnish translation included with auto-localized defaults
+* Translated into Finnish, German, French, Spanish, Italian and Dutch (regional variants such as Austrian German, Mexican Spanish and Canadian French use the same translation), and the banner texts start in your site's language
 * Daily cron check for missing cookie descriptions with admin notifications
 * Comprehensive documentations tab with installation guide, option explanations, and troubleshooting
 * Clean uninstall — removes all data when deleted
@@ -111,6 +111,18 @@ All plugin options (`kncc_settings`, `kncc_cookies`, `kncc_consent_stats`, `kncc
 9. Blocked YouTube embed showing the video thumbnail with an "Accept marketing cookies" button before consent
 
 == Changelog ==
+
+= 1.8.12 =
+* Fixed: The banner no longer writes the five `wp_consent_*` cookies on sites without the WP Consent API plugin, and it removes the ones that earlier versions left in visitors' browsers. With the WP Consent API plugin active, nothing changes
+* Changed: The General tab is shorter. Cookie categories and the messages shown in place of blocked content are collapsible sections, and short hints replace long explanations. The language notice only appears on the tabs whose settings are saved per language
+* Changed: The Script Blocking tab has less text. The "Placeholder" option of Block by address is now called "Show message" and has a help tooltip, and the table keeps its width when you add an address
+* Fixed: On the settings screens, Cookie categories and Policy page texts look like the other settings, and the buttons with an icon are aligned
+* Improved: Accessibility. Keyboard and screen reader users reach the banner first instead of after the whole page, the `[kncc_cookie_settings]` link is announced as a button and also opens with the Space key, and the Cookie Policy link tells screen reader users that it opens in a new tab
+* Improved: The category switch in the banner shows a focus ring for keyboard users and respects reduced motion
+* New: German, French, Spanish, Italian and Dutch translations. Regional variants of these languages (for example Austrian and Swiss German, Mexican Spanish, Canadian French and Belgian Dutch) use the same translation unless WordPress.org has one for the variant
+* Changed: A site in one of these languages that still has the plugin's English banner texts saved gets them in its own language once, the next time an administrator opens wp-admin. Texts you have written yourself are not changed, and on multilingual sites the default language's texts are never changed into another language
+* Fixed: On translated sites, the Script Blocking tab and the consent log showed category names and choices in English
+* Improved: Finnish translation of the new and shortened texts
 
 = 1.8.11 =
 * Fixed: Version 1.8.10 added cookies to the cookie list for services that are not on the site (Google Analytics, Meta, HubSpot, LinkedIn, Plausible, Microsoft Clarity and Trustmary), and they came back after you removed them. The plugin found the tracker addresses that its own script blocker lists in every page and took them for installed services. It now ignores its own scripts. The update removes the cookies that 1.8.10 added this way and lists them on the plugin page, with a button to put them back if your site does use some of these services. Cookies you added or edited yourself stay. On sites with Google Tag Manager, which can load any of these services, nothing is removed: the plugin page lists the cookies to check instead

@@ -122,8 +122,31 @@
     });
   }
 
+  /**
+   * Whether the WP Consent API is in use on this page. Its cookies (wp_consent_*) are written only then: PHP
+   * says so in knccConfig.wpConsentMap (also when an optimizer delays the plugin's script) or the script is
+   * already here. Without it the choice stays in kncc_consent and nothing else is stored.
+   */
+  function wpConsentApiInUse() {
+    return !!config.wpConsentMap || typeof wp_set_consent === 'function' || typeof window.consent_api !== 'undefined';
+  }
+
+  /**
+   * Up to 1.8.11 the banner wrote these cookies on every site. Take them off the browsers that still have them.
+   * Only the host's own cookies go (the ones written here have no domain), so a cookie of another site on a
+   * parent domain is left alone.
+   */
+  function removeUnusedWpConsentCookies() {
+    ['functional', 'statistics', 'statistics-anonymous', 'marketing', 'preferences'].forEach(function (category) {
+      var name = 'wp_consent_' + category;
+      if (new RegExp('(?:^|; )' + name + '=').test(document.cookie)) {
+        deleteCookie(name, null);
+      }
+    });
+  }
+
   function syncWpConsentApi(consent) {
-    if (!consent) return;
+    if (!consent || !wpConsentApiInUse()) return;
 
     var analytics = isCategoryGranted(consent, 'analytics');
 
@@ -143,6 +166,10 @@
 
   function scheduleWpConsentSync(consent) {
     if (!consent) return;
+    if (!wpConsentApiInUse()) {
+      removeUnusedWpConsentCookies();
+      return;
+    }
     syncWpConsentApi(consent);
     if (typeof wp_set_consent !== 'function') {
       setTimeout(function () { syncWpConsentApi(consent); }, 50);
@@ -719,6 +746,16 @@
       e.preventDefault();
       window.knccEditConsent(trigger);
     });
+
+    // The shortcode link has role="button", and a button also opens with the Space key.
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== ' ' && e.key !== 'Spacebar') return;
+      var trigger = e.target && e.target.closest && e.target.closest('.kncc-open-settings[role="button"]');
+      if (!trigger) return;
+
+      e.preventDefault();
+      window.knccEditConsent(trigger);
+    });
   }
 
   function init() {
@@ -745,6 +782,13 @@
     }
 
     details = banner.querySelector('.kncc-details');
+
+    // The banner is printed at the end of the page, after everything it needs to know about the page.
+    // It is fixed on screen, so moving it to the start of the document changes nothing visible, and
+    // keyboard and screen reader users reach it first instead of after the whole page.
+    if (banner.parentNode === document.body && document.body.firstChild !== banner) {
+      document.body.insertBefore(banner, document.body.firstChild);
+    }
 
     banner.addEventListener('click', function (e) {
       var target = e.target.closest('[data-kncc]');

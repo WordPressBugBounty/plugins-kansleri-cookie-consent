@@ -545,6 +545,15 @@
     // if a browser skips a same-URL reload.
     var win = null;
     try { win = doc.defaultView || doc.parentWindow; } catch (e) { win = null; }
+
+    // They exist only where the WP Consent API is in use (the page in the frame says so), so a site
+    // without it must not get them in its cookie list because the scan wrote them.
+    var apiInUse = false;
+    try {
+      apiInUse = !!(win && ((win.knccConfig && win.knccConfig.wpConsentMap) || win.consent_api || typeof win.wp_set_consent === 'function'));
+    } catch (e1) {}
+    if (!apiInUse) return;
+
     var prefix = 'wp_consent';
     var days = 30;
     try {
@@ -1369,6 +1378,29 @@
         addRule.focus();
       });
     }
+
+    // The note under the rules table matters only while Custom Code blocking is off.
+    var htmlToggle = form.querySelector('[name="block_html_scripts"]');
+    var htmlNote = form.querySelector('.kncc-html-rules-note');
+    if (htmlToggle && htmlNote) {
+      htmlToggle.addEventListener('change', function () { htmlNote.hidden = htmlToggle.checked; });
+    }
+  }
+
+  /* ── Collapsible groups of settings: the open ones stay open after saving (reloading) the page ── */
+
+  function initAccordions() {
+    document.querySelectorAll('details.kncc-accordion[id]').forEach(function (panel) {
+      var key = 'kncc-open:' + panel.id;
+      try {
+        if (window.sessionStorage.getItem(key) === '1') panel.open = true;
+      } catch (e) { /* storage blocked: the panel simply starts closed */ }
+      panel.addEventListener('toggle', function () {
+        try {
+          window.sessionStorage.setItem(key, panel.open ? '1' : '0');
+        } catch (e) { /* ignore */ }
+      });
+    });
   }
 
   /* ── Integration tab: the defaults preview follows the Advanced Consent Mode checkbox ── */
@@ -1406,6 +1438,7 @@
     initSettingsForms();
     initCookiesTab();
     initBlockingTab();
+    initAccordions();
     initConsentModePreview();
     initTooltips();
     initConsentLog();

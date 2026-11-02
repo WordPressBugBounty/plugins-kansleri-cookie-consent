@@ -211,22 +211,24 @@ class KNCC_Admin {
       </nav>
 
       <?php
-      $kncc_current_lang = kncc_get_current_language();
-      $kncc_has_multilingual = function_exists('pll_current_language') || defined('ICL_LANGUAGE_CODE');
+      // Only the tabs whose settings are saved per language say which language this is.
+      $kncc_per_language_tab = in_array($active_tab, array('general', 'cookies', 'policy'), true);
+      $kncc_current_lang = $kncc_per_language_tab ? kncc_get_current_language() : '';
+      $kncc_has_multilingual = $kncc_per_language_tab && (function_exists('pll_current_language') || defined('ICL_LANGUAGE_CODE'));
       if ($kncc_current_lang) :
       ?>
       <div class="notice notice-warning inline" style="margin:16px 0 16px;padding:10px 14px;">
         <?php
         printf(
           /* translators: %s: language code */
-          esc_html__('You are editing settings for language: %s. Saves go to this language only — switch the admin-bar language filter to edit another language. Banner texts use this language\'s saved overrides, then WPML String Translation if available, then plugin defaults (English if unsupported) — not a copy of the default language.', 'kansleri-cookie-consent'),
+          esc_html__('Editing language: %s. Saves apply to this language only.', 'kansleri-cookie-consent'),
           '<strong>' . esc_html(strtoupper($kncc_current_lang)) . '</strong>'
         );
         ?>
       </div>
       <?php elseif ($kncc_has_multilingual) : ?>
       <div class="notice notice-info inline" style="margin:16px 0 16px;padding:10px 14px;">
-        <?php esc_html_e('You are editing the default-language settings. Secondary languages use their own saved overrides, WPML String Translation of these fields (if set), or that language\'s plugin defaults (English if unsupported) — texts are not copied from this language. Colors and other non-text settings still inherit unless overridden.', 'kansleri-cookie-consent'); ?>
+        <?php esc_html_e('Editing the default language. Other languages have their own texts.', 'kansleri-cookie-consent'); ?>
       </div>
       <?php endif; ?>
 
@@ -301,8 +303,8 @@ class KNCC_Admin {
   }
 
   private function render_general_tab($settings) {
-    // Placeholders (and auto-fill on save) use the locale of the language being edited:
-    // Finnish defaults only on the Finnish tab, English defaults otherwise — independent of the admin user's WP locale.
+    // Placeholders (and auto-fill on save) use the locale of the language being edited: its translated defaults, or
+    // English when the plugin has no translation for it — independent of the admin user's WP locale.
     $lang = kncc_get_current_language();
     $placeholder_source = kncc_get_default_settings_for_language($lang);
     $builtin_texts = kncc_get_builtin_texts_for_language($lang);
@@ -313,10 +315,10 @@ class KNCC_Admin {
         <?php esc_html_e('Open banner preview', 'kansleri-cookie-consent'); ?>
       </button>
       <span class="description kncc-preview-help-plugin"<?php echo $kncc_is_plugin_style ? '' : ' style="display:none;"'; ?>>
-        <?php esc_html_e('Test how the banner looks with your current (unsaved) settings — the preview stays visible while you edit.', 'kansleri-cookie-consent'); ?>
+        <?php esc_html_e('Preview the banner with your current, unsaved settings.', 'kansleri-cookie-consent'); ?>
       </span>
       <span class="description kncc-preview-help-theme"<?php echo $kncc_is_plugin_style ? ' style="display:none;"' : ''; ?>>
-        <?php esc_html_e('Live preview is not available with Theme style — the banner inherits your site theme\'s typography, which only loads on the frontend. Visit your live site to see the result, or switch to Plugin style above to preview here.', 'kansleri-cookie-consent'); ?>
+        <?php esc_html_e('Live preview works with Plugin style only.', 'kansleri-cookie-consent'); ?>
       </span>
     </p>
     <form id="kncc-general-form" class="kncc-form">
@@ -362,7 +364,6 @@ class KNCC_Admin {
                 </div>
               <?php endforeach; ?>
             </div>
-            <p class="description"><?php esc_html_e('Click a swatch to choose a color. The preview below updates instantly.', 'kansleri-cookie-consent'); ?></p>
           </td>
         </tr>
         <tr>
@@ -372,7 +373,6 @@ class KNCC_Admin {
               <option value="theme" <?php selected($settings['text_style_mode'] ?? 'plugin', 'theme'); ?>><?php esc_html_e('Theme style (inherit site typography)', 'kansleri-cookie-consent'); ?></option>
               <option value="plugin" <?php selected($settings['text_style_mode'] ?? 'plugin', 'plugin'); ?>><?php esc_html_e('Plugin style (strict font sizes/colors)', 'kansleri-cookie-consent'); ?></option>
             </select>
-            <p class="description"><?php esc_html_e('Use Plugin style by default for consistent readability. Switch to Theme style to inherit your site typography.', 'kansleri-cookie-consent'); ?></p>
           </td>
         </tr>
         <tr>
@@ -407,7 +407,7 @@ class KNCC_Admin {
           <th scope="row"><label for="kncc-close"><?php esc_html_e('Close button label', 'kansleri-cookie-consent'); ?></label></th>
           <td>
             <input type="text" id="kncc-close" name="close_text" value="<?php echo esc_attr($settings['close_text'] ?? ''); ?>" placeholder="<?php echo esc_attr($placeholder_source['close_text']); ?>" class="regular-text" />
-            <p class="description"><?php esc_html_e('Screen reader label for the × close icon in the banner corner. The visible button is always ×.', 'kansleri-cookie-consent'); ?></p>
+            <p class="description"><?php esc_html_e('Screen reader label of the × button.', 'kansleri-cookie-consent'); ?></p>
           </td>
         </tr>
         <tr>
@@ -425,75 +425,69 @@ class KNCC_Admin {
           <th scope="row"><label for="kncc-banner-label"><?php esc_html_e('Banner label for screen readers', 'kansleri-cookie-consent'); ?></label></th>
           <td><input type="text" id="kncc-banner-label" name="banner_label" value="<?php echo esc_attr($settings['banner_label'] ?? ''); ?>" placeholder="<?php echo esc_attr($builtin_texts['banner_label']); ?>" class="regular-text" /></td>
         </tr>
-        <tr>
-          <th scope="row"><?php esc_html_e('Cookie categories', 'kansleri-cookie-consent'); ?></th>
-          <td>
-            <p class="description kncc-texts-help"><?php esc_html_e('Names and descriptions shown when visitors open Customize. Leave a field empty to use the built-in text, which is translated into each language.', 'kansleri-cookie-consent'); ?></p>
+      </table>
+
+      <details class="kncc-accordion" id="kncc-panel-categories">
+        <summary><?php esc_html_e('Cookie categories', 'kansleri-cookie-consent'); ?></summary>
+        <div class="kncc-accordion__body">
+          <p class="description"><?php esc_html_e('Shown when visitors open Customize. Leave a field empty to use the built-in text.', 'kansleri-cookie-consent'); ?></p>
+          <table class="form-table" role="presentation">
             <?php foreach (array_keys(kncc_get_categories()) as $key) : ?>
-              <fieldset class="kncc-text-group">
-                <legend><?php echo esc_html($builtin_texts['category_name_' . $key]); ?></legend>
-                <p>
-                  <label for="kncc-category-name-<?php echo esc_attr($key); ?>"><?php esc_html_e('Name', 'kansleri-cookie-consent'); ?></label><br />
-                  <input type="text" id="kncc-category-name-<?php echo esc_attr($key); ?>" name="category_name_<?php echo esc_attr($key); ?>" value="<?php echo esc_attr($settings['category_name_' . $key] ?? ''); ?>" placeholder="<?php echo esc_attr($builtin_texts['category_name_' . $key]); ?>" class="regular-text" />
-                </p>
-                <p>
-                  <label for="kncc-category-desc-<?php echo esc_attr($key); ?>"><?php esc_html_e('Description', 'kansleri-cookie-consent'); ?></label><br />
-                  <textarea id="kncc-category-desc-<?php echo esc_attr($key); ?>" name="category_desc_<?php echo esc_attr($key); ?>" rows="2" class="large-text" placeholder="<?php echo esc_attr($builtin_texts['category_desc_' . $key]); ?>"><?php echo esc_textarea($settings['category_desc_' . $key] ?? ''); ?></textarea>
-                </p>
-                <?php if (isset($builtin_texts['empty_note_' . $key])) : ?>
-                  <p>
-                    <label for="kncc-empty-note-<?php echo esc_attr($key); ?>"><?php esc_html_e('Text when no cookies are used', 'kansleri-cookie-consent'); ?></label><br />
-                    <input type="text" id="kncc-empty-note-<?php echo esc_attr($key); ?>" name="empty_note_<?php echo esc_attr($key); ?>" value="<?php echo esc_attr($settings['empty_note_' . $key] ?? ''); ?>" placeholder="<?php echo esc_attr($builtin_texts['empty_note_' . $key]); ?>" class="large-text" />
-                  </p>
-                <?php endif; ?>
-              </fieldset>
+              <tr>
+                <th scope="row"><label for="kncc-category-name-<?php echo esc_attr($key); ?>"><?php echo esc_html($builtin_texts['category_name_' . $key] . ': ' . __('Name', 'kansleri-cookie-consent')); ?></label></th>
+                <td><input type="text" id="kncc-category-name-<?php echo esc_attr($key); ?>" name="category_name_<?php echo esc_attr($key); ?>" value="<?php echo esc_attr($settings['category_name_' . $key] ?? ''); ?>" placeholder="<?php echo esc_attr($builtin_texts['category_name_' . $key]); ?>" class="regular-text" /></td>
+              </tr>
+              <tr>
+                <th scope="row"><label for="kncc-category-desc-<?php echo esc_attr($key); ?>"><?php echo esc_html($builtin_texts['category_name_' . $key] . ': ' . __('Description', 'kansleri-cookie-consent')); ?></label></th>
+                <td><textarea id="kncc-category-desc-<?php echo esc_attr($key); ?>" name="category_desc_<?php echo esc_attr($key); ?>" rows="2" class="large-text" placeholder="<?php echo esc_attr($builtin_texts['category_desc_' . $key]); ?>"><?php echo esc_textarea($settings['category_desc_' . $key] ?? ''); ?></textarea></td>
+              </tr>
+              <?php if (isset($builtin_texts['empty_note_' . $key])) : ?>
+                <tr>
+                  <th scope="row"><label for="kncc-empty-note-<?php echo esc_attr($key); ?>"><?php echo esc_html($builtin_texts['category_name_' . $key] . ': ' . __('Text when no cookies are used', 'kansleri-cookie-consent')); ?></label></th>
+                  <td><input type="text" id="kncc-empty-note-<?php echo esc_attr($key); ?>" name="empty_note_<?php echo esc_attr($key); ?>" value="<?php echo esc_attr($settings['empty_note_' . $key] ?? ''); ?>" placeholder="<?php echo esc_attr($builtin_texts['empty_note_' . $key]); ?>" class="regular-text" /></td>
+                </tr>
+              <?php endif; ?>
             <?php endforeach; ?>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row"><label for="kncc-iframe-placeholder-text"><?php esc_html_e('Blocked iframe message', 'kansleri-cookie-consent'); ?></label></th>
-          <td>
-            <input type="text" id="kncc-iframe-placeholder-text" name="iframe_placeholder_text" value="<?php echo esc_attr($settings['iframe_placeholder_text'] ?? ''); ?>" placeholder="<?php echo esc_attr($placeholder_source['iframe_placeholder_text']); ?>" class="regular-text" />
-            <p class="description"><?php esc_html_e('Shown over blocked YouTube and Vimeo embeds before the visitor accepts marketing cookies.', 'kansleri-cookie-consent'); ?></p>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row"><label for="kncc-iframe-accept-text"><?php esc_html_e('Blocked iframe accept button', 'kansleri-cookie-consent'); ?></label></th>
-          <td><input type="text" id="kncc-iframe-accept-text" name="iframe_accept_text" value="<?php echo esc_attr($settings['iframe_accept_text'] ?? ''); ?>" placeholder="<?php echo esc_attr($placeholder_source['iframe_accept_text']); ?>" class="regular-text" /></td>
-        </tr>
-        <tr>
-          <th scope="row"><label for="kncc-placeholder-text-analytics"><?php esc_html_e('Blocked analytics content message', 'kansleri-cookie-consent'); ?></label></th>
-          <td>
-            <input type="text" id="kncc-placeholder-text-analytics" name="placeholder_text_analytics" value="<?php echo esc_attr($settings['placeholder_text_analytics'] ?? ''); ?>" placeholder="<?php echo esc_attr($builtin_texts['placeholder_text_analytics']); ?>" class="regular-text" />
-            <p class="description"><?php esc_html_e('Shown over blocked content that needs analytics cookies, such as a review widget.', 'kansleri-cookie-consent'); ?></p>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row"><label for="kncc-placeholder-accept-analytics"><?php esc_html_e('Blocked analytics content accept button', 'kansleri-cookie-consent'); ?></label></th>
-          <td><input type="text" id="kncc-placeholder-accept-analytics" name="placeholder_accept_analytics" value="<?php echo esc_attr($settings['placeholder_accept_analytics'] ?? ''); ?>" placeholder="<?php echo esc_attr($builtin_texts['placeholder_accept_analytics']); ?>" class="regular-text" /></td>
-        </tr>
-        <tr>
-          <th scope="row"><label for="kncc-placeholder-text-preferences"><?php esc_html_e('Blocked preferences content message', 'kansleri-cookie-consent'); ?></label></th>
-          <td>
-            <input type="text" id="kncc-placeholder-text-preferences" name="placeholder_text_preferences" value="<?php echo esc_attr($settings['placeholder_text_preferences'] ?? ''); ?>" placeholder="<?php echo esc_attr($builtin_texts['placeholder_text_preferences']); ?>" class="regular-text" />
-            <p class="description"><?php esc_html_e('Shown over blocked content that needs preference cookies, such as a chat or booking widget.', 'kansleri-cookie-consent'); ?></p>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row"><label for="kncc-placeholder-accept-preferences"><?php esc_html_e('Blocked preferences content accept button', 'kansleri-cookie-consent'); ?></label></th>
-          <td><input type="text" id="kncc-placeholder-accept-preferences" name="placeholder_accept_preferences" value="<?php echo esc_attr($settings['placeholder_accept_preferences'] ?? ''); ?>" placeholder="<?php echo esc_attr($builtin_texts['placeholder_accept_preferences']); ?>" class="regular-text" /></td>
-        </tr>
-        <tr>
-          <th scope="row"><label for="kncc-empty-category-mode"><?php esc_html_e('Empty cookie categories', 'kansleri-cookie-consent'); ?></label></th>
-          <td>
-            <?php $empty_mode = (isset($settings['empty_category_mode']) && $settings['empty_category_mode'] === 'hide') ? 'hide' : 'disable'; ?>
-            <select id="kncc-empty-category-mode" name="empty_category_mode">
-              <option value="disable" <?php selected($empty_mode, 'disable'); ?>><?php esc_html_e('Show but lock (disable) the switch', 'kansleri-cookie-consent'); ?></option>
-              <option value="hide" <?php selected($empty_mode, 'hide'); ?>><?php esc_html_e('Hide categories with no cookies', 'kansleri-cookie-consent'); ?></option>
-            </select>
-            <p class="description"><?php esc_html_e('Controls what happens to a category (e.g. Marketing) when no cookies are registered for it. Necessary is always shown and always locked on.', 'kansleri-cookie-consent'); ?></p>
-          </td>
-        </tr>
+            <tr>
+              <th scope="row"><label for="kncc-empty-category-mode"><?php esc_html_e('Empty cookie categories', 'kansleri-cookie-consent'); ?></label></th>
+              <td>
+                <?php $empty_mode = (isset($settings['empty_category_mode']) && $settings['empty_category_mode'] === 'hide') ? 'hide' : 'disable'; ?>
+                <select id="kncc-empty-category-mode" name="empty_category_mode">
+                  <option value="disable" <?php selected($empty_mode, 'disable'); ?>><?php esc_html_e('Show but lock (disable) the switch', 'kansleri-cookie-consent'); ?></option>
+                  <option value="hide" <?php selected($empty_mode, 'hide'); ?>><?php esc_html_e('Hide categories with no cookies', 'kansleri-cookie-consent'); ?></option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </details>
+
+      <details class="kncc-accordion" id="kncc-panel-blocked">
+        <summary><?php esc_html_e('Blocked content messages', 'kansleri-cookie-consent'); ?></summary>
+        <div class="kncc-accordion__body">
+          <table class="form-table" role="presentation">
+            <?php
+            $blocked_fields = array(
+              array('iframe_placeholder_text', 'kncc-iframe-placeholder-text', __('YouTube & Vimeo message', 'kansleri-cookie-consent'), $placeholder_source['iframe_placeholder_text'], 'large-text'),
+              array('iframe_accept_text', 'kncc-iframe-accept-text', __('YouTube & Vimeo accept button', 'kansleri-cookie-consent'), $placeholder_source['iframe_accept_text'], 'regular-text'),
+              array('placeholder_text_analytics', 'kncc-placeholder-text-analytics', __('Analytics content message', 'kansleri-cookie-consent'), $builtin_texts['placeholder_text_analytics'], 'large-text'),
+              array('placeholder_accept_analytics', 'kncc-placeholder-accept-analytics', __('Analytics content accept button', 'kansleri-cookie-consent'), $builtin_texts['placeholder_accept_analytics'], 'regular-text'),
+              array('placeholder_text_preferences', 'kncc-placeholder-text-preferences', __('Preferences content message', 'kansleri-cookie-consent'), $builtin_texts['placeholder_text_preferences'], 'large-text'),
+              array('placeholder_accept_preferences', 'kncc-placeholder-accept-preferences', __('Preferences content accept button', 'kansleri-cookie-consent'), $builtin_texts['placeholder_accept_preferences'], 'regular-text'),
+            );
+            foreach ($blocked_fields as $blocked_field) :
+              list($field_name, $field_id, $field_label, $field_default, $field_class) = $blocked_field;
+              ?>
+              <tr>
+                <th scope="row"><label for="<?php echo esc_attr($field_id); ?>"><?php echo esc_html($field_label); ?></label></th>
+                <td><input type="text" id="<?php echo esc_attr($field_id); ?>" name="<?php echo esc_attr($field_name); ?>" value="<?php echo esc_attr($settings[$field_name] ?? ''); ?>" placeholder="<?php echo esc_attr($field_default); ?>" class="<?php echo esc_attr($field_class); ?>" /></td>
+              </tr>
+            <?php endforeach; ?>
+          </table>
+        </div>
+      </details>
+
+      <table class="form-table" role="presentation">
         <tr>
           <th scope="row"><?php esc_html_e('Floating settings button', 'kansleri-cookie-consent'); ?></th>
           <td>
@@ -501,11 +495,9 @@ class KNCC_Admin {
               <input type="checkbox" name="show_floating_btn" value="1" <?php checked($settings['show_floating_btn']); ?> />
               <?php esc_html_e('Show a small floating button so visitors can re-open their cookie preferences', 'kansleri-cookie-consent'); ?>
             </label>
-            <div class="kncc-shortcode-tip" style="margin-top:12px;padding:12px 16px;background:#f0f6fc;border:1px solid #c3d9ed;border-radius:4px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
-              <span style="flex:1;min-width:200px;">
-                <?php esc_html_e('You can also add a link to open cookie settings anywhere (e.g. footer) using this shortcode:', 'kansleri-cookie-consent'); ?>
-                <code id="kncc-shortcode-code" style="margin-left:4px;user-select:all;">[kncc_cookie_settings]</code>
-              </span>
+            <p class="kncc-shortcode-tip">
+              <?php esc_html_e('Or add a link anywhere with the shortcode:', 'kansleri-cookie-consent'); ?>
+              <code id="kncc-shortcode-code">[kncc_cookie_settings]</code>
               <button type="button"
                       class="button button-small kncc-copy-text-btn"
                       id="kncc-copy-shortcode-btn"
@@ -513,16 +505,7 @@ class KNCC_Admin {
                       data-kncc-copied-label="<?php esc_attr_e('Copied!', 'kansleri-cookie-consent'); ?>">
                 <?php esc_html_e('Copy', 'kansleri-cookie-consent'); ?>
               </button>
-              <p style="width:100%;margin:4px 0 0;color:#646970;font-size:13px;">
-                <?php
-                printf(
-                  /* translators: %s: shortcode example */
-                  esc_html__('Use the text attribute to customize the link text: %s', 'kansleri-cookie-consent'),
-                  '<code style="user-select:all;">[kncc_cookie_settings text="' . esc_html__('Manage cookies', 'kansleri-cookie-consent') . '"]</code>'
-                );
-                ?>
-              </p>
-            </div>
+            </p>
           </td>
         </tr>
       </table>
@@ -659,8 +642,8 @@ class KNCC_Admin {
           <li><?php esc_html_e('Copy the AI response and paste it into the text box that appears below.', 'kansleri-cookie-consent'); ?></li>
           <li><?php esc_html_e('Click Import — cookies are saved automatically.', 'kansleri-cookie-consent'); ?></li>
         </ol>
-        <button type="button" class="button button-primary" id="kncc-copy-ai-prompt-btn">
-          <span class="dashicons dashicons-clipboard" style="margin-right:4px;vertical-align:text-bottom;"></span>
+        <button type="button" class="button button-primary kncc-button-with-icon" id="kncc-copy-ai-prompt-btn">
+          <span class="dashicons dashicons-clipboard"></span>
           <?php esc_html_e('Copy AI Prompt to Clipboard', 'kansleri-cookie-consent'); ?>
         </button>
 
@@ -779,8 +762,10 @@ class KNCC_Admin {
         <tr>
           <th scope="row"><?php esc_html_e('Policy page texts', 'kansleri-cookie-consent'); ?></th>
           <td>
-            <p class="description kncc-texts-help"><?php esc_html_e('Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab.', 'kansleri-cookie-consent'); ?></p>
-            <?php
+            <p class="description"><?php esc_html_e('Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab.', 'kansleri-cookie-consent'); ?></p>
+          </td>
+        </tr>
+        <?php
             $builtin_texts = kncc_get_builtin_texts_for_language(kncc_get_current_language());
             $policy_text_groups = array(
               __('Category descriptions', 'kansleri-cookie-consent') => array(
@@ -809,26 +794,22 @@ class KNCC_Admin {
               ),
             );
             foreach ($policy_text_groups as $group_label => $fields) :
-              ?>
-              <fieldset class="kncc-text-group">
-                <legend><?php echo esc_html($group_label); ?></legend>
-                <?php foreach ($fields as $key => $field) :
-                  list($label, $multiline) = $field;
-                  $id = 'kncc-' . str_replace('_', '-', $key);
-                  ?>
-                  <p>
-                    <label for="<?php echo esc_attr($id); ?>"><?php echo esc_html($label); ?></label><br />
-                    <?php if ($multiline) : ?>
-                      <textarea id="<?php echo esc_attr($id); ?>" name="<?php echo esc_attr($key); ?>" rows="2" class="large-text" placeholder="<?php echo esc_attr($builtin_texts[$key]); ?>"><?php echo esc_textarea($settings[$key] ?? ''); ?></textarea>
-                    <?php else : ?>
-                      <input type="text" id="<?php echo esc_attr($id); ?>" name="<?php echo esc_attr($key); ?>" value="<?php echo esc_attr($settings[$key] ?? ''); ?>" placeholder="<?php echo esc_attr($builtin_texts[$key]); ?>" class="regular-text" />
-                    <?php endif; ?>
-                  </p>
-                <?php endforeach; ?>
-              </fieldset>
-            <?php endforeach; ?>
+              foreach ($fields as $key => $field) :
+                list($label, $multiline) = $field;
+                $id = 'kncc-' . str_replace('_', '-', $key);
+                ?>
+        <tr>
+          <th scope="row"><label for="<?php echo esc_attr($id); ?>"><?php echo esc_html($group_label . ': ' . $label); ?></label></th>
+          <td>
+            <?php if ($multiline) : ?>
+              <textarea id="<?php echo esc_attr($id); ?>" name="<?php echo esc_attr($key); ?>" rows="2" class="large-text" placeholder="<?php echo esc_attr($builtin_texts[$key]); ?>"><?php echo esc_textarea($settings[$key] ?? ''); ?></textarea>
+            <?php else : ?>
+              <input type="text" id="<?php echo esc_attr($id); ?>" name="<?php echo esc_attr($key); ?>" value="<?php echo esc_attr($settings[$key] ?? ''); ?>" placeholder="<?php echo esc_attr($builtin_texts[$key]); ?>" class="regular-text" />
+            <?php endif; ?>
           </td>
         </tr>
+              <?php endforeach;
+            endforeach; ?>
       </table>
       <p class="submit">
         <button type="submit" class="button button-primary"><?php esc_html_e('Save Settings', 'kansleri-cookie-consent'); ?></button>
@@ -850,8 +831,8 @@ class KNCC_Admin {
       <p style="font-size:13px;color:#1e3a5f;margin:0 0 0.75rem;">
         <?php esc_html_e('Copy the prompt below and paste it into an AI tool. It will generate a complete cookie and privacy policy page in your site language. The cookie declaration will be handled automatically by the [kncc_cookie_policy] shortcode. Paste the generated HTML into your policy page.', 'kansleri-cookie-consent'); ?>
       </p>
-      <button type="button" class="button button-primary" id="kncc-copy-policy-prompt-btn">
-        <span class="dashicons dashicons-clipboard" style="margin-right:4px;vertical-align:text-bottom;"></span>
+      <button type="button" class="button button-primary kncc-button-with-icon" id="kncc-copy-policy-prompt-btn">
+        <span class="dashicons dashicons-clipboard"></span>
         <?php esc_html_e('Copy AI Prompt for Policy Page', 'kansleri-cookie-consent'); ?>
       </button>
     </div>
@@ -977,8 +958,8 @@ class KNCC_Admin {
           <?php esc_html_e('We recommend installing Google Site Kit — Google\'s official WordPress plugin. It sets up GA4 and GTM in a few clicks, and works seamlessly with Kansleri Cookie Consent: Consent Mode v2 signals are handled automatically, with no double-loading or conflicts.', 'kansleri-cookie-consent'); ?>
         </p>
         <p style="margin:0;">
-          <a href="https://wordpress.org/plugins/google-site-kit/" target="_blank" rel="noopener" class="button button-secondary">
-            <span class="dashicons dashicons-external" style="font-size:16px;width:16px;height:16px;vertical-align:text-bottom;margin-right:4px;"></span>
+          <a href="https://wordpress.org/plugins/google-site-kit/" target="_blank" rel="noopener" class="button button-secondary kncc-button-with-icon">
+            <span class="dashicons dashicons-external"></span>
             <?php esc_html_e('Install Google Site Kit', 'kansleri-cookie-consent'); ?>
           </a>
         </p>
@@ -1069,9 +1050,9 @@ class KNCC_Admin {
       <ul>
         <li><strong><?php esc_html_e('Recognized tracking tools', 'kansleri-cookie-consent'); ?>:</strong> <?php esc_html_e('Tools like Google Analytics are blocked automatically when added through WordPress plugins (e.g. Google Site Kit).', 'kansleri-cookie-consent'); ?></li>
         <li><strong><?php esc_html_e('Custom Code blocking', 'kansleri-cookie-consent'); ?>:</strong> <?php esc_html_e('Stops tracking pasted into Bricks, Elementor, or similar Custom Code fields until the visitor gives consent.', 'kansleri-cookie-consent'); ?></li>
-        <li><strong><?php esc_html_e('YouTube & Vimeo iframe blocking', 'kansleri-cookie-consent'); ?>:</strong> <?php esc_html_e('Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A placeholder with an accept button is shown instead. When the visitor has already consented, videos load normally.', 'kansleri-cookie-consent'); ?> <?php esc_html_e('You can turn this off on the Script Blocking tab.', 'kansleri-cookie-consent'); ?></li>
-        <li><strong><?php esc_html_e('Reviews widgets', 'kansleri-cookie-consent'); ?>:</strong> <?php esc_html_e('The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A placeholder with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”.', 'kansleri-cookie-consent'); ?></li>
-        <li><strong><?php esc_html_e('Block by address', 'kansleri-cookie-consent'); ?>:</strong> <?php esc_html_e('Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Placeholder for scripts that show content on the page.', 'kansleri-cookie-consent'); ?></li>
+        <li><strong><?php esc_html_e('YouTube & Vimeo iframe blocking', 'kansleri-cookie-consent'); ?>:</strong> <?php esc_html_e('Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally.', 'kansleri-cookie-consent'); ?> <?php esc_html_e('You can turn this off on the Script Blocking tab.', 'kansleri-cookie-consent'); ?></li>
+        <li><strong><?php esc_html_e('Reviews widgets', 'kansleri-cookie-consent'); ?>:</strong> <?php esc_html_e('The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”.', 'kansleri-cookie-consent'); ?></li>
+        <li><strong><?php esc_html_e('Block by address', 'kansleri-cookie-consent'); ?>:</strong> <?php esc_html_e('Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page.', 'kansleri-cookie-consent'); ?></li>
       </ul>
 
       <h3><?php esc_html_e('Statistics tab', 'kansleri-cookie-consent'); ?></h3>
@@ -1110,8 +1091,8 @@ class KNCC_Admin {
         <?php esc_html_e('CSS template copied to clipboard.', 'kansleri-cookie-consent'); ?>
       </p>
       <p>
-        <button type="button" class="button button-primary" id="kncc-copy-css-template-btn">
-          <span class="dashicons dashicons-clipboard" style="margin-right:4px;vertical-align:text-bottom;"></span>
+        <button type="button" class="button button-primary kncc-button-with-icon" id="kncc-copy-css-template-btn">
+          <span class="dashicons dashicons-clipboard"></span>
           <?php esc_html_e('Copy CSS template', 'kansleri-cookie-consent'); ?>
         </button>
       </p>
@@ -1336,19 +1317,14 @@ class KNCC_Admin {
     $block_iframes = !isset($settings['block_iframes']) || !empty($settings['block_iframes']);
     ?>
     <div class="kncc-blocking-tab">
-      <p class="description" style="margin-bottom:1rem;">
-        <strong><?php esc_html_e('Tracking tools wait for consent.', 'kansleri-cookie-consent'); ?></strong>
-        <?php esc_html_e('Google Analytics, Clarity, and similar scripts do not run until the visitor accepts the matching cookie category.', 'kansleri-cookie-consent'); ?>
-      </p>
-
       <?php if (KNCC_Consent_Mode::is_advanced($settings)) : ?>
-        <p class="description" style="margin-bottom:1rem;color:#b45309;">
-          <span class="dashicons dashicons-info" style="font-size:16px;width:16px;height:16px;vertical-align:text-bottom;"></span>
+        <p class="description kncc-blocking-note">
+          <span class="dashicons dashicons-info"></span>
           <?php esc_html_e('Advanced Consent Mode is on (Integration tab): the Google tag and Google Tag Manager load before consent and follow the Consent Mode signals instead of being blocked.', 'kansleri-cookie-consent'); ?>
         </p>
       <?php endif; ?>
 
-      <form id="kncc-blocking-form" class="kncc-blocking-form" style="margin-bottom:2rem;">
+      <form id="kncc-blocking-form" class="kncc-blocking-form">
         <table class="form-table" role="presentation">
           <tr>
             <th scope="row"><?php esc_html_e('Custom Code blocking', 'kansleri-cookie-consent'); ?></th>
@@ -1357,18 +1333,7 @@ class KNCC_Admin {
                 <input type="checkbox" name="block_html_scripts" value="1" <?php checked($block_html); ?> />
                 <?php esc_html_e('Also block tracking added in Bricks, Elementor, or other Custom Code fields', 'kansleri-cookie-consent'); ?>
               </label>
-              <p class="description">
-                <?php esc_html_e('Recommended. Use this if you pasted analytics or ads into a page builder or “header scripts” box.', 'kansleri-cookie-consent'); ?>
-              </p>
-              <div class="kncc-blocking-guide">
-                <p><strong><?php esc_html_e('When should I turn this off?', 'kansleri-cookie-consent'); ?></strong></p>
-                <ul>
-                  <li><?php esc_html_e('Your site looks broken or behaves oddly after you installed a cache or speed plugin (e.g. WP Rocket, LiteSpeed Cache, Autoptimize).', 'kansleri-cookie-consent'); ?></li>
-                  <li><?php esc_html_e('Tracking works but other scripts or features stop working.', 'kansleri-cookie-consent'); ?></li>
-                  <li><?php esc_html_e('Another plugin’s support team asks you to disable HTML output changes.', 'kansleri-cookie-consent'); ?></li>
-                </ul>
-                <p class="description"><?php esc_html_e('Most sites should leave this on. Turn it off only if you run into one of the issues above.', 'kansleri-cookie-consent'); ?></p>
-              </div>
+              <p class="description"><?php esc_html_e('Recommended. Turn off only if a cache or speed plugin breaks the site.', 'kansleri-cookie-consent'); ?></p>
             </td>
           </tr>
           <tr>
@@ -1378,24 +1343,24 @@ class KNCC_Admin {
                 <input type="checkbox" name="block_iframes" value="1" <?php checked($block_iframes); ?> />
                 <?php esc_html_e('Block YouTube and Vimeo videos until the visitor accepts marketing cookies', 'kansleri-cookie-consent'); ?>
               </label>
-              <p class="description">
-                <?php esc_html_e('Recommended. When this is off, embedded videos load right away, and YouTube and Vimeo can set their cookies before the visitor has made a choice.', 'kansleri-cookie-consent'); ?>
-              </p>
             </td>
           </tr>
           <tr>
-            <th scope="row"><?php esc_html_e('Block by address', 'kansleri-cookie-consent'); ?></th>
+            <th scope="row">
+              <div class="kncc-tooltip-row kncc-tooltip-row--heading">
+                <?php esc_html_e('Block by address', 'kansleri-cookie-consent'); ?>
+                <?php
+                $this->render_tooltip('kncc-help-block-by-address', array(
+                  __('Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize.', 'kansleri-cookie-consent'),
+                  __('Necessary (never blocked) lets an address load right away, even one the plugin would block.', 'kansleri-cookie-consent'),
+                  __('Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts.', 'kansleri-cookie-consent'),
+                ));
+                ?>
+              </div>
+            </th>
             <td>
-              <p class="description" style="margin-bottom:0.75rem;">
-                <?php esc_html_e('Hold back any other script until the visitor accepts a category: enter part of its address, for example widget.example.com. Use this for embeds and tools the plugin does not recognize. A rule here also overrides the built-in category for the same address; choose “Necessary (never blocked)” to let it load right away.', 'kansleri-cookie-consent'); ?>
-              </p>
               <?php $this->render_url_rules_table(KNCC_Script_Blocker::get_url_rules()); ?>
-              <p class="description">
-                <?php esc_html_e('Placeholder: show a message with an accept button where the script would show content, such as a reviews widget. Leave it off for tracking scripts, which show nothing on the page.', 'kansleri-cookie-consent'); ?>
-              </p>
-              <p class="description">
-                <?php esc_html_e('Scripts in page HTML are matched only while Custom Code blocking is on.', 'kansleri-cookie-consent'); ?>
-              </p>
+              <p class="description kncc-html-rules-note"<?php echo $block_html ? ' hidden' : ''; ?>><?php esc_html_e('Scripts in page HTML are matched only while Custom Code blocking is on.', 'kansleri-cookie-consent'); ?></p>
             </td>
           </tr>
         </table>
@@ -1405,10 +1370,8 @@ class KNCC_Admin {
       </form>
 
       <h3><?php esc_html_e('Recognized tracking tools', 'kansleri-cookie-consent'); ?></h3>
-      <p class="description">
-        <?php esc_html_e('These tools are blocked automatically when added through WordPress plugins (for example Google Site Kit). You do not need to configure them.', 'kansleri-cookie-consent'); ?>
-      </p>
-      <table class="wp-list-table widefat striped" style="margin-bottom:2rem;">
+      <p class="description"><?php esc_html_e('Blocked automatically, no setup needed.', 'kansleri-cookie-consent'); ?></p>
+      <table class="wp-list-table widefat striped kncc-recognized-tools">
         <thead>
           <tr>
             <th><?php esc_html_e('Script Handle', 'kansleri-cookie-consent'); ?></th>
@@ -1416,13 +1379,11 @@ class KNCC_Admin {
           </tr>
         </thead>
         <tbody>
-          <?php
-          $known = KNCC_Script_Blocker::detect_registered_scripts();
-          foreach ($known as $handle => $info) :
-          ?>
+          <?php $categories = kncc_get_categories(); ?>
+          <?php foreach (KNCC_Script_Blocker::detect_registered_scripts() as $handle => $info) : ?>
             <tr>
               <td><code><?php echo esc_html($handle); ?></code></td>
-              <td class="kncc-scan-cat kncc-scan-cat--<?php echo esc_attr($info['category']); ?>"><?php echo esc_html(ucfirst($info['category'])); ?></td>
+              <td class="kncc-scan-cat kncc-scan-cat--<?php echo esc_attr($info['category']); ?>"><?php echo esc_html(isset($categories[$info['category']]) ? $categories[$info['category']]['label'] : ucfirst($info['category'])); ?></td>
             </tr>
           <?php endforeach; ?>
         </tbody>
@@ -1433,17 +1394,18 @@ class KNCC_Admin {
 
   /**
    * "Block by address" rules table on the Script Blocking tab. The <template> row is cloned
-   * by admin.js for "Add address".
+   * by admin.js for "Add address". The columns have fixed widths (admin.css), so the table keeps
+   * its size whatever the rows hold.
    */
   private function render_url_rules_table($rules) {
     ?>
-    <table class="widefat striped kncc-url-rules" style="max-width:760px;margin-bottom:0.5rem;">
+    <table class="widefat striped kncc-url-rules">
       <thead>
         <tr>
-          <th><?php esc_html_e('Address contains', 'kansleri-cookie-consent'); ?></th>
-          <th><?php esc_html_e('Category', 'kansleri-cookie-consent'); ?></th>
-          <th><?php esc_html_e('Placeholder', 'kansleri-cookie-consent'); ?></th>
-          <th><span class="screen-reader-text"><?php esc_html_e('Remove', 'kansleri-cookie-consent'); ?></span></th>
+          <th class="kncc-col-address"><?php esc_html_e('Address contains', 'kansleri-cookie-consent'); ?></th>
+          <th class="kncc-col-category"><?php esc_html_e('Category', 'kansleri-cookie-consent'); ?></th>
+          <th class="kncc-col-message"><?php esc_html_e('Show message', 'kansleri-cookie-consent'); ?></th>
+          <th class="kncc-col-remove"><span class="screen-reader-text"><?php esc_html_e('Remove', 'kansleri-cookie-consent'); ?></span></th>
         </tr>
       </thead>
       <tbody id="kncc-url-rules-body">
@@ -1469,20 +1431,23 @@ class KNCC_Admin {
     );
     ?>
     <tr class="kncc-url-rule">
-      <td>
-        <input type="text" class="regular-text kncc-url-rule__pattern" value="<?php echo esc_attr($rule['pattern']); ?>" placeholder="widget.example.com" aria-label="<?php esc_attr_e('Address contains', 'kansleri-cookie-consent'); ?>" />
+      <td class="kncc-col-address">
+        <input type="text" class="kncc-url-rule__pattern" value="<?php echo esc_attr($rule['pattern']); ?>" placeholder="widget.example.com" aria-label="<?php esc_attr_e('Address contains', 'kansleri-cookie-consent'); ?>" />
       </td>
-      <td>
+      <td class="kncc-col-category">
         <select class="kncc-url-rule__category" aria-label="<?php esc_attr_e('Category', 'kansleri-cookie-consent'); ?>">
           <?php foreach ($options as $value => $label) : ?>
             <option value="<?php echo esc_attr($value); ?>" <?php selected($rule['category'], $value); ?>><?php echo esc_html($label); ?></option>
           <?php endforeach; ?>
         </select>
       </td>
-      <td>
-        <input type="checkbox" class="kncc-url-rule__placeholder" value="1" <?php checked(!empty($rule['placeholder'])); ?> aria-label="<?php esc_attr_e('Show a placeholder', 'kansleri-cookie-consent'); ?>" />
+      <td class="kncc-col-message">
+        <label>
+          <input type="checkbox" class="kncc-url-rule__placeholder" value="1" <?php checked(!empty($rule['placeholder'])); ?> />
+          <span class="kncc-url-rule__message-label"><?php esc_html_e('Show message', 'kansleri-cookie-consent'); ?></span>
+        </label>
       </td>
-      <td>
+      <td class="kncc-col-remove">
         <button type="button" class="button-link button-link-delete kncc-url-rule__remove"><?php esc_html_e('Remove', 'kansleri-cookie-consent'); ?></button>
       </td>
     </tr>
@@ -1542,6 +1507,14 @@ class KNCC_Admin {
           </tr>
         </thead>
         <tbody>
+          <?php
+          $categories = kncc_get_categories();
+          $choices = array(
+            'accept' => __('Accepted all', 'kansleri-cookie-consent'),
+            'reject' => __('Rejected all', 'kansleri-cookie-consent'),
+            'custom' => __('Custom selection', 'kansleri-cookie-consent'),
+          );
+          ?>
           <?php foreach ($records as $row) : ?>
             <?php
             $cats = json_decode($row->categories, true);
@@ -1549,7 +1522,7 @@ class KNCC_Admin {
             if (is_array($cats)) {
               foreach ($cats as $k => $v) {
                 if ($v) {
-                  $cats_display[] = ucfirst($k);
+                  $cats_display[] = isset($categories[$k]) ? $categories[$k]['label'] : ucfirst($k);
                 }
               }
             }
@@ -1559,7 +1532,7 @@ class KNCC_Admin {
               <td><code title="<?php echo esc_attr($row->visitor_hash); ?>"><?php echo esc_html(substr($row->visitor_hash, 0, 12)); ?>&hellip;</code></td>
               <td>
                 <span class="kncc-scan-cat kncc-scan-cat--<?php echo $row->choice === 'accept' ? 'necessary' : ($row->choice === 'reject' ? 'marketing' : 'preferences'); ?>">
-                  <?php echo esc_html(ucfirst($row->choice)); ?>
+                  <?php echo esc_html(isset($choices[$row->choice]) ? $choices[$row->choice] : ucfirst($row->choice)); ?>
                 </span>
               </td>
               <td><?php echo esc_html(implode(', ', $cats_display) ?: '—'); ?></td>

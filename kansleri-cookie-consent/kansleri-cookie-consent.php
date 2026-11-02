@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Kansleri Cookie Consent
  * Description: Free, no-ads GDPR cookie consent with script blocking, consent logging, Google Consent Mode v2, and AI-assisted setup. Perfect for personal sites and small businesses.
- * Version: 1.8.11
+ * Version: 1.8.12
  * Author: Kansleri.fi
  * Author URI: https://kansleri.fi
  * License: GPLv2 or later
@@ -19,7 +19,7 @@ if (!defined('ABSPATH')) {
   exit;
 }
 
-define('KNCC_VERSION', '1.8.11');
+define('KNCC_VERSION', '1.8.12');
 // Bump whenever the consent log schema changes so dbDelta runs on upgrade.
 define('KNCC_DB_VERSION', '1.3.0');
 define('KNCC_PLUGIN_DIR', plugin_dir_path(__FILE__));
@@ -232,9 +232,46 @@ function kncc_plugin_supports_locale($locale) {
     }
   }
 
-  return false;
+  // Another variant of the same language (es_MX with the plugin's es_ES): see kncc_language_variant_mofile().
+  return $lang_only && kncc_language_file($lang_only) !== '';
 }
 endif;
+
+if (!function_exists('kncc_language_file')) :
+/**
+ * The plugin's own translation file (.mo) for a language code ("es" → languages/kansleri-cookie-consent-es_ES.mo),
+ * or '' when the plugin has none. The main variant (es_ES, de_DE) is preferred when there are several.
+ */
+function kncc_language_file($lang) {
+  static $found = array();
+  if (!isset($found[$lang])) {
+    $files = glob(KNCC_PLUGIN_DIR . 'languages/kansleri-cookie-consent-' . $lang . '_*.mo');
+    $main = KNCC_PLUGIN_DIR . 'languages/kansleri-cookie-consent-' . $lang . '_' . strtoupper($lang) . '.mo';
+    $found[$lang] = in_array($main, (array) $files, true) ? $main : (empty($files) ? '' : $files[0]);
+  }
+  return $found[$lang];
+}
+endif;
+
+if (!function_exists('kncc_language_variant_mofile')) :
+/**
+ * The plugin ships one translation per language (de_DE, es_ES, fr_FR …). WordPress asks for the exact locale, so a
+ * site in another variant of the language (de_AT, de_CH, es_MX, fr_CA, nl_BE …) would fall back to English: give it
+ * the plugin's translation of that language instead. A translation for the exact locale, such as a language pack
+ * from translate.wordpress.org, always wins.
+ */
+function kncc_language_variant_mofile($mofile, $domain) {
+  if ($domain !== 'kansleri-cookie-consent' || file_exists($mofile) || file_exists(substr_replace($mofile, '.l10n.php', -strlen('.mo')))) {
+    return $mofile;
+  }
+  if (!preg_match('/kansleri-cookie-consent-([a-z]{2,3})_[A-Za-z_]+\.mo$/', $mofile, $m)) {
+    return $mofile;
+  }
+  $own = kncc_language_file($m[1]);
+  return $own !== '' ? $own : $mofile;
+}
+endif;
+add_filter('load_textdomain_mofile', 'kncc_language_variant_mofile', 10, 2);
 
 if (!function_exists('kncc_get_content_locale')) :
 /**
@@ -820,28 +857,39 @@ register_deactivation_hook(__FILE__, 'kncc_deactivate');
 
 if (!function_exists('kncc_maybe_localize_defaults')) :
 /**
- * One-time migration: if the saved banner texts are still the English defaults
- * and the site locale is not English, update them to the translated defaults.
+ * Migration: if the saved banner texts are still the English defaults and the site's language is not English,
+ * update them to the translated defaults. Version 2 runs it once more on every site, because 1.8.12 added German,
+ * French, Spanish, Italian and Dutch: a site in one of them kept the English texts it got at activation.
  */
 function kncc_maybe_localize_defaults() {
-  if (get_option('kncc_defaults_localized')) {
+  if ((int) get_option('kncc_defaults_localized') >= 2) {
+    return;
+  }
+  // Only in wp-admin and WP-CLI: on the front end a language plugin (TranslatePress) switches the locale to the
+  // language of the page, and the saved texts would be translated into that language.
+  if (!(is_admin() && !wp_doing_ajax()) && !(defined('WP_CLI') && WP_CLI)) {
     return;
   }
 
-  $locale = get_locale();
+  // The language of the saved texts: the default language of a Polylang or WPML site.
+  $locale = kncc_get_default_language_locale();
   if (strpos($locale, 'en') === 0) {
-    update_option('kncc_defaults_localized', 1, false);
+    update_option('kncc_defaults_localized', 2, false);
     return;
   }
 
   $saved = get_option('kncc_settings', array());
   if (empty($saved)) {
-    update_option('kncc_defaults_localized', 1, false);
+    update_option('kncc_defaults_localized', 2, false);
     return;
   }
 
-  // On admin requests __() follows the admin's profile language; translate in the site locale.
+  // On admin requests __() follows the admin's profile language; translate in the site locale. When WordPress cannot
+  // switch to it (its core language files are missing), try again on a later request.
   $switched = switch_to_locale($locale);
+  if (!$switched && determine_locale() !== $locale) {
+    return;
+  }
 
   $translations = array(
     'heading_text'     => array( 'We use cookies', __( 'We use cookies', 'kansleri-cookie-consent' ) ),
@@ -851,6 +899,8 @@ function kncc_maybe_localize_defaults() {
     'customize_text'   => array( 'Customize', __( 'Customize', 'kansleri-cookie-consent' ) ),
     'save_text'        => array( 'Save preferences', __( 'Save preferences', 'kansleri-cookie-consent' ) ),
     'close_text'       => array( 'Close', __( 'Close', 'kansleri-cookie-consent' ) ),
+    'iframe_placeholder_text' => array( 'This content is blocked because it requires marketing cookies.', __( 'This content is blocked because it requires marketing cookies.', 'kansleri-cookie-consent' ) ),
+    'iframe_accept_text'      => array( 'Accept marketing cookies', __( 'Accept marketing cookies', 'kansleri-cookie-consent' ) ),
   );
 
   if ($switched) {
@@ -870,7 +920,7 @@ function kncc_maybe_localize_defaults() {
   if ($changed) {
     update_option('kncc_settings', $saved, false);
   }
-  update_option('kncc_defaults_localized', 1, false);
+  update_option('kncc_defaults_localized', 2, false);
 }
 endif;
 // Hooked on init (not plugins_loaded) because the migration map below contains
@@ -1080,8 +1130,9 @@ function kncc_cookie_settings_shortcode($atts) {
     'text' => kncc_text('settings_link_text', kncc_get_localized_texts()),
   ), $atts, 'kncc_cookie_settings');
 
-  // consent.js binds a delegated click handler to .kncc-open-settings.
-  return '<a href="#" class="kncc-open-settings">'
+  // consent.js binds delegated click and Space key handlers to .kncc-open-settings. The link opens the
+  // banner, not a page, so assistive technology announces it as a button.
+  return '<a href="#" class="kncc-open-settings" role="button">'
     . esc_html($atts['text'])
     . '</a>';
 }

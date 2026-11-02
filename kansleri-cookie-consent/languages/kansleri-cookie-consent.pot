@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Kansleri Cookie Consent 1.8.11\n"
+"Project-Id-Version: Kansleri Cookie Consent 1.8.12\n"
 "Report-Msgid-Bugs-To: https://kansleri.fi\n"
-"POT-Creation-Date: 2026-10-29 12:00+0200\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -197,40 +197,8 @@ msgstr ""
 msgid "Documentations"
 msgstr ""
 
-#: includes/class-admin.php:159
-#, php-format
-msgid ""
-"You are editing settings for language: %s. Saves go to this language only — "
-"switch the admin-bar language filter to edit another language. Banner texts "
-"use this language's saved overrides, then WPML String Translation if "
-"available, then plugin defaults (English if unsupported) — not a copy of the"
-" default language."
-msgstr ""
-
-#: includes/class-admin.php:166
-msgid ""
-"You are editing the default-language settings. Secondary languages use their"
-" own saved overrides, WPML String Translation of these fields (if set), or "
-"that language's plugin defaults (English if unsupported) — texts are not "
-"copied from this language. Colors and other non-text settings still inherit "
-"unless overridden."
-msgstr ""
-
 #: includes/class-admin.php:210
 msgid "Open banner preview"
-msgstr ""
-
-#: includes/class-admin.php:213
-msgid ""
-"Test how the banner looks with your current (unsaved) settings — the preview"
-" stays visible while you edit."
-msgstr ""
-
-#: includes/class-admin.php:216
-msgid ""
-"Live preview is not available with Theme style — the banner inherits your "
-"site theme's typography, which only loads on the frontend. Visit your live "
-"site to see the result, or switch to Plugin style above to preview here."
 msgstr ""
 
 #: includes/class-admin.php:222 includes/class-admin.php:689
@@ -281,10 +249,6 @@ msgstr ""
 msgid "Secondary button text"
 msgstr ""
 
-#: includes/class-admin.php:261
-msgid "Click a swatch to choose a color. The preview below updates instantly."
-msgstr ""
-
 #: includes/class-admin.php:265 includes/class-admin.php:691
 msgid "Text and font style"
 msgstr ""
@@ -295,12 +259,6 @@ msgstr ""
 
 #: includes/class-admin.php:269 includes/class-admin.php:522
 msgid "Plugin style (strict font sizes/colors)"
-msgstr ""
-
-#: includes/class-admin.php:271
-msgid ""
-"Use Plugin style by default for consistent readability. Switch to Theme "
-"style to inherit your site typography."
 msgstr ""
 
 #: includes/class-admin.php:281
@@ -331,20 +289,6 @@ msgstr ""
 msgid "Accept marketing cookies"
 msgstr ""
 
-#: includes/class-admin.php:307
-msgid "Blocked iframe message"
-msgstr ""
-
-#: includes/class-admin.php:310
-msgid ""
-"Shown over blocked YouTube and Vimeo embeds before the visitor accepts "
-"marketing cookies."
-msgstr ""
-
-#: includes/class-admin.php:314
-msgid "Blocked iframe accept button"
-msgstr ""
-
 #: includes/class-admin.php:318 includes/class-admin.php:693
 msgid "Floating settings button"
 msgstr ""
@@ -355,27 +299,12 @@ msgid ""
 "preferences"
 msgstr ""
 
-#: includes/class-admin.php:326
-msgid ""
-"You can also add a link to open cookie settings anywhere (e.g. footer) using"
-" this shortcode:"
-msgstr ""
-
 #: includes/class-admin.php:329
 msgid "Copied!"
 msgstr ""
 
 #: includes/class-admin.php:329 includes/class-admin.php:330
 msgid "Copy"
-msgstr ""
-
-#: includes/class-admin.php:336
-#, php-format
-msgid "Use the text attribute to customize the link text: %s"
-msgstr ""
-
-#: includes/class-admin.php:337
-msgid "Manage cookies"
 msgstr ""
 
 #: includes/class-admin.php:346 includes/class-admin.php:531
@@ -385,10 +314,6 @@ msgstr ""
 
 #: includes/class-admin.php:370
 msgid "Banner preview"
-msgstr ""
-
-#: includes/class-admin.php:371
-msgid "Close preview"
 msgstr ""
 
 #: includes/class-admin.php:415
@@ -799,10 +724,7 @@ msgid ""
 msgstr ""
 
 #: includes/class-admin.php:719
-msgid ""
-"Video embeds from YouTube and Vimeo are automatically blocked until the "
-"visitor accepts marketing cookies. A placeholder with an accept button is "
-"shown instead. When the visitor has already consented, videos load normally."
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
 msgstr ""
 
 #: includes/class-admin.php:719
@@ -1054,49 +976,9 @@ msgstr ""
 msgid "Next check: %s"
 msgstr ""
 
-#: includes/class-admin.php:1064
-msgid "Tracking tools wait for consent."
-msgstr ""
-
-#: includes/class-admin.php:1065
-msgid ""
-"Google Analytics, Clarity, and similar scripts do not run until the visitor "
-"accepts the matching cookie category."
-msgstr ""
-
 #: includes/class-admin.php:1075
 msgid ""
 "Also block tracking added in Bricks, Elementor, or other Custom Code fields"
-msgstr ""
-
-#: includes/class-admin.php:1078
-msgid ""
-"Recommended. Use this if you pasted analytics or ads into a page builder or "
-"“header scripts” box."
-msgstr ""
-
-#: includes/class-admin.php:1081
-msgid "When should I turn this off?"
-msgstr ""
-
-#: includes/class-admin.php:1084
-msgid ""
-"Your site looks broken or behaves oddly after you installed a cache or speed"
-" plugin (e.g. WP Rocket, LiteSpeed Cache, Autoptimize)."
-msgstr ""
-
-#: includes/class-admin.php:1085
-msgid "Tracking works but other scripts or features stop working."
-msgstr ""
-
-#: includes/class-admin.php:1086
-msgid "Another plugin’s support team asks you to disable HTML output changes."
-msgstr ""
-
-#: includes/class-admin.php:1088
-msgid ""
-"Most sites should leave this on. Turn it off only if you run into one of the"
-" issues above."
 msgstr ""
 
 #: includes/class-admin.php:1094
@@ -1105,12 +987,6 @@ msgstr ""
 
 #: includes/class-admin.php:1099
 msgid "Recognized tracking tools"
-msgstr ""
-
-#: includes/class-admin.php:1101
-msgid ""
-"These tools are blocked automatically when added through WordPress plugins "
-"(for example Google Site Kit). You do not need to configure them."
 msgstr ""
 
 #: includes/class-admin.php:1106
@@ -1329,12 +1205,6 @@ msgstr ""
 msgid "Hide categories with no cookies"
 msgstr ""
 
-#: includes/class-admin.php:325
-msgid ""
-"Controls what happens to a category (e.g. Marketing) when no cookies are "
-"registered for it. Necessary is always shown and always locked on."
-msgstr ""
-
 #: includes/class-admin.php:378 includes/class-consent.php:95
 msgid "No analytics cookies are used on this site."
 msgstr ""
@@ -1494,12 +1364,6 @@ msgstr ""
 #: includes/class-admin.php:1168
 msgid ""
 "Block YouTube and Vimeo videos until the visitor accepts marketing cookies"
-msgstr ""
-
-#: includes/class-admin.php:1171
-msgid ""
-"Recommended. When this is off, embedded videos load right away, and YouTube "
-"and Vimeo can set their cookies before the visitor has made a choice."
 msgstr ""
 
 #: includes/class-admin.php:684
@@ -1848,24 +1712,12 @@ msgstr ""
 msgid "Block by address"
 msgstr ""
 
-#: includes/class-admin.php:1206
-msgid "Hold back any other script until the visitor accepts a category: enter part of its address, for example widget.example.com. Use this for embeds and tools the plugin does not recognize. A rule here also overrides the built-in category for the same address; choose “Necessary (never blocked)” to let it load right away."
-msgstr ""
-
-#: includes/class-admin.php:1210
-msgid "Placeholder: show a message with an accept button where the script would show content, such as a reviews widget. Leave it off for tracking scripts, which show nothing on the page."
-msgstr ""
-
 #: includes/class-admin.php:1213
 msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
 msgstr ""
 
 #: includes/class-admin.php:1259 includes/class-admin.php:1289
 msgid "Address contains"
-msgstr ""
-
-#: includes/class-admin.php:1261
-msgid "Placeholder"
 msgstr ""
 
 #: includes/class-admin.php:1274
@@ -1876,20 +1728,16 @@ msgstr ""
 msgid "Necessary (never blocked)"
 msgstr ""
 
-#: includes/class-admin.php:1299
-msgid "Show a placeholder"
-msgstr ""
-
 #: includes/class-admin.php:889
 msgid "Reviews widgets"
 msgstr ""
 
 #: includes/class-admin.php:889
-msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A placeholder with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
 msgstr ""
 
 #: includes/class-admin.php:890
-msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Placeholder for scripts that show content on the page."
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
 msgstr ""
 
 #: includes/class-scanner.php:137
@@ -1965,35 +1813,7 @@ msgid "Cookie categories"
 msgstr ""
 
 #: includes/class-admin.php
-msgid "Names and descriptions shown when visitors open Customize. Leave a field empty to use the built-in text, which is translated into each language."
-msgstr ""
-
-#: includes/class-admin.php
 msgid "Text when no cookies are used"
-msgstr ""
-
-#: includes/class-admin.php
-msgid "Blocked analytics content message"
-msgstr ""
-
-#: includes/class-admin.php
-msgid "Blocked analytics content accept button"
-msgstr ""
-
-#: includes/class-admin.php
-msgid "Shown over blocked content that needs analytics cookies, such as a review widget."
-msgstr ""
-
-#: includes/class-admin.php
-msgid "Blocked preferences content message"
-msgstr ""
-
-#: includes/class-admin.php
-msgid "Blocked preferences content accept button"
-msgstr ""
-
-#: includes/class-admin.php
-msgid "Shown over blocked content that needs preference cookies, such as a chat or booking widget."
 msgstr ""
 
 #: includes/class-admin.php
@@ -2058,4 +1878,96 @@ msgstr ""
 
 #: includes/class-admin.php
 msgid "Hide this notice"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr ""
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
 msgstr ""

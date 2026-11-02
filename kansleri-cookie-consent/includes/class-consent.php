@@ -172,7 +172,7 @@ class KNCC_Consent {
           <h2 class="kncc-heading"><?php echo esc_html($settings['heading_text']); ?></h2>
           <p class="kncc-desc"><?php echo esc_html($settings['description_text']); ?>
             <?php if ($policy_link) : ?>
-              <a href="<?php echo esc_url($policy_link); ?>" class="kncc-policy-link" target="_blank"><?php echo esc_html(kncc_text('policy_link_text', $settings)); ?></a>
+              <a href="<?php echo esc_url($policy_link); ?>" class="kncc-policy-link" target="_blank"><?php echo esc_html(kncc_text('policy_link_text', $settings)); ?><span class="kncc-sr-only"> (<?php esc_html_e('opens in a new tab', 'kansleri-cookie-consent'); ?>)</span></a>
             <?php endif; ?>
           </p>
 

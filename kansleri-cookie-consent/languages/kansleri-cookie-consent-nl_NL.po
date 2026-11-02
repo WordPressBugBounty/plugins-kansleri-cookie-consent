@@ -1,0 +1,2325 @@
+# Dutch translation for Kansleri Cookie Consent
+# Copyright (C) 2024 Kansleri.fi
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kansleri Cookie Consent 1.8.12\n"
+"Report-Msgid-Bugs-To: https://kansleri.fi\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
+"PO-Revision-Date: 2026-10-30 15:30+0200\n"
+"Last-Translator: Kansleri.fi\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-admin.php:20 includes/class-admin.php:21
+#: includes/class-admin.php:122
+msgid "Cookie Consent"
+msgstr "Cookietoestemming"
+
+#: includes/class-admin.php:67 includes/class-admin.php:1228
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+
+#: includes/class-admin.php:68
+msgid "An error occurred."
+msgstr "Er is een fout opgetreden."
+
+#: includes/class-admin.php:69
+msgid "Scanning..."
+msgstr "Scannen..."
+
+#: includes/class-admin.php:70
+msgid "Scan complete."
+msgstr "Scan voltooid."
+
+#: includes/class-admin.php:71
+msgid "No new cookies found."
+msgstr "Geen nieuwe cookies gevonden."
+
+#: includes/class-admin.php:72
+msgid "Remove this cookie?"
+msgstr "Deze cookie verwijderen?"
+
+#: includes/class-admin.php:73 includes/class-admin.php:414
+#: includes/class-admin.php:698
+msgid "Scan Cookies"
+msgstr "Cookies scannen"
+
+#: includes/class-admin.php:74
+msgid "Invalid JSON format. Please import a valid cookie array."
+msgstr "Ongeldig JSON-formaat. Importeer een geldige cookie-array."
+
+#: includes/class-admin.php:75
+msgid "Cookies imported into the table. Save cookies to persist changes."
+msgstr ""
+"Cookies in de tabel geïmporteerd. Sla de cookies op om de wijzigingen te "
+"bewaren."
+
+#: includes/class-admin.php:76
+msgid "No valid cookies found in imported JSON."
+msgstr "Geen geldige cookies gevonden in de geïmporteerde JSON."
+
+#: includes/class-admin.php:77
+msgid "No cookie rows available to export."
+msgstr "Geen cookierijen om te exporteren."
+
+#: includes/class-admin.php:78
+msgid "AI prompt copied to clipboard."
+msgstr "AI-prompt gekopieerd naar het klembord."
+
+#: includes/class-admin.php:79
+msgid ""
+"Could not copy prompt automatically. Select all and copy from the box below."
+msgstr ""
+"De prompt kon niet automatisch worden gekopieerd. Selecteer alles en kopieer "
+"de tekst uit het vak hieronder."
+
+#: includes/class-admin.php:81
+msgid "AI prompt (copied to clipboard — or select all and copy manually):"
+msgstr ""
+"AI-prompt (gekopieerd naar het klembord — of selecteer alles en kopieer "
+"handmatig):"
+
+#: includes/class-admin.php:82
+msgid ""
+"Policy page AI prompt (copied to clipboard — or select all and copy "
+"manually):"
+msgstr ""
+"AI-prompt voor de beleidspagina (gekopieerd naar het klembord — of selecteer "
+"alles en kopieer handmatig):"
+
+#: includes/class-admin.php:83
+msgid ""
+"Prompt ready below — select all (Ctrl+A) inside the box and copy (Ctrl+C)."
+msgstr ""
+"De prompt staat hieronder klaar — selecteer alles (Ctrl+A) in het vak en "
+"kopieer (Ctrl+C)."
+
+#: includes/class-admin.php:80
+msgid "All cookies are done! Every cookie has a description."
+msgstr "Alle cookies zijn compleet! Elke cookie heeft een beschrijving."
+
+#: includes/class-admin.php:81 includes/class-admin.php:457
+msgid "No cookies registered yet."
+msgstr "Nog geen cookies geregistreerd."
+
+#: includes/class-admin.php:82 includes/class-admin.php:473
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: includes/class-admin.php:83
+msgid ""
+"This will permanently delete all consent log records and statistics. "
+"Continue?"
+msgstr ""
+"Hiermee worden alle registraties in het toestemmingslogboek en alle "
+"statistieken definitief verwijderd. Doorgaan?"
+
+#: includes/class-admin.php:84 includes/class-admin.php:1150
+msgid "All consent log records and statistics have been purged."
+msgstr ""
+"Alle registraties in het toestemmingslogboek en alle statistieken zijn "
+"gewist."
+
+#: includes/class-admin.php:85
+msgid "AI prompt for policy page copied to clipboard."
+msgstr "AI-prompt voor de beleidspagina gekopieerd naar het klembord."
+
+#: includes/class-admin.php:86
+msgid "CSS template copied to clipboard."
+msgstr "CSS-sjabloon gekopieerd naar het klembord."
+
+#: includes/class-admin.php:88
+#, php-format
+msgid "%d known cookie(s) added automatically:"
+msgstr "%d bekende cookie(s) automatisch toegevoegd:"
+
+#: includes/class-admin.php:90
+#, php-format
+msgid ""
+"%d unknown cookie(s) added — please set their category and description "
+"below."
+msgstr ""
+"%d onbekende cookie(s) toegevoegd — stel hieronder hun categorie en "
+"beschrijving in."
+
+#: includes/class-admin.php:91
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: includes/class-admin.php:92
+msgid "Added — categorize and describe in the table below"
+msgstr "Toegevoegd — categoriseer en beschrijf ze in de tabel hieronder"
+
+#: includes/class-admin.php:94
+#, php-format
+msgid "%d cookie(s) inferred from detected scripts on your site:"
+msgstr "%d cookie(s) afgeleid uit scripts die op je site zijn gevonden:"
+
+#: includes/class-admin.php:95
+msgid ""
+"These cookies are expected from tracking scripts on your site, even when "
+"blocked until consent."
+msgstr ""
+"Deze cookies worden verwacht van trackingscripts op je site, ook als die tot "
+"de toestemming worden geblokkeerd."
+
+#: includes/class-admin.php:97
+#, php-format
+msgid ""
+"%d browser cookie(s) skipped — found in your browser but no matching script "
+"on this site:"
+msgstr ""
+"%d browsercookie(s) overgeslagen — gevonden in je browser, maar zonder "
+"bijbehorend script op deze site:"
+
+#: includes/class-admin.php:481
+msgid ""
+"%d cookie was automatically added based on tracking scripts detected on your"
+" site."
+msgid_plural ""
+"%d cookies were automatically added based on tracking scripts detected on "
+"your site."
+msgstr[0] ""
+"%d cookie is automatisch toegevoegd op basis van trackingscripts die op je "
+"site zijn gevonden."
+msgstr[1] ""
+"%d cookies zijn automatisch toegevoegd op basis van trackingscripts die op "
+"je site zijn gevonden."
+
+#: includes/class-admin.php:128
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/class-admin.php:131 kansleri-cookie-consent.php:571
+msgid "Cookies"
+msgstr "Cookies"
+
+#: includes/class-admin.php:134
+msgid "Policy Page"
+msgstr "Beleidspagina"
+
+#: includes/class-admin.php:137
+msgid "Integration"
+msgstr "Integratie"
+
+#: includes/class-admin.php:140
+msgid "Script Blocking"
+msgstr "Scriptblokkering"
+
+#: includes/class-admin.php:143
+msgid "Statistics"
+msgstr "Statistieken"
+
+#: includes/class-admin.php:146
+msgid "Documentations"
+msgstr "Documentatie"
+
+#: includes/class-admin.php:210
+msgid "Open banner preview"
+msgstr "Bannervoorbeeld openen"
+
+#: includes/class-admin.php:222 includes/class-admin.php:689
+msgid "Banner style"
+msgstr "Bannerstijl"
+
+#: includes/class-admin.php:225
+msgid "Bottom bar"
+msgstr "Balk onderaan"
+
+#: includes/class-admin.php:226
+msgid "Centered modal"
+msgstr "Gecentreerd venster"
+
+#: includes/class-admin.php:227
+msgid "Corner popup"
+msgstr "Pop-up in de hoek"
+
+#: includes/class-admin.php:233
+msgid "Colors"
+msgstr "Kleuren"
+
+#: includes/class-admin.php:237
+msgid "Banner background"
+msgstr "Bannerachtergrond"
+
+#: includes/class-admin.php:238 includes/class-admin.php:275
+msgid "Heading text"
+msgstr "Koptekst"
+
+#: includes/class-admin.php:239
+msgid "Body text"
+msgstr "Hoofdtekst"
+
+#: includes/class-admin.php:240
+msgid "Primary button"
+msgstr "Primaire knop"
+
+#: includes/class-admin.php:241
+msgid "Primary button text"
+msgstr "Tekst primaire knop"
+
+#: includes/class-admin.php:242
+msgid "Secondary button"
+msgstr "Secundaire knop"
+
+#: includes/class-admin.php:243
+msgid "Secondary button text"
+msgstr "Tekst secundaire knop"
+
+#: includes/class-admin.php:265 includes/class-admin.php:691
+msgid "Text and font style"
+msgstr "Tekst- en lettertypestijl"
+
+#: includes/class-admin.php:268 includes/class-admin.php:521
+msgid "Theme style (inherit site typography)"
+msgstr "Themastijl (typografie van de site overnemen)"
+
+#: includes/class-admin.php:269 includes/class-admin.php:522
+msgid "Plugin style (strict font sizes/colors)"
+msgstr "Pluginstijl (vaste lettergroottes/kleuren)"
+
+#: includes/class-admin.php:281
+msgid "Description text"
+msgstr "Beschrijvingstekst"
+
+#: includes/class-admin.php:287
+msgid "Accept button text"
+msgstr "Tekst accepteerknop"
+
+#: includes/class-admin.php:291
+msgid "Reject button text"
+msgstr "Tekst weigerknop"
+
+#: includes/class-admin.php:295
+msgid "Customize button text"
+msgstr "Tekst knop Aanpassen"
+
+#: includes/class-admin.php:299
+msgid "Save preferences button text"
+msgstr "Tekst knop Voorkeuren opslaan"
+
+#: includes/class-admin.php:303 includes/class-script-blocker.php:187
+msgid "This content is blocked because it requires marketing cookies."
+msgstr "Deze inhoud is geblokkeerd omdat er marketingcookies voor nodig zijn."
+
+#: includes/class-admin.php:304 includes/class-script-blocker.php:190
+msgid "Accept marketing cookies"
+msgstr "Marketingcookies accepteren"
+
+#: includes/class-admin.php:318 includes/class-admin.php:693
+msgid "Floating settings button"
+msgstr "Zwevende instellingenknop"
+
+#: includes/class-admin.php:322
+msgid ""
+"Show a small floating button so visitors can re-open their cookie "
+"preferences"
+msgstr ""
+"Een kleine zwevende knop tonen, zodat bezoekers hun cookievoorkeuren opnieuw "
+"kunnen openen"
+
+#: includes/class-admin.php:329
+msgid "Copied!"
+msgstr "Gekopieerd!"
+
+#: includes/class-admin.php:329 includes/class-admin.php:330
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: includes/class-admin.php:346 includes/class-admin.php:531
+#: includes/class-admin.php:664
+msgid "Save Settings"
+msgstr "Instellingen opslaan"
+
+#: includes/class-admin.php:370
+msgid "Banner preview"
+msgstr "Bannervoorbeeld"
+
+#: includes/class-admin.php:415
+msgid "Add Cookie"
+msgstr "Cookie toevoegen"
+
+#: includes/class-admin.php:419
+msgid "Need help describing these cookies?"
+msgstr "Hulp nodig bij het beschrijven van deze cookies?"
+
+#: includes/class-admin.php:421
+msgid ""
+"Click the button below to copy a ready-made AI prompt with your cookie data."
+msgstr ""
+"Klik op de knop hieronder om een kant-en-klare AI-prompt met je "
+"cookiegegevens te kopiëren."
+
+#: includes/class-admin.php:422
+msgid "Paste the prompt into an AI tool (ChatGPT, Claude, Gemini, etc.)."
+msgstr "Plak de prompt in een AI-tool (ChatGPT, Claude, Gemini enz.)."
+
+#: includes/class-admin.php:423
+msgid "The AI will return improved JSON with clear cookie descriptions."
+msgstr "De AI geeft verbeterde JSON terug met duidelijke cookiebeschrijvingen."
+
+#: includes/class-admin.php:424
+msgid ""
+"Copy the AI response and paste it into the text box that appears below."
+msgstr ""
+"Kopieer het antwoord van de AI en plak het in het tekstvak dat hieronder "
+"verschijnt."
+
+#: includes/class-admin.php:425
+msgid "Click Import — cookies are saved automatically."
+msgstr "Klik op Importeren — de cookies worden automatisch opgeslagen."
+
+#: includes/class-admin.php:429
+msgid "Copy AI Prompt to Clipboard"
+msgstr "AI-prompt naar klembord kopiëren"
+
+#: includes/class-admin.php:433
+msgid "Paste the AI response here:"
+msgstr "Plak hier het antwoord van de AI:"
+
+#: includes/class-admin.php:434
+msgid "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+msgstr "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+
+#: includes/class-admin.php:436
+msgid "Import"
+msgstr "Importeren"
+
+#: includes/class-admin.php:447
+msgid "Name"
+msgstr "Naam"
+
+#: includes/class-admin.php:448 includes/class-admin.php:989
+msgid "Category"
+msgstr "Categorie"
+
+#: includes/class-admin.php:449 includes/class-policy-page.php:91
+#: includes/class-policy-page.php:100
+msgid "Provider"
+msgstr "Aanbieder"
+
+#: includes/class-admin.php:450 includes/class-policy-page.php:93
+#: includes/class-policy-page.php:102
+msgid "Duration"
+msgstr "Bewaartermijn"
+
+#: includes/class-admin.php:451
+msgid "Description"
+msgstr "Beschrijving"
+
+#: includes/class-admin.php:464 kansleri-cookie-consent.php:335
+msgid "Necessary"
+msgstr "Noodzakelijk"
+
+#: includes/class-admin.php:465 kansleri-cookie-consent.php:339
+msgid "Analytics"
+msgstr "Statistieken"
+
+#: includes/class-admin.php:466 kansleri-cookie-consent.php:343
+msgid "Marketing"
+msgstr "Marketing"
+
+#: includes/class-admin.php:467 kansleri-cookie-consent.php:347
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: includes/class-admin.php:480 includes/class-admin.php:700
+msgid "Save Cookies"
+msgstr "Cookies opslaan"
+
+#: includes/class-admin.php:494
+msgid ""
+"No cookie policy page has been selected. Set a Privacy Policy page in "
+"Settings → Privacy, or choose a page below."
+msgstr ""
+"Er is geen pagina voor het cookiebeleid geselecteerd. Stel een "
+"privacybeleidspagina in via Instellingen → Privacy of kies hieronder een "
+"pagina."
+
+#: includes/class-admin.php:502 includes/class-admin.php:705
+msgid "Cookie policy page"
+msgstr "Pagina cookiebeleid"
+
+#: includes/class-admin.php:505
+msgid "— Select a page —"
+msgstr "— Selecteer een pagina —"
+
+#: includes/class-admin.php:510
+#, php-format
+msgid "%s (WordPress Privacy Policy)"
+msgstr "%s (WordPress-privacybeleid)"
+
+#: includes/class-admin.php:513
+msgid ""
+"Defaults automatically to the WordPress Privacy Policy page (Settings → "
+"Privacy). Add the shortcode [kncc_cookie_policy] to that page to show the "
+"cookie declaration."
+msgstr ""
+"Standaard wordt automatisch de privacybeleidspagina van WordPress gebruikt "
+"(Instellingen → Privacy). Voeg de shortcode [kncc_cookie_policy] toe aan die "
+"pagina om de cookieverklaring te tonen."
+
+#: includes/class-admin.php:518
+msgid "Policy page style"
+msgstr "Stijl beleidspagina"
+
+#: includes/class-admin.php:525
+msgid ""
+"Controls the styling of the [kncc_cookie_policy] cookie declaration table."
+msgstr ""
+"Bepaalt de opmaak van de tabel met de cookieverklaring van "
+"[kncc_cookie_policy]."
+
+#: includes/class-admin.php:628
+msgid ""
+"Theme style is the default so the policy page matches your site typography. "
+"Switch to Plugin style for strict plugin sizes and colors."
+msgstr ""
+"Themastijl is de standaard, zodat de beleidspagina past bij de typografie "
+"van je site. Kies Pluginstijl voor vaste groottes en kleuren van de plugin."
+
+#: includes/class-admin.php:539
+msgid "Preview Policy Page"
+msgstr "Beleidspagina bekijken"
+
+#: includes/class-admin.php:546
+msgid "Generate cookie policy page content with AI"
+msgstr "Inhoud voor de cookiebeleidspagina met AI genereren"
+
+#: includes/class-admin.php:548
+msgid ""
+"Copy the prompt below and paste it into an AI tool. It will generate a "
+"complete cookie and privacy policy page in your site language. The cookie "
+"declaration will be handled automatically by the [kncc_cookie_policy] "
+"shortcode. Paste the generated HTML into your policy page."
+msgstr ""
+"Kopieer de prompt hieronder en plak die in een AI-tool. Die genereert een "
+"volledige pagina met cookie- en privacybeleid in de taal van je site. De "
+"cookieverklaring wordt automatisch verzorgd door de shortcode "
+"[kncc_cookie_policy]. Plak de gegenereerde HTML in je beleidspagina."
+
+#: includes/class-admin.php:552
+msgid "Copy AI Prompt for Policy Page"
+msgstr "AI-prompt voor beleidspagina kopiëren"
+
+#: includes/class-admin.php:565
+msgid "Detected integrations"
+msgstr "Gedetecteerde integraties"
+
+#: includes/class-admin.php:692
+msgid ""
+"Active — Site Kit sets consent defaults for its own regions. This plugin "
+"sets a denied default for all other visitors and sends consent updates."
+msgstr ""
+"Actief — Site Kit stelt de standaardwaarden voor toestemming in voor zijn "
+"eigen regio's. Deze plugin zet de toestemming voor alle andere bezoekers "
+"standaard op geweigerd en verstuurt toestemmingsupdates."
+
+#: includes/class-admin.php:575
+msgid ""
+"Active — Site Kit consent mode not enabled. This plugin handles all consent "
+"signals."
+msgstr ""
+"Actief — Consent Mode van Site Kit is niet ingeschakeld. Deze plugin "
+"verwerkt alle toestemmingssignalen."
+
+#: includes/class-admin.php:586
+msgid ""
+"Active — consent status is shared with other plugins via the WP Consent API."
+msgstr ""
+"Actief — de toestemmingsstatus wordt via de WP Consent API gedeeld met "
+"andere plugins."
+
+#: includes/class-admin.php:598 includes/class-admin.php:712
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: includes/class-admin.php:602
+msgid ""
+"Enable Consent Mode v2 (outputs consent defaults in &lt;head&gt; before GTM)"
+msgstr ""
+"Consent Mode v2 inschakelen (plaatst standaardwaarden voor toestemming in "
+"&lt;head&gt; vóór GTM)"
+
+#: includes/class-admin.php:610
+msgid ""
+"Forced on because Google Site Kit is active. Consent Mode is required for "
+"Site Kit to receive consent signals."
+msgstr ""
+"Verplicht ingeschakeld omdat Google Site Kit actief is. Site Kit heeft "
+"Consent Mode nodig om toestemmingssignalen te ontvangen."
+
+#: includes/class-admin.php:614
+msgid ""
+"Consent Mode tells Google tags what the visitor has allowed (for example "
+"analytics or ads). This plugin sends a denied-by-default signal before tags "
+"run, and sends an updated signal after the visitor chooses. It controls "
+"consent signals only: you still need to install GTM/GA scripts separately."
+msgstr ""
+"Consent Mode laat Google-tags weten wat de bezoeker heeft toegestaan "
+"(bijvoorbeeld statistieken of advertenties). Deze plugin verstuurt vóór het "
+"uitvoeren van tags een signaal dat standaard op geweigerd staat, en een "
+"bijgewerkt signaal nadat de bezoeker heeft gekozen. De plugin regelt alleen "
+"de toestemmingssignalen: GTM/GA-scripts moet je nog steeds apart installeren."
+
+#: includes/class-admin.php:740
+msgid ""
+"Site Kit sets consent defaults for its own regions. This plugin adds a "
+"denied default for all other visitors and sends each visitor's choice as a "
+"consent update."
+msgstr ""
+"Site Kit stelt de standaardwaarden voor toestemming in voor zijn eigen "
+"regio's. Deze plugin zet daarnaast de toestemming voor alle andere bezoekers "
+"standaard op geweigerd en verstuurt de keuze van elke bezoeker als "
+"toestemmingsupdate."
+
+#: includes/class-admin.php:630
+msgid "Need Google Analytics 4 or Google Tag Manager?"
+msgstr "Google Analytics 4 of Google Tag Manager nodig?"
+
+#: includes/class-admin.php:633
+msgid ""
+"We recommend installing Google Site Kit — Google's official WordPress "
+"plugin. It sets up GA4 and GTM in a few clicks, and works seamlessly with "
+"Kansleri Cookie Consent: Consent Mode v2 signals are handled automatically, "
+"with no double-loading or conflicts."
+msgstr ""
+"We raden aan om Google Site Kit te installeren — de officiële "
+"WordPress-plugin van Google. Daarmee stel je GA4 en GTM in een paar klikken "
+"in, en de plugin werkt naadloos samen met Kansleri Cookie Consent: Consent "
+"Mode v2-signalen worden automatisch verwerkt, zonder dubbel laden of "
+"conflicten."
+
+#: includes/class-admin.php:638
+msgid "Install Google Site Kit"
+msgstr "Google Site Kit installeren"
+
+#: includes/class-admin.php:649
+msgid "Consent Mode defaults (auto-injected in &lt;head&gt;)"
+msgstr ""
+"Standaardwaarden van Consent Mode (automatisch ingevoegd in &lt;head&gt;)"
+
+#: includes/class-admin.php:673
+msgid "Installation guide"
+msgstr "Installatiehandleiding"
+
+#: includes/class-admin.php:675
+msgid "Activate the plugin and open Settings > Cookie Consent."
+msgstr "Activeer de plugin en open Instellingen > Cookietoestemming."
+
+#: includes/class-admin.php:676
+msgid "Configure banner texts, style, and button labels in the General tab."
+msgstr ""
+"Stel de bannerteksten, de stijl en de knoplabels in op de tab Algemeen."
+
+#: includes/class-admin.php:677
+msgid ""
+"Open the Integration tab and enable Google Consent Mode v2 if you use "
+"GTM/Google tags."
+msgstr ""
+"Open de tab Integratie en schakel Google Consent Mode v2 in als je "
+"GTM/Google-tags gebruikt."
+
+#: includes/class-admin.php:678
+msgid ""
+"Open the Cookies tab, run Scan Cookies, then review and categorize unknown "
+"cookies."
+msgstr ""
+"Open de tab Cookies, voer Cookies scannen uit, en controleer en categoriseer "
+"daarna onbekende cookies."
+
+#: includes/class-admin.php:679
+msgid ""
+"If unknown cookies are found, an AI helper appears: copy the prompt, paste "
+"it into an AI tool, paste the response back into the text box, click Import,"
+" then Save Cookies."
+msgstr ""
+"Als er onbekende cookies worden gevonden, verschijnt een AI-hulp: kopieer de "
+"prompt, plak die in een AI-tool, plak het antwoord terug in het tekstvak, "
+"klik op Importeren en daarna op Cookies opslaan."
+
+#: includes/class-admin.php:680
+msgid ""
+"Confirm the Cookie Policy page in the Policy Page tab — it defaults to the "
+"WordPress Privacy Policy page."
+msgstr ""
+"Bevestig de pagina met het cookiebeleid op de tab Beleidspagina — standaard "
+"is dat de privacybeleidspagina van WordPress."
+
+#: includes/class-admin.php:681
+msgid ""
+"Use the AI prompt on the Policy Page tab to generate the full cookie policy "
+"page content. Paste the generated HTML into your policy page."
+msgstr ""
+"Gebruik de AI-prompt op de tab Beleidspagina om de volledige inhoud van de "
+"cookiebeleidspagina te genereren. Plak de gegenereerde HTML in je "
+"beleidspagina."
+
+#: includes/class-admin.php:682
+msgid "Review the Script Blocking tab to see which scripts are auto-blocked."
+msgstr ""
+"Bekijk de tab Scriptblokkering om te zien welke scripts automatisch worden "
+"geblokkeerd."
+
+#: includes/class-admin.php:685
+msgid "What each option means"
+msgstr "Wat elke optie betekent"
+
+#: includes/class-admin.php:687
+msgid "General tab"
+msgstr "Tab Algemeen"
+
+#: includes/class-admin.php:689
+msgid "Choose visual placement of the banner (bar, modal, corner)."
+msgstr "Kies de visuele plaatsing van de banner (balk, venster, hoek)."
+
+#: includes/class-admin.php:690
+msgid "Controls the main accent color used by buttons and links."
+msgstr "Bepaalt de belangrijkste accentkleur van knoppen en links."
+
+#: includes/class-admin.php:690
+msgid "Primary color"
+msgstr "Primaire kleur"
+
+#: includes/class-admin.php:691
+msgid ""
+"Theme style inherits site typography. Plugin style uses strict sizes/colors "
+"for consistent readability."
+msgstr ""
+"Themastijl neemt de typografie van de site over. Pluginstijl gebruikt vaste "
+"groottes/kleuren voor een consistente leesbaarheid."
+
+#: includes/class-admin.php:692
+msgid "Customize visible wording in the consent banner."
+msgstr "Pas de zichtbare teksten in de cookiebanner aan."
+
+#: includes/class-admin.php:692
+msgid "Heading/Description/Button texts"
+msgstr "Kop-, beschrijvings- en knopteksten"
+
+#: includes/class-admin.php:693
+msgid "Lets visitors re-open cookie settings after they close the banner."
+msgstr ""
+"Hiermee kunnen bezoekers de cookie-instellingen opnieuw openen nadat ze de "
+"banner hebben gesloten."
+
+#: includes/class-admin.php:696
+msgid "Cookies tab"
+msgstr "Tab Cookies"
+
+#: includes/class-admin.php:777
+msgid ""
+"Scans browser cookies and infers expected cookies from tracking scripts on "
+"your site (even when blocked until consent). Known cookies are auto-mapped "
+"to categories."
+msgstr ""
+"Scant browsercookies en leidt verwachte cookies af uit trackingscripts op je "
+"site (ook als die tot de toestemming worden geblokkeerd). Bekende cookies "
+"worden automatisch aan categorieën gekoppeld."
+
+#: includes/class-admin.php:699
+msgid "AI Helper"
+msgstr "AI-hulp"
+
+#: includes/class-admin.php:699
+msgid ""
+"Appears after scanning when unknown cookies are found. Copies a ready prompt"
+" to paste into an AI tool. After the AI responds, paste the JSON back into "
+"the text box and click Import."
+msgstr ""
+"Verschijnt na het scannen als er onbekende cookies zijn gevonden. Kopieert "
+"een kant-en-klare prompt om in een AI-tool te plakken. Plak na het antwoord "
+"van de AI de JSON terug in het tekstvak en klik op Importeren."
+
+#: includes/class-admin.php:700
+msgid ""
+"Persists current cookie table values to be used in policy output and consent"
+" details."
+msgstr ""
+"Slaat de huidige waarden van de cookietabel op voor gebruik in het "
+"cookiebeleid en de toestemmingsdetails."
+
+#: includes/class-admin.php:703
+msgid "Policy Page tab"
+msgstr "Tab Beleidspagina"
+
+#: includes/class-admin.php:705
+msgid ""
+"Selects which page is used for cookie policy content generated by shortcode."
+msgstr ""
+"Bepaalt welke pagina wordt gebruikt voor de inhoud van het cookiebeleid die "
+"de shortcode genereert."
+
+#: includes/class-admin.php:706
+msgid "AI Prompt for Policy Page"
+msgstr "AI-prompt voor beleidspagina"
+
+#: includes/class-admin.php:706
+msgid ""
+"Generates a prompt you can paste into an AI tool to create a full privacy "
+"and cookie policy. The generated text will include the [kncc_cookie_policy] "
+"shortcode for the cookie declaration section."
+msgstr ""
+"Genereert een prompt die je in een AI-tool kunt plakken om een volledig "
+"privacy- en cookiebeleid te maken. De gegenereerde tekst bevat de shortcode "
+"[kncc_cookie_policy] voor het onderdeel met de cookieverklaring."
+
+#: includes/class-admin.php:707
+msgid ""
+"If Polylang or WPML is active, each language can have its own translated "
+"policy page. If a translation is missing for some language, the default-"
+"language policy page is used as a fallback."
+msgstr ""
+"Als Polylang of WPML actief is, kan elke taal een eigen vertaalde "
+"beleidspagina hebben. Ontbreekt voor een taal de vertaling, dan wordt als "
+"terugvaloptie de beleidspagina in de standaardtaal gebruikt."
+
+#: includes/class-admin.php:707
+msgid "Multilingual support"
+msgstr "Meertalige ondersteuning"
+
+#: includes/class-admin.php:710
+msgid "Integration tab"
+msgstr "Tab Integratie"
+
+#: includes/class-admin.php:712
+msgid ""
+"A Google framework for privacy-safe tag behavior. Before consent, storage "
+"signals are denied; after user choice, signals are updated (for example "
+"analytics_storage=granted). This helps GTM/Google tags respect user consent "
+"state."
+msgstr ""
+"Een framework van Google voor privacyvriendelijk gedrag van tags. Vóór de "
+"toestemming worden opslagsignalen geweigerd; na de keuze van de gebruiker "
+"worden de signalen bijgewerkt (bijvoorbeeld analytics_storage=granted). Zo "
+"respecteren GTM/Google-tags de toestemmingsstatus van de gebruiker."
+
+#: includes/class-admin.php:713
+msgid "GTM Container ID"
+msgstr "GTM-container-ID"
+
+#: includes/class-admin.php:713
+msgid ""
+"Your GTM container identifier (for example GTM-N6828NL). It identifies which"
+" tag container your site uses. This field is informational in this plugin "
+"and does not inject GTM scripts."
+msgstr ""
+"Je GTM-container-ID (bijvoorbeeld GTM-N6828NL). Hiermee wordt aangegeven "
+"welke tagcontainer je site gebruikt. Dit veld is in deze plugin alleen "
+"informatief en voegt geen GTM-scripts in."
+
+#: includes/class-admin.php:716
+msgid "Script Blocking tab"
+msgstr "Tab Scriptblokkering"
+
+#: includes/class-admin.php:798
+msgid ""
+"Tools like Google Analytics are blocked automatically when added through "
+"WordPress plugins (e.g. Google Site Kit)."
+msgstr ""
+"Tools zoals Google Analytics worden automatisch geblokkeerd als ze via "
+"WordPress-plugins zijn toegevoegd (bijv. Google Site Kit)."
+
+#: includes/class-admin.php:799 includes/class-admin.php:1071
+msgid "Custom Code blocking"
+msgstr "Aangepaste code blokkeren"
+
+#: includes/class-admin.php:799
+msgid ""
+"Stops tracking pasted into Bricks, Elementor, or similar Custom Code fields "
+"until the visitor gives consent."
+msgstr ""
+"Blokkeert tracking die in Bricks, Elementor of vergelijkbare velden voor "
+"aangepaste code is geplakt, totdat de bezoeker toestemming geeft."
+
+#: includes/class-admin.php:719
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
+msgstr ""
+"Ingesloten video's van YouTube en Vimeo worden automatisch geblokkeerd "
+"totdat de bezoeker marketingcookies accepteert. In plaats daarvan wordt een "
+"melding met een accepteerknop getoond. Als de bezoeker al toestemming heeft "
+"gegeven, worden video's gewoon geladen."
+
+#: includes/class-admin.php:719
+msgid "YouTube & Vimeo iframe blocking"
+msgstr "Iframes van YouTube & Vimeo blokkeren"
+
+#: includes/class-admin.php:722
+msgid "Statistics tab"
+msgstr "Tab Statistieken"
+
+#: includes/class-admin.php:724
+msgid "Consent statistics"
+msgstr "Toestemmingsstatistieken"
+
+#: includes/class-admin.php:724
+msgid ""
+"Shows how many visitors accepted, rejected, or customized cookies over 7, "
+"30, or 90 day periods. Data is aggregated and anonymous — no personal data "
+"is stored."
+msgstr ""
+"Toont hoeveel bezoekers cookies hebben geaccepteerd, geweigerd of aangepast "
+"in periodes van 7, 30 of 90 dagen. De gegevens zijn geaggregeerd en anoniem "
+"— er worden geen persoonsgegevens opgeslagen."
+
+#: includes/class-admin.php:725 includes/class-admin.php:1022
+msgid "Consent Log"
+msgstr "Toestemmingslogboek"
+
+#: includes/class-admin.php:725
+msgid ""
+"Individual anonymized consent records for GDPR audit compliance. Records "
+"contain a hashed visitor identifier, the consent choice, accepted "
+"categories, and the policy version. Records are automatically purged after "
+"13 months."
+msgstr ""
+"Afzonderlijke, geanonimiseerde toestemmingsregistraties om naleving van de "
+"AVG bij audits aan te tonen. Registraties bevatten een gehashte "
+"bezoekers-ID, de toestemmingskeuze, de geaccepteerde categorieën en de "
+"beleidsversie. Registraties worden na 13 maanden automatisch gewist."
+
+#: includes/class-admin.php:726
+msgid "Downloads all consent log records as a CSV file for auditing."
+msgstr ""
+"Downloadt alle registraties uit het toestemmingslogboek als CSV-bestand voor "
+"audits."
+
+#: includes/class-admin.php:726 includes/class-admin.php:1038
+msgid "Export CSV"
+msgstr "CSV exporteren"
+
+#: includes/class-admin.php:727
+msgid "Permanently deletes all consent log records and aggregate statistics."
+msgstr ""
+"Verwijdert alle registraties uit het toestemmingslogboek en de geaggregeerde "
+"statistieken definitief."
+
+#: includes/class-admin.php:727 includes/class-admin.php:1039
+msgid "Purge All Records"
+msgstr "Alle registraties wissen"
+
+#: includes/class-admin.php:730
+msgid "Multilingual support (WPML & Polylang)"
+msgstr "Meertalige ondersteuning (WPML & Polylang)"
+
+#: includes/class-admin.php:732
+msgid "Per-language banner texts"
+msgstr "Bannerteksten per taal"
+
+#: includes/class-admin.php:732
+msgid ""
+"When WPML or Polylang is active, switch to a secondary language in the admin"
+" bar and edit General tab settings (saved per language). With WPML String "
+"Translation, you can also translate the [kncc_settings]* admin text strings "
+"— those are used when no per-language override is saved. Otherwise each "
+"language uses its own plugin defaults (English if unsupported). Texts are "
+"never copied blindly from the default language."
+msgstr ""
+"Als WPML of Polylang actief is, schakel je in de toolbar over naar een "
+"secundaire taal en bewerk je de instellingen op de tab Algemeen (per taal "
+"opgeslagen). Met WPML String Translation kun je ook de admin-teksten "
+"[kncc_settings]* vertalen — die worden gebruikt als er geen taalspecifieke "
+"tekst is opgeslagen. Anders gebruikt elke taal de eigen standaardteksten van "
+"de plugin (Engels als de taal niet wordt ondersteund). Teksten worden nooit "
+"blind overgenomen uit de standaardtaal."
+
+#: includes/class-admin.php:733
+msgid ""
+"Cookie names, categories, providers, and durations are shared across all "
+"languages. Only the description field can be translated per language. Switch"
+" language and edit descriptions in the Cookies tab."
+msgstr ""
+"Cookienamen, categorieën, aanbieders en bewaartermijnen zijn voor alle talen "
+"hetzelfde. Alleen het veld Beschrijving kan per taal worden vertaald. Wissel "
+"van taal en bewerk de beschrijvingen op de tab Cookies."
+
+#: includes/class-admin.php:733
+msgid "Per-language cookie descriptions"
+msgstr "Cookiebeschrijvingen per taal"
+
+#: includes/class-admin.php:734
+msgid ""
+"Banner style, colors, and policy page can be set per language. Non-text "
+"settings fall back to the default language; banner texts use per-language "
+"overrides, WPML String Translation, or each language's own defaults."
+msgstr ""
+"Bannerstijl, kleuren en beleidspagina kun je per taal instellen. "
+"Instellingen zonder tekst vallen terug op de standaardtaal; bannerteksten "
+"gebruiken taalspecifieke teksten, WPML String Translation of de eigen "
+"standaardteksten van elke taal."
+
+#: includes/class-admin.php:734
+msgid "Per-language settings"
+msgstr "Instellingen per taal"
+
+#: includes/class-admin.php:735
+msgid "AI prompts"
+msgstr "AI-prompts"
+
+#: includes/class-admin.php:735
+msgid ""
+"AI prompts for cookie descriptions and policy pages are automatically "
+"generated in the language matching the current admin locale."
+msgstr ""
+"AI-prompts voor cookiebeschrijvingen en beleidspagina's worden automatisch "
+"gegenereerd in de huidige taal van de beheeromgeving."
+
+#: includes/class-admin.php:738
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: includes/class-admin.php:740
+msgid "Displays the full cookie declaration table on your policy page."
+msgstr "Toont de volledige tabel met de cookieverklaring op je beleidspagina."
+
+#: includes/class-admin.php:741
+msgid ""
+"Renders a link that opens the cookie settings dialog. Use in footers, menus,"
+" or widgets. Customize the link text with the text attribute, e.g. "
+"[kncc_cookie_settings text=\"Manage cookies\"]."
+msgstr ""
+"Toont een link die het venster met cookie-instellingen opent. Te gebruiken "
+"in footers, menu's of widgets. Pas de linktekst aan met het attribuut text, "
+"bijv. [kncc_cookie_settings text=\"Cookies beheren\"]."
+
+#: includes/class-admin.php:744
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: includes/class-admin.php:748
+#, php-format
+msgid ""
+"Need to fine-tune the look beyond the General tab? Add CSS to %s, your child"
+" theme, or a Code Snippets plugin."
+msgstr ""
+"Wil je het uiterlijk verder verfijnen dan via de tab Algemeen kan? Voeg CSS "
+"toe aan %s, je subthema of een Code Snippets-plugin."
+
+#: includes/class-admin.php:749
+msgid "Appearance → Customize → Additional CSS"
+msgstr "Weergave → Customizer → Extra CSS"
+
+#: includes/class-admin.php:752
+msgid ""
+"Copy the template below, uncomment the rules you want to change, save. Every"
+" selector the plugin uses is included."
+msgstr ""
+"Kopieer het sjabloon hieronder, haal de regels die je wilt wijzigen uit het "
+"commentaar en sla op. Alle selectors die de plugin gebruikt, zijn opgenomen."
+
+#: includes/class-admin.php:756
+msgid "Copy CSS template"
+msgstr "CSS-sjabloon kopiëren"
+
+#: includes/class-admin.php:828
+msgid "Tips:"
+msgstr "Tips:"
+
+#: includes/class-admin.php:830
+msgid ""
+"If a rule does not apply, prepend .kncc-banner or add !important — your CSS "
+"file loads after the plugin's, but theme styles can occasionally beat it on "
+"specificity."
+msgstr ""
+"Werkt een regel niet, zet er dan .kncc-banner voor of voeg !important toe — "
+"je CSS-bestand wordt na dat van de plugin geladen, maar de stijlen van je "
+"thema kunnen soms winnen op specificiteit."
+
+#: includes/class-admin.php:831
+msgid ""
+"When General → Text and font style is set to Plugin style, typography rules "
+"use !important. Switch to Theme style for easier overrides."
+msgstr ""
+"Als Algemeen → Tekst- en lettertypestijl op Pluginstijl staat, gebruiken "
+"typografieregels !important. Kies Themastijl om ze makkelijker te "
+"overschrijven."
+
+#: includes/class-admin.php:832
+msgid ""
+"Banner z-index is 999999 and the floating button is 999998 — raise them if "
+"your theme renders overlays on top of the banner."
+msgstr ""
+"De z-index van de banner is 999999 en die van de zwevende knop 999998 — "
+"verhoog ze als je thema overlays boven de banner weergeeft."
+
+#: includes/class-admin.php:835
+msgid "Troubleshooting"
+msgstr "Probleemoplossing"
+
+#: includes/class-admin.php:837
+msgid ""
+"If GTM Preview does not show consent updates, verify Consent Mode v2 is "
+"enabled and test in a fresh browser session without existing consent cookie."
+msgstr ""
+"Als de voorbeeldmodus van GTM geen toestemmingsupdates toont, controleer dan "
+"of Consent Mode v2 is ingeschakeld en test in een nieuwe browsersessie "
+"zonder bestaande toestemmingscookie."
+
+#: includes/class-admin.php:838
+msgid ""
+"If banner typography looks odd with your theme, switch General > Text and "
+"font style to Plugin style."
+msgstr ""
+"Als de typografie van de banner er met je thema vreemd uitziet, zet Algemeen "
+"> Tekst- en lettertypestijl dan op Pluginstijl."
+
+#: includes/class-admin.php:839
+msgid ""
+"If tracking still runs before consent, make sure Custom Code blocking is "
+"checked on the Script Blocking tab."
+msgstr ""
+"Als tracking nog steeds vóór de toestemming wordt uitgevoerd, zorg dan dat "
+"Aangepaste code blokkeren is aangevinkt op de tab Scriptblokkering."
+
+#: includes/class-admin.php:840
+msgid ""
+"If the statistics are empty, make sure visitors have interacted with the "
+"banner. Data starts recording after the first consent choice."
+msgstr ""
+"Als de statistieken leeg zijn, controleer dan of bezoekers de banner al "
+"hebben gebruikt. Gegevens worden pas vastgelegd vanaf de eerste "
+"toestemmingskeuze."
+
+#: includes/class-admin.php:841
+msgid ""
+"If the policy page warning shows missing translations, create the translated"
+" page in each language and add the [kncc_cookie_policy] shortcode."
+msgstr ""
+"Als de waarschuwing bij de beleidspagina ontbrekende vertalingen meldt, maak "
+"dan in elke taal de vertaalde pagina aan en voeg de shortcode "
+"[kncc_cookie_policy] toe."
+
+#: includes/class-admin.php:845
+msgid ""
+"I made this plugin for free because I got frustrated by the existing cookie "
+"consent plugins — too much bloat and useless features. If you like it and "
+"want to buy me a coffee, you can do it here:"
+msgstr ""
+"Ik heb deze plugin gratis gemaakt omdat ik me ergerde aan de bestaande "
+"plugins voor cookietoestemming — te veel ballast en nutteloze functies. Vind "
+"je hem goed en wil je me een kop koffie trakteren? Dat kan hier:"
+
+#: includes/class-admin.php:873
+#, php-format
+msgid "%d days"
+msgstr "%d dagen"
+
+#: includes/class-admin.php:884
+msgid "Total responses"
+msgstr "Totaal aantal keuzes"
+
+#: includes/class-admin.php:888 includes/class-admin.php:903
+#: includes/class-admin.php:913
+msgid "Accepted all"
+msgstr "Alles geaccepteerd"
+
+#: includes/class-admin.php:892 includes/class-admin.php:909
+#: includes/class-admin.php:915
+msgid "Rejected all"
+msgstr "Alles geweigerd"
+
+#: includes/class-admin.php:896 includes/class-admin.php:906
+#: includes/class-admin.php:914
+msgid "Custom selection"
+msgstr "Aangepaste keuze"
+
+#: includes/class-admin.php:920
+msgid ""
+"No consent data recorded yet. Statistics will appear after visitors start "
+"interacting with the cookie banner."
+msgstr ""
+"Nog geen toestemmingsgegevens vastgelegd. Statistieken verschijnen zodra "
+"bezoekers de cookiebanner gaan gebruiken."
+
+#: includes/class-admin.php:937
+#, php-format
+msgid "Cron error: %s"
+msgstr "Cron-fout: %s"
+
+#: includes/class-admin.php:955
+msgid "All systems are good!"
+msgstr "Alles in orde!"
+
+#: includes/class-admin.php:957
+msgid "The plugin re-checks cookies every day via cron."
+msgstr "De plugin controleert de cookies elke dag opnieuw via cron."
+
+#: includes/class-admin.php:962
+#, php-format
+msgid "Next check: %s"
+msgstr "Volgende controle: %s"
+
+#: includes/class-admin.php:1075
+msgid ""
+"Also block tracking added in Bricks, Elementor, or other Custom Code fields"
+msgstr ""
+"Ook tracking blokkeren die is toegevoegd in Bricks, Elementor of andere "
+"velden voor aangepaste code"
+
+#: includes/class-admin.php:1094
+msgid "Save blocking settings"
+msgstr "Blokkeringsinstellingen opslaan"
+
+#: includes/class-admin.php:1099
+msgid "Recognized tracking tools"
+msgstr "Herkende trackingtools"
+
+#: includes/class-admin.php:1106
+msgid "Script Handle"
+msgstr "Scripthandle"
+
+#: includes/class-admin.php:1024
+msgid ""
+"Individual consent records for GDPR audit compliance. Records are "
+"automatically purged after the retention period (13 months)."
+msgstr ""
+"Afzonderlijke toestemmingsregistraties om naleving van de AVG bij audits aan "
+"te tonen. Registraties worden na de bewaartermijn (13 maanden) automatisch "
+"gewist."
+
+#: includes/class-admin.php:1028
+msgid "Total records:"
+msgstr "Totaal aantal registraties:"
+
+#: includes/class-admin.php:1030
+msgid "Oldest:"
+msgstr "Oudste:"
+
+#: includes/class-admin.php:1033
+msgid "Newest:"
+msgstr "Nieuwste:"
+
+#: includes/class-admin.php:1043
+msgid "No consent log records yet."
+msgstr "Nog geen registraties in het toestemmingslogboek."
+
+#: includes/class-admin.php:1048
+msgid "Date/Time"
+msgstr "Datum/tijd"
+
+#: includes/class-admin.php:1049
+msgid "Visitor"
+msgstr "Bezoeker"
+
+#: includes/class-admin.php:1050
+msgid "Choice"
+msgstr "Keuze"
+
+#: includes/class-admin.php:1051
+msgid "Categories"
+msgstr "Categorieën"
+
+#: includes/class-admin.php:1052
+msgid "Policy Version"
+msgstr "Beleidsversie"
+
+#: includes/class-admin.php:1311
+msgid "Cookies saved."
+msgstr "Cookies opgeslagen."
+
+#: includes/class-consent.php:135
+msgid "Cookie consent"
+msgstr "Cookietoestemming"
+
+#: includes/class-consent.php:147 includes/class-policy-page.php:27
+msgid "Cookie Policy"
+msgstr "Cookiebeleid"
+
+#: includes/class-consent.php:155
+msgid "Close"
+msgstr "Sluiten"
+
+#: includes/class-consent.php:187 includes/class-consent.php:188
+#: kansleri-cookie-consent.php:590
+msgid "Cookie settings"
+msgstr "Cookie-instellingen"
+
+#: includes/class-policy-page.php:48
+msgid "No cookies have been registered yet."
+msgstr "Er zijn nog geen cookies geregistreerd."
+
+#: includes/class-policy-page.php:58
+msgid ""
+"These cookies are essential for the website to function and cannot be "
+"switched off."
+msgstr ""
+"Deze cookies zijn essentieel voor de werking van de website en kunnen niet "
+"worden uitgeschakeld."
+
+#: includes/class-policy-page.php:59
+msgid ""
+"These cookies help us understand how visitors interact with the website by "
+"collecting and reporting information anonymously."
+msgstr ""
+"Deze cookies helpen ons te begrijpen hoe bezoekers de website gebruiken, "
+"door anoniem informatie te verzamelen en te rapporteren."
+
+#: includes/class-policy-page.php:60
+msgid ""
+"These cookies are used to deliver relevant advertisements and track ad "
+"campaign performance."
+msgstr ""
+"Deze cookies worden gebruikt om relevante advertenties te tonen en de "
+"prestaties van advertentiecampagnes te meten."
+
+#: includes/class-policy-page.php:61
+msgid ""
+"These cookies allow the website to remember choices you make and provide "
+"enhanced functionality and personalisation."
+msgstr ""
+"Met deze cookies kan de website keuzes die je maakt onthouden en verbeterde "
+"functionaliteit en personalisatie bieden."
+
+#: includes/class-policy-page.php:79
+msgid "Edit cookie preferences"
+msgstr "Cookievoorkeuren wijzigen"
+
+#: includes/class-policy-page.php:90 includes/class-policy-page.php:99
+msgid "Cookie"
+msgstr "Cookie"
+
+#: includes/class-policy-page.php:92 includes/class-policy-page.php:101
+msgid "Purpose"
+msgstr "Doel"
+
+#: includes/class-script-blocker.php:306
+msgid "Script blocking settings saved."
+msgstr "Instellingen voor scriptblokkering opgeslagen."
+
+#: kansleri-cookie-consent.php:57 kansleri-cookie-consent.php:404
+msgid "We use cookies"
+msgstr "Wij gebruiken cookies"
+
+#: kansleri-cookie-consent.php:58 kansleri-cookie-consent.php:405
+msgid ""
+"We use cookies to improve your experience and analyze site traffic. Choose "
+"which cookies you allow."
+msgstr ""
+"Wij gebruiken cookies om je ervaring te verbeteren en het verkeer op de site "
+"te analyseren. Kies welke cookies je toestaat."
+
+#: kansleri-cookie-consent.php:59 kansleri-cookie-consent.php:406
+msgid "Accept all"
+msgstr "Alles accepteren"
+
+#: kansleri-cookie-consent.php:60 kansleri-cookie-consent.php:407
+msgid "Reject all"
+msgstr "Alles weigeren"
+
+#: kansleri-cookie-consent.php:61 kansleri-cookie-consent.php:408
+msgid "Customize"
+msgstr "Aanpassen"
+
+#: kansleri-cookie-consent.php:62 kansleri-cookie-consent.php:409
+msgid "Save preferences"
+msgstr "Voorkeuren opslaan"
+
+#: kansleri-cookie-consent.php:336
+msgid "Required for the website to function. Cannot be disabled."
+msgstr "Nodig voor de werking van de website. Kan niet worden uitgeschakeld."
+
+#: kansleri-cookie-consent.php:340
+msgid "Help us understand how visitors interact with the website."
+msgstr "Helpen ons te begrijpen hoe bezoekers de website gebruiken."
+
+#: kansleri-cookie-consent.php:344
+msgid "Used to deliver relevant advertisements and track campaigns."
+msgstr ""
+"Worden gebruikt om relevante advertenties te tonen en campagnes te meten."
+
+#: kansleri-cookie-consent.php:348
+msgid "Remember your settings and preferences for a better experience."
+msgstr "Onthouden je instellingen en voorkeuren voor een betere ervaring."
+
+#: kansleri-cookie-consent.php:499
+msgid "Settings"
+msgstr "Instellingen"
+
+#: kansleri-cookie-consent.php:522
+#, php-format
+msgid ""
+"Kansleri Cookie Consent is now active. Next steps: %1$s to discover cookies "
+"and %2$s to review banner and consent settings."
+msgstr ""
+"Kansleri Cookie Consent is nu actief. Volgende stappen: %1$s en %2$s voor de "
+"banner en toestemming."
+
+#: kansleri-cookie-consent.php:523
+msgid "Scan cookies"
+msgstr "cookies scannen"
+
+#: kansleri-cookie-consent.php:524
+msgid "review settings"
+msgstr "instellingen bekijken"
+
+#: kansleri-cookie-consent.php:555
+#, php-format
+msgid ""
+"Cookie Consent: %1$d cookie(s) are missing descriptions: %2$s. %3$s to add "
+"them."
+msgstr ""
+"Cookietoestemming: bij %1$d cookie(s) ontbreekt een beschrijving: %2$s. %3$s "
+"om ze toe te voegen."
+
+#: kansleri-cookie-consent.php:558
+msgid "Go to Cookies tab"
+msgstr "Ga naar de tab Cookies"
+
+#: kansleri-cookie-consent.php:572
+msgid ""
+"This site uses a cookie consent banner powered by Kansleri Cookie Consent. "
+"When you interact with the banner, a cookie named <code>kncc_consent</code> "
+"is stored in your browser for up to 1 year. It records your consent "
+"preferences (which cookie categories you accepted or rejected) so the site "
+"can remember your choice on future visits. No personal data is stored in "
+"this cookie."
+msgstr ""
+"Deze site gebruikt een cookiebanner van Kansleri Cookie Consent. Wanneer je "
+"de banner gebruikt, wordt er een cookie met de naam "
+"<code>kncc_consent</code> maximaal 1 jaar in je browser opgeslagen. Deze "
+"cookie legt je toestemmingsvoorkeuren vast (welke cookiecategorieën je hebt "
+"geaccepteerd of geweigerd), zodat de site je keuze bij volgende bezoeken "
+"onthoudt. In deze cookie worden geen persoonsgegevens opgeslagen."
+
+#: kansleri-cookie-consent.php:573
+msgid ""
+"The plugin also records anonymous, aggregated consent statistics (how many "
+"visitors accepted, rejected, or customized cookies each day) and individual "
+"consent log entries for GDPR audit compliance. Consent log entries contain a"
+" hashed (non-reversible) visitor identifier, the consent choice, which "
+"categories were accepted, and the policy version. No IP addresses, user "
+"identifiers, or personal data are stored in plain text. Consent log records "
+"are automatically deleted after 13 months."
+msgstr ""
+"De plugin legt ook anonieme, geaggregeerde toestemmingsstatistieken vast "
+"(hoeveel bezoekers per dag cookies hebben geaccepteerd, geweigerd of "
+"aangepast) en afzonderlijke registraties in het toestemmingslogboek om "
+"naleving van de AVG bij audits aan te tonen. Registraties in het "
+"toestemmingslogboek bevatten een gehashte (niet-omkeerbare) bezoekers-ID, de "
+"toestemmingskeuze, welke categorieën zijn geaccepteerd en de beleidsversie. "
+"Er worden geen IP-adressen, gebruikers-ID's of persoonsgegevens als platte "
+"tekst opgeslagen. Registraties in het toestemmingslogboek worden na 13 "
+"maanden automatisch verwijderd."
+
+#: includes/class-admin.php:318
+msgid "Empty cookie categories"
+msgstr "Lege cookiecategorieën"
+
+#: includes/class-admin.php:322
+msgid "Show but lock (disable) the switch"
+msgstr "Tonen, maar de schakelaar vergrendelen (uitschakelen)"
+
+#: includes/class-admin.php:323
+msgid "Hide categories with no cookies"
+msgstr "Categorieën zonder cookies verbergen"
+
+#: includes/class-admin.php:378 includes/class-consent.php:95
+msgid "No analytics cookies are used on this site."
+msgstr "Op deze site worden geen statistische cookies gebruikt."
+
+#: includes/class-admin.php:379 includes/class-consent.php:96
+msgid "No marketing cookies are used on this site."
+msgstr "Op deze site worden geen marketingcookies gebruikt."
+
+#: includes/class-admin.php:380 includes/class-consent.php:97
+msgid "No preference cookies are used on this site."
+msgstr "Op deze site worden geen voorkeurscookies gebruikt."
+
+#: includes/class-admin.php:323
+msgid "Close button label"
+msgstr "Label sluitknop"
+
+#: includes/class-consent.php:50
+msgid "You have not made a choice yet."
+msgstr "Je hebt nog geen keuze gemaakt."
+
+#: includes/class-consent.php:51
+msgid "Allowed"
+msgstr "Toegestaan"
+
+#: includes/class-consent.php:52
+msgid "Denied"
+msgstr "Geweigerd"
+
+#: includes/class-consent.php:53
+msgid "Always active"
+msgstr "Altijd actief"
+
+#: includes/class-policy-page.php:85
+msgid "Your current cookie preferences"
+msgstr "Je huidige cookievoorkeuren"
+
+#: includes/class-policy-page.php:93
+msgid ""
+"These choices are stored technically as wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing, and wp_consent_preferences for "
+"compatibility with WordPress plugins."
+msgstr ""
+"Voor compatibiliteit met WordPress-plugins worden deze keuzes technisch "
+"opgeslagen als wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing en wp_consent_preferences."
+
+#: includes/class-admin.php:99
+msgid "Possibly removed"
+msgstr "Mogelijk verwijderd"
+
+#: includes/class-admin.php:100
+msgid ""
+"These cookies are still in your list, but their tracking scripts were not "
+"found on the homepage. Review and remove any that are no longer used."
+msgstr ""
+"Deze cookies staan nog in je lijst, maar hun trackingscripts zijn niet "
+"gevonden op de homepage. Controleer ze en verwijder de cookies die niet meer "
+"worden gebruikt."
+
+#: includes/class-admin.php:102
+#, php-format
+msgid ""
+"Remove %d cookie(s) from the list? This cannot be undone automatically."
+msgstr ""
+"%d cookie(s) uit de lijst verwijderen? Dit kan niet automatisch ongedaan "
+"worden gemaakt."
+
+#: includes/class-admin.php:103 includes/class-admin.php:1527
+msgid "Selected cookies removed from the list."
+msgstr "Geselecteerde cookies uit de lijst verwijderd."
+
+#: includes/class-admin.php:104
+msgid "Remove selected cookies"
+msgstr "Geselecteerde cookies verwijderen"
+
+#: includes/class-admin.php:1482
+msgid ""
+"None of the selected cookies can be removed. Run Scan Cookies again to "
+"refresh the list."
+msgstr ""
+"Geen van de geselecteerde cookies kan worden verwijderd. Voer Cookies "
+"scannen opnieuw uit om de lijst te vernieuwen."
+
+#: includes/class-admin.php:791
+msgid ""
+"After scanning, cookies whose tracking scripts are no longer found on the "
+"homepage are listed under \"Possibly removed\". Review the list and use "
+"Remove selected cookies to delete entries you no longer need — nothing is "
+"removed automatically."
+msgstr ""
+"Na het scannen worden cookies waarvan de trackingscripts niet meer op de "
+"homepage worden gevonden, vermeld onder \"Mogelijk verwijderd\". Controleer "
+"de lijst en gebruik Geselecteerde cookies verwijderen om items te "
+"verwijderen die je niet meer nodig hebt — er wordt niets automatisch "
+"verwijderd."
+
+#: includes/class-admin.php:797
+msgid "Current consent status"
+msgstr "Huidige toestemmingsstatus"
+
+#: includes/class-admin.php:797
+msgid ""
+"The [kncc_cookie_policy] shortcode shows each category as allowed, denied, "
+"or not yet chosen above the Edit cookie preferences button. When WP Consent "
+"API is active, a note explains the technical wp_consent_* cookie names used "
+"by WordPress plugins."
+msgstr ""
+"De shortcode [kncc_cookie_policy] toont boven de knop Cookievoorkeuren "
+"wijzigen voor elke categorie of die is toegestaan, geweigerd of nog niet "
+"gekozen. Als WP Consent API actief is, legt een opmerking de technische "
+"cookienamen wp_consent_* uit die WordPress-plugins gebruiken."
+
+#: includes/class-admin.php:806
+msgid "WP Consent API sync"
+msgstr "Synchronisatie met WP Consent API"
+
+#: includes/class-admin.php:806
+msgid ""
+"When the WP Consent API plugin is active, Kansleri automatically syncs your "
+"banner choices to wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing, and wp_consent_preferences. This lets consent-aware "
+"plugins such as Google Site Kit read the visitor's choice. Banner labels "
+"(Necessary, Analytics) map to these technical cookie names."
+msgstr ""
+"Als de plugin WP Consent API actief is, synchroniseert Kansleri de keuzes in "
+"je banner automatisch naar wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing en wp_consent_preferences. Zo kunnen plugins die "
+"rekening houden met toestemming, zoals Google Site Kit, de keuze van de "
+"bezoeker uitlezen. De labels in de banner (Noodzakelijk, Statistieken) zijn "
+"gekoppeld aan deze technische cookienamen."
+
+#: includes/class-admin.php:939
+msgid ""
+"If wp_consent_statistics stays deny after Accept all, clear site cookies or "
+"test in a private window, hard-refresh (Ctrl+Shift+R), and confirm the WP "
+"Consent API plugin is active."
+msgstr ""
+"Als wp_consent_statistics na Alles accepteren op deny blijft staan, wis dan "
+"de cookies van de site of test in een privévenster, vernieuw de pagina "
+"geforceerd (Ctrl+Shift+R) en controleer of de plugin WP Consent API actief "
+"is."
+
+#: includes/class-admin.php:746 includes/class-admin.php:854
+msgid "Advanced Consent Mode"
+msgstr "Geavanceerde Consent Mode"
+
+#: includes/class-admin.php:750
+msgid "Load Google tags before consent, with consent denied"
+msgstr "Google-tags vóór de toestemming laden, met geweigerde toestemming"
+
+#: includes/class-admin.php:753
+msgid "Off (default, Basic Consent Mode): the Google tag is blocked until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies, so Google receives nothing from visitors who have not consented."
+msgstr ""
+"Uit (standaard, Basis Consent Mode): de Google-tag wordt geblokkeerd totdat "
+"de bezoeker statistische cookies accepteert, en Google Tag Manager totdat de "
+"bezoeker statistische cookies of marketingcookies accepteert, zodat Google "
+"niets ontvangt van bezoekers die geen toestemming hebben gegeven."
+
+#: includes/class-admin.php:756
+msgid ""
+"On (Advanced Consent Mode): the Google tag and Google Tag Manager load "
+"right away. Until the visitor accepts, they set no cookies and send Google "
+"only cookieless pings, which Google uses to model the missing data. Google "
+"Analytics and Google Ads expect this mode, and with Basic mode they can "
+"report your consent signals as not active."
+msgstr ""
+"Aan (Geavanceerde Consent Mode): de Google-tag en Google Tag Manager worden "
+"direct geladen. Totdat de bezoeker accepteert, plaatsen ze geen cookies en "
+"sturen ze Google alleen cookieloze pings, waarmee Google de ontbrekende "
+"gegevens modelleert. Google Analytics en Google Ads verwachten deze modus, "
+"en in de basismodus kunnen ze je toestemmingssignalen als niet actief "
+"rapporteren."
+
+#: includes/class-admin.php:759
+msgid "Only applies while Consent Mode v2 is enabled. Other tracking scripts on the site stay blocked until consent, also those that Google Tag Manager adds (for example a Meta Pixel or LinkedIn in a Custom HTML tag): each waits for its own category, with no changes needed in the container."
+msgstr ""
+"Geldt alleen zolang Consent Mode v2 is ingeschakeld. Andere trackingscripts "
+"op de site blijven geblokkeerd tot er toestemming is, ook scripts die Google "
+"Tag Manager toevoegt (bijvoorbeeld een Meta Pixel of LinkedIn in een "
+"aangepaste HTML-tag): elk script wacht op zijn eigen categorie, zonder dat "
+"er iets in de container hoeft te veranderen."
+
+#: includes/class-admin.php:854
+msgid ""
+"Off by default. When on, the Google tag and Google Tag Manager load before "
+"consent instead of being blocked. Until the visitor accepts, they set no "
+"cookies and send Google only cookieless pings."
+msgstr ""
+"Standaard uit. Als deze optie aan staat, worden de Google-tag en Google Tag "
+"Manager vóór de toestemming geladen in plaats van geblokkeerd. Totdat de "
+"bezoeker accepteert, plaatsen ze geen cookies en sturen ze Google alleen "
+"cookieloze pings."
+
+#: includes/class-admin.php:863
+msgid "You can turn this off on the Script Blocking tab."
+msgstr "Je kunt dit uitschakelen op de tab Scriptblokkering."
+
+#: includes/class-admin.php:1136
+msgid ""
+"Advanced Consent Mode is on (Integration tab): the Google tag and Google "
+"Tag Manager load before consent and follow the Consent Mode signals instead "
+"of being blocked."
+msgstr ""
+"Geavanceerde Consent Mode staat aan (tab Integratie): de Google-tag en "
+"Google Tag Manager worden vóór de toestemming geladen en volgen de signalen "
+"van Consent Mode in plaats van geblokkeerd te worden."
+
+#: includes/class-admin.php:1168
+msgid ""
+"Block YouTube and Vimeo videos until the visitor accepts marketing cookies"
+msgstr ""
+"YouTube- en Vimeo-video's blokkeren totdat de bezoeker marketingcookies "
+"accepteert"
+
+#: includes/class-admin.php:684
+msgid "More information"
+msgstr "Meer informatie"
+
+#: includes/class-admin.php:823
+msgid "Basic Consent Mode: the Google tag waits until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies."
+msgstr ""
+"Basis Consent Mode: de Google-tag wacht totdat de bezoeker statistische "
+"cookies accepteert, en Google Tag Manager totdat de bezoeker statistische "
+"cookies of marketingcookies accepteert."
+
+#: includes/class-admin.php:823
+msgid ""
+"Advanced Consent Mode: the Google tag and Google Tag Manager load right "
+"away with these defaults, and send only cookieless pings until the visitor "
+"accepts."
+msgstr ""
+"Geavanceerde Consent Mode: de Google-tag en Google Tag Manager worden direct "
+"met deze standaardwaarden geladen en sturen alleen cookieloze pings totdat "
+"de bezoeker accepteert."
+
+#: includes/class-scanner.php:122
+msgctxt "cookie duration"
+msgid "1 minute"
+msgstr "1 minuut"
+
+#: includes/class-scanner.php:123
+msgctxt "cookie duration"
+msgid "30 minutes"
+msgstr "30 minuten"
+
+#: includes/class-scanner.php:124
+msgctxt "cookie duration"
+msgid "24 hours"
+msgstr "24 uur"
+
+#: includes/class-scanner.php:125
+msgctxt "cookie duration"
+msgid "1 day"
+msgstr "1 dag"
+
+#: includes/class-scanner.php:126
+msgctxt "cookie duration"
+msgid "30 days"
+msgstr "30 dagen"
+
+#: includes/class-scanner.php:127
+msgctxt "cookie duration"
+msgid "90 days"
+msgstr "90 dagen"
+
+#: includes/class-scanner.php:128
+msgctxt "cookie duration"
+msgid "6 months"
+msgstr "6 maanden"
+
+#: includes/class-scanner.php:129
+msgctxt "cookie duration"
+msgid "1 year"
+msgstr "1 jaar"
+
+#: includes/class-scanner.php:130
+msgctxt "cookie duration"
+msgid "2 years"
+msgstr "2 jaar"
+
+#: includes/class-scanner.php:131
+msgctxt "cookie duration"
+msgid "Session"
+msgstr "Sessie"
+
+#: includes/class-scanner.php:132
+msgctxt "cookie duration"
+msgid "Varies"
+msgstr "Wisselend"
+
+#: includes/class-scanner.php:135
+msgid "Google Analytics: stores and counts page views."
+msgstr "Google Analytics: slaat paginaweergaven op en telt ze."
+
+#: includes/class-scanner.php:136
+msgid "Google Analytics: distinguishes unique users."
+msgstr "Google Analytics: onderscheidt unieke gebruikers."
+
+#: includes/class-scanner.php:137
+msgid "Google Analytics: distinguishes users for 24 hours."
+msgstr "Google Analytics: onderscheidt gebruikers gedurende 24 uur."
+
+#: includes/class-scanner.php:138
+msgid "Google Analytics: throttles request rate."
+msgstr "Google Analytics: beperkt de frequentie van verzoeken."
+
+#: includes/class-scanner.php:139
+msgid "Google Ads: stores conversion data."
+msgstr "Google Ads: slaat conversiegegevens op."
+
+#: includes/class-scanner.php:140
+msgid "Google Ads: click tracking."
+msgstr "Google Ads: kliktracking."
+
+#: includes/class-scanner.php:141
+msgid "Google Tag Manager: throttles request rate."
+msgstr "Google Tag Manager: beperkt de frequentie van verzoeken."
+
+#: includes/class-scanner.php:144
+msgid "Meta Pixel: tracks visits across websites for ad targeting."
+msgstr ""
+"Meta Pixel: volgt bezoeken op verschillende websites voor gerichte "
+"advertenties."
+
+#: includes/class-scanner.php:145
+msgid "Meta Pixel: stores click identifiers."
+msgstr "Meta Pixel: slaat klik-ID's op."
+
+#: includes/class-scanner.php:146
+msgid "Facebook: ad delivery and measurement."
+msgstr "Facebook: weergave en meting van advertenties."
+
+#: includes/class-scanner.php:149
+msgid "HubSpot: tracks visitor identity."
+msgstr "HubSpot: houdt de identiteit van de bezoeker bij."
+
+#: includes/class-scanner.php:150
+msgid "HubSpot: tracks session information."
+msgstr "HubSpot: houdt sessie-informatie bij."
+
+#: includes/class-scanner.php:151
+msgid "HubSpot: tracks sessions for analytics."
+msgstr "HubSpot: houdt sessies bij voor statistieken."
+
+#: includes/class-scanner.php:152
+msgid "HubSpot: determines if visitor has restarted browser."
+msgstr "HubSpot: bepaalt of de bezoeker de browser opnieuw heeft opgestart."
+
+#: includes/class-scanner.php:153
+msgid "HubSpot: analytics and tracking."
+msgstr "HubSpot: statistieken en tracking."
+
+#: includes/class-scanner.php:156
+msgid "LinkedIn: browser identifier for ad targeting."
+msgstr "LinkedIn: browser-ID voor gerichte advertenties."
+
+#: includes/class-scanner.php:157
+msgid "LinkedIn: browser identifier."
+msgstr "LinkedIn: browser-ID."
+
+#: includes/class-scanner.php:158
+msgid "LinkedIn: data centre selection."
+msgstr "LinkedIn: keuze van het datacenter."
+
+#: includes/class-scanner.php:161
+msgid "WordPress: stores admin settings timestamp."
+msgstr "WordPress: slaat het tijdstempel van de beheerinstellingen op."
+
+#: includes/class-scanner.php:162
+msgid "WordPress: stores admin personalisation settings."
+msgstr ""
+"WordPress: slaat personalisatie-instellingen voor de beheeromgeving op."
+
+#: includes/class-scanner.php:163
+msgid "WordPress: authentication cookie for logged-in users."
+msgstr "WordPress: authenticatiecookie voor ingelogde gebruikers."
+
+#: includes/class-scanner.php:164
+msgid "WordPress: secure authentication cookie."
+msgstr "WordPress: beveiligde authenticatiecookie."
+
+#: includes/class-scanner.php:165
+msgid "WordPress: tests if cookies are enabled."
+msgstr "WordPress: test of cookies zijn ingeschakeld."
+
+#: includes/class-scanner.php:166
+msgid "WordPress: stores language preference."
+msgstr "WordPress: slaat de taalvoorkeur op."
+
+#: includes/class-scanner.php:167
+msgid "WordPress: remembers comment author details."
+msgstr "WordPress: onthoudt de gegevens van de auteur van een reactie."
+
+#: includes/class-scanner.php:170
+msgid "WooCommerce: stores cart and session data."
+msgstr "WooCommerce: slaat winkelwagen- en sessiegegevens op."
+
+#: includes/class-scanner.php:171
+msgid "WooCommerce: stores customer session."
+msgstr "WooCommerce: slaat de klantsessie op."
+
+#: includes/class-scanner.php:174
+msgid ""
+"Order attribution: keeps traffic-source tracking data compatible across "
+"updates."
+msgstr ""
+"Bestelattributie: houdt trackinggegevens over verkeersbronnen compatibel bij "
+"updates."
+
+#: includes/class-scanner.php:175
+msgid ""
+"Order attribution: records how you reached the site on your current visit."
+msgstr ""
+"Bestelattributie: legt vast hoe je bij je huidige bezoek op de site bent "
+"gekomen."
+
+#: includes/class-scanner.php:176
+msgid "Order attribution: records how you first reached the site."
+msgstr ""
+"Bestelattributie: legt vast hoe je voor het eerst op de site bent gekomen."
+
+#: includes/class-scanner.php:177
+msgid ""
+"Order attribution: stores the traffic source and campaign of your current "
+"visit."
+msgstr ""
+"Bestelattributie: slaat de verkeersbron en campagne van je huidige bezoek op."
+
+#: includes/class-scanner.php:178
+msgid ""
+"Order attribution: stores the traffic source and campaign of your first "
+"visit."
+msgstr ""
+"Bestelattributie: slaat de verkeersbron en campagne van je eerste bezoek op."
+
+#: includes/class-scanner.php:179
+msgid ""
+"Order attribution: stores visitor/session data used for marketing "
+"attribution."
+msgstr ""
+"Bestelattributie: slaat bezoekers-/sessiegegevens op voor "
+"marketingattributie."
+
+#: includes/class-scanner.php:180
+msgid "Order attribution: links page views within a visit for attribution."
+msgstr ""
+"Bestelattributie: koppelt paginaweergaven binnen een bezoek voor attributie."
+
+#: includes/class-scanner.php:181
+msgid "Order attribution: tracks the marketing source of your visit."
+msgstr "Bestelattributie: houdt de marketingbron van je bezoek bij."
+
+#: includes/class-scanner.php:184
+msgid ""
+"Jetpack Stats: assigns an anonymous identifier used to measure site traffic."
+msgstr ""
+"Jetpack Stats: kent een anonieme ID toe om het verkeer op de site te meten."
+
+#: includes/class-scanner.php:185
+msgid "Jetpack Stats: records referral and navigation data for analytics."
+msgstr ""
+"Jetpack Stats: legt verwijzings- en navigatiegegevens vast voor statistieken."
+
+#: includes/class-scanner.php:186
+msgid "Jetpack Stats: measures site traffic and visitor activity."
+msgstr ""
+"Jetpack Stats: meet het verkeer op de site en de activiteit van bezoekers."
+
+#: includes/class-scanner.php:189
+msgid "Polylang: stores visitor language preference."
+msgstr "Polylang: slaat de taalvoorkeur van de bezoeker op."
+
+#: includes/class-scanner.php:190
+msgid "MailPoet: tracks email subscriber activity."
+msgstr "MailPoet: houdt de activiteit van e-mailabonnees bij."
+
+#: includes/class-scanner.php:191
+msgid "Plausible: privacy-friendly analytics."
+msgstr "Plausible: privacyvriendelijke statistieken."
+
+#: includes/class-scanner.php:194
+msgid "Cloudflare: bot management cookie."
+msgstr "Cloudflare: cookie voor botbeheer."
+
+#: includes/class-scanner.php:195
+msgid "Cloudflare: verifies legitimate visitor."
+msgstr "Cloudflare: controleert of de bezoeker legitiem is."
+
+#: includes/class-scanner.php:196
+msgid "Cloudflare: identifies trusted web traffic."
+msgstr "Cloudflare: herkent betrouwbaar webverkeer."
+
+#: includes/class-scanner.php:199
+msgid "Hotjar: tracks user behaviour and feedback."
+msgstr "Hotjar: houdt gebruikersgedrag en feedback bij."
+
+#: includes/class-scanner.php:200
+msgid "Microsoft Clarity: stores a user ID and preferences."
+msgstr "Microsoft Clarity: slaat een gebruikers-ID en voorkeuren op."
+
+#: includes/class-scanner.php:201
+msgid "Microsoft Clarity: connects page views into a session."
+msgstr "Microsoft Clarity: voegt paginaweergaven samen tot een sessie."
+
+#: includes/class-scanner.php:204
+msgid "Stores your cookie consent preferences."
+msgstr "Slaat je voorkeuren voor cookietoestemming op."
+
+#: includes/class-scanner.php:205
+msgid ""
+"WP Consent API: stores your consent choice for necessary cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: slaat je toestemmingskeuze voor noodzakelijke cookies op. "
+"Gesynchroniseerd vanuit de cookiebanner."
+
+#: includes/class-scanner.php:206
+msgid ""
+"WP Consent API: stores your consent choice for analytics cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: slaat je toestemmingskeuze voor statistische cookies op. "
+"Gesynchroniseerd vanuit de cookiebanner."
+
+#: includes/class-scanner.php:207
+msgid ""
+"WP Consent API: stores your consent choice for anonymous statistics. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: slaat je toestemmingskeuze voor anonieme statistieken op. "
+"Gesynchroniseerd vanuit de cookiebanner."
+
+#: includes/class-scanner.php:208
+msgid ""
+"WP Consent API: stores your consent choice for marketing cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: slaat je toestemmingskeuze voor marketingcookies op. "
+"Gesynchroniseerd vanuit de cookiebanner."
+
+#: includes/class-scanner.php:209
+msgid ""
+"WP Consent API: stores your consent choice for preference cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: slaat je toestemmingskeuze voor voorkeurscookies op. "
+"Gesynchroniseerd vanuit de cookiebanner."
+
+#: includes/class-scanner.php:210
+msgid ""
+"WP Consent API: stores per-service consent overrides used by integrated "
+"plugins."
+msgstr ""
+"WP Consent API: slaat toestemmingsuitzonderingen per dienst op die "
+"geïntegreerde plugins gebruiken."
+
+#: includes/class-scanner.php:211
+msgid ""
+"WP Consent API: stores your cookie consent choice. Synced from your consent "
+"banner."
+msgstr ""
+"WP Consent API: slaat je keuze voor cookietoestemming op. Gesynchroniseerd "
+"vanuit de cookiebanner."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:195
+#, php-format
+msgid "“%s” is not a usable address. Use at least 4 characters without spaces, for example widget.example.com."
+msgstr ""
+"“%s” is geen bruikbaar adres. Gebruik minstens 4 tekens zonder spaties, "
+"bijvoorbeeld widget.example.com."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:200
+#, php-format
+msgid "“%s” would block every script on this site. Enter the address of the external service instead."
+msgstr ""
+"“%s” zou elk script op deze site blokkeren. Voer in plaats daarvan het adres "
+"van de externe dienst in."
+
+#: includes/class-script-blocker.php:840
+msgid "This content is blocked because it requires analytics cookies."
+msgstr ""
+"Deze inhoud is geblokkeerd omdat er statistische cookies voor nodig zijn."
+
+#: includes/class-script-blocker.php:841
+msgid "Accept analytics cookies"
+msgstr "Statistische cookies accepteren"
+
+#: includes/class-script-blocker.php:845
+msgid "This content is blocked because it requires preference cookies."
+msgstr "Deze inhoud is geblokkeerd omdat er voorkeurscookies voor nodig zijn."
+
+#: includes/class-script-blocker.php:846
+msgid "Accept preference cookies"
+msgstr "Voorkeurscookies accepteren"
+
+#: includes/class-admin.php:890 includes/class-admin.php:1203
+msgid "Block by address"
+msgstr "Blokkeren op adres"
+
+#: includes/class-admin.php:1213
+msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
+msgstr ""
+"Scripts in de HTML van de pagina worden alleen herkend zolang Aangepaste "
+"code blokkeren aan staat."
+
+#: includes/class-admin.php:1259 includes/class-admin.php:1289
+msgid "Address contains"
+msgstr "Adres bevat"
+
+#: includes/class-admin.php:1274
+msgid "Add address"
+msgstr "Adres toevoegen"
+
+#: includes/class-admin.php:1284
+msgid "Necessary (never blocked)"
+msgstr "Noodzakelijk (nooit geblokkeerd)"
+
+#: includes/class-admin.php:889
+msgid "Reviews widgets"
+msgstr "Reviewwidgets"
+
+#: includes/class-admin.php:889
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgstr ""
+"De reviewwidget van Trustmary wacht op toestemming voor statistische "
+"cookies, omdat hij een bezoekers-ID in de browser opslaat. Op zijn plaats "
+"wordt een melding met een accepteerknop getoond. Wil je hem direct laden, "
+"voeg dan widget.trustmary.com toe onder Blokkeren op adres met de categorie "
+"“Noodzakelijk (nooit geblokkeerd)”."
+
+#: includes/class-admin.php:890
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
+msgstr ""
+"Blokkeert elk ander script op basis van een deel van het adres totdat de "
+"bezoeker de categorie accepteert die je kiest, bijvoorbeeld een widget die "
+"de plugin niet herkent. Zet Melding tonen aan voor scripts die inhoud op de "
+"pagina tonen."
+
+#: includes/class-scanner.php:137
+msgctxt "cookie duration"
+msgid "Persistent"
+msgstr "Blijvend"
+
+#: includes/class-scanner.php:209
+msgid "Trustmary: stores a visitor ID, the landing page and conversions in the browser’s local storage."
+msgstr ""
+"Trustmary: slaat een bezoekers-ID, de landingspagina en conversies op in de "
+"lokale opslag van de browser."
+
+#: includes/class-scanner.php:224
+msgid "Reddit Pixel: identifies the browser for ad measurement."
+msgstr "Reddit Pixel: herkent de browser voor advertentiemeting."
+
+#: includes/class-scanner.php:225
+msgid ""
+"Microsoft Advertising: groups page views into a session for ad measurement."
+msgstr ""
+"Microsoft Advertising: groepeert paginaweergaven in een sessie voor "
+"advertentiemeting."
+
+#: includes/class-scanner.php:226
+msgid ""
+"Microsoft Advertising: identifies the visitor across visits for ad "
+"measurement."
+msgstr ""
+"Microsoft Advertising: herkent de bezoeker bij herhaalde bezoeken voor "
+"advertentiemeting."
+
+#: includes/class-scanner.php:227
+msgid "Criteo: stores a browser identifier for ad personalisation."
+msgstr "Criteo: slaat een browser-ID op voor gepersonaliseerde advertenties."
+
+#: includes/class-scanner.php:228
+msgid "Taboola: identifies the browser for ad targeting."
+msgstr "Taboola: herkent de browser voor gerichte advertenties."
+
+#: includes/class-scanner.php:229
+msgid "Klaviyo: recognises returning visitors for email marketing."
+msgstr "Klaviyo: herkent terugkerende bezoekers voor e-mailmarketing."
+
+#: includes/class-scanner.php:230
+msgid "Yandex Metrica: identifies visitors and stores session settings."
+msgstr "Yandex Metrica: herkent bezoekers en slaat sessie-instellingen op."
+
+#: includes/class-scanner.php:231
+msgid "Segment: stores an anonymous visitor ID and traits."
+msgstr "Segment: slaat een anonieme bezoekers-ID en kenmerken op."
+
+#: includes/class-scanner.php:232
+msgid "Intercom: keeps the chat messenger session and visitor identity."
+msgstr ""
+"Intercom: bewaart de sessie van de chatmessenger en de identiteit van de "
+"bezoeker."
+
+#: includes/class-scanner.php:233
+msgid "Crisp: keeps the chat session and visitor identity."
+msgstr "Crisp: bewaart de chatsessie en de identiteit van de bezoeker."
+
+#: includes/class-admin.php
+msgid "Cookie policy link text"
+msgstr "Linktekst cookiebeleid"
+
+#: includes/class-admin.php
+msgid "Cookie settings label"
+msgstr "Label cookie-instellingen"
+
+#: includes/class-admin.php
+msgid "Tooltip and screen reader label of the floating button, and the default text of the [kncc_cookie_settings] link."
+msgstr ""
+"Tooltip en schermlezerlabel van de zwevende knop, en de standaardtekst van "
+"de link [kncc_cookie_settings]."
+
+#: includes/class-admin.php
+msgid "Banner label for screen readers"
+msgstr "Bannerlabel voor schermlezers"
+
+#: includes/class-admin.php
+msgid "Cookie categories"
+msgstr "Cookiecategorieën"
+
+#: includes/class-admin.php
+msgid "Text when no cookies are used"
+msgstr "Tekst als er geen cookies worden gebruikt"
+
+#: includes/class-admin.php
+msgid "Policy page texts"
+msgstr "Teksten beleidspagina"
+
+#: includes/class-admin.php
+msgid "Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab."
+msgstr ""
+"Teksten van de cookieverklaring [kncc_cookie_policy]. Laat een veld leeg om "
+"de ingebouwde tekst te gebruiken, die in elke taal is vertaald. "
+"Categorienamen bewerk je op de tab Algemeen."
+
+#: includes/class-admin.php
+msgid "Category descriptions"
+msgstr "Categoriebeschrijvingen"
+
+#: includes/class-admin.php
+msgid "Consent status"
+msgstr "Toestemmingsstatus"
+
+#: includes/class-admin.php
+msgid "Heading"
+msgstr "Koptekst"
+
+#: includes/class-admin.php
+msgid "Before the visitor chooses"
+msgstr "Voordat de bezoeker kiest"
+
+#: includes/class-admin.php
+msgid "Technical note (shown when WP Consent API is active)"
+msgstr "Technische opmerking (getoond als WP Consent API actief is)"
+
+#: includes/class-admin.php
+msgid "Buttons and messages"
+msgstr "Knoppen en meldingen"
+
+#: includes/class-admin.php
+msgid "Edit preferences button"
+msgstr "Knop Voorkeuren wijzigen"
+
+#: includes/class-admin.php
+msgid "Message when no cookies are registered"
+msgstr "Melding als er geen cookies zijn geregistreerd"
+
+#: includes/class-admin.php
+msgid "Table column headings"
+msgstr "Kolomkoppen van de tabel"
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 added cookies for services that are not on your site. They have been removed from the cookie list: %s. If your site does use some of these services, put the cookies back and delete the ones it does not use."
+msgstr ""
+"Versie 1.8.10 heeft cookies toegevoegd voor diensten die niet op je site "
+"staan. Ze zijn uit de cookielijst verwijderd: %s. Gebruikt je site toch "
+"enkele van deze diensten, zet de cookies dan terug en verwijder de cookies "
+"die je site niet gebruikt."
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 may have added cookies for services that are not on your site: %s. The Google Tag Manager on your site can load any of them, so they were kept. Remove the ones your site does not use."
+msgstr ""
+"Versie 1.8.10 heeft mogelijk cookies toegevoegd voor diensten die niet op je "
+"site staan: %s. Google Tag Manager op je site kan elk van deze diensten "
+"laden, daarom zijn de cookies behouden. Verwijder de cookies die je site "
+"niet gebruikt."
+
+#: includes/class-admin.php
+msgid "Put the cookies back"
+msgstr "Cookies terugzetten"
+
+#: includes/class-admin.php
+msgid "Hide this notice"
+msgstr "Deze melding verbergen"
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr ""
+"Getoond wanneer bezoekers Aanpassen openen. Laat een veld leeg om de "
+"ingebouwde tekst te gebruiken."
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr "Meldingen bij geblokkeerde inhoud"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr "Melding bij YouTube & Vimeo"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr "Accepteerknop bij YouTube & Vimeo"
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr "Melding bij inhoud (Statistieken)"
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr "Accepteerknop bij inhoud (Statistieken)"
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr "Melding bij inhoud (Voorkeuren)"
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr "Accepteerknop bij inhoud (Voorkeuren)"
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr "Of voeg overal een link toe met de shortcode:"
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr ""
+"Aanbevolen. Schakel dit alleen uit als een cache- of snelheidsplugin de "
+"werking van de site verstoort."
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr "Automatisch geblokkeerd, geen instellingen nodig."
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr "Melding tonen"
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr "Geen cookies geselecteerd."
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr "Scripts van %s niet meer gevonden op de homepage"
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr "Taal die je bewerkt: %s. Opslaan geldt alleen voor deze taal."
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr "Je bewerkt de standaardtaal. Andere talen hebben hun eigen teksten."
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr ""
+"Bekijk een voorbeeld van de banner met je huidige, nog niet opgeslagen "
+"instellingen."
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr "Het live voorbeeld werkt alleen met Pluginstijl."
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr "Schermlezerlabel van de ×-knop."
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr ""
+"Houdt elk ander script tegen totdat de bezoeker de bijbehorende categorie "
+"accepteert. Gebruik dit voor widgets en tools die de plugin niet herkent."
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr ""
+"Met Noodzakelijk (nooit geblokkeerd) wordt een adres direct geladen, ook als "
+"de plugin het anders zou blokkeren."
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr ""
+"Melding tonen: waar het geblokkeerde script inhoud zou tonen (reviews, "
+"boekingen, een kaart), verschijnt een melding met een accepteerknop in "
+"plaats van een lege plek. Niet nodig voor trackingscripts."
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
+msgstr "opent in een nieuwe tab"

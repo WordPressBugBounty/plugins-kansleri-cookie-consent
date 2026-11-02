@@ -431,6 +431,19 @@
   text-underline-offset: 2px;
 }
 
+/* Words for screen readers only, such as "opens in a new tab" after the Cookie Policy link. */
+.kncc-sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
 /* ── Category toggles ── */
 
 .kncc-details {
@@ -506,6 +519,21 @@
 .kncc-category__check:disabled + .kncc-category__toggle {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+/* The switch is drawn over a hidden checkbox, so the ring that shows keyboard focus goes on the switch. */
+.kncc-category__check:focus-visible + .kncc-category__toggle {
+  outline: 2px solid var(--kncc-primary, #3D4872);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kncc-banner .kncc-btn,
+  .kncc-category__toggle,
+  .kncc-category__toggle::after,
+  .kncc-floating-btn {
+    transition: none !important;
+  }
 }
 
 .kncc-category--empty .kncc-category__label {
