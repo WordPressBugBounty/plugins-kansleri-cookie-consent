@@ -1,0 +1,2337 @@
+# Maltese translation for Kansleri Cookie Consent
+# Copyright (C) 2024 Kansleri.fi
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kansleri Cookie Consent 1.8.13\n"
+"Report-Msgid-Bugs-To: https://kansleri.fi\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
+"PO-Revision-Date: 2026-11-03 12:00+0200\n"
+"Last-Translator: Kansleri.fi\n"
+"Language-Team: Maltese\n"
+"Language: mt_MT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==0 || (n%100>=2 && n%100<=10) ? 1 : (n%100>=11 && n%100<=19) ? 2 : 3);\n"
+
+#: includes/class-admin.php:20 includes/class-admin.php:21
+#: includes/class-admin.php:122
+msgid "Cookie Consent"
+msgstr "Kunsens għall-Cookies"
+
+#: includes/class-admin.php:67 includes/class-admin.php:1228
+msgid "Settings saved."
+msgstr "L-issettjar ġie ssejvjat."
+
+#: includes/class-admin.php:68
+msgid "An error occurred."
+msgstr "Seħħ żball."
+
+#: includes/class-admin.php:69
+msgid "Scanning..."
+msgstr "Qed jiskennja…"
+
+#: includes/class-admin.php:70
+msgid "Scan complete."
+msgstr "L-iskennjar tlesta."
+
+#: includes/class-admin.php:71
+msgid "No new cookies found."
+msgstr "Ma nstabu l-ebda cookies ġodda."
+
+#: includes/class-admin.php:72
+msgid "Remove this cookie?"
+msgstr "Tneħħi dan il-cookie?"
+
+#: includes/class-admin.php:73 includes/class-admin.php:414
+#: includes/class-admin.php:698
+msgid "Scan Cookies"
+msgstr "Skennja l-Cookies"
+
+#: includes/class-admin.php:74
+msgid "Invalid JSON format. Please import a valid cookie array."
+msgstr ""
+"Format JSON mhux validu. Jekk jogħġbok importa array validu ta' cookies."
+
+#: includes/class-admin.php:75
+msgid "Cookies imported into the table. Save cookies to persist changes."
+msgstr ""
+"Il-cookies ġew importati fit-tabella. Issejvja l-cookies biex il-bidliet "
+"jinżammu."
+
+#: includes/class-admin.php:76
+msgid "No valid cookies found in imported JSON."
+msgstr "Ma nstabu l-ebda cookies validi fil-JSON importat."
+
+#: includes/class-admin.php:77
+msgid "No cookie rows available to export."
+msgstr "M'hemm l-ebda ringiela ta' cookies għall-esportazzjoni."
+
+#: includes/class-admin.php:78
+msgid "AI prompt copied to clipboard."
+msgstr "Il-prompt għall-IA ġie kkupjat fil-clipboard."
+
+#: includes/class-admin.php:79
+msgid ""
+"Could not copy prompt automatically. Select all and copy from the box below."
+msgstr ""
+"Il-prompt ma setax jiġi kkupjat awtomatikament. Agħżel kollox u kkopja "
+"mill-kaxxa hawn taħt."
+
+#: includes/class-admin.php:81
+msgid "AI prompt (copied to clipboard — or select all and copy manually):"
+msgstr ""
+"Prompt għall-IA (ikkupjat fil-clipboard – jew agħżel kollox u kkopja "
+"manwalment):"
+
+#: includes/class-admin.php:82
+msgid ""
+"Policy page AI prompt (copied to clipboard — or select all and copy "
+"manually):"
+msgstr ""
+"Prompt għall-IA għall-paġna tal-politika (ikkupjat fil-clipboard – jew "
+"agħżel kollox u kkopja manwalment):"
+
+#: includes/class-admin.php:83
+msgid ""
+"Prompt ready below — select all (Ctrl+A) inside the box and copy (Ctrl+C)."
+msgstr ""
+"Il-prompt lest hawn taħt – agħżel kollox (Ctrl+A) ġewwa l-kaxxa u kkopja "
+"(Ctrl+C)."
+
+#: includes/class-admin.php:80
+msgid "All cookies are done! Every cookie has a description."
+msgstr "Il-cookies kollha lesti! Kull cookie għandu deskrizzjoni."
+
+#: includes/class-admin.php:81 includes/class-admin.php:457
+msgid "No cookies registered yet."
+msgstr "Għad m'hemm l-ebda cookies reġistrati."
+
+#: includes/class-admin.php:82 includes/class-admin.php:473
+msgid "Remove"
+msgstr "Neħħi"
+
+#: includes/class-admin.php:83
+msgid ""
+"This will permanently delete all consent log records and statistics. "
+"Continue?"
+msgstr ""
+"Dan se jħassar b'mod permanenti r-rekords kollha tar-reġistru tal-kunsens u "
+"l-istatistika. Tkompli?"
+
+#: includes/class-admin.php:84 includes/class-admin.php:1150
+msgid "All consent log records and statistics have been purged."
+msgstr "Ir-rekords kollha tar-reġistru tal-kunsens u l-istatistika tħassru."
+
+#: includes/class-admin.php:85
+msgid "AI prompt for policy page copied to clipboard."
+msgstr "Il-prompt għall-IA għall-paġna tal-politika ġie kkupjat fil-clipboard."
+
+#: includes/class-admin.php:86
+msgid "CSS template copied to clipboard."
+msgstr "Il-mudell tas-CSS ġie kkupjat fil-clipboard."
+
+#: includes/class-admin.php:88
+#, php-format
+msgid "%d known cookie(s) added automatically:"
+msgstr "Cookies magħrufa miżjuda awtomatikament (%d):"
+
+#: includes/class-admin.php:90
+#, php-format
+msgid ""
+"%d unknown cookie(s) added — please set their category and description "
+"below."
+msgstr ""
+"Cookies mhux magħrufa miżjuda (%d) – jekk jogħġbok daħħal il-kategorija u "
+"d-deskrizzjoni tagħhom hawn taħt."
+
+#: includes/class-admin.php:91
+msgid "Unknown"
+msgstr "Mhux magħrufa"
+
+#: includes/class-admin.php:92
+msgid "Added — categorize and describe in the table below"
+msgstr "Miżjud – ikkategorizzah u ddeskrivih fit-tabella hawn taħt"
+
+#: includes/class-admin.php:94
+#, php-format
+msgid "%d cookie(s) inferred from detected scripts on your site:"
+msgstr "Cookies dedotti mill-iscripts misjuba fis-sit tiegħek (%d):"
+
+#: includes/class-admin.php:95
+msgid ""
+"These cookies are expected from tracking scripts on your site, even when "
+"blocked until consent."
+msgstr ""
+"Dawn il-cookies huma mistennija mill-iscripts tat-traċċar fis-sit tiegħek, "
+"anke meta jkunu mblukkati sal-kunsens."
+
+#: includes/class-admin.php:97
+#, php-format
+msgid ""
+"%d browser cookie(s) skipped — found in your browser but no matching script "
+"on this site:"
+msgstr ""
+"Cookies tal-browser maqbuża (%d) – instabu fil-browser tiegħek iżda m'hemm "
+"l-ebda script korrispondenti f'dan is-sit:"
+
+#: includes/class-admin.php:481
+msgid ""
+"%d cookie was automatically added based on tracking scripts detected on your"
+" site."
+msgid_plural ""
+"%d cookies were automatically added based on tracking scripts detected on "
+"your site."
+msgstr[0] ""
+"%d cookie ġie miżjud awtomatikament abbażi tal-iscripts tat-traċċar misjuba "
+"fis-sit tiegħek."
+msgstr[1] ""
+"%d cookies ġew miżjuda awtomatikament abbażi tal-iscripts tat-traċċar "
+"misjuba fis-sit tiegħek."
+msgstr[2] ""
+"%d cookie ġew miżjuda awtomatikament abbażi tal-iscripts tat-traċċar misjuba "
+"fis-sit tiegħek."
+msgstr[3] ""
+"%d cookie ġew miżjuda awtomatikament abbażi tal-iscripts tat-traċċar misjuba "
+"fis-sit tiegħek."
+
+#: includes/class-admin.php:128
+msgid "General"
+msgstr "Ġenerali"
+
+#: includes/class-admin.php:131 kansleri-cookie-consent.php:571
+msgid "Cookies"
+msgstr "Cookies"
+
+#: includes/class-admin.php:134
+msgid "Policy Page"
+msgstr "Paġna tal-politika"
+
+#: includes/class-admin.php:137
+msgid "Integration"
+msgstr "Integrazzjoni"
+
+#: includes/class-admin.php:140
+msgid "Script Blocking"
+msgstr "Imblukkar tal-iscripts"
+
+#: includes/class-admin.php:143
+msgid "Statistics"
+msgstr "Statistika"
+
+#: includes/class-admin.php:146
+msgid "Documentations"
+msgstr "Dokumentazzjoni"
+
+#: includes/class-admin.php:210
+msgid "Open banner preview"
+msgstr "Iftaħ il-previżjoni tal-banner"
+
+#: includes/class-admin.php:222 includes/class-admin.php:689
+msgid "Banner style"
+msgstr "Stil tal-banner"
+
+#: includes/class-admin.php:225
+msgid "Bottom bar"
+msgstr "Strixxa fil-qiegħ"
+
+#: includes/class-admin.php:226
+msgid "Centered modal"
+msgstr "Tieqa fiċ-ċentru"
+
+#: includes/class-admin.php:227
+msgid "Corner popup"
+msgstr "Kaxxa fil-kantuniera"
+
+#: includes/class-admin.php:233
+msgid "Colors"
+msgstr "Kuluri"
+
+#: includes/class-admin.php:237
+msgid "Banner background"
+msgstr "Sfond tal-banner"
+
+#: includes/class-admin.php:238 includes/class-admin.php:275
+msgid "Heading text"
+msgstr "Test tat-titlu"
+
+#: includes/class-admin.php:239
+msgid "Body text"
+msgstr "Test prinċipali"
+
+#: includes/class-admin.php:240
+msgid "Primary button"
+msgstr "Buttuna primarja"
+
+#: includes/class-admin.php:241
+msgid "Primary button text"
+msgstr "Test tal-buttuna primarja"
+
+#: includes/class-admin.php:242
+msgid "Secondary button"
+msgstr "Buttuna sekondarja"
+
+#: includes/class-admin.php:243
+msgid "Secondary button text"
+msgstr "Test tal-buttuna sekondarja"
+
+#: includes/class-admin.php:265 includes/class-admin.php:691
+msgid "Text and font style"
+msgstr "Stil tat-test u tat-tipa"
+
+#: includes/class-admin.php:268 includes/class-admin.php:521
+msgid "Theme style (inherit site typography)"
+msgstr "Stil tat-tema (jiret it-tipografija tas-sit)"
+
+#: includes/class-admin.php:269 includes/class-admin.php:522
+msgid "Plugin style (strict font sizes/colors)"
+msgstr "Stil tal-plugin (daqsijiet u kuluri fissi)"
+
+#: includes/class-admin.php:281
+msgid "Description text"
+msgstr "Test tad-deskrizzjoni"
+
+#: includes/class-admin.php:287
+msgid "Accept button text"
+msgstr "Test tal-buttuna tal-aċċettazzjoni"
+
+#: includes/class-admin.php:291
+msgid "Reject button text"
+msgstr "Test tal-buttuna tar-rifjut"
+
+#: includes/class-admin.php:295
+msgid "Customize button text"
+msgstr "Test tal-buttuna tal-personalizzazzjoni"
+
+#: includes/class-admin.php:299
+msgid "Save preferences button text"
+msgstr "Test tal-buttuna tal-ħażna tal-preferenzi"
+
+#: includes/class-admin.php:303 includes/class-script-blocker.php:187
+msgid "This content is blocked because it requires marketing cookies."
+msgstr "Dan il-kontenut huwa mblukkat għax jeħtieġ cookies tal-marketing."
+
+#: includes/class-admin.php:304 includes/class-script-blocker.php:190
+msgid "Accept marketing cookies"
+msgstr "Aċċetta l-cookies tal-marketing"
+
+#: includes/class-admin.php:318 includes/class-admin.php:693
+msgid "Floating settings button"
+msgstr "Buttuna tal-issettjar li tgħum"
+
+#: includes/class-admin.php:322
+msgid ""
+"Show a small floating button so visitors can re-open their cookie "
+"preferences"
+msgstr ""
+"Uri buttuna żgħira li tgħum biex il-viżitaturi jkunu jistgħu jerġgħu jiftħu "
+"l-preferenzi tagħhom dwar il-cookies"
+
+#: includes/class-admin.php:329
+msgid "Copied!"
+msgstr "Ikkupjat!"
+
+#: includes/class-admin.php:329 includes/class-admin.php:330
+msgid "Copy"
+msgstr "Ikkopja"
+
+#: includes/class-admin.php:346 includes/class-admin.php:531
+#: includes/class-admin.php:664
+msgid "Save Settings"
+msgstr "Issejvja l-issettjar"
+
+#: includes/class-admin.php:370
+msgid "Banner preview"
+msgstr "Previżjoni tal-banner"
+
+#: includes/class-admin.php:415
+msgid "Add Cookie"
+msgstr "Żid cookie"
+
+#: includes/class-admin.php:419
+msgid "Need help describing these cookies?"
+msgstr "Għandek bżonn għajnuna biex tiddeskrivi dawn il-cookies?"
+
+#: includes/class-admin.php:421
+msgid ""
+"Click the button below to copy a ready-made AI prompt with your cookie data."
+msgstr ""
+"Ikklikkja l-buttuna hawn taħt biex tikkopja prompt lest għall-IA bid-data "
+"tal-cookies tiegħek."
+
+#: includes/class-admin.php:422
+msgid "Paste the prompt into an AI tool (ChatGPT, Claude, Gemini, etc.)."
+msgstr "Waħħal il-prompt f'għodda tal-IA (ChatGPT, Claude, Gemini, eċċ.)."
+
+#: includes/class-admin.php:423
+msgid "The AI will return improved JSON with clear cookie descriptions."
+msgstr "L-IA se tagħti lura JSON imtejjeb b'deskrizzjonijiet ċari tal-cookies."
+
+#: includes/class-admin.php:424
+msgid ""
+"Copy the AI response and paste it into the text box that appears below."
+msgstr ""
+"Ikkopja t-tweġiba tal-IA u waħħalha fil-kaxxa tat-test li tidher hawn taħt."
+
+#: includes/class-admin.php:425
+msgid "Click Import — cookies are saved automatically."
+msgstr "Ikklikkja Importa – il-cookies jiġu ssejvjati awtomatikament."
+
+#: includes/class-admin.php:429
+msgid "Copy AI Prompt to Clipboard"
+msgstr "Ikkopja l-prompt għall-IA fil-clipboard"
+
+#: includes/class-admin.php:433
+msgid "Paste the AI response here:"
+msgstr "Waħħal it-tweġiba tal-IA hawn:"
+
+#: includes/class-admin.php:434
+msgid "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+msgstr "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+
+#: includes/class-admin.php:436
+msgid "Import"
+msgstr "Importa"
+
+#: includes/class-admin.php:447
+msgid "Name"
+msgstr "Isem"
+
+#: includes/class-admin.php:448 includes/class-admin.php:989
+msgid "Category"
+msgstr "Kategorija"
+
+#: includes/class-admin.php:449 includes/class-policy-page.php:91
+#: includes/class-policy-page.php:100
+msgid "Provider"
+msgstr "Fornitur"
+
+#: includes/class-admin.php:450 includes/class-policy-page.php:93
+#: includes/class-policy-page.php:102
+msgid "Duration"
+msgstr "Durata"
+
+#: includes/class-admin.php:451
+msgid "Description"
+msgstr "Deskrizzjoni"
+
+#: includes/class-admin.php:464 kansleri-cookie-consent.php:335
+msgid "Necessary"
+msgstr "Neċessarji"
+
+#: includes/class-admin.php:465 kansleri-cookie-consent.php:339
+msgid "Analytics"
+msgstr "Analitika"
+
+#: includes/class-admin.php:466 kansleri-cookie-consent.php:343
+msgid "Marketing"
+msgstr "Marketing"
+
+#: includes/class-admin.php:467 kansleri-cookie-consent.php:347
+msgid "Preferences"
+msgstr "Preferenzi"
+
+#: includes/class-admin.php:480 includes/class-admin.php:700
+msgid "Save Cookies"
+msgstr "Issejvja l-Cookies"
+
+#: includes/class-admin.php:494
+msgid ""
+"No cookie policy page has been selected. Set a Privacy Policy page in "
+"Settings → Privacy, or choose a page below."
+msgstr ""
+"Ma ntgħażlet l-ebda paġna tal-politika dwar il-cookies. Issettja paġna "
+"tal-Politika tal-Privatezza f'Issettjar → Privatezza, jew agħżel paġna hawn "
+"taħt."
+
+#: includes/class-admin.php:502 includes/class-admin.php:705
+msgid "Cookie policy page"
+msgstr "Paġna tal-politika dwar il-cookies"
+
+#: includes/class-admin.php:505
+msgid "— Select a page —"
+msgstr "— Agħżel paġna —"
+
+#: includes/class-admin.php:510
+#, php-format
+msgid "%s (WordPress Privacy Policy)"
+msgstr "%s (Politika tal-Privatezza ta' WordPress)"
+
+#: includes/class-admin.php:513
+msgid ""
+"Defaults automatically to the WordPress Privacy Policy page (Settings → "
+"Privacy). Add the shortcode [kncc_cookie_policy] to that page to show the "
+"cookie declaration."
+msgstr ""
+"Awtomatikament tintuża l-paġna tal-Politika tal-Privatezza ta' WordPress "
+"(Issettjar → Privatezza). Żid ix-shortcode [kncc_cookie_policy] f'dik "
+"il-paġna biex turi d-dikjarazzjoni tal-cookies."
+
+#: includes/class-admin.php:518
+msgid "Policy page style"
+msgstr "Stil tal-paġna tal-politika"
+
+#: includes/class-admin.php:525
+msgid ""
+"Controls the styling of the [kncc_cookie_policy] cookie declaration table."
+msgstr ""
+"Jikkontrolla l-istil tat-tabella tad-dikjarazzjoni tal-cookies "
+"[kncc_cookie_policy]."
+
+#: includes/class-admin.php:628
+msgid ""
+"Theme style is the default so the policy page matches your site typography. "
+"Switch to Plugin style for strict plugin sizes and colors."
+msgstr ""
+"L-istil tat-tema huwa l-għażla awtomatika, biex il-paġna tal-politika taqbel "
+"mat-tipografija tas-sit tiegħek. Aqleb għall-istil tal-plugin għal daqsijiet "
+"u kuluri fissi tal-plugin."
+
+#: includes/class-admin.php:539
+msgid "Preview Policy Page"
+msgstr "Previżjoni tal-paġna tal-politika"
+
+#: includes/class-admin.php:546
+msgid "Generate cookie policy page content with AI"
+msgstr "Iġġenera l-kontenut tal-paġna tal-politika dwar il-cookies bl-IA"
+
+#: includes/class-admin.php:548
+msgid ""
+"Copy the prompt below and paste it into an AI tool. It will generate a "
+"complete cookie and privacy policy page in your site language. The cookie "
+"declaration will be handled automatically by the [kncc_cookie_policy] "
+"shortcode. Paste the generated HTML into your policy page."
+msgstr ""
+"Ikkopja l-prompt hawn taħt u waħħlu f'għodda tal-IA. Se jiġġenera paġna "
+"sħiħa tal-politika dwar il-cookies u l-privatezza bil-lingwa tas-sit "
+"tiegħek. Id-dikjarazzjoni tal-cookies tiġi ġestita awtomatikament "
+"mix-shortcode [kncc_cookie_policy]. Waħħal l-HTML iġġenerat fil-paġna "
+"tal-politika tiegħek."
+
+#: includes/class-admin.php:552
+msgid "Copy AI Prompt for Policy Page"
+msgstr "Ikkopja l-prompt għall-IA għall-paġna tal-politika"
+
+#: includes/class-admin.php:565
+msgid "Detected integrations"
+msgstr "Integrazzjonijiet misjuba"
+
+#: includes/class-admin.php:692
+msgid ""
+"Active — Site Kit sets consent defaults for its own regions. This plugin "
+"sets a denied default for all other visitors and sends consent updates."
+msgstr ""
+"Attiva – Site Kit jissettja l-valuri awtomatiċi tal-kunsens għar-reġjuni "
+"tiegħu. Dan il-plugin jissettja valur awtomatiku ta' ċaħda għall-viżitaturi "
+"l-oħra kollha u jibgħat aġġornamenti tal-kunsens."
+
+#: includes/class-admin.php:575
+msgid ""
+"Active — Site Kit consent mode not enabled. This plugin handles all consent "
+"signals."
+msgstr ""
+"Attiva – il-Consent Mode ta' Site Kit mhux attivat. Dan il-plugin jieħu "
+"ħsieb is-sinjali kollha tal-kunsens."
+
+#: includes/class-admin.php:586
+msgid ""
+"Active — consent status is shared with other plugins via the WP Consent API."
+msgstr ""
+"Attiva – l-istatus tal-kunsens jinqasam ma' plugins oħra permezz tal-WP "
+"Consent API."
+
+#: includes/class-admin.php:598 includes/class-admin.php:712
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: includes/class-admin.php:602
+msgid ""
+"Enable Consent Mode v2 (outputs consent defaults in &lt;head&gt; before GTM)"
+msgstr ""
+"Attiva Consent Mode v2 (idaħħal il-valuri awtomatiċi tal-kunsens "
+"f'&lt;head&gt; qabel GTM)"
+
+#: includes/class-admin.php:610
+msgid ""
+"Forced on because Google Site Kit is active. Consent Mode is required for "
+"Site Kit to receive consent signals."
+msgstr ""
+"Attivat b'mod obbligatorju għax Google Site Kit huwa attiv. Consent Mode "
+"huwa meħtieġ biex Site Kit jirċievi s-sinjali tal-kunsens."
+
+#: includes/class-admin.php:614
+msgid ""
+"Consent Mode tells Google tags what the visitor has allowed (for example "
+"analytics or ads). This plugin sends a denied-by-default signal before tags "
+"run, and sends an updated signal after the visitor chooses. It controls "
+"consent signals only: you still need to install GTM/GA scripts separately."
+msgstr ""
+"Consent Mode jgħid lit-tags ta' Google x'ippermetta l-viżitatur (pereżempju "
+"analitika jew reklami). Dan il-plugin jibgħat sinjal ta' ċaħda awtomatika "
+"qabel ma jibdew jaħdmu t-tags, u jibgħat sinjal aġġornat wara li l-viżitatur "
+"jagħżel. Jikkontrolla s-sinjali tal-kunsens biss: xorta jeħtieġ li tinstalla "
+"l-iscripts ta' GTM/GA separatament."
+
+#: includes/class-admin.php:740
+msgid ""
+"Site Kit sets consent defaults for its own regions. This plugin adds a "
+"denied default for all other visitors and sends each visitor's choice as a "
+"consent update."
+msgstr ""
+"Site Kit jissettja l-valuri awtomatiċi tal-kunsens għar-reġjuni tiegħu. Dan "
+"il-plugin iżid valur awtomatiku ta' ċaħda għall-viżitaturi l-oħra kollha u "
+"jibgħat l-għażla ta' kull viżitatur bħala aġġornament tal-kunsens."
+
+#: includes/class-admin.php:630
+msgid "Need Google Analytics 4 or Google Tag Manager?"
+msgstr "Għandek bżonn Google Analytics 4 jew Google Tag Manager?"
+
+#: includes/class-admin.php:633
+msgid ""
+"We recommend installing Google Site Kit — Google's official WordPress "
+"plugin. It sets up GA4 and GTM in a few clicks, and works seamlessly with "
+"Kansleri Cookie Consent: Consent Mode v2 signals are handled automatically, "
+"with no double-loading or conflicts."
+msgstr ""
+"Nirrakkomandaw li tinstalla Google Site Kit – il-plugin uffiċjali ta' Google "
+"għal WordPress. Jissettja GA4 u GTM fi ftit klikks, u jaħdem bla xkiel ma' "
+"Kansleri Cookie Consent: is-sinjali ta' Consent Mode v2 jiġu ġestiti "
+"awtomatikament, mingħajr tagħbija doppja jew kunflitti."
+
+#: includes/class-admin.php:638
+msgid "Install Google Site Kit"
+msgstr "Installa Google Site Kit"
+
+#: includes/class-admin.php:649
+msgid "Consent Mode defaults (auto-injected in &lt;head&gt;)"
+msgstr ""
+"Valuri awtomatiċi ta' Consent Mode (miżjuda awtomatikament f'&lt;head&gt;)"
+
+#: includes/class-admin.php:673
+msgid "Installation guide"
+msgstr "Gwida għall-installazzjoni"
+
+#: includes/class-admin.php:675
+msgid "Activate the plugin and open Settings > Cookie Consent."
+msgstr "Attiva l-plugin u iftaħ Issettjar > Kunsens għall-Cookies."
+
+#: includes/class-admin.php:676
+msgid "Configure banner texts, style, and button labels in the General tab."
+msgstr ""
+"Ikkonfigura t-testi tal-banner, l-istil u t-tikketti tal-buttuni fit-tab "
+"Ġenerali."
+
+#: includes/class-admin.php:677
+msgid ""
+"Open the Integration tab and enable Google Consent Mode v2 if you use "
+"GTM/Google tags."
+msgstr ""
+"Iftaħ it-tab Integrazzjoni u attiva Google Consent Mode v2 jekk tuża GTM jew "
+"it-tags ta' Google."
+
+#: includes/class-admin.php:678
+msgid ""
+"Open the Cookies tab, run Scan Cookies, then review and categorize unknown "
+"cookies."
+msgstr ""
+"Iftaħ it-tab Cookies, ħaddem Skennja l-Cookies, imbagħad irrevedi u "
+"kkategorizza l-cookies mhux magħrufa."
+
+#: includes/class-admin.php:679
+msgid ""
+"If unknown cookies are found, an AI helper appears: copy the prompt, paste "
+"it into an AI tool, paste the response back into the text box, click Import,"
+" then Save Cookies."
+msgstr ""
+"Jekk jinstabu cookies mhux magħrufa, jidher assistent tal-IA: ikkopja "
+"l-prompt, waħħlu f'għodda tal-IA, waħħal it-tweġiba lura fil-kaxxa tat-test, "
+"ikklikkja Importa, imbagħad Issejvja l-Cookies."
+
+#: includes/class-admin.php:680
+msgid ""
+"Confirm the Cookie Policy page in the Policy Page tab — it defaults to the "
+"WordPress Privacy Policy page."
+msgstr ""
+"Ikkonferma l-paġna tal-Politika dwar il-Cookies fit-tab Paġna tal-politika – "
+"awtomatikament tintuża l-paġna tal-Politika tal-Privatezza ta' WordPress."
+
+#: includes/class-admin.php:681
+msgid ""
+"Use the AI prompt on the Policy Page tab to generate the full cookie policy "
+"page content. Paste the generated HTML into your policy page."
+msgstr ""
+"Uża l-prompt għall-IA fit-tab Paġna tal-politika biex tiġġenera l-kontenut "
+"sħiħ tal-paġna tal-politika dwar il-cookies. Waħħal l-HTML iġġenerat "
+"fil-paġna tal-politika tiegħek."
+
+#: includes/class-admin.php:682
+msgid "Review the Script Blocking tab to see which scripts are auto-blocked."
+msgstr ""
+"Irrevedi t-tab Imblukkar tal-iscripts biex tara liema scripts huma mblukkati "
+"awtomatikament."
+
+#: includes/class-admin.php:685
+msgid "What each option means"
+msgstr "X'tfisser kull għażla"
+
+#: includes/class-admin.php:687
+msgid "General tab"
+msgstr "It-tab Ġenerali"
+
+#: includes/class-admin.php:689
+msgid "Choose visual placement of the banner (bar, modal, corner)."
+msgstr "Agħżel il-pożizzjoni viżiva tal-banner (strixxa, tieqa, kantuniera)."
+
+#: includes/class-admin.php:690
+msgid "Controls the main accent color used by buttons and links."
+msgstr "Jikkontrolla l-kulur ewlieni tal-enfasi użat mill-buttuni u mil-links."
+
+#: includes/class-admin.php:690
+msgid "Primary color"
+msgstr "Kulur primarju"
+
+#: includes/class-admin.php:691
+msgid ""
+"Theme style inherits site typography. Plugin style uses strict sizes/colors "
+"for consistent readability."
+msgstr ""
+"L-istil tat-tema jiret it-tipografija tas-sit. L-istil tal-plugin juża "
+"daqsijiet u kuluri fissi għal qari konsistenti."
+
+#: includes/class-admin.php:692
+msgid "Customize visible wording in the consent banner."
+msgstr "Ippersonalizza t-test li jidher fil-banner tal-kunsens."
+
+#: includes/class-admin.php:692
+msgid "Heading/Description/Button texts"
+msgstr "Titlu/deskrizzjoni/testi tal-buttuni"
+
+#: includes/class-admin.php:693
+msgid "Lets visitors re-open cookie settings after they close the banner."
+msgstr ""
+"Tħalli lill-viżitaturi jerġgħu jiftħu l-issettjar tal-cookies wara li "
+"jagħlqu l-banner."
+
+#: includes/class-admin.php:696
+msgid "Cookies tab"
+msgstr "It-tab Cookies"
+
+#: includes/class-admin.php:777
+msgid ""
+"Scans browser cookies and infers expected cookies from tracking scripts on "
+"your site (even when blocked until consent). Known cookies are auto-mapped "
+"to categories."
+msgstr ""
+"Jiskennja l-cookies tal-browser u jiddeduċi l-cookies mistennija "
+"mill-iscripts tat-traċċar fis-sit tiegħek (anke meta jkunu mblukkati "
+"sal-kunsens). Il-cookies magħrufa jiġu assenjati awtomatikament "
+"għall-kategoriji."
+
+#: includes/class-admin.php:699
+msgid "AI Helper"
+msgstr "Assistent tal-IA"
+
+#: includes/class-admin.php:699
+msgid ""
+"Appears after scanning when unknown cookies are found. Copies a ready prompt"
+" to paste into an AI tool. After the AI responds, paste the JSON back into "
+"the text box and click Import."
+msgstr ""
+"Jidher wara l-iskennjar meta jinstabu cookies mhux magħrufa. Jikkopja prompt "
+"lest biex twaħħlu f'għodda tal-IA. Wara li l-IA twieġeb, waħħal il-JSON lura "
+"fil-kaxxa tat-test u kklikkja Importa."
+
+#: includes/class-admin.php:700
+msgid ""
+"Persists current cookie table values to be used in policy output and consent"
+" details."
+msgstr ""
+"Jissejvja l-valuri attwali tat-tabella tal-cookies biex jintużaw fil-paġna "
+"tal-politika u fid-dettalji tal-kunsens."
+
+#: includes/class-admin.php:703
+msgid "Policy Page tab"
+msgstr "It-tab Paġna tal-politika"
+
+#: includes/class-admin.php:705
+msgid ""
+"Selects which page is used for cookie policy content generated by shortcode."
+msgstr ""
+"Jagħżel liema paġna tintuża għall-kontenut tal-politika dwar il-cookies "
+"iġġenerat mix-shortcode."
+
+#: includes/class-admin.php:706
+msgid "AI Prompt for Policy Page"
+msgstr "Prompt għall-IA għall-paġna tal-politika"
+
+#: includes/class-admin.php:706
+msgid ""
+"Generates a prompt you can paste into an AI tool to create a full privacy "
+"and cookie policy. The generated text will include the [kncc_cookie_policy] "
+"shortcode for the cookie declaration section."
+msgstr ""
+"Jiġġenera prompt li tista' twaħħal f'għodda tal-IA biex toħloq politika "
+"sħiħa dwar il-privatezza u l-cookies. It-test iġġenerat se jinkludi "
+"x-shortcode [kncc_cookie_policy] għat-taqsima tad-dikjarazzjoni tal-cookies."
+
+#: includes/class-admin.php:707
+msgid ""
+"If Polylang or WPML is active, each language can have its own translated "
+"policy page. If a translation is missing for some language, the default-"
+"language policy page is used as a fallback."
+msgstr ""
+"Jekk Polylang jew WPML ikun attiv, kull lingwa jista' jkollha l-paġna "
+"tal-politika tradotta tagħha. Jekk xi lingwa ma jkollhiex traduzzjoni, "
+"tintuża minflok il-paġna tal-politika tal-lingwa prinċipali."
+
+#: includes/class-admin.php:707
+msgid "Multilingual support"
+msgstr "Appoġġ multilingwi"
+
+#: includes/class-admin.php:710
+msgid "Integration tab"
+msgstr "It-tab Integrazzjoni"
+
+#: includes/class-admin.php:712
+msgid ""
+"A Google framework for privacy-safe tag behavior. Before consent, storage "
+"signals are denied; after user choice, signals are updated (for example "
+"analytics_storage=granted). This helps GTM/Google tags respect user consent "
+"state."
+msgstr ""
+"Qafas ta' Google għal imġiba tat-tags li tirrispetta l-privatezza. Qabel "
+"il-kunsens, is-sinjali tal-ħażna jkunu miċħuda; wara l-għażla tal-utent, "
+"is-sinjali jiġu aġġornati (pereżempju analytics_storage=granted). Dan jgħin "
+"lit-tags ta' GTM/Google jirrispettaw l-istat tal-kunsens tal-utent."
+
+#: includes/class-admin.php:713
+msgid "GTM Container ID"
+msgstr "ID tal-kontenitur GTM"
+
+#: includes/class-admin.php:713
+msgid ""
+"Your GTM container identifier (for example GTM-N6828NL). It identifies which"
+" tag container your site uses. This field is informational in this plugin "
+"and does not inject GTM scripts."
+msgstr ""
+"L-identifikatur tal-kontenitur GTM tiegħek (pereżempju GTM-N6828NL). "
+"Jidentifika liema kontenitur tat-tags juża s-sit tiegħek. F'dan il-plugin, "
+"dan il-qasam huwa għall-informazzjoni biss u ma jdaħħalx scripts ta' GTM."
+
+#: includes/class-admin.php:716
+msgid "Script Blocking tab"
+msgstr "It-tab Imblukkar tal-iscripts"
+
+#: includes/class-admin.php:798
+msgid ""
+"Tools like Google Analytics are blocked automatically when added through "
+"WordPress plugins (e.g. Google Site Kit)."
+msgstr ""
+"Għodod bħal Google Analytics jiġu mblukkati awtomatikament meta jiżdiedu "
+"permezz ta' plugins ta' WordPress (eż. Google Site Kit)."
+
+#: includes/class-admin.php:799 includes/class-admin.php:1071
+msgid "Custom Code blocking"
+msgstr "Imblukkar tal-kodiċi personalizzat"
+
+#: includes/class-admin.php:799
+msgid ""
+"Stops tracking pasted into Bricks, Elementor, or similar Custom Code fields "
+"until the visitor gives consent."
+msgstr ""
+"Iwaqqaf it-traċċar imwaħħal f'Bricks, Elementor jew f'oqsma simili ta' "
+"kodiċi personalizzat sakemm il-viżitatur jagħti l-kunsens."
+
+#: includes/class-admin.php:719
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
+msgstr ""
+"Il-vidjows inkorporati minn YouTube u Vimeo jiġu mblukkati awtomatikament "
+"sakemm il-viżitatur jaċċetta l-cookies tal-marketing. Minflokhom jintwera "
+"messaġġ b'buttuna għall-aċċettazzjoni. Meta l-viżitatur ikun diġà ta "
+"l-kunsens, il-vidjows jitgħabbew normalment."
+
+#: includes/class-admin.php:719
+msgid "YouTube & Vimeo iframe blocking"
+msgstr "Imblukkar tal-iframes ta' YouTube & Vimeo"
+
+#: includes/class-admin.php:722
+msgid "Statistics tab"
+msgstr "It-tab Statistika"
+
+#: includes/class-admin.php:724
+msgid "Consent statistics"
+msgstr "Statistika tal-kunsens"
+
+#: includes/class-admin.php:724
+msgid ""
+"Shows how many visitors accepted, rejected, or customized cookies over 7, "
+"30, or 90 day periods. Data is aggregated and anonymous — no personal data "
+"is stored."
+msgstr ""
+"Turi kemm-il viżitatur aċċetta, irrifjuta jew ippersonalizza l-cookies "
+"f'perjodi ta' 7, 30 jew 90 jum. Id-data hija aggregata u anonima – ma "
+"tinħażen l-ebda data personali."
+
+#: includes/class-admin.php:725 includes/class-admin.php:1022
+msgid "Consent Log"
+msgstr "Reġistru tal-kunsens"
+
+#: includes/class-admin.php:725
+msgid ""
+"Individual anonymized consent records for GDPR audit compliance. Records "
+"contain a hashed visitor identifier, the consent choice, accepted "
+"categories, and the policy version. Records are automatically purged after "
+"13 months."
+msgstr ""
+"Rekords individwali u anonimizzati tal-kunsens għall-konformità mal-verifiki "
+"tal-GDPR. Ir-rekords fihom identifikatur tal-viżitatur f'forma ta' hash, "
+"l-għażla tal-kunsens, il-kategoriji aċċettati u l-verżjoni tal-politika. "
+"Ir-rekords jitħassru awtomatikament wara 13-il xahar."
+
+#: includes/class-admin.php:726
+msgid "Downloads all consent log records as a CSV file for auditing."
+msgstr ""
+"Iniżżel ir-rekords kollha tar-reġistru tal-kunsens bħala fajl CSV "
+"għall-verifika."
+
+#: includes/class-admin.php:726 includes/class-admin.php:1038
+msgid "Export CSV"
+msgstr "Esporta CSV"
+
+#: includes/class-admin.php:727
+msgid "Permanently deletes all consent log records and aggregate statistics."
+msgstr ""
+"Iħassar b'mod permanenti r-rekords kollha tar-reġistru tal-kunsens u "
+"l-istatistika aggregata."
+
+#: includes/class-admin.php:727 includes/class-admin.php:1039
+msgid "Purge All Records"
+msgstr "Ħassar ir-rekords kollha"
+
+#: includes/class-admin.php:730
+msgid "Multilingual support (WPML & Polylang)"
+msgstr "Appoġġ multilingwi (WPML & Polylang)"
+
+#: includes/class-admin.php:732
+msgid "Per-language banner texts"
+msgstr "Testi tal-banner għal kull lingwa"
+
+#: includes/class-admin.php:732
+msgid ""
+"When WPML or Polylang is active, switch to a secondary language in the admin"
+" bar and edit General tab settings (saved per language). With WPML String "
+"Translation, you can also translate the [kncc_settings]* admin text strings "
+"— those are used when no per-language override is saved. Otherwise each "
+"language uses its own plugin defaults (English if unsupported). Texts are "
+"never copied blindly from the default language."
+msgstr ""
+"Meta WPML jew Polylang ikun attiv, aqleb għal lingwa sekondarja fil-bar "
+"tal-amministrazzjoni u editja l-issettjar fit-tab Ġenerali (jiġi ssejvjat "
+"għal kull lingwa). B'WPML String Translation, tista' wkoll tittraduċi "
+"l-istrings tat-test tal-amministrazzjoni [kncc_settings]* – dawn jintużaw "
+"meta ma jkun issejvjat l-ebda test speċifiku għal dik il-lingwa. Inkella "
+"kull lingwa tuża t-testi awtomatiċi tagħha tal-plugin (bl-Ingliż jekk "
+"il-lingwa mhix appoġġjata). It-testi qatt ma jiġu kkupjati bl-addoċċ "
+"mil-lingwa prinċipali."
+
+#: includes/class-admin.php:733
+msgid ""
+"Cookie names, categories, providers, and durations are shared across all "
+"languages. Only the description field can be translated per language. Switch"
+" language and edit descriptions in the Cookies tab."
+msgstr ""
+"L-ismijiet tal-cookies, il-kategoriji, il-fornituri u d-durati huma komuni "
+"għal-lingwi kollha. Id-deskrizzjoni biss tista' tiġi tradotta għal kull "
+"lingwa. Aqleb il-lingwa u editja d-deskrizzjonijiet fit-tab Cookies."
+
+#: includes/class-admin.php:733
+msgid "Per-language cookie descriptions"
+msgstr "Deskrizzjonijiet tal-cookies għal kull lingwa"
+
+#: includes/class-admin.php:734
+msgid ""
+"Banner style, colors, and policy page can be set per language. Non-text "
+"settings fall back to the default language; banner texts use per-language "
+"overrides, WPML String Translation, or each language's own defaults."
+msgstr ""
+"L-istil tal-banner, il-kuluri u l-paġna tal-politika jistgħu jiġu ssettjati "
+"għal kull lingwa. L-issettjar li mhuwiex test juża dak tal-lingwa "
+"prinċipali; it-testi tal-banner jużaw it-testi ssettjati għal kull lingwa, "
+"WPML String Translation, jew it-testi awtomatiċi ta' kull lingwa."
+
+#: includes/class-admin.php:734
+msgid "Per-language settings"
+msgstr "Issettjar għal kull lingwa"
+
+#: includes/class-admin.php:735
+msgid "AI prompts"
+msgstr "Prompts għall-IA"
+
+#: includes/class-admin.php:735
+msgid ""
+"AI prompts for cookie descriptions and policy pages are automatically "
+"generated in the language matching the current admin locale."
+msgstr ""
+"Il-prompts għall-IA għad-deskrizzjonijiet tal-cookies u għall-paġni "
+"tal-politika jiġu ġġenerati awtomatikament bil-lingwa attwali "
+"tal-amministrazzjoni."
+
+#: includes/class-admin.php:738
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: includes/class-admin.php:740
+msgid "Displays the full cookie declaration table on your policy page."
+msgstr ""
+"Juri t-tabella sħiħa tad-dikjarazzjoni tal-cookies fil-paġna tal-politika "
+"tiegħek."
+
+#: includes/class-admin.php:741
+msgid ""
+"Renders a link that opens the cookie settings dialog. Use in footers, menus,"
+" or widgets. Customize the link text with the text attribute, e.g. "
+"[kncc_cookie_settings text=\"Manage cookies\"]."
+msgstr ""
+"Juri link li jiftaħ it-tieqa tal-issettjar tal-cookies. Użah fil-qiegħ "
+"tal-paġna, fil-menus jew fil-widgets. Ippersonalizza t-test tal-link "
+"bl-attribut text, eż. [kncc_cookie_settings text=\"Immaniġġja l-cookies\"]."
+
+#: includes/class-admin.php:744
+msgid "Custom CSS"
+msgstr "CSS personalizzat"
+
+#: includes/class-admin.php:748
+#, php-format
+msgid ""
+"Need to fine-tune the look beyond the General tab? Add CSS to %s, your child"
+" theme, or a Code Snippets plugin."
+msgstr ""
+"Trid tirfina d-dehra lil hinn mit-tab Ġenerali? Żid CSS f'%s, fit-tema child "
+"tiegħek jew fi plugin ta' Code Snippets."
+
+#: includes/class-admin.php:749
+msgid "Appearance → Customize → Additional CSS"
+msgstr "Dehra → Ippersonalizza → CSS addizzjonali"
+
+#: includes/class-admin.php:752
+msgid ""
+"Copy the template below, uncomment the rules you want to change, save. Every"
+" selector the plugin uses is included."
+msgstr ""
+"Ikkopja l-mudell hawn taħt, neħħi l-kummenti mir-regoli li trid tibdel, u "
+"ssejvja. Is-selettori kollha li juża l-plugin huma inklużi."
+
+#: includes/class-admin.php:756
+msgid "Copy CSS template"
+msgstr "Ikkopja l-mudell tas-CSS"
+
+#: includes/class-admin.php:828
+msgid "Tips:"
+msgstr "Pariri:"
+
+#: includes/class-admin.php:830
+msgid ""
+"If a rule does not apply, prepend .kncc-banner or add !important — your CSS "
+"file loads after the plugin's, but theme styles can occasionally beat it on "
+"specificity."
+msgstr ""
+"Jekk regola ma tapplikax, żid .kncc-banner qabilha jew żid !important – "
+"il-fajl CSS tiegħek jitgħabba wara dak tal-plugin, iżda l-istili tat-tema xi "
+"drabi jistgħu jegħlbuh fl-ispeċifiċità."
+
+#: includes/class-admin.php:831
+msgid ""
+"When General → Text and font style is set to Plugin style, typography rules "
+"use !important. Switch to Theme style for easier overrides."
+msgstr ""
+"Meta Ġenerali → Stil tat-test u tat-tipa jkun issettjat fuq Stil tal-plugin, "
+"ir-regoli tat-tipografija jużaw !important. Aqleb għal Stil tat-tema biex "
+"tibdilhom aktar faċilment."
+
+#: includes/class-admin.php:832
+msgid ""
+"Banner z-index is 999999 and the floating button is 999998 — raise them if "
+"your theme renders overlays on top of the banner."
+msgstr ""
+"Iż-z-index tal-banner huwa 999999 u dak tal-buttuna li tgħum huwa 999998 – "
+"għollihom jekk it-tema tiegħek turi elementi fuq il-banner."
+
+#: includes/class-admin.php:835
+msgid "Troubleshooting"
+msgstr "Soluzzjoni tal-problemi"
+
+#: includes/class-admin.php:837
+msgid ""
+"If GTM Preview does not show consent updates, verify Consent Mode v2 is "
+"enabled and test in a fresh browser session without existing consent cookie."
+msgstr ""
+"Jekk GTM Preview ma jurix l-aġġornamenti tal-kunsens, ivverifika li Consent "
+"Mode v2 huwa attivat u ttestja f'sessjoni ġdida tal-browser mingħajr cookie "
+"tal-kunsens eżistenti."
+
+#: includes/class-admin.php:838
+msgid ""
+"If banner typography looks odd with your theme, switch General > Text and "
+"font style to Plugin style."
+msgstr ""
+"Jekk it-tipografija tal-banner tidher stramba mat-tema tiegħek, issettja "
+"Ġenerali > Stil tat-test u tat-tipa fuq Stil tal-plugin."
+
+#: includes/class-admin.php:839
+msgid ""
+"If tracking still runs before consent, make sure Custom Code blocking is "
+"checked on the Script Blocking tab."
+msgstr ""
+"Jekk it-traċċar xorta jibda qabel il-kunsens, aċċerta ruħek li Imblukkar "
+"tal-kodiċi personalizzat huwa mmarkat fit-tab Imblukkar tal-iscripts."
+
+#: includes/class-admin.php:840
+msgid ""
+"If the statistics are empty, make sure visitors have interacted with the "
+"banner. Data starts recording after the first consent choice."
+msgstr ""
+"Jekk l-istatistika hija vojta, aċċerta ruħek li l-viżitaturi interaġixxew "
+"mal-banner. Id-data tibda tiġi rreġistrata wara l-ewwel għażla tal-kunsens."
+
+#: includes/class-admin.php:841
+msgid ""
+"If the policy page warning shows missing translations, create the translated"
+" page in each language and add the [kncc_cookie_policy] shortcode."
+msgstr ""
+"Jekk it-twissija tal-paġna tal-politika turi traduzzjonijiet neqsin, oħloq "
+"il-paġna tradotta f'kull lingwa u żid ix-shortcode [kncc_cookie_policy]."
+
+#: includes/class-admin.php:845
+msgid ""
+"I made this plugin for free because I got frustrated by the existing cookie "
+"consent plugins — too much bloat and useless features. If you like it and "
+"want to buy me a coffee, you can do it here:"
+msgstr ""
+"Għamilt dan il-plugin b'xejn għax iddejjaqt bil-plugins eżistenti "
+"tal-kunsens għall-cookies – wisq piż żejjed u funzjonijiet inutli. Jekk "
+"il-plugin jogħġbok u tixtieq tixtrili kafè, tista' tagħmel dan hawn:"
+
+#: includes/class-admin.php:873
+#, php-format
+msgid "%d days"
+msgstr "Ijiem: %d"
+
+#: includes/class-admin.php:884
+msgid "Total responses"
+msgstr "Tweġibiet totali"
+
+#: includes/class-admin.php:888 includes/class-admin.php:903
+#: includes/class-admin.php:913
+msgid "Accepted all"
+msgstr "Aċċettaw kollox"
+
+#: includes/class-admin.php:892 includes/class-admin.php:909
+#: includes/class-admin.php:915
+msgid "Rejected all"
+msgstr "Irrifjutaw kollox"
+
+#: includes/class-admin.php:896 includes/class-admin.php:906
+#: includes/class-admin.php:914
+msgid "Custom selection"
+msgstr "Għażla personalizzata"
+
+#: includes/class-admin.php:920
+msgid ""
+"No consent data recorded yet. Statistics will appear after visitors start "
+"interacting with the cookie banner."
+msgstr ""
+"Għad m'hemm l-ebda data tal-kunsens irreġistrata. L-istatistika tidher wara "
+"li l-viżitaturi jibdew jinteraġixxu mal-banner tal-cookies."
+
+#: includes/class-admin.php:937
+#, php-format
+msgid "Cron error: %s"
+msgstr "Żball tal-cron: %s"
+
+#: includes/class-admin.php:955
+msgid "All systems are good!"
+msgstr "Kollox jaħdem sew!"
+
+#: includes/class-admin.php:957
+msgid "The plugin re-checks cookies every day via cron."
+msgstr "Il-plugin jerġa' jiċċekkja l-cookies kuljum permezz tal-cron."
+
+#: includes/class-admin.php:962
+#, php-format
+msgid "Next check: %s"
+msgstr "Il-verifika li jmiss: %s"
+
+#: includes/class-admin.php:1075
+msgid ""
+"Also block tracking added in Bricks, Elementor, or other Custom Code fields"
+msgstr ""
+"Imblokka wkoll it-traċċar miżjud f'Bricks, Elementor jew f'oqsma oħra ta' "
+"kodiċi personalizzat"
+
+#: includes/class-admin.php:1094
+msgid "Save blocking settings"
+msgstr "Issejvja l-issettjar tal-imblukkar"
+
+#: includes/class-admin.php:1099
+msgid "Recognized tracking tools"
+msgstr "Għodod tat-traċċar magħrufa"
+
+#: includes/class-admin.php:1106
+msgid "Script Handle"
+msgstr "Handle tal-iscript"
+
+#: includes/class-admin.php:1024
+msgid ""
+"Individual consent records for GDPR audit compliance. Records are "
+"automatically purged after the retention period (13 months)."
+msgstr ""
+"Rekords individwali tal-kunsens għall-konformità mal-verifiki tal-GDPR. "
+"Ir-rekords jitħassru awtomatikament wara l-perjodu taż-żamma (13-il xahar)."
+
+#: includes/class-admin.php:1028
+msgid "Total records:"
+msgstr "Rekords totali:"
+
+#: includes/class-admin.php:1030
+msgid "Oldest:"
+msgstr "L-eqdem:"
+
+#: includes/class-admin.php:1033
+msgid "Newest:"
+msgstr "L-aktar riċenti:"
+
+#: includes/class-admin.php:1043
+msgid "No consent log records yet."
+msgstr "Għad m'hemm l-ebda rekords fir-reġistru tal-kunsens."
+
+#: includes/class-admin.php:1048
+msgid "Date/Time"
+msgstr "Data/ħin"
+
+#: includes/class-admin.php:1049
+msgid "Visitor"
+msgstr "Viżitatur"
+
+#: includes/class-admin.php:1050
+msgid "Choice"
+msgstr "Għażla"
+
+#: includes/class-admin.php:1051
+msgid "Categories"
+msgstr "Kategoriji"
+
+#: includes/class-admin.php:1052
+msgid "Policy Version"
+msgstr "Verżjoni tal-politika"
+
+#: includes/class-admin.php:1311
+msgid "Cookies saved."
+msgstr "Il-cookies ġew issejvjati."
+
+#: includes/class-consent.php:135
+msgid "Cookie consent"
+msgstr "Kunsens għall-cookies"
+
+#: includes/class-consent.php:147 includes/class-policy-page.php:27
+msgid "Cookie Policy"
+msgstr "Politika dwar il-Cookies"
+
+#: includes/class-consent.php:155
+msgid "Close"
+msgstr "Agħlaq"
+
+#: includes/class-consent.php:187 includes/class-consent.php:188
+#: kansleri-cookie-consent.php:590
+msgid "Cookie settings"
+msgstr "Issettjar tal-cookies"
+
+#: includes/class-policy-page.php:48
+msgid "No cookies have been registered yet."
+msgstr "Għadhom ma ġew reġistrati l-ebda cookies."
+
+#: includes/class-policy-page.php:58
+msgid ""
+"These cookies are essential for the website to function and cannot be "
+"switched off."
+msgstr ""
+"Dawn il-cookies huma essenzjali biex is-sit web jaħdem u ma jistgħux jintfew."
+
+#: includes/class-policy-page.php:59
+msgid ""
+"These cookies help us understand how visitors interact with the website by "
+"collecting and reporting information anonymously."
+msgstr ""
+"Dawn il-cookies jgħinuna nifhmu kif il-viżitaturi jinteraġixxu mas-sit web "
+"billi jiġbru u jirrapportaw informazzjoni b'mod anonimu."
+
+#: includes/class-policy-page.php:60
+msgid ""
+"These cookies are used to deliver relevant advertisements and track ad "
+"campaign performance."
+msgstr ""
+"Dawn il-cookies jintużaw biex iwasslu reklami rilevanti u jsegwu "
+"l-prestazzjoni tal-kampanji tar-reklamar."
+
+#: includes/class-policy-page.php:61
+msgid ""
+"These cookies allow the website to remember choices you make and provide "
+"enhanced functionality and personalisation."
+msgstr ""
+"Dawn il-cookies jippermettu lis-sit web jiftakar l-għażliet li tagħmel u "
+"jipprovdi funzjonalità mtejba u personalizzazzjoni."
+
+#: includes/class-policy-page.php:79
+msgid "Edit cookie preferences"
+msgstr "Ibdel il-preferenzi tal-cookies"
+
+#: includes/class-policy-page.php:90 includes/class-policy-page.php:99
+msgid "Cookie"
+msgstr "Cookie"
+
+#: includes/class-policy-page.php:92 includes/class-policy-page.php:101
+msgid "Purpose"
+msgstr "Skop"
+
+#: includes/class-script-blocker.php:306
+msgid "Script blocking settings saved."
+msgstr "L-issettjar tal-imblukkar tal-iscripts ġie ssejvjat."
+
+#: kansleri-cookie-consent.php:57 kansleri-cookie-consent.php:404
+msgid "We use cookies"
+msgstr "Nużaw il-cookies"
+
+#: kansleri-cookie-consent.php:58 kansleri-cookie-consent.php:405
+msgid ""
+"We use cookies to improve your experience and analyze site traffic. Choose "
+"which cookies you allow."
+msgstr ""
+"Nużaw il-cookies biex intejbu l-esperjenza tiegħek u nanalizzaw it-traffiku "
+"tas-sit. Agħżel liema cookies tippermetti."
+
+#: kansleri-cookie-consent.php:59 kansleri-cookie-consent.php:406
+msgid "Accept all"
+msgstr "Aċċetta kollox"
+
+#: kansleri-cookie-consent.php:60 kansleri-cookie-consent.php:407
+msgid "Reject all"
+msgstr "Irrifjuta kollox"
+
+#: kansleri-cookie-consent.php:61 kansleri-cookie-consent.php:408
+msgid "Customize"
+msgstr "Ippersonalizza"
+
+#: kansleri-cookie-consent.php:62 kansleri-cookie-consent.php:409
+msgid "Save preferences"
+msgstr "Issejvja l-preferenzi"
+
+#: kansleri-cookie-consent.php:336
+msgid "Required for the website to function. Cannot be disabled."
+msgstr "Meħtieġa biex is-sit web jaħdem. Ma jistgħux jiġu diżattivati."
+
+#: kansleri-cookie-consent.php:340
+msgid "Help us understand how visitors interact with the website."
+msgstr "Jgħinuna nifhmu kif il-viżitaturi jinteraġixxu mas-sit web."
+
+#: kansleri-cookie-consent.php:344
+msgid "Used to deliver relevant advertisements and track campaigns."
+msgstr "Jintużaw biex iwasslu reklami rilevanti u jsegwu l-kampanji."
+
+#: kansleri-cookie-consent.php:348
+msgid "Remember your settings and preferences for a better experience."
+msgstr "Jiftakru l-issettjar u l-preferenzi tiegħek għal esperjenza aħjar."
+
+#: kansleri-cookie-consent.php:499
+msgid "Settings"
+msgstr "Issettjar"
+
+#: kansleri-cookie-consent.php:522
+#, php-format
+msgid ""
+"Kansleri Cookie Consent is now active. Next steps: %1$s to discover cookies "
+"and %2$s to review banner and consent settings."
+msgstr ""
+"Kansleri Cookie Consent issa huwa attiv. Il-passi li jmiss: %1$s biex issib "
+"il-cookies u %2$s tal-banner u tal-kunsens."
+
+#: kansleri-cookie-consent.php:523
+msgid "Scan cookies"
+msgstr "Skennja l-cookies"
+
+#: kansleri-cookie-consent.php:524
+msgid "review settings"
+msgstr "irrevedi l-issettjar"
+
+#: kansleri-cookie-consent.php:555
+#, php-format
+msgid ""
+"Cookie Consent: %1$d cookie(s) are missing descriptions: %2$s. %3$s to add "
+"them."
+msgstr ""
+"Kunsens għall-Cookies: Cookies mingħajr deskrizzjoni (%1$d): %2$s. %3$s biex "
+"iżżid id-deskrizzjonijiet."
+
+#: kansleri-cookie-consent.php:558
+msgid "Go to Cookies tab"
+msgstr "Mur fit-tab Cookies"
+
+#: kansleri-cookie-consent.php:572
+msgid ""
+"This site uses a cookie consent banner powered by Kansleri Cookie Consent. "
+"When you interact with the banner, a cookie named <code>kncc_consent</code> "
+"is stored in your browser for up to 1 year. It records your consent "
+"preferences (which cookie categories you accepted or rejected) so the site "
+"can remember your choice on future visits. No personal data is stored in "
+"this cookie."
+msgstr ""
+"Dan is-sit juża banner tal-kunsens għall-cookies ipprovdut minn Kansleri "
+"Cookie Consent. Meta tinteraġixxi mal-banner, cookie bl-isem "
+"<code>kncc_consent</code> jinħażen fil-browser tiegħek sa massimu ta' sena. "
+"Dan jirreġistra l-preferenzi tal-kunsens tiegħek (liema kategoriji ta' "
+"cookies aċċettajt jew irrifjutajt) biex is-sit ikun jista' jiftakar l-għażla "
+"tiegħek fiż-żjarat futuri. Ma tinħażen l-ebda data personali f'dan il-cookie."
+
+#: kansleri-cookie-consent.php:573
+msgid ""
+"The plugin also records anonymous, aggregated consent statistics (how many "
+"visitors accepted, rejected, or customized cookies each day) and individual "
+"consent log entries for GDPR audit compliance. Consent log entries contain a"
+" hashed (non-reversible) visitor identifier, the consent choice, which "
+"categories were accepted, and the policy version. No IP addresses, user "
+"identifiers, or personal data are stored in plain text. Consent log records "
+"are automatically deleted after 13 months."
+msgstr ""
+"Il-plugin jirreġistra wkoll statistika anonima u aggregata tal-kunsens "
+"(kemm-il viżitatur aċċetta, irrifjuta jew ippersonalizza l-cookies kuljum) u "
+"rekords individwali fir-reġistru tal-kunsens għall-konformità mal-verifiki "
+"tal-GDPR. Ir-rekords tar-reġistru tal-kunsens fihom identifikatur "
+"tal-viżitatur f'forma ta' hash (irriversibbli), l-għażla tal-kunsens, liema "
+"kategoriji ġew aċċettati u l-verżjoni tal-politika. L-ebda indirizz IP, "
+"identifikatur tal-utent jew data personali ma jinħażen bħala test ċar. "
+"Ir-rekords tar-reġistru tal-kunsens jitħassru awtomatikament wara 13-il "
+"xahar."
+
+#: includes/class-admin.php:318
+msgid "Empty cookie categories"
+msgstr "Kategoriji ta' cookies vojta"
+
+#: includes/class-admin.php:322
+msgid "Show but lock (disable) the switch"
+msgstr "Uri imma sakkar (iddiżattiva) is-swiċċ"
+
+#: includes/class-admin.php:323
+msgid "Hide categories with no cookies"
+msgstr "Aħbi l-kategoriji mingħajr cookies"
+
+#: includes/class-admin.php:378 includes/class-consent.php:95
+msgid "No analytics cookies are used on this site."
+msgstr "Dan is-sit ma juża l-ebda cookies analitiċi."
+
+#: includes/class-admin.php:379 includes/class-consent.php:96
+msgid "No marketing cookies are used on this site."
+msgstr "Dan is-sit ma juża l-ebda cookies tal-marketing."
+
+#: includes/class-admin.php:380 includes/class-consent.php:97
+msgid "No preference cookies are used on this site."
+msgstr "Dan is-sit ma juża l-ebda cookies tal-preferenzi."
+
+#: includes/class-admin.php:323
+msgid "Close button label"
+msgstr "Tikketta tal-buttuna tal-għeluq"
+
+#: includes/class-consent.php:50
+msgid "You have not made a choice yet."
+msgstr "Għadek ma għamiltx għażla."
+
+#: includes/class-consent.php:51
+msgid "Allowed"
+msgstr "Permessi"
+
+#: includes/class-consent.php:52
+msgid "Denied"
+msgstr "Miċħuda"
+
+#: includes/class-consent.php:53
+msgid "Always active"
+msgstr "Dejjem attivi"
+
+#: includes/class-policy-page.php:85
+msgid "Your current cookie preferences"
+msgstr "Il-preferenzi attwali tiegħek dwar il-cookies"
+
+#: includes/class-policy-page.php:93
+msgid ""
+"These choices are stored technically as wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing, and wp_consent_preferences for "
+"compatibility with WordPress plugins."
+msgstr ""
+"Dawn l-għażliet jinħażnu teknikament bħala wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing u wp_consent_preferences "
+"għall-kompatibbiltà mal-plugins ta' WordPress."
+
+#: includes/class-admin.php:99
+msgid "Possibly removed"
+msgstr "Possibbilment imneħħija"
+
+#: includes/class-admin.php:100
+msgid ""
+"These cookies are still in your list, but their tracking scripts were not "
+"found on the homepage. Review and remove any that are no longer used."
+msgstr ""
+"Dawn il-cookies għadhom fil-lista tiegħek, iżda l-iscripts tat-traċċar "
+"tagħhom ma nstabux fil-paġna ewlenija. Irrevedihom u neħħi dawk li "
+"m'għadhomx jintużaw."
+
+#: includes/class-admin.php:102
+#, php-format
+msgid ""
+"Remove %d cookie(s) from the list? This cannot be undone automatically."
+msgstr ""
+"Tneħħi l-cookies mil-lista (%d)? Dan ma jistax jitreġġa' lura awtomatikament."
+
+#: includes/class-admin.php:103 includes/class-admin.php:1527
+msgid "Selected cookies removed from the list."
+msgstr "Il-cookies magħżula tneħħew mil-lista."
+
+#: includes/class-admin.php:104
+msgid "Remove selected cookies"
+msgstr "Neħħi l-cookies magħżula"
+
+#: includes/class-admin.php:1482
+msgid ""
+"None of the selected cookies can be removed. Run Scan Cookies again to "
+"refresh the list."
+msgstr ""
+"L-ebda wieħed mill-cookies magħżula ma jista' jitneħħa. Erġa' ħaddem Skennja "
+"l-Cookies biex taġġorna l-lista."
+
+#: includes/class-admin.php:791
+msgid ""
+"After scanning, cookies whose tracking scripts are no longer found on the "
+"homepage are listed under \"Possibly removed\". Review the list and use "
+"Remove selected cookies to delete entries you no longer need — nothing is "
+"removed automatically."
+msgstr ""
+"Wara l-iskennjar, il-cookies li l-iscripts tat-traċċar tagħhom m'għadhomx "
+"jinstabu fil-paġna ewlenija jitniżżlu taħt “Possibbilment imneħħija”. "
+"Irrevedi l-lista u uża Neħħi l-cookies magħżula biex tħassar ir-rekords li "
+"m'għadekx bżonn – xejn ma jitneħħa awtomatikament."
+
+#: includes/class-admin.php:797
+msgid "Current consent status"
+msgstr "L-istatus attwali tal-kunsens"
+
+#: includes/class-admin.php:797
+msgid ""
+"The [kncc_cookie_policy] shortcode shows each category as allowed, denied, "
+"or not yet chosen above the Edit cookie preferences button. When WP Consent "
+"API is active, a note explains the technical wp_consent_* cookie names used "
+"by WordPress plugins."
+msgstr ""
+"Ix-shortcode [kncc_cookie_policy] juri kull kategorija bħala permessa, "
+"miċħuda jew għadha mhux magħżula, fuq il-buttuna Ibdel il-preferenzi "
+"tal-cookies. Meta WP Consent API ikun attiv, nota tispjega l-ismijiet "
+"tekniċi tal-cookies wp_consent_* li jużaw il-plugins ta' WordPress."
+
+#: includes/class-admin.php:806
+msgid "WP Consent API sync"
+msgstr "Sinkronizzazzjoni mal-WP Consent API"
+
+#: includes/class-admin.php:806
+msgid ""
+"When the WP Consent API plugin is active, Kansleri automatically syncs your "
+"banner choices to wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing, and wp_consent_preferences. This lets consent-aware "
+"plugins such as Google Site Kit read the visitor's choice. Banner labels "
+"(Necessary, Analytics) map to these technical cookie names."
+msgstr ""
+"Meta l-plugin WP Consent API ikun attiv, Kansleri awtomatikament "
+"jissinkronizza l-għażliet tal-banner ma' wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing u wp_consent_preferences. Dan "
+"jippermetti lil plugins li jirrispettaw il-kunsens, bħal Google Site Kit, "
+"jaqraw l-għażla tal-viżitatur. It-tikketti tal-banner (Neċessarji, "
+"Analitika) jikkorrispondu għal dawn l-ismijiet tekniċi tal-cookies."
+
+#: includes/class-admin.php:939
+msgid ""
+"If wp_consent_statistics stays deny after Accept all, clear site cookies or "
+"test in a private window, hard-refresh (Ctrl+Shift+R), and confirm the WP "
+"Consent API plugin is active."
+msgstr ""
+"Jekk wp_consent_statistics jibqa' deny wara Aċċetta kollox, ħassar "
+"il-cookies tas-sit jew ittestja f'tieqa privata, aġġorna l-paġna "
+"kompletament (Ctrl+Shift+R), u kkonferma li l-plugin WP Consent API huwa "
+"attiv."
+
+#: includes/class-admin.php:746 includes/class-admin.php:854
+msgid "Advanced Consent Mode"
+msgstr "Consent Mode avvanzat"
+
+#: includes/class-admin.php:750
+msgid "Load Google tags before consent, with consent denied"
+msgstr "Tella' t-tags ta' Google qabel il-kunsens, bil-kunsens miċħud"
+
+#: includes/class-admin.php:753
+msgid "Off (default, Basic Consent Mode): the Google tag is blocked until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies, so Google receives nothing from visitors who have not consented."
+msgstr ""
+"Mitfi (awtomatiku, Consent Mode bażiku): it-tag ta' Google huwa mblukkat "
+"sakemm il-viżitatur jaċċetta l-cookies analitiċi, u Google Tag Manager "
+"sakemm il-viżitatur jaċċetta l-cookies analitiċi jew tal-marketing, għalhekk "
+"Google ma jirċievi xejn mill-viżitaturi li ma tawx il-kunsens."
+
+#: includes/class-admin.php:756
+msgid ""
+"On (Advanced Consent Mode): the Google tag and Google Tag Manager load "
+"right away. Until the visitor accepts, they set no cookies and send Google "
+"only cookieless pings, which Google uses to model the missing data. Google "
+"Analytics and Google Ads expect this mode, and with Basic mode they can "
+"report your consent signals as not active."
+msgstr ""
+"Mixgħul (Consent Mode avvanzat): it-tag ta' Google u Google Tag Manager "
+"jitgħabbew minnufih. Sakemm il-viżitatur jaċċetta, ma jissettjaw l-ebda "
+"cookies u jibagħtu lil Google biss pings mingħajr cookies, li Google juża "
+"biex jimmudella d-data nieqsa. Google Analytics u Google Ads jistennew dan "
+"il-mod, u bil-mod bażiku jistgħu jirrappurtaw is-sinjali tal-kunsens tiegħek "
+"bħala mhux attivi."
+
+#: includes/class-admin.php:759
+msgid "Only applies while Consent Mode v2 is enabled. Other tracking scripts on the site stay blocked until consent, also those that Google Tag Manager adds (for example a Meta Pixel or LinkedIn in a Custom HTML tag): each waits for its own category, with no changes needed in the container."
+msgstr ""
+"Japplika biss meta Consent Mode v2 ikun attivat. Scripts oħra tat-traċċar "
+"fis-sit jibqgħu mblukkati sal-kunsens, anke dawk li jżid Google Tag Manager "
+"(pereżempju Meta Pixel jew LinkedIn f'tag Custom HTML): kull wieħed jistenna "
+"l-kategorija tiegħu, mingħajr ma jkun hemm bżonn ta' bidliet fil-kontenitur."
+
+#: includes/class-admin.php:854
+msgid ""
+"Off by default. When on, the Google tag and Google Tag Manager load before "
+"consent instead of being blocked. Until the visitor accepts, they set no "
+"cookies and send Google only cookieless pings."
+msgstr ""
+"Mitfi b'mod awtomatiku. Meta jkun mixgħul, it-tag ta' Google u Google Tag "
+"Manager jitgħabbew qabel il-kunsens minflok ma jiġu mblukkati. Sakemm "
+"il-viżitatur jaċċetta, ma jissettjaw l-ebda cookies u jibagħtu lil Google "
+"biss pings mingħajr cookies."
+
+#: includes/class-admin.php:863
+msgid "You can turn this off on the Script Blocking tab."
+msgstr "Tista' titfih fit-tab Imblukkar tal-iscripts."
+
+#: includes/class-admin.php:1136
+msgid ""
+"Advanced Consent Mode is on (Integration tab): the Google tag and Google "
+"Tag Manager load before consent and follow the Consent Mode signals instead "
+"of being blocked."
+msgstr ""
+"Consent Mode avvanzat huwa mixgħul (it-tab Integrazzjoni): it-tag ta' Google "
+"u Google Tag Manager jitgħabbew qabel il-kunsens u jsegwu s-sinjali ta' "
+"Consent Mode minflok ma jiġu mblukkati."
+
+#: includes/class-admin.php:1168
+msgid ""
+"Block YouTube and Vimeo videos until the visitor accepts marketing cookies"
+msgstr ""
+"Imblokka l-vidjows ta' YouTube u Vimeo sakemm il-viżitatur jaċċetta "
+"l-cookies tal-marketing"
+
+#: includes/class-admin.php:684
+msgid "More information"
+msgstr "Aktar informazzjoni"
+
+#: includes/class-admin.php:823
+msgid "Basic Consent Mode: the Google tag waits until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies."
+msgstr ""
+"Consent Mode bażiku: it-tag ta' Google jistenna sakemm il-viżitatur jaċċetta "
+"l-cookies analitiċi, u Google Tag Manager sakemm il-viżitatur jaċċetta "
+"l-cookies analitiċi jew tal-marketing."
+
+#: includes/class-admin.php:823
+msgid ""
+"Advanced Consent Mode: the Google tag and Google Tag Manager load right "
+"away with these defaults, and send only cookieless pings until the visitor "
+"accepts."
+msgstr ""
+"Consent Mode avvanzat: it-tag ta' Google u Google Tag Manager jitgħabbew "
+"minnufih b'dawn il-valuri awtomatiċi, u jibagħtu biss pings mingħajr cookies "
+"sakemm il-viżitatur jaċċetta."
+
+#: includes/class-scanner.php:122
+msgctxt "cookie duration"
+msgid "1 minute"
+msgstr "1 minuta"
+
+#: includes/class-scanner.php:123
+msgctxt "cookie duration"
+msgid "30 minutes"
+msgstr "30 minuta"
+
+#: includes/class-scanner.php:124
+msgctxt "cookie duration"
+msgid "24 hours"
+msgstr "24 siegħa"
+
+#: includes/class-scanner.php:125
+msgctxt "cookie duration"
+msgid "1 day"
+msgstr "1 jum"
+
+#: includes/class-scanner.php:126
+msgctxt "cookie duration"
+msgid "30 days"
+msgstr "30 jum"
+
+#: includes/class-scanner.php:127
+msgctxt "cookie duration"
+msgid "90 days"
+msgstr "90 jum"
+
+#: includes/class-scanner.php:128
+msgctxt "cookie duration"
+msgid "6 months"
+msgstr "6 xhur"
+
+#: includes/class-scanner.php:129
+msgctxt "cookie duration"
+msgid "1 year"
+msgstr "1 sena"
+
+#: includes/class-scanner.php:130
+msgctxt "cookie duration"
+msgid "2 years"
+msgstr "2 snin"
+
+#: includes/class-scanner.php:131
+msgctxt "cookie duration"
+msgid "Session"
+msgstr "Sessjoni"
+
+#: includes/class-scanner.php:132
+msgctxt "cookie duration"
+msgid "Varies"
+msgstr "Ivarja"
+
+#: includes/class-scanner.php:135
+msgid "Google Analytics: stores and counts page views."
+msgstr "Google Analytics: jaħżen u jgħodd il-veduti tal-paġni."
+
+#: includes/class-scanner.php:136
+msgid "Google Analytics: distinguishes unique users."
+msgstr "Google Analytics: jiddistingwi bejn utenti uniċi."
+
+#: includes/class-scanner.php:137
+msgid "Google Analytics: distinguishes users for 24 hours."
+msgstr "Google Analytics: jiddistingwi bejn l-utenti għal 24 siegħa."
+
+#: includes/class-scanner.php:138
+msgid "Google Analytics: throttles request rate."
+msgstr "Google Analytics: jillimita r-rata tat-talbiet."
+
+#: includes/class-scanner.php:139
+msgid "Google Ads: stores conversion data."
+msgstr "Google Ads: jaħżen id-data tal-konverżjonijiet."
+
+#: includes/class-scanner.php:140
+msgid "Google Ads: click tracking."
+msgstr "Google Ads: traċċar tal-klikks."
+
+#: includes/class-scanner.php:141
+msgid "Google Tag Manager: throttles request rate."
+msgstr "Google Tag Manager: jillimita r-rata tat-talbiet."
+
+#: includes/class-scanner.php:144
+msgid "Meta Pixel: tracks visits across websites for ad targeting."
+msgstr ""
+"Meta Pixel: isegwi ż-żjarat fuq diversi siti web għall-immirar tar-reklami."
+
+#: includes/class-scanner.php:145
+msgid "Meta Pixel: stores click identifiers."
+msgstr "Meta Pixel: jaħżen l-identifikaturi tal-klikks."
+
+#: includes/class-scanner.php:146
+msgid "Facebook: ad delivery and measurement."
+msgstr "Facebook: wiri u kejl tar-reklami."
+
+#: includes/class-scanner.php:149
+msgid "HubSpot: tracks visitor identity."
+msgstr "HubSpot: isegwi l-identità tal-viżitatur."
+
+#: includes/class-scanner.php:150
+msgid "HubSpot: tracks session information."
+msgstr "HubSpot: isegwi l-informazzjoni tas-sessjoni."
+
+#: includes/class-scanner.php:151
+msgid "HubSpot: tracks sessions for analytics."
+msgstr "HubSpot: isegwi s-sessjonijiet għall-analitika."
+
+#: includes/class-scanner.php:152
+msgid "HubSpot: determines if visitor has restarted browser."
+msgstr "HubSpot: jiddetermina jekk il-viżitatur irristartjax il-browser."
+
+#: includes/class-scanner.php:153
+msgid "HubSpot: analytics and tracking."
+msgstr "HubSpot: analitika u traċċar."
+
+#: includes/class-scanner.php:156
+msgid "LinkedIn: browser identifier for ad targeting."
+msgstr "LinkedIn: identifikatur tal-browser għall-immirar tar-reklami."
+
+#: includes/class-scanner.php:157
+msgid "LinkedIn: browser identifier."
+msgstr "LinkedIn: identifikatur tal-browser."
+
+#: includes/class-scanner.php:158
+msgid "LinkedIn: data centre selection."
+msgstr "LinkedIn: għażla taċ-ċentru tad-data."
+
+#: includes/class-scanner.php:161
+msgid "WordPress: stores admin settings timestamp."
+msgstr "WordPress: jaħżen il-marka tal-ħin tal-issettjar tal-amministrazzjoni."
+
+#: includes/class-scanner.php:162
+msgid "WordPress: stores admin personalisation settings."
+msgstr ""
+"WordPress: jaħżen l-issettjar tal-personalizzazzjoni tal-amministrazzjoni."
+
+#: includes/class-scanner.php:163
+msgid "WordPress: authentication cookie for logged-in users."
+msgstr "WordPress: cookie tal-awtentikazzjoni għall-utenti li daħlu fil-kont."
+
+#: includes/class-scanner.php:164
+msgid "WordPress: secure authentication cookie."
+msgstr "WordPress: cookie sigur tal-awtentikazzjoni."
+
+#: includes/class-scanner.php:165
+msgid "WordPress: tests if cookies are enabled."
+msgstr "WordPress: jittestja jekk il-cookies humiex attivati."
+
+#: includes/class-scanner.php:166
+msgid "WordPress: stores language preference."
+msgstr "WordPress: jaħżen il-preferenza tal-lingwa."
+
+#: includes/class-scanner.php:167
+msgid "WordPress: remembers comment author details."
+msgstr "WordPress: jiftakar id-dettalji tal-awtur tal-kummenti."
+
+#: includes/class-scanner.php:170
+msgid "WooCommerce: stores cart and session data."
+msgstr "WooCommerce: jaħżen id-data tal-karrettun u tas-sessjoni."
+
+#: includes/class-scanner.php:171
+msgid "WooCommerce: stores customer session."
+msgstr "WooCommerce: jaħżen is-sessjoni tal-klijent."
+
+#: includes/class-scanner.php:174
+msgid ""
+"Order attribution: keeps traffic-source tracking data compatible across "
+"updates."
+msgstr ""
+"Attribuzzjoni tal-ordnijiet: iżomm id-data tat-traċċar tas-sors tat-traffiku "
+"kompatibbli bejn l-aġġornamenti."
+
+#: includes/class-scanner.php:175
+msgid ""
+"Order attribution: records how you reached the site on your current visit."
+msgstr ""
+"Attribuzzjoni tal-ordnijiet: jirreġistra kif wasalt fis-sit f'din iż-żjara."
+
+#: includes/class-scanner.php:176
+msgid "Order attribution: records how you first reached the site."
+msgstr ""
+"Attribuzzjoni tal-ordnijiet: jirreġistra kif wasalt fis-sit l-ewwel darba."
+
+#: includes/class-scanner.php:177
+msgid ""
+"Order attribution: stores the traffic source and campaign of your current "
+"visit."
+msgstr ""
+"Attribuzzjoni tal-ordnijiet: jaħżen is-sors tat-traffiku u l-kampanja "
+"taż-żjara attwali tiegħek."
+
+#: includes/class-scanner.php:178
+msgid ""
+"Order attribution: stores the traffic source and campaign of your first "
+"visit."
+msgstr ""
+"Attribuzzjoni tal-ordnijiet: jaħżen is-sors tat-traffiku u l-kampanja "
+"tal-ewwel żjara tiegħek."
+
+#: includes/class-scanner.php:179
+msgid ""
+"Order attribution: stores visitor/session data used for marketing "
+"attribution."
+msgstr ""
+"Attribuzzjoni tal-ordnijiet: jaħżen data tal-viżitatur/tas-sessjoni użata "
+"għall-attribuzzjoni tal-marketing."
+
+#: includes/class-scanner.php:180
+msgid "Order attribution: links page views within a visit for attribution."
+msgstr ""
+"Attribuzzjoni tal-ordnijiet: jgħaqqad il-veduti tal-paġni fl-istess żjara "
+"għall-attribuzzjoni."
+
+#: includes/class-scanner.php:181
+msgid "Order attribution: tracks the marketing source of your visit."
+msgstr ""
+"Attribuzzjoni tal-ordnijiet: isegwi s-sors tal-marketing taż-żjara tiegħek."
+
+#: includes/class-scanner.php:184
+msgid ""
+"Jetpack Stats: assigns an anonymous identifier used to measure site traffic."
+msgstr ""
+"Jetpack Stats: jassenja identifikatur anonimu użat biex jitkejjel "
+"it-traffiku tas-sit."
+
+#: includes/class-scanner.php:185
+msgid "Jetpack Stats: records referral and navigation data for analytics."
+msgstr ""
+"Jetpack Stats: jirreġistra data tar-referenza u tan-navigazzjoni "
+"għall-analitika."
+
+#: includes/class-scanner.php:186
+msgid "Jetpack Stats: measures site traffic and visitor activity."
+msgstr ""
+"Jetpack Stats: ikejjel it-traffiku tas-sit u l-attività tal-viżitaturi."
+
+#: includes/class-scanner.php:189
+msgid "Polylang: stores visitor language preference."
+msgstr "Polylang: jaħżen il-preferenza tal-lingwa tal-viżitatur."
+
+#: includes/class-scanner.php:190
+msgid "MailPoet: tracks email subscriber activity."
+msgstr "MailPoet: isegwi l-attività tal-abbonati tal-email."
+
+#: includes/class-scanner.php:191
+msgid "Plausible: privacy-friendly analytics."
+msgstr "Plausible: analitika li tirrispetta l-privatezza."
+
+#: includes/class-scanner.php:194
+msgid "Cloudflare: bot management cookie."
+msgstr "Cloudflare: cookie għall-ġestjoni tal-bots."
+
+#: includes/class-scanner.php:195
+msgid "Cloudflare: verifies legitimate visitor."
+msgstr "Cloudflare: jivverifika li l-viżitatur huwa leġittimu."
+
+#: includes/class-scanner.php:196
+msgid "Cloudflare: identifies trusted web traffic."
+msgstr "Cloudflare: jidentifika t-traffiku web affidabbli."
+
+#: includes/class-scanner.php:199
+msgid "Hotjar: tracks user behaviour and feedback."
+msgstr "Hotjar: isegwi l-imġiba u r-rispons tal-utenti."
+
+#: includes/class-scanner.php:200
+msgid "Microsoft Clarity: stores a user ID and preferences."
+msgstr "Microsoft Clarity: jaħżen ID tal-utent u l-preferenzi."
+
+#: includes/class-scanner.php:201
+msgid "Microsoft Clarity: connects page views into a session."
+msgstr "Microsoft Clarity: jgħaqqad il-veduti tal-paġni f'sessjoni waħda."
+
+#: includes/class-scanner.php:204
+msgid "Stores your cookie consent preferences."
+msgstr "Jaħżen il-preferenzi tal-kunsens tiegħek għall-cookies."
+
+#: includes/class-scanner.php:205
+msgid ""
+"WP Consent API: stores your consent choice for necessary cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: jaħżen l-għażla tal-kunsens tiegħek għall-cookies "
+"neċessarji. Sinkronizzat mill-banner tal-kunsens tiegħek."
+
+#: includes/class-scanner.php:206
+msgid ""
+"WP Consent API: stores your consent choice for analytics cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: jaħżen l-għażla tal-kunsens tiegħek għall-cookies analitiċi. "
+"Sinkronizzat mill-banner tal-kunsens tiegħek."
+
+#: includes/class-scanner.php:207
+msgid ""
+"WP Consent API: stores your consent choice for anonymous statistics. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: jaħżen l-għażla tal-kunsens tiegħek għall-istatistika "
+"anonima. Sinkronizzat mill-banner tal-kunsens tiegħek."
+
+#: includes/class-scanner.php:208
+msgid ""
+"WP Consent API: stores your consent choice for marketing cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: jaħżen l-għażla tal-kunsens tiegħek għall-cookies "
+"tal-marketing. Sinkronizzat mill-banner tal-kunsens tiegħek."
+
+#: includes/class-scanner.php:209
+msgid ""
+"WP Consent API: stores your consent choice for preference cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: jaħżen l-għażla tal-kunsens tiegħek għall-cookies "
+"tal-preferenzi. Sinkronizzat mill-banner tal-kunsens tiegħek."
+
+#: includes/class-scanner.php:210
+msgid ""
+"WP Consent API: stores per-service consent overrides used by integrated "
+"plugins."
+msgstr ""
+"WP Consent API: jaħżen l-eċċezzjonijiet tal-kunsens għal kull servizz li "
+"jużaw il-plugins integrati."
+
+#: includes/class-scanner.php:211
+msgid ""
+"WP Consent API: stores your cookie consent choice. Synced from your consent "
+"banner."
+msgstr ""
+"WP Consent API: jaħżen l-għażla tal-kunsens tiegħek għall-cookies. "
+"Sinkronizzat mill-banner tal-kunsens tiegħek."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:195
+#, php-format
+msgid "“%s” is not a usable address. Use at least 4 characters without spaces, for example widget.example.com."
+msgstr ""
+"“%s” mhuwiex indirizz li jista' jintuża. Uża mill-inqas 4 karattri mingħajr "
+"spazji, pereżempju widget.example.com."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:200
+#, php-format
+msgid "“%s” would block every script on this site. Enter the address of the external service instead."
+msgstr ""
+"“%s” kien jimblokka kull script f'dan is-sit. Minflok, daħħal l-indirizz "
+"tas-servizz estern."
+
+#: includes/class-script-blocker.php:840
+msgid "This content is blocked because it requires analytics cookies."
+msgstr "Dan il-kontenut huwa mblukkat għax jeħtieġ cookies analitiċi."
+
+#: includes/class-script-blocker.php:841
+msgid "Accept analytics cookies"
+msgstr "Aċċetta l-cookies analitiċi"
+
+#: includes/class-script-blocker.php:845
+msgid "This content is blocked because it requires preference cookies."
+msgstr "Dan il-kontenut huwa mblukkat għax jeħtieġ cookies tal-preferenzi."
+
+#: includes/class-script-blocker.php:846
+msgid "Accept preference cookies"
+msgstr "Aċċetta l-cookies tal-preferenzi"
+
+#: includes/class-admin.php:890 includes/class-admin.php:1203
+msgid "Block by address"
+msgstr "Imblokka skont l-indirizz"
+
+#: includes/class-admin.php:1213
+msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
+msgstr ""
+"L-iscripts fl-HTML tal-paġna jitqabblu biss meta Imblukkar tal-kodiċi "
+"personalizzat ikun mixgħul."
+
+#: includes/class-admin.php:1259 includes/class-admin.php:1289
+msgid "Address contains"
+msgstr "L-indirizz fih"
+
+#: includes/class-admin.php:1274
+msgid "Add address"
+msgstr "Żid indirizz"
+
+#: includes/class-admin.php:1284
+msgid "Necessary (never blocked)"
+msgstr "Neċessarji (qatt ma jiġu mblukkati)"
+
+#: includes/class-admin.php:889
+msgid "Reviews widgets"
+msgstr "Widgets tar-recensjonijiet"
+
+#: includes/class-admin.php:889
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgstr ""
+"Il-widget tar-recensjonijiet ta' Trustmary jistenna l-kunsens "
+"għall-analitika, għax jaħżen ID tal-viżitatur fil-browser. Minflokhu "
+"jintwera messaġġ b'buttuna għall-aċċettazzjoni. Biex jitgħabba minnufih, żid "
+"widget.trustmary.com taħt Imblokka skont l-indirizz bil-kategorija "
+"“Neċessarji (qatt ma jiġu mblukkati)”."
+
+#: includes/class-admin.php:890
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
+msgstr ""
+"Jimblokka kull script ieħor skont parti mill-indirizz tiegħu sakemm "
+"il-viżitatur jaċċetta l-kategorija li tagħżel, pereżempju widget li l-plugin "
+"ma jagħrafx. Ixgħel Uri messaġġ għall-iscripts li juru kontenut fil-paġna."
+
+#: includes/class-scanner.php:137
+msgctxt "cookie duration"
+msgid "Persistent"
+msgstr "Persistenti"
+
+#: includes/class-scanner.php:209
+msgid "Trustmary: stores a visitor ID, the landing page and conversions in the browser’s local storage."
+msgstr ""
+"Trustmary: jaħżen ID tal-viżitatur, il-paġna tad-dħul u l-konverżjonijiet "
+"fil-ħażna lokali tal-browser."
+
+#: includes/class-scanner.php:224
+msgid "Reddit Pixel: identifies the browser for ad measurement."
+msgstr "Reddit Pixel: jidentifika l-browser għall-kejl tar-reklami."
+
+#: includes/class-scanner.php:225
+msgid ""
+"Microsoft Advertising: groups page views into a session for ad measurement."
+msgstr ""
+"Microsoft Advertising: jiġbor il-veduti tal-paġni f'sessjoni għall-kejl "
+"tar-reklami."
+
+#: includes/class-scanner.php:226
+msgid ""
+"Microsoft Advertising: identifies the visitor across visits for ad "
+"measurement."
+msgstr ""
+"Microsoft Advertising: jidentifika l-viżitatur minn żjara għal oħra "
+"għall-kejl tar-reklami."
+
+#: includes/class-scanner.php:227
+msgid "Criteo: stores a browser identifier for ad personalisation."
+msgstr ""
+"Criteo: jaħżen identifikatur tal-browser għall-personalizzazzjoni "
+"tar-reklami."
+
+#: includes/class-scanner.php:228
+msgid "Taboola: identifies the browser for ad targeting."
+msgstr "Taboola: jidentifika l-browser għall-immirar tar-reklami."
+
+#: includes/class-scanner.php:229
+msgid "Klaviyo: recognises returning visitors for email marketing."
+msgstr ""
+"Klaviyo: jagħraf il-viżitaturi li jerġgħu jiġu għall-marketing bl-email."
+
+#: includes/class-scanner.php:230
+msgid "Yandex Metrica: identifies visitors and stores session settings."
+msgstr ""
+"Yandex Metrica: jidentifika l-viżitaturi u jaħżen l-issettjar tas-sessjoni."
+
+#: includes/class-scanner.php:231
+msgid "Segment: stores an anonymous visitor ID and traits."
+msgstr "Segment: jaħżen ID anonimu tal-viżitatur u l-karatteristiċi tiegħu."
+
+#: includes/class-scanner.php:232
+msgid "Intercom: keeps the chat messenger session and visitor identity."
+msgstr ""
+"Intercom: iżomm is-sessjoni tal-messenger taċ-chat u l-identità "
+"tal-viżitatur."
+
+#: includes/class-scanner.php:233
+msgid "Crisp: keeps the chat session and visitor identity."
+msgstr "Crisp: iżomm is-sessjoni taċ-chat u l-identità tal-viżitatur."
+
+#: includes/class-admin.php
+msgid "Cookie policy link text"
+msgstr "Test tal-link tal-politika dwar il-cookies"
+
+#: includes/class-admin.php
+msgid "Cookie settings label"
+msgstr "Tikketta tal-issettjar tal-cookies"
+
+#: includes/class-admin.php
+msgid "Tooltip and screen reader label of the floating button, and the default text of the [kncc_cookie_settings] link."
+msgstr ""
+"Tooltip u tikketta għall-qarrejja tal-iskrin tal-buttuna li tgħum, u t-test "
+"awtomatiku tal-link [kncc_cookie_settings]."
+
+#: includes/class-admin.php
+msgid "Banner label for screen readers"
+msgstr "Tikketta tal-banner għall-qarrejja tal-iskrin"
+
+#: includes/class-admin.php
+msgid "Cookie categories"
+msgstr "Kategoriji tal-cookies"
+
+#: includes/class-admin.php
+msgid "Text when no cookies are used"
+msgstr "Test meta ma jintużaw l-ebda cookies"
+
+#: includes/class-admin.php
+msgid "Policy page texts"
+msgstr "Testi tal-paġna tal-politika"
+
+#: includes/class-admin.php
+msgid "Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab."
+msgstr ""
+"Testi tad-dikjarazzjoni tal-cookies [kncc_cookie_policy]. Ħalli qasam vojt "
+"biex jintuża t-test integrat, li huwa tradott f'kull lingwa. L-ismijiet "
+"tal-kategoriji jiġu editjati fit-tab Ġenerali."
+
+#: includes/class-admin.php
+msgid "Category descriptions"
+msgstr "Deskrizzjonijiet tal-kategoriji"
+
+#: includes/class-admin.php
+msgid "Consent status"
+msgstr "Status tal-kunsens"
+
+#: includes/class-admin.php
+msgid "Heading"
+msgstr "Titlu"
+
+#: includes/class-admin.php
+msgid "Before the visitor chooses"
+msgstr "Qabel ma l-viżitatur jagħżel"
+
+#: includes/class-admin.php
+msgid "Technical note (shown when WP Consent API is active)"
+msgstr "Nota teknika (tintwera meta WP Consent API ikun attiv)"
+
+#: includes/class-admin.php
+msgid "Buttons and messages"
+msgstr "Buttuni u messaġġi"
+
+#: includes/class-admin.php
+msgid "Edit preferences button"
+msgstr "Buttuna tal-bidla tal-preferenzi"
+
+#: includes/class-admin.php
+msgid "Message when no cookies are registered"
+msgstr "Messaġġ meta ma jkunu reġistrati l-ebda cookies"
+
+#: includes/class-admin.php
+msgid "Table column headings"
+msgstr "Titli tal-kolonni tat-tabella"
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 added cookies for services that are not on your site. They have been removed from the cookie list: %s. If your site does use some of these services, put the cookies back and delete the ones it does not use."
+msgstr ""
+"Il-verżjoni 1.8.10 żiedet cookies għal servizzi li mhumiex fuq is-sit "
+"tiegħek. Dawn tneħħew mil-lista tal-cookies: %s. Jekk is-sit tiegħek "
+"fil-fatt juża xi wħud minn dawn is-servizzi, erġa' poġġi l-cookies lura u "
+"ħassar dawk li ma jużax."
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 may have added cookies for services that are not on your site: %s. The Google Tag Manager on your site can load any of them, so they were kept. Remove the ones your site does not use."
+msgstr ""
+"Il-verżjoni 1.8.10 setgħet żiedet cookies għal servizzi li mhumiex fuq "
+"is-sit tiegħek: %s. Google Tag Manager fis-sit tiegħek jista' jtella' "
+"kwalunkwe wieħed minnhom, għalhekk inżammu. Neħħi dawk li s-sit tiegħek ma "
+"jużax."
+
+#: includes/class-admin.php
+msgid "Put the cookies back"
+msgstr "Erġa' poġġi l-cookies lura"
+
+#: includes/class-admin.php
+msgid "Hide this notice"
+msgstr "Aħbi dan l-avviż"
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr ""
+"Jintwerew meta l-viżitaturi jiftħu Ippersonalizza. Ħalli qasam vojt biex "
+"jintuża t-test integrat."
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr "Messaġġi għall-kontenut imblukkat"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr "Messaġġ għal YouTube & Vimeo"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr "Buttuna tal-aċċettazzjoni għal YouTube & Vimeo"
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr "Messaġġ għall-kontenut tal-analitika"
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr "Buttuna tal-aċċettazzjoni għall-kontenut tal-analitika"
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr "Messaġġ għall-kontenut tal-preferenzi"
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr "Buttuna tal-aċċettazzjoni għall-kontenut tal-preferenzi"
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr "Jew żid link kullimkien bix-shortcode:"
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr ""
+"Rakkomandat. Itfih biss jekk plugin tal-cache jew tal-veloċità jkisser "
+"is-sit."
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr "Imblukkat awtomatikament, mingħajr ma hemm bżonn ta' konfigurazzjoni."
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr "Uri messaġġ"
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr "Ma ntgħażlu l-ebda cookies."
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr "L-iscripts ta' %s m'għadhomx jinstabu fil-paġna ewlenija"
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr ""
+"Lingwa li qed tiġi editjata: %s. Dak li tissejvja japplika għal din "
+"il-lingwa biss."
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr ""
+"Qed tiġi editjata l-lingwa prinċipali. Il-lingwi l-oħra għandhom it-testi "
+"tagħhom."
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr ""
+"Ara l-previżjoni tal-banner bl-issettjar attwali tiegħek li għadu mhux "
+"issejvjat."
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr "Il-previżjoni diretta taħdem biss bl-istil tal-plugin."
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr "Tikketta għall-qarrejja tal-iskrin tal-buttuna ×."
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr ""
+"Iżomm lura kull script ieħor sakemm il-viżitatur jaċċetta l-kategorija "
+"tiegħu. Użah għal widgets u għodod li l-plugin ma jagħrafx."
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr ""
+"Neċessarji (qatt ma jiġu mblukkati) iħalli indirizz jitgħabba minnufih, anke "
+"wieħed li l-plugin kien jimblokka."
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr ""
+"Uri messaġġ: fejn l-iscript imblukkat kien juri kontenut (recensjonijiet, "
+"prenotazzjonijiet, mappa), juri messaġġ b'buttuna għall-aċċettazzjoni "
+"minflok spazju vojt. Mhux meħtieġ għall-iscripts tat-traċċar."
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
+msgstr "jiftaħ f'tab ġdida"

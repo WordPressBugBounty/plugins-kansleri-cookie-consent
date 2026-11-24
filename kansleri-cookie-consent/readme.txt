@@ -3,7 +3,7 @@ Contributors: tapiokansleri
 Tags: cookie consent, gdpr, google consent mode, cookie banner, privacy
 Requires at least: 6.0
 Tested up to: 7.1
-Stable tag: 1.8.12
+Stable tag: 1.8.13
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -40,7 +40,7 @@ Kansleri Cookie Consent is a free, lightweight, and easy-to-use WordPress cookie
 * Google Site Kit integration — auto-detects and avoids duplicate consent signals
 * WP Consent API integration — shares consent status with other plugins
 * **Full WPML and Polylang support** — per-language banner texts, cookie descriptions, banner style, colors, and policy page
-* Translated into Finnish, German, French, Spanish, Italian and Dutch (regional variants such as Austrian German, Mexican Spanish and Canadian French use the same translation), and the banner texts start in your site's language
+* Translated into every official language of the EU and EEA countries (25 languages besides English): Bulgarian, Croatian, Czech, Danish, Dutch, Estonian, Finnish, French, German, Greek, Hungarian, Icelandic, Irish, Italian, Latvian, Lithuanian, Maltese, Norwegian, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish and Swedish. Regional variants such as Austrian German, Mexican Spanish, Canadian French and Brazilian Portuguese use the same translation, and the banner texts start in your site's language
 * Daily cron check for missing cookie descriptions with admin notifications
 * Comprehensive documentations tab with installation guide, option explanations, and troubleshooting
 * Clean uninstall — removes all data when deleted
@@ -111,6 +111,11 @@ All plugin options (`kncc_settings`, `kncc_cookies`, `kncc_consent_stats`, `kncc
 9. Blocked YouTube embed showing the video thumbnail with an "Accept marketing cookies" button before consent
 
 == Changelog ==
+
+= 1.8.13 =
+* New: Translations for the other official languages of the EU and EEA countries: Bulgarian, Croatian, Czech, Danish, Estonian, Greek, Hungarian, Icelandic, Irish, Latvian, Lithuanian, Maltese, Norwegian (Bokmål, also used for Nynorsk), Polish, Portuguese, Romanian, Slovak, Slovenian and Swedish. With the languages from 1.8.12 the plugin now speaks every official language of the EU and EEA. Regional variants (for example Brazilian Portuguese and Norwegian Nynorsk) use the same translation unless WordPress.org has one for the variant
+* Changed: A site in one of the new languages that still has the plugin's English banner texts saved gets them in its own language once, the next time an administrator opens wp-admin. The same goes for the texts saved for each other language of a Polylang or WPML site, which are English when that language's tab was saved before the plugin had the language. Texts you have written yourself are not changed
+* Fixed: The settings screens and the activation showed English texts for a language that WordPress has no language files for (Irish and Maltese, or a language a multilingual plugin added on a host where WordPress could not download them), even though the plugin has the translation. The plugin now reads its own translation file there
 
 = 1.8.12 =
 * Fixed: The banner no longer writes the five `wp_consent_*` cookies on sites without the WP Consent API plugin, and it removes the ones that earlier versions left in visitors' browsers. With the WP Consent API plugin active, nothing changes

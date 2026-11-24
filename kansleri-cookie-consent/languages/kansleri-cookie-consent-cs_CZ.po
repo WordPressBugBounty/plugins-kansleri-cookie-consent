@@ -1,0 +1,2287 @@
+# Czech translation for Kansleri Cookie Consent
+# Copyright (C) 2024 Kansleri.fi
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kansleri Cookie Consent 1.8.13\n"
+"Report-Msgid-Bugs-To: https://kansleri.fi\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
+"PO-Revision-Date: 2026-11-03 12:00+0200\n"
+"Last-Translator: Kansleri.fi\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: includes/class-admin.php:20 includes/class-admin.php:21
+#: includes/class-admin.php:122
+msgid "Cookie Consent"
+msgstr "Souhlas s cookies"
+
+#: includes/class-admin.php:67 includes/class-admin.php:1228
+msgid "Settings saved."
+msgstr "Nastavení uloženo."
+
+#: includes/class-admin.php:68
+msgid "An error occurred."
+msgstr "Došlo k chybě."
+
+#: includes/class-admin.php:69
+msgid "Scanning..."
+msgstr "Skenování…"
+
+#: includes/class-admin.php:70
+msgid "Scan complete."
+msgstr "Skenování dokončeno."
+
+#: includes/class-admin.php:71
+msgid "No new cookies found."
+msgstr "Nebyly nalezeny žádné nové cookies."
+
+#: includes/class-admin.php:72
+msgid "Remove this cookie?"
+msgstr "Odebrat tento soubor cookie?"
+
+#: includes/class-admin.php:73 includes/class-admin.php:414
+#: includes/class-admin.php:698
+msgid "Scan Cookies"
+msgstr "Skenovat cookies"
+
+#: includes/class-admin.php:74
+msgid "Invalid JSON format. Please import a valid cookie array."
+msgstr "Neplatný formát JSON. Importujte prosím platné pole cookies."
+
+#: includes/class-admin.php:75
+msgid "Cookies imported into the table. Save cookies to persist changes."
+msgstr ""
+"Cookies byly importovány do tabulky. Pro zachování změn uložte cookies."
+
+#: includes/class-admin.php:76
+msgid "No valid cookies found in imported JSON."
+msgstr "V importovaném JSON nebyly nalezeny žádné platné cookies."
+
+#: includes/class-admin.php:77
+msgid "No cookie rows available to export."
+msgstr "Nejsou k dispozici žádné řádky cookies k exportu."
+
+#: includes/class-admin.php:78
+msgid "AI prompt copied to clipboard."
+msgstr "AI prompt byl zkopírován do schránky."
+
+#: includes/class-admin.php:79
+msgid ""
+"Could not copy prompt automatically. Select all and copy from the box below."
+msgstr ""
+"Prompt se nepodařilo zkopírovat automaticky. Označte vše v poli níže a "
+"zkopírujte."
+
+#: includes/class-admin.php:81
+msgid "AI prompt (copied to clipboard — or select all and copy manually):"
+msgstr ""
+"AI prompt (zkopírován do schránky – nebo označte vše a zkopírujte ručně):"
+
+#: includes/class-admin.php:82
+msgid ""
+"Policy page AI prompt (copied to clipboard — or select all and copy "
+"manually):"
+msgstr ""
+"AI prompt pro stránku zásad (zkopírován do schránky – nebo označte vše a "
+"zkopírujte ručně):"
+
+#: includes/class-admin.php:83
+msgid ""
+"Prompt ready below — select all (Ctrl+A) inside the box and copy (Ctrl+C)."
+msgstr ""
+"Prompt je připraven níže – označte vše (Ctrl+A) v poli a zkopírujte (Ctrl+C)."
+
+#: includes/class-admin.php:80
+msgid "All cookies are done! Every cookie has a description."
+msgstr "Všechny cookies jsou hotové! Každý soubor cookie má popis."
+
+#: includes/class-admin.php:81 includes/class-admin.php:457
+msgid "No cookies registered yet."
+msgstr "Zatím nejsou zaregistrovány žádné cookies."
+
+#: includes/class-admin.php:82 includes/class-admin.php:473
+msgid "Remove"
+msgstr "Odebrat"
+
+#: includes/class-admin.php:83
+msgid ""
+"This will permanently delete all consent log records and statistics. "
+"Continue?"
+msgstr ""
+"Tímto trvale smažete všechny záznamy protokolu souhlasů a statistiky. "
+"Pokračovat?"
+
+#: includes/class-admin.php:84 includes/class-admin.php:1150
+msgid "All consent log records and statistics have been purged."
+msgstr "Všechny záznamy protokolu souhlasů a statistiky byly vymazány."
+
+#: includes/class-admin.php:85
+msgid "AI prompt for policy page copied to clipboard."
+msgstr "AI prompt pro stránku zásad byl zkopírován do schránky."
+
+#: includes/class-admin.php:86
+msgid "CSS template copied to clipboard."
+msgstr "Šablona CSS byla zkopírována do schránky."
+
+#: includes/class-admin.php:88
+#, php-format
+msgid "%d known cookie(s) added automatically:"
+msgstr "Automaticky přidané známé cookies (%d):"
+
+#: includes/class-admin.php:90
+#, php-format
+msgid ""
+"%d unknown cookie(s) added — please set their category and description "
+"below."
+msgstr ""
+"Přidané neznámé cookies (%d) – níže jim prosím nastavte kategorii a popis."
+
+#: includes/class-admin.php:91
+msgid "Unknown"
+msgstr "Neznámé"
+
+#: includes/class-admin.php:92
+msgid "Added — categorize and describe in the table below"
+msgstr "Přidáno – zařaďte do kategorie a popište v tabulce níže"
+
+#: includes/class-admin.php:94
+#, php-format
+msgid "%d cookie(s) inferred from detected scripts on your site:"
+msgstr "Cookies odvozené z rozpoznaných skriptů na vašem webu (%d):"
+
+#: includes/class-admin.php:95
+msgid ""
+"These cookies are expected from tracking scripts on your site, even when "
+"blocked until consent."
+msgstr ""
+"Tyto cookies se očekávají od sledovacích skriptů na vašem webu, i když jsou "
+"blokovány do udělení souhlasu."
+
+#: includes/class-admin.php:97
+#, php-format
+msgid ""
+"%d browser cookie(s) skipped — found in your browser but no matching script "
+"on this site:"
+msgstr ""
+"Přeskočené cookies z prohlížeče (%d) – nalezeny ve vašem prohlížeči, ale na "
+"tomto webu k nim není žádný odpovídající skript:"
+
+#: includes/class-admin.php:481
+msgid ""
+"%d cookie was automatically added based on tracking scripts detected on your"
+" site."
+msgid_plural ""
+"%d cookies were automatically added based on tracking scripts detected on "
+"your site."
+msgstr[0] ""
+"%d soubor cookie byl automaticky přidán na základě sledovacích skriptů "
+"zjištěných na vašem webu."
+msgstr[1] ""
+"%d soubory cookies byly automaticky přidány na základě sledovacích skriptů "
+"zjištěných na vašem webu."
+msgstr[2] ""
+"%d souborů cookies bylo automaticky přidáno na základě sledovacích skriptů "
+"zjištěných na vašem webu."
+
+#: includes/class-admin.php:128
+msgid "General"
+msgstr "Obecné"
+
+#: includes/class-admin.php:131 kansleri-cookie-consent.php:571
+msgid "Cookies"
+msgstr "Cookies"
+
+#: includes/class-admin.php:134
+msgid "Policy Page"
+msgstr "Stránka zásad"
+
+#: includes/class-admin.php:137
+msgid "Integration"
+msgstr "Integrace"
+
+#: includes/class-admin.php:140
+msgid "Script Blocking"
+msgstr "Blokování skriptů"
+
+#: includes/class-admin.php:143
+msgid "Statistics"
+msgstr "Statistiky"
+
+#: includes/class-admin.php:146
+msgid "Documentations"
+msgstr "Dokumentace"
+
+#: includes/class-admin.php:210
+msgid "Open banner preview"
+msgstr "Otevřít náhled banneru"
+
+#: includes/class-admin.php:222 includes/class-admin.php:689
+msgid "Banner style"
+msgstr "Styl banneru"
+
+#: includes/class-admin.php:225
+msgid "Bottom bar"
+msgstr "Lišta dole"
+
+#: includes/class-admin.php:226
+msgid "Centered modal"
+msgstr "Modální okno uprostřed"
+
+#: includes/class-admin.php:227
+msgid "Corner popup"
+msgstr "Vyskakovací okno v rohu"
+
+#: includes/class-admin.php:233
+msgid "Colors"
+msgstr "Barvy"
+
+#: includes/class-admin.php:237
+msgid "Banner background"
+msgstr "Pozadí banneru"
+
+#: includes/class-admin.php:238 includes/class-admin.php:275
+msgid "Heading text"
+msgstr "Text nadpisu"
+
+#: includes/class-admin.php:239
+msgid "Body text"
+msgstr "Základní text"
+
+#: includes/class-admin.php:240
+msgid "Primary button"
+msgstr "Primární tlačítko"
+
+#: includes/class-admin.php:241
+msgid "Primary button text"
+msgstr "Text primárního tlačítka"
+
+#: includes/class-admin.php:242
+msgid "Secondary button"
+msgstr "Sekundární tlačítko"
+
+#: includes/class-admin.php:243
+msgid "Secondary button text"
+msgstr "Text sekundárního tlačítka"
+
+#: includes/class-admin.php:265 includes/class-admin.php:691
+msgid "Text and font style"
+msgstr "Styl textu a písma"
+
+#: includes/class-admin.php:268 includes/class-admin.php:521
+msgid "Theme style (inherit site typography)"
+msgstr "Styl šablony (převzít typografii webu)"
+
+#: includes/class-admin.php:269 includes/class-admin.php:522
+msgid "Plugin style (strict font sizes/colors)"
+msgstr "Styl pluginu (pevné velikosti písma a barvy)"
+
+#: includes/class-admin.php:281
+msgid "Description text"
+msgstr "Text popisu"
+
+#: includes/class-admin.php:287
+msgid "Accept button text"
+msgstr "Text tlačítka Přijmout"
+
+#: includes/class-admin.php:291
+msgid "Reject button text"
+msgstr "Text tlačítka Odmítnout"
+
+#: includes/class-admin.php:295
+msgid "Customize button text"
+msgstr "Text tlačítka Přizpůsobit"
+
+#: includes/class-admin.php:299
+msgid "Save preferences button text"
+msgstr "Text tlačítka Uložit předvolby"
+
+#: includes/class-admin.php:303 includes/class-script-blocker.php:187
+msgid "This content is blocked because it requires marketing cookies."
+msgstr "Tento obsah je zablokován, protože vyžaduje marketingové cookies."
+
+#: includes/class-admin.php:304 includes/class-script-blocker.php:190
+msgid "Accept marketing cookies"
+msgstr "Přijmout marketingové cookies"
+
+#: includes/class-admin.php:318 includes/class-admin.php:693
+msgid "Floating settings button"
+msgstr "Plovoucí tlačítko nastavení"
+
+#: includes/class-admin.php:322
+msgid ""
+"Show a small floating button so visitors can re-open their cookie "
+"preferences"
+msgstr ""
+"Zobrazit malé plovoucí tlačítko, pomocí kterého mohou návštěvníci znovu "
+"otevřít své předvolby cookies"
+
+#: includes/class-admin.php:329
+msgid "Copied!"
+msgstr "Zkopírováno!"
+
+#: includes/class-admin.php:329 includes/class-admin.php:330
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: includes/class-admin.php:346 includes/class-admin.php:531
+#: includes/class-admin.php:664
+msgid "Save Settings"
+msgstr "Uložit nastavení"
+
+#: includes/class-admin.php:370
+msgid "Banner preview"
+msgstr "Náhled banneru"
+
+#: includes/class-admin.php:415
+msgid "Add Cookie"
+msgstr "Přidat cookie"
+
+#: includes/class-admin.php:419
+msgid "Need help describing these cookies?"
+msgstr "Potřebujete pomoc s popisem těchto cookies?"
+
+#: includes/class-admin.php:421
+msgid ""
+"Click the button below to copy a ready-made AI prompt with your cookie data."
+msgstr ""
+"Kliknutím na tlačítko níže zkopírujete hotový AI prompt s daty vašich "
+"cookies."
+
+#: includes/class-admin.php:422
+msgid "Paste the prompt into an AI tool (ChatGPT, Claude, Gemini, etc.)."
+msgstr "Vložte prompt do AI nástroje (ChatGPT, Claude, Gemini apod.)."
+
+#: includes/class-admin.php:423
+msgid "The AI will return improved JSON with clear cookie descriptions."
+msgstr "AI vrátí vylepšený JSON s jasnými popisy cookies."
+
+#: includes/class-admin.php:424
+msgid ""
+"Copy the AI response and paste it into the text box that appears below."
+msgstr ""
+"Zkopírujte odpověď AI a vložte ji do textového pole, které se zobrazí níže."
+
+#: includes/class-admin.php:425
+msgid "Click Import — cookies are saved automatically."
+msgstr "Klikněte na Importovat – cookies se uloží automaticky."
+
+#: includes/class-admin.php:429
+msgid "Copy AI Prompt to Clipboard"
+msgstr "Zkopírovat AI prompt do schránky"
+
+#: includes/class-admin.php:433
+msgid "Paste the AI response here:"
+msgstr "Zde vložte odpověď AI:"
+
+#: includes/class-admin.php:434
+msgid "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+msgstr "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+
+#: includes/class-admin.php:436
+msgid "Import"
+msgstr "Importovat"
+
+#: includes/class-admin.php:447
+msgid "Name"
+msgstr "Název"
+
+#: includes/class-admin.php:448 includes/class-admin.php:989
+msgid "Category"
+msgstr "Kategorie"
+
+#: includes/class-admin.php:449 includes/class-policy-page.php:91
+#: includes/class-policy-page.php:100
+msgid "Provider"
+msgstr "Poskytovatel"
+
+#: includes/class-admin.php:450 includes/class-policy-page.php:93
+#: includes/class-policy-page.php:102
+msgid "Duration"
+msgstr "Platnost"
+
+#: includes/class-admin.php:451
+msgid "Description"
+msgstr "Popis"
+
+#: includes/class-admin.php:464 kansleri-cookie-consent.php:335
+msgid "Necessary"
+msgstr "Nezbytné"
+
+#: includes/class-admin.php:465 kansleri-cookie-consent.php:339
+msgid "Analytics"
+msgstr "Analytické"
+
+#: includes/class-admin.php:466 kansleri-cookie-consent.php:343
+msgid "Marketing"
+msgstr "Marketingové"
+
+#: includes/class-admin.php:467 kansleri-cookie-consent.php:347
+msgid "Preferences"
+msgstr "Preferenční"
+
+#: includes/class-admin.php:480 includes/class-admin.php:700
+msgid "Save Cookies"
+msgstr "Uložit cookies"
+
+#: includes/class-admin.php:494
+msgid ""
+"No cookie policy page has been selected. Set a Privacy Policy page in "
+"Settings → Privacy, or choose a page below."
+msgstr ""
+"Nebyla vybrána žádná stránka se zásadami cookies. Nastavte stránku se "
+"zásadami ochrany osobních údajů v části Nastavení → Soukromí, nebo níže "
+"vyberte jinou stránku."
+
+#: includes/class-admin.php:502 includes/class-admin.php:705
+msgid "Cookie policy page"
+msgstr "Stránka se zásadami cookies"
+
+#: includes/class-admin.php:505
+msgid "— Select a page —"
+msgstr "— Vyberte stránku —"
+
+#: includes/class-admin.php:510
+#, php-format
+msgid "%s (WordPress Privacy Policy)"
+msgstr "%s (zásady ochrany osobních údajů ve WordPressu)"
+
+#: includes/class-admin.php:513
+msgid ""
+"Defaults automatically to the WordPress Privacy Policy page (Settings → "
+"Privacy). Add the shortcode [kncc_cookie_policy] to that page to show the "
+"cookie declaration."
+msgstr ""
+"Ve výchozím nastavení se automaticky použije stránka WordPressu se zásadami "
+"ochrany osobních údajů (Nastavení → Soukromí). Chcete-li zobrazit přehled "
+"cookies, přidejte na tuto stránku shortcode [kncc_cookie_policy]."
+
+#: includes/class-admin.php:518
+msgid "Policy page style"
+msgstr "Styl stránky zásad"
+
+#: includes/class-admin.php:525
+msgid ""
+"Controls the styling of the [kncc_cookie_policy] cookie declaration table."
+msgstr ""
+"Určuje vzhled tabulky s přehledem cookies ze shortcodu [kncc_cookie_policy]."
+
+#: includes/class-admin.php:628
+msgid ""
+"Theme style is the default so the policy page matches your site typography. "
+"Switch to Plugin style for strict plugin sizes and colors."
+msgstr ""
+"Výchozí je Styl šablony, aby stránka zásad odpovídala typografii vašeho "
+"webu. Pro pevné velikosti a barvy pluginu přepněte na Styl pluginu."
+
+#: includes/class-admin.php:539
+msgid "Preview Policy Page"
+msgstr "Náhled stránky zásad"
+
+#: includes/class-admin.php:546
+msgid "Generate cookie policy page content with AI"
+msgstr "Vytvořit obsah stránky se zásadami cookies pomocí AI"
+
+#: includes/class-admin.php:548
+msgid ""
+"Copy the prompt below and paste it into an AI tool. It will generate a "
+"complete cookie and privacy policy page in your site language. The cookie "
+"declaration will be handled automatically by the [kncc_cookie_policy] "
+"shortcode. Paste the generated HTML into your policy page."
+msgstr ""
+"Zkopírujte prompt níže a vložte ho do AI nástroje. Vytvoří kompletní stránku "
+"se zásadami cookies a ochrany osobních údajů v jazyce vašeho webu. Přehled "
+"cookies zajistí automaticky shortcode [kncc_cookie_policy]. Vygenerované "
+"HTML vložte na stránku zásad."
+
+#: includes/class-admin.php:552
+msgid "Copy AI Prompt for Policy Page"
+msgstr "Zkopírovat AI prompt pro stránku zásad"
+
+#: includes/class-admin.php:565
+msgid "Detected integrations"
+msgstr "Zjištěné integrace"
+
+#: includes/class-admin.php:692
+msgid ""
+"Active — Site Kit sets consent defaults for its own regions. This plugin "
+"sets a denied default for all other visitors and sends consent updates."
+msgstr ""
+"Aktivní – Site Kit nastavuje výchozí hodnoty souhlasu pro své vlastní "
+"regiony. Tento plugin pro všechny ostatní návštěvníky nastavuje výchozí "
+"zamítnutí a odesílá aktualizace souhlasu."
+
+#: includes/class-admin.php:575
+msgid ""
+"Active — Site Kit consent mode not enabled. This plugin handles all consent "
+"signals."
+msgstr ""
+"Aktivní – Consent Mode v Site Kitu není zapnutý. Všechny signály souhlasu "
+"zajišťuje tento plugin."
+
+#: includes/class-admin.php:586
+msgid ""
+"Active — consent status is shared with other plugins via the WP Consent API."
+msgstr ""
+"Aktivní – stav souhlasu se sdílí s dalšími pluginy prostřednictvím WP "
+"Consent API."
+
+#: includes/class-admin.php:598 includes/class-admin.php:712
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: includes/class-admin.php:602
+msgid ""
+"Enable Consent Mode v2 (outputs consent defaults in &lt;head&gt; before GTM)"
+msgstr ""
+"Zapnout Consent Mode v2 (vypisuje výchozí hodnoty souhlasu do &lt;head&gt; "
+"před GTM)"
+
+#: includes/class-admin.php:610
+msgid ""
+"Forced on because Google Site Kit is active. Consent Mode is required for "
+"Site Kit to receive consent signals."
+msgstr ""
+"Vynuceně zapnuto, protože je aktivní Google Site Kit. Site Kit potřebuje "
+"Consent Mode, aby mohl přijímat signály souhlasu."
+
+#: includes/class-admin.php:614
+msgid ""
+"Consent Mode tells Google tags what the visitor has allowed (for example "
+"analytics or ads). This plugin sends a denied-by-default signal before tags "
+"run, and sends an updated signal after the visitor chooses. It controls "
+"consent signals only: you still need to install GTM/GA scripts separately."
+msgstr ""
+"Consent Mode sděluje značkám Google, co návštěvník povolil (například "
+"analytiku nebo reklamu). Tento plugin před spuštěním značek odešle výchozí "
+"signál „zamítnuto“ a po volbě návštěvníka odešle aktualizovaný signál. Řídí "
+"pouze signály souhlasu: skripty GTM/GA je nutné nainstalovat zvlášť."
+
+#: includes/class-admin.php:740
+msgid ""
+"Site Kit sets consent defaults for its own regions. This plugin adds a "
+"denied default for all other visitors and sends each visitor's choice as a "
+"consent update."
+msgstr ""
+"Site Kit nastavuje výchozí hodnoty souhlasu pro své vlastní regiony. Tento "
+"plugin pro všechny ostatní návštěvníky přidává výchozí zamítnutí a odesílá "
+"volbu každého návštěvníka jako aktualizaci souhlasu."
+
+#: includes/class-admin.php:630
+msgid "Need Google Analytics 4 or Google Tag Manager?"
+msgstr "Potřebujete Google Analytics 4 nebo Google Tag Manager?"
+
+#: includes/class-admin.php:633
+msgid ""
+"We recommend installing Google Site Kit — Google's official WordPress "
+"plugin. It sets up GA4 and GTM in a few clicks, and works seamlessly with "
+"Kansleri Cookie Consent: Consent Mode v2 signals are handled automatically, "
+"with no double-loading or conflicts."
+msgstr ""
+"Doporučujeme nainstalovat Google Site Kit – oficiální plugin Googlu pro "
+"WordPress. Nastaví GA4 a GTM na pár kliknutí a bezproblémově funguje s "
+"pluginem Kansleri Cookie Consent: signály Consent Mode v2 se zpracovávají "
+"automaticky, bez dvojího načítání a bez konfliktů."
+
+#: includes/class-admin.php:638
+msgid "Install Google Site Kit"
+msgstr "Nainstalovat Google Site Kit"
+
+#: includes/class-admin.php:649
+msgid "Consent Mode defaults (auto-injected in &lt;head&gt;)"
+msgstr "Výchozí hodnoty Consent Mode (automaticky vložené do &lt;head&gt;)"
+
+#: includes/class-admin.php:673
+msgid "Installation guide"
+msgstr "Návod k instalaci"
+
+#: includes/class-admin.php:675
+msgid "Activate the plugin and open Settings > Cookie Consent."
+msgstr "Aktivujte plugin a otevřete Nastavení > Souhlas s cookies."
+
+#: includes/class-admin.php:676
+msgid "Configure banner texts, style, and button labels in the General tab."
+msgstr "Texty banneru, styl a popisky tlačítek nastavte na kartě Obecné."
+
+#: includes/class-admin.php:677
+msgid ""
+"Open the Integration tab and enable Google Consent Mode v2 if you use "
+"GTM/Google tags."
+msgstr ""
+"Otevřete kartu Integrace a zapněte Google Consent Mode v2, pokud používáte "
+"GTM nebo značky Google."
+
+#: includes/class-admin.php:678
+msgid ""
+"Open the Cookies tab, run Scan Cookies, then review and categorize unknown "
+"cookies."
+msgstr ""
+"Otevřete kartu Cookies, spusťte Skenovat cookies a poté zkontrolujte neznámé "
+"cookies a zařaďte je do kategorií."
+
+#: includes/class-admin.php:679
+msgid ""
+"If unknown cookies are found, an AI helper appears: copy the prompt, paste "
+"it into an AI tool, paste the response back into the text box, click Import,"
+" then Save Cookies."
+msgstr ""
+"Pokud se najdou neznámé cookies, zobrazí se AI pomocník: zkopírujte prompt, "
+"vložte ho do AI nástroje, odpověď vložte zpět do textového pole, klikněte na "
+"Importovat a poté na Uložit cookies."
+
+#: includes/class-admin.php:680
+msgid ""
+"Confirm the Cookie Policy page in the Policy Page tab — it defaults to the "
+"WordPress Privacy Policy page."
+msgstr ""
+"Potvrďte stránku Zásady cookies na kartě Stránka zásad – ve výchozím "
+"nastavení je to stránka WordPressu se zásadami ochrany osobních údajů."
+
+#: includes/class-admin.php:681
+msgid ""
+"Use the AI prompt on the Policy Page tab to generate the full cookie policy "
+"page content. Paste the generated HTML into your policy page."
+msgstr ""
+"Pomocí AI promptu na kartě Stránka zásad vytvořte kompletní obsah stránky se "
+"zásadami cookies. Vygenerované HTML vložte na stránku zásad."
+
+#: includes/class-admin.php:682
+msgid "Review the Script Blocking tab to see which scripts are auto-blocked."
+msgstr ""
+"Zkontrolujte kartu Blokování skriptů, abyste zjistili, které skripty se "
+"blokují automaticky."
+
+#: includes/class-admin.php:685
+msgid "What each option means"
+msgstr "Význam jednotlivých možností"
+
+#: includes/class-admin.php:687
+msgid "General tab"
+msgstr "Karta Obecné"
+
+#: includes/class-admin.php:689
+msgid "Choose visual placement of the banner (bar, modal, corner)."
+msgstr "Vyberte umístění banneru (lišta, modální okno, roh)."
+
+#: includes/class-admin.php:690
+msgid "Controls the main accent color used by buttons and links."
+msgstr "Určuje hlavní zvýrazňovací barvu tlačítek a odkazů."
+
+#: includes/class-admin.php:690
+msgid "Primary color"
+msgstr "Primární barva"
+
+#: includes/class-admin.php:691
+msgid ""
+"Theme style inherits site typography. Plugin style uses strict sizes/colors "
+"for consistent readability."
+msgstr ""
+"Styl šablony přebírá typografii webu. Styl pluginu používá pevné velikosti a "
+"barvy pro konzistentní čitelnost."
+
+#: includes/class-admin.php:692
+msgid "Customize visible wording in the consent banner."
+msgstr "Upravte viditelné texty v cookie banneru."
+
+#: includes/class-admin.php:692
+msgid "Heading/Description/Button texts"
+msgstr "Nadpis, popis a texty tlačítek"
+
+#: includes/class-admin.php:693
+msgid "Lets visitors re-open cookie settings after they close the banner."
+msgstr ""
+"Umožní návštěvníkům znovu otevřít nastavení cookies po zavření banneru."
+
+#: includes/class-admin.php:696
+msgid "Cookies tab"
+msgstr "Karta Cookies"
+
+#: includes/class-admin.php:777
+msgid ""
+"Scans browser cookies and infers expected cookies from tracking scripts on "
+"your site (even when blocked until consent). Known cookies are auto-mapped "
+"to categories."
+msgstr ""
+"Skenuje cookies v prohlížeči a odvozuje očekávané cookies ze sledovacích "
+"skriptů na vašem webu (i když jsou blokovány do udělení souhlasu). Známé "
+"cookies se automaticky zařadí do kategorií."
+
+#: includes/class-admin.php:699
+msgid "AI Helper"
+msgstr "AI pomocník"
+
+#: includes/class-admin.php:699
+msgid ""
+"Appears after scanning when unknown cookies are found. Copies a ready prompt"
+" to paste into an AI tool. After the AI responds, paste the JSON back into "
+"the text box and click Import."
+msgstr ""
+"Zobrazí se po skenování, pokud se najdou neznámé cookies. Zkopíruje hotový "
+"prompt, který vložíte do AI nástroje. Po odpovědi AI vložte JSON zpět do "
+"textového pole a klikněte na Importovat."
+
+#: includes/class-admin.php:700
+msgid ""
+"Persists current cookie table values to be used in policy output and consent"
+" details."
+msgstr ""
+"Uloží aktuální hodnoty z tabulky cookies, aby se použily ve výpisu na "
+"stránce zásad a v podrobnostech souhlasu."
+
+#: includes/class-admin.php:703
+msgid "Policy Page tab"
+msgstr "Karta Stránka zásad"
+
+#: includes/class-admin.php:705
+msgid ""
+"Selects which page is used for cookie policy content generated by shortcode."
+msgstr ""
+"Určuje, která stránka se použije pro obsah zásad cookies generovaný "
+"shortcodem."
+
+#: includes/class-admin.php:706
+msgid "AI Prompt for Policy Page"
+msgstr "AI prompt pro stránku zásad"
+
+#: includes/class-admin.php:706
+msgid ""
+"Generates a prompt you can paste into an AI tool to create a full privacy "
+"and cookie policy. The generated text will include the [kncc_cookie_policy] "
+"shortcode for the cookie declaration section."
+msgstr ""
+"Vytvoří prompt, který můžete vložit do AI nástroje a získat tak kompletní "
+"zásady ochrany osobních údajů a cookies. Vygenerovaný text bude obsahovat "
+"shortcode [kncc_cookie_policy] pro část s přehledem cookies."
+
+#: includes/class-admin.php:707
+msgid ""
+"If Polylang or WPML is active, each language can have its own translated "
+"policy page. If a translation is missing for some language, the default-"
+"language policy page is used as a fallback."
+msgstr ""
+"Pokud je aktivní Polylang nebo WPML, může mít každý jazyk vlastní přeloženou "
+"stránku zásad. Pokud pro některý jazyk překlad chybí, jako záložní se "
+"použije stránka zásad ve výchozím jazyce."
+
+#: includes/class-admin.php:707
+msgid "Multilingual support"
+msgstr "Podpora více jazyků"
+
+#: includes/class-admin.php:710
+msgid "Integration tab"
+msgstr "Karta Integrace"
+
+#: includes/class-admin.php:712
+msgid ""
+"A Google framework for privacy-safe tag behavior. Before consent, storage "
+"signals are denied; after user choice, signals are updated (for example "
+"analytics_storage=granted). This helps GTM/Google tags respect user consent "
+"state."
+msgstr ""
+"Rámec od Googlu pro chování značek šetrné k soukromí. Před udělením souhlasu "
+"jsou signály úložiště zamítnuty; po volbě uživatele se signály aktualizují "
+"(například analytics_storage=granted). Díky tomu značky GTM/Google "
+"respektují stav souhlasu uživatele."
+
+#: includes/class-admin.php:713
+msgid "GTM Container ID"
+msgstr "ID kontejneru GTM"
+
+#: includes/class-admin.php:713
+msgid ""
+"Your GTM container identifier (for example GTM-N6828NL). It identifies which"
+" tag container your site uses. This field is informational in this plugin "
+"and does not inject GTM scripts."
+msgstr ""
+"Identifikátor vašeho kontejneru GTM (například GTM-N6828NL). Určuje, který "
+"kontejner značek váš web používá. V tomto pluginu je pole pouze informativní "
+"a nevkládá skripty GTM."
+
+#: includes/class-admin.php:716
+msgid "Script Blocking tab"
+msgstr "Karta Blokování skriptů"
+
+#: includes/class-admin.php:798
+msgid ""
+"Tools like Google Analytics are blocked automatically when added through "
+"WordPress plugins (e.g. Google Site Kit)."
+msgstr ""
+"Nástroje jako Google Analytics se blokují automaticky, pokud je přidávají "
+"pluginy WordPressu (např. Google Site Kit)."
+
+#: includes/class-admin.php:799 includes/class-admin.php:1071
+msgid "Custom Code blocking"
+msgstr "Blokování vlastního kódu"
+
+#: includes/class-admin.php:799
+msgid ""
+"Stops tracking pasted into Bricks, Elementor, or similar Custom Code fields "
+"until the visitor gives consent."
+msgstr ""
+"Zablokuje sledování vložené do polí pro vlastní kód v Bricks, Elementoru "
+"nebo podobných nástrojích, dokud návštěvník neudělí souhlas."
+
+#: includes/class-admin.php:719
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
+msgstr ""
+"Vložená videa z YouTube a Vimeo se automaticky blokují, dokud návštěvník "
+"nepřijme marketingové cookies. Místo nich se zobrazí zpráva s tlačítkem pro "
+"přijetí. Pokud návštěvník již souhlas udělil, videa se načtou normálně."
+
+#: includes/class-admin.php:719
+msgid "YouTube & Vimeo iframe blocking"
+msgstr "Blokování iframe YouTube & Vimeo"
+
+#: includes/class-admin.php:722
+msgid "Statistics tab"
+msgstr "Karta Statistiky"
+
+#: includes/class-admin.php:724
+msgid "Consent statistics"
+msgstr "Statistiky souhlasů"
+
+#: includes/class-admin.php:724
+msgid ""
+"Shows how many visitors accepted, rejected, or customized cookies over 7, "
+"30, or 90 day periods. Data is aggregated and anonymous — no personal data "
+"is stored."
+msgstr ""
+"Zobrazuje, kolik návštěvníků cookies přijalo, odmítlo nebo si je "
+"přizpůsobilo za období 7, 30 nebo 90 dní. Data jsou souhrnná a anonymní – "
+"neukládají se žádné osobní údaje."
+
+#: includes/class-admin.php:725 includes/class-admin.php:1022
+msgid "Consent Log"
+msgstr "Protokol souhlasů"
+
+#: includes/class-admin.php:725
+msgid ""
+"Individual anonymized consent records for GDPR audit compliance. Records "
+"contain a hashed visitor identifier, the consent choice, accepted "
+"categories, and the policy version. Records are automatically purged after "
+"13 months."
+msgstr ""
+"Jednotlivé anonymizované záznamy souhlasů pro účely auditu souladu s GDPR. "
+"Záznamy obsahují zahashovaný identifikátor návštěvníka, volbu souhlasu, "
+"přijaté kategorie a verzi zásad. Záznamy se po 13 měsících automaticky "
+"vymažou."
+
+#: includes/class-admin.php:726
+msgid "Downloads all consent log records as a CSV file for auditing."
+msgstr ""
+"Stáhne všechny záznamy protokolu souhlasů jako soubor CSV pro účely auditu."
+
+#: includes/class-admin.php:726 includes/class-admin.php:1038
+msgid "Export CSV"
+msgstr "Exportovat CSV"
+
+#: includes/class-admin.php:727
+msgid "Permanently deletes all consent log records and aggregate statistics."
+msgstr "Trvale smaže všechny záznamy protokolu souhlasů a souhrnné statistiky."
+
+#: includes/class-admin.php:727 includes/class-admin.php:1039
+msgid "Purge All Records"
+msgstr "Vymazat všechny záznamy"
+
+#: includes/class-admin.php:730
+msgid "Multilingual support (WPML & Polylang)"
+msgstr "Podpora více jazyků (WPML & Polylang)"
+
+#: includes/class-admin.php:732
+msgid "Per-language banner texts"
+msgstr "Texty banneru pro jednotlivé jazyky"
+
+#: includes/class-admin.php:732
+msgid ""
+"When WPML or Polylang is active, switch to a secondary language in the admin"
+" bar and edit General tab settings (saved per language). With WPML String "
+"Translation, you can also translate the [kncc_settings]* admin text strings "
+"— those are used when no per-language override is saved. Otherwise each "
+"language uses its own plugin defaults (English if unsupported). Texts are "
+"never copied blindly from the default language."
+msgstr ""
+"Pokud je aktivní WPML nebo Polylang, přepněte v horní liště na jiný než "
+"výchozí jazyk a upravte nastavení na kartě Obecné (ukládá se pro každý jazyk "
+"zvlášť). S WPML String Translation můžete také přeložit administrační "
+"řetězce [kncc_settings]* – použijí se, pokud není uložena žádná úprava pro "
+"daný jazyk. Jinak každý jazyk používá vlastní výchozí texty pluginu "
+"(angličtinu, pokud jazyk není podporován). Texty se nikdy slepě nekopírují z "
+"výchozího jazyka."
+
+#: includes/class-admin.php:733
+msgid ""
+"Cookie names, categories, providers, and durations are shared across all "
+"languages. Only the description field can be translated per language. Switch"
+" language and edit descriptions in the Cookies tab."
+msgstr ""
+"Názvy cookies, kategorie, poskytovatelé a doby platnosti jsou společné pro "
+"všechny jazyky. Pro každý jazyk lze přeložit pouze pole s popisem. Přepněte "
+"jazyk a upravte popisy na kartě Cookies."
+
+#: includes/class-admin.php:733
+msgid "Per-language cookie descriptions"
+msgstr "Popisy cookies pro jednotlivé jazyky"
+
+#: includes/class-admin.php:734
+msgid ""
+"Banner style, colors, and policy page can be set per language. Non-text "
+"settings fall back to the default language; banner texts use per-language "
+"overrides, WPML String Translation, or each language's own defaults."
+msgstr ""
+"Styl banneru, barvy a stránku zásad lze nastavit pro každý jazyk zvlášť. "
+"Nastavení, která nejsou texty, se přebírají z výchozího jazyka; texty "
+"banneru používají úpravy pro daný jazyk, WPML String Translation nebo "
+"vlastní výchozí texty jednotlivých jazyků."
+
+#: includes/class-admin.php:734
+msgid "Per-language settings"
+msgstr "Nastavení pro jednotlivé jazyky"
+
+#: includes/class-admin.php:735
+msgid "AI prompts"
+msgstr "AI prompty"
+
+#: includes/class-admin.php:735
+msgid ""
+"AI prompts for cookie descriptions and policy pages are automatically "
+"generated in the language matching the current admin locale."
+msgstr ""
+"AI prompty pro popisy cookies a stránky zásad se automaticky vytvářejí v "
+"jazyce odpovídajícím aktuálnímu jazyku administrace."
+
+#: includes/class-admin.php:738
+msgid "Shortcodes"
+msgstr "Shortcody"
+
+#: includes/class-admin.php:740
+msgid "Displays the full cookie declaration table on your policy page."
+msgstr "Zobrazí na stránce zásad kompletní tabulku s přehledem cookies."
+
+#: includes/class-admin.php:741
+msgid ""
+"Renders a link that opens the cookie settings dialog. Use in footers, menus,"
+" or widgets. Customize the link text with the text attribute, e.g. "
+"[kncc_cookie_settings text=\"Manage cookies\"]."
+msgstr ""
+"Zobrazí odkaz, který otevře dialog s nastavením cookies. Použijte ho v "
+"patičkách, menu nebo widgetech. Text odkazu upravíte atributem text, např. "
+"[kncc_cookie_settings text=\"Spravovat cookies\"]."
+
+#: includes/class-admin.php:744
+msgid "Custom CSS"
+msgstr "Vlastní CSS"
+
+#: includes/class-admin.php:748
+#, php-format
+msgid ""
+"Need to fine-tune the look beyond the General tab? Add CSS to %s, your child"
+" theme, or a Code Snippets plugin."
+msgstr ""
+"Potřebujete vzhled doladit nad rámec karty Obecné? Přidejte CSS v části %s, "
+"ve své podřízené šabloně nebo v pluginu Code Snippets."
+
+#: includes/class-admin.php:749
+msgid "Appearance → Customize → Additional CSS"
+msgstr "Vzhled → Přizpůsobit → Dodatečné CSS"
+
+#: includes/class-admin.php:752
+msgid ""
+"Copy the template below, uncomment the rules you want to change, save. Every"
+" selector the plugin uses is included."
+msgstr ""
+"Zkopírujte šablonu níže, odkomentujte pravidla, která chcete změnit, a "
+"uložte. Jsou zahrnuty všechny selektory, které plugin používá."
+
+#: includes/class-admin.php:756
+msgid "Copy CSS template"
+msgstr "Zkopírovat šablonu CSS"
+
+#: includes/class-admin.php:828
+msgid "Tips:"
+msgstr "Tipy:"
+
+#: includes/class-admin.php:830
+msgid ""
+"If a rule does not apply, prepend .kncc-banner or add !important — your CSS "
+"file loads after the plugin's, but theme styles can occasionally beat it on "
+"specificity."
+msgstr ""
+"Pokud se pravidlo neuplatní, přidejte před selektor .kncc-banner nebo "
+"přidejte !important – váš soubor CSS se načítá po souboru pluginu, ale styly "
+"šablony ho mohou občas přebít svou specifičností."
+
+#: includes/class-admin.php:831
+msgid ""
+"When General → Text and font style is set to Plugin style, typography rules "
+"use !important. Switch to Theme style for easier overrides."
+msgstr ""
+"Když je v části Obecné → Styl textu a písma nastaven Styl pluginu, "
+"typografická pravidla používají !important. Pro snazší přepisování přepněte "
+"na Styl šablony."
+
+#: includes/class-admin.php:832
+msgid ""
+"Banner z-index is 999999 and the floating button is 999998 — raise them if "
+"your theme renders overlays on top of the banner."
+msgstr ""
+"Hodnota z-index banneru je 999999 a plovoucího tlačítka 999998 – zvyšte je, "
+"pokud vaše šablona zobrazuje překryvné vrstvy nad bannerem."
+
+#: includes/class-admin.php:835
+msgid "Troubleshooting"
+msgstr "Řešení problémů"
+
+#: includes/class-admin.php:837
+msgid ""
+"If GTM Preview does not show consent updates, verify Consent Mode v2 is "
+"enabled and test in a fresh browser session without existing consent cookie."
+msgstr ""
+"Pokud náhled GTM nezobrazuje aktualizace souhlasu, ověřte, že je zapnutý "
+"Consent Mode v2, a otestujte to v nové relaci prohlížeče bez existujícího "
+"cookie se souhlasem."
+
+#: includes/class-admin.php:838
+msgid ""
+"If banner typography looks odd with your theme, switch General > Text and "
+"font style to Plugin style."
+msgstr ""
+"Pokud typografie banneru s vaší šablonou vypadá divně, přepněte Obecné > "
+"Styl textu a písma na Styl pluginu."
+
+#: includes/class-admin.php:839
+msgid ""
+"If tracking still runs before consent, make sure Custom Code blocking is "
+"checked on the Script Blocking tab."
+msgstr ""
+"Pokud sledování stále běží před udělením souhlasu, ověřte, že je na kartě "
+"Blokování skriptů zaškrtnuto Blokování vlastního kódu."
+
+#: includes/class-admin.php:840
+msgid ""
+"If the statistics are empty, make sure visitors have interacted with the "
+"banner. Data starts recording after the first consent choice."
+msgstr ""
+"Pokud jsou statistiky prázdné, ověřte, že návštěvníci s bannerem "
+"interagovali. Data se začnou zaznamenávat po první volbě souhlasu."
+
+#: includes/class-admin.php:841
+msgid ""
+"If the policy page warning shows missing translations, create the translated"
+" page in each language and add the [kncc_cookie_policy] shortcode."
+msgstr ""
+"Pokud varování u stránky zásad hlásí chybějící překlady, vytvořte přeloženou "
+"stránku pro každý jazyk a přidejte na ni shortcode [kncc_cookie_policy]."
+
+#: includes/class-admin.php:845
+msgid ""
+"I made this plugin for free because I got frustrated by the existing cookie "
+"consent plugins — too much bloat and useless features. If you like it and "
+"want to buy me a coffee, you can do it here:"
+msgstr ""
+"Tento plugin jsem vytvořil zdarma, protože mi vadily stávající pluginy pro "
+"souhlas s cookies – příliš mnoho balastu a zbytečných funkcí. Pokud se vám "
+"líbí a chcete mi koupit kávu, můžete to udělat zde:"
+
+#: includes/class-admin.php:873
+#, php-format
+msgid "%d days"
+msgstr "%d dní"
+
+#: includes/class-admin.php:884
+msgid "Total responses"
+msgstr "Celkem odpovědí"
+
+#: includes/class-admin.php:888 includes/class-admin.php:903
+#: includes/class-admin.php:913
+msgid "Accepted all"
+msgstr "Přijato vše"
+
+#: includes/class-admin.php:892 includes/class-admin.php:909
+#: includes/class-admin.php:915
+msgid "Rejected all"
+msgstr "Odmítnuto vše"
+
+#: includes/class-admin.php:896 includes/class-admin.php:906
+#: includes/class-admin.php:914
+msgid "Custom selection"
+msgstr "Vlastní výběr"
+
+#: includes/class-admin.php:920
+msgid ""
+"No consent data recorded yet. Statistics will appear after visitors start "
+"interacting with the cookie banner."
+msgstr ""
+"Zatím nejsou zaznamenána žádná data o souhlasech. Statistiky se zobrazí, "
+"jakmile návštěvníci začnou s cookie bannerem interagovat."
+
+#: includes/class-admin.php:937
+#, php-format
+msgid "Cron error: %s"
+msgstr "Chyba cronu: %s"
+
+#: includes/class-admin.php:955
+msgid "All systems are good!"
+msgstr "Vše je v pořádku!"
+
+#: includes/class-admin.php:957
+msgid "The plugin re-checks cookies every day via cron."
+msgstr "Plugin každý den znovu kontroluje cookies pomocí cronu."
+
+#: includes/class-admin.php:962
+#, php-format
+msgid "Next check: %s"
+msgstr "Další kontrola: %s"
+
+#: includes/class-admin.php:1075
+msgid ""
+"Also block tracking added in Bricks, Elementor, or other Custom Code fields"
+msgstr ""
+"Blokovat také sledování přidané v Bricks, Elementoru nebo jiných polích pro "
+"vlastní kód"
+
+#: includes/class-admin.php:1094
+msgid "Save blocking settings"
+msgstr "Uložit nastavení blokování"
+
+#: includes/class-admin.php:1099
+msgid "Recognized tracking tools"
+msgstr "Rozpoznané sledovací nástroje"
+
+#: includes/class-admin.php:1106
+msgid "Script Handle"
+msgstr "Handle skriptu"
+
+#: includes/class-admin.php:1024
+msgid ""
+"Individual consent records for GDPR audit compliance. Records are "
+"automatically purged after the retention period (13 months)."
+msgstr ""
+"Jednotlivé záznamy souhlasů pro účely auditu souladu s GDPR. Záznamy se po "
+"uplynutí doby uchování (13 měsíců) automaticky vymažou."
+
+#: includes/class-admin.php:1028
+msgid "Total records:"
+msgstr "Celkem záznamů:"
+
+#: includes/class-admin.php:1030
+msgid "Oldest:"
+msgstr "Nejstarší:"
+
+#: includes/class-admin.php:1033
+msgid "Newest:"
+msgstr "Nejnovější:"
+
+#: includes/class-admin.php:1043
+msgid "No consent log records yet."
+msgstr "Zatím žádné záznamy v protokolu souhlasů."
+
+#: includes/class-admin.php:1048
+msgid "Date/Time"
+msgstr "Datum a čas"
+
+#: includes/class-admin.php:1049
+msgid "Visitor"
+msgstr "Návštěvník"
+
+#: includes/class-admin.php:1050
+msgid "Choice"
+msgstr "Volba"
+
+#: includes/class-admin.php:1051
+msgid "Categories"
+msgstr "Kategorie"
+
+#: includes/class-admin.php:1052
+msgid "Policy Version"
+msgstr "Verze zásad"
+
+#: includes/class-admin.php:1311
+msgid "Cookies saved."
+msgstr "Cookies uloženy."
+
+#: includes/class-consent.php:135
+msgid "Cookie consent"
+msgstr "Souhlas s cookies"
+
+#: includes/class-consent.php:147 includes/class-policy-page.php:27
+msgid "Cookie Policy"
+msgstr "Zásady cookies"
+
+#: includes/class-consent.php:155
+msgid "Close"
+msgstr "Zavřít"
+
+#: includes/class-consent.php:187 includes/class-consent.php:188
+#: kansleri-cookie-consent.php:590
+msgid "Cookie settings"
+msgstr "Nastavení cookies"
+
+#: includes/class-policy-page.php:48
+msgid "No cookies have been registered yet."
+msgstr "Zatím nebyly zaregistrovány žádné cookies."
+
+#: includes/class-policy-page.php:58
+msgid ""
+"These cookies are essential for the website to function and cannot be "
+"switched off."
+msgstr "Tyto cookies jsou nezbytné pro fungování webu a nelze je vypnout."
+
+#: includes/class-policy-page.php:59
+msgid ""
+"These cookies help us understand how visitors interact with the website by "
+"collecting and reporting information anonymously."
+msgstr ""
+"Tyto cookies nám pomáhají pochopit, jak návštěvníci s webem pracují, a to "
+"anonymním shromažďováním a vykazováním informací."
+
+#: includes/class-policy-page.php:60
+msgid ""
+"These cookies are used to deliver relevant advertisements and track ad "
+"campaign performance."
+msgstr ""
+"Tyto cookies slouží k zobrazování relevantní reklamy a sledování výkonnosti "
+"reklamních kampaní."
+
+#: includes/class-policy-page.php:61
+msgid ""
+"These cookies allow the website to remember choices you make and provide "
+"enhanced functionality and personalisation."
+msgstr ""
+"Tyto cookies webu umožňují zapamatovat si vaše volby a poskytovat rozšířené "
+"funkce a personalizaci."
+
+#: includes/class-policy-page.php:79
+msgid "Edit cookie preferences"
+msgstr "Upravit předvolby cookies"
+
+#: includes/class-policy-page.php:90 includes/class-policy-page.php:99
+msgid "Cookie"
+msgstr "Cookie"
+
+#: includes/class-policy-page.php:92 includes/class-policy-page.php:101
+msgid "Purpose"
+msgstr "Účel"
+
+#: includes/class-script-blocker.php:306
+msgid "Script blocking settings saved."
+msgstr "Nastavení blokování skriptů uloženo."
+
+#: kansleri-cookie-consent.php:57 kansleri-cookie-consent.php:404
+msgid "We use cookies"
+msgstr "Používáme cookies"
+
+#: kansleri-cookie-consent.php:58 kansleri-cookie-consent.php:405
+msgid ""
+"We use cookies to improve your experience and analyze site traffic. Choose "
+"which cookies you allow."
+msgstr ""
+"Používáme cookies ke zlepšení vašeho uživatelského zážitku a k analýze "
+"návštěvnosti webu. Vyberte, které cookies povolíte."
+
+#: kansleri-cookie-consent.php:59 kansleri-cookie-consent.php:406
+msgid "Accept all"
+msgstr "Přijmout vše"
+
+#: kansleri-cookie-consent.php:60 kansleri-cookie-consent.php:407
+msgid "Reject all"
+msgstr "Odmítnout vše"
+
+#: kansleri-cookie-consent.php:61 kansleri-cookie-consent.php:408
+msgid "Customize"
+msgstr "Přizpůsobit"
+
+#: kansleri-cookie-consent.php:62 kansleri-cookie-consent.php:409
+msgid "Save preferences"
+msgstr "Uložit předvolby"
+
+#: kansleri-cookie-consent.php:336
+msgid "Required for the website to function. Cannot be disabled."
+msgstr "Nezbytné pro fungování webu. Nelze vypnout."
+
+#: kansleri-cookie-consent.php:340
+msgid "Help us understand how visitors interact with the website."
+msgstr "Pomáhají nám pochopit, jak návštěvníci s webem pracují."
+
+#: kansleri-cookie-consent.php:344
+msgid "Used to deliver relevant advertisements and track campaigns."
+msgstr "Slouží k zobrazování relevantní reklamy a sledování kampaní."
+
+#: kansleri-cookie-consent.php:348
+msgid "Remember your settings and preferences for a better experience."
+msgstr "Pamatují si vaše nastavení a předvolby pro lepší uživatelský zážitek."
+
+#: kansleri-cookie-consent.php:499
+msgid "Settings"
+msgstr "Nastavení"
+
+#: kansleri-cookie-consent.php:522
+#, php-format
+msgid ""
+"Kansleri Cookie Consent is now active. Next steps: %1$s to discover cookies "
+"and %2$s to review banner and consent settings."
+msgstr ""
+"Kansleri Cookie Consent je nyní aktivní. Další kroky: %1$s (zjistí, které "
+"cookies web používá) a %2$s banneru a souhlasu."
+
+#: kansleri-cookie-consent.php:523
+msgid "Scan cookies"
+msgstr "Skenovat cookies"
+
+#: kansleri-cookie-consent.php:524
+msgid "review settings"
+msgstr "zkontrolovat nastavení"
+
+#: kansleri-cookie-consent.php:555
+#, php-format
+msgid ""
+"Cookie Consent: %1$d cookie(s) are missing descriptions: %2$s. %3$s to add "
+"them."
+msgstr ""
+"Souhlas s cookies – cookies bez popisu (%1$d): %2$s. %3$s a doplňte popisy."
+
+#: kansleri-cookie-consent.php:558
+msgid "Go to Cookies tab"
+msgstr "Přejděte na kartu Cookies"
+
+#: kansleri-cookie-consent.php:572
+msgid ""
+"This site uses a cookie consent banner powered by Kansleri Cookie Consent. "
+"When you interact with the banner, a cookie named <code>kncc_consent</code> "
+"is stored in your browser for up to 1 year. It records your consent "
+"preferences (which cookie categories you accepted or rejected) so the site "
+"can remember your choice on future visits. No personal data is stored in "
+"this cookie."
+msgstr ""
+"Tento web používá banner pro souhlas s cookies, který zajišťuje plugin "
+"Kansleri Cookie Consent. Jakmile s bannerem interagujete, uloží se ve vašem "
+"prohlížeči až na 1 rok soubor cookie s názvem <code>kncc_consent</code>. "
+"Zaznamenává vaše předvolby souhlasu (které kategorie cookies jste přijali "
+"nebo odmítli), aby si web vaši volbu pamatoval i při dalších návštěvách. V "
+"tomto souboru cookie se neukládají žádné osobní údaje."
+
+#: kansleri-cookie-consent.php:573
+msgid ""
+"The plugin also records anonymous, aggregated consent statistics (how many "
+"visitors accepted, rejected, or customized cookies each day) and individual "
+"consent log entries for GDPR audit compliance. Consent log entries contain a"
+" hashed (non-reversible) visitor identifier, the consent choice, which "
+"categories were accepted, and the policy version. No IP addresses, user "
+"identifiers, or personal data are stored in plain text. Consent log records "
+"are automatically deleted after 13 months."
+msgstr ""
+"Plugin také zaznamenává anonymní souhrnné statistiky souhlasů (kolik "
+"návštěvníků každý den cookies přijalo, odmítlo nebo si je přizpůsobilo) a "
+"jednotlivé záznamy protokolu souhlasů pro účely auditu souladu s GDPR. "
+"Záznamy protokolu souhlasů obsahují zahashovaný (nevratný) identifikátor "
+"návštěvníka, volbu souhlasu, informaci o tom, které kategorie byly přijaty, "
+"a verzi zásad. Žádné IP adresy, identifikátory uživatelů ani osobní údaje se "
+"neukládají v čitelné podobě. Záznamy protokolu souhlasů se po 13 měsících "
+"automaticky vymažou."
+
+#: includes/class-admin.php:318
+msgid "Empty cookie categories"
+msgstr "Prázdné kategorie cookies"
+
+#: includes/class-admin.php:322
+msgid "Show but lock (disable) the switch"
+msgstr "Zobrazit, ale zamknout (zakázat) přepínač"
+
+#: includes/class-admin.php:323
+msgid "Hide categories with no cookies"
+msgstr "Skrýt kategorie bez cookies"
+
+#: includes/class-admin.php:378 includes/class-consent.php:95
+msgid "No analytics cookies are used on this site."
+msgstr "Na tomto webu se nepoužívají žádné analytické cookies."
+
+#: includes/class-admin.php:379 includes/class-consent.php:96
+msgid "No marketing cookies are used on this site."
+msgstr "Na tomto webu se nepoužívají žádné marketingové cookies."
+
+#: includes/class-admin.php:380 includes/class-consent.php:97
+msgid "No preference cookies are used on this site."
+msgstr "Na tomto webu se nepoužívají žádné preferenční cookies."
+
+#: includes/class-admin.php:323
+msgid "Close button label"
+msgstr "Popisek tlačítka Zavřít"
+
+#: includes/class-consent.php:50
+msgid "You have not made a choice yet."
+msgstr "Zatím jste neprovedli žádnou volbu."
+
+#: includes/class-consent.php:51
+msgid "Allowed"
+msgstr "Povoleno"
+
+#: includes/class-consent.php:52
+msgid "Denied"
+msgstr "Zakázáno"
+
+#: includes/class-consent.php:53
+msgid "Always active"
+msgstr "Vždy aktivní"
+
+#: includes/class-policy-page.php:85
+msgid "Your current cookie preferences"
+msgstr "Vaše aktuální předvolby cookies"
+
+#: includes/class-policy-page.php:93
+msgid ""
+"These choices are stored technically as wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing, and wp_consent_preferences for "
+"compatibility with WordPress plugins."
+msgstr ""
+"Tyto volby se technicky ukládají jako wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing a wp_consent_preferences kvůli "
+"kompatibilitě s pluginy WordPressu."
+
+#: includes/class-admin.php:99
+msgid "Possibly removed"
+msgstr "Možná odstraněné"
+
+#: includes/class-admin.php:100
+msgid ""
+"These cookies are still in your list, but their tracking scripts were not "
+"found on the homepage. Review and remove any that are no longer used."
+msgstr ""
+"Tyto cookies jsou stále na vašem seznamu, ale jejich sledovací skripty "
+"nebyly na úvodní stránce nalezeny. Zkontrolujte je a odeberte ty, které se "
+"již nepoužívají."
+
+#: includes/class-admin.php:102
+#, php-format
+msgid ""
+"Remove %d cookie(s) from the list? This cannot be undone automatically."
+msgstr ""
+"Odebrat ze seznamu vybrané cookies (%d)? Tento krok nelze automaticky vrátit "
+"zpět."
+
+#: includes/class-admin.php:103 includes/class-admin.php:1527
+msgid "Selected cookies removed from the list."
+msgstr "Vybrané cookies byly ze seznamu odebrány."
+
+#: includes/class-admin.php:104
+msgid "Remove selected cookies"
+msgstr "Odebrat vybrané cookies"
+
+#: includes/class-admin.php:1482
+msgid ""
+"None of the selected cookies can be removed. Run Scan Cookies again to "
+"refresh the list."
+msgstr ""
+"Žádné z vybraných cookies nelze odebrat. Seznam obnovíte opětovným spuštěním "
+"Skenovat cookies."
+
+#: includes/class-admin.php:791
+msgid ""
+"After scanning, cookies whose tracking scripts are no longer found on the "
+"homepage are listed under \"Possibly removed\". Review the list and use "
+"Remove selected cookies to delete entries you no longer need — nothing is "
+"removed automatically."
+msgstr ""
+"Po skenování se cookies, jejichž sledovací skripty už na úvodní stránce "
+"nejsou nalezeny, zobrazí v seznamu „Možná odstraněné“. Seznam zkontrolujte a "
+"pomocí Odebrat vybrané cookies smažte záznamy, které už nepotřebujete – nic "
+"se neodebírá automaticky."
+
+#: includes/class-admin.php:797
+msgid "Current consent status"
+msgstr "Aktuální stav souhlasu"
+
+#: includes/class-admin.php:797
+msgid ""
+"The [kncc_cookie_policy] shortcode shows each category as allowed, denied, "
+"or not yet chosen above the Edit cookie preferences button. When WP Consent "
+"API is active, a note explains the technical wp_consent_* cookie names used "
+"by WordPress plugins."
+msgstr ""
+"Shortcode [kncc_cookie_policy] zobrazuje nad tlačítkem Upravit předvolby "
+"cookies u každé kategorie, zda je povolena, zakázána, nebo zatím nevybrána. "
+"Pokud je aktivní WP Consent API, poznámka vysvětluje technické názvy cookies "
+"wp_consent_*, které používají pluginy WordPressu."
+
+#: includes/class-admin.php:806
+msgid "WP Consent API sync"
+msgstr "Synchronizace s WP Consent API"
+
+#: includes/class-admin.php:806
+msgid ""
+"When the WP Consent API plugin is active, Kansleri automatically syncs your "
+"banner choices to wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing, and wp_consent_preferences. This lets consent-aware "
+"plugins such as Google Site Kit read the visitor's choice. Banner labels "
+"(Necessary, Analytics) map to these technical cookie names."
+msgstr ""
+"Pokud je aktivní plugin WP Consent API, Kansleri automaticky synchronizuje "
+"volby z banneru do wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing a wp_consent_preferences. Díky tomu mohou volbu "
+"návštěvníka číst pluginy, které souhlas respektují, například Google Site "
+"Kit. Popisky v banneru (Nezbytné, Analytické) odpovídají těmto technickým "
+"názvům cookies."
+
+#: includes/class-admin.php:939
+msgid ""
+"If wp_consent_statistics stays deny after Accept all, clear site cookies or "
+"test in a private window, hard-refresh (Ctrl+Shift+R), and confirm the WP "
+"Consent API plugin is active."
+msgstr ""
+"Pokud wp_consent_statistics zůstane po kliknutí na Přijmout vše nastaveno na "
+"deny, vymažte cookies webu nebo test proveďte v anonymním okně, stránku "
+"natvrdo obnovte (Ctrl+Shift+R) a ověřte, že je plugin WP Consent API aktivní."
+
+#: includes/class-admin.php:746 includes/class-admin.php:854
+msgid "Advanced Consent Mode"
+msgstr "Pokročilý Consent Mode"
+
+#: includes/class-admin.php:750
+msgid "Load Google tags before consent, with consent denied"
+msgstr "Načíst značky Google před udělením souhlasu, se zamítnutým souhlasem"
+
+#: includes/class-admin.php:753
+msgid "Off (default, Basic Consent Mode): the Google tag is blocked until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies, so Google receives nothing from visitors who have not consented."
+msgstr ""
+"Vypnuto (výchozí, Základní Consent Mode): značka Google je blokována, dokud "
+"návštěvník nepřijme analytické cookies, a Google Tag Manager, dokud "
+"návštěvník nepřijme analytické nebo marketingové cookies, takže Google od "
+"návštěvníků, kteří neudělili souhlas, nezíská nic."
+
+#: includes/class-admin.php:756
+msgid ""
+"On (Advanced Consent Mode): the Google tag and Google Tag Manager load "
+"right away. Until the visitor accepts, they set no cookies and send Google "
+"only cookieless pings, which Google uses to model the missing data. Google "
+"Analytics and Google Ads expect this mode, and with Basic mode they can "
+"report your consent signals as not active."
+msgstr ""
+"Zapnuto (Pokročilý Consent Mode): značka Google a Google Tag Manager se "
+"načtou okamžitě. Dokud návštěvník souhlas neudělí, nenastavují žádné cookies "
+"a posílají Googlu pouze pingy bez cookies, z nichž Google modeluje chybějící "
+"data. Google Analytics a Google Ads tento režim očekávají a u základního "
+"režimu mohou hlásit, že vaše signály souhlasu nejsou aktivní."
+
+#: includes/class-admin.php:759
+msgid "Only applies while Consent Mode v2 is enabled. Other tracking scripts on the site stay blocked until consent, also those that Google Tag Manager adds (for example a Meta Pixel or LinkedIn in a Custom HTML tag): each waits for its own category, with no changes needed in the container."
+msgstr ""
+"Platí pouze, dokud je zapnutý Consent Mode v2. Ostatní sledovací skripty na "
+"webu zůstávají blokované do udělení souhlasu, a to i ty, které přidává "
+"Google Tag Manager (například Meta Pixel nebo LinkedIn ve značce Vlastní "
+"HTML): každý čeká na svou kategorii a v kontejneru není třeba nic měnit."
+
+#: includes/class-admin.php:854
+msgid ""
+"Off by default. When on, the Google tag and Google Tag Manager load before "
+"consent instead of being blocked. Until the visitor accepts, they set no "
+"cookies and send Google only cookieless pings."
+msgstr ""
+"Ve výchozím stavu vypnuto. Po zapnutí se značka Google a Google Tag Manager "
+"načtou před udělením souhlasu, místo aby byly blokovány. Dokud návštěvník "
+"souhlas neudělí, nenastavují žádné cookies a posílají Googlu pouze pingy bez "
+"cookies."
+
+#: includes/class-admin.php:863
+msgid "You can turn this off on the Script Blocking tab."
+msgstr "Toto můžete vypnout na kartě Blokování skriptů."
+
+#: includes/class-admin.php:1136
+msgid ""
+"Advanced Consent Mode is on (Integration tab): the Google tag and Google "
+"Tag Manager load before consent and follow the Consent Mode signals instead "
+"of being blocked."
+msgstr ""
+"Pokročilý Consent Mode je zapnutý (karta Integrace): značka Google a Google "
+"Tag Manager se načítají před udělením souhlasu a řídí se signály Consent "
+"Mode, místo aby byly blokovány."
+
+#: includes/class-admin.php:1168
+msgid ""
+"Block YouTube and Vimeo videos until the visitor accepts marketing cookies"
+msgstr ""
+"Blokovat videa z YouTube a Vimeo, dokud návštěvník nepřijme marketingové "
+"cookies"
+
+#: includes/class-admin.php:684
+msgid "More information"
+msgstr "Další informace"
+
+#: includes/class-admin.php:823
+msgid "Basic Consent Mode: the Google tag waits until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies."
+msgstr ""
+"Základní Consent Mode: značka Google čeká, dokud návštěvník nepřijme "
+"analytické cookies, a Google Tag Manager, dokud návštěvník nepřijme "
+"analytické nebo marketingové cookies."
+
+#: includes/class-admin.php:823
+msgid ""
+"Advanced Consent Mode: the Google tag and Google Tag Manager load right "
+"away with these defaults, and send only cookieless pings until the visitor "
+"accepts."
+msgstr ""
+"Pokročilý Consent Mode: značka Google a Google Tag Manager se načtou "
+"okamžitě s těmito výchozími hodnotami a do udělení souhlasu návštěvníkem "
+"posílají pouze pingy bez cookies."
+
+#: includes/class-scanner.php:122
+msgctxt "cookie duration"
+msgid "1 minute"
+msgstr "1 minuta"
+
+#: includes/class-scanner.php:123
+msgctxt "cookie duration"
+msgid "30 minutes"
+msgstr "30 minut"
+
+#: includes/class-scanner.php:124
+msgctxt "cookie duration"
+msgid "24 hours"
+msgstr "24 hodin"
+
+#: includes/class-scanner.php:125
+msgctxt "cookie duration"
+msgid "1 day"
+msgstr "1 den"
+
+#: includes/class-scanner.php:126
+msgctxt "cookie duration"
+msgid "30 days"
+msgstr "30 dní"
+
+#: includes/class-scanner.php:127
+msgctxt "cookie duration"
+msgid "90 days"
+msgstr "90 dní"
+
+#: includes/class-scanner.php:128
+msgctxt "cookie duration"
+msgid "6 months"
+msgstr "6 měsíců"
+
+#: includes/class-scanner.php:129
+msgctxt "cookie duration"
+msgid "1 year"
+msgstr "1 rok"
+
+#: includes/class-scanner.php:130
+msgctxt "cookie duration"
+msgid "2 years"
+msgstr "2 roky"
+
+#: includes/class-scanner.php:131
+msgctxt "cookie duration"
+msgid "Session"
+msgstr "Relace"
+
+#: includes/class-scanner.php:132
+msgctxt "cookie duration"
+msgid "Varies"
+msgstr "Různá"
+
+#: includes/class-scanner.php:135
+msgid "Google Analytics: stores and counts page views."
+msgstr "Google Analytics: ukládá a počítá zobrazení stránek."
+
+#: includes/class-scanner.php:136
+msgid "Google Analytics: distinguishes unique users."
+msgstr "Google Analytics: rozlišuje jedinečné uživatele."
+
+#: includes/class-scanner.php:137
+msgid "Google Analytics: distinguishes users for 24 hours."
+msgstr "Google Analytics: rozlišuje uživatele po dobu 24 hodin."
+
+#: includes/class-scanner.php:138
+msgid "Google Analytics: throttles request rate."
+msgstr "Google Analytics: omezuje četnost požadavků."
+
+#: includes/class-scanner.php:139
+msgid "Google Ads: stores conversion data."
+msgstr "Google Ads: ukládá data o konverzích."
+
+#: includes/class-scanner.php:140
+msgid "Google Ads: click tracking."
+msgstr "Google Ads: sledování kliknutí."
+
+#: includes/class-scanner.php:141
+msgid "Google Tag Manager: throttles request rate."
+msgstr "Google Tag Manager: omezuje četnost požadavků."
+
+#: includes/class-scanner.php:144
+msgid "Meta Pixel: tracks visits across websites for ad targeting."
+msgstr "Meta Pixel: sleduje návštěvy napříč weby pro cílení reklam."
+
+#: includes/class-scanner.php:145
+msgid "Meta Pixel: stores click identifiers."
+msgstr "Meta Pixel: ukládá identifikátory kliknutí."
+
+#: includes/class-scanner.php:146
+msgid "Facebook: ad delivery and measurement."
+msgstr "Facebook: zobrazování a měření reklam."
+
+#: includes/class-scanner.php:149
+msgid "HubSpot: tracks visitor identity."
+msgstr "HubSpot: sleduje identitu návštěvníka."
+
+#: includes/class-scanner.php:150
+msgid "HubSpot: tracks session information."
+msgstr "HubSpot: sleduje informace o relaci."
+
+#: includes/class-scanner.php:151
+msgid "HubSpot: tracks sessions for analytics."
+msgstr "HubSpot: sleduje relace pro analytické účely."
+
+#: includes/class-scanner.php:152
+msgid "HubSpot: determines if visitor has restarted browser."
+msgstr "HubSpot: zjišťuje, zda návštěvník restartoval prohlížeč."
+
+#: includes/class-scanner.php:153
+msgid "HubSpot: analytics and tracking."
+msgstr "HubSpot: analytika a sledování."
+
+#: includes/class-scanner.php:156
+msgid "LinkedIn: browser identifier for ad targeting."
+msgstr "LinkedIn: identifikátor prohlížeče pro cílení reklam."
+
+#: includes/class-scanner.php:157
+msgid "LinkedIn: browser identifier."
+msgstr "LinkedIn: identifikátor prohlížeče."
+
+#: includes/class-scanner.php:158
+msgid "LinkedIn: data centre selection."
+msgstr "LinkedIn: výběr datového centra."
+
+#: includes/class-scanner.php:161
+msgid "WordPress: stores admin settings timestamp."
+msgstr "WordPress: ukládá časové razítko nastavení administrace."
+
+#: includes/class-scanner.php:162
+msgid "WordPress: stores admin personalisation settings."
+msgstr "WordPress: ukládá personalizační nastavení administrace."
+
+#: includes/class-scanner.php:163
+msgid "WordPress: authentication cookie for logged-in users."
+msgstr "WordPress: soubor cookie pro ověření přihlášených uživatelů."
+
+#: includes/class-scanner.php:164
+msgid "WordPress: secure authentication cookie."
+msgstr "WordPress: zabezpečený soubor cookie pro ověření."
+
+#: includes/class-scanner.php:165
+msgid "WordPress: tests if cookies are enabled."
+msgstr "WordPress: testuje, zda jsou cookies povoleny."
+
+#: includes/class-scanner.php:166
+msgid "WordPress: stores language preference."
+msgstr "WordPress: ukládá jazykovou předvolbu."
+
+#: includes/class-scanner.php:167
+msgid "WordPress: remembers comment author details."
+msgstr "WordPress: pamatuje si údaje autora komentáře."
+
+#: includes/class-scanner.php:170
+msgid "WooCommerce: stores cart and session data."
+msgstr "WooCommerce: ukládá data o košíku a relaci."
+
+#: includes/class-scanner.php:171
+msgid "WooCommerce: stores customer session."
+msgstr "WooCommerce: ukládá relaci zákazníka."
+
+#: includes/class-scanner.php:174
+msgid ""
+"Order attribution: keeps traffic-source tracking data compatible across "
+"updates."
+msgstr ""
+"Order attribution: udržuje data o sledování zdroje návštěvnosti kompatibilní "
+"napříč aktualizacemi."
+
+#: includes/class-scanner.php:175
+msgid ""
+"Order attribution: records how you reached the site on your current visit."
+msgstr ""
+"Order attribution: zaznamenává, jak jste se při aktuální návštěvě dostali na "
+"web."
+
+#: includes/class-scanner.php:176
+msgid "Order attribution: records how you first reached the site."
+msgstr "Order attribution: zaznamenává, jak jste se poprvé dostali na web."
+
+#: includes/class-scanner.php:177
+msgid ""
+"Order attribution: stores the traffic source and campaign of your current "
+"visit."
+msgstr ""
+"Order attribution: ukládá zdroj návštěvnosti a kampaň vaší aktuální návštěvy."
+
+#: includes/class-scanner.php:178
+msgid ""
+"Order attribution: stores the traffic source and campaign of your first "
+"visit."
+msgstr ""
+"Order attribution: ukládá zdroj návštěvnosti a kampaň vaší první návštěvy."
+
+#: includes/class-scanner.php:179
+msgid ""
+"Order attribution: stores visitor/session data used for marketing "
+"attribution."
+msgstr ""
+"Order attribution: ukládá data o návštěvníkovi a relaci, která se používají "
+"pro marketingovou atribuci."
+
+#: includes/class-scanner.php:180
+msgid "Order attribution: links page views within a visit for attribution."
+msgstr ""
+"Order attribution: propojuje zobrazení stránek v rámci jedné návštěvy pro "
+"účely atribuce."
+
+#: includes/class-scanner.php:181
+msgid "Order attribution: tracks the marketing source of your visit."
+msgstr "Order attribution: sleduje marketingový zdroj vaší návštěvy."
+
+#: includes/class-scanner.php:184
+msgid ""
+"Jetpack Stats: assigns an anonymous identifier used to measure site traffic."
+msgstr ""
+"Jetpack Stats: přiřazuje anonymní identifikátor používaný k měření "
+"návštěvnosti webu."
+
+#: includes/class-scanner.php:185
+msgid "Jetpack Stats: records referral and navigation data for analytics."
+msgstr ""
+"Jetpack Stats: zaznamenává data o odkazujících stránkách a navigaci pro "
+"analytické účely."
+
+#: includes/class-scanner.php:186
+msgid "Jetpack Stats: measures site traffic and visitor activity."
+msgstr "Jetpack Stats: měří návštěvnost webu a aktivitu návštěvníků."
+
+#: includes/class-scanner.php:189
+msgid "Polylang: stores visitor language preference."
+msgstr "Polylang: ukládá jazykovou předvolbu návštěvníka."
+
+#: includes/class-scanner.php:190
+msgid "MailPoet: tracks email subscriber activity."
+msgstr "MailPoet: sleduje aktivitu odběratelů e-mailů."
+
+#: includes/class-scanner.php:191
+msgid "Plausible: privacy-friendly analytics."
+msgstr "Plausible: analytika šetrná k soukromí."
+
+#: includes/class-scanner.php:194
+msgid "Cloudflare: bot management cookie."
+msgstr "Cloudflare: soubor cookie pro správu botů."
+
+#: includes/class-scanner.php:195
+msgid "Cloudflare: verifies legitimate visitor."
+msgstr "Cloudflare: ověřuje legitimního návštěvníka."
+
+#: includes/class-scanner.php:196
+msgid "Cloudflare: identifies trusted web traffic."
+msgstr "Cloudflare: identifikuje důvěryhodný webový provoz."
+
+#: includes/class-scanner.php:199
+msgid "Hotjar: tracks user behaviour and feedback."
+msgstr "Hotjar: sleduje chování uživatelů a zpětnou vazbu."
+
+#: includes/class-scanner.php:200
+msgid "Microsoft Clarity: stores a user ID and preferences."
+msgstr "Microsoft Clarity: ukládá ID uživatele a předvolby."
+
+#: includes/class-scanner.php:201
+msgid "Microsoft Clarity: connects page views into a session."
+msgstr "Microsoft Clarity: spojuje zobrazení stránek do relace."
+
+#: includes/class-scanner.php:204
+msgid "Stores your cookie consent preferences."
+msgstr "Ukládá vaše předvolby souhlasu s cookies."
+
+#: includes/class-scanner.php:205
+msgid ""
+"WP Consent API: stores your consent choice for necessary cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: ukládá vaši volbu souhlasu pro nezbytné cookies. "
+"Synchronizováno z cookie banneru."
+
+#: includes/class-scanner.php:206
+msgid ""
+"WP Consent API: stores your consent choice for analytics cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: ukládá vaši volbu souhlasu pro analytické cookies. "
+"Synchronizováno z cookie banneru."
+
+#: includes/class-scanner.php:207
+msgid ""
+"WP Consent API: stores your consent choice for anonymous statistics. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: ukládá vaši volbu souhlasu pro anonymní statistiky. "
+"Synchronizováno z cookie banneru."
+
+#: includes/class-scanner.php:208
+msgid ""
+"WP Consent API: stores your consent choice for marketing cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: ukládá vaši volbu souhlasu pro marketingové cookies. "
+"Synchronizováno z cookie banneru."
+
+#: includes/class-scanner.php:209
+msgid ""
+"WP Consent API: stores your consent choice for preference cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: ukládá vaši volbu souhlasu pro preferenční cookies. "
+"Synchronizováno z cookie banneru."
+
+#: includes/class-scanner.php:210
+msgid ""
+"WP Consent API: stores per-service consent overrides used by integrated "
+"plugins."
+msgstr ""
+"WP Consent API: ukládá výjimky v souhlasu pro jednotlivé služby, které "
+"používají integrované pluginy."
+
+#: includes/class-scanner.php:211
+msgid ""
+"WP Consent API: stores your cookie consent choice. Synced from your consent "
+"banner."
+msgstr ""
+"WP Consent API: ukládá vaši volbu souhlasu s cookies. Synchronizováno z "
+"cookie banneru."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:195
+#, php-format
+msgid "“%s” is not a usable address. Use at least 4 characters without spaces, for example widget.example.com."
+msgstr ""
+"„%s“ není použitelná adresa. Použijte alespoň 4 znaky bez mezer, například "
+"widget.example.com."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:200
+#, php-format
+msgid "“%s” would block every script on this site. Enter the address of the external service instead."
+msgstr ""
+"Adresa „%s“ by zablokovala všechny skripty na tomto webu. Zadejte místo toho "
+"adresu externí služby."
+
+#: includes/class-script-blocker.php:840
+msgid "This content is blocked because it requires analytics cookies."
+msgstr "Tento obsah je zablokován, protože vyžaduje analytické cookies."
+
+#: includes/class-script-blocker.php:841
+msgid "Accept analytics cookies"
+msgstr "Přijmout analytické cookies"
+
+#: includes/class-script-blocker.php:845
+msgid "This content is blocked because it requires preference cookies."
+msgstr "Tento obsah je zablokován, protože vyžaduje preferenční cookies."
+
+#: includes/class-script-blocker.php:846
+msgid "Accept preference cookies"
+msgstr "Přijmout preferenční cookies"
+
+#: includes/class-admin.php:890 includes/class-admin.php:1203
+msgid "Block by address"
+msgstr "Blokovat podle adresy"
+
+#: includes/class-admin.php:1213
+msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
+msgstr ""
+"Skripty v HTML stránky se porovnávají pouze tehdy, když je zapnuté Blokování "
+"vlastního kódu."
+
+#: includes/class-admin.php:1259 includes/class-admin.php:1289
+msgid "Address contains"
+msgstr "Adresa obsahuje"
+
+#: includes/class-admin.php:1274
+msgid "Add address"
+msgstr "Přidat adresu"
+
+#: includes/class-admin.php:1284
+msgid "Necessary (never blocked)"
+msgstr "Nezbytné (nikdy se neblokuje)"
+
+#: includes/class-admin.php:889
+msgid "Reviews widgets"
+msgstr "Widgety s recenzemi"
+
+#: includes/class-admin.php:889
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgstr ""
+"Widget s recenzemi Trustmary čeká na souhlas s analytickými cookies, protože "
+"ukládá ID návštěvníka v prohlížeči. Místo něj se zobrazí zpráva s tlačítkem "
+"pro přijetí. Chcete-li ho načíst okamžitě, přidejte widget.trustmary.com v "
+"části Blokovat podle adresy s kategorií „Nezbytné (nikdy se neblokuje)“."
+
+#: includes/class-admin.php:890
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
+msgstr ""
+"Zablokuje libovolný další skript podle části jeho adresy, dokud návštěvník "
+"nepřijme vámi zvolenou kategorii, například widget, který plugin "
+"nerozpoznává. U skriptů, které na stránce zobrazují obsah, zapněte Zobrazit "
+"zprávu."
+
+#: includes/class-scanner.php:137
+msgctxt "cookie duration"
+msgid "Persistent"
+msgstr "Trvalá"
+
+#: includes/class-scanner.php:209
+msgid "Trustmary: stores a visitor ID, the landing page and conversions in the browser’s local storage."
+msgstr ""
+"Trustmary: ukládá ID návštěvníka, vstupní stránku a konverze v místním "
+"úložišti prohlížeče."
+
+#: includes/class-scanner.php:224
+msgid "Reddit Pixel: identifies the browser for ad measurement."
+msgstr "Reddit Pixel: identifikuje prohlížeč pro měření reklam."
+
+#: includes/class-scanner.php:225
+msgid ""
+"Microsoft Advertising: groups page views into a session for ad measurement."
+msgstr ""
+"Microsoft Advertising: seskupuje zobrazení stránek do relace pro měření "
+"reklam."
+
+#: includes/class-scanner.php:226
+msgid ""
+"Microsoft Advertising: identifies the visitor across visits for ad "
+"measurement."
+msgstr ""
+"Microsoft Advertising: identifikuje návštěvníka napříč návštěvami pro měření "
+"reklam."
+
+#: includes/class-scanner.php:227
+msgid "Criteo: stores a browser identifier for ad personalisation."
+msgstr "Criteo: ukládá identifikátor prohlížeče pro personalizaci reklam."
+
+#: includes/class-scanner.php:228
+msgid "Taboola: identifies the browser for ad targeting."
+msgstr "Taboola: identifikuje prohlížeč pro cílení reklam."
+
+#: includes/class-scanner.php:229
+msgid "Klaviyo: recognises returning visitors for email marketing."
+msgstr "Klaviyo: rozpoznává vracející se návštěvníky pro e-mailový marketing."
+
+#: includes/class-scanner.php:230
+msgid "Yandex Metrica: identifies visitors and stores session settings."
+msgstr "Yandex Metrica: identifikuje návštěvníky a ukládá nastavení relace."
+
+#: includes/class-scanner.php:231
+msgid "Segment: stores an anonymous visitor ID and traits."
+msgstr "Segment: ukládá anonymní ID návštěvníka a jeho vlastnosti."
+
+#: includes/class-scanner.php:232
+msgid "Intercom: keeps the chat messenger session and visitor identity."
+msgstr "Intercom: uchovává relaci chatu a identitu návštěvníka."
+
+#: includes/class-scanner.php:233
+msgid "Crisp: keeps the chat session and visitor identity."
+msgstr "Crisp: uchovává relaci chatu a identitu návštěvníka."
+
+#: includes/class-admin.php
+msgid "Cookie policy link text"
+msgstr "Text odkazu na zásady cookies"
+
+#: includes/class-admin.php
+msgid "Cookie settings label"
+msgstr "Popisek nastavení cookies"
+
+#: includes/class-admin.php
+msgid "Tooltip and screen reader label of the floating button, and the default text of the [kncc_cookie_settings] link."
+msgstr ""
+"Popisek plovoucího tlačítka (zobrazí se při najetí myší a čtou ho čtečky "
+"obrazovky) a výchozí text odkazu [kncc_cookie_settings]."
+
+#: includes/class-admin.php
+msgid "Banner label for screen readers"
+msgstr "Popisek banneru pro čtečky obrazovky"
+
+#: includes/class-admin.php
+msgid "Cookie categories"
+msgstr "Kategorie cookies"
+
+#: includes/class-admin.php
+msgid "Text when no cookies are used"
+msgstr "Text, když se nepoužívají žádné cookies"
+
+#: includes/class-admin.php
+msgid "Policy page texts"
+msgstr "Texty stránky zásad"
+
+#: includes/class-admin.php
+msgid "Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab."
+msgstr ""
+"Texty přehledu cookies ze shortcodu [kncc_cookie_policy]. Pokud pole necháte "
+"prázdné, použije se vestavěný text, který je přeložen do každého jazyka. "
+"Názvy kategorií se upravují na kartě Obecné."
+
+#: includes/class-admin.php
+msgid "Category descriptions"
+msgstr "Popisy kategorií"
+
+#: includes/class-admin.php
+msgid "Consent status"
+msgstr "Stav souhlasu"
+
+#: includes/class-admin.php
+msgid "Heading"
+msgstr "Nadpis"
+
+#: includes/class-admin.php
+msgid "Before the visitor chooses"
+msgstr "Před volbou návštěvníka"
+
+#: includes/class-admin.php
+msgid "Technical note (shown when WP Consent API is active)"
+msgstr "Technická poznámka (zobrazí se, když je aktivní WP Consent API)"
+
+#: includes/class-admin.php
+msgid "Buttons and messages"
+msgstr "Tlačítka a zprávy"
+
+#: includes/class-admin.php
+msgid "Edit preferences button"
+msgstr "Tlačítko pro úpravu předvoleb"
+
+#: includes/class-admin.php
+msgid "Message when no cookies are registered"
+msgstr "Zpráva, když nejsou zaregistrovány žádné cookies"
+
+#: includes/class-admin.php
+msgid "Table column headings"
+msgstr "Záhlaví sloupců tabulky"
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 added cookies for services that are not on your site. They have been removed from the cookie list: %s. If your site does use some of these services, put the cookies back and delete the ones it does not use."
+msgstr ""
+"Verze 1.8.10 přidala cookies pro služby, které na vašem webu nejsou. Byly "
+"odebrány ze seznamu cookies: %s. Pokud váš web některé z těchto služeb "
+"používá, vraťte příslušné cookies zpět a smažte ty, které nepoužívá."
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 may have added cookies for services that are not on your site: %s. The Google Tag Manager on your site can load any of them, so they were kept. Remove the ones your site does not use."
+msgstr ""
+"Verze 1.8.10 možná přidala cookies pro služby, které na vašem webu nejsou: "
+"%s. Google Tag Manager na vašem webu může kteroukoli z těchto služeb načíst, "
+"proto byly cookies ponechány. Odeberte ty, které váš web nepoužívá."
+
+#: includes/class-admin.php
+msgid "Put the cookies back"
+msgstr "Vrátit cookies zpět"
+
+#: includes/class-admin.php
+msgid "Hide this notice"
+msgstr "Skrýt toto oznámení"
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr ""
+"Zobrazí se, když návštěvníci kliknou na Přizpůsobit. Pokud pole necháte "
+"prázdné, použije se vestavěný text."
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr "Zprávy o blokovaném obsahu"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr "Zpráva pro YouTube & Vimeo"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr "Tlačítko pro přijetí u YouTube & Vimeo"
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr "Zpráva pro obsah vyžadující analytické cookies"
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr "Tlačítko pro přijetí analytických cookies"
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr "Zpráva pro obsah vyžadující preferenční cookies"
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr "Tlačítko pro přijetí preferenčních cookies"
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr "Nebo přidejte odkaz kamkoli pomocí shortcodu:"
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr ""
+"Doporučeno. Vypněte jen v případě, že plugin pro cache nebo zrychlení "
+"narušuje fungování webu."
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr "Blokuje se automaticky, není potřeba žádné nastavení."
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr "Zobrazit zprávu"
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr "Nejsou vybrány žádné cookies."
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr "Skripty %s již nejsou na úvodní stránce zjištěny"
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr "Upravovaný jazyk: %s. Uložení se týká pouze tohoto jazyka."
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr "Upravuje se výchozí jazyk. Ostatní jazyky mají vlastní texty."
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr "Zobrazí náhled banneru s vaším aktuálním, neuloženým nastavením."
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr "Živý náhled funguje pouze u volby Styl pluginu."
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr "Popisek tlačítka × pro čtečky obrazovky."
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr ""
+"Zadrží libovolný další skript, dokud návštěvník nepřijme jeho kategorii. "
+"Použijte to pro widgety a nástroje, které plugin nerozpoznává."
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr ""
+"Nezbytné (nikdy se neblokuje) umožní načíst adresu okamžitě, i takovou, "
+"kterou by plugin jinak zablokoval."
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr ""
+"Zobrazit zprávu: v místě, kde by zablokovaný skript zobrazil obsah (recenze, "
+"rezervace, mapu), se místo prázdné mezery zobrazí zpráva s tlačítkem pro "
+"přijetí. U sledovacích skriptů to není potřeba."
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
+msgstr "otevře se na nové kartě"

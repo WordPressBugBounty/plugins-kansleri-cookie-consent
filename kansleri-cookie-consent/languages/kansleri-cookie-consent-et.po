@@ -1,0 +1,2291 @@
+# Estonian translation for Kansleri Cookie Consent
+# Copyright (C) 2024 Kansleri.fi
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kansleri Cookie Consent 1.8.13\n"
+"Report-Msgid-Bugs-To: https://kansleri.fi\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
+"PO-Revision-Date: 2026-11-03 12:00+0200\n"
+"Last-Translator: Kansleri.fi\n"
+"Language-Team: Estonian\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-admin.php:20 includes/class-admin.php:21
+#: includes/class-admin.php:122
+msgid "Cookie Consent"
+msgstr "Küpsisenõusolek"
+
+#: includes/class-admin.php:67 includes/class-admin.php:1228
+msgid "Settings saved."
+msgstr "Seaded salvestatud."
+
+#: includes/class-admin.php:68
+msgid "An error occurred."
+msgstr "Ilmnes viga."
+
+#: includes/class-admin.php:69
+msgid "Scanning..."
+msgstr "Skannimine…"
+
+#: includes/class-admin.php:70
+msgid "Scan complete."
+msgstr "Skannimine on lõpetatud."
+
+#: includes/class-admin.php:71
+msgid "No new cookies found."
+msgstr "Uusi küpsiseid ei leitud."
+
+#: includes/class-admin.php:72
+msgid "Remove this cookie?"
+msgstr "Kas eemaldada see küpsis?"
+
+#: includes/class-admin.php:73 includes/class-admin.php:414
+#: includes/class-admin.php:698
+msgid "Scan Cookies"
+msgstr "Skanni küpsised"
+
+#: includes/class-admin.php:74
+msgid "Invalid JSON format. Please import a valid cookie array."
+msgstr "Vigane JSON-vorming. Importige kehtiv küpsiste massiiv."
+
+#: includes/class-admin.php:75
+msgid "Cookies imported into the table. Save cookies to persist changes."
+msgstr ""
+"Küpsised imporditi tabelisse. Muudatuste säilitamiseks salvestage küpsised."
+
+#: includes/class-admin.php:76
+msgid "No valid cookies found in imported JSON."
+msgstr "Imporditud JSON-ist ei leitud ühtegi kehtivat küpsist."
+
+#: includes/class-admin.php:77
+msgid "No cookie rows available to export."
+msgstr "Eksportimiseks pole ühtegi küpsiste rida."
+
+#: includes/class-admin.php:78
+msgid "AI prompt copied to clipboard."
+msgstr "AI-viip kopeeriti lõikelauale."
+
+#: includes/class-admin.php:79
+msgid ""
+"Could not copy prompt automatically. Select all and copy from the box below."
+msgstr ""
+"Viipa ei õnnestunud automaatselt kopeerida. Valige allolevas kastis kõik ja "
+"kopeerige."
+
+#: includes/class-admin.php:81
+msgid "AI prompt (copied to clipboard — or select all and copy manually):"
+msgstr ""
+"AI-viip (kopeeritud lõikelauale – või valige kõik ja kopeerige käsitsi):"
+
+#: includes/class-admin.php:82
+msgid ""
+"Policy page AI prompt (copied to clipboard — or select all and copy "
+"manually):"
+msgstr ""
+"Poliitika lehe AI-viip (kopeeritud lõikelauale – või valige kõik ja "
+"kopeerige käsitsi):"
+
+#: includes/class-admin.php:83
+msgid ""
+"Prompt ready below — select all (Ctrl+A) inside the box and copy (Ctrl+C)."
+msgstr ""
+"Viip on allpool valmis – valige kastis kõik (Ctrl+A) ja kopeerige (Ctrl+C)."
+
+#: includes/class-admin.php:80
+msgid "All cookies are done! Every cookie has a description."
+msgstr "Kõik küpsised on korras! Igal küpsisel on kirjeldus."
+
+#: includes/class-admin.php:81 includes/class-admin.php:457
+msgid "No cookies registered yet."
+msgstr "Küpsiseid pole veel registreeritud."
+
+#: includes/class-admin.php:82 includes/class-admin.php:473
+msgid "Remove"
+msgstr "Eemalda"
+
+#: includes/class-admin.php:83
+msgid ""
+"This will permanently delete all consent log records and statistics. "
+"Continue?"
+msgstr ""
+"See kustutab jäädavalt kõik nõusolekulogi kirjed ja statistika. Kas jätkata?"
+
+#: includes/class-admin.php:84 includes/class-admin.php:1150
+msgid "All consent log records and statistics have been purged."
+msgstr "Kõik nõusolekulogi kirjed ja statistika on kustutatud."
+
+#: includes/class-admin.php:85
+msgid "AI prompt for policy page copied to clipboard."
+msgstr "Poliitika lehe AI-viip kopeeriti lõikelauale."
+
+#: includes/class-admin.php:86
+msgid "CSS template copied to clipboard."
+msgstr "CSS-mall kopeeriti lõikelauale."
+
+#: includes/class-admin.php:88
+#, php-format
+msgid "%d known cookie(s) added automatically:"
+msgstr "Automaatselt lisatud tuntud küpsised (%d):"
+
+#: includes/class-admin.php:90
+#, php-format
+msgid ""
+"%d unknown cookie(s) added — please set their category and description "
+"below."
+msgstr ""
+"Lisatud tundmatud küpsised (%d) – määrake allpool nende kategooria ja "
+"kirjeldus."
+
+#: includes/class-admin.php:91
+msgid "Unknown"
+msgstr "Tundmatud"
+
+#: includes/class-admin.php:92
+msgid "Added — categorize and describe in the table below"
+msgstr "Lisatud – määrake kategooria ja kirjeldus allolevas tabelis"
+
+#: includes/class-admin.php:94
+#, php-format
+msgid "%d cookie(s) inferred from detected scripts on your site:"
+msgstr "Teie veebisaidil tuvastatud skriptide põhjal tuletatud küpsised (%d):"
+
+#: includes/class-admin.php:95
+msgid ""
+"These cookies are expected from tracking scripts on your site, even when "
+"blocked until consent."
+msgstr ""
+"Neid küpsiseid on oodata teie veebisaidi jälgimisskriptidelt ka siis, kui "
+"skriptid on kuni nõusolekuni blokeeritud."
+
+#: includes/class-admin.php:97
+#, php-format
+msgid ""
+"%d browser cookie(s) skipped — found in your browser but no matching script "
+"on this site:"
+msgstr ""
+"Vahele jäetud brauseri küpsised (%d) – leitud teie brauserist, kuid sellel "
+"veebisaidil pole vastavat skripti:"
+
+#: includes/class-admin.php:481
+msgid ""
+"%d cookie was automatically added based on tracking scripts detected on your"
+" site."
+msgid_plural ""
+"%d cookies were automatically added based on tracking scripts detected on "
+"your site."
+msgstr[0] ""
+"%d küpsis lisati automaatselt teie veebisaidil tuvastatud jälgimisskriptide "
+"põhjal."
+msgstr[1] ""
+"%d küpsist lisati automaatselt teie veebisaidil tuvastatud jälgimisskriptide "
+"põhjal."
+
+#: includes/class-admin.php:128
+msgid "General"
+msgstr "Üldine"
+
+#: includes/class-admin.php:131 kansleri-cookie-consent.php:571
+msgid "Cookies"
+msgstr "Küpsised"
+
+#: includes/class-admin.php:134
+msgid "Policy Page"
+msgstr "Poliitika leht"
+
+#: includes/class-admin.php:137
+msgid "Integration"
+msgstr "Integratsioon"
+
+#: includes/class-admin.php:140
+msgid "Script Blocking"
+msgstr "Skriptide blokeerimine"
+
+#: includes/class-admin.php:143
+msgid "Statistics"
+msgstr "Statistika"
+
+#: includes/class-admin.php:146
+msgid "Documentations"
+msgstr "Dokumentatsioon"
+
+#: includes/class-admin.php:210
+msgid "Open banner preview"
+msgstr "Ava bänneri eelvaade"
+
+#: includes/class-admin.php:222 includes/class-admin.php:689
+msgid "Banner style"
+msgstr "Bänneri stiil"
+
+#: includes/class-admin.php:225
+msgid "Bottom bar"
+msgstr "Alumine riba"
+
+#: includes/class-admin.php:226
+msgid "Centered modal"
+msgstr "Keskel olev aken"
+
+#: includes/class-admin.php:227
+msgid "Corner popup"
+msgstr "Hüpikaken nurgas"
+
+#: includes/class-admin.php:233
+msgid "Colors"
+msgstr "Värvid"
+
+#: includes/class-admin.php:237
+msgid "Banner background"
+msgstr "Bänneri taust"
+
+#: includes/class-admin.php:238 includes/class-admin.php:275
+msgid "Heading text"
+msgstr "Pealkirja tekst"
+
+#: includes/class-admin.php:239
+msgid "Body text"
+msgstr "Põhitekst"
+
+#: includes/class-admin.php:240
+msgid "Primary button"
+msgstr "Esmane nupp"
+
+#: includes/class-admin.php:241
+msgid "Primary button text"
+msgstr "Esmase nupu tekst"
+
+#: includes/class-admin.php:242
+msgid "Secondary button"
+msgstr "Teisene nupp"
+
+#: includes/class-admin.php:243
+msgid "Secondary button text"
+msgstr "Teisese nupu tekst"
+
+#: includes/class-admin.php:265 includes/class-admin.php:691
+msgid "Text and font style"
+msgstr "Teksti ja fondi stiil"
+
+#: includes/class-admin.php:268 includes/class-admin.php:521
+msgid "Theme style (inherit site typography)"
+msgstr "Teema stiil (pärib veebisaidi tüpograafia)"
+
+#: includes/class-admin.php:269 includes/class-admin.php:522
+msgid "Plugin style (strict font sizes/colors)"
+msgstr "Plugina stiil (kindlad fondisuurused/värvid)"
+
+#: includes/class-admin.php:281
+msgid "Description text"
+msgstr "Kirjelduse tekst"
+
+#: includes/class-admin.php:287
+msgid "Accept button text"
+msgstr "Nõustumisnupu tekst"
+
+#: includes/class-admin.php:291
+msgid "Reject button text"
+msgstr "Keeldumisnupu tekst"
+
+#: includes/class-admin.php:295
+msgid "Customize button text"
+msgstr "Kohandamisnupu tekst"
+
+#: includes/class-admin.php:299
+msgid "Save preferences button text"
+msgstr "Eelistuste salvestamise nupu tekst"
+
+#: includes/class-admin.php:303 includes/class-script-blocker.php:187
+msgid "This content is blocked because it requires marketing cookies."
+msgstr ""
+"See sisu on blokeeritud, kuna selle kuvamiseks on vaja turundusküpsiseid."
+
+#: includes/class-admin.php:304 includes/class-script-blocker.php:190
+msgid "Accept marketing cookies"
+msgstr "Nõustu turundusküpsistega"
+
+#: includes/class-admin.php:318 includes/class-admin.php:693
+msgid "Floating settings button"
+msgstr "Hõljuv seadete nupp"
+
+#: includes/class-admin.php:322
+msgid ""
+"Show a small floating button so visitors can re-open their cookie "
+"preferences"
+msgstr ""
+"Kuva väike hõljuv nupp, et külastajad saaksid oma küpsiste eelistused uuesti "
+"avada"
+
+#: includes/class-admin.php:329
+msgid "Copied!"
+msgstr "Kopeeritud!"
+
+#: includes/class-admin.php:329 includes/class-admin.php:330
+msgid "Copy"
+msgstr "Kopeeri"
+
+#: includes/class-admin.php:346 includes/class-admin.php:531
+#: includes/class-admin.php:664
+msgid "Save Settings"
+msgstr "Salvesta seaded"
+
+#: includes/class-admin.php:370
+msgid "Banner preview"
+msgstr "Bänneri eelvaade"
+
+#: includes/class-admin.php:415
+msgid "Add Cookie"
+msgstr "Lisa küpsis"
+
+#: includes/class-admin.php:419
+msgid "Need help describing these cookies?"
+msgstr "Kas vajate abi nende küpsiste kirjeldamisel?"
+
+#: includes/class-admin.php:421
+msgid ""
+"Click the button below to copy a ready-made AI prompt with your cookie data."
+msgstr ""
+"Klõpsake allolevat nuppu, et kopeerida valmis AI-viip koos teie küpsiste "
+"andmetega."
+
+#: includes/class-admin.php:422
+msgid "Paste the prompt into an AI tool (ChatGPT, Claude, Gemini, etc.)."
+msgstr "Kleepige viip AI-tööriista (ChatGPT, Claude, Gemini jne)."
+
+#: includes/class-admin.php:423
+msgid "The AI will return improved JSON with clear cookie descriptions."
+msgstr "AI tagastab täiustatud JSON-i selgete küpsiste kirjeldustega."
+
+#: includes/class-admin.php:424
+msgid ""
+"Copy the AI response and paste it into the text box that appears below."
+msgstr "Kopeerige AI vastus ja kleepige see allpool kuvatavasse tekstikasti."
+
+#: includes/class-admin.php:425
+msgid "Click Import — cookies are saved automatically."
+msgstr "Klõpsake „Impordi“ – küpsised salvestatakse automaatselt."
+
+#: includes/class-admin.php:429
+msgid "Copy AI Prompt to Clipboard"
+msgstr "Kopeeri AI-viip lõikelauale"
+
+#: includes/class-admin.php:433
+msgid "Paste the AI response here:"
+msgstr "Kleepige AI vastus siia:"
+
+#: includes/class-admin.php:434
+msgid "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+msgstr "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+
+#: includes/class-admin.php:436
+msgid "Import"
+msgstr "Impordi"
+
+#: includes/class-admin.php:447
+msgid "Name"
+msgstr "Nimi"
+
+#: includes/class-admin.php:448 includes/class-admin.php:989
+msgid "Category"
+msgstr "Kategooria"
+
+#: includes/class-admin.php:449 includes/class-policy-page.php:91
+#: includes/class-policy-page.php:100
+msgid "Provider"
+msgstr "Pakkuja"
+
+#: includes/class-admin.php:450 includes/class-policy-page.php:93
+#: includes/class-policy-page.php:102
+msgid "Duration"
+msgstr "Kestus"
+
+#: includes/class-admin.php:451
+msgid "Description"
+msgstr "Kirjeldus"
+
+#: includes/class-admin.php:464 kansleri-cookie-consent.php:335
+msgid "Necessary"
+msgstr "Vajalikud"
+
+#: includes/class-admin.php:465 kansleri-cookie-consent.php:339
+msgid "Analytics"
+msgstr "Analüütika"
+
+#: includes/class-admin.php:466 kansleri-cookie-consent.php:343
+msgid "Marketing"
+msgstr "Turundus"
+
+#: includes/class-admin.php:467 kansleri-cookie-consent.php:347
+msgid "Preferences"
+msgstr "Eelistused"
+
+#: includes/class-admin.php:480 includes/class-admin.php:700
+msgid "Save Cookies"
+msgstr "Salvesta küpsised"
+
+#: includes/class-admin.php:494
+msgid ""
+"No cookie policy page has been selected. Set a Privacy Policy page in "
+"Settings → Privacy, or choose a page below."
+msgstr ""
+"Küpsisepoliitika lehte pole valitud. Määrake privaatsuspoliitika leht menüüs "
+"Seaded → Privaatsus või valige leht allpool."
+
+#: includes/class-admin.php:502 includes/class-admin.php:705
+msgid "Cookie policy page"
+msgstr "Küpsisepoliitika leht"
+
+#: includes/class-admin.php:505
+msgid "— Select a page —"
+msgstr "— Vali leht —"
+
+#: includes/class-admin.php:510
+#, php-format
+msgid "%s (WordPress Privacy Policy)"
+msgstr "%s (WordPressi privaatsuspoliitika)"
+
+#: includes/class-admin.php:513
+msgid ""
+"Defaults automatically to the WordPress Privacy Policy page (Settings → "
+"Privacy). Add the shortcode [kncc_cookie_policy] to that page to show the "
+"cookie declaration."
+msgstr ""
+"Vaikimisi kasutatakse WordPressi privaatsuspoliitika lehte (Seaded → "
+"Privaatsus). Küpsiste deklaratsiooni kuvamiseks lisage sellele lehele "
+"lühikood [kncc_cookie_policy]."
+
+#: includes/class-admin.php:518
+msgid "Policy page style"
+msgstr "Poliitika lehe stiil"
+
+#: includes/class-admin.php:525
+msgid ""
+"Controls the styling of the [kncc_cookie_policy] cookie declaration table."
+msgstr ""
+"Määrab lühikoodi [kncc_cookie_policy] küpsiste deklaratsiooni tabeli "
+"kujunduse."
+
+#: includes/class-admin.php:628
+msgid ""
+"Theme style is the default so the policy page matches your site typography. "
+"Switch to Plugin style for strict plugin sizes and colors."
+msgstr ""
+"Vaikimisi on valitud Teema stiil, et poliitika leht sobiks teie veebisaidi "
+"tüpograafiaga. Plugina kindlate suuruste ja värvide kasutamiseks valige "
+"Plugina stiil."
+
+#: includes/class-admin.php:539
+msgid "Preview Policy Page"
+msgstr "Poliitika lehe eelvaade"
+
+#: includes/class-admin.php:546
+msgid "Generate cookie policy page content with AI"
+msgstr "Loo küpsisepoliitika lehe sisu AI abil"
+
+#: includes/class-admin.php:548
+msgid ""
+"Copy the prompt below and paste it into an AI tool. It will generate a "
+"complete cookie and privacy policy page in your site language. The cookie "
+"declaration will be handled automatically by the [kncc_cookie_policy] "
+"shortcode. Paste the generated HTML into your policy page."
+msgstr ""
+"Kopeerige allolev viip ja kleepige see AI-tööriista. See loob teie "
+"veebisaidi keeles tervikliku küpsiste- ja privaatsuspoliitika lehe. Küpsiste "
+"deklaratsiooni kuvab automaatselt lühikood [kncc_cookie_policy]. Kleepige "
+"loodud HTML oma poliitika lehele."
+
+#: includes/class-admin.php:552
+msgid "Copy AI Prompt for Policy Page"
+msgstr "Kopeeri AI-viip poliitika lehe jaoks"
+
+#: includes/class-admin.php:565
+msgid "Detected integrations"
+msgstr "Tuvastatud integratsioonid"
+
+#: includes/class-admin.php:692
+msgid ""
+"Active — Site Kit sets consent defaults for its own regions. This plugin "
+"sets a denied default for all other visitors and sends consent updates."
+msgstr ""
+"Aktiivne – Site Kit määrab nõusoleku vaikeväärtused oma piirkondade jaoks. "
+"See plugin määrab kõigile teistele külastajatele vaikimisi keelamise ja "
+"saadab nõusoleku uuendused."
+
+#: includes/class-admin.php:575
+msgid ""
+"Active — Site Kit consent mode not enabled. This plugin handles all consent "
+"signals."
+msgstr ""
+"Aktiivne – Site Kiti Consent Mode ei ole lubatud. See plugin haldab kõiki "
+"nõusolekusignaale."
+
+#: includes/class-admin.php:586
+msgid ""
+"Active — consent status is shared with other plugins via the WP Consent API."
+msgstr ""
+"Aktiivne – nõusoleku olekut jagatakse teiste pluginatega WP Consent API "
+"kaudu."
+
+#: includes/class-admin.php:598 includes/class-admin.php:712
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: includes/class-admin.php:602
+msgid ""
+"Enable Consent Mode v2 (outputs consent defaults in &lt;head&gt; before GTM)"
+msgstr ""
+"Luba Consent Mode v2 (väljastab nõusoleku vaikeväärtused elemendis "
+"&lt;head&gt; enne GTM-i)"
+
+#: includes/class-admin.php:610
+msgid ""
+"Forced on because Google Site Kit is active. Consent Mode is required for "
+"Site Kit to receive consent signals."
+msgstr ""
+"Kohustuslikult sees, sest Google Site Kit on aktiivne. Consent Mode on "
+"vajalik, et Site Kit saaks nõusolekusignaale."
+
+#: includes/class-admin.php:614
+msgid ""
+"Consent Mode tells Google tags what the visitor has allowed (for example "
+"analytics or ads). This plugin sends a denied-by-default signal before tags "
+"run, and sends an updated signal after the visitor chooses. It controls "
+"consent signals only: you still need to install GTM/GA scripts separately."
+msgstr ""
+"Consent Mode annab Google'i märgenditele teada, mida külastaja on lubanud "
+"(näiteks analüütika või reklaamid). See plugin saadab enne märgendite "
+"käivitumist vaikimisi keelava signaali ja pärast külastaja valikut uuendatud "
+"signaali. Plugin juhib ainult nõusolekusignaale: GTM-i/GA skriptid tuleb "
+"siiski eraldi paigaldada."
+
+#: includes/class-admin.php:740
+msgid ""
+"Site Kit sets consent defaults for its own regions. This plugin adds a "
+"denied default for all other visitors and sends each visitor's choice as a "
+"consent update."
+msgstr ""
+"Site Kit määrab nõusoleku vaikeväärtused oma piirkondade jaoks. See plugin "
+"lisab kõigile teistele külastajatele vaikimisi keelamise ja saadab iga "
+"külastaja valiku nõusoleku uuendusena."
+
+#: includes/class-admin.php:630
+msgid "Need Google Analytics 4 or Google Tag Manager?"
+msgstr "Kas vajate Google Analytics 4 või Google Tag Manageri?"
+
+#: includes/class-admin.php:633
+msgid ""
+"We recommend installing Google Site Kit — Google's official WordPress "
+"plugin. It sets up GA4 and GTM in a few clicks, and works seamlessly with "
+"Kansleri Cookie Consent: Consent Mode v2 signals are handled automatically, "
+"with no double-loading or conflicts."
+msgstr ""
+"Soovitame paigaldada Google Site Kiti – Google'i ametliku WordPressi "
+"plugina. See seadistab GA4 ja GTM-i mõne klõpsuga ning töötab sujuvalt koos "
+"pluginaga Kansleri Cookie Consent: Consent Mode v2 signaale käsitletakse "
+"automaatselt, ilma topeltlaadimise ja konfliktideta."
+
+#: includes/class-admin.php:638
+msgid "Install Google Site Kit"
+msgstr "Paigalda Google Site Kit"
+
+#: includes/class-admin.php:649
+msgid "Consent Mode defaults (auto-injected in &lt;head&gt;)"
+msgstr ""
+"Consent Mode'i vaikeväärtused (lisatakse automaatselt elementi &lt;head&gt;)"
+
+#: includes/class-admin.php:673
+msgid "Installation guide"
+msgstr "Paigaldusjuhend"
+
+#: includes/class-admin.php:675
+msgid "Activate the plugin and open Settings > Cookie Consent."
+msgstr "Aktiveerige plugin ja avage Seaded > Küpsisenõusolek."
+
+#: includes/class-admin.php:676
+msgid "Configure banner texts, style, and button labels in the General tab."
+msgstr "Seadistage bänneri tekstid, stiil ja nuppude sildid vahelehel Üldine."
+
+#: includes/class-admin.php:677
+msgid ""
+"Open the Integration tab and enable Google Consent Mode v2 if you use "
+"GTM/Google tags."
+msgstr ""
+"Kui kasutate GTM-i/Google'i märgendeid, avage vaheleht Integratsioon ja "
+"lubage Google Consent Mode v2."
+
+#: includes/class-admin.php:678
+msgid ""
+"Open the Cookies tab, run Scan Cookies, then review and categorize unknown "
+"cookies."
+msgstr ""
+"Avage vaheleht Küpsised, käivitage Skanni küpsised, seejärel vaadake "
+"tundmatud küpsised üle ja määrake neile kategooriad."
+
+#: includes/class-admin.php:679
+msgid ""
+"If unknown cookies are found, an AI helper appears: copy the prompt, paste "
+"it into an AI tool, paste the response back into the text box, click Import,"
+" then Save Cookies."
+msgstr ""
+"Kui leitakse tundmatuid küpsiseid, ilmub AI-abiline: kopeerige viip, "
+"kleepige see AI-tööriista, kleepige vastus tagasi tekstikasti, klõpsake "
+"„Impordi“ ja seejärel „Salvesta küpsised“."
+
+#: includes/class-admin.php:680
+msgid ""
+"Confirm the Cookie Policy page in the Policy Page tab — it defaults to the "
+"WordPress Privacy Policy page."
+msgstr ""
+"Kinnitage küpsisepoliitika leht vahelehel Poliitika leht – vaikimisi on "
+"selleks WordPressi privaatsuspoliitika leht."
+
+#: includes/class-admin.php:681
+msgid ""
+"Use the AI prompt on the Policy Page tab to generate the full cookie policy "
+"page content. Paste the generated HTML into your policy page."
+msgstr ""
+"Kasutage vahelehel Poliitika leht olevat AI-viipa, et luua küpsisepoliitika "
+"lehe täielik sisu. Kleepige loodud HTML oma poliitika lehele."
+
+#: includes/class-admin.php:682
+msgid "Review the Script Blocking tab to see which scripts are auto-blocked."
+msgstr ""
+"Vaadake üle vaheleht Skriptide blokeerimine, et näha, milliseid skripte "
+"blokeeritakse automaatselt."
+
+#: includes/class-admin.php:685
+msgid "What each option means"
+msgstr "Mida iga valik tähendab"
+
+#: includes/class-admin.php:687
+msgid "General tab"
+msgstr "Vaheleht Üldine"
+
+#: includes/class-admin.php:689
+msgid "Choose visual placement of the banner (bar, modal, corner)."
+msgstr "Valige bänneri asukoht ekraanil (riba, aken, nurk)."
+
+#: includes/class-admin.php:690
+msgid "Controls the main accent color used by buttons and links."
+msgstr "Määrab peamise rõhuvärvi, mida kasutavad nupud ja lingid."
+
+#: includes/class-admin.php:690
+msgid "Primary color"
+msgstr "Põhivärv"
+
+#: includes/class-admin.php:691
+msgid ""
+"Theme style inherits site typography. Plugin style uses strict sizes/colors "
+"for consistent readability."
+msgstr ""
+"Teema stiil pärib veebisaidi tüpograafia. Plugina stiil kasutab ühtlase "
+"loetavuse tagamiseks kindlaid suurusi/värve."
+
+#: includes/class-admin.php:692
+msgid "Customize visible wording in the consent banner."
+msgstr "Kohandage nõusolekubänneri nähtavaid tekste."
+
+#: includes/class-admin.php:692
+msgid "Heading/Description/Button texts"
+msgstr "Pealkirja/kirjelduse/nuppude tekstid"
+
+#: includes/class-admin.php:693
+msgid "Lets visitors re-open cookie settings after they close the banner."
+msgstr ""
+"Võimaldab külastajatel pärast bänneri sulgemist küpsiste seaded uuesti avada."
+
+#: includes/class-admin.php:696
+msgid "Cookies tab"
+msgstr "Vaheleht Küpsised"
+
+#: includes/class-admin.php:777
+msgid ""
+"Scans browser cookies and infers expected cookies from tracking scripts on "
+"your site (even when blocked until consent). Known cookies are auto-mapped "
+"to categories."
+msgstr ""
+"Skannib brauseri küpsiseid ja tuletab teie veebisaidi jälgimisskriptide "
+"põhjal eeldatavad küpsised (ka siis, kui skriptid on kuni nõusolekuni "
+"blokeeritud). Tuntud küpsised seotakse kategooriatega automaatselt."
+
+#: includes/class-admin.php:699
+msgid "AI Helper"
+msgstr "AI-abiline"
+
+#: includes/class-admin.php:699
+msgid ""
+"Appears after scanning when unknown cookies are found. Copies a ready prompt"
+" to paste into an AI tool. After the AI responds, paste the JSON back into "
+"the text box and click Import."
+msgstr ""
+"Ilmub pärast skannimist, kui leitakse tundmatuid küpsiseid. Kopeerib valmis "
+"viiba, mille saab kleepida AI-tööriista. Kui AI on vastanud, kleepige JSON "
+"tagasi tekstikasti ja klõpsake „Impordi“."
+
+#: includes/class-admin.php:700
+msgid ""
+"Persists current cookie table values to be used in policy output and consent"
+" details."
+msgstr ""
+"Salvestab küpsiste tabeli praegused väärtused, et neid kasutataks poliitika "
+"väljundis ja nõusoleku üksikasjades."
+
+#: includes/class-admin.php:703
+msgid "Policy Page tab"
+msgstr "Vaheleht Poliitika leht"
+
+#: includes/class-admin.php:705
+msgid ""
+"Selects which page is used for cookie policy content generated by shortcode."
+msgstr ""
+"Valib lehe, mida kasutatakse lühikoodiga loodud küpsisepoliitika sisu jaoks."
+
+#: includes/class-admin.php:706
+msgid "AI Prompt for Policy Page"
+msgstr "AI-viip poliitika lehe jaoks"
+
+#: includes/class-admin.php:706
+msgid ""
+"Generates a prompt you can paste into an AI tool to create a full privacy "
+"and cookie policy. The generated text will include the [kncc_cookie_policy] "
+"shortcode for the cookie declaration section."
+msgstr ""
+"Loob viiba, mille saate kleepida AI-tööriista, et koostada täielik "
+"privaatsus- ja küpsisepoliitika. Loodud tekst sisaldab küpsiste "
+"deklaratsiooni jaotise jaoks lühikoodi [kncc_cookie_policy]."
+
+#: includes/class-admin.php:707
+msgid ""
+"If Polylang or WPML is active, each language can have its own translated "
+"policy page. If a translation is missing for some language, the default-"
+"language policy page is used as a fallback."
+msgstr ""
+"Kui Polylang või WPML on aktiivne, võib igal keelel olla oma tõlgitud "
+"poliitika leht. Kui mõne keele tõlge puudub, kasutatakse asendusena "
+"vaikekeele poliitika lehte."
+
+#: includes/class-admin.php:707
+msgid "Multilingual support"
+msgstr "Mitmekeelsuse tugi"
+
+#: includes/class-admin.php:710
+msgid "Integration tab"
+msgstr "Vaheleht Integratsioon"
+
+#: includes/class-admin.php:712
+msgid ""
+"A Google framework for privacy-safe tag behavior. Before consent, storage "
+"signals are denied; after user choice, signals are updated (for example "
+"analytics_storage=granted). This helps GTM/Google tags respect user consent "
+"state."
+msgstr ""
+"Google'i raamistik privaatsust arvestavaks märgendite käitumiseks. Enne "
+"nõusolekut on salvestussignaalid keelatud; pärast kasutaja valikut signaale "
+"uuendatakse (näiteks analytics_storage=granted). See aitab GTM-il ja "
+"Google'i märgenditel kasutaja nõusoleku olekut järgida."
+
+#: includes/class-admin.php:713
+msgid "GTM Container ID"
+msgstr "GTM-i konteineri ID"
+
+#: includes/class-admin.php:713
+msgid ""
+"Your GTM container identifier (for example GTM-N6828NL). It identifies which"
+" tag container your site uses. This field is informational in this plugin "
+"and does not inject GTM scripts."
+msgstr ""
+"Teie GTM-i konteineri identifikaator (näiteks GTM-N6828NL). See näitab, "
+"millist märgendikonteinerit teie veebisait kasutab. Selles pluginas on see "
+"väli ainult teabeks ega lisa GTM-i skripte."
+
+#: includes/class-admin.php:716
+msgid "Script Blocking tab"
+msgstr "Vaheleht Skriptide blokeerimine"
+
+#: includes/class-admin.php:798
+msgid ""
+"Tools like Google Analytics are blocked automatically when added through "
+"WordPress plugins (e.g. Google Site Kit)."
+msgstr ""
+"Tööriistad nagu Google Analytics blokeeritakse automaatselt, kui need on "
+"lisatud WordPressi pluginatega (nt Google Site Kit)."
+
+#: includes/class-admin.php:799 includes/class-admin.php:1071
+msgid "Custom Code blocking"
+msgstr "Kohandatud koodi blokeerimine"
+
+#: includes/class-admin.php:799
+msgid ""
+"Stops tracking pasted into Bricks, Elementor, or similar Custom Code fields "
+"until the visitor gives consent."
+msgstr ""
+"Peatab Bricksi, Elementori või sarnastesse kohandatud koodi väljadesse "
+"kleebitud jälgimise, kuni külastaja annab nõusoleku."
+
+#: includes/class-admin.php:719
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
+msgstr ""
+"YouTube'i ja Vimeo videomanused blokeeritakse automaatselt, kuni külastaja "
+"nõustub turundusküpsistega. Nende asemel kuvatakse teade nõustumisnupuga. "
+"Kui külastaja on juba nõusoleku andnud, laaditakse videod tavapäraselt."
+
+#: includes/class-admin.php:719
+msgid "YouTube & Vimeo iframe blocking"
+msgstr "YouTube & Vimeo iframe'ide blokeerimine"
+
+#: includes/class-admin.php:722
+msgid "Statistics tab"
+msgstr "Vaheleht Statistika"
+
+#: includes/class-admin.php:724
+msgid "Consent statistics"
+msgstr "Nõusoleku statistika"
+
+#: includes/class-admin.php:724
+msgid ""
+"Shows how many visitors accepted, rejected, or customized cookies over 7, "
+"30, or 90 day periods. Data is aggregated and anonymous — no personal data "
+"is stored."
+msgstr ""
+"Näitab, kui paljud külastajad nõustusid küpsistega, keeldusid neist või "
+"kohandasid neid 7, 30 või 90 päeva jooksul. Andmed on koondatud ja "
+"anonüümsed – isikuandmeid ei salvestata."
+
+#: includes/class-admin.php:725 includes/class-admin.php:1022
+msgid "Consent Log"
+msgstr "Nõusolekulogi"
+
+#: includes/class-admin.php:725
+msgid ""
+"Individual anonymized consent records for GDPR audit compliance. Records "
+"contain a hashed visitor identifier, the consent choice, accepted "
+"categories, and the policy version. Records are automatically purged after "
+"13 months."
+msgstr ""
+"Üksikud anonüümitud nõusolekukirjed GDPR-i auditi nõuete täitmiseks. Kirjed "
+"sisaldavad räsitud külastaja identifikaatorit, nõusoleku valikut, lubatud "
+"kategooriaid ja poliitika versiooni. Kirjed kustutatakse automaatselt 13 kuu "
+"möödudes."
+
+#: includes/class-admin.php:726
+msgid "Downloads all consent log records as a CSV file for auditing."
+msgstr "Laadib kõik nõusolekulogi kirjed auditeerimiseks alla CSV-failina."
+
+#: includes/class-admin.php:726 includes/class-admin.php:1038
+msgid "Export CSV"
+msgstr "Ekspordi CSV"
+
+#: includes/class-admin.php:727
+msgid "Permanently deletes all consent log records and aggregate statistics."
+msgstr "Kustutab jäädavalt kõik nõusolekulogi kirjed ja koondstatistika."
+
+#: includes/class-admin.php:727 includes/class-admin.php:1039
+msgid "Purge All Records"
+msgstr "Kustuta kõik kirjed"
+
+#: includes/class-admin.php:730
+msgid "Multilingual support (WPML & Polylang)"
+msgstr "Mitmekeelsuse tugi (WPML & Polylang)"
+
+#: includes/class-admin.php:732
+msgid "Per-language banner texts"
+msgstr "Keelepõhised bänneri tekstid"
+
+#: includes/class-admin.php:732
+msgid ""
+"When WPML or Polylang is active, switch to a secondary language in the admin"
+" bar and edit General tab settings (saved per language). With WPML String "
+"Translation, you can also translate the [kncc_settings]* admin text strings "
+"— those are used when no per-language override is saved. Otherwise each "
+"language uses its own plugin defaults (English if unsupported). Texts are "
+"never copied blindly from the default language."
+msgstr ""
+"Kui WPML või Polylang on aktiivne, valige tööriistaribalt teine keel ja "
+"muutke vahelehe Üldine seadeid (salvestatakse keele kaupa). WPML String "
+"Translationi abil saate tõlkida ka halduspaneeli tekstid [kncc_settings]* – "
+"neid kasutatakse, kui keelepõhist asendust pole salvestatud. Muidu kasutab "
+"iga keel plugina enda vaiketekste (inglise keeles, kui keelt ei toetata). "
+"Tekste ei kopeerita kunagi pimesi vaikekeelest."
+
+#: includes/class-admin.php:733
+msgid ""
+"Cookie names, categories, providers, and durations are shared across all "
+"languages. Only the description field can be translated per language. Switch"
+" language and edit descriptions in the Cookies tab."
+msgstr ""
+"Küpsiste nimed, kategooriad, pakkujad ja kestused on kõigis keeltes ühised. "
+"Keele kaupa saab tõlkida ainult kirjelduse välja. Vahetage keelt ja muutke "
+"kirjeldusi vahelehel Küpsised."
+
+#: includes/class-admin.php:733
+msgid "Per-language cookie descriptions"
+msgstr "Keelepõhised küpsiste kirjeldused"
+
+#: includes/class-admin.php:734
+msgid ""
+"Banner style, colors, and policy page can be set per language. Non-text "
+"settings fall back to the default language; banner texts use per-language "
+"overrides, WPML String Translation, or each language's own defaults."
+msgstr ""
+"Bänneri stiili, värve ja poliitika lehte saab määrata keele kaupa. "
+"Mittetekstilised seaded võetakse vaikekeelest; bänneri tekstid kasutavad "
+"keelepõhiseid asendusi, WPML String Translationit või iga keele enda "
+"vaiketekste."
+
+#: includes/class-admin.php:734
+msgid "Per-language settings"
+msgstr "Keelepõhised seaded"
+
+#: includes/class-admin.php:735
+msgid "AI prompts"
+msgstr "AI-viibad"
+
+#: includes/class-admin.php:735
+msgid ""
+"AI prompts for cookie descriptions and policy pages are automatically "
+"generated in the language matching the current admin locale."
+msgstr ""
+"Küpsiste kirjelduste ja poliitika lehtede AI-viibad luuakse automaatselt "
+"halduspaneeli praeguses keeles."
+
+#: includes/class-admin.php:738
+msgid "Shortcodes"
+msgstr "Lühikoodid"
+
+#: includes/class-admin.php:740
+msgid "Displays the full cookie declaration table on your policy page."
+msgstr "Kuvab teie poliitika lehel küpsiste deklaratsiooni täieliku tabeli."
+
+#: includes/class-admin.php:741
+msgid ""
+"Renders a link that opens the cookie settings dialog. Use in footers, menus,"
+" or widgets. Customize the link text with the text attribute, e.g. "
+"[kncc_cookie_settings text=\"Manage cookies\"]."
+msgstr ""
+"Kuvab lingi, mis avab küpsiste seadete dialoogi. Kasutage seda jalustes, "
+"menüüdes või vidinates. Lingi teksti saate muuta atribuudiga text, nt "
+"[kncc_cookie_settings text=\"Halda küpsiseid\"]."
+
+#: includes/class-admin.php:744
+msgid "Custom CSS"
+msgstr "Kohandatud CSS"
+
+#: includes/class-admin.php:748
+#, php-format
+msgid ""
+"Need to fine-tune the look beyond the General tab? Add CSS to %s, your child"
+" theme, or a Code Snippets plugin."
+msgstr ""
+"Kas soovite välimust peenhäälestada rohkem, kui vaheleht Üldine võimaldab? "
+"Lisage CSS jaotisesse %s, oma alamteemasse või Code Snippetsi pluginasse."
+
+#: includes/class-admin.php:749
+msgid "Appearance → Customize → Additional CSS"
+msgstr "Välimus → Kohanda → Täiendav CSS"
+
+#: includes/class-admin.php:752
+msgid ""
+"Copy the template below, uncomment the rules you want to change, save. Every"
+" selector the plugin uses is included."
+msgstr ""
+"Kopeerige allolev mall, eemaldage soovitud reeglite eest kommentaarimärgid "
+"ja salvestage. Mall sisaldab kõiki plugina kasutatavaid selektoreid."
+
+#: includes/class-admin.php:756
+msgid "Copy CSS template"
+msgstr "Kopeeri CSS-mall"
+
+#: includes/class-admin.php:828
+msgid "Tips:"
+msgstr "Nõuanded:"
+
+#: includes/class-admin.php:830
+msgid ""
+"If a rule does not apply, prepend .kncc-banner or add !important — your CSS "
+"file loads after the plugin's, but theme styles can occasionally beat it on "
+"specificity."
+msgstr ""
+"Kui reegel ei rakendu, lisage selle ette .kncc-banner või lisage !important "
+"– teie CSS-fail laaditakse pärast plugina oma, kuid teema stiilid võivad "
+"spetsiifilisuse tõttu vahel siiski peale jääda."
+
+#: includes/class-admin.php:831
+msgid ""
+"When General → Text and font style is set to Plugin style, typography rules "
+"use !important. Switch to Theme style for easier overrides."
+msgstr ""
+"Kui seade Üldine → Teksti ja fondi stiil on Plugina stiil, kasutavad "
+"tüpograafiareeglid märget !important. Lihtsamaks ülekirjutamiseks valige "
+"Teema stiil."
+
+#: includes/class-admin.php:832
+msgid ""
+"Banner z-index is 999999 and the floating button is 999998 — raise them if "
+"your theme renders overlays on top of the banner."
+msgstr ""
+"Bänneri z-index on 999999 ja hõljuva nupu oma 999998 – suurendage neid, kui "
+"teie teema kuvab bänneri peale ülekatteid."
+
+#: includes/class-admin.php:835
+msgid "Troubleshooting"
+msgstr "Tõrkeotsing"
+
+#: includes/class-admin.php:837
+msgid ""
+"If GTM Preview does not show consent updates, verify Consent Mode v2 is "
+"enabled and test in a fresh browser session without existing consent cookie."
+msgstr ""
+"Kui GTM-i eelvaade ei näita nõusoleku uuendusi, kontrollige, et Consent Mode "
+"v2 oleks lubatud, ja testige uues brauseriseansis ilma olemasoleva "
+"nõusolekuküpsiseta."
+
+#: includes/class-admin.php:838
+msgid ""
+"If banner typography looks odd with your theme, switch General > Text and "
+"font style to Plugin style."
+msgstr ""
+"Kui bänneri tüpograafia näeb teie teemaga kummaline välja, valige Üldine > "
+"Teksti ja fondi stiil väärtuseks Plugina stiil."
+
+#: includes/class-admin.php:839
+msgid ""
+"If tracking still runs before consent, make sure Custom Code blocking is "
+"checked on the Script Blocking tab."
+msgstr ""
+"Kui jälgimine käivitub ikka enne nõusolekut, veenduge, et vahelehel "
+"Skriptide blokeerimine oleks märgitud Kohandatud koodi blokeerimine."
+
+#: includes/class-admin.php:840
+msgid ""
+"If the statistics are empty, make sure visitors have interacted with the "
+"banner. Data starts recording after the first consent choice."
+msgstr ""
+"Kui statistika on tühi, veenduge, et külastajad on bänneriga suhelnud. "
+"Andmete salvestamine algab pärast esimest nõusolekuvalikut."
+
+#: includes/class-admin.php:841
+msgid ""
+"If the policy page warning shows missing translations, create the translated"
+" page in each language and add the [kncc_cookie_policy] shortcode."
+msgstr ""
+"Kui poliitika lehe hoiatus näitab puuduvaid tõlkeid, looge igas keeles "
+"tõlgitud leht ja lisage sellele lühikood [kncc_cookie_policy]."
+
+#: includes/class-admin.php:845
+msgid ""
+"I made this plugin for free because I got frustrated by the existing cookie "
+"consent plugins — too much bloat and useless features. If you like it and "
+"want to buy me a coffee, you can do it here:"
+msgstr ""
+"Tegin selle plugina tasuta, sest olemasolevad küpsisenõusoleku pluginad "
+"ajasid mind närvi – liiga paisutatud ja täis kasutuid funktsioone. Kui see "
+"teile meeldib ja soovite mulle kohvi välja teha, saate seda teha siin:"
+
+#: includes/class-admin.php:873
+#, php-format
+msgid "%d days"
+msgstr "%d päeva"
+
+#: includes/class-admin.php:884
+msgid "Total responses"
+msgstr "Vastuseid kokku"
+
+#: includes/class-admin.php:888 includes/class-admin.php:903
+#: includes/class-admin.php:913
+msgid "Accepted all"
+msgstr "Nõustus kõigiga"
+
+#: includes/class-admin.php:892 includes/class-admin.php:909
+#: includes/class-admin.php:915
+msgid "Rejected all"
+msgstr "Keeldus kõigist"
+
+#: includes/class-admin.php:896 includes/class-admin.php:906
+#: includes/class-admin.php:914
+msgid "Custom selection"
+msgstr "Kohandatud valik"
+
+#: includes/class-admin.php:920
+msgid ""
+"No consent data recorded yet. Statistics will appear after visitors start "
+"interacting with the cookie banner."
+msgstr ""
+"Nõusolekuandmeid pole veel salvestatud. Statistika ilmub, kui külastajad "
+"hakkavad küpsisebänneriga suhtlema."
+
+#: includes/class-admin.php:937
+#, php-format
+msgid "Cron error: %s"
+msgstr "Croni viga: %s"
+
+#: includes/class-admin.php:955
+msgid "All systems are good!"
+msgstr "Kõik süsteemid töötavad!"
+
+#: includes/class-admin.php:957
+msgid "The plugin re-checks cookies every day via cron."
+msgstr "Plugin kontrollib küpsiseid croni abil iga päev uuesti."
+
+#: includes/class-admin.php:962
+#, php-format
+msgid "Next check: %s"
+msgstr "Järgmine kontroll: %s"
+
+#: includes/class-admin.php:1075
+msgid ""
+"Also block tracking added in Bricks, Elementor, or other Custom Code fields"
+msgstr ""
+"Blokeeri ka Bricksi, Elementori või muudesse kohandatud koodi väljadesse "
+"lisatud jälgimine"
+
+#: includes/class-admin.php:1094
+msgid "Save blocking settings"
+msgstr "Salvesta blokeerimise seaded"
+
+#: includes/class-admin.php:1099
+msgid "Recognized tracking tools"
+msgstr "Tuvastatavad jälgimistööriistad"
+
+#: includes/class-admin.php:1106
+msgid "Script Handle"
+msgstr "Skripti handle"
+
+#: includes/class-admin.php:1024
+msgid ""
+"Individual consent records for GDPR audit compliance. Records are "
+"automatically purged after the retention period (13 months)."
+msgstr ""
+"Üksikud nõusolekukirjed GDPR-i auditi nõuete täitmiseks. Kirjed kustutatakse "
+"automaatselt pärast säilitusaja (13 kuud) lõppu."
+
+#: includes/class-admin.php:1028
+msgid "Total records:"
+msgstr "Kirjeid kokku:"
+
+#: includes/class-admin.php:1030
+msgid "Oldest:"
+msgstr "Vanim:"
+
+#: includes/class-admin.php:1033
+msgid "Newest:"
+msgstr "Uusim:"
+
+#: includes/class-admin.php:1043
+msgid "No consent log records yet."
+msgstr "Nõusolekulogi kirjeid veel pole."
+
+#: includes/class-admin.php:1048
+msgid "Date/Time"
+msgstr "Kuupäev/kellaaeg"
+
+#: includes/class-admin.php:1049
+msgid "Visitor"
+msgstr "Külastaja"
+
+#: includes/class-admin.php:1050
+msgid "Choice"
+msgstr "Valik"
+
+#: includes/class-admin.php:1051
+msgid "Categories"
+msgstr "Kategooriad"
+
+#: includes/class-admin.php:1052
+msgid "Policy Version"
+msgstr "Poliitika versioon"
+
+#: includes/class-admin.php:1311
+msgid "Cookies saved."
+msgstr "Küpsised salvestatud."
+
+#: includes/class-consent.php:135
+msgid "Cookie consent"
+msgstr "Küpsisenõusolek"
+
+#: includes/class-consent.php:147 includes/class-policy-page.php:27
+msgid "Cookie Policy"
+msgstr "Küpsisepoliitika"
+
+#: includes/class-consent.php:155
+msgid "Close"
+msgstr "Sulge"
+
+#: includes/class-consent.php:187 includes/class-consent.php:188
+#: kansleri-cookie-consent.php:590
+msgid "Cookie settings"
+msgstr "Küpsiste seaded"
+
+#: includes/class-policy-page.php:48
+msgid "No cookies have been registered yet."
+msgstr "Küpsiseid pole veel registreeritud."
+
+#: includes/class-policy-page.php:58
+msgid ""
+"These cookies are essential for the website to function and cannot be "
+"switched off."
+msgstr ""
+"Need küpsised on veebisaidi toimimiseks hädavajalikud ja neid ei saa välja "
+"lülitada."
+
+#: includes/class-policy-page.php:59
+msgid ""
+"These cookies help us understand how visitors interact with the website by "
+"collecting and reporting information anonymously."
+msgstr ""
+"Need küpsised aitavad meil mõista, kuidas külastajad veebisaidiga suhtlevad, "
+"kogudes ja edastades teavet anonüümselt."
+
+#: includes/class-policy-page.php:60
+msgid ""
+"These cookies are used to deliver relevant advertisements and track ad "
+"campaign performance."
+msgstr ""
+"Neid küpsiseid kasutatakse asjakohaste reklaamide kuvamiseks ja "
+"reklaamikampaaniate tulemuslikkuse jälgimiseks."
+
+#: includes/class-policy-page.php:61
+msgid ""
+"These cookies allow the website to remember choices you make and provide "
+"enhanced functionality and personalisation."
+msgstr ""
+"Need küpsised võimaldavad veebisaidil meeles pidada teie tehtud valikuid "
+"ning pakkuda täiustatud funktsioone ja isikupärastamist."
+
+#: includes/class-policy-page.php:79
+msgid "Edit cookie preferences"
+msgstr "Muuda küpsiste eelistusi"
+
+#: includes/class-policy-page.php:90 includes/class-policy-page.php:99
+msgid "Cookie"
+msgstr "Küpsis"
+
+#: includes/class-policy-page.php:92 includes/class-policy-page.php:101
+msgid "Purpose"
+msgstr "Eesmärk"
+
+#: includes/class-script-blocker.php:306
+msgid "Script blocking settings saved."
+msgstr "Skriptide blokeerimise seaded salvestatud."
+
+#: kansleri-cookie-consent.php:57 kansleri-cookie-consent.php:404
+msgid "We use cookies"
+msgstr "Kasutame küpsiseid"
+
+#: kansleri-cookie-consent.php:58 kansleri-cookie-consent.php:405
+msgid ""
+"We use cookies to improve your experience and analyze site traffic. Choose "
+"which cookies you allow."
+msgstr ""
+"Kasutame küpsiseid, et parandada teie kasutuskogemust ja analüüsida "
+"veebisaidi liiklust. Valige, milliseid küpsiseid lubate."
+
+#: kansleri-cookie-consent.php:59 kansleri-cookie-consent.php:406
+msgid "Accept all"
+msgstr "Nõustu kõigiga"
+
+#: kansleri-cookie-consent.php:60 kansleri-cookie-consent.php:407
+msgid "Reject all"
+msgstr "Keeldu kõigist"
+
+#: kansleri-cookie-consent.php:61 kansleri-cookie-consent.php:408
+msgid "Customize"
+msgstr "Kohanda"
+
+#: kansleri-cookie-consent.php:62 kansleri-cookie-consent.php:409
+msgid "Save preferences"
+msgstr "Salvesta eelistused"
+
+#: kansleri-cookie-consent.php:336
+msgid "Required for the website to function. Cannot be disabled."
+msgstr "Vajalikud veebisaidi toimimiseks. Neid ei saa välja lülitada."
+
+#: kansleri-cookie-consent.php:340
+msgid "Help us understand how visitors interact with the website."
+msgstr "Aitavad meil mõista, kuidas külastajad veebisaidiga suhtlevad."
+
+#: kansleri-cookie-consent.php:344
+msgid "Used to deliver relevant advertisements and track campaigns."
+msgstr ""
+"Kasutatakse asjakohaste reklaamide kuvamiseks ja kampaaniate jälgimiseks."
+
+#: kansleri-cookie-consent.php:348
+msgid "Remember your settings and preferences for a better experience."
+msgstr "Jätavad meelde teie seaded ja eelistused parema kasutuskogemuse jaoks."
+
+#: kansleri-cookie-consent.php:499
+msgid "Settings"
+msgstr "Seaded"
+
+#: kansleri-cookie-consent.php:522
+#, php-format
+msgid ""
+"Kansleri Cookie Consent is now active. Next steps: %1$s to discover cookies "
+"and %2$s to review banner and consent settings."
+msgstr ""
+"Kansleri Cookie Consent on nüüd aktiivne. Järgmised sammud: %1$s, et "
+"küpsised üles leida, ja %2$s, et kontrollida bänneri ja nõusoleku seadeid."
+
+#: kansleri-cookie-consent.php:523
+msgid "Scan cookies"
+msgstr "Skanni küpsised"
+
+#: kansleri-cookie-consent.php:524
+msgid "review settings"
+msgstr "vaata seaded üle"
+
+#: kansleri-cookie-consent.php:555
+#, php-format
+msgid ""
+"Cookie Consent: %1$d cookie(s) are missing descriptions: %2$s. %3$s to add "
+"them."
+msgstr ""
+"Küpsisenõusolek: kirjelduseta küpsised (%1$d): %2$s. %3$s, et kirjeldused "
+"lisada."
+
+#: kansleri-cookie-consent.php:558
+msgid "Go to Cookies tab"
+msgstr "Mine vahelehele Küpsised"
+
+#: kansleri-cookie-consent.php:572
+msgid ""
+"This site uses a cookie consent banner powered by Kansleri Cookie Consent. "
+"When you interact with the banner, a cookie named <code>kncc_consent</code> "
+"is stored in your browser for up to 1 year. It records your consent "
+"preferences (which cookie categories you accepted or rejected) so the site "
+"can remember your choice on future visits. No personal data is stored in "
+"this cookie."
+msgstr ""
+"See veebisait kasutab küpsisenõusoleku bännerit, mille aluseks on Kansleri "
+"Cookie Consent. Kui suhtlete bänneriga, salvestatakse teie brauserisse kuni "
+"1 aastaks küpsis nimega <code>kncc_consent</code>. See talletab teie "
+"nõusoleku eelistused (milliste küpsiste kategooriatega nõustusite või "
+"millest keeldusite), et veebisait saaks teie valiku järgmistel külastustel "
+"meeles pidada. Sellesse küpsisesse ei salvestata isikuandmeid."
+
+#: kansleri-cookie-consent.php:573
+msgid ""
+"The plugin also records anonymous, aggregated consent statistics (how many "
+"visitors accepted, rejected, or customized cookies each day) and individual "
+"consent log entries for GDPR audit compliance. Consent log entries contain a"
+" hashed (non-reversible) visitor identifier, the consent choice, which "
+"categories were accepted, and the policy version. No IP addresses, user "
+"identifiers, or personal data are stored in plain text. Consent log records "
+"are automatically deleted after 13 months."
+msgstr ""
+"Plugin salvestab ka anonüümset koondatud nõusolekustatistikat (kui paljud "
+"külastajad nõustusid küpsistega, keeldusid neist või kohandasid neid igal "
+"päeval) ja üksikuid nõusolekulogi kirjeid GDPR-i auditi nõuete täitmiseks. "
+"Nõusolekulogi kirjed sisaldavad räsitud (pöördumatut) külastaja "
+"identifikaatorit, nõusoleku valikut, lubatud kategooriaid ja poliitika "
+"versiooni. IP-aadresse, kasutajatunnuseid ega isikuandmeid lihttekstina ei "
+"salvestata. Nõusolekulogi kirjed kustutatakse automaatselt 13 kuu möödudes."
+
+#: includes/class-admin.php:318
+msgid "Empty cookie categories"
+msgstr "Tühjad küpsiste kategooriad"
+
+#: includes/class-admin.php:322
+msgid "Show but lock (disable) the switch"
+msgstr "Näita, kuid lukusta (keela) lüliti"
+
+#: includes/class-admin.php:323
+msgid "Hide categories with no cookies"
+msgstr "Peida kategooriad, milles pole küpsiseid"
+
+#: includes/class-admin.php:378 includes/class-consent.php:95
+msgid "No analytics cookies are used on this site."
+msgstr "Sellel veebisaidil ei kasutata analüütikaküpsiseid."
+
+#: includes/class-admin.php:379 includes/class-consent.php:96
+msgid "No marketing cookies are used on this site."
+msgstr "Sellel veebisaidil ei kasutata turundusküpsiseid."
+
+#: includes/class-admin.php:380 includes/class-consent.php:97
+msgid "No preference cookies are used on this site."
+msgstr "Sellel veebisaidil ei kasutata eelistusküpsiseid."
+
+#: includes/class-admin.php:323
+msgid "Close button label"
+msgstr "Sulgemisnupu silt"
+
+#: includes/class-consent.php:50
+msgid "You have not made a choice yet."
+msgstr "Te pole veel valikut teinud."
+
+#: includes/class-consent.php:51
+msgid "Allowed"
+msgstr "Lubatud"
+
+#: includes/class-consent.php:52
+msgid "Denied"
+msgstr "Keelatud"
+
+#: includes/class-consent.php:53
+msgid "Always active"
+msgstr "Alati kasutusel"
+
+#: includes/class-policy-page.php:85
+msgid "Your current cookie preferences"
+msgstr "Teie praegused küpsiste eelistused"
+
+#: includes/class-policy-page.php:93
+msgid ""
+"These choices are stored technically as wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing, and wp_consent_preferences for "
+"compatibility with WordPress plugins."
+msgstr ""
+"Ühilduvuse tagamiseks WordPressi pluginatega salvestatakse need valikud "
+"tehniliselt kujul wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing ja wp_consent_preferences."
+
+#: includes/class-admin.php:99
+msgid "Possibly removed"
+msgstr "Võib-olla eemaldatud"
+
+#: includes/class-admin.php:100
+msgid ""
+"These cookies are still in your list, but their tracking scripts were not "
+"found on the homepage. Review and remove any that are no longer used."
+msgstr ""
+"Need küpsised on endiselt teie loendis, kuid nende jälgimisskripte avalehelt "
+"ei leitud. Vaadake need üle ja eemaldage need, mida enam ei kasutata."
+
+#: includes/class-admin.php:102
+#, php-format
+msgid ""
+"Remove %d cookie(s) from the list? This cannot be undone automatically."
+msgstr ""
+"Kas eemaldada loendist küpsised (%d)? Seda ei saa automaatselt tagasi võtta."
+
+#: includes/class-admin.php:103 includes/class-admin.php:1527
+msgid "Selected cookies removed from the list."
+msgstr "Valitud küpsised eemaldati loendist."
+
+#: includes/class-admin.php:104
+msgid "Remove selected cookies"
+msgstr "Eemalda valitud küpsised"
+
+#: includes/class-admin.php:1482
+msgid ""
+"None of the selected cookies can be removed. Run Scan Cookies again to "
+"refresh the list."
+msgstr ""
+"Ühtegi valitud küpsist ei saa eemaldada. Loendi värskendamiseks käivitage "
+"uuesti Skanni küpsised."
+
+#: includes/class-admin.php:791
+msgid ""
+"After scanning, cookies whose tracking scripts are no longer found on the "
+"homepage are listed under \"Possibly removed\". Review the list and use "
+"Remove selected cookies to delete entries you no longer need — nothing is "
+"removed automatically."
+msgstr ""
+"Pärast skannimist kuvatakse küpsised, mille jälgimisskripte avalehelt enam "
+"ei leita, jaotises „Võib-olla eemaldatud“. Vaadake loend üle ja kasutage "
+"nuppu „Eemalda valitud küpsised“, et kustutada kirjed, mida te enam ei vaja "
+"– midagi ei eemaldata automaatselt."
+
+#: includes/class-admin.php:797
+msgid "Current consent status"
+msgstr "Praegune nõusoleku olek"
+
+#: includes/class-admin.php:797
+msgid ""
+"The [kncc_cookie_policy] shortcode shows each category as allowed, denied, "
+"or not yet chosen above the Edit cookie preferences button. When WP Consent "
+"API is active, a note explains the technical wp_consent_* cookie names used "
+"by WordPress plugins."
+msgstr ""
+"Lühikood [kncc_cookie_policy] näitab nupu „Muuda küpsiste eelistusi“ kohal "
+"iga kategooria olekut: lubatud, keelatud või veel valimata. Kui WP Consent "
+"API on aktiivne, selgitab märkus WordPressi pluginate kasutatavaid tehnilisi "
+"küpsiste nimesid wp_consent_*."
+
+#: includes/class-admin.php:806
+msgid "WP Consent API sync"
+msgstr "WP Consent API sünkroonimine"
+
+#: includes/class-admin.php:806
+msgid ""
+"When the WP Consent API plugin is active, Kansleri automatically syncs your "
+"banner choices to wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing, and wp_consent_preferences. This lets consent-aware "
+"plugins such as Google Site Kit read the visitor's choice. Banner labels "
+"(Necessary, Analytics) map to these technical cookie names."
+msgstr ""
+"Kui WP Consent API plugin on aktiivne, sünkroonib Kansleri teie bänneri "
+"valikud automaatselt väärtustesse wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing ja wp_consent_preferences. Nii "
+"saavad nõusolekut arvestavad pluginad, näiteks Google Site Kit, lugeda "
+"külastaja valikut. Bänneri sildid (Vajalikud, Analüütika) on seotud nende "
+"tehniliste küpsiste nimedega."
+
+#: includes/class-admin.php:939
+msgid ""
+"If wp_consent_statistics stays deny after Accept all, clear site cookies or "
+"test in a private window, hard-refresh (Ctrl+Shift+R), and confirm the WP "
+"Consent API plugin is active."
+msgstr ""
+"Kui wp_consent_statistics jääb pärast „Nõustu kõigiga“ väärtusele deny, "
+"kustutage veebisaidi küpsised või testige privaatses aknas, tehke kõva "
+"värskendus (Ctrl+Shift+R) ja veenduge, et WP Consent API plugin on aktiivne."
+
+#: includes/class-admin.php:746 includes/class-admin.php:854
+msgid "Advanced Consent Mode"
+msgstr "Täpsem Consent Mode"
+
+#: includes/class-admin.php:750
+msgid "Load Google tags before consent, with consent denied"
+msgstr "Laadi Google'i märgendid enne nõusolekut, keelatud nõusolekuga"
+
+#: includes/class-admin.php:753
+msgid "Off (default, Basic Consent Mode): the Google tag is blocked until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies, so Google receives nothing from visitors who have not consented."
+msgstr ""
+"Väljas (vaikimisi, Põhiline Consent Mode): Google'i märgend on blokeeritud, "
+"kuni külastaja nõustub analüütikaküpsistega, ja Google Tag Manager, kuni "
+"külastaja nõustub analüütika- või turundusküpsistega, nii et Google ei saa "
+"nõusolekut mitte andnud külastajatelt midagi."
+
+#: includes/class-admin.php:756
+msgid ""
+"On (Advanced Consent Mode): the Google tag and Google Tag Manager load "
+"right away. Until the visitor accepts, they set no cookies and send Google "
+"only cookieless pings, which Google uses to model the missing data. Google "
+"Analytics and Google Ads expect this mode, and with Basic mode they can "
+"report your consent signals as not active."
+msgstr ""
+"Sees (Täpsem Consent Mode): Google'i märgend ja Google Tag Manager "
+"laaditakse kohe. Kuni külastaja nõustub, ei määra need küpsiseid ja saadavad "
+"Google'ile ainult küpsisteta pinge, mille abil Google modelleerib puuduvaid "
+"andmeid. Google Analytics ja Google Ads eeldavad seda režiimi ning "
+"põhirežiimi korral võivad need teatada, et teie nõusolekusignaalid pole "
+"aktiivsed."
+
+#: includes/class-admin.php:759
+msgid "Only applies while Consent Mode v2 is enabled. Other tracking scripts on the site stay blocked until consent, also those that Google Tag Manager adds (for example a Meta Pixel or LinkedIn in a Custom HTML tag): each waits for its own category, with no changes needed in the container."
+msgstr ""
+"Kehtib ainult siis, kui Consent Mode v2 on lubatud. Muud veebisaidi "
+"jälgimisskriptid jäävad kuni nõusolekuni blokeerituks, ka need, mille lisab "
+"Google Tag Manager (näiteks Meta Pixel või LinkedIn kohandatud "
+"HTML-märgendis): igaüks ootab oma kategooriat ja konteineris pole vaja "
+"midagi muuta."
+
+#: includes/class-admin.php:854
+msgid ""
+"Off by default. When on, the Google tag and Google Tag Manager load before "
+"consent instead of being blocked. Until the visitor accepts, they set no "
+"cookies and send Google only cookieless pings."
+msgstr ""
+"Vaikimisi väljas. Kui see on sees, laaditakse Google'i märgend ja Google Tag "
+"Manager enne nõusolekut, selle asemel et need blokeerida. Kuni külastaja "
+"nõustub, ei määra need küpsiseid ja saadavad Google'ile ainult küpsisteta "
+"pinge."
+
+#: includes/class-admin.php:863
+msgid "You can turn this off on the Script Blocking tab."
+msgstr "Selle saate välja lülitada vahelehel Skriptide blokeerimine."
+
+#: includes/class-admin.php:1136
+msgid ""
+"Advanced Consent Mode is on (Integration tab): the Google tag and Google "
+"Tag Manager load before consent and follow the Consent Mode signals instead "
+"of being blocked."
+msgstr ""
+"Täpsem Consent Mode on sees (vaheleht Integratsioon): Google'i märgend ja "
+"Google Tag Manager laaditakse enne nõusolekut ja järgivad Consent Mode'i "
+"signaale, selle asemel et olla blokeeritud."
+
+#: includes/class-admin.php:1168
+msgid ""
+"Block YouTube and Vimeo videos until the visitor accepts marketing cookies"
+msgstr ""
+"Blokeeri YouTube'i ja Vimeo videod, kuni külastaja nõustub turundusküpsistega"
+
+#: includes/class-admin.php:684
+msgid "More information"
+msgstr "Lisateave"
+
+#: includes/class-admin.php:823
+msgid "Basic Consent Mode: the Google tag waits until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies."
+msgstr ""
+"Põhiline Consent Mode: Google'i märgend ootab, kuni külastaja nõustub "
+"analüütikaküpsistega, ja Google Tag Manager, kuni külastaja nõustub "
+"analüütika- või turundusküpsistega."
+
+#: includes/class-admin.php:823
+msgid ""
+"Advanced Consent Mode: the Google tag and Google Tag Manager load right "
+"away with these defaults, and send only cookieless pings until the visitor "
+"accepts."
+msgstr ""
+"Täpsem Consent Mode: Google'i märgend ja Google Tag Manager laaditakse kohe "
+"nende vaikeväärtustega ning saadavad kuni külastaja nõusolekuni ainult "
+"küpsisteta pinge."
+
+#: includes/class-scanner.php:122
+msgctxt "cookie duration"
+msgid "1 minute"
+msgstr "1 minut"
+
+#: includes/class-scanner.php:123
+msgctxt "cookie duration"
+msgid "30 minutes"
+msgstr "30 minutit"
+
+#: includes/class-scanner.php:124
+msgctxt "cookie duration"
+msgid "24 hours"
+msgstr "24 tundi"
+
+#: includes/class-scanner.php:125
+msgctxt "cookie duration"
+msgid "1 day"
+msgstr "1 päev"
+
+#: includes/class-scanner.php:126
+msgctxt "cookie duration"
+msgid "30 days"
+msgstr "30 päeva"
+
+#: includes/class-scanner.php:127
+msgctxt "cookie duration"
+msgid "90 days"
+msgstr "90 päeva"
+
+#: includes/class-scanner.php:128
+msgctxt "cookie duration"
+msgid "6 months"
+msgstr "6 kuud"
+
+#: includes/class-scanner.php:129
+msgctxt "cookie duration"
+msgid "1 year"
+msgstr "1 aasta"
+
+#: includes/class-scanner.php:130
+msgctxt "cookie duration"
+msgid "2 years"
+msgstr "2 aastat"
+
+#: includes/class-scanner.php:131
+msgctxt "cookie duration"
+msgid "Session"
+msgstr "Seanss"
+
+#: includes/class-scanner.php:132
+msgctxt "cookie duration"
+msgid "Varies"
+msgstr "Erinev"
+
+#: includes/class-scanner.php:135
+msgid "Google Analytics: stores and counts page views."
+msgstr "Google Analytics: salvestab ja loendab lehevaatamisi."
+
+#: includes/class-scanner.php:136
+msgid "Google Analytics: distinguishes unique users."
+msgstr "Google Analytics: eristab unikaalseid kasutajaid."
+
+#: includes/class-scanner.php:137
+msgid "Google Analytics: distinguishes users for 24 hours."
+msgstr "Google Analytics: eristab kasutajaid 24 tunni jooksul."
+
+#: includes/class-scanner.php:138
+msgid "Google Analytics: throttles request rate."
+msgstr "Google Analytics: piirab päringute sagedust."
+
+#: includes/class-scanner.php:139
+msgid "Google Ads: stores conversion data."
+msgstr "Google Ads: salvestab konversiooniandmeid."
+
+#: includes/class-scanner.php:140
+msgid "Google Ads: click tracking."
+msgstr "Google Ads: klikkide jälgimine."
+
+#: includes/class-scanner.php:141
+msgid "Google Tag Manager: throttles request rate."
+msgstr "Google Tag Manager: piirab päringute sagedust."
+
+#: includes/class-scanner.php:144
+msgid "Meta Pixel: tracks visits across websites for ad targeting."
+msgstr "Meta Pixel: jälgib külastusi eri veebisaitidel reklaamide sihtimiseks."
+
+#: includes/class-scanner.php:145
+msgid "Meta Pixel: stores click identifiers."
+msgstr "Meta Pixel: salvestab klikkide identifikaatoreid."
+
+#: includes/class-scanner.php:146
+msgid "Facebook: ad delivery and measurement."
+msgstr "Facebook: reklaamide edastamine ja mõõtmine."
+
+#: includes/class-scanner.php:149
+msgid "HubSpot: tracks visitor identity."
+msgstr "HubSpot: jälgib külastaja identiteeti."
+
+#: includes/class-scanner.php:150
+msgid "HubSpot: tracks session information."
+msgstr "HubSpot: jälgib seansi teavet."
+
+#: includes/class-scanner.php:151
+msgid "HubSpot: tracks sessions for analytics."
+msgstr "HubSpot: jälgib seansse analüütika jaoks."
+
+#: includes/class-scanner.php:152
+msgid "HubSpot: determines if visitor has restarted browser."
+msgstr "HubSpot: tuvastab, kas külastaja on brauseri taaskäivitanud."
+
+#: includes/class-scanner.php:153
+msgid "HubSpot: analytics and tracking."
+msgstr "HubSpot: analüütika ja jälgimine."
+
+#: includes/class-scanner.php:156
+msgid "LinkedIn: browser identifier for ad targeting."
+msgstr "LinkedIn: brauseri identifikaator reklaamide sihtimiseks."
+
+#: includes/class-scanner.php:157
+msgid "LinkedIn: browser identifier."
+msgstr "LinkedIn: brauseri identifikaator."
+
+#: includes/class-scanner.php:158
+msgid "LinkedIn: data centre selection."
+msgstr "LinkedIn: andmekeskuse valik."
+
+#: includes/class-scanner.php:161
+msgid "WordPress: stores admin settings timestamp."
+msgstr "WordPress: salvestab halduspaneeli seadete ajatempli."
+
+#: includes/class-scanner.php:162
+msgid "WordPress: stores admin personalisation settings."
+msgstr "WordPress: salvestab halduspaneeli isikupärastamise seaded."
+
+#: includes/class-scanner.php:163
+msgid "WordPress: authentication cookie for logged-in users."
+msgstr "WordPress: autentimisküpsis sisselogitud kasutajatele."
+
+#: includes/class-scanner.php:164
+msgid "WordPress: secure authentication cookie."
+msgstr "WordPress: turvaline autentimisküpsis."
+
+#: includes/class-scanner.php:165
+msgid "WordPress: tests if cookies are enabled."
+msgstr "WordPress: kontrollib, kas küpsised on lubatud."
+
+#: includes/class-scanner.php:166
+msgid "WordPress: stores language preference."
+msgstr "WordPress: salvestab keele-eelistuse."
+
+#: includes/class-scanner.php:167
+msgid "WordPress: remembers comment author details."
+msgstr "WordPress: jätab meelde kommentaari autori andmed."
+
+#: includes/class-scanner.php:170
+msgid "WooCommerce: stores cart and session data."
+msgstr "WooCommerce: salvestab ostukorvi ja seansi andmed."
+
+#: includes/class-scanner.php:171
+msgid "WooCommerce: stores customer session."
+msgstr "WooCommerce: salvestab kliendi seansi."
+
+#: includes/class-scanner.php:174
+msgid ""
+"Order attribution: keeps traffic-source tracking data compatible across "
+"updates."
+msgstr ""
+"Tellimuse omistamine: hoiab liiklusallika jälgimisandmed uuenduste vahel "
+"ühilduvana."
+
+#: includes/class-scanner.php:175
+msgid ""
+"Order attribution: records how you reached the site on your current visit."
+msgstr ""
+"Tellimuse omistamine: salvestab, kuidas te praegusel külastusel veebisaidile "
+"jõudsite."
+
+#: includes/class-scanner.php:176
+msgid "Order attribution: records how you first reached the site."
+msgstr ""
+"Tellimuse omistamine: salvestab, kuidas te esimest korda veebisaidile "
+"jõudsite."
+
+#: includes/class-scanner.php:177
+msgid ""
+"Order attribution: stores the traffic source and campaign of your current "
+"visit."
+msgstr ""
+"Tellimuse omistamine: salvestab teie praeguse külastuse liiklusallika ja "
+"kampaania."
+
+#: includes/class-scanner.php:178
+msgid ""
+"Order attribution: stores the traffic source and campaign of your first "
+"visit."
+msgstr ""
+"Tellimuse omistamine: salvestab teie esimese külastuse liiklusallika ja "
+"kampaania."
+
+#: includes/class-scanner.php:179
+msgid ""
+"Order attribution: stores visitor/session data used for marketing "
+"attribution."
+msgstr ""
+"Tellimuse omistamine: salvestab turunduse omistamiseks kasutatavaid "
+"külastaja/seansi andmeid."
+
+#: includes/class-scanner.php:180
+msgid "Order attribution: links page views within a visit for attribution."
+msgstr "Tellimuse omistamine: seob omistamiseks ühe külastuse lehevaatamised."
+
+#: includes/class-scanner.php:181
+msgid "Order attribution: tracks the marketing source of your visit."
+msgstr "Tellimuse omistamine: jälgib teie külastuse turundusallikat."
+
+#: includes/class-scanner.php:184
+msgid ""
+"Jetpack Stats: assigns an anonymous identifier used to measure site traffic."
+msgstr ""
+"Jetpack Stats: määrab anonüümse identifikaatori, mida kasutatakse veebisaidi "
+"liikluse mõõtmiseks."
+
+#: includes/class-scanner.php:185
+msgid "Jetpack Stats: records referral and navigation data for analytics."
+msgstr ""
+"Jetpack Stats: salvestab analüütika jaoks suunamis- ja navigeerimisandmeid."
+
+#: includes/class-scanner.php:186
+msgid "Jetpack Stats: measures site traffic and visitor activity."
+msgstr "Jetpack Stats: mõõdab veebisaidi liiklust ja külastajate tegevust."
+
+#: includes/class-scanner.php:189
+msgid "Polylang: stores visitor language preference."
+msgstr "Polylang: salvestab külastaja keele-eelistuse."
+
+#: includes/class-scanner.php:190
+msgid "MailPoet: tracks email subscriber activity."
+msgstr "MailPoet: jälgib e-posti tellijate tegevust."
+
+#: includes/class-scanner.php:191
+msgid "Plausible: privacy-friendly analytics."
+msgstr "Plausible: privaatsussõbralik analüütika."
+
+#: includes/class-scanner.php:194
+msgid "Cloudflare: bot management cookie."
+msgstr "Cloudflare: robotite haldamise küpsis."
+
+#: includes/class-scanner.php:195
+msgid "Cloudflare: verifies legitimate visitor."
+msgstr "Cloudflare: kontrollib, et külastaja on ehtne."
+
+#: includes/class-scanner.php:196
+msgid "Cloudflare: identifies trusted web traffic."
+msgstr "Cloudflare: tuvastab usaldusväärse veebiliikluse."
+
+#: includes/class-scanner.php:199
+msgid "Hotjar: tracks user behaviour and feedback."
+msgstr "Hotjar: jälgib kasutajate käitumist ja tagasisidet."
+
+#: includes/class-scanner.php:200
+msgid "Microsoft Clarity: stores a user ID and preferences."
+msgstr "Microsoft Clarity: salvestab kasutaja ID ja eelistused."
+
+#: includes/class-scanner.php:201
+msgid "Microsoft Clarity: connects page views into a session."
+msgstr "Microsoft Clarity: ühendab lehevaatamised üheks seansiks."
+
+#: includes/class-scanner.php:204
+msgid "Stores your cookie consent preferences."
+msgstr "Salvestab teie küpsisenõusoleku eelistused."
+
+#: includes/class-scanner.php:205
+msgid ""
+"WP Consent API: stores your consent choice for necessary cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: salvestab teie nõusoleku valiku vajalike küpsiste kohta. "
+"Sünkroonitakse nõusolekubännerist."
+
+#: includes/class-scanner.php:206
+msgid ""
+"WP Consent API: stores your consent choice for analytics cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: salvestab teie nõusoleku valiku analüütikaküpsiste kohta. "
+"Sünkroonitakse nõusolekubännerist."
+
+#: includes/class-scanner.php:207
+msgid ""
+"WP Consent API: stores your consent choice for anonymous statistics. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: salvestab teie nõusoleku valiku anonüümse statistika kohta. "
+"Sünkroonitakse nõusolekubännerist."
+
+#: includes/class-scanner.php:208
+msgid ""
+"WP Consent API: stores your consent choice for marketing cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: salvestab teie nõusoleku valiku turundusküpsiste kohta. "
+"Sünkroonitakse nõusolekubännerist."
+
+#: includes/class-scanner.php:209
+msgid ""
+"WP Consent API: stores your consent choice for preference cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: salvestab teie nõusoleku valiku eelistusküpsiste kohta. "
+"Sünkroonitakse nõusolekubännerist."
+
+#: includes/class-scanner.php:210
+msgid ""
+"WP Consent API: stores per-service consent overrides used by integrated "
+"plugins."
+msgstr ""
+"WP Consent API: salvestab integreeritud pluginate kasutatavad teenusepõhised "
+"nõusoleku erandid."
+
+#: includes/class-scanner.php:211
+msgid ""
+"WP Consent API: stores your cookie consent choice. Synced from your consent "
+"banner."
+msgstr ""
+"WP Consent API: salvestab teie küpsisenõusoleku valiku. Sünkroonitakse "
+"nõusolekubännerist."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:195
+#, php-format
+msgid "“%s” is not a usable address. Use at least 4 characters without spaces, for example widget.example.com."
+msgstr ""
+"„%s“ ei ole kasutatav aadress. Kasutage vähemalt 4 tühikuteta märki, näiteks "
+"widget.example.com."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:200
+#, php-format
+msgid "“%s” would block every script on this site. Enter the address of the external service instead."
+msgstr ""
+"„%s“ blokeeriks kõik selle veebisaidi skriptid. Sisestage selle asemel "
+"välise teenuse aadress."
+
+#: includes/class-script-blocker.php:840
+msgid "This content is blocked because it requires analytics cookies."
+msgstr ""
+"See sisu on blokeeritud, kuna selle kuvamiseks on vaja analüütikaküpsiseid."
+
+#: includes/class-script-blocker.php:841
+msgid "Accept analytics cookies"
+msgstr "Nõustu analüütikaküpsistega"
+
+#: includes/class-script-blocker.php:845
+msgid "This content is blocked because it requires preference cookies."
+msgstr ""
+"See sisu on blokeeritud, kuna selle kuvamiseks on vaja eelistusküpsiseid."
+
+#: includes/class-script-blocker.php:846
+msgid "Accept preference cookies"
+msgstr "Nõustu eelistusküpsistega"
+
+#: includes/class-admin.php:890 includes/class-admin.php:1203
+msgid "Block by address"
+msgstr "Blokeeri aadressi järgi"
+
+#: includes/class-admin.php:1213
+msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
+msgstr ""
+"Lehe HTML-is olevaid skripte võrreldakse ainult siis, kui Kohandatud koodi "
+"blokeerimine on sees."
+
+#: includes/class-admin.php:1259 includes/class-admin.php:1289
+msgid "Address contains"
+msgstr "Aadress sisaldab"
+
+#: includes/class-admin.php:1274
+msgid "Add address"
+msgstr "Lisa aadress"
+
+#: includes/class-admin.php:1284
+msgid "Necessary (never blocked)"
+msgstr "Vajalikud (ei blokeerita kunagi)"
+
+#: includes/class-admin.php:889
+msgid "Reviews widgets"
+msgstr "Arvustuste vidinad"
+
+#: includes/class-admin.php:889
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgstr ""
+"Trustmary arvustuste vidin ootab analüütika nõusolekut, sest see salvestab "
+"brauserisse külastaja ID. Selle asemel kuvatakse teade nõustumisnupuga. "
+"Vidina kohe laadimiseks lisage widget.trustmary.com jaotisesse Blokeeri "
+"aadressi järgi kategooriaga „Vajalikud (ei blokeerita kunagi)“."
+
+#: includes/class-admin.php:890
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
+msgstr ""
+"Blokeerib mis tahes muu skripti selle aadressi osa järgi, kuni külastaja "
+"nõustub teie valitud kategooriaga – näiteks vidina, mida plugin ei tunne. "
+"Lülitage sisse Näita teadet nende skriptide puhul, mis kuvavad lehel sisu."
+
+#: includes/class-scanner.php:137
+msgctxt "cookie duration"
+msgid "Persistent"
+msgstr "Püsiv"
+
+#: includes/class-scanner.php:209
+msgid "Trustmary: stores a visitor ID, the landing page and conversions in the browser’s local storage."
+msgstr ""
+"Trustmary: salvestab brauseri kohalikku salvestusruumi külastaja ID, "
+"sihtlehe ja konversioonid."
+
+#: includes/class-scanner.php:224
+msgid "Reddit Pixel: identifies the browser for ad measurement."
+msgstr "Reddit Pixel: tuvastab brauseri reklaamide mõõtmiseks."
+
+#: includes/class-scanner.php:225
+msgid ""
+"Microsoft Advertising: groups page views into a session for ad measurement."
+msgstr ""
+"Microsoft Advertising: koondab lehevaatamised reklaamide mõõtmiseks üheks "
+"seansiks."
+
+#: includes/class-scanner.php:226
+msgid ""
+"Microsoft Advertising: identifies the visitor across visits for ad "
+"measurement."
+msgstr ""
+"Microsoft Advertising: tuvastab külastaja eri külastuste vältel reklaamide "
+"mõõtmiseks."
+
+#: includes/class-scanner.php:227
+msgid "Criteo: stores a browser identifier for ad personalisation."
+msgstr ""
+"Criteo: salvestab brauseri identifikaatori reklaamide isikupärastamiseks."
+
+#: includes/class-scanner.php:228
+msgid "Taboola: identifies the browser for ad targeting."
+msgstr "Taboola: tuvastab brauseri reklaamide sihtimiseks."
+
+#: includes/class-scanner.php:229
+msgid "Klaviyo: recognises returning visitors for email marketing."
+msgstr "Klaviyo: tunneb ära korduvkülastajad e-posti turunduse jaoks."
+
+#: includes/class-scanner.php:230
+msgid "Yandex Metrica: identifies visitors and stores session settings."
+msgstr "Yandex Metrica: tuvastab külastajad ja salvestab seansi seaded."
+
+#: includes/class-scanner.php:231
+msgid "Segment: stores an anonymous visitor ID and traits."
+msgstr "Segment: salvestab anonüümse külastaja ID ja omadused."
+
+#: includes/class-scanner.php:232
+msgid "Intercom: keeps the chat messenger session and visitor identity."
+msgstr "Intercom: hoiab alles vestlusakna seansi ja külastaja identiteedi."
+
+#: includes/class-scanner.php:233
+msgid "Crisp: keeps the chat session and visitor identity."
+msgstr "Crisp: hoiab alles vestlusseansi ja külastaja identiteedi."
+
+#: includes/class-admin.php
+msgid "Cookie policy link text"
+msgstr "Küpsisepoliitika lingi tekst"
+
+#: includes/class-admin.php
+msgid "Cookie settings label"
+msgstr "Küpsiste seadete silt"
+
+#: includes/class-admin.php
+msgid "Tooltip and screen reader label of the floating button, and the default text of the [kncc_cookie_settings] link."
+msgstr ""
+"Hõljuva nupu kohtspikker ja ekraanilugeri silt ning lingi "
+"[kncc_cookie_settings] vaiketekst."
+
+#: includes/class-admin.php
+msgid "Banner label for screen readers"
+msgstr "Bänneri silt ekraanilugeritele"
+
+#: includes/class-admin.php
+msgid "Cookie categories"
+msgstr "Küpsiste kategooriad"
+
+#: includes/class-admin.php
+msgid "Text when no cookies are used"
+msgstr "Tekst, kui küpsiseid ei kasutata"
+
+#: includes/class-admin.php
+msgid "Policy page texts"
+msgstr "Poliitika lehe tekstid"
+
+#: includes/class-admin.php
+msgid "Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab."
+msgstr ""
+"Lühikoodi [kncc_cookie_policy] küpsiste deklaratsiooni tekstid. Jätke väli "
+"tühjaks, et kasutada sisseehitatud teksti, mis on tõlgitud igasse keelde. "
+"Kategooriate nimesid muudetakse vahelehel Üldine."
+
+#: includes/class-admin.php
+msgid "Category descriptions"
+msgstr "Kategooriate kirjeldused"
+
+#: includes/class-admin.php
+msgid "Consent status"
+msgstr "Nõusoleku olek"
+
+#: includes/class-admin.php
+msgid "Heading"
+msgstr "Pealkiri"
+
+#: includes/class-admin.php
+msgid "Before the visitor chooses"
+msgstr "Enne külastaja valikut"
+
+#: includes/class-admin.php
+msgid "Technical note (shown when WP Consent API is active)"
+msgstr "Tehniline märkus (kuvatakse, kui WP Consent API on aktiivne)"
+
+#: includes/class-admin.php
+msgid "Buttons and messages"
+msgstr "Nupud ja teated"
+
+#: includes/class-admin.php
+msgid "Edit preferences button"
+msgstr "Eelistuste muutmise nupp"
+
+#: includes/class-admin.php
+msgid "Message when no cookies are registered"
+msgstr "Teade, kui küpsiseid pole registreeritud"
+
+#: includes/class-admin.php
+msgid "Table column headings"
+msgstr "Tabeli veergude pealkirjad"
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 added cookies for services that are not on your site. They have been removed from the cookie list: %s. If your site does use some of these services, put the cookies back and delete the ones it does not use."
+msgstr ""
+"Versioon 1.8.10 lisas küpsiseid teenustele, mida teie veebisaidil pole. Need "
+"on küpsiste loendist eemaldatud: %s. Kui teie veebisait mõnda neist "
+"teenustest siiski kasutab, pange küpsised tagasi ja kustutage need, mida see "
+"ei kasuta."
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 may have added cookies for services that are not on your site: %s. The Google Tag Manager on your site can load any of them, so they were kept. Remove the ones your site does not use."
+msgstr ""
+"Versioon 1.8.10 võis lisada küpsiseid teenustele, mida teie veebisaidil "
+"pole: %s. Teie veebisaidi Google Tag Manager võib laadida neist mis tahes, "
+"seega jäeti need alles. Eemaldage need, mida teie veebisait ei kasuta."
+
+#: includes/class-admin.php
+msgid "Put the cookies back"
+msgstr "Pane küpsised tagasi"
+
+#: includes/class-admin.php
+msgid "Hide this notice"
+msgstr "Peida see teade"
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr ""
+"Kuvatakse, kui külastajad avavad „Kohanda“. Jätke väli tühjaks, et kasutada "
+"sisseehitatud teksti."
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr "Blokeeritud sisu teated"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr "YouTube & Vimeo teade"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr "YouTube & Vimeo nõustumisnupp"
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr "Analüütikaküpsiseid vajava sisu teade"
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr "Analüütikaküpsiseid vajava sisu nõustumisnupp"
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr "Eelistusküpsiseid vajava sisu teade"
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr "Eelistusküpsiseid vajava sisu nõustumisnupp"
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr "Või lisage link kuhu tahes lühikoodiga:"
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr ""
+"Soovitatav. Lülitage välja ainult siis, kui vahemälu- või kiirendusplugin "
+"veebisaidi katki teeb."
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr "Blokeeritakse automaatselt, seadistamist pole vaja."
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr "Näita teadet"
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr "Ühtegi küpsist pole valitud."
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr "Teenuse %s skripte avalehel enam ei tuvastata"
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr "Muudetav keel: %s. Salvestamine kehtib ainult selle keele kohta."
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr "Muudate vaikekeele tekste. Teistel keeltel on oma tekstid."
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr "Vaadake bänneri eelvaadet praeguste salvestamata seadetega."
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr "Reaalajas eelvaade töötab ainult Plugina stiiliga."
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr "Nupu × ekraanilugeri silt."
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr ""
+"Hoiab mis tahes muu skripti tagasi, kuni külastaja nõustub selle "
+"kategooriaga. Kasutage seda vidinate ja tööriistade jaoks, mida plugin ei "
+"tunne."
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr ""
+"Valik „Vajalikud (ei blokeerita kunagi)“ laadib aadressi kohe, ka sellise, "
+"mille plugin muidu blokeeriks."
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr ""
+"Näita teadet: kui blokeeritud skript kuvaks lehel sisu (arvustused, "
+"broneerimine, kaart), kuvatakse tühja koha asemel teade nõustumisnupuga. "
+"Jälgimisskriptide puhul pole vaja."
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
+msgstr "avaneb uuel vahelehel"

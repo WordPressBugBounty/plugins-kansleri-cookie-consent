@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Kansleri Cookie Consent 1.8.12\n"
+"Project-Id-Version: Kansleri Cookie Consent 1.8.13\n"
 "Report-Msgid-Bugs-To: https://kansleri.fi\n"
 "POT-Creation-Date: 2026-10-30 15:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"

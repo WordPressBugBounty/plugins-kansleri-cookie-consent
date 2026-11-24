@@ -1,0 +1,2292 @@
+# Latvian translation for Kansleri Cookie Consent
+# Copyright (C) 2024 Kansleri.fi
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kansleri Cookie Consent 1.8.13\n"
+"Report-Msgid-Bugs-To: https://kansleri.fi\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
+"PO-Revision-Date: 2026-11-03 12:00+0200\n"
+"Last-Translator: Kansleri.fi\n"
+"Language-Team: Latvian\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==0 || (n%100>=11 && n%100<=19) ? 0 : n%10==1 && n%100!=11 ? 1 : 2);\n"
+
+#: includes/class-admin.php:20 includes/class-admin.php:21
+#: includes/class-admin.php:122
+msgid "Cookie Consent"
+msgstr "Sīkdatņu piekrišana"
+
+#: includes/class-admin.php:67 includes/class-admin.php:1228
+msgid "Settings saved."
+msgstr "Iestatījumi saglabāti."
+
+#: includes/class-admin.php:68
+msgid "An error occurred."
+msgstr "Radās kļūda."
+
+#: includes/class-admin.php:69
+msgid "Scanning..."
+msgstr "Notiek skenēšana…"
+
+#: includes/class-admin.php:70
+msgid "Scan complete."
+msgstr "Skenēšana pabeigta."
+
+#: includes/class-admin.php:71
+msgid "No new cookies found."
+msgstr "Jaunas sīkdatnes netika atrastas."
+
+#: includes/class-admin.php:72
+msgid "Remove this cookie?"
+msgstr "Noņemt šo sīkdatni?"
+
+#: includes/class-admin.php:73 includes/class-admin.php:414
+#: includes/class-admin.php:698
+msgid "Scan Cookies"
+msgstr "Skenēt sīkdatnes"
+
+#: includes/class-admin.php:74
+msgid "Invalid JSON format. Please import a valid cookie array."
+msgstr "Nederīgs JSON formāts. Lūdzu, importējiet derīgu sīkdatņu masīvu."
+
+#: includes/class-admin.php:75
+msgid "Cookies imported into the table. Save cookies to persist changes."
+msgstr ""
+"Sīkdatnes importētas tabulā. Saglabājiet sīkdatnes, lai izmaiņas netiktu "
+"zaudētas."
+
+#: includes/class-admin.php:76
+msgid "No valid cookies found in imported JSON."
+msgstr "Importētajā JSON netika atrasta neviena derīga sīkdatne."
+
+#: includes/class-admin.php:77
+msgid "No cookie rows available to export."
+msgstr "Nav sīkdatņu rindu, ko eksportēt."
+
+#: includes/class-admin.php:78
+msgid "AI prompt copied to clipboard."
+msgstr "MI uzvedne nokopēta starpliktuvē."
+
+#: includes/class-admin.php:79
+msgid ""
+"Could not copy prompt automatically. Select all and copy from the box below."
+msgstr ""
+"Uzvedni neizdevās nokopēt automātiski. Atlasiet visu un nokopējiet no "
+"lodziņa zemāk."
+
+#: includes/class-admin.php:81
+msgid "AI prompt (copied to clipboard — or select all and copy manually):"
+msgstr ""
+"MI uzvedne (nokopēta starpliktuvē – vai atlasiet visu un nokopējiet manuāli):"
+
+#: includes/class-admin.php:82
+msgid ""
+"Policy page AI prompt (copied to clipboard — or select all and copy "
+"manually):"
+msgstr ""
+"Politikas lapas MI uzvedne (nokopēta starpliktuvē – vai atlasiet visu un "
+"nokopējiet manuāli):"
+
+#: includes/class-admin.php:83
+msgid ""
+"Prompt ready below — select all (Ctrl+A) inside the box and copy (Ctrl+C)."
+msgstr ""
+"Uzvedne ir sagatavota zemāk – atlasiet visu lodziņā (Ctrl+A) un nokopējiet "
+"(Ctrl+C)."
+
+#: includes/class-admin.php:80
+msgid "All cookies are done! Every cookie has a description."
+msgstr "Visas sīkdatnes ir apstrādātas! Katrai sīkdatnei ir apraksts."
+
+#: includes/class-admin.php:81 includes/class-admin.php:457
+msgid "No cookies registered yet."
+msgstr "Vēl nav reģistrēta neviena sīkdatne."
+
+#: includes/class-admin.php:82 includes/class-admin.php:473
+msgid "Remove"
+msgstr "Noņemt"
+
+#: includes/class-admin.php:83
+msgid ""
+"This will permanently delete all consent log records and statistics. "
+"Continue?"
+msgstr ""
+"Tiks neatgriezeniski dzēsti visi piekrišanu žurnāla ieraksti un statistika. "
+"Turpināt?"
+
+#: includes/class-admin.php:84 includes/class-admin.php:1150
+msgid "All consent log records and statistics have been purged."
+msgstr "Visi piekrišanu žurnāla ieraksti un statistika ir dzēsti."
+
+#: includes/class-admin.php:85
+msgid "AI prompt for policy page copied to clipboard."
+msgstr "Politikas lapas MI uzvedne nokopēta starpliktuvē."
+
+#: includes/class-admin.php:86
+msgid "CSS template copied to clipboard."
+msgstr "CSS veidne nokopēta starpliktuvē."
+
+#: includes/class-admin.php:88
+#, php-format
+msgid "%d known cookie(s) added automatically:"
+msgstr "Automātiski pievienotās zināmās sīkdatnes (%d):"
+
+#: includes/class-admin.php:90
+#, php-format
+msgid ""
+"%d unknown cookie(s) added — please set their category and description "
+"below."
+msgstr ""
+"Pievienotas nezināmas sīkdatnes (%d) – lūdzu, norādiet to kategoriju un "
+"aprakstu zemāk."
+
+#: includes/class-admin.php:91
+msgid "Unknown"
+msgstr "Nezināmās"
+
+#: includes/class-admin.php:92
+msgid "Added — categorize and describe in the table below"
+msgstr "Pievienotas – norādiet kategoriju un aprakstu tabulā zemāk"
+
+#: includes/class-admin.php:94
+#, php-format
+msgid "%d cookie(s) inferred from detected scripts on your site:"
+msgstr "No vietnē atrastajiem skriptiem izsecinātās sīkdatnes (%d):"
+
+#: includes/class-admin.php:95
+msgid ""
+"These cookies are expected from tracking scripts on your site, even when "
+"blocked until consent."
+msgstr ""
+"Šīs sīkdatnes ir sagaidāmas no vietnes izsekošanas skriptiem, pat ja tie ir "
+"bloķēti līdz piekrišanai."
+
+#: includes/class-admin.php:97
+#, php-format
+msgid ""
+"%d browser cookie(s) skipped — found in your browser but no matching script "
+"on this site:"
+msgstr ""
+"Izlaistās pārlūka sīkdatnes (%d) – atrastas jūsu pārlūkā, bet vietnē nav "
+"atbilstoša skripta:"
+
+#: includes/class-admin.php:481
+msgid ""
+"%d cookie was automatically added based on tracking scripts detected on your"
+" site."
+msgid_plural ""
+"%d cookies were automatically added based on tracking scripts detected on "
+"your site."
+msgstr[0] ""
+"Automātiski pievienotas %d sīkdatnes, pamatojoties uz vietnē atrastajiem "
+"izsekošanas skriptiem."
+msgstr[1] ""
+"Automātiski pievienota %d sīkdatne, pamatojoties uz vietnē atrastajiem "
+"izsekošanas skriptiem."
+msgstr[2] ""
+"Automātiski pievienotas %d sīkdatnes, pamatojoties uz vietnē atrastajiem "
+"izsekošanas skriptiem."
+
+#: includes/class-admin.php:128
+msgid "General"
+msgstr "Vispārīgi"
+
+#: includes/class-admin.php:131 kansleri-cookie-consent.php:571
+msgid "Cookies"
+msgstr "Sīkdatnes"
+
+#: includes/class-admin.php:134
+msgid "Policy Page"
+msgstr "Politikas lapa"
+
+#: includes/class-admin.php:137
+msgid "Integration"
+msgstr "Integrācija"
+
+#: includes/class-admin.php:140
+msgid "Script Blocking"
+msgstr "Skriptu bloķēšana"
+
+#: includes/class-admin.php:143
+msgid "Statistics"
+msgstr "Statistika"
+
+#: includes/class-admin.php:146
+msgid "Documentations"
+msgstr "Dokumentācija"
+
+#: includes/class-admin.php:210
+msgid "Open banner preview"
+msgstr "Atvērt banera priekšskatījumu"
+
+#: includes/class-admin.php:222 includes/class-admin.php:689
+msgid "Banner style"
+msgstr "Banera stils"
+
+#: includes/class-admin.php:225
+msgid "Bottom bar"
+msgstr "Josla apakšā"
+
+#: includes/class-admin.php:226
+msgid "Centered modal"
+msgstr "Dialoglodziņš centrā"
+
+#: includes/class-admin.php:227
+msgid "Corner popup"
+msgstr "Lodziņš stūrī"
+
+#: includes/class-admin.php:233
+msgid "Colors"
+msgstr "Krāsas"
+
+#: includes/class-admin.php:237
+msgid "Banner background"
+msgstr "Banera fons"
+
+#: includes/class-admin.php:238 includes/class-admin.php:275
+msgid "Heading text"
+msgstr "Virsraksta teksts"
+
+#: includes/class-admin.php:239
+msgid "Body text"
+msgstr "Pamatteksts"
+
+#: includes/class-admin.php:240
+msgid "Primary button"
+msgstr "Primārā poga"
+
+#: includes/class-admin.php:241
+msgid "Primary button text"
+msgstr "Primārās pogas teksts"
+
+#: includes/class-admin.php:242
+msgid "Secondary button"
+msgstr "Sekundārā poga"
+
+#: includes/class-admin.php:243
+msgid "Secondary button text"
+msgstr "Sekundārās pogas teksts"
+
+#: includes/class-admin.php:265 includes/class-admin.php:691
+msgid "Text and font style"
+msgstr "Teksta un fonta stils"
+
+#: includes/class-admin.php:268 includes/class-admin.php:521
+msgid "Theme style (inherit site typography)"
+msgstr "Tēmas stils (pārmanto vietnes tipogrāfiju)"
+
+#: includes/class-admin.php:269 includes/class-admin.php:522
+msgid "Plugin style (strict font sizes/colors)"
+msgstr "Spraudņa stils (stingri fontu izmēri/krāsas)"
+
+#: includes/class-admin.php:281
+msgid "Description text"
+msgstr "Apraksta teksts"
+
+#: includes/class-admin.php:287
+msgid "Accept button text"
+msgstr "Pieņemšanas pogas teksts"
+
+#: includes/class-admin.php:291
+msgid "Reject button text"
+msgstr "Noraidīšanas pogas teksts"
+
+#: includes/class-admin.php:295
+msgid "Customize button text"
+msgstr "Pielāgošanas pogas teksts"
+
+#: includes/class-admin.php:299
+msgid "Save preferences button text"
+msgstr "Izvēles saglabāšanas pogas teksts"
+
+#: includes/class-admin.php:303 includes/class-script-blocker.php:187
+msgid "This content is blocked because it requires marketing cookies."
+msgstr "Šis saturs ir bloķēts, jo tam nepieciešamas mārketinga sīkdatnes."
+
+#: includes/class-admin.php:304 includes/class-script-blocker.php:190
+msgid "Accept marketing cookies"
+msgstr "Pieņemt mārketinga sīkdatnes"
+
+#: includes/class-admin.php:318 includes/class-admin.php:693
+msgid "Floating settings button"
+msgstr "Peldošā iestatījumu poga"
+
+#: includes/class-admin.php:322
+msgid ""
+"Show a small floating button so visitors can re-open their cookie "
+"preferences"
+msgstr ""
+"Rādīt nelielu peldošu pogu, lai apmeklētāji varētu atkal mainīt savu "
+"sīkdatņu izvēli"
+
+#: includes/class-admin.php:329
+msgid "Copied!"
+msgstr "Nokopēts!"
+
+#: includes/class-admin.php:329 includes/class-admin.php:330
+msgid "Copy"
+msgstr "Kopēt"
+
+#: includes/class-admin.php:346 includes/class-admin.php:531
+#: includes/class-admin.php:664
+msgid "Save Settings"
+msgstr "Saglabāt iestatījumus"
+
+#: includes/class-admin.php:370
+msgid "Banner preview"
+msgstr "Banera priekšskatījums"
+
+#: includes/class-admin.php:415
+msgid "Add Cookie"
+msgstr "Pievienot sīkdatni"
+
+#: includes/class-admin.php:419
+msgid "Need help describing these cookies?"
+msgstr "Vajadzīga palīdzība šo sīkdatņu aprakstīšanā?"
+
+#: includes/class-admin.php:421
+msgid ""
+"Click the button below to copy a ready-made AI prompt with your cookie data."
+msgstr ""
+"Noklikšķiniet uz pogas zemāk, lai nokopētu gatavu MI uzvedni ar vietnes "
+"sīkdatņu datiem."
+
+#: includes/class-admin.php:422
+msgid "Paste the prompt into an AI tool (ChatGPT, Claude, Gemini, etc.)."
+msgstr "Ielīmējiet uzvedni MI rīkā (ChatGPT, Claude, Gemini u. c.)."
+
+#: includes/class-admin.php:423
+msgid "The AI will return improved JSON with clear cookie descriptions."
+msgstr "MI atgriezīs uzlabotu JSON ar skaidriem sīkdatņu aprakstiem."
+
+#: includes/class-admin.php:424
+msgid ""
+"Copy the AI response and paste it into the text box that appears below."
+msgstr ""
+"Nokopējiet MI atbildi un ielīmējiet to teksta lodziņā, kas parādīsies zemāk."
+
+#: includes/class-admin.php:425
+msgid "Click Import — cookies are saved automatically."
+msgstr "Noklikšķiniet uz „Importēt” – sīkdatnes tiek saglabātas automātiski."
+
+#: includes/class-admin.php:429
+msgid "Copy AI Prompt to Clipboard"
+msgstr "Kopēt MI uzvedni starpliktuvē"
+
+#: includes/class-admin.php:433
+msgid "Paste the AI response here:"
+msgstr "Ielīmējiet MI atbildi šeit:"
+
+#: includes/class-admin.php:434
+msgid "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+msgstr "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+
+#: includes/class-admin.php:436
+msgid "Import"
+msgstr "Importēt"
+
+#: includes/class-admin.php:447
+msgid "Name"
+msgstr "Nosaukums"
+
+#: includes/class-admin.php:448 includes/class-admin.php:989
+msgid "Category"
+msgstr "Kategorija"
+
+#: includes/class-admin.php:449 includes/class-policy-page.php:91
+#: includes/class-policy-page.php:100
+msgid "Provider"
+msgstr "Nodrošinātājs"
+
+#: includes/class-admin.php:450 includes/class-policy-page.php:93
+#: includes/class-policy-page.php:102
+msgid "Duration"
+msgstr "Ilgums"
+
+#: includes/class-admin.php:451
+msgid "Description"
+msgstr "Apraksts"
+
+#: includes/class-admin.php:464 kansleri-cookie-consent.php:335
+msgid "Necessary"
+msgstr "Nepieciešamās"
+
+#: includes/class-admin.php:465 kansleri-cookie-consent.php:339
+msgid "Analytics"
+msgstr "Analītika"
+
+#: includes/class-admin.php:466 kansleri-cookie-consent.php:343
+msgid "Marketing"
+msgstr "Mārketings"
+
+#: includes/class-admin.php:467 kansleri-cookie-consent.php:347
+msgid "Preferences"
+msgstr "Preferences"
+
+#: includes/class-admin.php:480 includes/class-admin.php:700
+msgid "Save Cookies"
+msgstr "Saglabāt sīkdatnes"
+
+#: includes/class-admin.php:494
+msgid ""
+"No cookie policy page has been selected. Set a Privacy Policy page in "
+"Settings → Privacy, or choose a page below."
+msgstr ""
+"Nav izvēlēta sīkdatņu politikas lapa. Iestatiet privātuma politikas lapu "
+"sadaļā Iestatījumi → Privātums vai izvēlieties lapu zemāk."
+
+#: includes/class-admin.php:502 includes/class-admin.php:705
+msgid "Cookie policy page"
+msgstr "Sīkdatņu politikas lapa"
+
+#: includes/class-admin.php:505
+msgid "— Select a page —"
+msgstr "— Izvēlēties lapu —"
+
+#: includes/class-admin.php:510
+#, php-format
+msgid "%s (WordPress Privacy Policy)"
+msgstr "%s (WordPress privātuma politika)"
+
+#: includes/class-admin.php:513
+msgid ""
+"Defaults automatically to the WordPress Privacy Policy page (Settings → "
+"Privacy). Add the shortcode [kncc_cookie_policy] to that page to show the "
+"cookie declaration."
+msgstr ""
+"Pēc noklusējuma tiek izmantota WordPress privātuma politikas lapa "
+"(Iestatījumi → Privātums). Pievienojiet šai lapai īskodu "
+"[kncc_cookie_policy], lai parādītu sīkdatņu deklarāciju."
+
+#: includes/class-admin.php:518
+msgid "Policy page style"
+msgstr "Politikas lapas stils"
+
+#: includes/class-admin.php:525
+msgid ""
+"Controls the styling of the [kncc_cookie_policy] cookie declaration table."
+msgstr "Nosaka [kncc_cookie_policy] sīkdatņu deklarācijas tabulas noformējumu."
+
+#: includes/class-admin.php:628
+msgid ""
+"Theme style is the default so the policy page matches your site typography. "
+"Switch to Plugin style for strict plugin sizes and colors."
+msgstr ""
+"Pēc noklusējuma tiek izmantots tēmas stils, lai politikas lapa atbilstu "
+"vietnes tipogrāfijai. Lai izmantotu stingrus spraudņa izmērus un krāsas, "
+"pārslēdzieties uz spraudņa stilu."
+
+#: includes/class-admin.php:539
+msgid "Preview Policy Page"
+msgstr "Priekšskatīt politikas lapu"
+
+#: includes/class-admin.php:546
+msgid "Generate cookie policy page content with AI"
+msgstr "Ģenerēt sīkdatņu politikas lapas saturu ar MI"
+
+#: includes/class-admin.php:548
+msgid ""
+"Copy the prompt below and paste it into an AI tool. It will generate a "
+"complete cookie and privacy policy page in your site language. The cookie "
+"declaration will be handled automatically by the [kncc_cookie_policy] "
+"shortcode. Paste the generated HTML into your policy page."
+msgstr ""
+"Nokopējiet tālāk redzamo uzvedni un ielīmējiet to MI rīkā. Tas izveidos "
+"pilnu sīkdatņu un privātuma politikas lapu vietnes valodā. Sīkdatņu "
+"deklarāciju automātiski nodrošinās īskods [kncc_cookie_policy]. Ielīmējiet "
+"ģenerēto HTML politikas lapā."
+
+#: includes/class-admin.php:552
+msgid "Copy AI Prompt for Policy Page"
+msgstr "Kopēt MI uzvedni politikas lapai"
+
+#: includes/class-admin.php:565
+msgid "Detected integrations"
+msgstr "Atrastās integrācijas"
+
+#: includes/class-admin.php:692
+msgid ""
+"Active — Site Kit sets consent defaults for its own regions. This plugin "
+"sets a denied default for all other visitors and sends consent updates."
+msgstr ""
+"Aktīvs – Site Kit iestata piekrišanas noklusējumus saviem reģioniem. Šis "
+"spraudnis visiem pārējiem apmeklētājiem iestata noklusējuma statusu „liegts” "
+"un nosūta piekrišanas atjauninājumus."
+
+#: includes/class-admin.php:575
+msgid ""
+"Active — Site Kit consent mode not enabled. This plugin handles all consent "
+"signals."
+msgstr ""
+"Aktīvs – Site Kit Consent Mode nav iespējots. Šis spraudnis apstrādā visus "
+"piekrišanas signālus."
+
+#: includes/class-admin.php:586
+msgid ""
+"Active — consent status is shared with other plugins via the WP Consent API."
+msgstr ""
+"Aktīvs – piekrišanas statuss tiek kopīgots ar citiem spraudņiem, izmantojot "
+"WP Consent API."
+
+#: includes/class-admin.php:598 includes/class-admin.php:712
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: includes/class-admin.php:602
+msgid ""
+"Enable Consent Mode v2 (outputs consent defaults in &lt;head&gt; before GTM)"
+msgstr ""
+"Iespējot Consent Mode v2 (izvada piekrišanas noklusējumus sadaļā "
+"&lt;head&gt; pirms GTM)"
+
+#: includes/class-admin.php:610
+msgid ""
+"Forced on because Google Site Kit is active. Consent Mode is required for "
+"Site Kit to receive consent signals."
+msgstr ""
+"Ieslēgts piespiedu kārtā, jo ir aktīvs Google Site Kit. Consent Mode ir "
+"nepieciešams, lai Site Kit saņemtu piekrišanas signālus."
+
+#: includes/class-admin.php:614
+msgid ""
+"Consent Mode tells Google tags what the visitor has allowed (for example "
+"analytics or ads). This plugin sends a denied-by-default signal before tags "
+"run, and sends an updated signal after the visitor chooses. It controls "
+"consent signals only: you still need to install GTM/GA scripts separately."
+msgstr ""
+"Consent Mode paziņo Google tagiem, ko apmeklētājs ir atļāvis (piemēram, "
+"analītiku vai reklāmas). Pirms tagu palaišanas šis spraudnis nosūta signālu "
+"„pēc noklusējuma liegts”, bet pēc apmeklētāja izvēles – atjauninātu signālu. "
+"Tas pārvalda tikai piekrišanas signālus: GTM/GA skripti joprojām jāinstalē "
+"atsevišķi."
+
+#: includes/class-admin.php:740
+msgid ""
+"Site Kit sets consent defaults for its own regions. This plugin adds a "
+"denied default for all other visitors and sends each visitor's choice as a "
+"consent update."
+msgstr ""
+"Site Kit iestata piekrišanas noklusējumus saviem reģioniem. Šis spraudnis "
+"visiem pārējiem apmeklētājiem pievieno noklusējuma statusu „liegts” un "
+"nosūta katra apmeklētāja izvēli kā piekrišanas atjauninājumu."
+
+#: includes/class-admin.php:630
+msgid "Need Google Analytics 4 or Google Tag Manager?"
+msgstr "Vajadzīgs Google Analytics 4 vai Google Tag Manager?"
+
+#: includes/class-admin.php:633
+msgid ""
+"We recommend installing Google Site Kit — Google's official WordPress "
+"plugin. It sets up GA4 and GTM in a few clicks, and works seamlessly with "
+"Kansleri Cookie Consent: Consent Mode v2 signals are handled automatically, "
+"with no double-loading or conflicts."
+msgstr ""
+"Iesakām instalēt Google Site Kit – Google oficiālo WordPress spraudni. Tas "
+"dažos klikšķos iestata GA4 un GTM un nevainojami darbojas kopā ar Kansleri "
+"Cookie Consent: Consent Mode v2 signāli tiek apstrādāti automātiski, bez "
+"dubultas ielādes vai konfliktiem."
+
+#: includes/class-admin.php:638
+msgid "Install Google Site Kit"
+msgstr "Instalēt Google Site Kit"
+
+#: includes/class-admin.php:649
+msgid "Consent Mode defaults (auto-injected in &lt;head&gt;)"
+msgstr "Consent Mode noklusējumi (automātiski ievietoti sadaļā &lt;head&gt;)"
+
+#: includes/class-admin.php:673
+msgid "Installation guide"
+msgstr "Instalēšanas ceļvedis"
+
+#: includes/class-admin.php:675
+msgid "Activate the plugin and open Settings > Cookie Consent."
+msgstr ""
+"Aktivizējiet spraudni un atveriet sadaļu Iestatījumi > Sīkdatņu piekrišana."
+
+#: includes/class-admin.php:676
+msgid "Configure banner texts, style, and button labels in the General tab."
+msgstr ""
+"Cilnē „Vispārīgi” konfigurējiet banera tekstus, stilu un pogu uzrakstus."
+
+#: includes/class-admin.php:677
+msgid ""
+"Open the Integration tab and enable Google Consent Mode v2 if you use "
+"GTM/Google tags."
+msgstr ""
+"Atveriet cilni „Integrācija” un iespējojiet Google Consent Mode v2, ja "
+"izmantojat GTM/Google tagus."
+
+#: includes/class-admin.php:678
+msgid ""
+"Open the Cookies tab, run Scan Cookies, then review and categorize unknown "
+"cookies."
+msgstr ""
+"Atveriet cilni „Sīkdatnes”, palaidiet „Skenēt sīkdatnes”, pēc tam pārskatiet "
+"un kategorizējiet nezināmās sīkdatnes."
+
+#: includes/class-admin.php:679
+msgid ""
+"If unknown cookies are found, an AI helper appears: copy the prompt, paste "
+"it into an AI tool, paste the response back into the text box, click Import,"
+" then Save Cookies."
+msgstr ""
+"Ja tiek atrastas nezināmas sīkdatnes, parādās MI palīgs: nokopējiet uzvedni, "
+"ielīmējiet to MI rīkā, ielīmējiet atbildi atpakaļ teksta lodziņā, "
+"noklikšķiniet uz „Importēt” un pēc tam uz „Saglabāt sīkdatnes”."
+
+#: includes/class-admin.php:680
+msgid ""
+"Confirm the Cookie Policy page in the Policy Page tab — it defaults to the "
+"WordPress Privacy Policy page."
+msgstr ""
+"Cilnē „Politikas lapa” apstipriniet sīkdatņu politikas lapu – pēc "
+"noklusējuma tā ir WordPress privātuma politikas lapa."
+
+#: includes/class-admin.php:681
+msgid ""
+"Use the AI prompt on the Policy Page tab to generate the full cookie policy "
+"page content. Paste the generated HTML into your policy page."
+msgstr ""
+"Izmantojiet MI uzvedni cilnē „Politikas lapa”, lai ģenerētu pilnu sīkdatņu "
+"politikas lapas saturu. Ielīmējiet ģenerēto HTML politikas lapā."
+
+#: includes/class-admin.php:682
+msgid "Review the Script Blocking tab to see which scripts are auto-blocked."
+msgstr ""
+"Pārskatiet cilni „Skriptu bloķēšana”, lai redzētu, kuri skripti tiek bloķēti "
+"automātiski."
+
+#: includes/class-admin.php:685
+msgid "What each option means"
+msgstr "Ko nozīmē katra opcija"
+
+#: includes/class-admin.php:687
+msgid "General tab"
+msgstr "Cilne „Vispārīgi”"
+
+#: includes/class-admin.php:689
+msgid "Choose visual placement of the banner (bar, modal, corner)."
+msgstr "Izvēlieties banera novietojumu ekrānā (josla, dialoglodziņš, stūris)."
+
+#: includes/class-admin.php:690
+msgid "Controls the main accent color used by buttons and links."
+msgstr "Nosaka galveno akcenta krāsu, ko izmanto pogas un saites."
+
+#: includes/class-admin.php:690
+msgid "Primary color"
+msgstr "Primārā krāsa"
+
+#: includes/class-admin.php:691
+msgid ""
+"Theme style inherits site typography. Plugin style uses strict sizes/colors "
+"for consistent readability."
+msgstr ""
+"Tēmas stils pārmanto vietnes tipogrāfiju. Spraudņa stils izmanto stingrus "
+"izmērus/krāsas vienmērīgai lasāmībai."
+
+#: includes/class-admin.php:692
+msgid "Customize visible wording in the consent banner."
+msgstr "Pielāgojiet piekrišanas banerī redzamos tekstus."
+
+#: includes/class-admin.php:692
+msgid "Heading/Description/Button texts"
+msgstr "Virsraksta/apraksta/pogu teksti"
+
+#: includes/class-admin.php:693
+msgid "Lets visitors re-open cookie settings after they close the banner."
+msgstr ""
+"Ļauj apmeklētājiem atkal atvērt sīkdatņu iestatījumus pēc banera aizvēršanas."
+
+#: includes/class-admin.php:696
+msgid "Cookies tab"
+msgstr "Cilne „Sīkdatnes”"
+
+#: includes/class-admin.php:777
+msgid ""
+"Scans browser cookies and infers expected cookies from tracking scripts on "
+"your site (even when blocked until consent). Known cookies are auto-mapped "
+"to categories."
+msgstr ""
+"Skenē pārlūka sīkdatnes un izsecina sagaidāmās sīkdatnes no vietnes "
+"izsekošanas skriptiem (pat ja tie ir bloķēti līdz piekrišanai). Zināmās "
+"sīkdatnes tiek automātiski piesaistītas kategorijām."
+
+#: includes/class-admin.php:699
+msgid "AI Helper"
+msgstr "MI palīgs"
+
+#: includes/class-admin.php:699
+msgid ""
+"Appears after scanning when unknown cookies are found. Copies a ready prompt"
+" to paste into an AI tool. After the AI responds, paste the JSON back into "
+"the text box and click Import."
+msgstr ""
+"Parādās pēc skenēšanas, ja tiek atrastas nezināmas sīkdatnes. Nokopē gatavu "
+"uzvedni, ko ielīmēt MI rīkā. Kad MI ir atbildējis, ielīmējiet JSON atpakaļ "
+"teksta lodziņā un noklikšķiniet uz „Importēt”."
+
+#: includes/class-admin.php:700
+msgid ""
+"Persists current cookie table values to be used in policy output and consent"
+" details."
+msgstr ""
+"Saglabā pašreizējās sīkdatņu tabulas vērtības, kas tiek izmantotas politikas "
+"lapā un piekrišanas informācijā."
+
+#: includes/class-admin.php:703
+msgid "Policy Page tab"
+msgstr "Cilne „Politikas lapa”"
+
+#: includes/class-admin.php:705
+msgid ""
+"Selects which page is used for cookie policy content generated by shortcode."
+msgstr ""
+"Nosaka, kura lapa tiek izmantota sīkdatņu politikas saturam, ko ģenerē "
+"īskods."
+
+#: includes/class-admin.php:706
+msgid "AI Prompt for Policy Page"
+msgstr "MI uzvedne politikas lapai"
+
+#: includes/class-admin.php:706
+msgid ""
+"Generates a prompt you can paste into an AI tool to create a full privacy "
+"and cookie policy. The generated text will include the [kncc_cookie_policy] "
+"shortcode for the cookie declaration section."
+msgstr ""
+"Ģenerē uzvedni, ko var ielīmēt MI rīkā, lai izveidotu pilnu privātuma un "
+"sīkdatņu politiku. Ģenerētajā tekstā būs iekļauts īskods "
+"[kncc_cookie_policy] sīkdatņu deklarācijas sadaļai."
+
+#: includes/class-admin.php:707
+msgid ""
+"If Polylang or WPML is active, each language can have its own translated "
+"policy page. If a translation is missing for some language, the default-"
+"language policy page is used as a fallback."
+msgstr ""
+"Ja ir aktīvs Polylang vai WPML, katrai valodai var būt sava tulkota "
+"politikas lapa. Ja kādai valodai tulkojuma nav, kā rezerves variants tiek "
+"izmantota noklusējuma valodas politikas lapa."
+
+#: includes/class-admin.php:707
+msgid "Multilingual support"
+msgstr "Daudzvalodu atbalsts"
+
+#: includes/class-admin.php:710
+msgid "Integration tab"
+msgstr "Cilne „Integrācija”"
+
+#: includes/class-admin.php:712
+msgid ""
+"A Google framework for privacy-safe tag behavior. Before consent, storage "
+"signals are denied; after user choice, signals are updated (for example "
+"analytics_storage=granted). This helps GTM/Google tags respect user consent "
+"state."
+msgstr ""
+"Google ietvars privātumu aizsargājošai tagu darbībai. Pirms piekrišanas "
+"glabāšanas signāli ir liegti; pēc lietotāja izvēles signāli tiek atjaunināti "
+"(piemēram, analytics_storage=granted). Tas palīdz GTM/Google tagiem ievērot "
+"lietotāja piekrišanas statusu."
+
+#: includes/class-admin.php:713
+msgid "GTM Container ID"
+msgstr "GTM konteinera ID"
+
+#: includes/class-admin.php:713
+msgid ""
+"Your GTM container identifier (for example GTM-N6828NL). It identifies which"
+" tag container your site uses. This field is informational in this plugin "
+"and does not inject GTM scripts."
+msgstr ""
+"GTM konteinera identifikators (piemēram, GTM-N6828NL). Tas norāda, kuru tagu "
+"konteineru izmanto vietne. Šajā spraudnī šis lauks ir tikai informatīvs un "
+"neievieto GTM skriptus."
+
+#: includes/class-admin.php:716
+msgid "Script Blocking tab"
+msgstr "Cilne „Skriptu bloķēšana”"
+
+#: includes/class-admin.php:798
+msgid ""
+"Tools like Google Analytics are blocked automatically when added through "
+"WordPress plugins (e.g. Google Site Kit)."
+msgstr ""
+"Tādi rīki kā Google Analytics tiek bloķēti automātiski, ja tie pievienoti ar "
+"WordPress spraudņiem (piem., Google Site Kit)."
+
+#: includes/class-admin.php:799 includes/class-admin.php:1071
+msgid "Custom Code blocking"
+msgstr "Pielāgotā koda bloķēšana"
+
+#: includes/class-admin.php:799
+msgid ""
+"Stops tracking pasted into Bricks, Elementor, or similar Custom Code fields "
+"until the visitor gives consent."
+msgstr ""
+"Aptur izsekošanu, kas ielīmēta Bricks, Elementor vai līdzīgos pielāgotā koda "
+"laukos, līdz apmeklētājs dod piekrišanu."
+
+#: includes/class-admin.php:719
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
+msgstr ""
+"Iegultie YouTube un Vimeo video tiek automātiski bloķēti, līdz apmeklētājs "
+"pieņem mārketinga sīkdatnes. To vietā tiek parādīts ziņojums ar pieņemšanas "
+"pogu. Ja apmeklētājs jau ir devis piekrišanu, video ielādējas kā parasti."
+
+#: includes/class-admin.php:719
+msgid "YouTube & Vimeo iframe blocking"
+msgstr "YouTube & Vimeo iframe bloķēšana"
+
+#: includes/class-admin.php:722
+msgid "Statistics tab"
+msgstr "Cilne „Statistika”"
+
+#: includes/class-admin.php:724
+msgid "Consent statistics"
+msgstr "Piekrišanu statistika"
+
+#: includes/class-admin.php:724
+msgid ""
+"Shows how many visitors accepted, rejected, or customized cookies over 7, "
+"30, or 90 day periods. Data is aggregated and anonymous — no personal data "
+"is stored."
+msgstr ""
+"Parāda, cik apmeklētāju pieņēma, noraidīja vai pielāgoja sīkdatnes 7, 30 vai "
+"90 dienu periodā. Dati ir apkopoti un anonīmi – personas dati netiek glabāti."
+
+#: includes/class-admin.php:725 includes/class-admin.php:1022
+msgid "Consent Log"
+msgstr "Piekrišanu žurnāls"
+
+#: includes/class-admin.php:725
+msgid ""
+"Individual anonymized consent records for GDPR audit compliance. Records "
+"contain a hashed visitor identifier, the consent choice, accepted "
+"categories, and the policy version. Records are automatically purged after "
+"13 months."
+msgstr ""
+"Atsevišķi anonimizēti piekrišanas ieraksti VDAR atbilstības auditam. "
+"Ieraksti satur apmeklētāja identifikatora jaucējkodu, piekrišanas izvēli, "
+"pieņemtās kategorijas un politikas versiju. Ieraksti tiek automātiski dzēsti "
+"pēc 13 mēnešiem."
+
+#: includes/class-admin.php:726
+msgid "Downloads all consent log records as a CSV file for auditing."
+msgstr ""
+"Lejupielādē visus piekrišanu žurnāla ierakstus CSV failā audita vajadzībām."
+
+#: includes/class-admin.php:726 includes/class-admin.php:1038
+msgid "Export CSV"
+msgstr "Eksportēt CSV"
+
+#: includes/class-admin.php:727
+msgid "Permanently deletes all consent log records and aggregate statistics."
+msgstr ""
+"Neatgriezeniski dzēš visus piekrišanu žurnāla ierakstus un apkopoto "
+"statistiku."
+
+#: includes/class-admin.php:727 includes/class-admin.php:1039
+msgid "Purge All Records"
+msgstr "Dzēst visus ierakstus"
+
+#: includes/class-admin.php:730
+msgid "Multilingual support (WPML & Polylang)"
+msgstr "Daudzvalodu atbalsts (WPML & Polylang)"
+
+#: includes/class-admin.php:732
+msgid "Per-language banner texts"
+msgstr "Banera teksti katrai valodai"
+
+#: includes/class-admin.php:732
+msgid ""
+"When WPML or Polylang is active, switch to a secondary language in the admin"
+" bar and edit General tab settings (saved per language). With WPML String "
+"Translation, you can also translate the [kncc_settings]* admin text strings "
+"— those are used when no per-language override is saved. Otherwise each "
+"language uses its own plugin defaults (English if unsupported). Texts are "
+"never copied blindly from the default language."
+msgstr ""
+"Ja ir aktīvs WPML vai Polylang, administratora joslā pārslēdzieties uz "
+"papildu valodu un rediģējiet cilnes „Vispārīgi” iestatījumus (tie tiek "
+"saglabāti katrai valodai atsevišķi). Ar WPML String Translation var tulkot "
+"arī [kncc_settings]* administrēšanas teksta virknes – tās tiek izmantotas, "
+"ja konkrētajai valodai nav saglabāts savs teksts. Pretējā gadījumā katra "
+"valoda izmanto savus spraudņa noklusējuma tekstus (angļu valodā, ja valoda "
+"netiek atbalstīta). Teksti nekad netiek akli kopēti no noklusējuma valodas."
+
+#: includes/class-admin.php:733
+msgid ""
+"Cookie names, categories, providers, and durations are shared across all "
+"languages. Only the description field can be translated per language. Switch"
+" language and edit descriptions in the Cookies tab."
+msgstr ""
+"Sīkdatņu nosaukumi, kategorijas, nodrošinātāji un ilgumi ir kopīgi visām "
+"valodām. Katrai valodai var tulkot tikai apraksta lauku. Pārslēdziet valodu "
+"un rediģējiet aprakstus cilnē „Sīkdatnes”."
+
+#: includes/class-admin.php:733
+msgid "Per-language cookie descriptions"
+msgstr "Sīkdatņu apraksti katrai valodai"
+
+#: includes/class-admin.php:734
+msgid ""
+"Banner style, colors, and policy page can be set per language. Non-text "
+"settings fall back to the default language; banner texts use per-language "
+"overrides, WPML String Translation, or each language's own defaults."
+msgstr ""
+"Banera stilu, krāsas un politikas lapu var iestatīt katrai valodai "
+"atsevišķi. Iestatījumiem, kas nav teksti, tiek izmantotas noklusējuma "
+"valodas vērtības; banera teksti izmanto konkrētās valodas tekstus, WPML "
+"String Translation vai katras valodas noklusējuma tekstus."
+
+#: includes/class-admin.php:734
+msgid "Per-language settings"
+msgstr "Iestatījumi katrai valodai"
+
+#: includes/class-admin.php:735
+msgid "AI prompts"
+msgstr "MI uzvednes"
+
+#: includes/class-admin.php:735
+msgid ""
+"AI prompts for cookie descriptions and policy pages are automatically "
+"generated in the language matching the current admin locale."
+msgstr ""
+"MI uzvednes sīkdatņu aprakstiem un politikas lapām tiek automātiski "
+"ģenerētas valodā, kas atbilst pašreizējai administrēšanas paneļa valodai."
+
+#: includes/class-admin.php:738
+msgid "Shortcodes"
+msgstr "Īskodi"
+
+#: includes/class-admin.php:740
+msgid "Displays the full cookie declaration table on your policy page."
+msgstr "Parāda pilnu sīkdatņu deklarācijas tabulu politikas lapā."
+
+#: includes/class-admin.php:741
+msgid ""
+"Renders a link that opens the cookie settings dialog. Use in footers, menus,"
+" or widgets. Customize the link text with the text attribute, e.g. "
+"[kncc_cookie_settings text=\"Manage cookies\"]."
+msgstr ""
+"Parāda saiti, kas atver sīkdatņu iestatījumu logu. Izmantojiet to kājenēs, "
+"izvēlnēs vai logrīkos. Saites tekstu var mainīt ar atribūtu text, piem., "
+"[kncc_cookie_settings text=\"Pārvaldīt sīkdatnes\"]."
+
+#: includes/class-admin.php:744
+msgid "Custom CSS"
+msgstr "Pielāgots CSS"
+
+#: includes/class-admin.php:748
+#, php-format
+msgid ""
+"Need to fine-tune the look beyond the General tab? Add CSS to %s, your child"
+" theme, or a Code Snippets plugin."
+msgstr ""
+"Vai jāpielāgo izskats precīzāk, nekā ļauj cilne „Vispārīgi”? Pievienojiet "
+"CSS sadaļā %s, bērna tēmā vai Code Snippets spraudnī."
+
+#: includes/class-admin.php:749
+msgid "Appearance → Customize → Additional CSS"
+msgstr "Izskats → Pielāgot → Papildu CSS"
+
+#: includes/class-admin.php:752
+msgid ""
+"Copy the template below, uncomment the rules you want to change, save. Every"
+" selector the plugin uses is included."
+msgstr ""
+"Nokopējiet tālāk redzamo veidni, atkomentējiet kārtulas, kuras vēlaties "
+"mainīt, un saglabājiet. Ir iekļauti visi spraudņa izmantotie selektori."
+
+#: includes/class-admin.php:756
+msgid "Copy CSS template"
+msgstr "Kopēt CSS veidni"
+
+#: includes/class-admin.php:828
+msgid "Tips:"
+msgstr "Padomi:"
+
+#: includes/class-admin.php:830
+msgid ""
+"If a rule does not apply, prepend .kncc-banner or add !important — your CSS "
+"file loads after the plugin's, but theme styles can occasionally beat it on "
+"specificity."
+msgstr ""
+"Ja kārtula netiek piemērota, pievienojiet tās priekšā .kncc-banner vai "
+"izmantojiet !important – jūsu CSS fails tiek ielādēts pēc spraudņa faila, "
+"taču tēmas stiliem dažkārt var būt lielāks specifiskums."
+
+#: includes/class-admin.php:831
+msgid ""
+"When General → Text and font style is set to Plugin style, typography rules "
+"use !important. Switch to Theme style for easier overrides."
+msgstr ""
+"Ja iestatījumā Vispārīgi → Teksta un fonta stils ir izvēlēts spraudņa stils, "
+"tipogrāfijas kārtulas izmanto !important. Lai tās būtu vieglāk pārrakstīt, "
+"pārslēdzieties uz tēmas stilu."
+
+#: includes/class-admin.php:832
+msgid ""
+"Banner z-index is 999999 and the floating button is 999998 — raise them if "
+"your theme renders overlays on top of the banner."
+msgstr ""
+"Banera z-index ir 999999, bet peldošās pogas – 999998. Palieliniet šīs "
+"vērtības, ja tēma attēlo pārklājumus virs banera."
+
+#: includes/class-admin.php:835
+msgid "Troubleshooting"
+msgstr "Problēmu novēršana"
+
+#: includes/class-admin.php:837
+msgid ""
+"If GTM Preview does not show consent updates, verify Consent Mode v2 is "
+"enabled and test in a fresh browser session without existing consent cookie."
+msgstr ""
+"Ja GTM Preview nerāda piekrišanas atjauninājumus, pārbaudiet, vai Consent "
+"Mode v2 ir iespējots, un testējiet jaunā pārlūka sesijā bez esošas "
+"piekrišanas sīkdatnes."
+
+#: includes/class-admin.php:838
+msgid ""
+"If banner typography looks odd with your theme, switch General > Text and "
+"font style to Plugin style."
+msgstr ""
+"Ja banera tipogrāfija ar vietnes tēmu izskatās dīvaini, iestatījumā "
+"Vispārīgi > Teksta un fonta stils izvēlieties spraudņa stilu."
+
+#: includes/class-admin.php:839
+msgid ""
+"If tracking still runs before consent, make sure Custom Code blocking is "
+"checked on the Script Blocking tab."
+msgstr ""
+"Ja izsekošana joprojām darbojas pirms piekrišanas, pārliecinieties, ka cilnē "
+"„Skriptu bloķēšana” ir atzīmēta opcija „Pielāgotā koda bloķēšana”."
+
+#: includes/class-admin.php:840
+msgid ""
+"If the statistics are empty, make sure visitors have interacted with the "
+"banner. Data starts recording after the first consent choice."
+msgstr ""
+"Ja statistika ir tukša, pārliecinieties, ka apmeklētāji ir izmantojuši "
+"baneri. Datu reģistrēšana sākas pēc pirmās piekrišanas izvēles."
+
+#: includes/class-admin.php:841
+msgid ""
+"If the policy page warning shows missing translations, create the translated"
+" page in each language and add the [kncc_cookie_policy] shortcode."
+msgstr ""
+"Ja politikas lapas brīdinājumā norādīts, ka trūkst tulkojumu, izveidojiet "
+"tulkoto lapu katrā valodā un pievienojiet tai īskodu [kncc_cookie_policy]."
+
+#: includes/class-admin.php:845
+msgid ""
+"I made this plugin for free because I got frustrated by the existing cookie "
+"consent plugins — too much bloat and useless features. If you like it and "
+"want to buy me a coffee, you can do it here:"
+msgstr ""
+"Es izveidoju šo spraudni bez maksas, jo biju neapmierināts ar esošajiem "
+"sīkdatņu piekrišanas spraudņiem – pārāk daudz lieka balasta un bezjēdzīgu "
+"funkciju. Ja tas jums patīk un vēlaties man uzsaukt kafiju, to var izdarīt "
+"šeit:"
+
+#: includes/class-admin.php:873
+#, php-format
+msgid "%d days"
+msgstr "%d dienas"
+
+#: includes/class-admin.php:884
+msgid "Total responses"
+msgstr "Atbildes kopā"
+
+#: includes/class-admin.php:888 includes/class-admin.php:903
+#: includes/class-admin.php:913
+msgid "Accepted all"
+msgstr "Pieņēma visas"
+
+#: includes/class-admin.php:892 includes/class-admin.php:909
+#: includes/class-admin.php:915
+msgid "Rejected all"
+msgstr "Noraidīja visas"
+
+#: includes/class-admin.php:896 includes/class-admin.php:906
+#: includes/class-admin.php:914
+msgid "Custom selection"
+msgstr "Pielāgota izvēle"
+
+#: includes/class-admin.php:920
+msgid ""
+"No consent data recorded yet. Statistics will appear after visitors start "
+"interacting with the cookie banner."
+msgstr ""
+"Piekrišanas dati vēl nav reģistrēti. Statistika parādīsies, kad apmeklētāji "
+"sāks izmantot sīkdatņu baneri."
+
+#: includes/class-admin.php:937
+#, php-format
+msgid "Cron error: %s"
+msgstr "Cron kļūda: %s"
+
+#: includes/class-admin.php:955
+msgid "All systems are good!"
+msgstr "Viss kārtībā!"
+
+#: includes/class-admin.php:957
+msgid "The plugin re-checks cookies every day via cron."
+msgstr "Spraudnis katru dienu atkārtoti pārbauda sīkdatnes, izmantojot cron."
+
+#: includes/class-admin.php:962
+#, php-format
+msgid "Next check: %s"
+msgstr "Nākamā pārbaude: %s"
+
+#: includes/class-admin.php:1075
+msgid ""
+"Also block tracking added in Bricks, Elementor, or other Custom Code fields"
+msgstr ""
+"Bloķēt arī izsekošanu, kas pievienota Bricks, Elementor vai citos pielāgotā "
+"koda laukos"
+
+#: includes/class-admin.php:1094
+msgid "Save blocking settings"
+msgstr "Saglabāt bloķēšanas iestatījumus"
+
+#: includes/class-admin.php:1099
+msgid "Recognized tracking tools"
+msgstr "Atpazītie izsekošanas rīki"
+
+#: includes/class-admin.php:1106
+msgid "Script Handle"
+msgstr "Skripta identifikators"
+
+#: includes/class-admin.php:1024
+msgid ""
+"Individual consent records for GDPR audit compliance. Records are "
+"automatically purged after the retention period (13 months)."
+msgstr ""
+"Atsevišķi piekrišanas ieraksti VDAR atbilstības auditam. Ieraksti tiek "
+"automātiski dzēsti pēc glabāšanas termiņa beigām (13 mēneši)."
+
+#: includes/class-admin.php:1028
+msgid "Total records:"
+msgstr "Ierakstu skaits:"
+
+#: includes/class-admin.php:1030
+msgid "Oldest:"
+msgstr "Vecākais:"
+
+#: includes/class-admin.php:1033
+msgid "Newest:"
+msgstr "Jaunākais:"
+
+#: includes/class-admin.php:1043
+msgid "No consent log records yet."
+msgstr "Piekrišanu žurnālā vēl nav ierakstu."
+
+#: includes/class-admin.php:1048
+msgid "Date/Time"
+msgstr "Datums/laiks"
+
+#: includes/class-admin.php:1049
+msgid "Visitor"
+msgstr "Apmeklētājs"
+
+#: includes/class-admin.php:1050
+msgid "Choice"
+msgstr "Izvēle"
+
+#: includes/class-admin.php:1051
+msgid "Categories"
+msgstr "Kategorijas"
+
+#: includes/class-admin.php:1052
+msgid "Policy Version"
+msgstr "Politikas versija"
+
+#: includes/class-admin.php:1311
+msgid "Cookies saved."
+msgstr "Sīkdatnes saglabātas."
+
+#: includes/class-consent.php:135
+msgid "Cookie consent"
+msgstr "Sīkdatņu piekrišana"
+
+#: includes/class-consent.php:147 includes/class-policy-page.php:27
+msgid "Cookie Policy"
+msgstr "Sīkdatņu politika"
+
+#: includes/class-consent.php:155
+msgid "Close"
+msgstr "Aizvērt"
+
+#: includes/class-consent.php:187 includes/class-consent.php:188
+#: kansleri-cookie-consent.php:590
+msgid "Cookie settings"
+msgstr "Sīkdatņu iestatījumi"
+
+#: includes/class-policy-page.php:48
+msgid "No cookies have been registered yet."
+msgstr "Vēl nav reģistrēta neviena sīkdatne."
+
+#: includes/class-policy-page.php:58
+msgid ""
+"These cookies are essential for the website to function and cannot be "
+"switched off."
+msgstr "Šīs sīkdatnes ir būtiskas vietnes darbībai, un tās nevar izslēgt."
+
+#: includes/class-policy-page.php:59
+msgid ""
+"These cookies help us understand how visitors interact with the website by "
+"collecting and reporting information anonymously."
+msgstr ""
+"Šīs sīkdatnes palīdz mums saprast, kā apmeklētāji izmanto vietni, anonīmi "
+"vācot informāciju un sniedzot par to pārskatus."
+
+#: includes/class-policy-page.php:60
+msgid ""
+"These cookies are used to deliver relevant advertisements and track ad "
+"campaign performance."
+msgstr ""
+"Šīs sīkdatnes tiek izmantotas, lai rādītu atbilstošas reklāmas un sekotu "
+"reklāmas kampaņu efektivitātei."
+
+#: includes/class-policy-page.php:61
+msgid ""
+"These cookies allow the website to remember choices you make and provide "
+"enhanced functionality and personalisation."
+msgstr ""
+"Šīs sīkdatnes ļauj vietnei atcerēties jūsu izdarītās izvēles un nodrošināt "
+"uzlabotu funkcionalitāti un personalizāciju."
+
+#: includes/class-policy-page.php:79
+msgid "Edit cookie preferences"
+msgstr "Mainīt sīkdatņu izvēli"
+
+#: includes/class-policy-page.php:90 includes/class-policy-page.php:99
+msgid "Cookie"
+msgstr "Sīkdatne"
+
+#: includes/class-policy-page.php:92 includes/class-policy-page.php:101
+msgid "Purpose"
+msgstr "Mērķis"
+
+#: includes/class-script-blocker.php:306
+msgid "Script blocking settings saved."
+msgstr "Skriptu bloķēšanas iestatījumi saglabāti."
+
+#: kansleri-cookie-consent.php:57 kansleri-cookie-consent.php:404
+msgid "We use cookies"
+msgstr "Mēs izmantojam sīkdatnes"
+
+#: kansleri-cookie-consent.php:58 kansleri-cookie-consent.php:405
+msgid ""
+"We use cookies to improve your experience and analyze site traffic. Choose "
+"which cookies you allow."
+msgstr ""
+"Mēs izmantojam sīkdatnes, lai uzlabotu jūsu pieredzi un analizētu vietnes "
+"datplūsmu. Izvēlieties, kuras sīkdatnes atļaujat."
+
+#: kansleri-cookie-consent.php:59 kansleri-cookie-consent.php:406
+msgid "Accept all"
+msgstr "Pieņemt visas"
+
+#: kansleri-cookie-consent.php:60 kansleri-cookie-consent.php:407
+msgid "Reject all"
+msgstr "Noraidīt visas"
+
+#: kansleri-cookie-consent.php:61 kansleri-cookie-consent.php:408
+msgid "Customize"
+msgstr "Pielāgot"
+
+#: kansleri-cookie-consent.php:62 kansleri-cookie-consent.php:409
+msgid "Save preferences"
+msgstr "Saglabāt izvēli"
+
+#: kansleri-cookie-consent.php:336
+msgid "Required for the website to function. Cannot be disabled."
+msgstr "Vajadzīgas vietnes darbībai. Tās nevar atspējot."
+
+#: kansleri-cookie-consent.php:340
+msgid "Help us understand how visitors interact with the website."
+msgstr "Palīdz mums saprast, kā apmeklētāji izmanto vietni."
+
+#: kansleri-cookie-consent.php:344
+msgid "Used to deliver relevant advertisements and track campaigns."
+msgstr "Izmanto, lai rādītu atbilstošas reklāmas un izsekotu kampaņas."
+
+#: kansleri-cookie-consent.php:348
+msgid "Remember your settings and preferences for a better experience."
+msgstr "Atceras jūsu iestatījumus un izvēles, lai nodrošinātu labāku pieredzi."
+
+#: kansleri-cookie-consent.php:499
+msgid "Settings"
+msgstr "Iestatījumi"
+
+#: kansleri-cookie-consent.php:522
+#, php-format
+msgid ""
+"Kansleri Cookie Consent is now active. Next steps: %1$s to discover cookies "
+"and %2$s to review banner and consent settings."
+msgstr ""
+"Kansleri Cookie Consent tagad ir aktīvs. Nākamie soļi: %1$s, lai atrastu "
+"sīkdatnes, un %2$s, kas attiecas uz baneri un piekrišanu."
+
+#: kansleri-cookie-consent.php:523
+msgid "Scan cookies"
+msgstr "Skenēt sīkdatnes"
+
+#: kansleri-cookie-consent.php:524
+msgid "review settings"
+msgstr "pārskatīt iestatījumus"
+
+#: kansleri-cookie-consent.php:555
+#, php-format
+msgid ""
+"Cookie Consent: %1$d cookie(s) are missing descriptions: %2$s. %3$s to add "
+"them."
+msgstr ""
+"Sīkdatņu piekrišana: sīkdatnes, kurām trūkst apraksta (%1$d): %2$s. %3$s, "
+"lai pievienotu aprakstus."
+
+#: kansleri-cookie-consent.php:558
+msgid "Go to Cookies tab"
+msgstr "Atveriet cilni „Sīkdatnes”"
+
+#: kansleri-cookie-consent.php:572
+msgid ""
+"This site uses a cookie consent banner powered by Kansleri Cookie Consent. "
+"When you interact with the banner, a cookie named <code>kncc_consent</code> "
+"is stored in your browser for up to 1 year. It records your consent "
+"preferences (which cookie categories you accepted or rejected) so the site "
+"can remember your choice on future visits. No personal data is stored in "
+"this cookie."
+msgstr ""
+"Šī vietne izmanto sīkdatņu piekrišanas baneri, ko nodrošina Kansleri Cookie "
+"Consent. Kad izmantojat baneri, jūsu pārlūkā uz laiku līdz 1 gadam tiek "
+"saglabāta sīkdatne ar nosaukumu <code>kncc_consent</code>. Tajā tiek "
+"reģistrēta jūsu piekrišanas izvēle (kuras sīkdatņu kategorijas pieņēmāt vai "
+"noraidījāt), lai vietne to atcerētos nākamajos apmeklējumos. Šajā sīkdatnē "
+"netiek glabāti nekādi personas dati."
+
+#: kansleri-cookie-consent.php:573
+msgid ""
+"The plugin also records anonymous, aggregated consent statistics (how many "
+"visitors accepted, rejected, or customized cookies each day) and individual "
+"consent log entries for GDPR audit compliance. Consent log entries contain a"
+" hashed (non-reversible) visitor identifier, the consent choice, which "
+"categories were accepted, and the policy version. No IP addresses, user "
+"identifiers, or personal data are stored in plain text. Consent log records "
+"are automatically deleted after 13 months."
+msgstr ""
+"Spraudnis arī reģistrē anonīmu, apkopotu piekrišanu statistiku (cik "
+"apmeklētāju katru dienu pieņēma, noraidīja vai pielāgoja sīkdatnes) un "
+"atsevišķus piekrišanu žurnāla ierakstus VDAR atbilstības auditam. Piekrišanu "
+"žurnāla ieraksti satur apmeklētāja identifikatora neatgriezenisku "
+"jaucējkodu, piekrišanas izvēli, informāciju par pieņemtajām kategorijām un "
+"politikas versiju. Atklātā tekstā netiek glabātas ne IP adreses, ne "
+"lietotāju identifikatori, ne personas dati. Piekrišanu žurnāla ieraksti tiek "
+"automātiski dzēsti pēc 13 mēnešiem."
+
+#: includes/class-admin.php:318
+msgid "Empty cookie categories"
+msgstr "Tukšās sīkdatņu kategorijas"
+
+#: includes/class-admin.php:322
+msgid "Show but lock (disable) the switch"
+msgstr "Rādīt, bet bloķēt (atspējot) slēdzi"
+
+#: includes/class-admin.php:323
+msgid "Hide categories with no cookies"
+msgstr "Paslēpt kategorijas bez sīkdatnēm"
+
+#: includes/class-admin.php:378 includes/class-consent.php:95
+msgid "No analytics cookies are used on this site."
+msgstr "Šajā vietnē netiek izmantotas analītikas sīkdatnes."
+
+#: includes/class-admin.php:379 includes/class-consent.php:96
+msgid "No marketing cookies are used on this site."
+msgstr "Šajā vietnē netiek izmantotas mārketinga sīkdatnes."
+
+#: includes/class-admin.php:380 includes/class-consent.php:97
+msgid "No preference cookies are used on this site."
+msgstr "Šajā vietnē netiek izmantotas preferenču sīkdatnes."
+
+#: includes/class-admin.php:323
+msgid "Close button label"
+msgstr "Aizvēršanas pogas nosaukums"
+
+#: includes/class-consent.php:50
+msgid "You have not made a choice yet."
+msgstr "Izvēle vēl nav izdarīta."
+
+#: includes/class-consent.php:51
+msgid "Allowed"
+msgstr "Atļauts"
+
+#: includes/class-consent.php:52
+msgid "Denied"
+msgstr "Liegts"
+
+#: includes/class-consent.php:53
+msgid "Always active"
+msgstr "Vienmēr aktīvas"
+
+#: includes/class-policy-page.php:85
+msgid "Your current cookie preferences"
+msgstr "Jūsu pašreizējā sīkdatņu izvēle"
+
+#: includes/class-policy-page.php:93
+msgid ""
+"These choices are stored technically as wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing, and wp_consent_preferences for "
+"compatibility with WordPress plugins."
+msgstr ""
+"Saderībai ar WordPress spraudņiem šīs izvēles tehniski tiek saglabātas kā "
+"wp_consent_functional, wp_consent_statistics, wp_consent_marketing un "
+"wp_consent_preferences."
+
+#: includes/class-admin.php:99
+msgid "Possibly removed"
+msgstr "Iespējams, noņemtas"
+
+#: includes/class-admin.php:100
+msgid ""
+"These cookies are still in your list, but their tracking scripts were not "
+"found on the homepage. Review and remove any that are no longer used."
+msgstr ""
+"Šīs sīkdatnes joprojām ir sarakstā, taču to izsekošanas skripti sākumlapā "
+"netika atrasti. Pārskatiet un noņemiet tās, kuras vairs netiek izmantotas."
+
+#: includes/class-admin.php:102
+#, php-format
+msgid ""
+"Remove %d cookie(s) from the list? This cannot be undone automatically."
+msgstr "Noņemt sīkdatnes (%d) no saraksta? To nevar automātiski atsaukt."
+
+#: includes/class-admin.php:103 includes/class-admin.php:1527
+msgid "Selected cookies removed from the list."
+msgstr "Atlasītās sīkdatnes ir noņemtas no saraksta."
+
+#: includes/class-admin.php:104
+msgid "Remove selected cookies"
+msgstr "Noņemt atlasītās sīkdatnes"
+
+#: includes/class-admin.php:1482
+msgid ""
+"None of the selected cookies can be removed. Run Scan Cookies again to "
+"refresh the list."
+msgstr ""
+"Nevienu no atlasītajām sīkdatnēm nevar noņemt. Lai atjauninātu sarakstu, "
+"vēlreiz palaidiet „Skenēt sīkdatnes”."
+
+#: includes/class-admin.php:791
+msgid ""
+"After scanning, cookies whose tracking scripts are no longer found on the "
+"homepage are listed under \"Possibly removed\". Review the list and use "
+"Remove selected cookies to delete entries you no longer need — nothing is "
+"removed automatically."
+msgstr ""
+"Pēc skenēšanas sīkdatnes, kuru izsekošanas skripti sākumlapā vairs netiek "
+"atrasti, tiek uzskaitītas sadaļā „Iespējams, noņemtas”. Pārskatiet sarakstu "
+"un ar pogu „Noņemt atlasītās sīkdatnes” dzēsiet ierakstus, kas vairs nav "
+"vajadzīgi – nekas netiek noņemts automātiski."
+
+#: includes/class-admin.php:797
+msgid "Current consent status"
+msgstr "Pašreizējais piekrišanas statuss"
+
+#: includes/class-admin.php:797
+msgid ""
+"The [kncc_cookie_policy] shortcode shows each category as allowed, denied, "
+"or not yet chosen above the Edit cookie preferences button. When WP Consent "
+"API is active, a note explains the technical wp_consent_* cookie names used "
+"by WordPress plugins."
+msgstr ""
+"Īskods [kncc_cookie_policy] virs pogas „Mainīt sīkdatņu izvēli” parāda "
+"katras kategorijas statusu: atļauts, liegts vai vēl nav izvēlēts. Ja ir "
+"aktīvs WP Consent API, piezīmē ir paskaidroti tehniskie sīkdatņu nosaukumi "
+"wp_consent_*, ko izmanto WordPress spraudņi."
+
+#: includes/class-admin.php:806
+msgid "WP Consent API sync"
+msgstr "WP Consent API sinhronizācija"
+
+#: includes/class-admin.php:806
+msgid ""
+"When the WP Consent API plugin is active, Kansleri automatically syncs your "
+"banner choices to wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing, and wp_consent_preferences. This lets consent-aware "
+"plugins such as Google Site Kit read the visitor's choice. Banner labels "
+"(Necessary, Analytics) map to these technical cookie names."
+msgstr ""
+"Ja ir aktīvs spraudnis WP Consent API, Kansleri automātiski sinhronizē "
+"banerī izdarīto izvēli ar wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing un wp_consent_preferences. Tas ļauj piekrišanu "
+"ievērojošiem spraudņiem, piemēram, Google Site Kit, nolasīt apmeklētāja "
+"izvēli. Banera nosaukumi (Nepieciešamās, Analītika) atbilst šiem "
+"tehniskajiem sīkdatņu nosaukumiem."
+
+#: includes/class-admin.php:939
+msgid ""
+"If wp_consent_statistics stays deny after Accept all, clear site cookies or "
+"test in a private window, hard-refresh (Ctrl+Shift+R), and confirm the WP "
+"Consent API plugin is active."
+msgstr ""
+"Ja pēc „Pieņemt visas” wp_consent_statistics paliek „deny”, notīriet vietnes "
+"sīkdatnes vai testējiet privātā logā, veiciet pilnu atsvaidzināšanu "
+"(Ctrl+Shift+R) un pārliecinieties, ka spraudnis WP Consent API ir aktīvs."
+
+#: includes/class-admin.php:746 includes/class-admin.php:854
+msgid "Advanced Consent Mode"
+msgstr "Paplašinātais Consent Mode"
+
+#: includes/class-admin.php:750
+msgid "Load Google tags before consent, with consent denied"
+msgstr "Ielādēt Google tagus pirms piekrišanas, ar liegtu piekrišanu"
+
+#: includes/class-admin.php:753
+msgid "Off (default, Basic Consent Mode): the Google tag is blocked until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies, so Google receives nothing from visitors who have not consented."
+msgstr ""
+"Izslēgts (noklusējums, pamata Consent Mode): Google tags tiek bloķēts, līdz "
+"apmeklētājs pieņem analītikas sīkdatnes, un Google Tag Manager – līdz "
+"apmeklētājs pieņem analītikas vai mārketinga sīkdatnes, tāpēc Google no "
+"apmeklētājiem, kuri nav devuši piekrišanu, neko nesaņem."
+
+#: includes/class-admin.php:756
+msgid ""
+"On (Advanced Consent Mode): the Google tag and Google Tag Manager load "
+"right away. Until the visitor accepts, they set no cookies and send Google "
+"only cookieless pings, which Google uses to model the missing data. Google "
+"Analytics and Google Ads expect this mode, and with Basic mode they can "
+"report your consent signals as not active."
+msgstr ""
+"Ieslēgts (paplašinātais Consent Mode): Google tags un Google Tag Manager "
+"tiek ielādēti uzreiz. Kamēr apmeklētājs nav piekritis, tie neiestata "
+"sīkdatnes un sūta uz Google tikai ping signālus bez sīkdatnēm, ko Google "
+"izmanto trūkstošo datu modelēšanai. Google Analytics un Google Ads sagaida "
+"šo režīmu, un pamata režīmā tie var uzrādīt jūsu piekrišanas signālus kā "
+"neaktīvus."
+
+#: includes/class-admin.php:759
+msgid "Only applies while Consent Mode v2 is enabled. Other tracking scripts on the site stay blocked until consent, also those that Google Tag Manager adds (for example a Meta Pixel or LinkedIn in a Custom HTML tag): each waits for its own category, with no changes needed in the container."
+msgstr ""
+"Darbojas tikai tad, ja ir iespējots Consent Mode v2. Citi vietnes "
+"izsekošanas skripti paliek bloķēti līdz piekrišanai, arī tie, kurus pievieno "
+"Google Tag Manager (piemēram, Meta Pixel vai LinkedIn Custom HTML tagā): "
+"katrs gaida savu kategoriju, un konteinerā nekas nav jāmaina."
+
+#: includes/class-admin.php:854
+msgid ""
+"Off by default. When on, the Google tag and Google Tag Manager load before "
+"consent instead of being blocked. Until the visitor accepts, they set no "
+"cookies and send Google only cookieless pings."
+msgstr ""
+"Pēc noklusējuma izslēgts. Ja tas ir ieslēgts, Google tags un Google Tag "
+"Manager tiek ielādēti pirms piekrišanas, nevis bloķēti. Kamēr apmeklētājs "
+"nav piekritis, tie neiestata sīkdatnes un sūta uz Google tikai ping signālus "
+"bez sīkdatnēm."
+
+#: includes/class-admin.php:863
+msgid "You can turn this off on the Script Blocking tab."
+msgstr "To var izslēgt cilnē „Skriptu bloķēšana”."
+
+#: includes/class-admin.php:1136
+msgid ""
+"Advanced Consent Mode is on (Integration tab): the Google tag and Google "
+"Tag Manager load before consent and follow the Consent Mode signals instead "
+"of being blocked."
+msgstr ""
+"Paplašinātais Consent Mode ir ieslēgts (cilne „Integrācija”): Google tags un "
+"Google Tag Manager tiek ielādēti pirms piekrišanas un ievēro Consent Mode "
+"signālus, nevis tiek bloķēti."
+
+#: includes/class-admin.php:1168
+msgid ""
+"Block YouTube and Vimeo videos until the visitor accepts marketing cookies"
+msgstr ""
+"Bloķēt YouTube un Vimeo video, līdz apmeklētājs pieņem mārketinga sīkdatnes"
+
+#: includes/class-admin.php:684
+msgid "More information"
+msgstr "Vairāk informācijas"
+
+#: includes/class-admin.php:823
+msgid "Basic Consent Mode: the Google tag waits until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies."
+msgstr ""
+"Pamata Consent Mode: Google tags gaida, līdz apmeklētājs pieņem analītikas "
+"sīkdatnes, un Google Tag Manager – līdz apmeklētājs pieņem analītikas vai "
+"mārketinga sīkdatnes."
+
+#: includes/class-admin.php:823
+msgid ""
+"Advanced Consent Mode: the Google tag and Google Tag Manager load right "
+"away with these defaults, and send only cookieless pings until the visitor "
+"accepts."
+msgstr ""
+"Paplašinātais Consent Mode: Google tags un Google Tag Manager tiek ielādēti "
+"uzreiz ar šiem noklusējumiem un, kamēr apmeklētājs nav piekritis, sūta tikai "
+"ping signālus bez sīkdatnēm."
+
+#: includes/class-scanner.php:122
+msgctxt "cookie duration"
+msgid "1 minute"
+msgstr "1 minūte"
+
+#: includes/class-scanner.php:123
+msgctxt "cookie duration"
+msgid "30 minutes"
+msgstr "30 minūtes"
+
+#: includes/class-scanner.php:124
+msgctxt "cookie duration"
+msgid "24 hours"
+msgstr "24 stundas"
+
+#: includes/class-scanner.php:125
+msgctxt "cookie duration"
+msgid "1 day"
+msgstr "1 diena"
+
+#: includes/class-scanner.php:126
+msgctxt "cookie duration"
+msgid "30 days"
+msgstr "30 dienas"
+
+#: includes/class-scanner.php:127
+msgctxt "cookie duration"
+msgid "90 days"
+msgstr "90 dienas"
+
+#: includes/class-scanner.php:128
+msgctxt "cookie duration"
+msgid "6 months"
+msgstr "6 mēneši"
+
+#: includes/class-scanner.php:129
+msgctxt "cookie duration"
+msgid "1 year"
+msgstr "1 gads"
+
+#: includes/class-scanner.php:130
+msgctxt "cookie duration"
+msgid "2 years"
+msgstr "2 gadi"
+
+#: includes/class-scanner.php:131
+msgctxt "cookie duration"
+msgid "Session"
+msgstr "Sesija"
+
+#: includes/class-scanner.php:132
+msgctxt "cookie duration"
+msgid "Varies"
+msgstr "Mainīgs"
+
+#: includes/class-scanner.php:135
+msgid "Google Analytics: stores and counts page views."
+msgstr "Google Analytics: saglabā un uzskaita lapu skatījumus."
+
+#: includes/class-scanner.php:136
+msgid "Google Analytics: distinguishes unique users."
+msgstr "Google Analytics: atšķir unikālos lietotājus."
+
+#: includes/class-scanner.php:137
+msgid "Google Analytics: distinguishes users for 24 hours."
+msgstr "Google Analytics: atšķir lietotājus 24 stundu periodā."
+
+#: includes/class-scanner.php:138
+msgid "Google Analytics: throttles request rate."
+msgstr "Google Analytics: ierobežo pieprasījumu biežumu."
+
+#: includes/class-scanner.php:139
+msgid "Google Ads: stores conversion data."
+msgstr "Google Ads: saglabā konversiju datus."
+
+#: includes/class-scanner.php:140
+msgid "Google Ads: click tracking."
+msgstr "Google Ads: klikšķu izsekošana."
+
+#: includes/class-scanner.php:141
+msgid "Google Tag Manager: throttles request rate."
+msgstr "Google Tag Manager: ierobežo pieprasījumu biežumu."
+
+#: includes/class-scanner.php:144
+msgid "Meta Pixel: tracks visits across websites for ad targeting."
+msgstr "Meta Pixel: izseko apmeklējumus dažādās vietnēs reklāmu mērķēšanai."
+
+#: includes/class-scanner.php:145
+msgid "Meta Pixel: stores click identifiers."
+msgstr "Meta Pixel: saglabā klikšķu identifikatorus."
+
+#: includes/class-scanner.php:146
+msgid "Facebook: ad delivery and measurement."
+msgstr "Facebook: reklāmu rādīšana un mērīšana."
+
+#: includes/class-scanner.php:149
+msgid "HubSpot: tracks visitor identity."
+msgstr "HubSpot: izseko apmeklētāja identitāti."
+
+#: includes/class-scanner.php:150
+msgid "HubSpot: tracks session information."
+msgstr "HubSpot: izseko sesijas informāciju."
+
+#: includes/class-scanner.php:151
+msgid "HubSpot: tracks sessions for analytics."
+msgstr "HubSpot: izseko sesijas analītikas vajadzībām."
+
+#: includes/class-scanner.php:152
+msgid "HubSpot: determines if visitor has restarted browser."
+msgstr "HubSpot: nosaka, vai apmeklētājs ir restartējis pārlūku."
+
+#: includes/class-scanner.php:153
+msgid "HubSpot: analytics and tracking."
+msgstr "HubSpot: analītika un izsekošana."
+
+#: includes/class-scanner.php:156
+msgid "LinkedIn: browser identifier for ad targeting."
+msgstr "LinkedIn: pārlūka identifikators reklāmu mērķēšanai."
+
+#: includes/class-scanner.php:157
+msgid "LinkedIn: browser identifier."
+msgstr "LinkedIn: pārlūka identifikators."
+
+#: includes/class-scanner.php:158
+msgid "LinkedIn: data centre selection."
+msgstr "LinkedIn: datu centra izvēle."
+
+#: includes/class-scanner.php:161
+msgid "WordPress: stores admin settings timestamp."
+msgstr "WordPress: saglabā administratora iestatījumu laikspiedolu."
+
+#: includes/class-scanner.php:162
+msgid "WordPress: stores admin personalisation settings."
+msgstr "WordPress: saglabā administratora personalizācijas iestatījumus."
+
+#: includes/class-scanner.php:163
+msgid "WordPress: authentication cookie for logged-in users."
+msgstr "WordPress: autentifikācijas sīkdatne pieteikušamies lietotājiem."
+
+#: includes/class-scanner.php:164
+msgid "WordPress: secure authentication cookie."
+msgstr "WordPress: drošā autentifikācijas sīkdatne."
+
+#: includes/class-scanner.php:165
+msgid "WordPress: tests if cookies are enabled."
+msgstr "WordPress: pārbauda, vai sīkdatnes ir iespējotas."
+
+#: includes/class-scanner.php:166
+msgid "WordPress: stores language preference."
+msgstr "WordPress: saglabā valodas izvēli."
+
+#: includes/class-scanner.php:167
+msgid "WordPress: remembers comment author details."
+msgstr "WordPress: atceras komentāra autora datus."
+
+#: includes/class-scanner.php:170
+msgid "WooCommerce: stores cart and session data."
+msgstr "WooCommerce: saglabā groza un sesijas datus."
+
+#: includes/class-scanner.php:171
+msgid "WooCommerce: stores customer session."
+msgstr "WooCommerce: saglabā klienta sesiju."
+
+#: includes/class-scanner.php:174
+msgid ""
+"Order attribution: keeps traffic-source tracking data compatible across "
+"updates."
+msgstr ""
+"Pasūtījumu attiecināšana: nodrošina datplūsmas avota izsekošanas datu "
+"saderību pēc atjauninājumiem."
+
+#: includes/class-scanner.php:175
+msgid ""
+"Order attribution: records how you reached the site on your current visit."
+msgstr ""
+"Pasūtījumu attiecināšana: reģistrē, kā jūs nonācāt vietnē pašreizējā "
+"apmeklējuma laikā."
+
+#: includes/class-scanner.php:176
+msgid "Order attribution: records how you first reached the site."
+msgstr "Pasūtījumu attiecināšana: reģistrē, kā jūs pirmo reizi nonācāt vietnē."
+
+#: includes/class-scanner.php:177
+msgid ""
+"Order attribution: stores the traffic source and campaign of your current "
+"visit."
+msgstr ""
+"Pasūtījumu attiecināšana: saglabā pašreizējā apmeklējuma datplūsmas avotu un "
+"kampaņu."
+
+#: includes/class-scanner.php:178
+msgid ""
+"Order attribution: stores the traffic source and campaign of your first "
+"visit."
+msgstr ""
+"Pasūtījumu attiecināšana: saglabā pirmā apmeklējuma datplūsmas avotu un "
+"kampaņu."
+
+#: includes/class-scanner.php:179
+msgid ""
+"Order attribution: stores visitor/session data used for marketing "
+"attribution."
+msgstr ""
+"Pasūtījumu attiecināšana: saglabā apmeklētāja/sesijas datus, ko izmanto "
+"mārketinga attiecināšanai."
+
+#: includes/class-scanner.php:180
+msgid "Order attribution: links page views within a visit for attribution."
+msgstr ""
+"Pasūtījumu attiecināšana: sasaista viena apmeklējuma lapu skatījumus "
+"attiecināšanai."
+
+#: includes/class-scanner.php:181
+msgid "Order attribution: tracks the marketing source of your visit."
+msgstr "Pasūtījumu attiecināšana: izseko jūsu apmeklējuma mārketinga avotu."
+
+#: includes/class-scanner.php:184
+msgid ""
+"Jetpack Stats: assigns an anonymous identifier used to measure site traffic."
+msgstr ""
+"Jetpack Stats: piešķir anonīmu identifikatoru, ko izmanto vietnes datplūsmas "
+"mērīšanai."
+
+#: includes/class-scanner.php:185
+msgid "Jetpack Stats: records referral and navigation data for analytics."
+msgstr "Jetpack Stats: reģistrē novirzīšanas un navigācijas datus analītikai."
+
+#: includes/class-scanner.php:186
+msgid "Jetpack Stats: measures site traffic and visitor activity."
+msgstr "Jetpack Stats: mēra vietnes datplūsmu un apmeklētāju aktivitāti."
+
+#: includes/class-scanner.php:189
+msgid "Polylang: stores visitor language preference."
+msgstr "Polylang: saglabā apmeklētāja valodas izvēli."
+
+#: includes/class-scanner.php:190
+msgid "MailPoet: tracks email subscriber activity."
+msgstr "MailPoet: izseko e-pasta abonentu aktivitāti."
+
+#: includes/class-scanner.php:191
+msgid "Plausible: privacy-friendly analytics."
+msgstr "Plausible: privātumu saudzējoša analītika."
+
+#: includes/class-scanner.php:194
+msgid "Cloudflare: bot management cookie."
+msgstr "Cloudflare: robotu pārvaldības sīkdatne."
+
+#: includes/class-scanner.php:195
+msgid "Cloudflare: verifies legitimate visitor."
+msgstr "Cloudflare: pārbauda, vai apmeklētājs ir īsts."
+
+#: includes/class-scanner.php:196
+msgid "Cloudflare: identifies trusted web traffic."
+msgstr "Cloudflare: identificē uzticamu tīmekļa datplūsmu."
+
+#: includes/class-scanner.php:199
+msgid "Hotjar: tracks user behaviour and feedback."
+msgstr "Hotjar: izseko lietotāju uzvedību un atsauksmes."
+
+#: includes/class-scanner.php:200
+msgid "Microsoft Clarity: stores a user ID and preferences."
+msgstr "Microsoft Clarity: saglabā lietotāja ID un izvēles."
+
+#: includes/class-scanner.php:201
+msgid "Microsoft Clarity: connects page views into a session."
+msgstr "Microsoft Clarity: apvieno lapu skatījumus vienā sesijā."
+
+#: includes/class-scanner.php:204
+msgid "Stores your cookie consent preferences."
+msgstr "Saglabā jūsu sīkdatņu piekrišanas izvēli."
+
+#: includes/class-scanner.php:205
+msgid ""
+"WP Consent API: stores your consent choice for necessary cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: saglabā jūsu piekrišanas izvēli attiecībā uz nepieciešamajām "
+"sīkdatnēm. Tiek sinhronizēta no piekrišanas banera."
+
+#: includes/class-scanner.php:206
+msgid ""
+"WP Consent API: stores your consent choice for analytics cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: saglabā jūsu piekrišanas izvēli attiecībā uz analītikas "
+"sīkdatnēm. Tiek sinhronizēta no piekrišanas banera."
+
+#: includes/class-scanner.php:207
+msgid ""
+"WP Consent API: stores your consent choice for anonymous statistics. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: saglabā jūsu piekrišanas izvēli attiecībā uz anonīmu "
+"statistiku. Tiek sinhronizēta no piekrišanas banera."
+
+#: includes/class-scanner.php:208
+msgid ""
+"WP Consent API: stores your consent choice for marketing cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: saglabā jūsu piekrišanas izvēli attiecībā uz mārketinga "
+"sīkdatnēm. Tiek sinhronizēta no piekrišanas banera."
+
+#: includes/class-scanner.php:209
+msgid ""
+"WP Consent API: stores your consent choice for preference cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: saglabā jūsu piekrišanas izvēli attiecībā uz preferenču "
+"sīkdatnēm. Tiek sinhronizēta no piekrišanas banera."
+
+#: includes/class-scanner.php:210
+msgid ""
+"WP Consent API: stores per-service consent overrides used by integrated "
+"plugins."
+msgstr ""
+"WP Consent API: saglabā atsevišķiem pakalpojumiem noteiktos piekrišanas "
+"izņēmumus, ko izmanto integrētie spraudņi."
+
+#: includes/class-scanner.php:211
+msgid ""
+"WP Consent API: stores your cookie consent choice. Synced from your consent "
+"banner."
+msgstr ""
+"WP Consent API: saglabā jūsu sīkdatņu piekrišanas izvēli. Tiek sinhronizēta "
+"no piekrišanas banera."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:195
+#, php-format
+msgid "“%s” is not a usable address. Use at least 4 characters without spaces, for example widget.example.com."
+msgstr ""
+"„%s” nav izmantojama adrese. Izmantojiet vismaz 4 rakstzīmes bez atstarpēm, "
+"piemēram, widget.example.com."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:200
+#, php-format
+msgid "“%s” would block every script on this site. Enter the address of the external service instead."
+msgstr ""
+"„%s” bloķētu visus šīs vietnes skriptus. Tā vietā ievadiet ārējā pakalpojuma "
+"adresi."
+
+#: includes/class-script-blocker.php:840
+msgid "This content is blocked because it requires analytics cookies."
+msgstr "Šis saturs ir bloķēts, jo tam nepieciešamas analītikas sīkdatnes."
+
+#: includes/class-script-blocker.php:841
+msgid "Accept analytics cookies"
+msgstr "Pieņemt analītikas sīkdatnes"
+
+#: includes/class-script-blocker.php:845
+msgid "This content is blocked because it requires preference cookies."
+msgstr "Šis saturs ir bloķēts, jo tam nepieciešamas preferenču sīkdatnes."
+
+#: includes/class-script-blocker.php:846
+msgid "Accept preference cookies"
+msgstr "Pieņemt preferenču sīkdatnes"
+
+#: includes/class-admin.php:890 includes/class-admin.php:1203
+msgid "Block by address"
+msgstr "Bloķēt pēc adreses"
+
+#: includes/class-admin.php:1213
+msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
+msgstr ""
+"Lapas HTML skripti tiek pārbaudīti tikai tad, ja ir ieslēgta opcija "
+"„Pielāgotā koda bloķēšana”."
+
+#: includes/class-admin.php:1259 includes/class-admin.php:1289
+msgid "Address contains"
+msgstr "Adrese satur"
+
+#: includes/class-admin.php:1274
+msgid "Add address"
+msgstr "Pievienot adresi"
+
+#: includes/class-admin.php:1284
+msgid "Necessary (never blocked)"
+msgstr "Nepieciešamās (nekad nebloķētas)"
+
+#: includes/class-admin.php:889
+msgid "Reviews widgets"
+msgstr "Atsauksmju logrīki"
+
+#: includes/class-admin.php:889
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgstr ""
+"Trustmary atsauksmju logrīks gaida piekrišanu analītikai, jo tas pārlūkā "
+"saglabā apmeklētāja ID. Tā vietā tiek parādīts ziņojums ar pieņemšanas pogu. "
+"Lai to ielādētu uzreiz, sadaļā „Bloķēt pēc adreses” pievienojiet "
+"widget.trustmary.com ar kategoriju „Nepieciešamās (nekad nebloķētas)”."
+
+#: includes/class-admin.php:890
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
+msgstr ""
+"Bloķē jebkuru citu skriptu pēc tā adreses daļas, līdz apmeklētājs pieņem "
+"izvēlēto kategoriju, piemēram, logrīku, ko spraudnis neatpazīst. Skriptiem, "
+"kas lapā rāda saturu, ieslēdziet „Rādīt ziņojumu”."
+
+#: includes/class-scanner.php:137
+msgctxt "cookie duration"
+msgid "Persistent"
+msgstr "Bez termiņa"
+
+#: includes/class-scanner.php:209
+msgid "Trustmary: stores a visitor ID, the landing page and conversions in the browser’s local storage."
+msgstr ""
+"Trustmary: pārlūka lokālajā krātuvē saglabā apmeklētāja ID, ieejas lapu un "
+"konversijas."
+
+#: includes/class-scanner.php:224
+msgid "Reddit Pixel: identifies the browser for ad measurement."
+msgstr "Reddit Pixel: identificē pārlūku reklāmu mērīšanai."
+
+#: includes/class-scanner.php:225
+msgid ""
+"Microsoft Advertising: groups page views into a session for ad measurement."
+msgstr ""
+"Microsoft Advertising: apvieno lapu skatījumus sesijā reklāmu mērīšanai."
+
+#: includes/class-scanner.php:226
+msgid ""
+"Microsoft Advertising: identifies the visitor across visits for ad "
+"measurement."
+msgstr ""
+"Microsoft Advertising: identificē apmeklētāju vairāku apmeklējumu laikā "
+"reklāmu mērīšanai."
+
+#: includes/class-scanner.php:227
+msgid "Criteo: stores a browser identifier for ad personalisation."
+msgstr "Criteo: saglabā pārlūka identifikatoru reklāmu personalizēšanai."
+
+#: includes/class-scanner.php:228
+msgid "Taboola: identifies the browser for ad targeting."
+msgstr "Taboola: identificē pārlūku reklāmu mērķēšanai."
+
+#: includes/class-scanner.php:229
+msgid "Klaviyo: recognises returning visitors for email marketing."
+msgstr "Klaviyo: atpazīst atgriezušos apmeklētājus e-pasta mārketingam."
+
+#: includes/class-scanner.php:230
+msgid "Yandex Metrica: identifies visitors and stores session settings."
+msgstr ""
+"Yandex Metrica: identificē apmeklētājus un saglabā sesijas iestatījumus."
+
+#: includes/class-scanner.php:231
+msgid "Segment: stores an anonymous visitor ID and traits."
+msgstr "Segment: saglabā anonīmu apmeklētāja ID un pazīmes."
+
+#: includes/class-scanner.php:232
+msgid "Intercom: keeps the chat messenger session and visitor identity."
+msgstr "Intercom: uztur tērzēšanas rīka sesiju un apmeklētāja identitāti."
+
+#: includes/class-scanner.php:233
+msgid "Crisp: keeps the chat session and visitor identity."
+msgstr "Crisp: uztur tērzēšanas sesiju un apmeklētāja identitāti."
+
+#: includes/class-admin.php
+msgid "Cookie policy link text"
+msgstr "Sīkdatņu politikas saites teksts"
+
+#: includes/class-admin.php
+msgid "Cookie settings label"
+msgstr "Sīkdatņu iestatījumu nosaukums"
+
+#: includes/class-admin.php
+msgid "Tooltip and screen reader label of the floating button, and the default text of the [kncc_cookie_settings] link."
+msgstr ""
+"Peldošās pogas rīka padoms un nosaukums ekrāna lasītājiem, kā arī "
+"[kncc_cookie_settings] saites noklusējuma teksts."
+
+#: includes/class-admin.php
+msgid "Banner label for screen readers"
+msgstr "Banera nosaukums ekrāna lasītājiem"
+
+#: includes/class-admin.php
+msgid "Cookie categories"
+msgstr "Sīkdatņu kategorijas"
+
+#: includes/class-admin.php
+msgid "Text when no cookies are used"
+msgstr "Teksts, ja sīkdatnes netiek izmantotas"
+
+#: includes/class-admin.php
+msgid "Policy page texts"
+msgstr "Politikas lapas teksti"
+
+#: includes/class-admin.php
+msgid "Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab."
+msgstr ""
+"Īskoda [kncc_cookie_policy] sīkdatņu deklarācijas teksti. Atstājiet lauku "
+"tukšu, lai izmantotu iebūvēto tekstu, kas ir pārtulkots katrā valodā. "
+"Kategoriju nosaukumi tiek rediģēti cilnē „Vispārīgi”."
+
+#: includes/class-admin.php
+msgid "Category descriptions"
+msgstr "Kategoriju apraksti"
+
+#: includes/class-admin.php
+msgid "Consent status"
+msgstr "Piekrišanas statuss"
+
+#: includes/class-admin.php
+msgid "Heading"
+msgstr "Virsraksts"
+
+#: includes/class-admin.php
+msgid "Before the visitor chooses"
+msgstr "Pirms apmeklētāja izvēles"
+
+#: includes/class-admin.php
+msgid "Technical note (shown when WP Consent API is active)"
+msgstr "Tehniska piezīme (tiek rādīta, ja ir aktīvs WP Consent API)"
+
+#: includes/class-admin.php
+msgid "Buttons and messages"
+msgstr "Pogas un ziņojumi"
+
+#: includes/class-admin.php
+msgid "Edit preferences button"
+msgstr "Poga izvēles mainīšanai"
+
+#: includes/class-admin.php
+msgid "Message when no cookies are registered"
+msgstr "Ziņojums, ja nav reģistrētu sīkdatņu"
+
+#: includes/class-admin.php
+msgid "Table column headings"
+msgstr "Tabulas kolonnu virsraksti"
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 added cookies for services that are not on your site. They have been removed from the cookie list: %s. If your site does use some of these services, put the cookies back and delete the ones it does not use."
+msgstr ""
+"Versija 1.8.10 pievienoja sīkdatnes pakalpojumiem, kuru vietnē nav. Tās ir "
+"noņemtas no sīkdatņu saraksta: %s. Ja vietne tomēr izmanto dažus no šiem "
+"pakalpojumiem, atjaunojiet sīkdatnes un dzēsiet tās, kuras vietne neizmanto."
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 may have added cookies for services that are not on your site: %s. The Google Tag Manager on your site can load any of them, so they were kept. Remove the ones your site does not use."
+msgstr ""
+"Versija 1.8.10, iespējams, pievienoja sīkdatnes pakalpojumiem, kuru vietnē "
+"nav: %s. Vietnes Google Tag Manager var ielādēt jebkuru no tiem, tāpēc tās "
+"tika saglabātas. Noņemiet tās, kuras vietne neizmanto."
+
+#: includes/class-admin.php
+msgid "Put the cookies back"
+msgstr "Atjaunot sīkdatnes"
+
+#: includes/class-admin.php
+msgid "Hide this notice"
+msgstr "Paslēpt šo paziņojumu"
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr ""
+"Tiek rādītas, kad apmeklētāji atver „Pielāgot”. Atstājiet lauku tukšu, lai "
+"izmantotu iebūvēto tekstu."
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr "Ziņojumi par bloķētu saturu"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr "YouTube & Vimeo ziņojums"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr "YouTube & Vimeo pieņemšanas poga"
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr "Analītikas satura ziņojums"
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr "Analītikas satura pieņemšanas poga"
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr "Preferenču satura ziņojums"
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr "Preferenču satura pieņemšanas poga"
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr "Saiti var pievienot arī jebkurā vietā ar īskodu:"
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr ""
+"Ieteicams. Izslēdziet tikai tad, ja kešatmiņas vai ātrdarbības spraudnis "
+"traucē vietnes darbību."
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr "Tiek bloķēti automātiski, nekas nav jāiestata."
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr "Rādīt ziņojumu"
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr "Nav atlasīta neviena sīkdatne."
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr "%s skripti sākumlapā vairs netiek atrasti"
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr ""
+"Rediģējamā valoda: %s. Saglabātās izmaiņas attiecas tikai uz šo valodu."
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr "Tiek rediģēta noklusējuma valoda. Citām valodām ir savi teksti."
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr "Priekšskatiet baneri ar pašreizējiem, vēl nesaglabātiem iestatījumiem."
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr "Tiešais priekšskatījums darbojas tikai ar spraudņa stilu."
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr "Pogas × nosaukums ekrāna lasītājiem."
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr ""
+"Aiztur jebkuru citu skriptu, līdz apmeklētājs pieņem tā kategoriju. "
+"Izmantojiet to logrīkiem un rīkiem, ko spraudnis neatpazīst."
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr ""
+"„Nepieciešamās (nekad nebloķētas)” ļauj adresei ielādēties uzreiz, pat ja "
+"spraudnis to citādi bloķētu."
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr ""
+"Rādīt ziņojumu: ja bloķētais skripts rādītu saturu (atsauksmes, rezervēšanu, "
+"karti), tukša laukuma vietā parāda ziņojumu ar pieņemšanas pogu. Izsekošanas "
+"skriptiem tas nav vajadzīgs."
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
+msgstr "atveras jaunā cilnē"

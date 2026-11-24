@@ -1,0 +1,2303 @@
+# Icelandic translation for Kansleri Cookie Consent
+# Copyright (C) 2024 Kansleri.fi
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kansleri Cookie Consent 1.8.13\n"
+"Report-Msgid-Bugs-To: https://kansleri.fi\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
+"PO-Revision-Date: 2026-11-03 12:00+0200\n"
+"Last-Translator: Kansleri.fi\n"
+"Language-Team: Icelandic\n"
+"Language: is_IS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n%10!=1 || n%100==11);\n"
+
+#: includes/class-admin.php:20 includes/class-admin.php:21
+#: includes/class-admin.php:122
+msgid "Cookie Consent"
+msgstr "Vafrakökusamþykki"
+
+#: includes/class-admin.php:67 includes/class-admin.php:1228
+msgid "Settings saved."
+msgstr "Stillingar vistaðar."
+
+#: includes/class-admin.php:68
+msgid "An error occurred."
+msgstr "Villa kom upp."
+
+#: includes/class-admin.php:69
+msgid "Scanning..."
+msgstr "Skannar…"
+
+#: includes/class-admin.php:70
+msgid "Scan complete."
+msgstr "Skönnun lokið."
+
+#: includes/class-admin.php:71
+msgid "No new cookies found."
+msgstr "Engar nýjar vafrakökur fundust."
+
+#: includes/class-admin.php:72
+msgid "Remove this cookie?"
+msgstr "Fjarlægja þessa vafraköku?"
+
+#: includes/class-admin.php:73 includes/class-admin.php:414
+#: includes/class-admin.php:698
+msgid "Scan Cookies"
+msgstr "Skanna vafrakökur"
+
+#: includes/class-admin.php:74
+msgid "Invalid JSON format. Please import a valid cookie array."
+msgstr "Ógilt JSON-snið. Flyttu inn gilt fylki af vafrakökum."
+
+#: includes/class-admin.php:75
+msgid "Cookies imported into the table. Save cookies to persist changes."
+msgstr ""
+"Vafrakökur fluttar inn í töfluna. Vistaðu vafrakökurnar svo breytingarnar "
+"haldist."
+
+#: includes/class-admin.php:76
+msgid "No valid cookies found in imported JSON."
+msgstr "Engar gildar vafrakökur fundust í innflutta JSON-kóðanum."
+
+#: includes/class-admin.php:77
+msgid "No cookie rows available to export."
+msgstr "Engar línur með vafrakökum til að flytja út."
+
+#: includes/class-admin.php:78
+msgid "AI prompt copied to clipboard."
+msgstr "Gervigreindarfyrirmæli afrituð á klippiborð."
+
+#: includes/class-admin.php:79
+msgid ""
+"Could not copy prompt automatically. Select all and copy from the box below."
+msgstr ""
+"Ekki tókst að afrita fyrirmælin sjálfkrafa. Veldu allt og afritaðu úr "
+"reitnum hér fyrir neðan."
+
+#: includes/class-admin.php:81
+msgid "AI prompt (copied to clipboard — or select all and copy manually):"
+msgstr ""
+"Gervigreindarfyrirmæli (afrituð á klippiborð – eða veldu allt og afritaðu "
+"handvirkt):"
+
+#: includes/class-admin.php:82
+msgid ""
+"Policy page AI prompt (copied to clipboard — or select all and copy "
+"manually):"
+msgstr ""
+"Gervigreindarfyrirmæli fyrir stefnusíðu (afrituð á klippiborð – eða veldu "
+"allt og afritaðu handvirkt):"
+
+#: includes/class-admin.php:83
+msgid ""
+"Prompt ready below — select all (Ctrl+A) inside the box and copy (Ctrl+C)."
+msgstr ""
+"Fyrirmælin eru tilbúin hér fyrir neðan – veldu allt (Ctrl+A) í reitnum og "
+"afritaðu (Ctrl+C)."
+
+#: includes/class-admin.php:80
+msgid "All cookies are done! Every cookie has a description."
+msgstr "Allar vafrakökur eru klárar! Hver vafrakaka hefur lýsingu."
+
+#: includes/class-admin.php:81 includes/class-admin.php:457
+msgid "No cookies registered yet."
+msgstr "Engar vafrakökur skráðar enn."
+
+#: includes/class-admin.php:82 includes/class-admin.php:473
+msgid "Remove"
+msgstr "Fjarlægja"
+
+#: includes/class-admin.php:83
+msgid ""
+"This will permanently delete all consent log records and statistics. "
+"Continue?"
+msgstr ""
+"Þetta eyðir varanlega öllum færslum í samþykkisskrá og allri tölfræði. Halda "
+"áfram?"
+
+#: includes/class-admin.php:84 includes/class-admin.php:1150
+msgid "All consent log records and statistics have been purged."
+msgstr "Öllum færslum í samþykkisskrá og allri tölfræði hefur verið eytt."
+
+#: includes/class-admin.php:85
+msgid "AI prompt for policy page copied to clipboard."
+msgstr "Gervigreindarfyrirmæli fyrir stefnusíðu afrituð á klippiborð."
+
+#: includes/class-admin.php:86
+msgid "CSS template copied to clipboard."
+msgstr "CSS-sniðmát afritað á klippiborð."
+
+#: includes/class-admin.php:88
+#, php-format
+msgid "%d known cookie(s) added automatically:"
+msgstr "Þekktum vafrakökum bætt við sjálfkrafa (%d):"
+
+#: includes/class-admin.php:90
+#, php-format
+msgid ""
+"%d unknown cookie(s) added — please set their category and description "
+"below."
+msgstr ""
+"Óþekktum vafrakökum bætt við (%d) – stilltu flokk og lýsingu þeirra hér "
+"fyrir neðan."
+
+#: includes/class-admin.php:91
+msgid "Unknown"
+msgstr "Óþekktar"
+
+#: includes/class-admin.php:92
+msgid "Added — categorize and describe in the table below"
+msgstr "Bætt við – flokkaðu og lýstu í töflunni hér fyrir neðan"
+
+#: includes/class-admin.php:94
+#, php-format
+msgid "%d cookie(s) inferred from detected scripts on your site:"
+msgstr ""
+"Vafrakökur sem búist er við út frá skriftum sem fundust á vefnum þínum (%d):"
+
+#: includes/class-admin.php:95
+msgid ""
+"These cookies are expected from tracking scripts on your site, even when "
+"blocked until consent."
+msgstr ""
+"Búist er við þessum vafrakökum frá rakningarskriftum á vefnum þínum, jafnvel "
+"þótt þeim sé lokað þar til samþykki fæst."
+
+#: includes/class-admin.php:97
+#, php-format
+msgid ""
+"%d browser cookie(s) skipped — found in your browser but no matching script "
+"on this site:"
+msgstr ""
+"Vafrakökum úr vafranum sleppt (%d) – fundust í vafranum þínum en engin "
+"samsvarandi skrifta er á þessum vef:"
+
+#: includes/class-admin.php:481
+msgid ""
+"%d cookie was automatically added based on tracking scripts detected on your"
+" site."
+msgid_plural ""
+"%d cookies were automatically added based on tracking scripts detected on "
+"your site."
+msgstr[0] ""
+"%d vafraköku var bætt sjálfkrafa við út frá rakningarskriftum sem fundust á "
+"vefnum þínum."
+msgstr[1] ""
+"%d vafrakökum var bætt sjálfkrafa við út frá rakningarskriftum sem fundust á "
+"vefnum þínum."
+
+#: includes/class-admin.php:128
+msgid "General"
+msgstr "Almennt"
+
+#: includes/class-admin.php:131 kansleri-cookie-consent.php:571
+msgid "Cookies"
+msgstr "Vafrakökur"
+
+#: includes/class-admin.php:134
+msgid "Policy Page"
+msgstr "Stefnusíða"
+
+#: includes/class-admin.php:137
+msgid "Integration"
+msgstr "Samþætting"
+
+#: includes/class-admin.php:140
+msgid "Script Blocking"
+msgstr "Lokun skrifta"
+
+#: includes/class-admin.php:143
+msgid "Statistics"
+msgstr "Tölfræði"
+
+#: includes/class-admin.php:146
+msgid "Documentations"
+msgstr "Leiðbeiningar"
+
+#: includes/class-admin.php:210
+msgid "Open banner preview"
+msgstr "Opna forskoðun borða"
+
+#: includes/class-admin.php:222 includes/class-admin.php:689
+msgid "Banner style"
+msgstr "Stíll borða"
+
+#: includes/class-admin.php:225
+msgid "Bottom bar"
+msgstr "Stika neðst"
+
+#: includes/class-admin.php:226
+msgid "Centered modal"
+msgstr "Gluggi fyrir miðju"
+
+#: includes/class-admin.php:227
+msgid "Corner popup"
+msgstr "Sprettigluggi í horni"
+
+#: includes/class-admin.php:233
+msgid "Colors"
+msgstr "Litir"
+
+#: includes/class-admin.php:237
+msgid "Banner background"
+msgstr "Bakgrunnur borða"
+
+#: includes/class-admin.php:238 includes/class-admin.php:275
+msgid "Heading text"
+msgstr "Texti fyrirsagnar"
+
+#: includes/class-admin.php:239
+msgid "Body text"
+msgstr "Meginmál"
+
+#: includes/class-admin.php:240
+msgid "Primary button"
+msgstr "Aðalhnappur"
+
+#: includes/class-admin.php:241
+msgid "Primary button text"
+msgstr "Texti á aðalhnappi"
+
+#: includes/class-admin.php:242
+msgid "Secondary button"
+msgstr "Aukahnappur"
+
+#: includes/class-admin.php:243
+msgid "Secondary button text"
+msgstr "Texti á aukahnappi"
+
+#: includes/class-admin.php:265 includes/class-admin.php:691
+msgid "Text and font style"
+msgstr "Texti og leturstíll"
+
+#: includes/class-admin.php:268 includes/class-admin.php:521
+msgid "Theme style (inherit site typography)"
+msgstr "Þemastíll (erfir leturgerð vefsins)"
+
+#: includes/class-admin.php:269 includes/class-admin.php:522
+msgid "Plugin style (strict font sizes/colors)"
+msgstr "Viðbótarstíll (fastar leturstærðir/litir)"
+
+#: includes/class-admin.php:281
+msgid "Description text"
+msgstr "Lýsingartexti"
+
+#: includes/class-admin.php:287
+msgid "Accept button text"
+msgstr "Texti á samþykkishnappi"
+
+#: includes/class-admin.php:291
+msgid "Reject button text"
+msgstr "Texti á höfnunarhnappi"
+
+#: includes/class-admin.php:295
+msgid "Customize button text"
+msgstr "Texti á hnappnum Sérsníða"
+
+#: includes/class-admin.php:299
+msgid "Save preferences button text"
+msgstr "Texti á hnappnum Vista kjörstillingar"
+
+#: includes/class-admin.php:303 includes/class-script-blocker.php:187
+msgid "This content is blocked because it requires marketing cookies."
+msgstr ""
+"Þessu efni er lokað vegna þess að það þarf vafrakökur fyrir markaðssetningu."
+
+#: includes/class-admin.php:304 includes/class-script-blocker.php:190
+msgid "Accept marketing cookies"
+msgstr "Samþykkja vafrakökur fyrir markaðssetningu"
+
+#: includes/class-admin.php:318 includes/class-admin.php:693
+msgid "Floating settings button"
+msgstr "Fljótandi stillingahnappur"
+
+#: includes/class-admin.php:322
+msgid ""
+"Show a small floating button so visitors can re-open their cookie "
+"preferences"
+msgstr ""
+"Sýna lítinn fljótandi hnapp svo gestir geti opnað kjörstillingar fyrir "
+"vafrakökur aftur"
+
+#: includes/class-admin.php:329
+msgid "Copied!"
+msgstr "Afritað!"
+
+#: includes/class-admin.php:329 includes/class-admin.php:330
+msgid "Copy"
+msgstr "Afrita"
+
+#: includes/class-admin.php:346 includes/class-admin.php:531
+#: includes/class-admin.php:664
+msgid "Save Settings"
+msgstr "Vista stillingar"
+
+#: includes/class-admin.php:370
+msgid "Banner preview"
+msgstr "Forskoðun borða"
+
+#: includes/class-admin.php:415
+msgid "Add Cookie"
+msgstr "Bæta við vafraköku"
+
+#: includes/class-admin.php:419
+msgid "Need help describing these cookies?"
+msgstr "Þarftu aðstoð við að lýsa þessum vafrakökum?"
+
+#: includes/class-admin.php:421
+msgid ""
+"Click the button below to copy a ready-made AI prompt with your cookie data."
+msgstr ""
+"Smelltu á hnappinn hér fyrir neðan til að afrita tilbúin "
+"gervigreindarfyrirmæli með gögnum um vafrakökurnar þínar."
+
+#: includes/class-admin.php:422
+msgid "Paste the prompt into an AI tool (ChatGPT, Claude, Gemini, etc.)."
+msgstr ""
+"Límdu fyrirmælin í gervigreindartól (ChatGPT, Claude, Gemini o.s.frv.)."
+
+#: includes/class-admin.php:423
+msgid "The AI will return improved JSON with clear cookie descriptions."
+msgstr ""
+"Gervigreindin skilar endurbættu JSON með skýrum lýsingum á vafrakökunum."
+
+#: includes/class-admin.php:424
+msgid ""
+"Copy the AI response and paste it into the text box that appears below."
+msgstr ""
+"Afritaðu svar gervigreindarinnar og límdu það í textareitinn sem birtist hér "
+"fyrir neðan."
+
+#: includes/class-admin.php:425
+msgid "Click Import — cookies are saved automatically."
+msgstr "Smelltu á Flytja inn – vafrakökurnar vistast sjálfkrafa."
+
+#: includes/class-admin.php:429
+msgid "Copy AI Prompt to Clipboard"
+msgstr "Afrita gervigreindarfyrirmæli á klippiborð"
+
+#: includes/class-admin.php:433
+msgid "Paste the AI response here:"
+msgstr "Límdu svar gervigreindarinnar hér:"
+
+#: includes/class-admin.php:434
+msgid "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+msgstr "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+
+#: includes/class-admin.php:436
+msgid "Import"
+msgstr "Flytja inn"
+
+#: includes/class-admin.php:447
+msgid "Name"
+msgstr "Heiti"
+
+#: includes/class-admin.php:448 includes/class-admin.php:989
+msgid "Category"
+msgstr "Flokkur"
+
+#: includes/class-admin.php:449 includes/class-policy-page.php:91
+#: includes/class-policy-page.php:100
+msgid "Provider"
+msgstr "Veitandi"
+
+#: includes/class-admin.php:450 includes/class-policy-page.php:93
+#: includes/class-policy-page.php:102
+msgid "Duration"
+msgstr "Gildistími"
+
+#: includes/class-admin.php:451
+msgid "Description"
+msgstr "Lýsing"
+
+#: includes/class-admin.php:464 kansleri-cookie-consent.php:335
+msgid "Necessary"
+msgstr "Nauðsynlegt"
+
+#: includes/class-admin.php:465 kansleri-cookie-consent.php:339
+msgid "Analytics"
+msgstr "Tölfræði"
+
+#: includes/class-admin.php:466 kansleri-cookie-consent.php:343
+msgid "Marketing"
+msgstr "Markaðssetning"
+
+#: includes/class-admin.php:467 kansleri-cookie-consent.php:347
+msgid "Preferences"
+msgstr "Kjörstillingar"
+
+#: includes/class-admin.php:480 includes/class-admin.php:700
+msgid "Save Cookies"
+msgstr "Vista vafrakökur"
+
+#: includes/class-admin.php:494
+msgid ""
+"No cookie policy page has been selected. Set a Privacy Policy page in "
+"Settings → Privacy, or choose a page below."
+msgstr ""
+"Engin síða fyrir vafrakökustefnu hefur verið valin. Veldu persónuverndarsíðu "
+"í Stillingar → Persónuvernd, eða veldu síðu hér fyrir neðan."
+
+#: includes/class-admin.php:502 includes/class-admin.php:705
+msgid "Cookie policy page"
+msgstr "Síða fyrir vafrakökustefnu"
+
+#: includes/class-admin.php:505
+msgid "— Select a page —"
+msgstr "— Veldu síðu —"
+
+#: includes/class-admin.php:510
+#, php-format
+msgid "%s (WordPress Privacy Policy)"
+msgstr "%s (persónuverndarstefna WordPress)"
+
+#: includes/class-admin.php:513
+msgid ""
+"Defaults automatically to the WordPress Privacy Policy page (Settings → "
+"Privacy). Add the shortcode [kncc_cookie_policy] to that page to show the "
+"cookie declaration."
+msgstr ""
+"Sjálfgefið er persónuverndarsíða WordPress notuð (Stillingar → "
+"Persónuvernd). Bættu stuttkóðanum [kncc_cookie_policy] við þá síðu til að "
+"birta yfirlýsingu um vafrakökur."
+
+#: includes/class-admin.php:518
+msgid "Policy page style"
+msgstr "Stíll stefnusíðu"
+
+#: includes/class-admin.php:525
+msgid ""
+"Controls the styling of the [kncc_cookie_policy] cookie declaration table."
+msgstr ""
+"Stjórnar útliti töflunnar [kncc_cookie_policy] með yfirlýsingu um vafrakökur."
+
+#: includes/class-admin.php:628
+msgid ""
+"Theme style is the default so the policy page matches your site typography. "
+"Switch to Plugin style for strict plugin sizes and colors."
+msgstr ""
+"Þemastíll er sjálfgefinn svo stefnusíðan passi við leturgerð vefsins. Skiptu "
+"yfir í viðbótarstíl til að fá fastar stærðir og liti viðbótarinnar."
+
+#: includes/class-admin.php:539
+msgid "Preview Policy Page"
+msgstr "Forskoða stefnusíðu"
+
+#: includes/class-admin.php:546
+msgid "Generate cookie policy page content with AI"
+msgstr "Búa til efni síðu um vafrakökustefnu með gervigreind"
+
+#: includes/class-admin.php:548
+msgid ""
+"Copy the prompt below and paste it into an AI tool. It will generate a "
+"complete cookie and privacy policy page in your site language. The cookie "
+"declaration will be handled automatically by the [kncc_cookie_policy] "
+"shortcode. Paste the generated HTML into your policy page."
+msgstr ""
+"Afritaðu fyrirmælin hér fyrir neðan og límdu þau í gervigreindartól. Það býr "
+"til heila síðu með vafrakökustefnu og persónuverndarstefnu á tungumáli "
+"vefsins. Stuttkóðinn [kncc_cookie_policy] sér sjálfkrafa um yfirlýsinguna um "
+"vafrakökur. Límdu HTML-kóðann sem verður til á stefnusíðuna þína."
+
+#: includes/class-admin.php:552
+msgid "Copy AI Prompt for Policy Page"
+msgstr "Afrita gervigreindarfyrirmæli fyrir stefnusíðu"
+
+#: includes/class-admin.php:565
+msgid "Detected integrations"
+msgstr "Greindar samþættingar"
+
+#: includes/class-admin.php:692
+msgid ""
+"Active — Site Kit sets consent defaults for its own regions. This plugin "
+"sets a denied default for all other visitors and sends consent updates."
+msgstr ""
+"Virkt – Site Kit stillir sjálfgefið samþykki fyrir sín eigin svæði. Þessi "
+"viðbót stillir sjálfgefna höfnun fyrir alla aðra gesti og sendir uppfærslur "
+"á samþykki."
+
+#: includes/class-admin.php:575
+msgid ""
+"Active — Site Kit consent mode not enabled. This plugin handles all consent "
+"signals."
+msgstr ""
+"Virkt – Consent Mode í Site Kit er ekki virkt. Þessi viðbót sér um öll "
+"samþykkisboð."
+
+#: includes/class-admin.php:586
+msgid ""
+"Active — consent status is shared with other plugins via the WP Consent API."
+msgstr ""
+"Virkt – stöðu samþykkis er deilt með öðrum viðbótum í gegnum WP Consent API."
+
+#: includes/class-admin.php:598 includes/class-admin.php:712
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: includes/class-admin.php:602
+msgid ""
+"Enable Consent Mode v2 (outputs consent defaults in &lt;head&gt; before GTM)"
+msgstr ""
+"Virkja Consent Mode v2 (setur sjálfgefin samþykkisgildi í &lt;head&gt; á "
+"undan GTM)"
+
+#: includes/class-admin.php:610
+msgid ""
+"Forced on because Google Site Kit is active. Consent Mode is required for "
+"Site Kit to receive consent signals."
+msgstr ""
+"Alltaf kveikt vegna þess að Google Site Kit er virkt. Consent Mode er "
+"nauðsynlegt til að Site Kit fái samþykkisboð."
+
+#: includes/class-admin.php:614
+msgid ""
+"Consent Mode tells Google tags what the visitor has allowed (for example "
+"analytics or ads). This plugin sends a denied-by-default signal before tags "
+"run, and sends an updated signal after the visitor chooses. It controls "
+"consent signals only: you still need to install GTM/GA scripts separately."
+msgstr ""
+"Consent Mode segir Google-merkjum hvað gesturinn hefur leyft (til dæmis "
+"tölfræði eða auglýsingar). Þessi viðbót sendir boð um sjálfgefna höfnun áður "
+"en merkin keyra, og uppfærð boð eftir að gesturinn hefur valið. Hún stjórnar "
+"aðeins samþykkisboðum: þú þarft samt að setja upp GTM/GA-skriftur "
+"sérstaklega."
+
+#: includes/class-admin.php:740
+msgid ""
+"Site Kit sets consent defaults for its own regions. This plugin adds a "
+"denied default for all other visitors and sends each visitor's choice as a "
+"consent update."
+msgstr ""
+"Site Kit stillir sjálfgefið samþykki fyrir sín eigin svæði. Þessi viðbót "
+"bætir við sjálfgefinni höfnun fyrir alla aðra gesti og sendir val hvers "
+"gests sem uppfærslu á samþykki."
+
+#: includes/class-admin.php:630
+msgid "Need Google Analytics 4 or Google Tag Manager?"
+msgstr "Þarftu Google Analytics 4 eða Google Tag Manager?"
+
+#: includes/class-admin.php:633
+msgid ""
+"We recommend installing Google Site Kit — Google's official WordPress "
+"plugin. It sets up GA4 and GTM in a few clicks, and works seamlessly with "
+"Kansleri Cookie Consent: Consent Mode v2 signals are handled automatically, "
+"with no double-loading or conflicts."
+msgstr ""
+"Við mælum með Google Site Kit – opinberu WordPress-viðbótinni frá Google. "
+"Hún setur upp GA4 og GTM með nokkrum smellum og vinnur hnökralaust með "
+"Kansleri Cookie Consent: séð er sjálfkrafa um boð Consent Mode v2, án "
+"tvöfaldrar hleðslu eða árekstra."
+
+#: includes/class-admin.php:638
+msgid "Install Google Site Kit"
+msgstr "Setja upp Google Site Kit"
+
+#: includes/class-admin.php:649
+msgid "Consent Mode defaults (auto-injected in &lt;head&gt;)"
+msgstr "Sjálfgefin gildi Consent Mode (sett sjálfkrafa í &lt;head&gt;)"
+
+#: includes/class-admin.php:673
+msgid "Installation guide"
+msgstr "Uppsetningarleiðbeiningar"
+
+#: includes/class-admin.php:675
+msgid "Activate the plugin and open Settings > Cookie Consent."
+msgstr "Virkjaðu viðbótina og opnaðu Stillingar > Vafrakökusamþykki."
+
+#: includes/class-admin.php:676
+msgid "Configure banner texts, style, and button labels in the General tab."
+msgstr "Stilltu texta borðans, stíl og texta hnappa á flipanum Almennt."
+
+#: includes/class-admin.php:677
+msgid ""
+"Open the Integration tab and enable Google Consent Mode v2 if you use "
+"GTM/Google tags."
+msgstr ""
+"Opnaðu flipann Samþætting og virkjaðu Google Consent Mode v2 ef þú notar "
+"GTM/Google-merki."
+
+#: includes/class-admin.php:678
+msgid ""
+"Open the Cookies tab, run Scan Cookies, then review and categorize unknown "
+"cookies."
+msgstr ""
+"Opnaðu flipann Vafrakökur, keyrðu Skanna vafrakökur og farðu svo yfir og "
+"flokkaðu óþekktar vafrakökur."
+
+#: includes/class-admin.php:679
+msgid ""
+"If unknown cookies are found, an AI helper appears: copy the prompt, paste "
+"it into an AI tool, paste the response back into the text box, click Import,"
+" then Save Cookies."
+msgstr ""
+"Ef óþekktar vafrakökur finnast birtist gervigreindaraðstoð: afritaðu "
+"fyrirmælin, límdu þau í gervigreindartól, límdu svarið aftur í textareitinn, "
+"smelltu á Flytja inn og svo á Vista vafrakökur."
+
+#: includes/class-admin.php:680
+msgid ""
+"Confirm the Cookie Policy page in the Policy Page tab — it defaults to the "
+"WordPress Privacy Policy page."
+msgstr ""
+"Staðfestu síðuna fyrir vafrakökustefnu á flipanum Stefnusíða – sjálfgefið er "
+"persónuverndarsíða WordPress notuð."
+
+#: includes/class-admin.php:681
+msgid ""
+"Use the AI prompt on the Policy Page tab to generate the full cookie policy "
+"page content. Paste the generated HTML into your policy page."
+msgstr ""
+"Notaðu gervigreindarfyrirmælin á flipanum Stefnusíða til að búa til allt "
+"efni síðunnar um vafrakökustefnu. Límdu HTML-kóðann sem verður til á "
+"stefnusíðuna þína."
+
+#: includes/class-admin.php:682
+msgid "Review the Script Blocking tab to see which scripts are auto-blocked."
+msgstr ""
+"Skoðaðu flipann Lokun skrifta til að sjá hvaða skriftum er lokað sjálfkrafa."
+
+#: includes/class-admin.php:685
+msgid "What each option means"
+msgstr "Hvað hver valkostur þýðir"
+
+#: includes/class-admin.php:687
+msgid "General tab"
+msgstr "Flipinn Almennt"
+
+#: includes/class-admin.php:689
+msgid "Choose visual placement of the banner (bar, modal, corner)."
+msgstr "Veldu staðsetningu borðans á skjánum (stika, gluggi, horn)."
+
+#: includes/class-admin.php:690
+msgid "Controls the main accent color used by buttons and links."
+msgstr "Stjórnar aðaláherslulitnum sem hnappar og tenglar nota."
+
+#: includes/class-admin.php:690
+msgid "Primary color"
+msgstr "Aðallitur"
+
+#: includes/class-admin.php:691
+msgid ""
+"Theme style inherits site typography. Plugin style uses strict sizes/colors "
+"for consistent readability."
+msgstr ""
+"Þemastíll erfir leturgerð vefsins. Viðbótarstíll notar fastar stærðir/liti "
+"til að tryggja jafnan læsileika."
+
+#: includes/class-admin.php:692
+msgid "Customize visible wording in the consent banner."
+msgstr "Sérsníddu sýnilegt orðalag í samþykkisborðanum."
+
+#: includes/class-admin.php:692
+msgid "Heading/Description/Button texts"
+msgstr "Textar fyrirsagnar/lýsingar/hnappa"
+
+#: includes/class-admin.php:693
+msgid "Lets visitors re-open cookie settings after they close the banner."
+msgstr ""
+"Gerir gestum kleift að opna stillingar fyrir vafrakökur aftur eftir að þeir "
+"loka borðanum."
+
+#: includes/class-admin.php:696
+msgid "Cookies tab"
+msgstr "Flipinn Vafrakökur"
+
+#: includes/class-admin.php:777
+msgid ""
+"Scans browser cookies and infers expected cookies from tracking scripts on "
+"your site (even when blocked until consent). Known cookies are auto-mapped "
+"to categories."
+msgstr ""
+"Skannar vafrakökur í vafranum og ályktar um væntanlegar vafrakökur út frá "
+"rakningarskriftum á vefnum þínum (jafnvel þegar þeim er lokað þar til "
+"samþykki fæst). Þekktar vafrakökur eru sjálfkrafa flokkaðar."
+
+#: includes/class-admin.php:699
+msgid "AI Helper"
+msgstr "Gervigreindaraðstoð"
+
+#: includes/class-admin.php:699
+msgid ""
+"Appears after scanning when unknown cookies are found. Copies a ready prompt"
+" to paste into an AI tool. After the AI responds, paste the JSON back into "
+"the text box and click Import."
+msgstr ""
+"Birtist eftir skönnun þegar óþekktar vafrakökur finnast. Afritar tilbúin "
+"fyrirmæli til að líma í gervigreindartól. Þegar gervigreindin hefur svarað "
+"skaltu líma JSON-kóðann aftur í textareitinn og smella á Flytja inn."
+
+#: includes/class-admin.php:700
+msgid ""
+"Persists current cookie table values to be used in policy output and consent"
+" details."
+msgstr ""
+"Vistar núverandi gildi vafrakökutöflunnar til notkunar í stefnuúttaki og "
+"upplýsingum um samþykki."
+
+#: includes/class-admin.php:703
+msgid "Policy Page tab"
+msgstr "Flipinn Stefnusíða"
+
+#: includes/class-admin.php:705
+msgid ""
+"Selects which page is used for cookie policy content generated by shortcode."
+msgstr ""
+"Velur hvaða síða er notuð fyrir efni vafrakökustefnu sem stuttkóðinn býr til."
+
+#: includes/class-admin.php:706
+msgid "AI Prompt for Policy Page"
+msgstr "Gervigreindarfyrirmæli fyrir stefnusíðu"
+
+#: includes/class-admin.php:706
+msgid ""
+"Generates a prompt you can paste into an AI tool to create a full privacy "
+"and cookie policy. The generated text will include the [kncc_cookie_policy] "
+"shortcode for the cookie declaration section."
+msgstr ""
+"Býr til fyrirmæli sem þú getur límt í gervigreindartól til að semja heila "
+"persónuverndar- og vafrakökustefnu. Textinn sem verður til inniheldur "
+"stuttkóðann [kncc_cookie_policy] fyrir kaflann með yfirlýsingu um vafrakökur."
+
+#: includes/class-admin.php:707
+msgid ""
+"If Polylang or WPML is active, each language can have its own translated "
+"policy page. If a translation is missing for some language, the default-"
+"language policy page is used as a fallback."
+msgstr ""
+"Ef Polylang eða WPML er virkt getur hvert tungumál haft sína eigin þýddu "
+"stefnusíðu. Ef þýðingu vantar fyrir eitthvert tungumál er stefnusíða "
+"sjálfgefna tungumálsins notuð í staðinn."
+
+#: includes/class-admin.php:707
+msgid "Multilingual support"
+msgstr "Stuðningur við mörg tungumál"
+
+#: includes/class-admin.php:710
+msgid "Integration tab"
+msgstr "Flipinn Samþætting"
+
+#: includes/class-admin.php:712
+msgid ""
+"A Google framework for privacy-safe tag behavior. Before consent, storage "
+"signals are denied; after user choice, signals are updated (for example "
+"analytics_storage=granted). This helps GTM/Google tags respect user consent "
+"state."
+msgstr ""
+"Rammi frá Google sem lætur merki virða persónuvernd. Fyrir samþykki er "
+"geymsluboðum hafnað; eftir val notandans eru boðin uppfærð (til dæmis "
+"analytics_storage=granted). Þetta hjálpar GTM/Google-merkjum að virða stöðu "
+"samþykkis hjá notandanum."
+
+#: includes/class-admin.php:713
+msgid "GTM Container ID"
+msgstr "Auðkenni GTM-gáms"
+
+#: includes/class-admin.php:713
+msgid ""
+"Your GTM container identifier (for example GTM-N6828NL). It identifies which"
+" tag container your site uses. This field is informational in this plugin "
+"and does not inject GTM scripts."
+msgstr ""
+"Auðkenni GTM-gámsins þíns (til dæmis GTM-N6828NL). Það segir til um hvaða "
+"merkjagám vefurinn þinn notar. Þessi reitur er aðeins til upplýsinga í "
+"viðbótinni og setur ekki inn GTM-skriftur."
+
+#: includes/class-admin.php:716
+msgid "Script Blocking tab"
+msgstr "Flipinn Lokun skrifta"
+
+#: includes/class-admin.php:798
+msgid ""
+"Tools like Google Analytics are blocked automatically when added through "
+"WordPress plugins (e.g. Google Site Kit)."
+msgstr ""
+"Tólum eins og Google Analytics er lokað sjálfkrafa þegar þeim er bætt við "
+"með WordPress-viðbótum (t.d. Google Site Kit)."
+
+#: includes/class-admin.php:799 includes/class-admin.php:1071
+msgid "Custom Code blocking"
+msgstr "Lokun sérsniðins kóða"
+
+#: includes/class-admin.php:799
+msgid ""
+"Stops tracking pasted into Bricks, Elementor, or similar Custom Code fields "
+"until the visitor gives consent."
+msgstr ""
+"Stöðvar rakningu sem límd er í reiti fyrir sérsniðinn kóða í Bricks, "
+"Elementor eða sambærilegu þar til gesturinn gefur samþykki."
+
+#: includes/class-admin.php:719
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
+msgstr ""
+"Innfelldum myndböndum frá YouTube og Vimeo er lokað sjálfkrafa þar til "
+"gesturinn samþykkir vafrakökur fyrir markaðssetningu. Í staðinn birtast "
+"skilaboð með samþykkishnappi. Hafi gesturinn þegar gefið samþykki hlaðast "
+"myndböndin eðlilega."
+
+#: includes/class-admin.php:719
+msgid "YouTube & Vimeo iframe blocking"
+msgstr "Lokun iframe-ramma frá YouTube & Vimeo"
+
+#: includes/class-admin.php:722
+msgid "Statistics tab"
+msgstr "Flipinn Tölfræði"
+
+#: includes/class-admin.php:724
+msgid "Consent statistics"
+msgstr "Tölfræði um samþykki"
+
+#: includes/class-admin.php:724
+msgid ""
+"Shows how many visitors accepted, rejected, or customized cookies over 7, "
+"30, or 90 day periods. Data is aggregated and anonymous — no personal data "
+"is stored."
+msgstr ""
+"Sýnir hve margir gestir samþykktu, höfnuðu eða sérsniðu vafrakökur á 7, 30 "
+"eða 90 daga tímabilum. Gögnin eru samantekin og nafnlaus – engar "
+"persónuupplýsingar eru vistaðar."
+
+#: includes/class-admin.php:725 includes/class-admin.php:1022
+msgid "Consent Log"
+msgstr "Samþykkisskrá"
+
+#: includes/class-admin.php:725
+msgid ""
+"Individual anonymized consent records for GDPR audit compliance. Records "
+"contain a hashed visitor identifier, the consent choice, accepted "
+"categories, and the policy version. Records are automatically purged after "
+"13 months."
+msgstr ""
+"Einstakar nafnlausar færslur um samþykki vegna úttekta samkvæmt GDPR. "
+"Færslurnar innihalda tætt auðkenni gests, valið um samþykki, samþykkta "
+"flokka og útgáfu stefnunnar. Færslum er eytt sjálfkrafa eftir 13 mánuði."
+
+#: includes/class-admin.php:726
+msgid "Downloads all consent log records as a CSV file for auditing."
+msgstr "Sækir allar færslur samþykkisskrárinnar sem CSV-skrá til úttektar."
+
+#: includes/class-admin.php:726 includes/class-admin.php:1038
+msgid "Export CSV"
+msgstr "Flytja út CSV"
+
+#: includes/class-admin.php:727
+msgid "Permanently deletes all consent log records and aggregate statistics."
+msgstr ""
+"Eyðir varanlega öllum færslum í samþykkisskrá og samantekinni tölfræði."
+
+#: includes/class-admin.php:727 includes/class-admin.php:1039
+msgid "Purge All Records"
+msgstr "Eyða öllum færslum"
+
+#: includes/class-admin.php:730
+msgid "Multilingual support (WPML & Polylang)"
+msgstr "Stuðningur við mörg tungumál (WPML & Polylang)"
+
+#: includes/class-admin.php:732
+msgid "Per-language banner texts"
+msgstr "Textar borða eftir tungumálum"
+
+#: includes/class-admin.php:732
+msgid ""
+"When WPML or Polylang is active, switch to a secondary language in the admin"
+" bar and edit General tab settings (saved per language). With WPML String "
+"Translation, you can also translate the [kncc_settings]* admin text strings "
+"— those are used when no per-language override is saved. Otherwise each "
+"language uses its own plugin defaults (English if unsupported). Texts are "
+"never copied blindly from the default language."
+msgstr ""
+"Þegar WPML eða Polylang er virkt skaltu skipta yfir í annað tungumál í "
+"stjórnstikunni og breyta stillingum á flipanum Almennt (vistaðar fyrir hvert "
+"tungumál). Með WPML String Translation getur þú einnig þýtt "
+"stjórnendastrengina [kncc_settings]* – þeir eru notaðir þegar ekkert sérval "
+"er vistað fyrir tungumálið. Annars notar hvert tungumál sín eigin sjálfgefnu "
+"gildi viðbótarinnar (ensku ef tungumálið er ekki stutt). Textar eru aldrei "
+"afritaðir blint úr sjálfgefna tungumálinu."
+
+#: includes/class-admin.php:733
+msgid ""
+"Cookie names, categories, providers, and durations are shared across all "
+"languages. Only the description field can be translated per language. Switch"
+" language and edit descriptions in the Cookies tab."
+msgstr ""
+"Heiti á vafrakökum, flokkar, veitendur og gildistímar eru sameiginleg fyrir "
+"öll tungumál. Aðeins lýsinguna er hægt að þýða fyrir hvert tungumál. Skiptu "
+"um tungumál og breyttu lýsingum á flipanum Vafrakökur."
+
+#: includes/class-admin.php:733
+msgid "Per-language cookie descriptions"
+msgstr "Lýsingar á vafrakökum eftir tungumálum"
+
+#: includes/class-admin.php:734
+msgid ""
+"Banner style, colors, and policy page can be set per language. Non-text "
+"settings fall back to the default language; banner texts use per-language "
+"overrides, WPML String Translation, or each language's own defaults."
+msgstr ""
+"Stíl borðans, liti og stefnusíðu má stilla fyrir hvert tungumál. Stillingar "
+"aðrar en textar falla aftur á sjálfgefna tungumálið; textar borðans nota "
+"sérval fyrir tungumálið, WPML String Translation eða sjálfgefna texta hvers "
+"tungumáls."
+
+#: includes/class-admin.php:734
+msgid "Per-language settings"
+msgstr "Stillingar eftir tungumálum"
+
+#: includes/class-admin.php:735
+msgid "AI prompts"
+msgstr "Gervigreindarfyrirmæli"
+
+#: includes/class-admin.php:735
+msgid ""
+"AI prompts for cookie descriptions and policy pages are automatically "
+"generated in the language matching the current admin locale."
+msgstr ""
+"Gervigreindarfyrirmæli fyrir lýsingar á vafrakökum og stefnusíður eru "
+"sjálfkrafa búin til á því tungumáli sem stjórnborðið notar."
+
+#: includes/class-admin.php:738
+msgid "Shortcodes"
+msgstr "Stuttkóðar"
+
+#: includes/class-admin.php:740
+msgid "Displays the full cookie declaration table on your policy page."
+msgstr ""
+"Birtir alla töfluna með yfirlýsingu um vafrakökur á stefnusíðunni þinni."
+
+#: includes/class-admin.php:741
+msgid ""
+"Renders a link that opens the cookie settings dialog. Use in footers, menus,"
+" or widgets. Customize the link text with the text attribute, e.g. "
+"[kncc_cookie_settings text=\"Manage cookies\"]."
+msgstr ""
+"Birtir tengil sem opnar stillingar fyrir vafrakökur. Notaðu hann í síðufæti, "
+"valmyndum eða græjum. Sérsníddu texta tengilsins með eigindinni text, t.d. "
+"[kncc_cookie_settings text=\"Stjórna vafrakökum\"]."
+
+#: includes/class-admin.php:744
+msgid "Custom CSS"
+msgstr "Sérsniðið CSS"
+
+#: includes/class-admin.php:748
+#, php-format
+msgid ""
+"Need to fine-tune the look beyond the General tab? Add CSS to %s, your child"
+" theme, or a Code Snippets plugin."
+msgstr ""
+"Þarftu að fínstilla útlitið umfram flipann Almennt? Bættu CSS við í %s, í "
+"undirþema eða með viðbót eins og Code Snippets."
+
+#: includes/class-admin.php:749
+msgid "Appearance → Customize → Additional CSS"
+msgstr "Útlit → Sérsníða → Viðbótar CSS"
+
+#: includes/class-admin.php:752
+msgid ""
+"Copy the template below, uncomment the rules you want to change, save. Every"
+" selector the plugin uses is included."
+msgstr ""
+"Afritaðu sniðmátið hér fyrir neðan, taktu athugasemdamerkin af reglunum sem "
+"þú vilt breyta og vistaðu. Allir veljarar sem viðbótin notar eru með."
+
+#: includes/class-admin.php:756
+msgid "Copy CSS template"
+msgstr "Afrita CSS-sniðmát"
+
+#: includes/class-admin.php:828
+msgid "Tips:"
+msgstr "Ábendingar:"
+
+#: includes/class-admin.php:830
+msgid ""
+"If a rule does not apply, prepend .kncc-banner or add !important — your CSS "
+"file loads after the plugin's, but theme styles can occasionally beat it on "
+"specificity."
+msgstr ""
+"Ef regla virkar ekki skaltu setja .kncc-banner framan við hana eða bæta við "
+"!important – CSS-skráin þín hleðst á eftir skrá viðbótarinnar, en stílar "
+"þemans geta stundum haft forgang vegna sértækni."
+
+#: includes/class-admin.php:831
+msgid ""
+"When General → Text and font style is set to Plugin style, typography rules "
+"use !important. Switch to Theme style for easier overrides."
+msgstr ""
+"Þegar Almennt → Texti og leturstíll er stillt á viðbótarstíl nota "
+"leturreglurnar !important. Skiptu yfir í þemastíl til að auðvelda að "
+"yfirskrifa þær."
+
+#: includes/class-admin.php:832
+msgid ""
+"Banner z-index is 999999 and the floating button is 999998 — raise them if "
+"your theme renders overlays on top of the banner."
+msgstr ""
+"z-index borðans er 999999 og fljótandi hnappsins 999998 – hækkaðu gildin ef "
+"þemað þitt birtir yfirlög ofan á borðanum."
+
+#: includes/class-admin.php:835
+msgid "Troubleshooting"
+msgstr "Úrræðaleit"
+
+#: includes/class-admin.php:837
+msgid ""
+"If GTM Preview does not show consent updates, verify Consent Mode v2 is "
+"enabled and test in a fresh browser session without existing consent cookie."
+msgstr ""
+"Ef GTM Preview sýnir ekki uppfærslur á samþykki skaltu ganga úr skugga um að "
+"Consent Mode v2 sé virkt og prófa í nýrri vafralotu án fyrirliggjandi "
+"samþykkisvafraköku."
+
+#: includes/class-admin.php:838
+msgid ""
+"If banner typography looks odd with your theme, switch General > Text and "
+"font style to Plugin style."
+msgstr ""
+"Ef letur borðans lítur einkennilega út með þemanu þínu skaltu stilla Almennt "
+"> Texti og leturstíll á viðbótarstíl."
+
+#: includes/class-admin.php:839
+msgid ""
+"If tracking still runs before consent, make sure Custom Code blocking is "
+"checked on the Script Blocking tab."
+msgstr ""
+"Ef rakning keyrir enn áður en samþykki fæst skaltu ganga úr skugga um að "
+"hakað sé við Lokun sérsniðins kóða á flipanum Lokun skrifta."
+
+#: includes/class-admin.php:840
+msgid ""
+"If the statistics are empty, make sure visitors have interacted with the "
+"banner. Data starts recording after the first consent choice."
+msgstr ""
+"Ef tölfræðin er tóm skaltu ganga úr skugga um að gestir hafi notað borðann. "
+"Gögn byrja að skráast eftir fyrsta valið um samþykki."
+
+#: includes/class-admin.php:841
+msgid ""
+"If the policy page warning shows missing translations, create the translated"
+" page in each language and add the [kncc_cookie_policy] shortcode."
+msgstr ""
+"Ef viðvörun á stefnusíðunni sýnir að þýðingar vanti skaltu búa til þýddu "
+"síðuna á hverju tungumáli og bæta stuttkóðanum [kncc_cookie_policy] við hana."
+
+#: includes/class-admin.php:845
+msgid ""
+"I made this plugin for free because I got frustrated by the existing cookie "
+"consent plugins — too much bloat and useless features. If you like it and "
+"want to buy me a coffee, you can do it here:"
+msgstr ""
+"Ég bjó þessa viðbót til án endurgjalds af því að ég var orðinn þreyttur á "
+"þeim viðbótum fyrir vafrakökusamþykki sem fyrir voru – of þungum og fullum "
+"af gagnslausum eiginleikum. Ef þér líkar hún og vilt gefa mér kaffibolla "
+"geturðu gert það hér:"
+
+#: includes/class-admin.php:873
+#, php-format
+msgid "%d days"
+msgstr "%d dagar"
+
+#: includes/class-admin.php:884
+msgid "Total responses"
+msgstr "Svör alls"
+
+#: includes/class-admin.php:888 includes/class-admin.php:903
+#: includes/class-admin.php:913
+msgid "Accepted all"
+msgstr "Samþykktu allt"
+
+#: includes/class-admin.php:892 includes/class-admin.php:909
+#: includes/class-admin.php:915
+msgid "Rejected all"
+msgstr "Höfnuðu öllu"
+
+#: includes/class-admin.php:896 includes/class-admin.php:906
+#: includes/class-admin.php:914
+msgid "Custom selection"
+msgstr "Sérsniðið val"
+
+#: includes/class-admin.php:920
+msgid ""
+"No consent data recorded yet. Statistics will appear after visitors start "
+"interacting with the cookie banner."
+msgstr ""
+"Engin gögn um samþykki hafa verið skráð enn. Tölfræði birtist þegar gestir "
+"byrja að nota vafrakökuborðann."
+
+#: includes/class-admin.php:937
+#, php-format
+msgid "Cron error: %s"
+msgstr "Cron-villa: %s"
+
+#: includes/class-admin.php:955
+msgid "All systems are good!"
+msgstr "Allt er í góðu lagi!"
+
+#: includes/class-admin.php:957
+msgid "The plugin re-checks cookies every day via cron."
+msgstr "Viðbótin athugar vafrakökur aftur á hverjum degi með cron."
+
+#: includes/class-admin.php:962
+#, php-format
+msgid "Next check: %s"
+msgstr "Næsta athugun: %s"
+
+#: includes/class-admin.php:1075
+msgid ""
+"Also block tracking added in Bricks, Elementor, or other Custom Code fields"
+msgstr ""
+"Loka einnig á rakningu sem bætt er við í Bricks, Elementor eða öðrum reitum "
+"fyrir sérsniðinn kóða"
+
+#: includes/class-admin.php:1094
+msgid "Save blocking settings"
+msgstr "Vista stillingar fyrir lokun"
+
+#: includes/class-admin.php:1099
+msgid "Recognized tracking tools"
+msgstr "Þekkt rakningartól"
+
+#: includes/class-admin.php:1106
+msgid "Script Handle"
+msgstr "Handle skriftu"
+
+#: includes/class-admin.php:1024
+msgid ""
+"Individual consent records for GDPR audit compliance. Records are "
+"automatically purged after the retention period (13 months)."
+msgstr ""
+"Einstakar færslur um samþykki vegna úttekta samkvæmt GDPR. Færslum er eytt "
+"sjálfkrafa að loknum varðveislutíma (13 mánuðum)."
+
+#: includes/class-admin.php:1028
+msgid "Total records:"
+msgstr "Færslur alls:"
+
+#: includes/class-admin.php:1030
+msgid "Oldest:"
+msgstr "Elsta:"
+
+#: includes/class-admin.php:1033
+msgid "Newest:"
+msgstr "Nýjasta:"
+
+#: includes/class-admin.php:1043
+msgid "No consent log records yet."
+msgstr "Engar færslur í samþykkisskrá enn."
+
+#: includes/class-admin.php:1048
+msgid "Date/Time"
+msgstr "Dagsetning/tími"
+
+#: includes/class-admin.php:1049
+msgid "Visitor"
+msgstr "Gestur"
+
+#: includes/class-admin.php:1050
+msgid "Choice"
+msgstr "Val"
+
+#: includes/class-admin.php:1051
+msgid "Categories"
+msgstr "Flokkar"
+
+#: includes/class-admin.php:1052
+msgid "Policy Version"
+msgstr "Útgáfa stefnu"
+
+#: includes/class-admin.php:1311
+msgid "Cookies saved."
+msgstr "Vafrakökur vistaðar."
+
+#: includes/class-consent.php:135
+msgid "Cookie consent"
+msgstr "Samþykki fyrir vafrakökum"
+
+#: includes/class-consent.php:147 includes/class-policy-page.php:27
+msgid "Cookie Policy"
+msgstr "Vafrakökustefna"
+
+#: includes/class-consent.php:155
+msgid "Close"
+msgstr "Loka"
+
+#: includes/class-consent.php:187 includes/class-consent.php:188
+#: kansleri-cookie-consent.php:590
+msgid "Cookie settings"
+msgstr "Stillingar fyrir vafrakökur"
+
+#: includes/class-policy-page.php:48
+msgid "No cookies have been registered yet."
+msgstr "Engar vafrakökur hafa verið skráðar enn."
+
+#: includes/class-policy-page.php:58
+msgid ""
+"These cookies are essential for the website to function and cannot be "
+"switched off."
+msgstr ""
+"Þessar vafrakökur eru nauðsynlegar til að vefurinn virki og ekki er hægt að "
+"slökkva á þeim."
+
+#: includes/class-policy-page.php:59
+msgid ""
+"These cookies help us understand how visitors interact with the website by "
+"collecting and reporting information anonymously."
+msgstr ""
+"Þessar vafrakökur hjálpa okkur að skilja hvernig gestir nota vefinn með því "
+"að safna upplýsingum og miðla þeim nafnlaust."
+
+#: includes/class-policy-page.php:60
+msgid ""
+"These cookies are used to deliver relevant advertisements and track ad "
+"campaign performance."
+msgstr ""
+"Þessar vafrakökur eru notaðar til að birta viðeigandi auglýsingar og "
+"fylgjast með árangri auglýsingaherferða."
+
+#: includes/class-policy-page.php:61
+msgid ""
+"These cookies allow the website to remember choices you make and provide "
+"enhanced functionality and personalisation."
+msgstr ""
+"Þessar vafrakökur gera vefnum kleift að muna val þitt og bjóða upp á aukna "
+"virkni og persónulegri upplifun."
+
+#: includes/class-policy-page.php:79
+msgid "Edit cookie preferences"
+msgstr "Breyta kjörstillingum fyrir vafrakökur"
+
+#: includes/class-policy-page.php:90 includes/class-policy-page.php:99
+msgid "Cookie"
+msgstr "Vafrakaka"
+
+#: includes/class-policy-page.php:92 includes/class-policy-page.php:101
+msgid "Purpose"
+msgstr "Tilgangur"
+
+#: includes/class-script-blocker.php:306
+msgid "Script blocking settings saved."
+msgstr "Stillingar fyrir lokun skrifta vistaðar."
+
+#: kansleri-cookie-consent.php:57 kansleri-cookie-consent.php:404
+msgid "We use cookies"
+msgstr "Við notum vafrakökur"
+
+#: kansleri-cookie-consent.php:58 kansleri-cookie-consent.php:405
+msgid ""
+"We use cookies to improve your experience and analyze site traffic. Choose "
+"which cookies you allow."
+msgstr ""
+"Við notum vafrakökur til að bæta upplifun þína og greina umferð um vefinn. "
+"Veldu hvaða vafrakökur þú leyfir."
+
+#: kansleri-cookie-consent.php:59 kansleri-cookie-consent.php:406
+msgid "Accept all"
+msgstr "Samþykkja allt"
+
+#: kansleri-cookie-consent.php:60 kansleri-cookie-consent.php:407
+msgid "Reject all"
+msgstr "Hafna öllu"
+
+#: kansleri-cookie-consent.php:61 kansleri-cookie-consent.php:408
+msgid "Customize"
+msgstr "Sérsníða"
+
+#: kansleri-cookie-consent.php:62 kansleri-cookie-consent.php:409
+msgid "Save preferences"
+msgstr "Vista kjörstillingar"
+
+#: kansleri-cookie-consent.php:336
+msgid "Required for the website to function. Cannot be disabled."
+msgstr "Nauðsynlegar til að vefurinn virki. Ekki er hægt að slökkva á þeim."
+
+#: kansleri-cookie-consent.php:340
+msgid "Help us understand how visitors interact with the website."
+msgstr "Hjálpa okkur að skilja hvernig gestir nota vefinn."
+
+#: kansleri-cookie-consent.php:344
+msgid "Used to deliver relevant advertisements and track campaigns."
+msgstr "Notaðar til að birta viðeigandi auglýsingar og fylgjast með herferðum."
+
+#: kansleri-cookie-consent.php:348
+msgid "Remember your settings and preferences for a better experience."
+msgstr "Muna stillingar þínar og val fyrir betri upplifun."
+
+#: kansleri-cookie-consent.php:499
+msgid "Settings"
+msgstr "Stillingar"
+
+#: kansleri-cookie-consent.php:522
+#, php-format
+msgid ""
+"Kansleri Cookie Consent is now active. Next steps: %1$s to discover cookies "
+"and %2$s to review banner and consent settings."
+msgstr ""
+"Kansleri Cookie Consent er nú virkt. Næstu skref: %1$s til að finna "
+"vafrakökur og %2$s fyrir borðann og samþykki."
+
+#: kansleri-cookie-consent.php:523
+msgid "Scan cookies"
+msgstr "Skanna vafrakökur"
+
+#: kansleri-cookie-consent.php:524
+msgid "review settings"
+msgstr "yfirfara stillingar"
+
+#: kansleri-cookie-consent.php:555
+#, php-format
+msgid ""
+"Cookie Consent: %1$d cookie(s) are missing descriptions: %2$s. %3$s to add "
+"them."
+msgstr ""
+"Vafrakökusamþykki: lýsingar vantar á vafrakökur (%1$d): %2$s. %3$s til að "
+"bæta þeim við."
+
+#: kansleri-cookie-consent.php:558
+msgid "Go to Cookies tab"
+msgstr "Fara á flipann Vafrakökur"
+
+#: kansleri-cookie-consent.php:572
+msgid ""
+"This site uses a cookie consent banner powered by Kansleri Cookie Consent. "
+"When you interact with the banner, a cookie named <code>kncc_consent</code> "
+"is stored in your browser for up to 1 year. It records your consent "
+"preferences (which cookie categories you accepted or rejected) so the site "
+"can remember your choice on future visits. No personal data is stored in "
+"this cookie."
+msgstr ""
+"Þessi vefur notar vafrakökuborða frá Kansleri Cookie Consent. Þegar þú notar "
+"borðann er vafrakaka sem heitir <code>kncc_consent</code> vistuð í vafranum "
+"þínum í allt að 1 ár. Hún skráir kjörstillingar þínar um samþykki (hvaða "
+"flokka af vafrakökum þú samþykktir og hverjum þú hafnaðir) svo vefurinn geti "
+"munað val þitt í síðari heimsóknum. Engar persónuupplýsingar eru vistaðar í "
+"þessari vafraköku."
+
+#: kansleri-cookie-consent.php:573
+msgid ""
+"The plugin also records anonymous, aggregated consent statistics (how many "
+"visitors accepted, rejected, or customized cookies each day) and individual "
+"consent log entries for GDPR audit compliance. Consent log entries contain a"
+" hashed (non-reversible) visitor identifier, the consent choice, which "
+"categories were accepted, and the policy version. No IP addresses, user "
+"identifiers, or personal data are stored in plain text. Consent log records "
+"are automatically deleted after 13 months."
+msgstr ""
+"Viðbótin skráir einnig nafnlausa, samantekna tölfræði um samþykki (hve "
+"margir gestir samþykktu, höfnuðu eða sérsniðu vafrakökur á hverjum degi) og "
+"einstakar færslur í samþykkisskrá vegna úttekta samkvæmt GDPR. Færslur í "
+"samþykkisskrá innihalda tætt (óafturkræft) auðkenni gests, valið um "
+"samþykki, hvaða flokkar voru samþykktir og útgáfu stefnunnar. Engar "
+"IP-tölur, notendaauðkenni eða persónuupplýsingar eru vistaðar sem læsilegur "
+"texti. Færslum í samþykkisskrá er eytt sjálfkrafa eftir 13 mánuði."
+
+#: includes/class-admin.php:318
+msgid "Empty cookie categories"
+msgstr "Tómir vafrakökuflokkar"
+
+#: includes/class-admin.php:322
+msgid "Show but lock (disable) the switch"
+msgstr "Sýna en læsa rofanum (gera hann óvirkan)"
+
+#: includes/class-admin.php:323
+msgid "Hide categories with no cookies"
+msgstr "Fela flokka sem hafa engar vafrakökur"
+
+#: includes/class-admin.php:378 includes/class-consent.php:95
+msgid "No analytics cookies are used on this site."
+msgstr "Engar vafrakökur fyrir tölfræði eru notaðar á þessum vef."
+
+#: includes/class-admin.php:379 includes/class-consent.php:96
+msgid "No marketing cookies are used on this site."
+msgstr "Engar vafrakökur fyrir markaðssetningu eru notaðar á þessum vef."
+
+#: includes/class-admin.php:380 includes/class-consent.php:97
+msgid "No preference cookies are used on this site."
+msgstr "Engar vafrakökur fyrir kjörstillingar eru notaðar á þessum vef."
+
+#: includes/class-admin.php:323
+msgid "Close button label"
+msgstr "Merking lokunarhnapps"
+
+#: includes/class-consent.php:50
+msgid "You have not made a choice yet."
+msgstr "Þú hefur ekki valið neitt enn."
+
+#: includes/class-consent.php:51
+msgid "Allowed"
+msgstr "Leyft"
+
+#: includes/class-consent.php:52
+msgid "Denied"
+msgstr "Hafnað"
+
+#: includes/class-consent.php:53
+msgid "Always active"
+msgstr "Alltaf virkt"
+
+#: includes/class-policy-page.php:85
+msgid "Your current cookie preferences"
+msgstr "Núverandi kjörstillingar þínar fyrir vafrakökur"
+
+#: includes/class-policy-page.php:93
+msgid ""
+"These choices are stored technically as wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing, and wp_consent_preferences for "
+"compatibility with WordPress plugins."
+msgstr ""
+"Þetta val er vistað tæknilega sem wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing og wp_consent_preferences vegna "
+"samhæfni við WordPress-viðbætur."
+
+#: includes/class-admin.php:99
+msgid "Possibly removed"
+msgstr "Hugsanlega fjarlægðar"
+
+#: includes/class-admin.php:100
+msgid ""
+"These cookies are still in your list, but their tracking scripts were not "
+"found on the homepage. Review and remove any that are no longer used."
+msgstr ""
+"Þessar vafrakökur eru enn á listanum þínum, en rakningarskriftur þeirra "
+"fundust ekki á forsíðunni. Farðu yfir þær og fjarlægðu þær sem eru ekki "
+"lengur notaðar."
+
+#: includes/class-admin.php:102
+#, php-format
+msgid ""
+"Remove %d cookie(s) from the list? This cannot be undone automatically."
+msgstr ""
+"Fjarlægja vafrakökur af listanum (%d)? Ekki er hægt að afturkalla þetta "
+"sjálfkrafa."
+
+#: includes/class-admin.php:103 includes/class-admin.php:1527
+msgid "Selected cookies removed from the list."
+msgstr "Valdar vafrakökur fjarlægðar af listanum."
+
+#: includes/class-admin.php:104
+msgid "Remove selected cookies"
+msgstr "Fjarlægja valdar vafrakökur"
+
+#: includes/class-admin.php:1482
+msgid ""
+"None of the selected cookies can be removed. Run Scan Cookies again to "
+"refresh the list."
+msgstr ""
+"Ekki er hægt að fjarlægja neina af völdu vafrakökunum. Keyrðu Skanna "
+"vafrakökur aftur til að uppfæra listann."
+
+#: includes/class-admin.php:791
+msgid ""
+"After scanning, cookies whose tracking scripts are no longer found on the "
+"homepage are listed under \"Possibly removed\". Review the list and use "
+"Remove selected cookies to delete entries you no longer need — nothing is "
+"removed automatically."
+msgstr ""
+"Eftir skönnun eru vafrakökur, sem rakningarskriftur finnast ekki lengur "
+"fyrir á forsíðunni, sýndar undir „Hugsanlega fjarlægðar“. Farðu yfir listann "
+"og notaðu Fjarlægja valdar vafrakökur til að eyða færslum sem þú þarft ekki "
+"lengur – ekkert er fjarlægt sjálfkrafa."
+
+#: includes/class-admin.php:797
+msgid "Current consent status"
+msgstr "Núverandi staða samþykkis"
+
+#: includes/class-admin.php:797
+msgid ""
+"The [kncc_cookie_policy] shortcode shows each category as allowed, denied, "
+"or not yet chosen above the Edit cookie preferences button. When WP Consent "
+"API is active, a note explains the technical wp_consent_* cookie names used "
+"by WordPress plugins."
+msgstr ""
+"Stuttkóðinn [kncc_cookie_policy] sýnir stöðu hvers flokks – leyft, hafnað "
+"eða ekki enn valið – fyrir ofan hnappinn Breyta kjörstillingum fyrir "
+"vafrakökur. Þegar WP Consent API er virkt útskýrir athugasemd tæknilegu "
+"heitin wp_consent_* á vafrakökum sem WordPress-viðbætur nota."
+
+#: includes/class-admin.php:806
+msgid "WP Consent API sync"
+msgstr "Samstilling við WP Consent API"
+
+#: includes/class-admin.php:806
+msgid ""
+"When the WP Consent API plugin is active, Kansleri automatically syncs your "
+"banner choices to wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing, and wp_consent_preferences. This lets consent-aware "
+"plugins such as Google Site Kit read the visitor's choice. Banner labels "
+"(Necessary, Analytics) map to these technical cookie names."
+msgstr ""
+"Þegar viðbótin WP Consent API er virk samstillir Kansleri sjálfkrafa val úr "
+"borðanum við wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing og wp_consent_preferences. Þannig geta viðbætur sem "
+"taka mið af samþykki, eins og Google Site Kit, lesið val gestsins. Heiti "
+"flokka í borðanum (Nauðsynlegt, Tölfræði) svara til þessara tæknilegu heita "
+"á vafrakökum."
+
+#: includes/class-admin.php:939
+msgid ""
+"If wp_consent_statistics stays deny after Accept all, clear site cookies or "
+"test in a private window, hard-refresh (Ctrl+Shift+R), and confirm the WP "
+"Consent API plugin is active."
+msgstr ""
+"Ef wp_consent_statistics helst á deny eftir Samþykkja allt skaltu hreinsa "
+"vafrakökur vefsins eða prófa í huliðsglugga, endurhlaða að fullu "
+"(Ctrl+Shift+R) og staðfesta að viðbótin WP Consent API sé virk."
+
+#: includes/class-admin.php:746 includes/class-admin.php:854
+msgid "Advanced Consent Mode"
+msgstr "Ítarlegt Consent Mode"
+
+#: includes/class-admin.php:750
+msgid "Load Google tags before consent, with consent denied"
+msgstr "Hlaða Google-merkjum fyrir samþykki, með samþykkið stillt á hafnað"
+
+#: includes/class-admin.php:753
+msgid "Off (default, Basic Consent Mode): the Google tag is blocked until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies, so Google receives nothing from visitors who have not consented."
+msgstr ""
+"Slökkt (sjálfgefið, einfalt Consent Mode): Google-merkinu er lokað þar til "
+"gesturinn samþykkir vafrakökur fyrir tölfræði, og Google Tag Manager þar til "
+"gesturinn samþykkir vafrakökur fyrir tölfræði eða markaðssetningu, svo "
+"Google fær ekkert frá gestum sem hafa ekki gefið samþykki."
+
+#: includes/class-admin.php:756
+msgid ""
+"On (Advanced Consent Mode): the Google tag and Google Tag Manager load "
+"right away. Until the visitor accepts, they set no cookies and send Google "
+"only cookieless pings, which Google uses to model the missing data. Google "
+"Analytics and Google Ads expect this mode, and with Basic mode they can "
+"report your consent signals as not active."
+msgstr ""
+"Kveikt (ítarlegt Consent Mode): Google-merkið og Google Tag Manager hlaðast "
+"strax. Þar til gesturinn samþykkir setja þau engar vafrakökur og senda "
+"Google aðeins vafrakökulaus boð, sem Google notar til að áætla gögnin sem "
+"vantar. Google Analytics og Google Ads gera ráð fyrir þessari stillingu, og "
+"með einföldu stillingunni geta þau sýnt samþykkisboðin þín sem óvirk."
+
+#: includes/class-admin.php:759
+msgid "Only applies while Consent Mode v2 is enabled. Other tracking scripts on the site stay blocked until consent, also those that Google Tag Manager adds (for example a Meta Pixel or LinkedIn in a Custom HTML tag): each waits for its own category, with no changes needed in the container."
+msgstr ""
+"Á aðeins við á meðan Consent Mode v2 er virkt. Aðrar rakningarskriftur á "
+"vefnum eru áfram lokaðar þar til samþykki fæst, líka þær sem Google Tag "
+"Manager bætir við (til dæmis Meta Pixel eða LinkedIn í Custom HTML-merki): "
+"hver þeirra bíður eftir sínum flokki og engar breytingar þarf að gera í "
+"gámnum."
+
+#: includes/class-admin.php:854
+msgid ""
+"Off by default. When on, the Google tag and Google Tag Manager load before "
+"consent instead of being blocked. Until the visitor accepts, they set no "
+"cookies and send Google only cookieless pings."
+msgstr ""
+"Slökkt sjálfgefið. Þegar kveikt er á þessu hlaðast Google-merkið og Google "
+"Tag Manager fyrir samþykki í stað þess að vera lokað. Þar til gesturinn "
+"samþykkir setja þau engar vafrakökur og senda Google aðeins vafrakökulaus "
+"boð."
+
+#: includes/class-admin.php:863
+msgid "You can turn this off on the Script Blocking tab."
+msgstr "Þú getur slökkt á þessu á flipanum Lokun skrifta."
+
+#: includes/class-admin.php:1136
+msgid ""
+"Advanced Consent Mode is on (Integration tab): the Google tag and Google "
+"Tag Manager load before consent and follow the Consent Mode signals instead "
+"of being blocked."
+msgstr ""
+"Ítarlegt Consent Mode er virkt (flipinn Samþætting): Google-merkið og Google "
+"Tag Manager hlaðast fyrir samþykki og fylgja boðum Consent Mode í stað þess "
+"að vera lokað."
+
+#: includes/class-admin.php:1168
+msgid ""
+"Block YouTube and Vimeo videos until the visitor accepts marketing cookies"
+msgstr ""
+"Loka á YouTube- og Vimeo-myndbönd þar til gesturinn samþykkir vafrakökur "
+"fyrir markaðssetningu"
+
+#: includes/class-admin.php:684
+msgid "More information"
+msgstr "Nánari upplýsingar"
+
+#: includes/class-admin.php:823
+msgid "Basic Consent Mode: the Google tag waits until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies."
+msgstr ""
+"Einfalt Consent Mode: Google-merkið bíður þar til gesturinn samþykkir "
+"vafrakökur fyrir tölfræði, og Google Tag Manager þar til gesturinn samþykkir "
+"vafrakökur fyrir tölfræði eða markaðssetningu."
+
+#: includes/class-admin.php:823
+msgid ""
+"Advanced Consent Mode: the Google tag and Google Tag Manager load right "
+"away with these defaults, and send only cookieless pings until the visitor "
+"accepts."
+msgstr ""
+"Ítarlegt Consent Mode: Google-merkið og Google Tag Manager hlaðast strax með "
+"þessum sjálfgefnu gildum og senda aðeins vafrakökulaus boð þar til gesturinn "
+"samþykkir."
+
+#: includes/class-scanner.php:122
+msgctxt "cookie duration"
+msgid "1 minute"
+msgstr "1 mínúta"
+
+#: includes/class-scanner.php:123
+msgctxt "cookie duration"
+msgid "30 minutes"
+msgstr "30 mínútur"
+
+#: includes/class-scanner.php:124
+msgctxt "cookie duration"
+msgid "24 hours"
+msgstr "24 klukkustundir"
+
+#: includes/class-scanner.php:125
+msgctxt "cookie duration"
+msgid "1 day"
+msgstr "1 dagur"
+
+#: includes/class-scanner.php:126
+msgctxt "cookie duration"
+msgid "30 days"
+msgstr "30 dagar"
+
+#: includes/class-scanner.php:127
+msgctxt "cookie duration"
+msgid "90 days"
+msgstr "90 dagar"
+
+#: includes/class-scanner.php:128
+msgctxt "cookie duration"
+msgid "6 months"
+msgstr "6 mánuðir"
+
+#: includes/class-scanner.php:129
+msgctxt "cookie duration"
+msgid "1 year"
+msgstr "1 ár"
+
+#: includes/class-scanner.php:130
+msgctxt "cookie duration"
+msgid "2 years"
+msgstr "2 ár"
+
+#: includes/class-scanner.php:131
+msgctxt "cookie duration"
+msgid "Session"
+msgstr "Lota"
+
+#: includes/class-scanner.php:132
+msgctxt "cookie duration"
+msgid "Varies"
+msgstr "Breytilegt"
+
+#: includes/class-scanner.php:135
+msgid "Google Analytics: stores and counts page views."
+msgstr "Google Analytics: geymir og telur síðuflettingar."
+
+#: includes/class-scanner.php:136
+msgid "Google Analytics: distinguishes unique users."
+msgstr "Google Analytics: greinir á milli einstakra notenda."
+
+#: includes/class-scanner.php:137
+msgid "Google Analytics: distinguishes users for 24 hours."
+msgstr "Google Analytics: greinir á milli notenda í 24 klukkustundir."
+
+#: includes/class-scanner.php:138
+msgid "Google Analytics: throttles request rate."
+msgstr "Google Analytics: takmarkar tíðni beiðna."
+
+#: includes/class-scanner.php:139
+msgid "Google Ads: stores conversion data."
+msgstr "Google Ads: geymir gögn um umbreytingar."
+
+#: includes/class-scanner.php:140
+msgid "Google Ads: click tracking."
+msgstr "Google Ads: rakning smella."
+
+#: includes/class-scanner.php:141
+msgid "Google Tag Manager: throttles request rate."
+msgstr "Google Tag Manager: takmarkar tíðni beiðna."
+
+#: includes/class-scanner.php:144
+msgid "Meta Pixel: tracks visits across websites for ad targeting."
+msgstr ""
+"Meta Pixel: fylgist með heimsóknum á milli vefja til að beina auglýsingum."
+
+#: includes/class-scanner.php:145
+msgid "Meta Pixel: stores click identifiers."
+msgstr "Meta Pixel: geymir auðkenni smella."
+
+#: includes/class-scanner.php:146
+msgid "Facebook: ad delivery and measurement."
+msgstr "Facebook: birting og mæling auglýsinga."
+
+#: includes/class-scanner.php:149
+msgid "HubSpot: tracks visitor identity."
+msgstr "HubSpot: fylgist með auðkenni gests."
+
+#: includes/class-scanner.php:150
+msgid "HubSpot: tracks session information."
+msgstr "HubSpot: fylgist með upplýsingum um lotu."
+
+#: includes/class-scanner.php:151
+msgid "HubSpot: tracks sessions for analytics."
+msgstr "HubSpot: fylgist með lotum fyrir tölfræði."
+
+#: includes/class-scanner.php:152
+msgid "HubSpot: determines if visitor has restarted browser."
+msgstr "HubSpot: greinir hvort gesturinn hefur endurræst vafrann."
+
+#: includes/class-scanner.php:153
+msgid "HubSpot: analytics and tracking."
+msgstr "HubSpot: tölfræði og rakning."
+
+#: includes/class-scanner.php:156
+msgid "LinkedIn: browser identifier for ad targeting."
+msgstr "LinkedIn: auðkenni vafra til að beina auglýsingum."
+
+#: includes/class-scanner.php:157
+msgid "LinkedIn: browser identifier."
+msgstr "LinkedIn: auðkenni vafra."
+
+#: includes/class-scanner.php:158
+msgid "LinkedIn: data centre selection."
+msgstr "LinkedIn: val á gagnaveri."
+
+#: includes/class-scanner.php:161
+msgid "WordPress: stores admin settings timestamp."
+msgstr "WordPress: geymir tímastimpil stjórnborðsstillinga."
+
+#: includes/class-scanner.php:162
+msgid "WordPress: stores admin personalisation settings."
+msgstr "WordPress: geymir persónulegar stillingar stjórnborðsins."
+
+#: includes/class-scanner.php:163
+msgid "WordPress: authentication cookie for logged-in users."
+msgstr "WordPress: auðkenningarvafrakaka fyrir innskráða notendur."
+
+#: includes/class-scanner.php:164
+msgid "WordPress: secure authentication cookie."
+msgstr "WordPress: örugg auðkenningarvafrakaka."
+
+#: includes/class-scanner.php:165
+msgid "WordPress: tests if cookies are enabled."
+msgstr "WordPress: kannar hvort vafrakökur séu virkar."
+
+#: includes/class-scanner.php:166
+msgid "WordPress: stores language preference."
+msgstr "WordPress: geymir val á tungumáli."
+
+#: includes/class-scanner.php:167
+msgid "WordPress: remembers comment author details."
+msgstr "WordPress: man upplýsingar um höfund athugasemdar."
+
+#: includes/class-scanner.php:170
+msgid "WooCommerce: stores cart and session data."
+msgstr "WooCommerce: geymir gögn um körfu og lotu."
+
+#: includes/class-scanner.php:171
+msgid "WooCommerce: stores customer session."
+msgstr "WooCommerce: geymir lotu viðskiptavinar."
+
+#: includes/class-scanner.php:174
+msgid ""
+"Order attribution: keeps traffic-source tracking data compatible across "
+"updates."
+msgstr ""
+"Order attribution: heldur rakningargögnum um uppruna umferðar samhæfðum á "
+"milli uppfærslna."
+
+#: includes/class-scanner.php:175
+msgid ""
+"Order attribution: records how you reached the site on your current visit."
+msgstr ""
+"Order attribution: skráir hvernig þú komst á vefinn í núverandi heimsókn."
+
+#: includes/class-scanner.php:176
+msgid "Order attribution: records how you first reached the site."
+msgstr "Order attribution: skráir hvernig þú komst fyrst á vefinn."
+
+#: includes/class-scanner.php:177
+msgid ""
+"Order attribution: stores the traffic source and campaign of your current "
+"visit."
+msgstr ""
+"Order attribution: geymir uppruna umferðar og herferð núverandi heimsóknar."
+
+#: includes/class-scanner.php:178
+msgid ""
+"Order attribution: stores the traffic source and campaign of your first "
+"visit."
+msgstr ""
+"Order attribution: geymir uppruna umferðar og herferð fyrstu heimsóknar "
+"þinnar."
+
+#: includes/class-scanner.php:179
+msgid ""
+"Order attribution: stores visitor/session data used for marketing "
+"attribution."
+msgstr ""
+"Order attribution: geymir gögn um gest/lotu sem notuð eru til að rekja "
+"árangur markaðssetningar."
+
+#: includes/class-scanner.php:180
+msgid "Order attribution: links page views within a visit for attribution."
+msgstr ""
+"Order attribution: tengir saman síðuflettingar innan heimsóknar til að rekja "
+"uppruna."
+
+#: includes/class-scanner.php:181
+msgid "Order attribution: tracks the marketing source of your visit."
+msgstr "Order attribution: fylgist með markaðsuppruna heimsóknar þinnar."
+
+#: includes/class-scanner.php:184
+msgid ""
+"Jetpack Stats: assigns an anonymous identifier used to measure site traffic."
+msgstr ""
+"Jetpack Stats: úthlutar nafnlausu auðkenni sem notað er til að mæla umferð "
+"um vefinn."
+
+#: includes/class-scanner.php:185
+msgid "Jetpack Stats: records referral and navigation data for analytics."
+msgstr "Jetpack Stats: skráir gögn um tilvísanir og leiðsögn fyrir tölfræði."
+
+#: includes/class-scanner.php:186
+msgid "Jetpack Stats: measures site traffic and visitor activity."
+msgstr "Jetpack Stats: mælir umferð um vefinn og virkni gesta."
+
+#: includes/class-scanner.php:189
+msgid "Polylang: stores visitor language preference."
+msgstr "Polylang: geymir tungumálaval gests."
+
+#: includes/class-scanner.php:190
+msgid "MailPoet: tracks email subscriber activity."
+msgstr "MailPoet: fylgist með virkni áskrifenda að tölvupósti."
+
+#: includes/class-scanner.php:191
+msgid "Plausible: privacy-friendly analytics."
+msgstr "Plausible: tölfræði sem virðir persónuvernd."
+
+#: includes/class-scanner.php:194
+msgid "Cloudflare: bot management cookie."
+msgstr "Cloudflare: vafrakaka fyrir stjórnun vélmennaumferðar."
+
+#: includes/class-scanner.php:195
+msgid "Cloudflare: verifies legitimate visitor."
+msgstr "Cloudflare: staðfestir lögmæta gesti."
+
+#: includes/class-scanner.php:196
+msgid "Cloudflare: identifies trusted web traffic."
+msgstr "Cloudflare: greinir trausta vefumferð."
+
+#: includes/class-scanner.php:199
+msgid "Hotjar: tracks user behaviour and feedback."
+msgstr "Hotjar: fylgist með hegðun notenda og endurgjöf."
+
+#: includes/class-scanner.php:200
+msgid "Microsoft Clarity: stores a user ID and preferences."
+msgstr "Microsoft Clarity: geymir notandaauðkenni og stillingar."
+
+#: includes/class-scanner.php:201
+msgid "Microsoft Clarity: connects page views into a session."
+msgstr "Microsoft Clarity: tengir síðuflettingar saman í eina lotu."
+
+#: includes/class-scanner.php:204
+msgid "Stores your cookie consent preferences."
+msgstr "Geymir kjörstillingar þínar um samþykki fyrir vafrakökum."
+
+#: includes/class-scanner.php:205
+msgid ""
+"WP Consent API: stores your consent choice for necessary cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: geymir val þitt um nauðsynlegar vafrakökur. Samstillt úr "
+"samþykkisborðanum."
+
+#: includes/class-scanner.php:206
+msgid ""
+"WP Consent API: stores your consent choice for analytics cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: geymir val þitt um vafrakökur fyrir tölfræði. Samstillt úr "
+"samþykkisborðanum."
+
+#: includes/class-scanner.php:207
+msgid ""
+"WP Consent API: stores your consent choice for anonymous statistics. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: geymir val þitt um nafnlausa tölfræði. Samstillt úr "
+"samþykkisborðanum."
+
+#: includes/class-scanner.php:208
+msgid ""
+"WP Consent API: stores your consent choice for marketing cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: geymir val þitt um vafrakökur fyrir markaðssetningu. "
+"Samstillt úr samþykkisborðanum."
+
+#: includes/class-scanner.php:209
+msgid ""
+"WP Consent API: stores your consent choice for preference cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: geymir val þitt um vafrakökur fyrir kjörstillingar. "
+"Samstillt úr samþykkisborðanum."
+
+#: includes/class-scanner.php:210
+msgid ""
+"WP Consent API: stores per-service consent overrides used by integrated "
+"plugins."
+msgstr ""
+"WP Consent API: geymir undantekningar á samþykki fyrir einstakar þjónustur "
+"sem samþættar viðbætur nota."
+
+#: includes/class-scanner.php:211
+msgid ""
+"WP Consent API: stores your cookie consent choice. Synced from your consent "
+"banner."
+msgstr ""
+"WP Consent API: geymir val þitt um samþykki fyrir vafrakökum. Samstillt úr "
+"samþykkisborðanum."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:195
+#, php-format
+msgid "“%s” is not a usable address. Use at least 4 characters without spaces, for example widget.example.com."
+msgstr ""
+"„%s“ er ekki nothæf vefslóð. Notaðu að minnsta kosti 4 stafi án bila, til "
+"dæmis widget.example.com."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:200
+#, php-format
+msgid "“%s” would block every script on this site. Enter the address of the external service instead."
+msgstr ""
+"„%s“ myndi loka á allar skriftur á þessum vef. Sláðu frekar inn vefslóð "
+"utanaðkomandi þjónustunnar."
+
+#: includes/class-script-blocker.php:840
+msgid "This content is blocked because it requires analytics cookies."
+msgstr "Þessu efni er lokað vegna þess að það þarf vafrakökur fyrir tölfræði."
+
+#: includes/class-script-blocker.php:841
+msgid "Accept analytics cookies"
+msgstr "Samþykkja vafrakökur fyrir tölfræði"
+
+#: includes/class-script-blocker.php:845
+msgid "This content is blocked because it requires preference cookies."
+msgstr ""
+"Þessu efni er lokað vegna þess að það þarf vafrakökur fyrir kjörstillingar."
+
+#: includes/class-script-blocker.php:846
+msgid "Accept preference cookies"
+msgstr "Samþykkja vafrakökur fyrir kjörstillingar"
+
+#: includes/class-admin.php:890 includes/class-admin.php:1203
+msgid "Block by address"
+msgstr "Loka eftir vefslóð"
+
+#: includes/class-admin.php:1213
+msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
+msgstr ""
+"Skriftur í HTML-kóða síðunnar eru aðeins bornar saman á meðan kveikt er á "
+"Lokun sérsniðins kóða."
+
+#: includes/class-admin.php:1259 includes/class-admin.php:1289
+msgid "Address contains"
+msgstr "Vefslóð inniheldur"
+
+#: includes/class-admin.php:1274
+msgid "Add address"
+msgstr "Bæta við vefslóð"
+
+#: includes/class-admin.php:1284
+msgid "Necessary (never blocked)"
+msgstr "Nauðsynlegt (aldrei lokað)"
+
+#: includes/class-admin.php:889
+msgid "Reviews widgets"
+msgstr "Umsagnagræjur"
+
+#: includes/class-admin.php:889
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgstr ""
+"Umsagnagræjan frá Trustmary bíður eftir samþykki fyrir tölfræði, því hún "
+"vistar auðkenni gests í vafranum. Í hennar stað birtast skilaboð með "
+"samþykkishnappi. Til að hlaða henni strax skaltu bæta widget.trustmary.com "
+"við undir Loka eftir vefslóð með flokknum „Nauðsynlegt (aldrei lokað)“."
+
+#: includes/class-admin.php:890
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
+msgstr ""
+"Lokar á hvaða aðra skriftu sem er eftir hluta af vefslóð hennar þar til "
+"gesturinn samþykkir flokkinn sem þú velur, til dæmis græju sem viðbótin "
+"þekkir ekki. Kveiktu á Sýna skilaboð fyrir skriftur sem birta efni á síðunni."
+
+#: includes/class-scanner.php:137
+msgctxt "cookie duration"
+msgid "Persistent"
+msgstr "Varanlegt"
+
+#: includes/class-scanner.php:209
+msgid "Trustmary: stores a visitor ID, the landing page and conversions in the browser’s local storage."
+msgstr ""
+"Trustmary: geymir auðkenni gests, lendingarsíðuna og umbreytingar í "
+"staðbundinni geymslu vafrans."
+
+#: includes/class-scanner.php:224
+msgid "Reddit Pixel: identifies the browser for ad measurement."
+msgstr "Reddit Pixel: auðkennir vafrann til að mæla auglýsingar."
+
+#: includes/class-scanner.php:225
+msgid ""
+"Microsoft Advertising: groups page views into a session for ad measurement."
+msgstr ""
+"Microsoft Advertising: flokkar síðuflettingar í lotu til að mæla auglýsingar."
+
+#: includes/class-scanner.php:226
+msgid ""
+"Microsoft Advertising: identifies the visitor across visits for ad "
+"measurement."
+msgstr ""
+"Microsoft Advertising: auðkennir gestinn á milli heimsókna til að mæla "
+"auglýsingar."
+
+#: includes/class-scanner.php:227
+msgid "Criteo: stores a browser identifier for ad personalisation."
+msgstr "Criteo: geymir auðkenni vafra til að sérsníða auglýsingar."
+
+#: includes/class-scanner.php:228
+msgid "Taboola: identifies the browser for ad targeting."
+msgstr "Taboola: auðkennir vafrann til að beina auglýsingum."
+
+#: includes/class-scanner.php:229
+msgid "Klaviyo: recognises returning visitors for email marketing."
+msgstr ""
+"Klaviyo: þekkir gesti sem koma aftur vegna markaðssetningar í tölvupósti."
+
+#: includes/class-scanner.php:230
+msgid "Yandex Metrica: identifies visitors and stores session settings."
+msgstr "Yandex Metrica: auðkennir gesti og geymir stillingar lotu."
+
+#: includes/class-scanner.php:231
+msgid "Segment: stores an anonymous visitor ID and traits."
+msgstr "Segment: geymir nafnlaust auðkenni gests og eiginleika."
+
+#: includes/class-scanner.php:232
+msgid "Intercom: keeps the chat messenger session and visitor identity."
+msgstr "Intercom: viðheldur lotu spjallsins og auðkenni gests."
+
+#: includes/class-scanner.php:233
+msgid "Crisp: keeps the chat session and visitor identity."
+msgstr "Crisp: viðheldur spjalllotunni og auðkenni gests."
+
+#: includes/class-admin.php
+msgid "Cookie policy link text"
+msgstr "Texti tengils á vafrakökustefnu"
+
+#: includes/class-admin.php
+msgid "Cookie settings label"
+msgstr "Merking vafrakökustillinga"
+
+#: includes/class-admin.php
+msgid "Tooltip and screen reader label of the floating button, and the default text of the [kncc_cookie_settings] link."
+msgstr ""
+"Ábending og merking fyrir skjálesara á fljótandi hnappnum, og sjálfgefinn "
+"texti tengilsins [kncc_cookie_settings]."
+
+#: includes/class-admin.php
+msgid "Banner label for screen readers"
+msgstr "Merking borðans fyrir skjálesara"
+
+#: includes/class-admin.php
+msgid "Cookie categories"
+msgstr "Vafrakökuflokkar"
+
+#: includes/class-admin.php
+msgid "Text when no cookies are used"
+msgstr "Texti þegar engar vafrakökur eru notaðar"
+
+#: includes/class-admin.php
+msgid "Policy page texts"
+msgstr "Textar stefnusíðu"
+
+#: includes/class-admin.php
+msgid "Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab."
+msgstr ""
+"Textar yfirlýsingarinnar [kncc_cookie_policy] um vafrakökur. Skildu reit "
+"eftir tóman til að nota innbyggða textann, sem er þýddur á hvert tungumál. "
+"Heitum flokka er breytt á flipanum Almennt."
+
+#: includes/class-admin.php
+msgid "Category descriptions"
+msgstr "Lýsingar flokka"
+
+#: includes/class-admin.php
+msgid "Consent status"
+msgstr "Staða samþykkis"
+
+#: includes/class-admin.php
+msgid "Heading"
+msgstr "Fyrirsögn"
+
+#: includes/class-admin.php
+msgid "Before the visitor chooses"
+msgstr "Áður en gesturinn velur"
+
+#: includes/class-admin.php
+msgid "Technical note (shown when WP Consent API is active)"
+msgstr "Tæknileg athugasemd (birtist þegar WP Consent API er virkt)"
+
+#: includes/class-admin.php
+msgid "Buttons and messages"
+msgstr "Hnappar og skilaboð"
+
+#: includes/class-admin.php
+msgid "Edit preferences button"
+msgstr "Hnappur til að breyta kjörstillingum"
+
+#: includes/class-admin.php
+msgid "Message when no cookies are registered"
+msgstr "Skilaboð þegar engar vafrakökur eru skráðar"
+
+#: includes/class-admin.php
+msgid "Table column headings"
+msgstr "Fyrirsagnir dálka í töflu"
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 added cookies for services that are not on your site. They have been removed from the cookie list: %s. If your site does use some of these services, put the cookies back and delete the ones it does not use."
+msgstr ""
+"Útgáfa 1.8.10 bætti við vafrakökum fyrir þjónustur sem eru ekki á vefnum "
+"þínum. Þær hafa verið fjarlægðar af listanum yfir vafrakökur: %s. Ef "
+"vefurinn þinn notar einhverjar þessara þjónusta skaltu setja vafrakökurnar "
+"aftur inn og eyða þeim sem hann notar ekki."
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 may have added cookies for services that are not on your site: %s. The Google Tag Manager on your site can load any of them, so they were kept. Remove the ones your site does not use."
+msgstr ""
+"Útgáfa 1.8.10 kann að hafa bætt við vafrakökum fyrir þjónustur sem eru ekki "
+"á vefnum þínum: %s. Google Tag Manager á vefnum þínum getur hlaðið hverri "
+"þeirra sem er, svo þeim var haldið. Fjarlægðu þær sem vefurinn þinn notar "
+"ekki."
+
+#: includes/class-admin.php
+msgid "Put the cookies back"
+msgstr "Setja vafrakökurnar aftur inn"
+
+#: includes/class-admin.php
+msgid "Hide this notice"
+msgstr "Fela þessa tilkynningu"
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr ""
+"Birtist þegar gestir opna Sérsníða. Skildu reit eftir tóman til að nota "
+"innbyggða textann."
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr "Skilaboð fyrir lokað efni"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr "Skilaboð fyrir YouTube & Vimeo"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr "Samþykkishnappur fyrir YouTube & Vimeo"
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr "Skilaboð fyrir efni í flokknum Tölfræði"
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr "Samþykkishnappur fyrir efni í flokknum Tölfræði"
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr "Skilaboð fyrir efni í flokknum Kjörstillingar"
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr "Samþykkishnappur fyrir efni í flokknum Kjörstillingar"
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr "Eða bættu við tengli hvar sem er með stuttkóðanum:"
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr ""
+"Mælt með. Slökktu aðeins á þessu ef viðbót fyrir skyndiminni eða hraða "
+"veldur villum á vefnum."
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr "Lokað sjálfkrafa, engin uppsetning nauðsynleg."
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr "Sýna skilaboð"
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr "Engar vafrakökur valdar."
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr "Skriftur frá %s finnast ekki lengur á forsíðunni"
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr ""
+"Tungumál sem verið er að breyta: %s. Vistun á aðeins við um þetta tungumál."
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr ""
+"Verið er að breyta sjálfgefna tungumálinu. Önnur tungumál hafa sína eigin "
+"texta."
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr ""
+"Forskoða borðann með núverandi stillingum þínum, sem hafa ekki verið "
+"vistaðar."
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr "Lifandi forskoðun virkar aðeins með viðbótarstíl."
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr "Merking ×-hnappsins fyrir skjálesara."
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr ""
+"Heldur aftur af hvaða annarri skriftu sem er þar til gesturinn samþykkir "
+"flokk hennar. Notaðu þetta fyrir græjur og tól sem viðbótin þekkir ekki."
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr ""
+"Nauðsynlegt (aldrei lokað) leyfir vefslóð að hlaðast strax, jafnvel slóð sem "
+"viðbótin myndi annars loka á."
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr ""
+"Sýna skilaboð: þar sem lokaða skriftan myndi birta efni (umsagnir, bókanir, "
+"kort) birtast skilaboð með samþykkishnappi í stað auðs bils. Ekki þörf fyrir "
+"rakningarskriftur."
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
+msgstr "opnast í nýjum flipa"

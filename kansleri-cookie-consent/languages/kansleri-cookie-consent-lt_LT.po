@@ -1,0 +1,2301 @@
+# Lithuanian translation for Kansleri Cookie Consent
+# Copyright (C) 2024 Kansleri.fi
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kansleri Cookie Consent 1.8.13\n"
+"Report-Msgid-Bugs-To: https://kansleri.fi\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
+"PO-Revision-Date: 2026-11-03 12:00+0200\n"
+"Last-Translator: Kansleri.fi\n"
+"Language-Team: Lithuanian\n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : n%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);\n"
+
+#: includes/class-admin.php:20 includes/class-admin.php:21
+#: includes/class-admin.php:122
+msgid "Cookie Consent"
+msgstr "Sutikimas dėl slapukų"
+
+#: includes/class-admin.php:67 includes/class-admin.php:1228
+msgid "Settings saved."
+msgstr "Nustatymai išsaugoti."
+
+#: includes/class-admin.php:68
+msgid "An error occurred."
+msgstr "Įvyko klaida."
+
+#: includes/class-admin.php:69
+msgid "Scanning..."
+msgstr "Nuskaitoma…"
+
+#: includes/class-admin.php:70
+msgid "Scan complete."
+msgstr "Nuskaitymas baigtas."
+
+#: includes/class-admin.php:71
+msgid "No new cookies found."
+msgstr "Naujų slapukų nerasta."
+
+#: includes/class-admin.php:72
+msgid "Remove this cookie?"
+msgstr "Pašalinti šį slapuką?"
+
+#: includes/class-admin.php:73 includes/class-admin.php:414
+#: includes/class-admin.php:698
+msgid "Scan Cookies"
+msgstr "Nuskaityti slapukus"
+
+#: includes/class-admin.php:74
+msgid "Invalid JSON format. Please import a valid cookie array."
+msgstr "Netinkamas JSON formatas. Importuokite tinkamą slapukų masyvą."
+
+#: includes/class-admin.php:75
+msgid "Cookies imported into the table. Save cookies to persist changes."
+msgstr ""
+"Slapukai importuoti į lentelę. Išsaugokite slapukus, kad pakeitimai išliktų."
+
+#: includes/class-admin.php:76
+msgid "No valid cookies found in imported JSON."
+msgstr "Importuotame JSON nerasta tinkamų slapukų."
+
+#: includes/class-admin.php:77
+msgid "No cookie rows available to export."
+msgstr "Nėra slapukų eilučių, kurias būtų galima eksportuoti."
+
+#: includes/class-admin.php:78
+msgid "AI prompt copied to clipboard."
+msgstr "DI užklausa nukopijuota į iškarpinę."
+
+#: includes/class-admin.php:79
+msgid ""
+"Could not copy prompt automatically. Select all and copy from the box below."
+msgstr ""
+"Nepavyko automatiškai nukopijuoti užklausos. Pažymėkite viską ir "
+"nukopijuokite iš žemiau esančio laukelio."
+
+#: includes/class-admin.php:81
+msgid "AI prompt (copied to clipboard — or select all and copy manually):"
+msgstr ""
+"DI užklausa (nukopijuota į iškarpinę – arba pažymėkite viską ir "
+"nukopijuokite rankiniu būdu):"
+
+#: includes/class-admin.php:82
+msgid ""
+"Policy page AI prompt (copied to clipboard — or select all and copy "
+"manually):"
+msgstr ""
+"Politikos puslapio DI užklausa (nukopijuota į iškarpinę – arba pažymėkite "
+"viską ir nukopijuokite rankiniu būdu):"
+
+#: includes/class-admin.php:83
+msgid ""
+"Prompt ready below — select all (Ctrl+A) inside the box and copy (Ctrl+C)."
+msgstr ""
+"Užklausa paruošta žemiau – laukelyje pažymėkite viską (Ctrl+A) ir "
+"nukopijuokite (Ctrl+C)."
+
+#: includes/class-admin.php:80
+msgid "All cookies are done! Every cookie has a description."
+msgstr "Visi slapukai sutvarkyti! Kiekvienas slapukas turi aprašymą."
+
+#: includes/class-admin.php:81 includes/class-admin.php:457
+msgid "No cookies registered yet."
+msgstr "Slapukų dar neužregistruota."
+
+#: includes/class-admin.php:82 includes/class-admin.php:473
+msgid "Remove"
+msgstr "Pašalinti"
+
+#: includes/class-admin.php:83
+msgid ""
+"This will permanently delete all consent log records and statistics. "
+"Continue?"
+msgstr ""
+"Bus visam laikui ištrinti visi sutikimų žurnalo įrašai ir statistika. Tęsti?"
+
+#: includes/class-admin.php:84 includes/class-admin.php:1150
+msgid "All consent log records and statistics have been purged."
+msgstr "Visi sutikimų žurnalo įrašai ir statistika išvalyti."
+
+#: includes/class-admin.php:85
+msgid "AI prompt for policy page copied to clipboard."
+msgstr "Politikos puslapio DI užklausa nukopijuota į iškarpinę."
+
+#: includes/class-admin.php:86
+msgid "CSS template copied to clipboard."
+msgstr "CSS šablonas nukopijuotas į iškarpinę."
+
+#: includes/class-admin.php:88
+#, php-format
+msgid "%d known cookie(s) added automatically:"
+msgstr "Automatiškai pridėti žinomi slapukai (%d):"
+
+#: includes/class-admin.php:90
+#, php-format
+msgid ""
+"%d unknown cookie(s) added — please set their category and description "
+"below."
+msgstr ""
+"Pridėti nežinomi slapukai (%d) – žemiau nurodykite jų kategoriją ir aprašymą."
+
+#: includes/class-admin.php:91
+msgid "Unknown"
+msgstr "Nežinomi"
+
+#: includes/class-admin.php:92
+msgid "Added — categorize and describe in the table below"
+msgstr "Pridėta – lentelėje žemiau priskirkite kategoriją ir aprašymą"
+
+#: includes/class-admin.php:94
+#, php-format
+msgid "%d cookie(s) inferred from detected scripts on your site:"
+msgstr "Pagal jūsų svetainėje aptiktus scenarijus numatyti slapukai (%d):"
+
+#: includes/class-admin.php:95
+msgid ""
+"These cookies are expected from tracking scripts on your site, even when "
+"blocked until consent."
+msgstr ""
+"Tikėtina, kad šiuos slapukus nustatys jūsų svetainės sekimo scenarijai, net "
+"jei iki sutikimo jie blokuojami."
+
+#: includes/class-admin.php:97
+#, php-format
+msgid ""
+"%d browser cookie(s) skipped — found in your browser but no matching script "
+"on this site:"
+msgstr ""
+"Praleisti naršyklės slapukai (%d) – rasti jūsų naršyklėje, bet šioje "
+"svetainėje nėra juos atitinkančio scenarijaus:"
+
+#: includes/class-admin.php:481
+msgid ""
+"%d cookie was automatically added based on tracking scripts detected on your"
+" site."
+msgid_plural ""
+"%d cookies were automatically added based on tracking scripts detected on "
+"your site."
+msgstr[0] ""
+"%d slapukas buvo automatiškai pridėtas pagal jūsų svetainėje aptiktus sekimo "
+"scenarijus."
+msgstr[1] ""
+"%d slapukai buvo automatiškai pridėti pagal jūsų svetainėje aptiktus sekimo "
+"scenarijus."
+msgstr[2] ""
+"%d slapukų buvo automatiškai pridėta pagal jūsų svetainėje aptiktus sekimo "
+"scenarijus."
+
+#: includes/class-admin.php:128
+msgid "General"
+msgstr "Bendrieji"
+
+#: includes/class-admin.php:131 kansleri-cookie-consent.php:571
+msgid "Cookies"
+msgstr "Slapukai"
+
+#: includes/class-admin.php:134
+msgid "Policy Page"
+msgstr "Politikos puslapis"
+
+#: includes/class-admin.php:137
+msgid "Integration"
+msgstr "Integracija"
+
+#: includes/class-admin.php:140
+msgid "Script Blocking"
+msgstr "Scenarijų blokavimas"
+
+#: includes/class-admin.php:143
+msgid "Statistics"
+msgstr "Statistika"
+
+#: includes/class-admin.php:146
+msgid "Documentations"
+msgstr "Dokumentacija"
+
+#: includes/class-admin.php:210
+msgid "Open banner preview"
+msgstr "Atidaryti reklamjuostės peržiūrą"
+
+#: includes/class-admin.php:222 includes/class-admin.php:689
+msgid "Banner style"
+msgstr "Reklamjuostės stilius"
+
+#: includes/class-admin.php:225
+msgid "Bottom bar"
+msgstr "Apatinė juosta"
+
+#: includes/class-admin.php:226
+msgid "Centered modal"
+msgstr "Modalinis langas centre"
+
+#: includes/class-admin.php:227
+msgid "Corner popup"
+msgstr "Iššokantis langas kampe"
+
+#: includes/class-admin.php:233
+msgid "Colors"
+msgstr "Spalvos"
+
+#: includes/class-admin.php:237
+msgid "Banner background"
+msgstr "Reklamjuostės fonas"
+
+#: includes/class-admin.php:238 includes/class-admin.php:275
+msgid "Heading text"
+msgstr "Antraštės tekstas"
+
+#: includes/class-admin.php:239
+msgid "Body text"
+msgstr "Pagrindinis tekstas"
+
+#: includes/class-admin.php:240
+msgid "Primary button"
+msgstr "Pagrindinis mygtukas"
+
+#: includes/class-admin.php:241
+msgid "Primary button text"
+msgstr "Pagrindinio mygtuko tekstas"
+
+#: includes/class-admin.php:242
+msgid "Secondary button"
+msgstr "Antrinis mygtukas"
+
+#: includes/class-admin.php:243
+msgid "Secondary button text"
+msgstr "Antrinio mygtuko tekstas"
+
+#: includes/class-admin.php:265 includes/class-admin.php:691
+msgid "Text and font style"
+msgstr "Teksto ir šrifto stilius"
+
+#: includes/class-admin.php:268 includes/class-admin.php:521
+msgid "Theme style (inherit site typography)"
+msgstr "Temos stilius (paveldima svetainės tipografija)"
+
+#: includes/class-admin.php:269 includes/class-admin.php:522
+msgid "Plugin style (strict font sizes/colors)"
+msgstr "Įskiepio stilius (griežti šrifto dydžiai ir spalvos)"
+
+#: includes/class-admin.php:281
+msgid "Description text"
+msgstr "Aprašymo tekstas"
+
+#: includes/class-admin.php:287
+msgid "Accept button text"
+msgstr "Priėmimo mygtuko tekstas"
+
+#: includes/class-admin.php:291
+msgid "Reject button text"
+msgstr "Atmetimo mygtuko tekstas"
+
+#: includes/class-admin.php:295
+msgid "Customize button text"
+msgstr "Tinkinimo mygtuko tekstas"
+
+#: includes/class-admin.php:299
+msgid "Save preferences button text"
+msgstr "Nuostatų išsaugojimo mygtuko tekstas"
+
+#: includes/class-admin.php:303 includes/class-script-blocker.php:187
+msgid "This content is blocked because it requires marketing cookies."
+msgstr "Šis turinys užblokuotas, nes jam reikia rinkodaros slapukų."
+
+#: includes/class-admin.php:304 includes/class-script-blocker.php:190
+msgid "Accept marketing cookies"
+msgstr "Priimti rinkodaros slapukus"
+
+#: includes/class-admin.php:318 includes/class-admin.php:693
+msgid "Floating settings button"
+msgstr "Plaukiojantis nustatymų mygtukas"
+
+#: includes/class-admin.php:322
+msgid ""
+"Show a small floating button so visitors can re-open their cookie "
+"preferences"
+msgstr ""
+"Rodyti mažą plaukiojantį mygtuką, kad lankytojai galėtų vėl atidaryti savo "
+"slapukų nuostatas"
+
+#: includes/class-admin.php:329
+msgid "Copied!"
+msgstr "Nukopijuota!"
+
+#: includes/class-admin.php:329 includes/class-admin.php:330
+msgid "Copy"
+msgstr "Kopijuoti"
+
+#: includes/class-admin.php:346 includes/class-admin.php:531
+#: includes/class-admin.php:664
+msgid "Save Settings"
+msgstr "Išsaugoti nustatymus"
+
+#: includes/class-admin.php:370
+msgid "Banner preview"
+msgstr "Reklamjuostės peržiūra"
+
+#: includes/class-admin.php:415
+msgid "Add Cookie"
+msgstr "Pridėti slapuką"
+
+#: includes/class-admin.php:419
+msgid "Need help describing these cookies?"
+msgstr "Reikia pagalbos aprašant šiuos slapukus?"
+
+#: includes/class-admin.php:421
+msgid ""
+"Click the button below to copy a ready-made AI prompt with your cookie data."
+msgstr ""
+"Spustelėkite žemiau esantį mygtuką, kad nukopijuotumėte paruoštą DI užklausą "
+"su jūsų slapukų duomenimis."
+
+#: includes/class-admin.php:422
+msgid "Paste the prompt into an AI tool (ChatGPT, Claude, Gemini, etc.)."
+msgstr "Įklijuokite užklausą į DI įrankį (ChatGPT, Claude, Gemini ir pan.)."
+
+#: includes/class-admin.php:423
+msgid "The AI will return improved JSON with clear cookie descriptions."
+msgstr "DI grąžins patobulintą JSON su aiškiais slapukų aprašymais."
+
+#: includes/class-admin.php:424
+msgid ""
+"Copy the AI response and paste it into the text box that appears below."
+msgstr ""
+"Nukopijuokite DI atsakymą ir įklijuokite jį į žemiau atsirasiantį teksto "
+"laukelį."
+
+#: includes/class-admin.php:425
+msgid "Click Import — cookies are saved automatically."
+msgstr "Spustelėkite „Importuoti“ – slapukai išsaugomi automatiškai."
+
+#: includes/class-admin.php:429
+msgid "Copy AI Prompt to Clipboard"
+msgstr "Kopijuoti DI užklausą į iškarpinę"
+
+#: includes/class-admin.php:433
+msgid "Paste the AI response here:"
+msgstr "Įklijuokite DI atsakymą čia:"
+
+#: includes/class-admin.php:434
+msgid "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+msgstr "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+
+#: includes/class-admin.php:436
+msgid "Import"
+msgstr "Importuoti"
+
+#: includes/class-admin.php:447
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: includes/class-admin.php:448 includes/class-admin.php:989
+msgid "Category"
+msgstr "Kategorija"
+
+#: includes/class-admin.php:449 includes/class-policy-page.php:91
+#: includes/class-policy-page.php:100
+msgid "Provider"
+msgstr "Teikėjas"
+
+#: includes/class-admin.php:450 includes/class-policy-page.php:93
+#: includes/class-policy-page.php:102
+msgid "Duration"
+msgstr "Galiojimo laikas"
+
+#: includes/class-admin.php:451
+msgid "Description"
+msgstr "Aprašymas"
+
+#: includes/class-admin.php:464 kansleri-cookie-consent.php:335
+msgid "Necessary"
+msgstr "Būtini"
+
+#: includes/class-admin.php:465 kansleri-cookie-consent.php:339
+msgid "Analytics"
+msgstr "Analitika"
+
+#: includes/class-admin.php:466 kansleri-cookie-consent.php:343
+msgid "Marketing"
+msgstr "Rinkodara"
+
+#: includes/class-admin.php:467 kansleri-cookie-consent.php:347
+msgid "Preferences"
+msgstr "Nuostatos"
+
+#: includes/class-admin.php:480 includes/class-admin.php:700
+msgid "Save Cookies"
+msgstr "Išsaugoti slapukus"
+
+#: includes/class-admin.php:494
+msgid ""
+"No cookie policy page has been selected. Set a Privacy Policy page in "
+"Settings → Privacy, or choose a page below."
+msgstr ""
+"Slapukų politikos puslapis nepasirinktas. Nurodykite privatumo politikos "
+"puslapį skiltyje Nustatymai → Privatumas arba pasirinkite puslapį žemiau."
+
+#: includes/class-admin.php:502 includes/class-admin.php:705
+msgid "Cookie policy page"
+msgstr "Slapukų politikos puslapis"
+
+#: includes/class-admin.php:505
+msgid "— Select a page —"
+msgstr "— Pasirinkite puslapį —"
+
+#: includes/class-admin.php:510
+#, php-format
+msgid "%s (WordPress Privacy Policy)"
+msgstr "%s (WordPress privatumo politika)"
+
+#: includes/class-admin.php:513
+msgid ""
+"Defaults automatically to the WordPress Privacy Policy page (Settings → "
+"Privacy). Add the shortcode [kncc_cookie_policy] to that page to show the "
+"cookie declaration."
+msgstr ""
+"Pagal numatytuosius nustatymus naudojamas WordPress privatumo politikos "
+"puslapis (Nustatymai → Privatumas). Įdėkite į tą puslapį trumpąjį kodą "
+"[kncc_cookie_policy], kad būtų rodoma slapukų deklaracija."
+
+#: includes/class-admin.php:518
+msgid "Policy page style"
+msgstr "Politikos puslapio stilius"
+
+#: includes/class-admin.php:525
+msgid ""
+"Controls the styling of the [kncc_cookie_policy] cookie declaration table."
+msgstr "Valdo [kncc_cookie_policy] slapukų deklaracijos lentelės stilių."
+
+#: includes/class-admin.php:628
+msgid ""
+"Theme style is the default so the policy page matches your site typography. "
+"Switch to Plugin style for strict plugin sizes and colors."
+msgstr ""
+"Numatytasis yra temos stilius, kad politikos puslapis atitiktų jūsų "
+"svetainės tipografiją. Jei norite griežtų įskiepio dydžių ir spalvų, "
+"perjunkite į įskiepio stilių."
+
+#: includes/class-admin.php:539
+msgid "Preview Policy Page"
+msgstr "Peržiūrėti politikos puslapį"
+
+#: includes/class-admin.php:546
+msgid "Generate cookie policy page content with AI"
+msgstr "Slapukų politikos puslapio turinio generavimas su DI"
+
+#: includes/class-admin.php:548
+msgid ""
+"Copy the prompt below and paste it into an AI tool. It will generate a "
+"complete cookie and privacy policy page in your site language. The cookie "
+"declaration will be handled automatically by the [kncc_cookie_policy] "
+"shortcode. Paste the generated HTML into your policy page."
+msgstr ""
+"Nukopijuokite žemiau pateiktą užklausą ir įklijuokite ją į DI įrankį. Jis "
+"sugeneruos išsamų slapukų ir privatumo politikos puslapį jūsų svetainės "
+"kalba. Slapukų deklaraciją automatiškai pateiks trumpasis kodas "
+"[kncc_cookie_policy]. Sugeneruotą HTML įklijuokite į savo politikos puslapį."
+
+#: includes/class-admin.php:552
+msgid "Copy AI Prompt for Policy Page"
+msgstr "Kopijuoti DI užklausą politikos puslapiui"
+
+#: includes/class-admin.php:565
+msgid "Detected integrations"
+msgstr "Aptiktos integracijos"
+
+#: includes/class-admin.php:692
+msgid ""
+"Active — Site Kit sets consent defaults for its own regions. This plugin "
+"sets a denied default for all other visitors and sends consent updates."
+msgstr ""
+"Aktyvi – Site Kit nustato numatytąsias sutikimo reikšmes savo regionams. Šis "
+"įskiepis visiems kitiems lankytojams nustato numatytąją reikšmę „neleista“ "
+"ir siunčia sutikimo atnaujinimus."
+
+#: includes/class-admin.php:575
+msgid ""
+"Active — Site Kit consent mode not enabled. This plugin handles all consent "
+"signals."
+msgstr ""
+"Aktyvi – Site Kit Consent Mode neįjungtas. Visus sutikimo signalus tvarko "
+"šis įskiepis."
+
+#: includes/class-admin.php:586
+msgid ""
+"Active — consent status is shared with other plugins via the WP Consent API."
+msgstr ""
+"Aktyvi – sutikimo būsena per WP Consent API bendrinama su kitais įskiepiais."
+
+#: includes/class-admin.php:598 includes/class-admin.php:712
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: includes/class-admin.php:602
+msgid ""
+"Enable Consent Mode v2 (outputs consent defaults in &lt;head&gt; before GTM)"
+msgstr ""
+"Įjungti Consent Mode v2 (numatytosios sutikimo reikšmės išvedamos "
+"&lt;head&gt; prieš GTM)"
+
+#: includes/class-admin.php:610
+msgid ""
+"Forced on because Google Site Kit is active. Consent Mode is required for "
+"Site Kit to receive consent signals."
+msgstr ""
+"Įjungta priverstinai, nes aktyvus Google Site Kit. Consent Mode reikalingas, "
+"kad Site Kit gautų sutikimo signalus."
+
+#: includes/class-admin.php:614
+msgid ""
+"Consent Mode tells Google tags what the visitor has allowed (for example "
+"analytics or ads). This plugin sends a denied-by-default signal before tags "
+"run, and sends an updated signal after the visitor chooses. It controls "
+"consent signals only: you still need to install GTM/GA scripts separately."
+msgstr ""
+"Consent Mode praneša Google žymoms, ką lankytojas leido (pavyzdžiui, "
+"analitiką ar reklamą). Prieš paleidžiant žymas šis įskiepis siunčia signalą "
+"„pagal numatytuosius nustatymus neleista“, o lankytojui pasirinkus – "
+"atnaujintą signalą. Jis valdo tik sutikimo signalus: GTM/GA scenarijus vis "
+"tiek reikia įdiegti atskirai."
+
+#: includes/class-admin.php:740
+msgid ""
+"Site Kit sets consent defaults for its own regions. This plugin adds a "
+"denied default for all other visitors and sends each visitor's choice as a "
+"consent update."
+msgstr ""
+"Site Kit nustato numatytąsias sutikimo reikšmes savo regionams. Šis įskiepis "
+"visiems kitiems lankytojams prideda numatytąją reikšmę „neleista“ ir siunčia "
+"kiekvieno lankytojo pasirinkimą kaip sutikimo atnaujinimą."
+
+#: includes/class-admin.php:630
+msgid "Need Google Analytics 4 or Google Tag Manager?"
+msgstr "Reikia Google Analytics 4 ar Google Tag Manager?"
+
+#: includes/class-admin.php:633
+msgid ""
+"We recommend installing Google Site Kit — Google's official WordPress "
+"plugin. It sets up GA4 and GTM in a few clicks, and works seamlessly with "
+"Kansleri Cookie Consent: Consent Mode v2 signals are handled automatically, "
+"with no double-loading or conflicts."
+msgstr ""
+"Rekomenduojame įdiegti Google Site Kit – oficialų Google WordPress įskiepį. "
+"Jis keliais spustelėjimais nustato GA4 ir GTM bei sklandžiai veikia su "
+"Kansleri Cookie Consent: Consent Mode v2 signalai tvarkomi automatiškai, be "
+"dvigubo įkėlimo ar konfliktų."
+
+#: includes/class-admin.php:638
+msgid "Install Google Site Kit"
+msgstr "Įdiegti Google Site Kit"
+
+#: includes/class-admin.php:649
+msgid "Consent Mode defaults (auto-injected in &lt;head&gt;)"
+msgstr ""
+"Numatytosios Consent Mode reikšmės (automatiškai įterpiamos į &lt;head&gt;)"
+
+#: includes/class-admin.php:673
+msgid "Installation guide"
+msgstr "Diegimo vadovas"
+
+#: includes/class-admin.php:675
+msgid "Activate the plugin and open Settings > Cookie Consent."
+msgstr "Aktyvuokite įskiepį ir atidarykite Nustatymai > Sutikimas dėl slapukų."
+
+#: includes/class-admin.php:676
+msgid "Configure banner texts, style, and button labels in the General tab."
+msgstr ""
+"Reklamjuostės tekstus, stilių ir mygtukų užrašus nustatykite skirtuke "
+"„Bendrieji“."
+
+#: includes/class-admin.php:677
+msgid ""
+"Open the Integration tab and enable Google Consent Mode v2 if you use "
+"GTM/Google tags."
+msgstr ""
+"Atidarykite skirtuką „Integracija“ ir įjunkite Google Consent Mode v2, jei "
+"naudojate GTM ar Google žymas."
+
+#: includes/class-admin.php:678
+msgid ""
+"Open the Cookies tab, run Scan Cookies, then review and categorize unknown "
+"cookies."
+msgstr ""
+"Atidarykite skirtuką „Slapukai“, paleiskite „Nuskaityti slapukus“, tada "
+"peržiūrėkite nežinomus slapukus ir priskirkite jiems kategorijas."
+
+#: includes/class-admin.php:679
+msgid ""
+"If unknown cookies are found, an AI helper appears: copy the prompt, paste "
+"it into an AI tool, paste the response back into the text box, click Import,"
+" then Save Cookies."
+msgstr ""
+"Jei randama nežinomų slapukų, atsiranda DI pagalbininkas: nukopijuokite "
+"užklausą, įklijuokite ją į DI įrankį, atsakymą įklijuokite atgal į teksto "
+"laukelį, spustelėkite „Importuoti“, tada „Išsaugoti slapukus“."
+
+#: includes/class-admin.php:680
+msgid ""
+"Confirm the Cookie Policy page in the Policy Page tab — it defaults to the "
+"WordPress Privacy Policy page."
+msgstr ""
+"Patvirtinkite slapukų politikos puslapį skirtuke „Politikos puslapis“ – "
+"pagal numatytuosius nustatymus naudojamas WordPress privatumo politikos "
+"puslapis."
+
+#: includes/class-admin.php:681
+msgid ""
+"Use the AI prompt on the Policy Page tab to generate the full cookie policy "
+"page content. Paste the generated HTML into your policy page."
+msgstr ""
+"Pasinaudokite DI užklausa skirtuke „Politikos puslapis“, kad sugeneruotumėte "
+"visą slapukų politikos puslapio turinį. Sugeneruotą HTML įklijuokite į savo "
+"politikos puslapį."
+
+#: includes/class-admin.php:682
+msgid "Review the Script Blocking tab to see which scripts are auto-blocked."
+msgstr ""
+"Peržiūrėkite skirtuką „Scenarijų blokavimas“, kad matytumėte, kurie "
+"scenarijai blokuojami automatiškai."
+
+#: includes/class-admin.php:685
+msgid "What each option means"
+msgstr "Ką reiškia kiekviena parinktis"
+
+#: includes/class-admin.php:687
+msgid "General tab"
+msgstr "Skirtukas „Bendrieji“"
+
+#: includes/class-admin.php:689
+msgid "Choose visual placement of the banner (bar, modal, corner)."
+msgstr ""
+"Pasirinkite reklamjuostės vietą ekrane (juosta, modalinis langas, kampas)."
+
+#: includes/class-admin.php:690
+msgid "Controls the main accent color used by buttons and links."
+msgstr "Valdo pagrindinę akcento spalvą, naudojamą mygtukams ir nuorodoms."
+
+#: includes/class-admin.php:690
+msgid "Primary color"
+msgstr "Pagrindinė spalva"
+
+#: includes/class-admin.php:691
+msgid ""
+"Theme style inherits site typography. Plugin style uses strict sizes/colors "
+"for consistent readability."
+msgstr ""
+"Temos stilius paveldi svetainės tipografiją. Įskiepio stilius naudoja "
+"griežtus dydžius ir spalvas, kad tekstas būtų vienodai gerai įskaitomas."
+
+#: includes/class-admin.php:692
+msgid "Customize visible wording in the consent banner."
+msgstr "Tinkinkite sutikimo reklamjuostėje matomus tekstus."
+
+#: includes/class-admin.php:692
+msgid "Heading/Description/Button texts"
+msgstr "Antraštės, aprašymo ir mygtukų tekstai"
+
+#: includes/class-admin.php:693
+msgid "Lets visitors re-open cookie settings after they close the banner."
+msgstr ""
+"Leidžia lankytojams vėl atidaryti slapukų nustatymus uždarius reklamjuostę."
+
+#: includes/class-admin.php:696
+msgid "Cookies tab"
+msgstr "Skirtukas „Slapukai“"
+
+#: includes/class-admin.php:777
+msgid ""
+"Scans browser cookies and infers expected cookies from tracking scripts on "
+"your site (even when blocked until consent). Known cookies are auto-mapped "
+"to categories."
+msgstr ""
+"Nuskaito naršyklės slapukus ir pagal jūsų svetainės sekimo scenarijus numato "
+"laukiamus slapukus (net jei iki sutikimo jie blokuojami). Žinomi slapukai "
+"automatiškai priskiriami kategorijoms."
+
+#: includes/class-admin.php:699
+msgid "AI Helper"
+msgstr "DI pagalbininkas"
+
+#: includes/class-admin.php:699
+msgid ""
+"Appears after scanning when unknown cookies are found. Copies a ready prompt"
+" to paste into an AI tool. After the AI responds, paste the JSON back into "
+"the text box and click Import."
+msgstr ""
+"Atsiranda po nuskaitymo, kai randama nežinomų slapukų. Nukopijuoja paruoštą "
+"užklausą, kurią įklijuojate į DI įrankį. DI atsakius, įklijuokite JSON atgal "
+"į teksto laukelį ir spustelėkite „Importuoti“."
+
+#: includes/class-admin.php:700
+msgid ""
+"Persists current cookie table values to be used in policy output and consent"
+" details."
+msgstr ""
+"Išsaugo dabartines slapukų lentelės reikšmes, kurios naudojamos politikos "
+"puslapyje ir sutikimo informacijoje."
+
+#: includes/class-admin.php:703
+msgid "Policy Page tab"
+msgstr "Skirtukas „Politikos puslapis“"
+
+#: includes/class-admin.php:705
+msgid ""
+"Selects which page is used for cookie policy content generated by shortcode."
+msgstr ""
+"Nustato, kuris puslapis naudojamas trumpuoju kodu generuojamam slapukų "
+"politikos turiniui."
+
+#: includes/class-admin.php:706
+msgid "AI Prompt for Policy Page"
+msgstr "DI užklausa politikos puslapiui"
+
+#: includes/class-admin.php:706
+msgid ""
+"Generates a prompt you can paste into an AI tool to create a full privacy "
+"and cookie policy. The generated text will include the [kncc_cookie_policy] "
+"shortcode for the cookie declaration section."
+msgstr ""
+"Sugeneruoja užklausą, kurią galite įklijuoti į DI įrankį, kad sukurtumėte "
+"išsamią privatumo ir slapukų politiką. Sugeneruotame tekste bus trumpasis "
+"kodas [kncc_cookie_policy] slapukų deklaracijos skilčiai."
+
+#: includes/class-admin.php:707
+msgid ""
+"If Polylang or WPML is active, each language can have its own translated "
+"policy page. If a translation is missing for some language, the default-"
+"language policy page is used as a fallback."
+msgstr ""
+"Jei aktyvus Polylang arba WPML, kiekviena kalba gali turėti savo išverstą "
+"politikos puslapį. Jei kuria nors kalba vertimo nėra, kaip atsarginis "
+"naudojamas numatytosios kalbos politikos puslapis."
+
+#: includes/class-admin.php:707
+msgid "Multilingual support"
+msgstr "Daugiakalbystės palaikymas"
+
+#: includes/class-admin.php:710
+msgid "Integration tab"
+msgstr "Skirtukas „Integracija“"
+
+#: includes/class-admin.php:712
+msgid ""
+"A Google framework for privacy-safe tag behavior. Before consent, storage "
+"signals are denied; after user choice, signals are updated (for example "
+"analytics_storage=granted). This helps GTM/Google tags respect user consent "
+"state."
+msgstr ""
+"Google sistema, užtikrinanti privatumą gerbiantį žymų veikimą. Iki sutikimo "
+"saugojimo signalai nustatomi kaip „neleista“; naudotojui pasirinkus, "
+"signalai atnaujinami (pavyzdžiui, analytics_storage=granted). Tai padeda GTM "
+"ir Google žymoms paisyti naudotojo sutikimo būsenos."
+
+#: includes/class-admin.php:713
+msgid "GTM Container ID"
+msgstr "GTM konteinerio ID"
+
+#: includes/class-admin.php:713
+msgid ""
+"Your GTM container identifier (for example GTM-N6828NL). It identifies which"
+" tag container your site uses. This field is informational in this plugin "
+"and does not inject GTM scripts."
+msgstr ""
+"Jūsų GTM konteinerio identifikatorius (pavyzdžiui, GTM-N6828NL). Jis nurodo, "
+"kurį žymų konteinerį naudoja jūsų svetainė. Šiame įskiepyje šis laukas yra "
+"tik informacinis ir neįterpia GTM scenarijų."
+
+#: includes/class-admin.php:716
+msgid "Script Blocking tab"
+msgstr "Skirtukas „Scenarijų blokavimas“"
+
+#: includes/class-admin.php:798
+msgid ""
+"Tools like Google Analytics are blocked automatically when added through "
+"WordPress plugins (e.g. Google Site Kit)."
+msgstr ""
+"Tokie įrankiai kaip Google Analytics blokuojami automatiškai, kai pridedami "
+"per WordPress įskiepius (pvz., Google Site Kit)."
+
+#: includes/class-admin.php:799 includes/class-admin.php:1071
+msgid "Custom Code blocking"
+msgstr "Pasirinktinio kodo blokavimas"
+
+#: includes/class-admin.php:799
+msgid ""
+"Stops tracking pasted into Bricks, Elementor, or similar Custom Code fields "
+"until the visitor gives consent."
+msgstr ""
+"Sustabdo sekimą, įklijuotą į Bricks, Elementor ar panašius pasirinktinio "
+"kodo laukus, kol lankytojas duoda sutikimą."
+
+#: includes/class-admin.php:719
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
+msgstr ""
+"YouTube ir Vimeo įterpti vaizdo įrašai automatiškai blokuojami, kol "
+"lankytojas priima rinkodaros slapukus. Vietoj jų rodomas pranešimas su "
+"priėmimo mygtuku. Jei lankytojas jau davė sutikimą, vaizdo įrašai įkeliami "
+"įprastai."
+
+#: includes/class-admin.php:719
+msgid "YouTube & Vimeo iframe blocking"
+msgstr "YouTube & Vimeo iframe blokavimas"
+
+#: includes/class-admin.php:722
+msgid "Statistics tab"
+msgstr "Skirtukas „Statistika“"
+
+#: includes/class-admin.php:724
+msgid "Consent statistics"
+msgstr "Sutikimų statistika"
+
+#: includes/class-admin.php:724
+msgid ""
+"Shows how many visitors accepted, rejected, or customized cookies over 7, "
+"30, or 90 day periods. Data is aggregated and anonymous — no personal data "
+"is stored."
+msgstr ""
+"Rodo, kiek lankytojų priėmė, atmetė ar tinkino slapukus per 7, 30 ar 90 "
+"dienų laikotarpius. Duomenys apibendrinti ir anonimiški – asmens duomenys "
+"nesaugomi."
+
+#: includes/class-admin.php:725 includes/class-admin.php:1022
+msgid "Consent Log"
+msgstr "Sutikimų žurnalas"
+
+#: includes/class-admin.php:725
+msgid ""
+"Individual anonymized consent records for GDPR audit compliance. Records "
+"contain a hashed visitor identifier, the consent choice, accepted "
+"categories, and the policy version. Records are automatically purged after "
+"13 months."
+msgstr ""
+"Atskiri anonimizuoti sutikimų įrašai, reikalingi BDAR atitikties auditui. "
+"Įrašuose yra maišos funkcija apdorotas lankytojo identifikatorius, sutikimo "
+"pasirinkimas, priimtos kategorijos ir politikos versija. Įrašai automatiškai "
+"išvalomi po 13 mėnesių."
+
+#: includes/class-admin.php:726
+msgid "Downloads all consent log records as a CSV file for auditing."
+msgstr "Atsisiunčia visus sutikimų žurnalo įrašus CSV failu auditui."
+
+#: includes/class-admin.php:726 includes/class-admin.php:1038
+msgid "Export CSV"
+msgstr "Eksportuoti CSV"
+
+#: includes/class-admin.php:727
+msgid "Permanently deletes all consent log records and aggregate statistics."
+msgstr ""
+"Visam laikui ištrina visus sutikimų žurnalo įrašus ir apibendrintą "
+"statistiką."
+
+#: includes/class-admin.php:727 includes/class-admin.php:1039
+msgid "Purge All Records"
+msgstr "Išvalyti visus įrašus"
+
+#: includes/class-admin.php:730
+msgid "Multilingual support (WPML & Polylang)"
+msgstr "Daugiakalbystės palaikymas (WPML & Polylang)"
+
+#: includes/class-admin.php:732
+msgid "Per-language banner texts"
+msgstr "Reklamjuostės tekstai kiekvienai kalbai"
+
+#: includes/class-admin.php:732
+msgid ""
+"When WPML or Polylang is active, switch to a secondary language in the admin"
+" bar and edit General tab settings (saved per language). With WPML String "
+"Translation, you can also translate the [kncc_settings]* admin text strings "
+"— those are used when no per-language override is saved. Otherwise each "
+"language uses its own plugin defaults (English if unsupported). Texts are "
+"never copied blindly from the default language."
+msgstr ""
+"Kai aktyvus WPML arba Polylang, administravimo juostoje perjunkite į antrinę "
+"kalbą ir redaguokite skirtuko „Bendrieji“ nustatymus (išsaugomi kiekvienai "
+"kalbai atskirai). Su WPML String Translation taip pat galite išversti "
+"[kncc_settings]* administravimo tekstų eilutes – jos naudojamos, kai kalbai "
+"neišsaugotas atskiras tekstas. Kitu atveju kiekviena kalba naudoja savo "
+"įskiepio numatytuosius tekstus (anglų kalba, jei kalba nepalaikoma). Tekstai "
+"niekada nėra aklai kopijuojami iš numatytosios kalbos."
+
+#: includes/class-admin.php:733
+msgid ""
+"Cookie names, categories, providers, and durations are shared across all "
+"languages. Only the description field can be translated per language. Switch"
+" language and edit descriptions in the Cookies tab."
+msgstr ""
+"Slapukų pavadinimai, kategorijos, teikėjai ir galiojimo laikai yra bendri "
+"visoms kalboms. Kiekvienai kalbai galima išversti tik aprašymo lauką. "
+"Perjunkite kalbą ir redaguokite aprašymus skirtuke „Slapukai“."
+
+#: includes/class-admin.php:733
+msgid "Per-language cookie descriptions"
+msgstr "Slapukų aprašymai kiekvienai kalbai"
+
+#: includes/class-admin.php:734
+msgid ""
+"Banner style, colors, and policy page can be set per language. Non-text "
+"settings fall back to the default language; banner texts use per-language "
+"overrides, WPML String Translation, or each language's own defaults."
+msgstr ""
+"Reklamjuostės stilių, spalvas ir politikos puslapį galima nustatyti "
+"kiekvienai kalbai. Netekstiniai nustatymai perimami iš numatytosios kalbos; "
+"reklamjuostės tekstams naudojami atskiri kalbos tekstai, WPML String "
+"Translation arba kiekvienos kalbos numatytieji tekstai."
+
+#: includes/class-admin.php:734
+msgid "Per-language settings"
+msgstr "Nustatymai kiekvienai kalbai"
+
+#: includes/class-admin.php:735
+msgid "AI prompts"
+msgstr "DI užklausos"
+
+#: includes/class-admin.php:735
+msgid ""
+"AI prompts for cookie descriptions and policy pages are automatically "
+"generated in the language matching the current admin locale."
+msgstr ""
+"DI užklausos slapukų aprašymams ir politikos puslapiams automatiškai "
+"generuojamos ta kalba, kuri atitinka dabartinę administravimo srities kalbą."
+
+#: includes/class-admin.php:738
+msgid "Shortcodes"
+msgstr "Trumpieji kodai"
+
+#: includes/class-admin.php:740
+msgid "Displays the full cookie declaration table on your policy page."
+msgstr "Rodo visą slapukų deklaracijos lentelę jūsų politikos puslapyje."
+
+#: includes/class-admin.php:741
+msgid ""
+"Renders a link that opens the cookie settings dialog. Use in footers, menus,"
+" or widgets. Customize the link text with the text attribute, e.g. "
+"[kncc_cookie_settings text=\"Manage cookies\"]."
+msgstr ""
+"Pateikia nuorodą, kuri atidaro slapukų nustatymų langą. Naudokite poraštėse, "
+"meniu ar valdikliuose. Nuorodos tekstą galite pakeisti atributu text, pvz., "
+"[kncc_cookie_settings text=\"Tvarkyti slapukus\"]."
+
+#: includes/class-admin.php:744
+msgid "Custom CSS"
+msgstr "Pasirinktinis CSS"
+
+#: includes/class-admin.php:748
+#, php-format
+msgid ""
+"Need to fine-tune the look beyond the General tab? Add CSS to %s, your child"
+" theme, or a Code Snippets plugin."
+msgstr ""
+"Norite koreguoti išvaizdą daugiau, nei leidžia skirtukas „Bendrieji“? "
+"Pridėkite CSS skiltyje %s, savo vaikinėje temoje arba per Code Snippets "
+"įskiepį."
+
+#: includes/class-admin.php:749
+msgid "Appearance → Customize → Additional CSS"
+msgstr "Išvaizda → Tinkinti → Papildomas CSS"
+
+#: includes/class-admin.php:752
+msgid ""
+"Copy the template below, uncomment the rules you want to change, save. Every"
+" selector the plugin uses is included."
+msgstr ""
+"Nukopijuokite žemiau pateiktą šabloną, atkomentuokite taisykles, kurias "
+"norite pakeisti, ir išsaugokite. Įtraukti visi įskiepio naudojami "
+"selektoriai."
+
+#: includes/class-admin.php:756
+msgid "Copy CSS template"
+msgstr "Kopijuoti CSS šabloną"
+
+#: includes/class-admin.php:828
+msgid "Tips:"
+msgstr "Patarimai:"
+
+#: includes/class-admin.php:830
+msgid ""
+"If a rule does not apply, prepend .kncc-banner or add !important — your CSS "
+"file loads after the plugin's, but theme styles can occasionally beat it on "
+"specificity."
+msgstr ""
+"Jei taisyklė nepritaikoma, pridėkite priekyje .kncc-banner arba !important – "
+"jūsų CSS failas įkeliamas po įskiepio failo, tačiau temos stiliai kartais "
+"gali nusverti dėl specifiškumo."
+
+#: includes/class-admin.php:831
+msgid ""
+"When General → Text and font style is set to Plugin style, typography rules "
+"use !important. Switch to Theme style for easier overrides."
+msgstr ""
+"Kai nustatyme Bendrieji → Teksto ir šrifto stilius pasirinktas įskiepio "
+"stilius, tipografijos taisyklėse naudojamas !important. Norėdami lengviau "
+"perrašyti stilius, perjunkite į temos stilių."
+
+#: includes/class-admin.php:832
+msgid ""
+"Banner z-index is 999999 and the floating button is 999998 — raise them if "
+"your theme renders overlays on top of the banner."
+msgstr ""
+"Reklamjuostės z-index yra 999999, o plaukiojančio mygtuko – 999998; "
+"padidinkite šias reikšmes, jei jūsų tema rodo perdangas virš reklamjuostės."
+
+#: includes/class-admin.php:835
+msgid "Troubleshooting"
+msgstr "Trikčių šalinimas"
+
+#: includes/class-admin.php:837
+msgid ""
+"If GTM Preview does not show consent updates, verify Consent Mode v2 is "
+"enabled and test in a fresh browser session without existing consent cookie."
+msgstr ""
+"Jei GTM Preview nerodo sutikimo atnaujinimų, patikrinkite, ar įjungtas "
+"Consent Mode v2, ir išbandykite naujame naršyklės seanse be esamo sutikimo "
+"slapuko."
+
+#: includes/class-admin.php:838
+msgid ""
+"If banner typography looks odd with your theme, switch General > Text and "
+"font style to Plugin style."
+msgstr ""
+"Jei reklamjuostės tipografija su jūsų tema atrodo keistai, nustatyme "
+"Bendrieji > Teksto ir šrifto stilius pasirinkite įskiepio stilių."
+
+#: includes/class-admin.php:839
+msgid ""
+"If tracking still runs before consent, make sure Custom Code blocking is "
+"checked on the Script Blocking tab."
+msgstr ""
+"Jei sekimas vis tiek vykdomas iki sutikimo, įsitikinkite, kad skirtuke "
+"„Scenarijų blokavimas“ pažymėta parinktis „Pasirinktinio kodo blokavimas“."
+
+#: includes/class-admin.php:840
+msgid ""
+"If the statistics are empty, make sure visitors have interacted with the "
+"banner. Data starts recording after the first consent choice."
+msgstr ""
+"Jei statistika tuščia, įsitikinkite, kad lankytojai sąveikavo su "
+"reklamjuoste. Duomenys pradedami registruoti po pirmojo sutikimo pasirinkimo."
+
+#: includes/class-admin.php:841
+msgid ""
+"If the policy page warning shows missing translations, create the translated"
+" page in each language and add the [kncc_cookie_policy] shortcode."
+msgstr ""
+"Jei politikos puslapio įspėjime nurodoma, kad trūksta vertimų, sukurkite "
+"išverstą puslapį kiekviena kalba ir įdėkite trumpąjį kodą "
+"[kncc_cookie_policy]."
+
+#: includes/class-admin.php:845
+msgid ""
+"I made this plugin for free because I got frustrated by the existing cookie "
+"consent plugins — too much bloat and useless features. If you like it and "
+"want to buy me a coffee, you can do it here:"
+msgstr ""
+"Šį įskiepį sukūriau nemokamai, nes mane erzino esami slapukų sutikimo "
+"įskiepiai – per daug perteklinio kodo ir nereikalingų funkcijų. Jei jis jums "
+"patinka ir norite nupirkti man kavos, galite tai padaryti čia:"
+
+#: includes/class-admin.php:873
+#, php-format
+msgid "%d days"
+msgstr "%d d."
+
+#: includes/class-admin.php:884
+msgid "Total responses"
+msgstr "Iš viso atsakymų"
+
+#: includes/class-admin.php:888 includes/class-admin.php:903
+#: includes/class-admin.php:913
+msgid "Accepted all"
+msgstr "Priėmė visus"
+
+#: includes/class-admin.php:892 includes/class-admin.php:909
+#: includes/class-admin.php:915
+msgid "Rejected all"
+msgstr "Atmetė visus"
+
+#: includes/class-admin.php:896 includes/class-admin.php:906
+#: includes/class-admin.php:914
+msgid "Custom selection"
+msgstr "Individualus pasirinkimas"
+
+#: includes/class-admin.php:920
+msgid ""
+"No consent data recorded yet. Statistics will appear after visitors start "
+"interacting with the cookie banner."
+msgstr ""
+"Sutikimų duomenų dar neužregistruota. Statistika atsiras, kai lankytojai "
+"pradės sąveikauti su slapukų reklamjuoste."
+
+#: includes/class-admin.php:937
+#, php-format
+msgid "Cron error: %s"
+msgstr "Cron klaida: %s"
+
+#: includes/class-admin.php:955
+msgid "All systems are good!"
+msgstr "Viskas veikia gerai!"
+
+#: includes/class-admin.php:957
+msgid "The plugin re-checks cookies every day via cron."
+msgstr "Įskiepis kasdien per cron iš naujo tikrina slapukus."
+
+#: includes/class-admin.php:962
+#, php-format
+msgid "Next check: %s"
+msgstr "Kitas patikrinimas: %s"
+
+#: includes/class-admin.php:1075
+msgid ""
+"Also block tracking added in Bricks, Elementor, or other Custom Code fields"
+msgstr ""
+"Taip pat blokuoti sekimą, pridėtą per Bricks, Elementor ar kitus "
+"pasirinktinio kodo laukus"
+
+#: includes/class-admin.php:1094
+msgid "Save blocking settings"
+msgstr "Išsaugoti blokavimo nustatymus"
+
+#: includes/class-admin.php:1099
+msgid "Recognized tracking tools"
+msgstr "Atpažinti sekimo įrankiai"
+
+#: includes/class-admin.php:1106
+msgid "Script Handle"
+msgstr "Scenarijaus handle"
+
+#: includes/class-admin.php:1024
+msgid ""
+"Individual consent records for GDPR audit compliance. Records are "
+"automatically purged after the retention period (13 months)."
+msgstr ""
+"Atskiri sutikimų įrašai, reikalingi BDAR atitikties auditui. Įrašai "
+"automatiškai išvalomi pasibaigus saugojimo laikotarpiui (13 mėnesių)."
+
+#: includes/class-admin.php:1028
+msgid "Total records:"
+msgstr "Iš viso įrašų:"
+
+#: includes/class-admin.php:1030
+msgid "Oldest:"
+msgstr "Seniausias:"
+
+#: includes/class-admin.php:1033
+msgid "Newest:"
+msgstr "Naujausias:"
+
+#: includes/class-admin.php:1043
+msgid "No consent log records yet."
+msgstr "Sutikimų žurnalo įrašų dar nėra."
+
+#: includes/class-admin.php:1048
+msgid "Date/Time"
+msgstr "Data / laikas"
+
+#: includes/class-admin.php:1049
+msgid "Visitor"
+msgstr "Lankytojas"
+
+#: includes/class-admin.php:1050
+msgid "Choice"
+msgstr "Pasirinkimas"
+
+#: includes/class-admin.php:1051
+msgid "Categories"
+msgstr "Kategorijos"
+
+#: includes/class-admin.php:1052
+msgid "Policy Version"
+msgstr "Politikos versija"
+
+#: includes/class-admin.php:1311
+msgid "Cookies saved."
+msgstr "Slapukai išsaugoti."
+
+#: includes/class-consent.php:135
+msgid "Cookie consent"
+msgstr "Sutikimas dėl slapukų"
+
+#: includes/class-consent.php:147 includes/class-policy-page.php:27
+msgid "Cookie Policy"
+msgstr "Slapukų politika"
+
+#: includes/class-consent.php:155
+msgid "Close"
+msgstr "Uždaryti"
+
+#: includes/class-consent.php:187 includes/class-consent.php:188
+#: kansleri-cookie-consent.php:590
+msgid "Cookie settings"
+msgstr "Slapukų nustatymai"
+
+#: includes/class-policy-page.php:48
+msgid "No cookies have been registered yet."
+msgstr "Dar neužregistruota jokių slapukų."
+
+#: includes/class-policy-page.php:58
+msgid ""
+"These cookies are essential for the website to function and cannot be "
+"switched off."
+msgstr "Šie slapukai būtini, kad svetainė veiktų, ir jų negalima išjungti."
+
+#: includes/class-policy-page.php:59
+msgid ""
+"These cookies help us understand how visitors interact with the website by "
+"collecting and reporting information anonymously."
+msgstr ""
+"Šie slapukai padeda mums suprasti, kaip lankytojai naudojasi svetaine, "
+"anonimiškai rinkdami ir teikdami informaciją."
+
+#: includes/class-policy-page.php:60
+msgid ""
+"These cookies are used to deliver relevant advertisements and track ad "
+"campaign performance."
+msgstr ""
+"Šie slapukai naudojami aktualiai reklamai rodyti ir reklamos kampanijų "
+"veiksmingumui stebėti."
+
+#: includes/class-policy-page.php:61
+msgid ""
+"These cookies allow the website to remember choices you make and provide "
+"enhanced functionality and personalisation."
+msgstr ""
+"Šie slapukai leidžia svetainei įsiminti jūsų pasirinkimus, teikti "
+"išplėstines funkcijas ir suasmeninti turinį."
+
+#: includes/class-policy-page.php:79
+msgid "Edit cookie preferences"
+msgstr "Keisti slapukų nuostatas"
+
+#: includes/class-policy-page.php:90 includes/class-policy-page.php:99
+msgid "Cookie"
+msgstr "Slapukas"
+
+#: includes/class-policy-page.php:92 includes/class-policy-page.php:101
+msgid "Purpose"
+msgstr "Paskirtis"
+
+#: includes/class-script-blocker.php:306
+msgid "Script blocking settings saved."
+msgstr "Scenarijų blokavimo nustatymai išsaugoti."
+
+#: kansleri-cookie-consent.php:57 kansleri-cookie-consent.php:404
+msgid "We use cookies"
+msgstr "Naudojame slapukus"
+
+#: kansleri-cookie-consent.php:58 kansleri-cookie-consent.php:405
+msgid ""
+"We use cookies to improve your experience and analyze site traffic. Choose "
+"which cookies you allow."
+msgstr ""
+"Naudojame slapukus, kad pagerintume jūsų naršymo patirtį ir analizuotume "
+"svetainės lankomumą. Pasirinkite, kuriuos slapukus leidžiate."
+
+#: kansleri-cookie-consent.php:59 kansleri-cookie-consent.php:406
+msgid "Accept all"
+msgstr "Priimti visus"
+
+#: kansleri-cookie-consent.php:60 kansleri-cookie-consent.php:407
+msgid "Reject all"
+msgstr "Atmesti visus"
+
+#: kansleri-cookie-consent.php:61 kansleri-cookie-consent.php:408
+msgid "Customize"
+msgstr "Tinkinti"
+
+#: kansleri-cookie-consent.php:62 kansleri-cookie-consent.php:409
+msgid "Save preferences"
+msgstr "Išsaugoti nuostatas"
+
+#: kansleri-cookie-consent.php:336
+msgid "Required for the website to function. Cannot be disabled."
+msgstr "Būtini svetainei veikti. Jų negalima išjungti."
+
+#: kansleri-cookie-consent.php:340
+msgid "Help us understand how visitors interact with the website."
+msgstr "Padeda mums suprasti, kaip lankytojai naudojasi svetaine."
+
+#: kansleri-cookie-consent.php:344
+msgid "Used to deliver relevant advertisements and track campaigns."
+msgstr "Naudojami aktualiai reklamai rodyti ir kampanijoms stebėti."
+
+#: kansleri-cookie-consent.php:348
+msgid "Remember your settings and preferences for a better experience."
+msgstr ""
+"Įsimena jūsų nustatymus ir nuostatas, kad naudotis svetaine būtų patogiau."
+
+#: kansleri-cookie-consent.php:499
+msgid "Settings"
+msgstr "Nustatymai"
+
+#: kansleri-cookie-consent.php:522
+#, php-format
+msgid ""
+"Kansleri Cookie Consent is now active. Next steps: %1$s to discover cookies "
+"and %2$s to review banner and consent settings."
+msgstr ""
+"Kansleri Cookie Consent dabar aktyvus. Ką daryti toliau? %1$s, kad juos "
+"aptiktumėte, ir %2$s, susijusius su reklamjuoste ir sutikimu."
+
+#: kansleri-cookie-consent.php:523
+msgid "Scan cookies"
+msgstr "Nuskaitykite slapukus"
+
+#: kansleri-cookie-consent.php:524
+msgid "review settings"
+msgstr "peržiūrėkite nustatymus"
+
+#: kansleri-cookie-consent.php:555
+#, php-format
+msgid ""
+"Cookie Consent: %1$d cookie(s) are missing descriptions: %2$s. %3$s to add "
+"them."
+msgstr ""
+"Sutikimas dėl slapukų: aprašymų neturi slapukai (%1$d): %2$s. %3$s ir "
+"pridėkite aprašymus."
+
+#: kansleri-cookie-consent.php:558
+msgid "Go to Cookies tab"
+msgstr "Eikite į skirtuką „Slapukai“"
+
+#: kansleri-cookie-consent.php:572
+msgid ""
+"This site uses a cookie consent banner powered by Kansleri Cookie Consent. "
+"When you interact with the banner, a cookie named <code>kncc_consent</code> "
+"is stored in your browser for up to 1 year. It records your consent "
+"preferences (which cookie categories you accepted or rejected) so the site "
+"can remember your choice on future visits. No personal data is stored in "
+"this cookie."
+msgstr ""
+"Ši svetainė naudoja slapukų sutikimo reklamjuostę, kurią teikia Kansleri "
+"Cookie Consent. Kai sąveikaujate su reklamjuoste, jūsų naršyklėje iki 1 metų "
+"išsaugomas slapukas <code>kncc_consent</code>. Jame įrašomos jūsų sutikimo "
+"nuostatos (kurias slapukų kategorijas priėmėte ar atmetėte), kad svetainė "
+"prisimintų jūsų pasirinkimą kitų apsilankymų metu. Šiame slapuke asmens "
+"duomenys nesaugomi."
+
+#: kansleri-cookie-consent.php:573
+msgid ""
+"The plugin also records anonymous, aggregated consent statistics (how many "
+"visitors accepted, rejected, or customized cookies each day) and individual "
+"consent log entries for GDPR audit compliance. Consent log entries contain a"
+" hashed (non-reversible) visitor identifier, the consent choice, which "
+"categories were accepted, and the policy version. No IP addresses, user "
+"identifiers, or personal data are stored in plain text. Consent log records "
+"are automatically deleted after 13 months."
+msgstr ""
+"Įskiepis taip pat registruoja anoniminę, apibendrintą sutikimų statistiką "
+"(kiek lankytojų kasdien priėmė, atmetė ar tinkino slapukus) ir atskirus "
+"sutikimų žurnalo įrašus BDAR atitikties auditui. Sutikimų žurnalo įrašuose "
+"yra maišos funkcija apdorotas (neatkuriamas) lankytojo identifikatorius, "
+"sutikimo pasirinkimas, priimtos kategorijos ir politikos versija. IP "
+"adresai, naudotojų identifikatoriai ar asmens duomenys atviru tekstu "
+"nesaugomi. Sutikimų žurnalo įrašai automatiškai ištrinami po 13 mėnesių."
+
+#: includes/class-admin.php:318
+msgid "Empty cookie categories"
+msgstr "Tuščios slapukų kategorijos"
+
+#: includes/class-admin.php:322
+msgid "Show but lock (disable) the switch"
+msgstr "Rodyti, bet užrakinti (išjungti) jungiklį"
+
+#: includes/class-admin.php:323
+msgid "Hide categories with no cookies"
+msgstr "Slėpti kategorijas be slapukų"
+
+#: includes/class-admin.php:378 includes/class-consent.php:95
+msgid "No analytics cookies are used on this site."
+msgstr "Šioje svetainėje analitikos slapukai nenaudojami."
+
+#: includes/class-admin.php:379 includes/class-consent.php:96
+msgid "No marketing cookies are used on this site."
+msgstr "Šioje svetainėje rinkodaros slapukai nenaudojami."
+
+#: includes/class-admin.php:380 includes/class-consent.php:97
+msgid "No preference cookies are used on this site."
+msgstr "Šioje svetainėje nuostatų slapukai nenaudojami."
+
+#: includes/class-admin.php:323
+msgid "Close button label"
+msgstr "Uždarymo mygtuko etiketė"
+
+#: includes/class-consent.php:50
+msgid "You have not made a choice yet."
+msgstr "Dar nieko nepasirinkote."
+
+#: includes/class-consent.php:51
+msgid "Allowed"
+msgstr "Leista"
+
+#: includes/class-consent.php:52
+msgid "Denied"
+msgstr "Neleista"
+
+#: includes/class-consent.php:53
+msgid "Always active"
+msgstr "Visada įjungta"
+
+#: includes/class-policy-page.php:85
+msgid "Your current cookie preferences"
+msgstr "Jūsų dabartinės slapukų nuostatos"
+
+#: includes/class-policy-page.php:93
+msgid ""
+"These choices are stored technically as wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing, and wp_consent_preferences for "
+"compatibility with WordPress plugins."
+msgstr ""
+"Techniškai šie pasirinkimai saugomi kaip wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing ir wp_consent_preferences, kad "
+"būtų suderinami su WordPress įskiepiais."
+
+#: includes/class-admin.php:99
+msgid "Possibly removed"
+msgstr "Galbūt pašalinti"
+
+#: includes/class-admin.php:100
+msgid ""
+"These cookies are still in your list, but their tracking scripts were not "
+"found on the homepage. Review and remove any that are no longer used."
+msgstr ""
+"Šie slapukai vis dar yra jūsų sąraše, bet jų sekimo scenarijai pagrindiniame "
+"puslapyje nerasti. Peržiūrėkite ir pašalinkite nebenaudojamus."
+
+#: includes/class-admin.php:102
+#, php-format
+msgid ""
+"Remove %d cookie(s) from the list? This cannot be undone automatically."
+msgstr ""
+"Pašalinti slapukus iš sąrašo (%d)? Šio veiksmo automatiškai atšaukti "
+"negalima."
+
+#: includes/class-admin.php:103 includes/class-admin.php:1527
+msgid "Selected cookies removed from the list."
+msgstr "Pasirinkti slapukai pašalinti iš sąrašo."
+
+#: includes/class-admin.php:104
+msgid "Remove selected cookies"
+msgstr "Pašalinti pasirinktus slapukus"
+
+#: includes/class-admin.php:1482
+msgid ""
+"None of the selected cookies can be removed. Run Scan Cookies again to "
+"refresh the list."
+msgstr ""
+"Nė vieno pasirinkto slapuko negalima pašalinti. Paleiskite „Nuskaityti "
+"slapukus“ dar kartą, kad sąrašas atsinaujintų."
+
+#: includes/class-admin.php:791
+msgid ""
+"After scanning, cookies whose tracking scripts are no longer found on the "
+"homepage are listed under \"Possibly removed\". Review the list and use "
+"Remove selected cookies to delete entries you no longer need — nothing is "
+"removed automatically."
+msgstr ""
+"Po nuskaitymo slapukai, kurių sekimo scenarijai pagrindiniame puslapyje "
+"neberandami, pateikiami skiltyje „Galbūt pašalinti“. Peržiūrėkite sąrašą ir "
+"mygtuku „Pašalinti pasirinktus slapukus“ ištrinkite nebereikalingus įrašus – "
+"niekas nepašalinama automatiškai."
+
+#: includes/class-admin.php:797
+msgid "Current consent status"
+msgstr "Dabartinė sutikimo būsena"
+
+#: includes/class-admin.php:797
+msgid ""
+"The [kncc_cookie_policy] shortcode shows each category as allowed, denied, "
+"or not yet chosen above the Edit cookie preferences button. When WP Consent "
+"API is active, a note explains the technical wp_consent_* cookie names used "
+"by WordPress plugins."
+msgstr ""
+"Trumpasis kodas [kncc_cookie_policy] virš mygtuko „Keisti slapukų nuostatas“ "
+"rodo kiekvienos kategorijos būseną: leista, neleista arba dar nepasirinkta. "
+"Kai aktyvus WP Consent API, pastaba paaiškina techninius wp_consent_* "
+"slapukų pavadinimus, kuriuos naudoja WordPress įskiepiai."
+
+#: includes/class-admin.php:806
+msgid "WP Consent API sync"
+msgstr "WP Consent API sinchronizavimas"
+
+#: includes/class-admin.php:806
+msgid ""
+"When the WP Consent API plugin is active, Kansleri automatically syncs your "
+"banner choices to wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing, and wp_consent_preferences. This lets consent-aware "
+"plugins such as Google Site Kit read the visitor's choice. Banner labels "
+"(Necessary, Analytics) map to these technical cookie names."
+msgstr ""
+"Kai aktyvus įskiepis WP Consent API, Kansleri automatiškai sinchronizuoja "
+"jūsų reklamjuostės pasirinkimus su wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing ir wp_consent_preferences. Taip "
+"sutikimą paisantys įskiepiai, pavyzdžiui, Google Site Kit, gali nuskaityti "
+"lankytojo pasirinkimą. Reklamjuostės kategorijų pavadinimai (Būtini, "
+"Analitika) susiejami su šiais techniniais slapukų pavadinimais."
+
+#: includes/class-admin.php:939
+msgid ""
+"If wp_consent_statistics stays deny after Accept all, clear site cookies or "
+"test in a private window, hard-refresh (Ctrl+Shift+R), and confirm the WP "
+"Consent API plugin is active."
+msgstr ""
+"Jei po „Priimti visus“ wp_consent_statistics lieka deny, išvalykite "
+"svetainės slapukus arba išbandykite privačiame lange, priverstinai "
+"atnaujinkite puslapį (Ctrl+Shift+R) ir patikrinkite, ar įskiepis WP Consent "
+"API aktyvus."
+
+#: includes/class-admin.php:746 includes/class-admin.php:854
+msgid "Advanced Consent Mode"
+msgstr "Išplėstinis Consent Mode"
+
+#: includes/class-admin.php:750
+msgid "Load Google tags before consent, with consent denied"
+msgstr "Įkelti Google žymas iki sutikimo su būsena „neleista“"
+
+#: includes/class-admin.php:753
+msgid "Off (default, Basic Consent Mode): the Google tag is blocked until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies, so Google receives nothing from visitors who have not consented."
+msgstr ""
+"Išjungta (numatytoji reikšmė, pagrindinis Consent Mode): Google žyma "
+"blokuojama, kol lankytojas priima analitikos slapukus, o Google Tag Manager "
+"– kol lankytojas priima analitikos arba rinkodaros slapukus, todėl Google iš "
+"sutikimo nedavusių lankytojų negauna nieko."
+
+#: includes/class-admin.php:756
+msgid ""
+"On (Advanced Consent Mode): the Google tag and Google Tag Manager load "
+"right away. Until the visitor accepts, they set no cookies and send Google "
+"only cookieless pings, which Google uses to model the missing data. Google "
+"Analytics and Google Ads expect this mode, and with Basic mode they can "
+"report your consent signals as not active."
+msgstr ""
+"Įjungta (išplėstinis Consent Mode): Google žyma ir Google Tag Manager "
+"įkeliami iš karto. Kol lankytojas nepriima, jie nenustato slapukų ir siunčia "
+"Google tik ping užklausas be slapukų, kurias Google naudoja trūkstamiems "
+"duomenims modeliuoti. Google Analytics ir Google Ads tikisi šio režimo, o "
+"naudojant pagrindinį režimą jie gali rodyti, kad jūsų sutikimo signalai "
+"neaktyvūs."
+
+#: includes/class-admin.php:759
+msgid "Only applies while Consent Mode v2 is enabled. Other tracking scripts on the site stay blocked until consent, also those that Google Tag Manager adds (for example a Meta Pixel or LinkedIn in a Custom HTML tag): each waits for its own category, with no changes needed in the container."
+msgstr ""
+"Taikoma tik tada, kai įjungtas Consent Mode v2. Kiti svetainės sekimo "
+"scenarijai lieka užblokuoti iki sutikimo, taip pat ir tie, kuriuos prideda "
+"Google Tag Manager (pavyzdžiui, Meta Pixel ar LinkedIn pasirinktinio HTML "
+"žymoje): kiekvienas laukia savo kategorijos, konteineryje nieko keisti "
+"nereikia."
+
+#: includes/class-admin.php:854
+msgid ""
+"Off by default. When on, the Google tag and Google Tag Manager load before "
+"consent instead of being blocked. Until the visitor accepts, they set no "
+"cookies and send Google only cookieless pings."
+msgstr ""
+"Pagal numatytuosius nustatymus išjungta. Įjungus Google žyma ir Google Tag "
+"Manager įkeliami iki sutikimo, o ne blokuojami. Kol lankytojas nepriima, jie "
+"nenustato slapukų ir siunčia Google tik ping užklausas be slapukų."
+
+#: includes/class-admin.php:863
+msgid "You can turn this off on the Script Blocking tab."
+msgstr "Tai galite išjungti skirtuke „Scenarijų blokavimas“."
+
+#: includes/class-admin.php:1136
+msgid ""
+"Advanced Consent Mode is on (Integration tab): the Google tag and Google "
+"Tag Manager load before consent and follow the Consent Mode signals instead "
+"of being blocked."
+msgstr ""
+"Išplėstinis Consent Mode įjungtas (skirtukas „Integracija“): Google žyma ir "
+"Google Tag Manager įkeliami iki sutikimo ir vadovaujasi Consent Mode "
+"signalais, o ne blokuojami."
+
+#: includes/class-admin.php:1168
+msgid ""
+"Block YouTube and Vimeo videos until the visitor accepts marketing cookies"
+msgstr ""
+"Blokuoti YouTube ir Vimeo vaizdo įrašus, kol lankytojas priima rinkodaros "
+"slapukus"
+
+#: includes/class-admin.php:684
+msgid "More information"
+msgstr "Daugiau informacijos"
+
+#: includes/class-admin.php:823
+msgid "Basic Consent Mode: the Google tag waits until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies."
+msgstr ""
+"Pagrindinis Consent Mode: Google žyma laukia, kol lankytojas priims "
+"analitikos slapukus, o Google Tag Manager – kol lankytojas priims analitikos "
+"arba rinkodaros slapukus."
+
+#: includes/class-admin.php:823
+msgid ""
+"Advanced Consent Mode: the Google tag and Google Tag Manager load right "
+"away with these defaults, and send only cookieless pings until the visitor "
+"accepts."
+msgstr ""
+"Išplėstinis Consent Mode: Google žyma ir Google Tag Manager su šiomis "
+"numatytosiomis reikšmėmis įkeliami iš karto ir, kol lankytojas nepriima, "
+"siunčia tik ping užklausas be slapukų."
+
+#: includes/class-scanner.php:122
+msgctxt "cookie duration"
+msgid "1 minute"
+msgstr "1 minutė"
+
+#: includes/class-scanner.php:123
+msgctxt "cookie duration"
+msgid "30 minutes"
+msgstr "30 minučių"
+
+#: includes/class-scanner.php:124
+msgctxt "cookie duration"
+msgid "24 hours"
+msgstr "24 valandos"
+
+#: includes/class-scanner.php:125
+msgctxt "cookie duration"
+msgid "1 day"
+msgstr "1 diena"
+
+#: includes/class-scanner.php:126
+msgctxt "cookie duration"
+msgid "30 days"
+msgstr "30 dienų"
+
+#: includes/class-scanner.php:127
+msgctxt "cookie duration"
+msgid "90 days"
+msgstr "90 dienų"
+
+#: includes/class-scanner.php:128
+msgctxt "cookie duration"
+msgid "6 months"
+msgstr "6 mėnesiai"
+
+#: includes/class-scanner.php:129
+msgctxt "cookie duration"
+msgid "1 year"
+msgstr "1 metai"
+
+#: includes/class-scanner.php:130
+msgctxt "cookie duration"
+msgid "2 years"
+msgstr "2 metai"
+
+#: includes/class-scanner.php:131
+msgctxt "cookie duration"
+msgid "Session"
+msgstr "Seansas"
+
+#: includes/class-scanner.php:132
+msgctxt "cookie duration"
+msgid "Varies"
+msgstr "Kinta"
+
+#: includes/class-scanner.php:135
+msgid "Google Analytics: stores and counts page views."
+msgstr "Google Analytics: saugo ir skaičiuoja puslapių peržiūras."
+
+#: includes/class-scanner.php:136
+msgid "Google Analytics: distinguishes unique users."
+msgstr "Google Analytics: atskiria unikalius naudotojus."
+
+#: includes/class-scanner.php:137
+msgid "Google Analytics: distinguishes users for 24 hours."
+msgstr "Google Analytics: atskiria naudotojus 24 valandas."
+
+#: includes/class-scanner.php:138
+msgid "Google Analytics: throttles request rate."
+msgstr "Google Analytics: riboja užklausų dažnį."
+
+#: includes/class-scanner.php:139
+msgid "Google Ads: stores conversion data."
+msgstr "Google Ads: saugo konversijų duomenis."
+
+#: includes/class-scanner.php:140
+msgid "Google Ads: click tracking."
+msgstr "Google Ads: paspaudimų sekimas."
+
+#: includes/class-scanner.php:141
+msgid "Google Tag Manager: throttles request rate."
+msgstr "Google Tag Manager: riboja užklausų dažnį."
+
+#: includes/class-scanner.php:144
+msgid "Meta Pixel: tracks visits across websites for ad targeting."
+msgstr "Meta Pixel: seka apsilankymus įvairiose svetainėse reklamai taikyti."
+
+#: includes/class-scanner.php:145
+msgid "Meta Pixel: stores click identifiers."
+msgstr "Meta Pixel: saugo paspaudimų identifikatorius."
+
+#: includes/class-scanner.php:146
+msgid "Facebook: ad delivery and measurement."
+msgstr "Facebook: reklamos rodymas ir matavimas."
+
+#: includes/class-scanner.php:149
+msgid "HubSpot: tracks visitor identity."
+msgstr "HubSpot: seka lankytojo tapatybę."
+
+#: includes/class-scanner.php:150
+msgid "HubSpot: tracks session information."
+msgstr "HubSpot: seka seanso informaciją."
+
+#: includes/class-scanner.php:151
+msgid "HubSpot: tracks sessions for analytics."
+msgstr "HubSpot: seka seansus analitikai."
+
+#: includes/class-scanner.php:152
+msgid "HubSpot: determines if visitor has restarted browser."
+msgstr "HubSpot: nustato, ar lankytojas iš naujo paleido naršyklę."
+
+#: includes/class-scanner.php:153
+msgid "HubSpot: analytics and tracking."
+msgstr "HubSpot: analitika ir sekimas."
+
+#: includes/class-scanner.php:156
+msgid "LinkedIn: browser identifier for ad targeting."
+msgstr "LinkedIn: naršyklės identifikatorius reklamai taikyti."
+
+#: includes/class-scanner.php:157
+msgid "LinkedIn: browser identifier."
+msgstr "LinkedIn: naršyklės identifikatorius."
+
+#: includes/class-scanner.php:158
+msgid "LinkedIn: data centre selection."
+msgstr "LinkedIn: duomenų centro pasirinkimas."
+
+#: includes/class-scanner.php:161
+msgid "WordPress: stores admin settings timestamp."
+msgstr "WordPress: saugo administravimo nustatymų laiko žymą."
+
+#: includes/class-scanner.php:162
+msgid "WordPress: stores admin personalisation settings."
+msgstr "WordPress: saugo administravimo srities suasmeninimo nustatymus."
+
+#: includes/class-scanner.php:163
+msgid "WordPress: authentication cookie for logged-in users."
+msgstr "WordPress: prisijungusių naudotojų autentifikavimo slapukas."
+
+#: includes/class-scanner.php:164
+msgid "WordPress: secure authentication cookie."
+msgstr "WordPress: saugus autentifikavimo slapukas."
+
+#: includes/class-scanner.php:165
+msgid "WordPress: tests if cookies are enabled."
+msgstr "WordPress: tikrina, ar įjungti slapukai."
+
+#: includes/class-scanner.php:166
+msgid "WordPress: stores language preference."
+msgstr "WordPress: saugo pasirinktą kalbą."
+
+#: includes/class-scanner.php:167
+msgid "WordPress: remembers comment author details."
+msgstr "WordPress: įsimena komentaro autoriaus duomenis."
+
+#: includes/class-scanner.php:170
+msgid "WooCommerce: stores cart and session data."
+msgstr "WooCommerce: saugo krepšelio ir seanso duomenis."
+
+#: includes/class-scanner.php:171
+msgid "WooCommerce: stores customer session."
+msgstr "WooCommerce: saugo kliento seansą."
+
+#: includes/class-scanner.php:174
+msgid ""
+"Order attribution: keeps traffic-source tracking data compatible across "
+"updates."
+msgstr ""
+"Užsakymo priskyrimas: išlaiko srauto šaltinio sekimo duomenis suderinamus po "
+"atnaujinimų."
+
+#: includes/class-scanner.php:175
+msgid ""
+"Order attribution: records how you reached the site on your current visit."
+msgstr ""
+"Užsakymo priskyrimas: įrašo, kaip pasiekėte svetainę dabartinio apsilankymo "
+"metu."
+
+#: includes/class-scanner.php:176
+msgid "Order attribution: records how you first reached the site."
+msgstr "Užsakymo priskyrimas: įrašo, kaip pirmą kartą pasiekėte svetainę."
+
+#: includes/class-scanner.php:177
+msgid ""
+"Order attribution: stores the traffic source and campaign of your current "
+"visit."
+msgstr ""
+"Užsakymo priskyrimas: saugo dabartinio apsilankymo srauto šaltinį ir "
+"kampaniją."
+
+#: includes/class-scanner.php:178
+msgid ""
+"Order attribution: stores the traffic source and campaign of your first "
+"visit."
+msgstr ""
+"Užsakymo priskyrimas: saugo pirmojo apsilankymo srauto šaltinį ir kampaniją."
+
+#: includes/class-scanner.php:179
+msgid ""
+"Order attribution: stores visitor/session data used for marketing "
+"attribution."
+msgstr ""
+"Užsakymo priskyrimas: saugo lankytojo ir seanso duomenis, naudojamus "
+"rinkodaros priskyrimui."
+
+#: includes/class-scanner.php:180
+msgid "Order attribution: links page views within a visit for attribution."
+msgstr ""
+"Užsakymo priskyrimas: susieja vieno apsilankymo puslapių peržiūras "
+"priskyrimui."
+
+#: includes/class-scanner.php:181
+msgid "Order attribution: tracks the marketing source of your visit."
+msgstr "Užsakymo priskyrimas: seka jūsų apsilankymo rinkodaros šaltinį."
+
+#: includes/class-scanner.php:184
+msgid ""
+"Jetpack Stats: assigns an anonymous identifier used to measure site traffic."
+msgstr ""
+"Jetpack Stats: priskiria anoniminį identifikatorių, naudojamą svetainės "
+"lankomumui matuoti."
+
+#: includes/class-scanner.php:185
+msgid "Jetpack Stats: records referral and navigation data for analytics."
+msgstr "Jetpack Stats: įrašo nukreipimo ir naršymo duomenis analitikai."
+
+#: includes/class-scanner.php:186
+msgid "Jetpack Stats: measures site traffic and visitor activity."
+msgstr "Jetpack Stats: matuoja svetainės lankomumą ir lankytojų aktyvumą."
+
+#: includes/class-scanner.php:189
+msgid "Polylang: stores visitor language preference."
+msgstr "Polylang: saugo lankytojo pasirinktą kalbą."
+
+#: includes/class-scanner.php:190
+msgid "MailPoet: tracks email subscriber activity."
+msgstr "MailPoet: seka el. pašto prenumeratorių veiklą."
+
+#: includes/class-scanner.php:191
+msgid "Plausible: privacy-friendly analytics."
+msgstr "Plausible: privatumą gerbianti analitika."
+
+#: includes/class-scanner.php:194
+msgid "Cloudflare: bot management cookie."
+msgstr "Cloudflare: robotų valdymo slapukas."
+
+#: includes/class-scanner.php:195
+msgid "Cloudflare: verifies legitimate visitor."
+msgstr "Cloudflare: tikrina, ar lankytojas tikras."
+
+#: includes/class-scanner.php:196
+msgid "Cloudflare: identifies trusted web traffic."
+msgstr "Cloudflare: atpažįsta patikimą interneto srautą."
+
+#: includes/class-scanner.php:199
+msgid "Hotjar: tracks user behaviour and feedback."
+msgstr "Hotjar: seka naudotojų elgseną ir atsiliepimus."
+
+#: includes/class-scanner.php:200
+msgid "Microsoft Clarity: stores a user ID and preferences."
+msgstr "Microsoft Clarity: saugo naudotojo ID ir nuostatas."
+
+#: includes/class-scanner.php:201
+msgid "Microsoft Clarity: connects page views into a session."
+msgstr "Microsoft Clarity: susieja puslapių peržiūras į seansą."
+
+#: includes/class-scanner.php:204
+msgid "Stores your cookie consent preferences."
+msgstr "Saugo jūsų sutikimo dėl slapukų nuostatas."
+
+#: includes/class-scanner.php:205
+msgid ""
+"WP Consent API: stores your consent choice for necessary cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: saugo jūsų sutikimo pasirinkimą dėl būtinųjų slapukų. "
+"Sinchronizuojama iš sutikimo reklamjuostės."
+
+#: includes/class-scanner.php:206
+msgid ""
+"WP Consent API: stores your consent choice for analytics cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: saugo jūsų sutikimo pasirinkimą dėl analitikos slapukų. "
+"Sinchronizuojama iš sutikimo reklamjuostės."
+
+#: includes/class-scanner.php:207
+msgid ""
+"WP Consent API: stores your consent choice for anonymous statistics. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: saugo jūsų sutikimo pasirinkimą dėl anoniminės statistikos. "
+"Sinchronizuojama iš sutikimo reklamjuostės."
+
+#: includes/class-scanner.php:208
+msgid ""
+"WP Consent API: stores your consent choice for marketing cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: saugo jūsų sutikimo pasirinkimą dėl rinkodaros slapukų. "
+"Sinchronizuojama iš sutikimo reklamjuostės."
+
+#: includes/class-scanner.php:209
+msgid ""
+"WP Consent API: stores your consent choice for preference cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: saugo jūsų sutikimo pasirinkimą dėl nuostatų slapukų. "
+"Sinchronizuojama iš sutikimo reklamjuostės."
+
+#: includes/class-scanner.php:210
+msgid ""
+"WP Consent API: stores per-service consent overrides used by integrated "
+"plugins."
+msgstr ""
+"WP Consent API: saugo atskirų paslaugų sutikimo išimtis, kurias naudoja "
+"integruoti įskiepiai."
+
+#: includes/class-scanner.php:211
+msgid ""
+"WP Consent API: stores your cookie consent choice. Synced from your consent "
+"banner."
+msgstr ""
+"WP Consent API: saugo jūsų sutikimo dėl slapukų pasirinkimą. "
+"Sinchronizuojama iš sutikimo reklamjuostės."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:195
+#, php-format
+msgid "“%s” is not a usable address. Use at least 4 characters without spaces, for example widget.example.com."
+msgstr ""
+"„%s“ nėra tinkamas adresas. Naudokite bent 4 simbolius be tarpų, pavyzdžiui, "
+"widget.example.com."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:200
+#, php-format
+msgid "“%s” would block every script on this site. Enter the address of the external service instead."
+msgstr ""
+"„%s“ užblokuotų visus šios svetainės scenarijus. Vietoj to įveskite išorinės "
+"paslaugos adresą."
+
+#: includes/class-script-blocker.php:840
+msgid "This content is blocked because it requires analytics cookies."
+msgstr "Šis turinys užblokuotas, nes jam reikia analitikos slapukų."
+
+#: includes/class-script-blocker.php:841
+msgid "Accept analytics cookies"
+msgstr "Priimti analitikos slapukus"
+
+#: includes/class-script-blocker.php:845
+msgid "This content is blocked because it requires preference cookies."
+msgstr "Šis turinys užblokuotas, nes jam reikia nuostatų slapukų."
+
+#: includes/class-script-blocker.php:846
+msgid "Accept preference cookies"
+msgstr "Priimti nuostatų slapukus"
+
+#: includes/class-admin.php:890 includes/class-admin.php:1203
+msgid "Block by address"
+msgstr "Blokuoti pagal adresą"
+
+#: includes/class-admin.php:1213
+msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
+msgstr ""
+"Puslapio HTML esantys scenarijai tikrinami tik tada, kai įjungtas "
+"„Pasirinktinio kodo blokavimas“."
+
+#: includes/class-admin.php:1259 includes/class-admin.php:1289
+msgid "Address contains"
+msgstr "Adrese yra"
+
+#: includes/class-admin.php:1274
+msgid "Add address"
+msgstr "Pridėti adresą"
+
+#: includes/class-admin.php:1284
+msgid "Necessary (never blocked)"
+msgstr "Būtini (niekada neblokuojami)"
+
+#: includes/class-admin.php:889
+msgid "Reviews widgets"
+msgstr "Atsiliepimų valdikliai"
+
+#: includes/class-admin.php:889
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgstr ""
+"Trustmary atsiliepimų valdiklis laukia analitikos sutikimo, nes naršyklėje "
+"saugo lankytojo ID. Jo vietoje rodomas pranešimas su priėmimo mygtuku. Kad "
+"jis būtų įkeliamas iš karto, skiltyje „Blokuoti pagal adresą“ pridėkite "
+"widget.trustmary.com su kategorija „Būtini (niekada neblokuojami)“."
+
+#: includes/class-admin.php:890
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
+msgstr ""
+"Blokuoja bet kurį kitą scenarijų pagal jo adreso dalį, kol lankytojas priima "
+"jūsų pasirinktą kategoriją, pavyzdžiui, valdiklį, kurio įskiepis "
+"neatpažįsta. Scenarijams, kurie rodo turinį puslapyje, įjunkite „Rodyti "
+"pranešimą“."
+
+#: includes/class-scanner.php:137
+msgctxt "cookie duration"
+msgid "Persistent"
+msgstr "Nuolatinis"
+
+#: includes/class-scanner.php:209
+msgid "Trustmary: stores a visitor ID, the landing page and conversions in the browser’s local storage."
+msgstr ""
+"Trustmary: naršyklės vietinėje saugykloje saugo lankytojo ID, nukreipimo "
+"puslapį ir konversijas."
+
+#: includes/class-scanner.php:224
+msgid "Reddit Pixel: identifies the browser for ad measurement."
+msgstr "Reddit Pixel: atpažįsta naršyklę reklamai matuoti."
+
+#: includes/class-scanner.php:225
+msgid ""
+"Microsoft Advertising: groups page views into a session for ad measurement."
+msgstr ""
+"Microsoft Advertising: sugrupuoja puslapių peržiūras į seansą reklamai "
+"matuoti."
+
+#: includes/class-scanner.php:226
+msgid ""
+"Microsoft Advertising: identifies the visitor across visits for ad "
+"measurement."
+msgstr ""
+"Microsoft Advertising: atpažįsta lankytoją per kelis apsilankymus reklamai "
+"matuoti."
+
+#: includes/class-scanner.php:227
+msgid "Criteo: stores a browser identifier for ad personalisation."
+msgstr "Criteo: saugo naršyklės identifikatorių reklamai suasmeninti."
+
+#: includes/class-scanner.php:228
+msgid "Taboola: identifies the browser for ad targeting."
+msgstr "Taboola: atpažįsta naršyklę reklamai taikyti."
+
+#: includes/class-scanner.php:229
+msgid "Klaviyo: recognises returning visitors for email marketing."
+msgstr "Klaviyo: atpažįsta grįžtančius lankytojus el. pašto rinkodarai."
+
+#: includes/class-scanner.php:230
+msgid "Yandex Metrica: identifies visitors and stores session settings."
+msgstr "Yandex Metrica: atpažįsta lankytojus ir saugo seanso nustatymus."
+
+#: includes/class-scanner.php:231
+msgid "Segment: stores an anonymous visitor ID and traits."
+msgstr "Segment: saugo anoniminį lankytojo ID ir savybes."
+
+#: includes/class-scanner.php:232
+msgid "Intercom: keeps the chat messenger session and visitor identity."
+msgstr "Intercom: palaiko pokalbių programos seansą ir lankytojo tapatybę."
+
+#: includes/class-scanner.php:233
+msgid "Crisp: keeps the chat session and visitor identity."
+msgstr "Crisp: palaiko pokalbio seansą ir lankytojo tapatybę."
+
+#: includes/class-admin.php
+msgid "Cookie policy link text"
+msgstr "Slapukų politikos nuorodos tekstas"
+
+#: includes/class-admin.php
+msgid "Cookie settings label"
+msgstr "Slapukų nustatymų etiketė"
+
+#: includes/class-admin.php
+msgid "Tooltip and screen reader label of the floating button, and the default text of the [kncc_cookie_settings] link."
+msgstr ""
+"Plaukiojančio mygtuko užuomina ir etiketė ekrano skaitytuvams, taip pat "
+"numatytasis nuorodos [kncc_cookie_settings] tekstas."
+
+#: includes/class-admin.php
+msgid "Banner label for screen readers"
+msgstr "Reklamjuostės etiketė ekrano skaitytuvams"
+
+#: includes/class-admin.php
+msgid "Cookie categories"
+msgstr "Slapukų kategorijos"
+
+#: includes/class-admin.php
+msgid "Text when no cookies are used"
+msgstr "Tekstas, kai slapukai nenaudojami"
+
+#: includes/class-admin.php
+msgid "Policy page texts"
+msgstr "Politikos puslapio tekstai"
+
+#: includes/class-admin.php
+msgid "Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab."
+msgstr ""
+"Slapukų deklaracijos [kncc_cookie_policy] tekstai. Palikite lauką tuščią, "
+"kad būtų naudojamas integruotas tekstas, išverstas į kiekvieną kalbą. "
+"Kategorijų pavadinimai redaguojami skirtuke „Bendrieji“."
+
+#: includes/class-admin.php
+msgid "Category descriptions"
+msgstr "Kategorijų aprašymai"
+
+#: includes/class-admin.php
+msgid "Consent status"
+msgstr "Sutikimo būsena"
+
+#: includes/class-admin.php
+msgid "Heading"
+msgstr "Antraštė"
+
+#: includes/class-admin.php
+msgid "Before the visitor chooses"
+msgstr "Kol lankytojas dar nepasirinko"
+
+#: includes/class-admin.php
+msgid "Technical note (shown when WP Consent API is active)"
+msgstr "Techninė pastaba (rodoma, kai aktyvus WP Consent API)"
+
+#: includes/class-admin.php
+msgid "Buttons and messages"
+msgstr "Mygtukai ir pranešimai"
+
+#: includes/class-admin.php
+msgid "Edit preferences button"
+msgstr "Nuostatų keitimo mygtukas"
+
+#: includes/class-admin.php
+msgid "Message when no cookies are registered"
+msgstr "Pranešimas, kai neužregistruota jokių slapukų"
+
+#: includes/class-admin.php
+msgid "Table column headings"
+msgstr "Lentelės stulpelių antraštės"
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 added cookies for services that are not on your site. They have been removed from the cookie list: %s. If your site does use some of these services, put the cookies back and delete the ones it does not use."
+msgstr ""
+"Versija 1.8.10 pridėjo slapukų paslaugoms, kurių jūsų svetainėje nėra. Jie "
+"pašalinti iš slapukų sąrašo: %s. Jei jūsų svetainė kai kurias iš šių "
+"paslaugų naudoja, grąžinkite slapukus ir ištrinkite tuos, kurių ji nenaudoja."
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 may have added cookies for services that are not on your site: %s. The Google Tag Manager on your site can load any of them, so they were kept. Remove the ones your site does not use."
+msgstr ""
+"Versija 1.8.10 galėjo pridėti slapukų paslaugoms, kurių jūsų svetainėje "
+"nėra: %s. Jūsų svetainės Google Tag Manager gali įkelti bet kurią iš jų, "
+"todėl jie palikti. Pašalinkite tuos, kurių jūsų svetainė nenaudoja."
+
+#: includes/class-admin.php
+msgid "Put the cookies back"
+msgstr "Grąžinti slapukus"
+
+#: includes/class-admin.php
+msgid "Hide this notice"
+msgstr "Slėpti šį pranešimą"
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr ""
+"Rodoma, kai lankytojai spusteli „Tinkinti“. Palikite lauką tuščią, kad būtų "
+"naudojamas integruotas tekstas."
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr "Užblokuoto turinio pranešimai"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr "YouTube & Vimeo pranešimas"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr "YouTube & Vimeo priėmimo mygtukas"
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr "Analitikos turinio pranešimas"
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr "Analitikos turinio priėmimo mygtukas"
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr "Nuostatų turinio pranešimas"
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr "Nuostatų turinio priėmimo mygtukas"
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr "Arba bet kur pridėkite nuorodą trumpuoju kodu:"
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr ""
+"Rekomenduojama. Išjunkite tik tada, jei talpyklos ar spartinimo įskiepis "
+"sugadina svetainę."
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr "Blokuojama automatiškai, nustatyti nieko nereikia."
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr "Rodyti pranešimą"
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr "Nepasirinkta jokių slapukų."
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr "%s scenarijai pagrindiniame puslapyje nebeaptinkami"
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr "Redaguojama kalba: %s. Pakeitimai išsaugomi tik šiai kalbai."
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr "Redaguojama numatytoji kalba. Kitos kalbos turi savo tekstus."
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr ""
+"Peržiūrėkite reklamjuostę su dabartiniais, dar neišsaugotais nustatymais."
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr "Tiesioginė peržiūra veikia tik su įskiepio stiliumi."
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr "× mygtuko etiketė ekrano skaitytuvams."
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr ""
+"Sulaiko bet kurį kitą scenarijų, kol lankytojas priima jo kategoriją. "
+"Naudokite valdikliams ir įrankiams, kurių įskiepis neatpažįsta."
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr ""
+"„Būtini (niekada neblokuojami)“ leidžia adresui įsikelti iš karto, net jei "
+"įskiepis jį blokuotų."
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr ""
+"„Rodyti pranešimą“: ten, kur užblokuotas scenarijus rodytų turinį "
+"(atsiliepimus, rezervavimą, žemėlapį), vietoj tuščios vietos rodomas "
+"pranešimas su priėmimo mygtuku. Sekimo scenarijams nereikia."
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
+msgstr "atsidaro naujame skirtuke"

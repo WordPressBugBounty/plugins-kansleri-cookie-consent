@@ -1,0 +1,2368 @@
+# Irish translation for Kansleri Cookie Consent
+# Copyright (C) 2024 Kansleri.fi
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kansleri Cookie Consent 1.8.13\n"
+"Report-Msgid-Bugs-To: https://kansleri.fi\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
+"PO-Revision-Date: 2026-11-03 12:00+0200\n"
+"Last-Translator: Kansleri.fi\n"
+"Language-Team: Irish\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 : (n>6 && n<11) ? 3 : 4);\n"
+
+#: includes/class-admin.php:20 includes/class-admin.php:21
+#: includes/class-admin.php:122
+msgid "Cookie Consent"
+msgstr "Toiliú fianán"
+
+#: includes/class-admin.php:67 includes/class-admin.php:1228
+msgid "Settings saved."
+msgstr "Sábháladh na socruithe."
+
+#: includes/class-admin.php:68
+msgid "An error occurred."
+msgstr "Tharla earráid."
+
+#: includes/class-admin.php:69
+msgid "Scanning..."
+msgstr "Ag scanadh…"
+
+#: includes/class-admin.php:70
+msgid "Scan complete."
+msgstr "Tá an scanadh críochnaithe."
+
+#: includes/class-admin.php:71
+msgid "No new cookies found."
+msgstr "Níor aimsíodh aon fhianán nua."
+
+#: includes/class-admin.php:72
+msgid "Remove this cookie?"
+msgstr "An mbainfear an fianán seo?"
+
+#: includes/class-admin.php:73 includes/class-admin.php:414
+#: includes/class-admin.php:698
+msgid "Scan Cookies"
+msgstr "Scan fianáin"
+
+#: includes/class-admin.php:74
+msgid "Invalid JSON format. Please import a valid cookie array."
+msgstr "Formáid JSON neamhbhailí. Iompórtáil eagar bailí d'fhianáin."
+
+#: includes/class-admin.php:75
+msgid "Cookies imported into the table. Save cookies to persist changes."
+msgstr ""
+"Iompórtáladh na fianáin isteach sa tábla. Sábháil na fianáin chun na "
+"hathruithe a choinneáil."
+
+#: includes/class-admin.php:76
+msgid "No valid cookies found in imported JSON."
+msgstr "Níor aimsíodh aon fhianán bailí sa JSON a iompórtáladh."
+
+#: includes/class-admin.php:77
+msgid "No cookie rows available to export."
+msgstr "Níl aon ró fianán ar fáil le heaspórtáil."
+
+#: includes/class-admin.php:78
+msgid "AI prompt copied to clipboard."
+msgstr "Cóipeáladh an leid IS chuig an ngearrthaisce."
+
+#: includes/class-admin.php:79
+msgid ""
+"Could not copy prompt automatically. Select all and copy from the box below."
+msgstr ""
+"Níorbh fhéidir an leid a chóipeáil go huathoibríoch. Roghnaigh gach rud sa "
+"bhosca thíos agus cóipeáil é."
+
+#: includes/class-admin.php:81
+msgid "AI prompt (copied to clipboard — or select all and copy manually):"
+msgstr ""
+"Leid IS (cóipeáilte chuig an ngearrthaisce — nó roghnaigh gach rud agus "
+"cóipeáil de láimh):"
+
+#: includes/class-admin.php:82
+msgid ""
+"Policy page AI prompt (copied to clipboard — or select all and copy "
+"manually):"
+msgstr ""
+"Leid IS don leathanach beartais (cóipeáilte chuig an ngearrthaisce — nó "
+"roghnaigh gach rud agus cóipeáil de láimh):"
+
+#: includes/class-admin.php:83
+msgid ""
+"Prompt ready below — select all (Ctrl+A) inside the box and copy (Ctrl+C)."
+msgstr ""
+"Tá an leid réidh thíos — roghnaigh gach rud sa bhosca (Ctrl+A) agus cóipeáil "
+"é (Ctrl+C)."
+
+#: includes/class-admin.php:80
+msgid "All cookies are done! Every cookie has a description."
+msgstr "Tá gach fianán réidh! Tá cur síos ar gach fianán."
+
+#: includes/class-admin.php:81 includes/class-admin.php:457
+msgid "No cookies registered yet."
+msgstr "Níl aon fhianán cláraithe fós."
+
+#: includes/class-admin.php:82 includes/class-admin.php:473
+msgid "Remove"
+msgstr "Bain"
+
+#: includes/class-admin.php:83
+msgid ""
+"This will permanently delete all consent log records and statistics. "
+"Continue?"
+msgstr ""
+"Scriosfar go buan gach taifead sa loga toilithe agus na staitisticí go léir. "
+"Ar mhaith leat leanúint ar aghaidh?"
+
+#: includes/class-admin.php:84 includes/class-admin.php:1150
+msgid "All consent log records and statistics have been purged."
+msgstr "Scriosadh gach taifead sa loga toilithe agus na staitisticí go léir."
+
+#: includes/class-admin.php:85
+msgid "AI prompt for policy page copied to clipboard."
+msgstr "Cóipeáladh an leid IS don leathanach beartais chuig an ngearrthaisce."
+
+#: includes/class-admin.php:86
+msgid "CSS template copied to clipboard."
+msgstr "Cóipeáladh an teimpléad CSS chuig an ngearrthaisce."
+
+#: includes/class-admin.php:88
+#, php-format
+msgid "%d known cookie(s) added automatically:"
+msgstr "Cuireadh fianáin aitheanta leis go huathoibríoch (%d):"
+
+#: includes/class-admin.php:90
+#, php-format
+msgid ""
+"%d unknown cookie(s) added — please set their category and description "
+"below."
+msgstr ""
+"Cuireadh fianáin anaithnide leis (%d) — socraigh a gcatagóir agus a gcur "
+"síos thíos."
+
+#: includes/class-admin.php:91
+msgid "Unknown"
+msgstr "Anaithnide"
+
+#: includes/class-admin.php:92
+msgid "Added — categorize and describe in the table below"
+msgstr "Curtha leis — catagóirigh iad agus déan cur síos orthu sa tábla thíos"
+
+#: includes/class-admin.php:94
+#, php-format
+msgid "%d cookie(s) inferred from detected scripts on your site:"
+msgstr ""
+"Fianáin a bhfuiltear ag súil leo ó scripteanna a braitheadh ar do shuíomh "
+"(%d):"
+
+#: includes/class-admin.php:95
+msgid ""
+"These cookies are expected from tracking scripts on your site, even when "
+"blocked until consent."
+msgstr ""
+"Táthar ag súil leis na fianáin seo ó scripteanna rianaithe ar do shuíomh, "
+"fiú nuair a bhíonn na scripteanna blocáilte go dtí go dtugtar toiliú."
+
+#: includes/class-admin.php:97
+#, php-format
+msgid ""
+"%d browser cookie(s) skipped — found in your browser but no matching script "
+"on this site:"
+msgstr ""
+"Fianáin bhrabhsálaí a fágadh ar lár (%d) — tá siad i do bhrabhsálaí ach níl "
+"aon script a mheaitseálann iad ar an suíomh seo:"
+
+#: includes/class-admin.php:481
+msgid ""
+"%d cookie was automatically added based on tracking scripts detected on your"
+" site."
+msgid_plural ""
+"%d cookies were automatically added based on tracking scripts detected on "
+"your site."
+msgstr[0] ""
+"Cuireadh %d fhianán leis go huathoibríoch bunaithe ar na scripteanna "
+"rianaithe a braitheadh ar do shuíomh."
+msgstr[1] ""
+"Cuireadh %d fhianán leis go huathoibríoch bunaithe ar na scripteanna "
+"rianaithe a braitheadh ar do shuíomh."
+msgstr[2] ""
+"Cuireadh %d fhianán leis go huathoibríoch bunaithe ar na scripteanna "
+"rianaithe a braitheadh ar do shuíomh."
+msgstr[3] ""
+"Cuireadh %d bhfianán leis go huathoibríoch bunaithe ar na scripteanna "
+"rianaithe a braitheadh ar do shuíomh."
+msgstr[4] ""
+"Cuireadh %d fianán leis go huathoibríoch bunaithe ar na scripteanna "
+"rianaithe a braitheadh ar do shuíomh."
+
+#: includes/class-admin.php:128
+msgid "General"
+msgstr "Ginearálta"
+
+#: includes/class-admin.php:131 kansleri-cookie-consent.php:571
+msgid "Cookies"
+msgstr "Fianáin"
+
+#: includes/class-admin.php:134
+msgid "Policy Page"
+msgstr "Leathanach beartais"
+
+#: includes/class-admin.php:137
+msgid "Integration"
+msgstr "Comhtháthú"
+
+#: includes/class-admin.php:140
+msgid "Script Blocking"
+msgstr "Blocáil scripteanna"
+
+#: includes/class-admin.php:143
+msgid "Statistics"
+msgstr "Staitisticí"
+
+#: includes/class-admin.php:146
+msgid "Documentations"
+msgstr "Doiciméadú"
+
+#: includes/class-admin.php:210
+msgid "Open banner preview"
+msgstr "Oscail réamhamharc an mheirge"
+
+#: includes/class-admin.php:222 includes/class-admin.php:689
+msgid "Banner style"
+msgstr "Stíl an mheirge"
+
+#: includes/class-admin.php:225
+msgid "Bottom bar"
+msgstr "Barra íochtair"
+
+#: includes/class-admin.php:226
+msgid "Centered modal"
+msgstr "Dialóg sa lár"
+
+#: includes/class-admin.php:227
+msgid "Corner popup"
+msgstr "Preabfhuinneog sa chúinne"
+
+#: includes/class-admin.php:233
+msgid "Colors"
+msgstr "Dathanna"
+
+#: includes/class-admin.php:237
+msgid "Banner background"
+msgstr "Cúlra an mheirge"
+
+#: includes/class-admin.php:238 includes/class-admin.php:275
+msgid "Heading text"
+msgstr "Téacs an cheannteidil"
+
+#: includes/class-admin.php:239
+msgid "Body text"
+msgstr "Corpthéacs"
+
+#: includes/class-admin.php:240
+msgid "Primary button"
+msgstr "Príomhchnaipe"
+
+#: includes/class-admin.php:241
+msgid "Primary button text"
+msgstr "Téacs an phríomhchnaipe"
+
+#: includes/class-admin.php:242
+msgid "Secondary button"
+msgstr "Cnaipe tánaisteach"
+
+#: includes/class-admin.php:243
+msgid "Secondary button text"
+msgstr "Téacs an chnaipe thánaistigh"
+
+#: includes/class-admin.php:265 includes/class-admin.php:691
+msgid "Text and font style"
+msgstr "Stíl téacs agus cló"
+
+#: includes/class-admin.php:268 includes/class-admin.php:521
+msgid "Theme style (inherit site typography)"
+msgstr "Stíl an téama (clóghrafaíocht an tsuímh)"
+
+#: includes/class-admin.php:269 includes/class-admin.php:522
+msgid "Plugin style (strict font sizes/colors)"
+msgstr "Stíl an bhreiseáin (clómhéideanna/dathanna seasta)"
+
+#: includes/class-admin.php:281
+msgid "Description text"
+msgstr "Téacs an chur síos"
+
+#: includes/class-admin.php:287
+msgid "Accept button text"
+msgstr "Téacs an chnaipe glactha"
+
+#: includes/class-admin.php:291
+msgid "Reject button text"
+msgstr "Téacs an chnaipe diúltaithe"
+
+#: includes/class-admin.php:295
+msgid "Customize button text"
+msgstr "Téacs an chnaipe saincheaptha"
+
+#: includes/class-admin.php:299
+msgid "Save preferences button text"
+msgstr "Téacs an chnaipe sábhála roghanna"
+
+#: includes/class-admin.php:303 includes/class-script-blocker.php:187
+msgid "This content is blocked because it requires marketing cookies."
+msgstr ""
+"Tá an t-ábhar seo blocáilte mar go dteastaíonn fianáin mhargaíochta uaidh."
+
+#: includes/class-admin.php:304 includes/class-script-blocker.php:190
+msgid "Accept marketing cookies"
+msgstr "Glac le fianáin mhargaíochta"
+
+#: includes/class-admin.php:318 includes/class-admin.php:693
+msgid "Floating settings button"
+msgstr "Cnaipe socruithe ar snámh"
+
+#: includes/class-admin.php:322
+msgid ""
+"Show a small floating button so visitors can re-open their cookie "
+"preferences"
+msgstr ""
+"Taispeáin cnaipe beag ar snámh ionas gur féidir le cuairteoirí a roghanna "
+"fianán a oscailt arís"
+
+#: includes/class-admin.php:329
+msgid "Copied!"
+msgstr "Cóipeáilte!"
+
+#: includes/class-admin.php:329 includes/class-admin.php:330
+msgid "Copy"
+msgstr "Cóipeáil"
+
+#: includes/class-admin.php:346 includes/class-admin.php:531
+#: includes/class-admin.php:664
+msgid "Save Settings"
+msgstr "Sábháil socruithe"
+
+#: includes/class-admin.php:370
+msgid "Banner preview"
+msgstr "Réamhamharc an mheirge"
+
+#: includes/class-admin.php:415
+msgid "Add Cookie"
+msgstr "Cuir fianán leis"
+
+#: includes/class-admin.php:419
+msgid "Need help describing these cookies?"
+msgstr "An bhfuil cabhair uait chun cur síos a dhéanamh ar na fianáin seo?"
+
+#: includes/class-admin.php:421
+msgid ""
+"Click the button below to copy a ready-made AI prompt with your cookie data."
+msgstr ""
+"Cliceáil an cnaipe thíos chun leid IS réamhdhéanta a chóipeáil, ina bhfuil "
+"sonraí do chuid fianán."
+
+#: includes/class-admin.php:422
+msgid "Paste the prompt into an AI tool (ChatGPT, Claude, Gemini, etc.)."
+msgstr "Greamaigh an leid in uirlis IS (ChatGPT, Claude, Gemini, srl.)."
+
+#: includes/class-admin.php:423
+msgid "The AI will return improved JSON with clear cookie descriptions."
+msgstr ""
+"Tabharfaidh an uirlis IS JSON feabhsaithe ar ais, le cur síos soiléir ar "
+"gach fianán."
+
+#: includes/class-admin.php:424
+msgid ""
+"Copy the AI response and paste it into the text box that appears below."
+msgstr ""
+"Cóipeáil freagra na huirlise IS agus greamaigh é sa bhosca téacs a "
+"thaispeántar thíos."
+
+#: includes/class-admin.php:425
+msgid "Click Import — cookies are saved automatically."
+msgstr "Cliceáil “Iompórtáil” — sábháiltear na fianáin go huathoibríoch."
+
+#: includes/class-admin.php:429
+msgid "Copy AI Prompt to Clipboard"
+msgstr "Cóipeáil an leid IS chuig an ngearrthaisce"
+
+#: includes/class-admin.php:433
+msgid "Paste the AI response here:"
+msgstr "Greamaigh freagra na huirlise IS anseo:"
+
+#: includes/class-admin.php:434
+msgid "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+msgstr "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+
+#: includes/class-admin.php:436
+msgid "Import"
+msgstr "Iompórtáil"
+
+#: includes/class-admin.php:447
+msgid "Name"
+msgstr "Ainm"
+
+#: includes/class-admin.php:448 includes/class-admin.php:989
+msgid "Category"
+msgstr "Catagóir"
+
+#: includes/class-admin.php:449 includes/class-policy-page.php:91
+#: includes/class-policy-page.php:100
+msgid "Provider"
+msgstr "Soláthraí"
+
+#: includes/class-admin.php:450 includes/class-policy-page.php:93
+#: includes/class-policy-page.php:102
+msgid "Duration"
+msgstr "Fad"
+
+#: includes/class-admin.php:451
+msgid "Description"
+msgstr "Cur síos"
+
+#: includes/class-admin.php:464 kansleri-cookie-consent.php:335
+msgid "Necessary"
+msgstr "Riachtanach"
+
+#: includes/class-admin.php:465 kansleri-cookie-consent.php:339
+msgid "Analytics"
+msgstr "Anailísíocht"
+
+#: includes/class-admin.php:466 kansleri-cookie-consent.php:343
+msgid "Marketing"
+msgstr "Margaíocht"
+
+#: includes/class-admin.php:467 kansleri-cookie-consent.php:347
+msgid "Preferences"
+msgstr "Roghanna"
+
+#: includes/class-admin.php:480 includes/class-admin.php:700
+msgid "Save Cookies"
+msgstr "Sábháil fianáin"
+
+#: includes/class-admin.php:494
+msgid ""
+"No cookie policy page has been selected. Set a Privacy Policy page in "
+"Settings → Privacy, or choose a page below."
+msgstr ""
+"Níor roghnaíodh aon leathanach beartais fianán. Socraigh leathanach don "
+"Bheartas Príobháideachais i Socruithe → Príobháideachas, nó roghnaigh "
+"leathanach thíos."
+
+#: includes/class-admin.php:502 includes/class-admin.php:705
+msgid "Cookie policy page"
+msgstr "Leathanach beartais fianán"
+
+#: includes/class-admin.php:505
+msgid "— Select a page —"
+msgstr "— Roghnaigh leathanach —"
+
+#: includes/class-admin.php:510
+#, php-format
+msgid "%s (WordPress Privacy Policy)"
+msgstr "%s (Beartas Príobháideachais WordPress)"
+
+#: includes/class-admin.php:513
+msgid ""
+"Defaults automatically to the WordPress Privacy Policy page (Settings → "
+"Privacy). Add the shortcode [kncc_cookie_policy] to that page to show the "
+"cookie declaration."
+msgstr ""
+"Mar réamhshocrú, úsáidtear leathanach an Bheartais Príobháideachais i "
+"WordPress go huathoibríoch (Socruithe → Príobháideachas). Cuir an gearrchód "
+"[kncc_cookie_policy] leis an leathanach sin chun an dearbhú fianán a "
+"thaispeáint."
+
+#: includes/class-admin.php:518
+msgid "Policy page style"
+msgstr "Stíl an leathanaigh beartais"
+
+#: includes/class-admin.php:525
+msgid ""
+"Controls the styling of the [kncc_cookie_policy] cookie declaration table."
+msgstr ""
+"Rialaíonn sé stíl an tábla [kncc_cookie_policy] ina bhfuil an dearbhú fianán."
+
+#: includes/class-admin.php:628
+msgid ""
+"Theme style is the default so the policy page matches your site typography. "
+"Switch to Plugin style for strict plugin sizes and colors."
+msgstr ""
+"Is í stíl an téama an réamhshocrú, ionas go dtagann an leathanach beartais "
+"le clóghrafaíocht do shuímh. Athraigh go Stíl an bhreiseáin chun méideanna "
+"agus dathanna seasta an bhreiseáin a úsáid."
+
+#: includes/class-admin.php:539
+msgid "Preview Policy Page"
+msgstr "Réamhamharc ar an leathanach beartais"
+
+#: includes/class-admin.php:546
+msgid "Generate cookie policy page content with AI"
+msgstr "Gin ábhar don leathanach beartais fianán le hintleacht shaorga"
+
+#: includes/class-admin.php:548
+msgid ""
+"Copy the prompt below and paste it into an AI tool. It will generate a "
+"complete cookie and privacy policy page in your site language. The cookie "
+"declaration will be handled automatically by the [kncc_cookie_policy] "
+"shortcode. Paste the generated HTML into your policy page."
+msgstr ""
+"Cóipeáil an leid thíos agus greamaigh in uirlis IS í. Ginfidh sí leathanach "
+"iomlán beartais fianán agus príobháideachais i dteanga do shuímh. "
+"Láimhseálfaidh an gearrchód [kncc_cookie_policy] an dearbhú fianán go "
+"huathoibríoch. Greamaigh an HTML a ghintear i do leathanach beartais."
+
+#: includes/class-admin.php:552
+msgid "Copy AI Prompt for Policy Page"
+msgstr "Cóipeáil an leid IS don leathanach beartais"
+
+#: includes/class-admin.php:565
+msgid "Detected integrations"
+msgstr "Comhtháthuithe a braitheadh"
+
+#: includes/class-admin.php:692
+msgid ""
+"Active — Site Kit sets consent defaults for its own regions. This plugin "
+"sets a denied default for all other visitors and sends consent updates."
+msgstr ""
+"Gníomhach — socraíonn Site Kit réamhshocruithe toilithe dá réigiúin féin. "
+"Socraíonn an breiseán seo toiliú diúltaithe mar réamhshocrú do gach "
+"cuairteoir eile agus seolann sé nuashonruithe toilithe."
+
+#: includes/class-admin.php:575
+msgid ""
+"Active — Site Kit consent mode not enabled. This plugin handles all consent "
+"signals."
+msgstr ""
+"Gníomhach — níl Consent Mode cumasaithe in Site Kit. Láimhseálann an "
+"breiseán seo gach comhartha toilithe."
+
+#: includes/class-admin.php:586
+msgid ""
+"Active — consent status is shared with other plugins via the WP Consent API."
+msgstr ""
+"Gníomhach — roinntear stádas an toilithe le breiseáin eile trí WP Consent "
+"API."
+
+#: includes/class-admin.php:598 includes/class-admin.php:712
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: includes/class-admin.php:602
+msgid ""
+"Enable Consent Mode v2 (outputs consent defaults in &lt;head&gt; before GTM)"
+msgstr ""
+"Cumasaigh Consent Mode v2 (cuirtear réamhshocruithe toilithe in &lt;head&gt; "
+"roimh GTM)"
+
+#: includes/class-admin.php:610
+msgid ""
+"Forced on because Google Site Kit is active. Consent Mode is required for "
+"Site Kit to receive consent signals."
+msgstr ""
+"Ar siúl go héigeantach toisc go bhfuil Google Site Kit gníomhach. Tá Consent "
+"Mode riachtanach chun go bhfaighidh Site Kit comharthaí toilithe."
+
+#: includes/class-admin.php:614
+msgid ""
+"Consent Mode tells Google tags what the visitor has allowed (for example "
+"analytics or ads). This plugin sends a denied-by-default signal before tags "
+"run, and sends an updated signal after the visitor chooses. It controls "
+"consent signals only: you still need to install GTM/GA scripts separately."
+msgstr ""
+"Insíonn Consent Mode do chlibeanna Google cad a cheadaigh an cuairteoir (mar "
+"shampla anailísíocht nó fógraí). Seolann an breiseán seo comhartha "
+"diúltaithe mar réamhshocrú sula ritheann na clibeanna, agus seolann sé "
+"comhartha nuashonraithe nuair a roghnaíonn an cuairteoir. Ní rialaíonn sé "
+"ach comharthaí toilithe: caithfidh tú scripteanna GTM/GA a shuiteáil ar "
+"leithligh fós."
+
+#: includes/class-admin.php:740
+msgid ""
+"Site Kit sets consent defaults for its own regions. This plugin adds a "
+"denied default for all other visitors and sends each visitor's choice as a "
+"consent update."
+msgstr ""
+"Socraíonn Site Kit réamhshocruithe toilithe dá réigiúin féin. Cuireann an "
+"breiseán seo toiliú diúltaithe mar réamhshocrú leis do gach cuairteoir eile, "
+"agus seolann sé rogha gach cuairteora mar nuashonrú toilithe."
+
+#: includes/class-admin.php:630
+msgid "Need Google Analytics 4 or Google Tag Manager?"
+msgstr "An bhfuil Google Analytics 4 nó Google Tag Manager uait?"
+
+#: includes/class-admin.php:633
+msgid ""
+"We recommend installing Google Site Kit — Google's official WordPress "
+"plugin. It sets up GA4 and GTM in a few clicks, and works seamlessly with "
+"Kansleri Cookie Consent: Consent Mode v2 signals are handled automatically, "
+"with no double-loading or conflicts."
+msgstr ""
+"Molaimid Google Site Kit a shuiteáil — breiseán oifigiúil WordPress ó "
+"Google. Socraíonn sé GA4 agus GTM le cúpla cliceáil, agus oibríonn sé go "
+"réidh le Kansleri Cookie Consent: láimhseáiltear comharthaí Consent Mode v2 "
+"go huathoibríoch, gan luchtú dúbailte ná coimhlintí."
+
+#: includes/class-admin.php:638
+msgid "Install Google Site Kit"
+msgstr "Suiteáil Google Site Kit"
+
+#: includes/class-admin.php:649
+msgid "Consent Mode defaults (auto-injected in &lt;head&gt;)"
+msgstr ""
+"Réamhshocruithe Consent Mode (curtha isteach go huathoibríoch in "
+"&lt;head&gt;)"
+
+#: includes/class-admin.php:673
+msgid "Installation guide"
+msgstr "Treoir suiteála"
+
+#: includes/class-admin.php:675
+msgid "Activate the plugin and open Settings > Cookie Consent."
+msgstr "Gníomhachtaigh an breiseán agus oscail Socruithe > Toiliú fianán."
+
+#: includes/class-admin.php:676
+msgid "Configure banner texts, style, and button labels in the General tab."
+msgstr ""
+"Socraigh téacsanna an mheirge, an stíl agus lipéid na gcnaipí ar an "
+"gcluaisín Ginearálta."
+
+#: includes/class-admin.php:677
+msgid ""
+"Open the Integration tab and enable Google Consent Mode v2 if you use "
+"GTM/Google tags."
+msgstr ""
+"Oscail an cluaisín Comhtháthú agus cumasaigh Google Consent Mode v2 má "
+"úsáideann tú GTM/clibeanna Google."
+
+#: includes/class-admin.php:678
+msgid ""
+"Open the Cookies tab, run Scan Cookies, then review and categorize unknown "
+"cookies."
+msgstr ""
+"Oscail an cluaisín Fianáin, rith “Scan fianáin”, ansin athbhreithnigh agus "
+"catagóirigh na fianáin anaithnide."
+
+#: includes/class-admin.php:679
+msgid ""
+"If unknown cookies are found, an AI helper appears: copy the prompt, paste "
+"it into an AI tool, paste the response back into the text box, click Import,"
+" then Save Cookies."
+msgstr ""
+"Má aimsítear fianáin anaithnide, taispeántar cúntóir IS: cóipeáil an leid, "
+"greamaigh in uirlis IS í, greamaigh an freagra ar ais sa bhosca téacs, "
+"cliceáil “Iompórtáil”, ansin “Sábháil fianáin”."
+
+#: includes/class-admin.php:680
+msgid ""
+"Confirm the Cookie Policy page in the Policy Page tab — it defaults to the "
+"WordPress Privacy Policy page."
+msgstr ""
+"Deimhnigh an leathanach “Beartas fianán” ar an gcluaisín Leathanach beartais "
+"— mar réamhshocrú, is é leathanach an Bheartais Príobháideachais i WordPress "
+"é."
+
+#: includes/class-admin.php:681
+msgid ""
+"Use the AI prompt on the Policy Page tab to generate the full cookie policy "
+"page content. Paste the generated HTML into your policy page."
+msgstr ""
+"Úsáid an leid IS ar an gcluaisín Leathanach beartais chun ábhar iomlán an "
+"leathanaigh beartais fianán a ghiniúint. Greamaigh an HTML a ghintear i do "
+"leathanach beartais."
+
+#: includes/class-admin.php:682
+msgid "Review the Script Blocking tab to see which scripts are auto-blocked."
+msgstr ""
+"Athbhreithnigh an cluaisín Blocáil scripteanna chun a fheiceáil cé na "
+"scripteanna a bhlocáiltear go huathoibríoch."
+
+#: includes/class-admin.php:685
+msgid "What each option means"
+msgstr "Brí gach rogha"
+
+#: includes/class-admin.php:687
+msgid "General tab"
+msgstr "Cluaisín Ginearálta"
+
+#: includes/class-admin.php:689
+msgid "Choose visual placement of the banner (bar, modal, corner)."
+msgstr "Roghnaigh cá dtaispeánfar an meirge (barra, dialóg, cúinne)."
+
+#: includes/class-admin.php:690
+msgid "Controls the main accent color used by buttons and links."
+msgstr ""
+"Rialaíonn sé an príomhdhath aiceanta a úsáidtear do chnaipí agus do naisc."
+
+#: includes/class-admin.php:690
+msgid "Primary color"
+msgstr "Príomhdhath"
+
+#: includes/class-admin.php:691
+msgid ""
+"Theme style inherits site typography. Plugin style uses strict sizes/colors "
+"for consistent readability."
+msgstr ""
+"Úsáideann stíl an téama clóghrafaíocht an tsuímh. Úsáideann stíl an "
+"bhreiseáin méideanna/dathanna seasta ar mhaithe le hinléiteacht "
+"chomhsheasmhach."
+
+#: includes/class-admin.php:692
+msgid "Customize visible wording in the consent banner."
+msgstr "Saincheap an téacs a thaispeántar sa mheirge toilithe."
+
+#: includes/class-admin.php:692
+msgid "Heading/Description/Button texts"
+msgstr "Ceannteideal/Cur síos/Téacsanna cnaipí"
+
+#: includes/class-admin.php:693
+msgid "Lets visitors re-open cookie settings after they close the banner."
+msgstr ""
+"Ligeann sé do chuairteoirí socruithe fianán a oscailt arís tar éis dóibh an "
+"meirge a dhúnadh."
+
+#: includes/class-admin.php:696
+msgid "Cookies tab"
+msgstr "Cluaisín Fianáin"
+
+#: includes/class-admin.php:777
+msgid ""
+"Scans browser cookies and infers expected cookies from tracking scripts on "
+"your site (even when blocked until consent). Known cookies are auto-mapped "
+"to categories."
+msgstr ""
+"Scanann sé fianáin an bhrabhsálaí agus oibríonn sé amach na fianáin a "
+"bhfuiltear ag súil leo ó na scripteanna rianaithe ar do shuíomh (fiú nuair a "
+"bhíonn siad blocáilte go dtí go dtugtar toiliú). Cuirtear fianáin aitheanta "
+"i gcatagóirí go huathoibríoch."
+
+#: includes/class-admin.php:699
+msgid "AI Helper"
+msgstr "Cúntóir IS"
+
+#: includes/class-admin.php:699
+msgid ""
+"Appears after scanning when unknown cookies are found. Copies a ready prompt"
+" to paste into an AI tool. After the AI responds, paste the JSON back into "
+"the text box and click Import."
+msgstr ""
+"Taispeántar é tar éis scanadh nuair a aimsítear fianáin anaithnide. "
+"Cóipeálann sé leid réidh le greamú in uirlis IS. Nuair a fhreagraíonn an "
+"uirlis IS, greamaigh an JSON ar ais sa bhosca téacs agus cliceáil "
+"“Iompórtáil”."
+
+#: includes/class-admin.php:700
+msgid ""
+"Persists current cookie table values to be used in policy output and consent"
+" details."
+msgstr ""
+"Sábhálann sé na luachanna atá i dtábla na bhfianán faoi láthair, le húsáid "
+"in aschur an bheartais agus i sonraí an toilithe."
+
+#: includes/class-admin.php:703
+msgid "Policy Page tab"
+msgstr "Cluaisín Leathanach beartais"
+
+#: includes/class-admin.php:705
+msgid ""
+"Selects which page is used for cookie policy content generated by shortcode."
+msgstr ""
+"Roghnaíonn sé an leathanach a úsáidtear don ábhar beartais fianán a ghineann "
+"an gearrchód."
+
+#: includes/class-admin.php:706
+msgid "AI Prompt for Policy Page"
+msgstr "Leid IS don leathanach beartais"
+
+#: includes/class-admin.php:706
+msgid ""
+"Generates a prompt you can paste into an AI tool to create a full privacy "
+"and cookie policy. The generated text will include the [kncc_cookie_policy] "
+"shortcode for the cookie declaration section."
+msgstr ""
+"Gineann sé leid is féidir leat a ghreamú in uirlis IS chun beartas iomlán "
+"príobháideachais agus fianán a chruthú. Beidh an gearrchód "
+"[kncc_cookie_policy] sa téacs a ghintear, i roinn an dearbhaithe fianán."
+
+#: includes/class-admin.php:707
+msgid ""
+"If Polylang or WPML is active, each language can have its own translated "
+"policy page. If a translation is missing for some language, the default-"
+"language policy page is used as a fallback."
+msgstr ""
+"Má tá Polylang nó WPML gníomhach, is féidir a leathanach beartais aistrithe "
+"féin a bheith ag gach teanga. Mura bhfuil aistriúchán ar fáil i dteanga "
+"éigin, úsáidtear leathanach beartais na teanga réamhshocraithe mar chúltaca."
+
+#: includes/class-admin.php:707
+msgid "Multilingual support"
+msgstr "Tacaíocht ilteangach"
+
+#: includes/class-admin.php:710
+msgid "Integration tab"
+msgstr "Cluaisín Comhtháthú"
+
+#: includes/class-admin.php:712
+msgid ""
+"A Google framework for privacy-safe tag behavior. Before consent, storage "
+"signals are denied; after user choice, signals are updated (for example "
+"analytics_storage=granted). This helps GTM/Google tags respect user consent "
+"state."
+msgstr ""
+"Creat de chuid Google a chinntíonn go n-oibríonn clibeanna ar bhealach a "
+"chosnaíonn príobháideachas. Roimh thoiliú, diúltaítear do chomharthaí "
+"stórála; tar éis rogha an úsáideora, nuashonraítear na comharthaí (mar "
+"shampla analytics_storage=granted). Cabhraíonn sé seo le GTM/clibeanna "
+"Google stádas toilithe an úsáideora a urramú."
+
+#: includes/class-admin.php:713
+msgid "GTM Container ID"
+msgstr "Aitheantas coimeádáin GTM"
+
+#: includes/class-admin.php:713
+msgid ""
+"Your GTM container identifier (for example GTM-N6828NL). It identifies which"
+" tag container your site uses. This field is informational in this plugin "
+"and does not inject GTM scripts."
+msgstr ""
+"Aitheantas do choimeádáin GTM (mar shampla GTM-N6828NL). Léiríonn sé cén "
+"coimeádán clibeanna a úsáideann do shuíomh. Is le haghaidh eolais amháin an "
+"réimse seo sa bhreiseán, agus ní chuireann sé scripteanna GTM isteach."
+
+#: includes/class-admin.php:716
+msgid "Script Blocking tab"
+msgstr "Cluaisín Blocáil scripteanna"
+
+#: includes/class-admin.php:798
+msgid ""
+"Tools like Google Analytics are blocked automatically when added through "
+"WordPress plugins (e.g. Google Site Kit)."
+msgstr ""
+"Blocáiltear uirlisí ar nós Google Analytics go huathoibríoch nuair a "
+"chuirtear leis iad trí bhreiseáin WordPress (m.sh. Google Site Kit)."
+
+#: includes/class-admin.php:799 includes/class-admin.php:1071
+msgid "Custom Code blocking"
+msgstr "Blocáil cóid shaincheaptha"
+
+#: includes/class-admin.php:799
+msgid ""
+"Stops tracking pasted into Bricks, Elementor, or similar Custom Code fields "
+"until the visitor gives consent."
+msgstr ""
+"Stopann sé rianú a ghreamaítear i réimsí cóid shaincheaptha in Bricks, in "
+"Elementor nó in uirlisí cosúla go dtí go dtugann an cuairteoir toiliú."
+
+#: includes/class-admin.php:719
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
+msgstr ""
+"Blocáiltear físeáin leabaithe ó YouTube agus Vimeo go huathoibríoch go dtí "
+"go nglacann an cuairteoir le fianáin mhargaíochta. Taispeántar "
+"teachtaireacht le cnaipe glactha ina n-ionad. Má thug an cuairteoir toiliú "
+"cheana, luchtaítear na físeáin mar is gnách."
+
+#: includes/class-admin.php:719
+msgid "YouTube & Vimeo iframe blocking"
+msgstr "Blocáil iframe YouTube & Vimeo"
+
+#: includes/class-admin.php:722
+msgid "Statistics tab"
+msgstr "Cluaisín Staitisticí"
+
+#: includes/class-admin.php:724
+msgid "Consent statistics"
+msgstr "Staitisticí toilithe"
+
+#: includes/class-admin.php:724
+msgid ""
+"Shows how many visitors accepted, rejected, or customized cookies over 7, "
+"30, or 90 day periods. Data is aggregated and anonymous — no personal data "
+"is stored."
+msgstr ""
+"Taispeánann sé cé mhéad cuairteoir a ghlac le fianáin, a dhiúltaigh dóibh nó "
+"a shaincheap iad thar thréimhsí 7, 30 nó 90 lá. Tá na sonraí comhiomlánaithe "
+"agus gan ainm — ní stóráiltear aon sonraí pearsanta."
+
+#: includes/class-admin.php:725 includes/class-admin.php:1022
+msgid "Consent Log"
+msgstr "Loga toilithe"
+
+#: includes/class-admin.php:725
+msgid ""
+"Individual anonymized consent records for GDPR audit compliance. Records "
+"contain a hashed visitor identifier, the consent choice, accepted "
+"categories, and the policy version. Records are automatically purged after "
+"13 months."
+msgstr ""
+"Taifid toilithe aonair, anaithnidithe, le haghaidh iniúchtaí comhlíonta "
+"RGCS. Tá iontu aitheantóir cuairteora haiseáilte, an rogha toilithe, na "
+"catagóirí a glacadh, agus leagan an bheartais. Scriostar na taifid go "
+"huathoibríoch tar éis 13 mhí."
+
+#: includes/class-admin.php:726
+msgid "Downloads all consent log records as a CSV file for auditing."
+msgstr ""
+"Íoslódálann sé gach taifead sa loga toilithe mar chomhad CSV le haghaidh "
+"iniúchta."
+
+#: includes/class-admin.php:726 includes/class-admin.php:1038
+msgid "Export CSV"
+msgstr "Easpórtáil CSV"
+
+#: includes/class-admin.php:727
+msgid "Permanently deletes all consent log records and aggregate statistics."
+msgstr ""
+"Scriosann sé go buan gach taifead sa loga toilithe agus na staitisticí "
+"comhiomlána."
+
+#: includes/class-admin.php:727 includes/class-admin.php:1039
+msgid "Purge All Records"
+msgstr "Scrios gach taifead"
+
+#: includes/class-admin.php:730
+msgid "Multilingual support (WPML & Polylang)"
+msgstr "Tacaíocht ilteangach (WPML & Polylang)"
+
+#: includes/class-admin.php:732
+msgid "Per-language banner texts"
+msgstr "Téacsanna meirge de réir teanga"
+
+#: includes/class-admin.php:732
+msgid ""
+"When WPML or Polylang is active, switch to a secondary language in the admin"
+" bar and edit General tab settings (saved per language). With WPML String "
+"Translation, you can also translate the [kncc_settings]* admin text strings "
+"— those are used when no per-language override is saved. Otherwise each "
+"language uses its own plugin defaults (English if unsupported). Texts are "
+"never copied blindly from the default language."
+msgstr ""
+"Nuair atá WPML nó Polylang gníomhach, athraigh go teanga thánaisteach sa "
+"bharra riaracháin agus cuir socruithe an chluaisín Ginearálta in eagar "
+"(sábháiltear iad do gach teanga ar leith). Le WPML String Translation, is "
+"féidir leat teaghráin téacs riaracháin [kncc_settings]* a aistriú freisin — "
+"úsáidtear iad sin nuair nach bhfuil aon sárú sábháilte don teanga. Seachas "
+"sin, úsáideann gach teanga a réamhshocruithe breiseáin féin (Béarla mura "
+"dtacaítear leis an teanga). Ní chóipeáiltear téacsanna riamh go dall ón "
+"teanga réamhshocraithe."
+
+#: includes/class-admin.php:733
+msgid ""
+"Cookie names, categories, providers, and durations are shared across all "
+"languages. Only the description field can be translated per language. Switch"
+" language and edit descriptions in the Cookies tab."
+msgstr ""
+"Roinntear ainmneacha, catagóirí, soláthraithe agus faid na bhfianán idir na "
+"teangacha go léir. Ní féidir ach réimse an chur síos a aistriú de réir "
+"teanga. Athraigh an teanga agus cuir an cur síos in eagar ar an gcluaisín "
+"Fianáin."
+
+#: includes/class-admin.php:733
+msgid "Per-language cookie descriptions"
+msgstr "Cur síos ar fhianáin de réir teanga"
+
+#: includes/class-admin.php:734
+msgid ""
+"Banner style, colors, and policy page can be set per language. Non-text "
+"settings fall back to the default language; banner texts use per-language "
+"overrides, WPML String Translation, or each language's own defaults."
+msgstr ""
+"Is féidir stíl an mheirge, na dathanna agus an leathanach beartais a shocrú "
+"de réir teanga. Úsáideann socruithe nach téacs iad socruithe na teanga "
+"réamhshocraithe mar chúltaca; úsáideann téacsanna an mheirge sáruithe don "
+"teanga, WPML String Translation, nó réamhshocruithe gach teanga féin."
+
+#: includes/class-admin.php:734
+msgid "Per-language settings"
+msgstr "Socruithe de réir teanga"
+
+#: includes/class-admin.php:735
+msgid "AI prompts"
+msgstr "Leideanna IS"
+
+#: includes/class-admin.php:735
+msgid ""
+"AI prompts for cookie descriptions and policy pages are automatically "
+"generated in the language matching the current admin locale."
+msgstr ""
+"Gintear leideanna IS do chur síos ar fhianáin agus do leathanaigh bheartais "
+"go huathoibríoch sa teanga a mheaitseálann logchaighdeán reatha an "
+"riaracháin."
+
+#: includes/class-admin.php:738
+msgid "Shortcodes"
+msgstr "Gearrchóid"
+
+#: includes/class-admin.php:740
+msgid "Displays the full cookie declaration table on your policy page."
+msgstr ""
+"Taispeánann sé tábla iomlán an dearbhaithe fianán ar do leathanach beartais."
+
+#: includes/class-admin.php:741
+msgid ""
+"Renders a link that opens the cookie settings dialog. Use in footers, menus,"
+" or widgets. Customize the link text with the text attribute, e.g. "
+"[kncc_cookie_settings text=\"Manage cookies\"]."
+msgstr ""
+"Taispeánann sé nasc a osclaíonn socruithe na bhfianán. Úsáid é i mbuntásca, "
+"i roghchláir nó i ngiuirléidí. Saincheap téacs an naisc leis an aitreabúid "
+"text, m.sh. [kncc_cookie_settings text=\"Bainistigh fianáin\"]."
+
+#: includes/class-admin.php:744
+msgid "Custom CSS"
+msgstr "CSS saincheaptha"
+
+#: includes/class-admin.php:748
+#, php-format
+msgid ""
+"Need to fine-tune the look beyond the General tab? Add CSS to %s, your child"
+" theme, or a Code Snippets plugin."
+msgstr ""
+"Ar mhaith leat an chuma a mhionchoigeartú thar a bhfuil ar an gcluaisín "
+"Ginearálta? Cuir CSS le %s, le do théama linbh nó le breiseán Code Snippets."
+
+#: includes/class-admin.php:749
+msgid "Appearance → Customize → Additional CSS"
+msgstr "Cuma → Saincheap → CSS breise"
+
+#: includes/class-admin.php:752
+msgid ""
+"Copy the template below, uncomment the rules you want to change, save. Every"
+" selector the plugin uses is included."
+msgstr ""
+"Cóipeáil an teimpléad thíos, díthráchtaigh na rialacha is mian leat a athrú, "
+"agus sábháil. Tá gach roghnóir a úsáideann an breiseán san áireamh."
+
+#: includes/class-admin.php:756
+msgid "Copy CSS template"
+msgstr "Cóipeáil an teimpléad CSS"
+
+#: includes/class-admin.php:828
+msgid "Tips:"
+msgstr "Noda:"
+
+#: includes/class-admin.php:830
+msgid ""
+"If a rule does not apply, prepend .kncc-banner or add !important — your CSS "
+"file loads after the plugin's, but theme styles can occasionally beat it on "
+"specificity."
+msgstr ""
+"Mura gcuirtear riail i bhfeidhm, cuir .kncc-banner roimpi nó cuir !important "
+"léi — luchtaítear do chomhad CSS tar éis CSS an bhreiseáin, ach uaireanta "
+"sáraíonn stíleanna an téama é mar gheall ar shainiúlacht."
+
+#: includes/class-admin.php:831
+msgid ""
+"When General → Text and font style is set to Plugin style, typography rules "
+"use !important. Switch to Theme style for easier overrides."
+msgstr ""
+"Nuair atá Ginearálta → Stíl téacs agus cló socraithe ar Stíl an bhreiseáin, "
+"úsáideann na rialacha clóghrafaíochta !important. Athraigh go Stíl an téama "
+"chun sáruithe a dhéanamh níos éasca."
+
+#: includes/class-admin.php:832
+msgid ""
+"Banner z-index is 999999 and the floating button is 999998 — raise them if "
+"your theme renders overlays on top of the banner."
+msgstr ""
+"Tá z-index 999999 ag an meirge agus 999998 ag an gcnaipe ar snámh — ardaigh "
+"iad má thaispeánann do théama forleagain os cionn an mheirge."
+
+#: includes/class-admin.php:835
+msgid "Troubleshooting"
+msgstr "Fabhtcheartú"
+
+#: includes/class-admin.php:837
+msgid ""
+"If GTM Preview does not show consent updates, verify Consent Mode v2 is "
+"enabled and test in a fresh browser session without existing consent cookie."
+msgstr ""
+"Mura dtaispeánann réamhamharc GTM nuashonruithe toilithe, deimhnigh go "
+"bhfuil Consent Mode v2 cumasaithe agus déan tástáil i seisiún brabhsálaí nua "
+"nach bhfuil fianán toilithe ann cheana."
+
+#: includes/class-admin.php:838
+msgid ""
+"If banner typography looks odd with your theme, switch General > Text and "
+"font style to Plugin style."
+msgstr ""
+"Má bhíonn cuma aisteach ar chlóghrafaíocht an mheirge le do théama, athraigh "
+"Ginearálta > Stíl téacs agus cló go Stíl an bhreiseáin."
+
+#: includes/class-admin.php:839
+msgid ""
+"If tracking still runs before consent, make sure Custom Code blocking is "
+"checked on the Script Blocking tab."
+msgstr ""
+"Má ritheann rianú fós roimh thoiliú, cinntigh go bhfuil Blocáil cóid "
+"shaincheaptha ticeáilte ar an gcluaisín Blocáil scripteanna."
+
+#: includes/class-admin.php:840
+msgid ""
+"If the statistics are empty, make sure visitors have interacted with the "
+"banner. Data starts recording after the first consent choice."
+msgstr ""
+"Má tá na staitisticí folamh, cinntigh gur úsáid cuairteoirí an meirge. "
+"Tosaíonn taifeadadh na sonraí tar éis an chéad rogha toilithe."
+
+#: includes/class-admin.php:841
+msgid ""
+"If the policy page warning shows missing translations, create the translated"
+" page in each language and add the [kncc_cookie_policy] shortcode."
+msgstr ""
+"Má léiríonn rabhadh an leathanaigh beartais go bhfuil aistriúcháin ar "
+"iarraidh, cruthaigh an leathanach aistrithe i ngach teanga agus cuir an "
+"gearrchód [kncc_cookie_policy] leis."
+
+#: includes/class-admin.php:845
+msgid ""
+"I made this plugin for free because I got frustrated by the existing cookie "
+"consent plugins — too much bloat and useless features. If you like it and "
+"want to buy me a coffee, you can do it here:"
+msgstr ""
+"Rinne mé an breiseán seo saor in aisce mar go raibh mé bréan de na breiseáin "
+"toilithe fianán a bhí ann cheana — an iomarca ualaigh agus gnéithe gan "
+"úsáid. Má thaitníonn sé leat agus más mian leat cupán caife a cheannach dom, "
+"is féidir leat é a dhéanamh anseo:"
+
+#: includes/class-admin.php:873
+#, php-format
+msgid "%d days"
+msgstr "%d lá"
+
+#: includes/class-admin.php:884
+msgid "Total responses"
+msgstr "Freagraí san iomlán"
+
+#: includes/class-admin.php:888 includes/class-admin.php:903
+#: includes/class-admin.php:913
+msgid "Accepted all"
+msgstr "Glacadh le gach fianán"
+
+#: includes/class-admin.php:892 includes/class-admin.php:909
+#: includes/class-admin.php:915
+msgid "Rejected all"
+msgstr "Diúltaíodh do gach fianán"
+
+#: includes/class-admin.php:896 includes/class-admin.php:906
+#: includes/class-admin.php:914
+msgid "Custom selection"
+msgstr "Rogha shaincheaptha"
+
+#: includes/class-admin.php:920
+msgid ""
+"No consent data recorded yet. Statistics will appear after visitors start "
+"interacting with the cookie banner."
+msgstr ""
+"Níl aon sonraí toilithe taifeadta fós. Beidh staitisticí le feiceáil nuair a "
+"thosóidh cuairteoirí ag úsáid an mheirge fianán."
+
+#: includes/class-admin.php:937
+#, php-format
+msgid "Cron error: %s"
+msgstr "Earráid cron: %s"
+
+#: includes/class-admin.php:955
+msgid "All systems are good!"
+msgstr "Tá gach rud i gceart!"
+
+#: includes/class-admin.php:957
+msgid "The plugin re-checks cookies every day via cron."
+msgstr "Seiceálann an breiseán na fianáin arís gach lá trí cron."
+
+#: includes/class-admin.php:962
+#, php-format
+msgid "Next check: %s"
+msgstr "An chéad seiceáil eile: %s"
+
+#: includes/class-admin.php:1075
+msgid ""
+"Also block tracking added in Bricks, Elementor, or other Custom Code fields"
+msgstr ""
+"Blocáil freisin rianú a chuirtear i réimsí cóid shaincheaptha in Bricks, in "
+"Elementor nó in uirlisí eile"
+
+#: includes/class-admin.php:1094
+msgid "Save blocking settings"
+msgstr "Sábháil socruithe blocála"
+
+#: includes/class-admin.php:1099
+msgid "Recognized tracking tools"
+msgstr "Uirlisí rianaithe aitheanta"
+
+#: includes/class-admin.php:1106
+msgid "Script Handle"
+msgstr "Láimhseán scripte"
+
+#: includes/class-admin.php:1024
+msgid ""
+"Individual consent records for GDPR audit compliance. Records are "
+"automatically purged after the retention period (13 months)."
+msgstr ""
+"Taifid toilithe aonair le haghaidh iniúchtaí comhlíonta RGCS. Scriostar na "
+"taifid go huathoibríoch tar éis na tréimhse coinneála (13 mhí)."
+
+#: includes/class-admin.php:1028
+msgid "Total records:"
+msgstr "Taifid san iomlán:"
+
+#: includes/class-admin.php:1030
+msgid "Oldest:"
+msgstr "An ceann is sine:"
+
+#: includes/class-admin.php:1033
+msgid "Newest:"
+msgstr "An ceann is nuaí:"
+
+#: includes/class-admin.php:1043
+msgid "No consent log records yet."
+msgstr "Níl aon taifead sa loga toilithe fós."
+
+#: includes/class-admin.php:1048
+msgid "Date/Time"
+msgstr "Dáta/Am"
+
+#: includes/class-admin.php:1049
+msgid "Visitor"
+msgstr "Cuairteoir"
+
+#: includes/class-admin.php:1050
+msgid "Choice"
+msgstr "Rogha"
+
+#: includes/class-admin.php:1051
+msgid "Categories"
+msgstr "Catagóirí"
+
+#: includes/class-admin.php:1052
+msgid "Policy Version"
+msgstr "Leagan an bheartais"
+
+#: includes/class-admin.php:1311
+msgid "Cookies saved."
+msgstr "Sábháladh na fianáin."
+
+#: includes/class-consent.php:135
+msgid "Cookie consent"
+msgstr "Toiliú fianán"
+
+#: includes/class-consent.php:147 includes/class-policy-page.php:27
+msgid "Cookie Policy"
+msgstr "Beartas fianán"
+
+#: includes/class-consent.php:155
+msgid "Close"
+msgstr "Dún"
+
+#: includes/class-consent.php:187 includes/class-consent.php:188
+#: kansleri-cookie-consent.php:590
+msgid "Cookie settings"
+msgstr "Socruithe fianán"
+
+#: includes/class-policy-page.php:48
+msgid "No cookies have been registered yet."
+msgstr "Níl aon fhianán cláraithe fós."
+
+#: includes/class-policy-page.php:58
+msgid ""
+"These cookies are essential for the website to function and cannot be "
+"switched off."
+msgstr ""
+"Tá na fianáin seo riachtanach chun go n-oibreoidh an suíomh gréasáin agus ní "
+"féidir iad a mhúchadh."
+
+#: includes/class-policy-page.php:59
+msgid ""
+"These cookies help us understand how visitors interact with the website by "
+"collecting and reporting information anonymously."
+msgstr ""
+"Cabhraíonn na fianáin seo linn a thuiscint conas a úsáideann cuairteoirí an "
+"suíomh gréasáin, trí fhaisnéis a bhailiú agus a thuairisciú gan ainm."
+
+#: includes/class-policy-page.php:60
+msgid ""
+"These cookies are used to deliver relevant advertisements and track ad "
+"campaign performance."
+msgstr ""
+"Úsáidtear na fianáin seo chun fógraí ábhartha a thaispeáint agus chun "
+"feidhmíocht feachtas fógraíochta a rianú."
+
+#: includes/class-policy-page.php:61
+msgid ""
+"These cookies allow the website to remember choices you make and provide "
+"enhanced functionality and personalisation."
+msgstr ""
+"Ligeann na fianáin seo don tsuíomh gréasáin na roghanna a dhéanann tú a "
+"mheabhrú, agus feidhmiúlacht fheabhsaithe agus pearsantú a chur ar fáil."
+
+#: includes/class-policy-page.php:79
+msgid "Edit cookie preferences"
+msgstr "Athraigh roghanna fianán"
+
+#: includes/class-policy-page.php:90 includes/class-policy-page.php:99
+msgid "Cookie"
+msgstr "Fianán"
+
+#: includes/class-policy-page.php:92 includes/class-policy-page.php:101
+msgid "Purpose"
+msgstr "Cuspóir"
+
+#: includes/class-script-blocker.php:306
+msgid "Script blocking settings saved."
+msgstr "Sábháladh socruithe blocála na scripteanna."
+
+#: kansleri-cookie-consent.php:57 kansleri-cookie-consent.php:404
+msgid "We use cookies"
+msgstr "Úsáidimid fianáin"
+
+#: kansleri-cookie-consent.php:58 kansleri-cookie-consent.php:405
+msgid ""
+"We use cookies to improve your experience and analyze site traffic. Choose "
+"which cookies you allow."
+msgstr ""
+"Úsáidimid fianáin chun d'eispéireas a fheabhsú agus chun trácht an tsuímh a "
+"anailísiú. Roghnaigh na fianáin a cheadaíonn tú."
+
+#: kansleri-cookie-consent.php:59 kansleri-cookie-consent.php:406
+msgid "Accept all"
+msgstr "Glac le gach fianán"
+
+#: kansleri-cookie-consent.php:60 kansleri-cookie-consent.php:407
+msgid "Reject all"
+msgstr "Diúltaigh do gach fianán"
+
+#: kansleri-cookie-consent.php:61 kansleri-cookie-consent.php:408
+msgid "Customize"
+msgstr "Saincheap"
+
+#: kansleri-cookie-consent.php:62 kansleri-cookie-consent.php:409
+msgid "Save preferences"
+msgstr "Sábháil roghanna"
+
+#: kansleri-cookie-consent.php:336
+msgid "Required for the website to function. Cannot be disabled."
+msgstr ""
+"Riachtanach chun go n-oibreoidh an suíomh gréasáin. Ní féidir iad a mhúchadh."
+
+#: kansleri-cookie-consent.php:340
+msgid "Help us understand how visitors interact with the website."
+msgstr ""
+"Cabhraíonn siad linn a thuiscint conas a úsáideann cuairteoirí an suíomh "
+"gréasáin."
+
+#: kansleri-cookie-consent.php:344
+msgid "Used to deliver relevant advertisements and track campaigns."
+msgstr ""
+"Úsáidtear iad chun fógraí ábhartha a thaispeáint agus chun feachtais a rianú."
+
+#: kansleri-cookie-consent.php:348
+msgid "Remember your settings and preferences for a better experience."
+msgstr ""
+"Meabhraíonn siad do shocruithe agus do roghanna chun eispéireas níos fearr a "
+"thabhairt duit."
+
+#: kansleri-cookie-consent.php:499
+msgid "Settings"
+msgstr "Socruithe"
+
+#: kansleri-cookie-consent.php:522
+#, php-format
+msgid ""
+"Kansleri Cookie Consent is now active. Next steps: %1$s to discover cookies "
+"and %2$s to review banner and consent settings."
+msgstr ""
+"Tá Kansleri Cookie Consent gníomhach anois. Na chéad chéimeanna eile: %1$s "
+"chun iad a aimsiú, agus %2$s an mheirge agus an toilithe."
+
+#: kansleri-cookie-consent.php:523
+msgid "Scan cookies"
+msgstr "Scan fianáin"
+
+#: kansleri-cookie-consent.php:524
+msgid "review settings"
+msgstr "athbhreithnigh socruithe"
+
+#: kansleri-cookie-consent.php:555
+#, php-format
+msgid ""
+"Cookie Consent: %1$d cookie(s) are missing descriptions: %2$s. %3$s to add "
+"them."
+msgstr ""
+"Toiliú fianán: tá cur síos in easnamh ar fhianáin (%1$d): %2$s. %3$s chun "
+"cur síos a chur leo."
+
+#: kansleri-cookie-consent.php:558
+msgid "Go to Cookies tab"
+msgstr "Téigh go dtí an cluaisín Fianáin"
+
+#: kansleri-cookie-consent.php:572
+msgid ""
+"This site uses a cookie consent banner powered by Kansleri Cookie Consent. "
+"When you interact with the banner, a cookie named <code>kncc_consent</code> "
+"is stored in your browser for up to 1 year. It records your consent "
+"preferences (which cookie categories you accepted or rejected) so the site "
+"can remember your choice on future visits. No personal data is stored in "
+"this cookie."
+msgstr ""
+"Úsáideann an suíomh seo meirge toilithe fianán faoi chumhacht Kansleri "
+"Cookie Consent. Nuair a úsáideann tú an meirge, stóráiltear fianán darb ainm "
+"<code>kncc_consent</code> i do bhrabhsálaí ar feadh suas le bliain amháin. "
+"Taifeadann sé do roghanna toilithe (na catagóirí fianán ar ghlac tú leo nó "
+"ar dhiúltaigh tú dóibh) ionas gur féidir leis an suíomh do rogha a mheabhrú "
+"ar chuairteanna amach anseo. Ní stóráiltear aon sonraí pearsanta san fhianán "
+"seo."
+
+#: kansleri-cookie-consent.php:573
+msgid ""
+"The plugin also records anonymous, aggregated consent statistics (how many "
+"visitors accepted, rejected, or customized cookies each day) and individual "
+"consent log entries for GDPR audit compliance. Consent log entries contain a"
+" hashed (non-reversible) visitor identifier, the consent choice, which "
+"categories were accepted, and the policy version. No IP addresses, user "
+"identifiers, or personal data are stored in plain text. Consent log records "
+"are automatically deleted after 13 months."
+msgstr ""
+"Taifeadann an breiseán freisin staitisticí toilithe gan ainm, "
+"comhiomlánaithe (cé mhéad cuairteoir a ghlac le fianáin, a dhiúltaigh dóibh "
+"nó a shaincheap iad gach lá) agus taifid aonair sa loga toilithe le haghaidh "
+"iniúchtaí comhlíonta RGCS. Tá na nithe seo i ngach taifead sa loga toilithe: "
+"aitheantóir cuairteora haiseáilte (nach féidir a aisiompú), an rogha "
+"toilithe, na catagóirí a glacadh, agus leagan an bheartais. Ní stóráiltear "
+"aon seoltaí IP, aitheantóirí úsáideora ná sonraí pearsanta mar ghnáththéacs. "
+"Scriostar taifid an loga toilithe go huathoibríoch tar éis 13 mhí."
+
+#: includes/class-admin.php:318
+msgid "Empty cookie categories"
+msgstr "Catagóirí fianán folmha"
+
+#: includes/class-admin.php:322
+msgid "Show but lock (disable) the switch"
+msgstr "Taispeáin, ach glasáil an lasc (díchumasaithe)"
+
+#: includes/class-admin.php:323
+msgid "Hide categories with no cookies"
+msgstr "Folaigh catagóirí gan fhianáin"
+
+#: includes/class-admin.php:378 includes/class-consent.php:95
+msgid "No analytics cookies are used on this site."
+msgstr "Ní úsáidtear aon fhianán anailísíochta ar an suíomh seo."
+
+#: includes/class-admin.php:379 includes/class-consent.php:96
+msgid "No marketing cookies are used on this site."
+msgstr "Ní úsáidtear aon fhianán margaíochta ar an suíomh seo."
+
+#: includes/class-admin.php:380 includes/class-consent.php:97
+msgid "No preference cookies are used on this site."
+msgstr "Ní úsáidtear aon fhianán roghanna ar an suíomh seo."
+
+#: includes/class-admin.php:323
+msgid "Close button label"
+msgstr "Lipéad an chnaipe dúnta"
+
+#: includes/class-consent.php:50
+msgid "You have not made a choice yet."
+msgstr "Níl rogha déanta agat fós."
+
+#: includes/class-consent.php:51
+msgid "Allowed"
+msgstr "Ceadaithe"
+
+#: includes/class-consent.php:52
+msgid "Denied"
+msgstr "Diúltaithe"
+
+#: includes/class-consent.php:53
+msgid "Always active"
+msgstr "Gníomhach i gcónaí"
+
+#: includes/class-policy-page.php:85
+msgid "Your current cookie preferences"
+msgstr "Do roghanna fianán faoi láthair"
+
+#: includes/class-policy-page.php:93
+msgid ""
+"These choices are stored technically as wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing, and wp_consent_preferences for "
+"compatibility with WordPress plugins."
+msgstr ""
+"Stóráiltear na roghanna seo go teicniúil mar wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing agus wp_consent_preferences, ar "
+"mhaithe le comhoiriúnacht le breiseáin WordPress."
+
+#: includes/class-admin.php:99
+msgid "Possibly removed"
+msgstr "Bainte, b'fhéidir"
+
+#: includes/class-admin.php:100
+msgid ""
+"These cookies are still in your list, but their tracking scripts were not "
+"found on the homepage. Review and remove any that are no longer used."
+msgstr ""
+"Tá na fianáin seo fós ar do liosta, ach níor aimsíodh a scripteanna "
+"rianaithe ar an leathanach baile. Athbhreithnigh iad agus bain na cinn nach "
+"bhfuil in úsáid a thuilleadh."
+
+#: includes/class-admin.php:102
+#, php-format
+msgid ""
+"Remove %d cookie(s) from the list? This cannot be undone automatically."
+msgstr ""
+"An mbainfear na fianáin (%d) den liosta? Ní féidir é seo a chealú go "
+"huathoibríoch."
+
+#: includes/class-admin.php:103 includes/class-admin.php:1527
+msgid "Selected cookies removed from the list."
+msgstr "Baineadh na fianáin roghnaithe den liosta."
+
+#: includes/class-admin.php:104
+msgid "Remove selected cookies"
+msgstr "Bain na fianáin roghnaithe"
+
+#: includes/class-admin.php:1482
+msgid ""
+"None of the selected cookies can be removed. Run Scan Cookies again to "
+"refresh the list."
+msgstr ""
+"Ní féidir aon cheann de na fianáin roghnaithe a bhaint. Rith “Scan fianáin” "
+"arís chun an liosta a athnuachan."
+
+#: includes/class-admin.php:791
+msgid ""
+"After scanning, cookies whose tracking scripts are no longer found on the "
+"homepage are listed under \"Possibly removed\". Review the list and use "
+"Remove selected cookies to delete entries you no longer need — nothing is "
+"removed automatically."
+msgstr ""
+"Tar éis scanadh, liostaítear faoi “Bainte, b'fhéidir” na fianáin nach "
+"n-aimsítear a scripteanna rianaithe ar an leathanach baile a thuilleadh. "
+"Athbhreithnigh an liosta agus úsáid “Bain na fianáin roghnaithe” chun na "
+"taifid nach bhfuil uait a thuilleadh a scriosadh — ní bhaintear aon rud go "
+"huathoibríoch."
+
+#: includes/class-admin.php:797
+msgid "Current consent status"
+msgstr "Stádas reatha an toilithe"
+
+#: includes/class-admin.php:797
+msgid ""
+"The [kncc_cookie_policy] shortcode shows each category as allowed, denied, "
+"or not yet chosen above the Edit cookie preferences button. When WP Consent "
+"API is active, a note explains the technical wp_consent_* cookie names used "
+"by WordPress plugins."
+msgstr ""
+"Taispeánann an gearrchód [kncc_cookie_policy] an bhfuil gach catagóir "
+"ceadaithe, diúltaithe nó gan roghnú fós, os cionn an chnaipe “Athraigh "
+"roghanna fianán”. Nuair atá WP Consent API gníomhach, míníonn nóta na "
+"hainmneacha teicniúla fianán wp_consent_* a úsáideann breiseáin WordPress."
+
+#: includes/class-admin.php:806
+msgid "WP Consent API sync"
+msgstr "Sioncrónú WP Consent API"
+
+#: includes/class-admin.php:806
+msgid ""
+"When the WP Consent API plugin is active, Kansleri automatically syncs your "
+"banner choices to wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing, and wp_consent_preferences. This lets consent-aware "
+"plugins such as Google Site Kit read the visitor's choice. Banner labels "
+"(Necessary, Analytics) map to these technical cookie names."
+msgstr ""
+"Nuair atá an breiseán WP Consent API gníomhach, sioncrónaíonn Kansleri "
+"roghanna an mheirge go huathoibríoch le wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing agus wp_consent_preferences. "
+"Ligeann sé seo do bhreiseáin a thuigeann toiliú, mar shampla Google Site "
+"Kit, rogha an chuairteora a léamh. Mapáiltear lipéid an mheirge "
+"(Riachtanach, Anailísíocht) chuig na hainmneacha teicniúla fianán seo."
+
+#: includes/class-admin.php:939
+msgid ""
+"If wp_consent_statistics stays deny after Accept all, clear site cookies or "
+"test in a private window, hard-refresh (Ctrl+Shift+R), and confirm the WP "
+"Consent API plugin is active."
+msgstr ""
+"Má fhanann wp_consent_statistics ar deny tar éis “Glac le gach fianán”, glan "
+"fianáin an tsuímh nó déan tástáil i bhfuinneog phríobháideach, déan "
+"athnuachan iomlán (Ctrl+Shift+R), agus deimhnigh go bhfuil an breiseán WP "
+"Consent API gníomhach."
+
+#: includes/class-admin.php:746 includes/class-admin.php:854
+msgid "Advanced Consent Mode"
+msgstr "Consent Mode Ardleibhéil"
+
+#: includes/class-admin.php:750
+msgid "Load Google tags before consent, with consent denied"
+msgstr "Luchtaigh clibeanna Google roimh thoiliú, le toiliú diúltaithe"
+
+#: includes/class-admin.php:753
+msgid "Off (default, Basic Consent Mode): the Google tag is blocked until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies, so Google receives nothing from visitors who have not consented."
+msgstr ""
+"As (réamhshocrú, Consent Mode Bunúsach): blocáiltear clib Google go dtí go "
+"nglacann an cuairteoir le fianáin anailísíochta, agus Google Tag Manager go "
+"dtí go nglacann an cuairteoir le fianáin anailísíochta nó le fianáin "
+"mhargaíochta, ionas nach bhfaigheann Google aon rud ó chuairteoirí nár thug "
+"toiliú."
+
+#: includes/class-admin.php:756
+msgid ""
+"On (Advanced Consent Mode): the Google tag and Google Tag Manager load "
+"right away. Until the visitor accepts, they set no cookies and send Google "
+"only cookieless pings, which Google uses to model the missing data. Google "
+"Analytics and Google Ads expect this mode, and with Basic mode they can "
+"report your consent signals as not active."
+msgstr ""
+"Ar siúl (Consent Mode Ardleibhéil): luchtaítear clib Google agus Google Tag "
+"Manager láithreach. Go dtí go nglacann an cuairteoir, ní shocraíonn siad aon "
+"fhianán agus ní sheolann siad chuig Google ach pingeanna gan fhianáin, a "
+"úsáideann Google chun na sonraí atá in easnamh a mhúnlú. Tá Google Analytics "
+"agus Google Ads ag súil leis an mód seo, agus leis an mód bunúsach is féidir "
+"leo a thuairisciú nach bhfuil do chomharthaí toilithe gníomhach."
+
+#: includes/class-admin.php:759
+msgid "Only applies while Consent Mode v2 is enabled. Other tracking scripts on the site stay blocked until consent, also those that Google Tag Manager adds (for example a Meta Pixel or LinkedIn in a Custom HTML tag): each waits for its own category, with no changes needed in the container."
+msgstr ""
+"Ní bhíonn feidhm leis seo ach nuair atá Consent Mode v2 cumasaithe. Fanann "
+"scripteanna rianaithe eile ar an suíomh blocáilte go dtí go dtugtar toiliú, "
+"fiú iad siúd a chuireann Google Tag Manager leis (mar shampla Meta Pixel nó "
+"LinkedIn i gclib Custom HTML): fanann gach ceann acu lena chatagóir féin, "
+"gan aon athrú a bheith ag teastáil sa choimeádán."
+
+#: includes/class-admin.php:854
+msgid ""
+"Off by default. When on, the Google tag and Google Tag Manager load before "
+"consent instead of being blocked. Until the visitor accepts, they set no "
+"cookies and send Google only cookieless pings."
+msgstr ""
+"As de réir réamhshocraithe. Nuair atá sé ar siúl, luchtaítear clib Google "
+"agus Google Tag Manager roimh thoiliú in ionad iad a bhlocáil. Go dtí go "
+"nglacann an cuairteoir, ní shocraíonn siad aon fhianán agus ní sheolann siad "
+"chuig Google ach pingeanna gan fhianáin."
+
+#: includes/class-admin.php:863
+msgid "You can turn this off on the Script Blocking tab."
+msgstr "Is féidir é seo a mhúchadh ar an gcluaisín Blocáil scripteanna."
+
+#: includes/class-admin.php:1136
+msgid ""
+"Advanced Consent Mode is on (Integration tab): the Google tag and Google "
+"Tag Manager load before consent and follow the Consent Mode signals instead "
+"of being blocked."
+msgstr ""
+"Tá Consent Mode Ardleibhéil ar siúl (cluaisín Comhtháthú): luchtaítear clib "
+"Google agus Google Tag Manager roimh thoiliú agus leanann siad comharthaí "
+"Consent Mode in ionad a bheith blocáilte."
+
+#: includes/class-admin.php:1168
+msgid ""
+"Block YouTube and Vimeo videos until the visitor accepts marketing cookies"
+msgstr ""
+"Blocáil físeáin YouTube agus Vimeo go dtí go nglacann an cuairteoir le "
+"fianáin mhargaíochta"
+
+#: includes/class-admin.php:684
+msgid "More information"
+msgstr "Tuilleadh eolais"
+
+#: includes/class-admin.php:823
+msgid "Basic Consent Mode: the Google tag waits until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies."
+msgstr ""
+"Consent Mode Bunúsach: fanann clib Google go dtí go nglacann an cuairteoir "
+"le fianáin anailísíochta, agus Google Tag Manager go dtí go nglacann an "
+"cuairteoir le fianáin anailísíochta nó le fianáin mhargaíochta."
+
+#: includes/class-admin.php:823
+msgid ""
+"Advanced Consent Mode: the Google tag and Google Tag Manager load right "
+"away with these defaults, and send only cookieless pings until the visitor "
+"accepts."
+msgstr ""
+"Consent Mode Ardleibhéil: luchtaítear clib Google agus Google Tag Manager "
+"láithreach leis na réamhshocruithe seo, agus ní sheolann siad ach pingeanna "
+"gan fhianáin go dtí go nglacann an cuairteoir."
+
+#: includes/class-scanner.php:122
+msgctxt "cookie duration"
+msgid "1 minute"
+msgstr "1 nóiméad"
+
+#: includes/class-scanner.php:123
+msgctxt "cookie duration"
+msgid "30 minutes"
+msgstr "30 nóiméad"
+
+#: includes/class-scanner.php:124
+msgctxt "cookie duration"
+msgid "24 hours"
+msgstr "24 uair an chloig"
+
+#: includes/class-scanner.php:125
+msgctxt "cookie duration"
+msgid "1 day"
+msgstr "1 lá"
+
+#: includes/class-scanner.php:126
+msgctxt "cookie duration"
+msgid "30 days"
+msgstr "30 lá"
+
+#: includes/class-scanner.php:127
+msgctxt "cookie duration"
+msgid "90 days"
+msgstr "90 lá"
+
+#: includes/class-scanner.php:128
+msgctxt "cookie duration"
+msgid "6 months"
+msgstr "6 mhí"
+
+#: includes/class-scanner.php:129
+msgctxt "cookie duration"
+msgid "1 year"
+msgstr "1 bhliain"
+
+#: includes/class-scanner.php:130
+msgctxt "cookie duration"
+msgid "2 years"
+msgstr "2 bhliain"
+
+#: includes/class-scanner.php:131
+msgctxt "cookie duration"
+msgid "Session"
+msgstr "Seisiún"
+
+#: includes/class-scanner.php:132
+msgctxt "cookie duration"
+msgid "Varies"
+msgstr "Athraíonn sé"
+
+#: includes/class-scanner.php:135
+msgid "Google Analytics: stores and counts page views."
+msgstr "Google Analytics: stórálann agus comhaireann sé amhairc leathanaigh."
+
+#: includes/class-scanner.php:136
+msgid "Google Analytics: distinguishes unique users."
+msgstr "Google Analytics: déanann sé idirdhealú idir úsáideoirí uathúla."
+
+#: includes/class-scanner.php:137
+msgid "Google Analytics: distinguishes users for 24 hours."
+msgstr ""
+"Google Analytics: déanann sé idirdhealú idir úsáideoirí ar feadh 24 uair an "
+"chloig."
+
+#: includes/class-scanner.php:138
+msgid "Google Analytics: throttles request rate."
+msgstr "Google Analytics: srianann sé ráta na n-iarratas."
+
+#: includes/class-scanner.php:139
+msgid "Google Ads: stores conversion data."
+msgstr "Google Ads: stórálann sé sonraí comhshó."
+
+#: includes/class-scanner.php:140
+msgid "Google Ads: click tracking."
+msgstr "Google Ads: rianú cliceálacha."
+
+#: includes/class-scanner.php:141
+msgid "Google Tag Manager: throttles request rate."
+msgstr "Google Tag Manager: srianann sé ráta na n-iarratas."
+
+#: includes/class-scanner.php:144
+msgid "Meta Pixel: tracks visits across websites for ad targeting."
+msgstr ""
+"Meta Pixel: rianaíonn sé cuairteanna ar fud suíomhanna gréasáin le haghaidh "
+"spriocdhírithe fógraí."
+
+#: includes/class-scanner.php:145
+msgid "Meta Pixel: stores click identifiers."
+msgstr "Meta Pixel: stórálann sé aitheantóirí cliceála."
+
+#: includes/class-scanner.php:146
+msgid "Facebook: ad delivery and measurement."
+msgstr "Facebook: seachadadh agus tomhas fógraí."
+
+#: includes/class-scanner.php:149
+msgid "HubSpot: tracks visitor identity."
+msgstr "HubSpot: rianaíonn sé céannacht an chuairteora."
+
+#: includes/class-scanner.php:150
+msgid "HubSpot: tracks session information."
+msgstr "HubSpot: rianaíonn sé faisnéis faoin seisiún."
+
+#: includes/class-scanner.php:151
+msgid "HubSpot: tracks sessions for analytics."
+msgstr "HubSpot: rianaíonn sé seisiúin le haghaidh anailísíochta."
+
+#: includes/class-scanner.php:152
+msgid "HubSpot: determines if visitor has restarted browser."
+msgstr "HubSpot: aithníonn sé ar atosaigh an cuairteoir an brabhsálaí."
+
+#: includes/class-scanner.php:153
+msgid "HubSpot: analytics and tracking."
+msgstr "HubSpot: anailísíocht agus rianú."
+
+#: includes/class-scanner.php:156
+msgid "LinkedIn: browser identifier for ad targeting."
+msgstr "LinkedIn: aitheantóir brabhsálaí le haghaidh spriocdhírithe fógraí."
+
+#: includes/class-scanner.php:157
+msgid "LinkedIn: browser identifier."
+msgstr "LinkedIn: aitheantóir brabhsálaí."
+
+#: includes/class-scanner.php:158
+msgid "LinkedIn: data centre selection."
+msgstr "LinkedIn: roghnú ionad sonraí."
+
+#: includes/class-scanner.php:161
+msgid "WordPress: stores admin settings timestamp."
+msgstr "WordPress: stórálann sé stampa ama shocruithe an riaracháin."
+
+#: includes/class-scanner.php:162
+msgid "WordPress: stores admin personalisation settings."
+msgstr "WordPress: stórálann sé socruithe pearsantaithe an riaracháin."
+
+#: includes/class-scanner.php:163
+msgid "WordPress: authentication cookie for logged-in users."
+msgstr "WordPress: fianán fíordheimhnithe d'úsáideoirí logáilte isteach."
+
+#: includes/class-scanner.php:164
+msgid "WordPress: secure authentication cookie."
+msgstr "WordPress: fianán slán fíordheimhnithe."
+
+#: includes/class-scanner.php:165
+msgid "WordPress: tests if cookies are enabled."
+msgstr "WordPress: seiceálann sé an bhfuil fianáin cumasaithe."
+
+#: includes/class-scanner.php:166
+msgid "WordPress: stores language preference."
+msgstr "WordPress: stórálann sé rogha teanga."
+
+#: includes/class-scanner.php:167
+msgid "WordPress: remembers comment author details."
+msgstr "WordPress: meabhraíonn sé sonraí an úsáideora a scríobhann trácht."
+
+#: includes/class-scanner.php:170
+msgid "WooCommerce: stores cart and session data."
+msgstr "WooCommerce: stórálann sé sonraí an chiseáin agus an tseisiúin."
+
+#: includes/class-scanner.php:171
+msgid "WooCommerce: stores customer session."
+msgstr "WooCommerce: stórálann sé seisiún an chustaiméara."
+
+#: includes/class-scanner.php:174
+msgid ""
+"Order attribution: keeps traffic-source tracking data compatible across "
+"updates."
+msgstr ""
+"Order attribution: coinníonn sé sonraí rianaithe faoi fhoinse an tráchta "
+"comhoiriúnach ó nuashonrú go nuashonrú."
+
+#: includes/class-scanner.php:175
+msgid ""
+"Order attribution: records how you reached the site on your current visit."
+msgstr ""
+"Order attribution: taifeadann sé conas a tháinig tú chuig an suíomh ar do "
+"chuairt reatha."
+
+#: includes/class-scanner.php:176
+msgid "Order attribution: records how you first reached the site."
+msgstr ""
+"Order attribution: taifeadann sé conas a tháinig tú chuig an suíomh den "
+"chéad uair."
+
+#: includes/class-scanner.php:177
+msgid ""
+"Order attribution: stores the traffic source and campaign of your current "
+"visit."
+msgstr ""
+"Order attribution: stórálann sé foinse an tráchta agus feachtas do chuairte "
+"reatha."
+
+#: includes/class-scanner.php:178
+msgid ""
+"Order attribution: stores the traffic source and campaign of your first "
+"visit."
+msgstr ""
+"Order attribution: stórálann sé foinse an tráchta agus feachtas do chéad "
+"chuairte."
+
+#: includes/class-scanner.php:179
+msgid ""
+"Order attribution: stores visitor/session data used for marketing "
+"attribution."
+msgstr ""
+"Order attribution: stórálann sé sonraí cuairteora/seisiúin a úsáidtear le "
+"haghaidh sanntha margaíochta."
+
+#: includes/class-scanner.php:180
+msgid "Order attribution: links page views within a visit for attribution."
+msgstr ""
+"Order attribution: nascann sé amhairc leathanaigh laistigh de chuairt le "
+"haghaidh sanntha."
+
+#: includes/class-scanner.php:181
+msgid "Order attribution: tracks the marketing source of your visit."
+msgstr "Order attribution: rianaíonn sé foinse mhargaíochta do chuairte."
+
+#: includes/class-scanner.php:184
+msgid ""
+"Jetpack Stats: assigns an anonymous identifier used to measure site traffic."
+msgstr ""
+"Jetpack Stats: sannann sé aitheantóir gan ainm a úsáidtear chun trácht an "
+"tsuímh a thomhas."
+
+#: includes/class-scanner.php:185
+msgid "Jetpack Stats: records referral and navigation data for analytics."
+msgstr ""
+"Jetpack Stats: taifeadann sé sonraí atreoraithe agus nascleanúna le haghaidh "
+"anailísíochta."
+
+#: includes/class-scanner.php:186
+msgid "Jetpack Stats: measures site traffic and visitor activity."
+msgstr ""
+"Jetpack Stats: tomhaiseann sé trácht an tsuímh agus gníomhaíocht na "
+"gcuairteoirí."
+
+#: includes/class-scanner.php:189
+msgid "Polylang: stores visitor language preference."
+msgstr "Polylang: stórálann sé rogha teanga an chuairteora."
+
+#: includes/class-scanner.php:190
+msgid "MailPoet: tracks email subscriber activity."
+msgstr "MailPoet: rianaíonn sé gníomhaíocht síntiúsóirí ríomhphoist."
+
+#: includes/class-scanner.php:191
+msgid "Plausible: privacy-friendly analytics."
+msgstr "Plausible: anailísíocht a chosnaíonn príobháideachas."
+
+#: includes/class-scanner.php:194
+msgid "Cloudflare: bot management cookie."
+msgstr "Cloudflare: fianán bainistíochta róbat."
+
+#: includes/class-scanner.php:195
+msgid "Cloudflare: verifies legitimate visitor."
+msgstr "Cloudflare: fíoraíonn sé gur cuairteoir dlisteanach atá ann."
+
+#: includes/class-scanner.php:196
+msgid "Cloudflare: identifies trusted web traffic."
+msgstr "Cloudflare: aithníonn sé trácht gréasáin iontaofa."
+
+#: includes/class-scanner.php:199
+msgid "Hotjar: tracks user behaviour and feedback."
+msgstr "Hotjar: rianaíonn sé iompar agus aiseolas úsáideoirí."
+
+#: includes/class-scanner.php:200
+msgid "Microsoft Clarity: stores a user ID and preferences."
+msgstr "Microsoft Clarity: stórálann sé aitheantas úsáideora agus roghanna."
+
+#: includes/class-scanner.php:201
+msgid "Microsoft Clarity: connects page views into a session."
+msgstr "Microsoft Clarity: nascann sé amhairc leathanaigh le chéile i seisiún."
+
+#: includes/class-scanner.php:204
+msgid "Stores your cookie consent preferences."
+msgstr "Stórálann sé do roghanna toilithe fianán."
+
+#: includes/class-scanner.php:205
+msgid ""
+"WP Consent API: stores your consent choice for necessary cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: stórálann sé do rogha toilithe d'fhianáin riachtanacha. "
+"Sioncrónaithe ón meirge toilithe."
+
+#: includes/class-scanner.php:206
+msgid ""
+"WP Consent API: stores your consent choice for analytics cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: stórálann sé do rogha toilithe d'fhianáin anailísíochta. "
+"Sioncrónaithe ón meirge toilithe."
+
+#: includes/class-scanner.php:207
+msgid ""
+"WP Consent API: stores your consent choice for anonymous statistics. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: stórálann sé do rogha toilithe do staitisticí gan ainm. "
+"Sioncrónaithe ón meirge toilithe."
+
+#: includes/class-scanner.php:208
+msgid ""
+"WP Consent API: stores your consent choice for marketing cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: stórálann sé do rogha toilithe d'fhianáin mhargaíochta. "
+"Sioncrónaithe ón meirge toilithe."
+
+#: includes/class-scanner.php:209
+msgid ""
+"WP Consent API: stores your consent choice for preference cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: stórálann sé do rogha toilithe d'fhianáin roghanna. "
+"Sioncrónaithe ón meirge toilithe."
+
+#: includes/class-scanner.php:210
+msgid ""
+"WP Consent API: stores per-service consent overrides used by integrated "
+"plugins."
+msgstr ""
+"WP Consent API: stórálann sé sáruithe toilithe in aghaidh na seirbhíse a "
+"úsáideann breiseáin chomhtháite."
+
+#: includes/class-scanner.php:211
+msgid ""
+"WP Consent API: stores your cookie consent choice. Synced from your consent "
+"banner."
+msgstr ""
+"WP Consent API: stórálann sé do rogha toilithe fianán. Sioncrónaithe ón "
+"meirge toilithe."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:195
+#, php-format
+msgid "“%s” is not a usable address. Use at least 4 characters without spaces, for example widget.example.com."
+msgstr ""
+"Ní seoladh inúsáidte é “%s”. Úsáid 4 charachtar ar a laghad gan spásanna, "
+"mar shampla widget.example.com."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:200
+#, php-format
+msgid "“%s” would block every script on this site. Enter the address of the external service instead."
+msgstr ""
+"Bhlocálfadh “%s” gach script ar an suíomh seo. Cuir isteach seoladh na "
+"seirbhíse seachtraí ina ionad."
+
+#: includes/class-script-blocker.php:840
+msgid "This content is blocked because it requires analytics cookies."
+msgstr ""
+"Tá an t-ábhar seo blocáilte mar go dteastaíonn fianáin anailísíochta uaidh."
+
+#: includes/class-script-blocker.php:841
+msgid "Accept analytics cookies"
+msgstr "Glac le fianáin anailísíochta"
+
+#: includes/class-script-blocker.php:845
+msgid "This content is blocked because it requires preference cookies."
+msgstr "Tá an t-ábhar seo blocáilte mar go dteastaíonn fianáin roghanna uaidh."
+
+#: includes/class-script-blocker.php:846
+msgid "Accept preference cookies"
+msgstr "Glac le fianáin roghanna"
+
+#: includes/class-admin.php:890 includes/class-admin.php:1203
+msgid "Block by address"
+msgstr "Blocáil de réir seolta"
+
+#: includes/class-admin.php:1213
+msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
+msgstr ""
+"Ní dhéantar scripteanna in HTML an leathanaigh a mheaitseáil ach amháin "
+"nuair atá Blocáil cóid shaincheaptha ar siúl."
+
+#: includes/class-admin.php:1259 includes/class-admin.php:1289
+msgid "Address contains"
+msgstr "Tá sa seoladh"
+
+#: includes/class-admin.php:1274
+msgid "Add address"
+msgstr "Cuir seoladh leis"
+
+#: includes/class-admin.php:1284
+msgid "Necessary (never blocked)"
+msgstr "Riachtanach (ní bhlocáiltear riamh)"
+
+#: includes/class-admin.php:889
+msgid "Reviews widgets"
+msgstr "Giuirléidí léirmheasanna"
+
+#: includes/class-admin.php:889
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgstr ""
+"Fanann giuirléid léirmheasanna Trustmary le toiliú anailísíochta, mar go "
+"stórálann sí aitheantas cuairteora sa bhrabhsálaí. Taispeántar "
+"teachtaireacht le cnaipe glactha ina háit. Chun í a luchtú láithreach, cuir "
+"widget.trustmary.com leis faoi Blocáil de réir seolta leis an gcatagóir "
+"“Riachtanach (ní bhlocáiltear riamh)”."
+
+#: includes/class-admin.php:890
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
+msgstr ""
+"Blocálann sé aon script eile de réir cuid dá seoladh go dtí go nglacann an "
+"cuairteoir leis an gcatagóir a roghnaíonn tú, mar shampla giuirléid nach "
+"n-aithníonn an breiseán. Cuir “Taispeáin teachtaireacht” ar siúl do "
+"scripteanna a thaispeánann ábhar ar an leathanach."
+
+#: includes/class-scanner.php:137
+msgctxt "cookie duration"
+msgid "Persistent"
+msgstr "Buan"
+
+#: includes/class-scanner.php:209
+msgid "Trustmary: stores a visitor ID, the landing page and conversions in the browser’s local storage."
+msgstr ""
+"Trustmary: stórálann sé aitheantas cuairteora, an leathanach tuirlingthe "
+"agus sonraí comhshó i stóras logánta an bhrabhsálaí."
+
+#: includes/class-scanner.php:224
+msgid "Reddit Pixel: identifies the browser for ad measurement."
+msgstr "Reddit Pixel: aithníonn sé an brabhsálaí le haghaidh tomhais fógraí."
+
+#: includes/class-scanner.php:225
+msgid ""
+"Microsoft Advertising: groups page views into a session for ad measurement."
+msgstr ""
+"Microsoft Advertising: grúpálann sé amhairc leathanaigh i seisiún le "
+"haghaidh tomhais fógraí."
+
+#: includes/class-scanner.php:226
+msgid ""
+"Microsoft Advertising: identifies the visitor across visits for ad "
+"measurement."
+msgstr ""
+"Microsoft Advertising: aithníonn sé an cuairteoir thar chuairteanna éagsúla "
+"le haghaidh tomhais fógraí."
+
+#: includes/class-scanner.php:227
+msgid "Criteo: stores a browser identifier for ad personalisation."
+msgstr ""
+"Criteo: stórálann sé aitheantóir brabhsálaí le haghaidh pearsantaithe fógraí."
+
+#: includes/class-scanner.php:228
+msgid "Taboola: identifies the browser for ad targeting."
+msgstr "Taboola: aithníonn sé an brabhsálaí le haghaidh spriocdhírithe fógraí."
+
+#: includes/class-scanner.php:229
+msgid "Klaviyo: recognises returning visitors for email marketing."
+msgstr ""
+"Klaviyo: aithníonn sé cuairteoirí a fhilleann, le haghaidh margaíochta "
+"ríomhphoist."
+
+#: includes/class-scanner.php:230
+msgid "Yandex Metrica: identifies visitors and stores session settings."
+msgstr ""
+"Yandex Metrica: aithníonn sé cuairteoirí agus stórálann sé socruithe "
+"seisiúin."
+
+#: includes/class-scanner.php:231
+msgid "Segment: stores an anonymous visitor ID and traits."
+msgstr "Segment: stórálann sé aitheantas cuairteora gan ainm agus tréithe."
+
+#: includes/class-scanner.php:232
+msgid "Intercom: keeps the chat messenger session and visitor identity."
+msgstr ""
+"Intercom: coinníonn sé seisiún an teachtaire comhrá agus céannacht an "
+"chuairteora."
+
+#: includes/class-scanner.php:233
+msgid "Crisp: keeps the chat session and visitor identity."
+msgstr "Crisp: coinníonn sé an seisiún comhrá agus céannacht an chuairteora."
+
+#: includes/class-admin.php
+msgid "Cookie policy link text"
+msgstr "Téacs an naisc chuig an mbeartas fianán"
+
+#: includes/class-admin.php
+msgid "Cookie settings label"
+msgstr "Lipéad socruithe fianán"
+
+#: includes/class-admin.php
+msgid "Tooltip and screen reader label of the floating button, and the default text of the [kncc_cookie_settings] link."
+msgstr ""
+"Leid uirlise agus lipéad léitheora scáileáin an chnaipe ar snámh, agus téacs "
+"réamhshocraithe an naisc [kncc_cookie_settings]."
+
+#: includes/class-admin.php
+msgid "Banner label for screen readers"
+msgstr "Lipéad an mheirge do léitheoirí scáileáin"
+
+#: includes/class-admin.php
+msgid "Cookie categories"
+msgstr "Catagóirí fianán"
+
+#: includes/class-admin.php
+msgid "Text when no cookies are used"
+msgstr "Téacs nuair nach n-úsáidtear aon fhianán"
+
+#: includes/class-admin.php
+msgid "Policy page texts"
+msgstr "Téacsanna an leathanaigh beartais"
+
+#: includes/class-admin.php
+msgid "Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab."
+msgstr ""
+"Téacsanna an dearbhaithe fianán [kncc_cookie_policy]. Fág réimse folamh chun "
+"an téacs ionsuite a úsáid, atá aistrithe go gach teanga. Cuirtear ainmneacha "
+"na gcatagóirí in eagar ar an gcluaisín Ginearálta."
+
+#: includes/class-admin.php
+msgid "Category descriptions"
+msgstr "Cur síos ar na catagóirí"
+
+#: includes/class-admin.php
+msgid "Consent status"
+msgstr "Stádas toilithe"
+
+#: includes/class-admin.php
+msgid "Heading"
+msgstr "Ceannteideal"
+
+#: includes/class-admin.php
+msgid "Before the visitor chooses"
+msgstr "Sula roghnaíonn an cuairteoir"
+
+#: includes/class-admin.php
+msgid "Technical note (shown when WP Consent API is active)"
+msgstr "Nóta teicniúil (taispeántar é nuair atá WP Consent API gníomhach)"
+
+#: includes/class-admin.php
+msgid "Buttons and messages"
+msgstr "Cnaipí agus teachtaireachtaí"
+
+#: includes/class-admin.php
+msgid "Edit preferences button"
+msgstr "Cnaipe chun roghanna a athrú"
+
+#: includes/class-admin.php
+msgid "Message when no cookies are registered"
+msgstr "Teachtaireacht nuair nach bhfuil aon fhianán cláraithe"
+
+#: includes/class-admin.php
+msgid "Table column headings"
+msgstr "Ceannteidil na gcolún sa tábla"
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 added cookies for services that are not on your site. They have been removed from the cookie list: %s. If your site does use some of these services, put the cookies back and delete the ones it does not use."
+msgstr ""
+"Chuir leagan 1.8.10 fianáin leis do sheirbhísí nach bhfuil ar do shuíomh. "
+"Baineadh de liosta na bhfianán iad: %s. Má úsáideann do shuíomh cuid de na "
+"seirbhísí seo, cuir na fianáin ar ais agus scrios na cinn nach n-úsáideann "
+"sé."
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 may have added cookies for services that are not on your site: %s. The Google Tag Manager on your site can load any of them, so they were kept. Remove the ones your site does not use."
+msgstr ""
+"B'fhéidir gur chuir leagan 1.8.10 fianáin leis do sheirbhísí nach bhfuil ar "
+"do shuíomh: %s. Is féidir le Google Tag Manager ar do shuíomh aon cheann acu "
+"a luchtú, mar sin coinníodh iad. Bain na cinn nach n-úsáideann do shuíomh."
+
+#: includes/class-admin.php
+msgid "Put the cookies back"
+msgstr "Cuir na fianáin ar ais"
+
+#: includes/class-admin.php
+msgid "Hide this notice"
+msgstr "Folaigh an fógra seo"
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr ""
+"Taispeántar iad nuair a osclaíonn cuairteoirí “Saincheap”. Fág réimse folamh "
+"chun an téacs ionsuite a úsáid."
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr "Teachtaireachtaí d'ábhar blocáilte"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr "Teachtaireacht YouTube & Vimeo"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr "Cnaipe glactha YouTube & Vimeo"
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr "Teachtaireacht d'ábhar anailísíochta"
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr "Cnaipe glactha d'ábhar anailísíochta"
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr "Teachtaireacht d'ábhar roghanna"
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr "Cnaipe glactha d'ábhar roghanna"
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr "Nó cuir nasc áit ar bith leis an ngearrchód:"
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr ""
+"Molta. Ná múch é ach amháin má bhriseann breiseán taisce nó luais an suíomh."
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr "Blocáilte go huathoibríoch, níl aon socrú ag teastáil."
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr "Taispeáin teachtaireacht"
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr "Níl aon fhianán roghnaithe."
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr "Ní bhraitear scripteanna %s ar an leathanach baile a thuilleadh"
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr ""
+"Teanga á cur in eagar: %s. Ní bhaineann sábháil ach leis an teanga seo."
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr ""
+"An teanga réamhshocraithe á cur in eagar. Tá a dtéacsanna féin ag teangacha "
+"eile."
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr ""
+"Réamhamharc ar an meirge le do shocruithe reatha, nach bhfuil sábháilte fós."
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr "Ní oibríonn an réamhamharc beo ach le Stíl an bhreiseáin."
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr "Lipéad léitheora scáileáin don chnaipe ×."
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr ""
+"Coinníonn sé siar aon script eile go dtí go nglacann an cuairteoir lena "
+"catagóir. Úsáid é le haghaidh giuirléidí agus uirlisí nach n-aithníonn an "
+"breiseán."
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr ""
+"Ligeann “Riachtanach (ní bhlocáiltear riamh)” do sheoladh luchtú láithreach, "
+"fiú seoladh a bhlocálfadh an breiseán."
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr ""
+"Taispeáin teachtaireacht: san áit a dtaispeánfadh an script bhlocáilte ábhar "
+"(léirmheasanna, áirithintí, léarscáil), taispeántar teachtaireacht le cnaipe "
+"glactha in ionad bearna fholamh. Níl sé ag teastáil do scripteanna rianaithe."
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
+msgstr "osclaíonn sé i gcluaisín nua"

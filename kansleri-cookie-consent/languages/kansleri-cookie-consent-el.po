@@ -1,0 +1,2378 @@
+# Greek translation for Kansleri Cookie Consent
+# Copyright (C) 2024 Kansleri.fi
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kansleri Cookie Consent 1.8.13\n"
+"Report-Msgid-Bugs-To: https://kansleri.fi\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
+"PO-Revision-Date: 2026-11-03 12:00+0200\n"
+"Last-Translator: Kansleri.fi\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-admin.php:20 includes/class-admin.php:21
+#: includes/class-admin.php:122
+msgid "Cookie Consent"
+msgstr "Συγκατάθεση cookies"
+
+#: includes/class-admin.php:67 includes/class-admin.php:1228
+msgid "Settings saved."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν."
+
+#: includes/class-admin.php:68
+msgid "An error occurred."
+msgstr "Παρουσιάστηκε σφάλμα."
+
+#: includes/class-admin.php:69
+msgid "Scanning..."
+msgstr "Σάρωση…"
+
+#: includes/class-admin.php:70
+msgid "Scan complete."
+msgstr "Η σάρωση ολοκληρώθηκε."
+
+#: includes/class-admin.php:71
+msgid "No new cookies found."
+msgstr "Δεν βρέθηκαν νέα cookies."
+
+#: includes/class-admin.php:72
+msgid "Remove this cookie?"
+msgstr "Να αφαιρεθεί αυτό το cookie;"
+
+#: includes/class-admin.php:73 includes/class-admin.php:414
+#: includes/class-admin.php:698
+msgid "Scan Cookies"
+msgstr "Σάρωση cookies"
+
+#: includes/class-admin.php:74
+msgid "Invalid JSON format. Please import a valid cookie array."
+msgstr "Μη έγκυρη μορφή JSON. Εισαγάγετε έναν έγκυρο πίνακα cookies."
+
+#: includes/class-admin.php:75
+msgid "Cookies imported into the table. Save cookies to persist changes."
+msgstr ""
+"Τα cookies εισήχθησαν στον πίνακα. Αποθηκεύστε τα cookies για να διατηρηθούν "
+"οι αλλαγές."
+
+#: includes/class-admin.php:76
+msgid "No valid cookies found in imported JSON."
+msgstr "Δεν βρέθηκαν έγκυρα cookies στο εισαγόμενο JSON."
+
+#: includes/class-admin.php:77
+msgid "No cookie rows available to export."
+msgstr "Δεν υπάρχουν γραμμές cookies για εξαγωγή."
+
+#: includes/class-admin.php:78
+msgid "AI prompt copied to clipboard."
+msgstr "Η προτροπή AI αντιγράφηκε στο πρόχειρο."
+
+#: includes/class-admin.php:79
+msgid ""
+"Could not copy prompt automatically. Select all and copy from the box below."
+msgstr ""
+"Δεν ήταν δυνατή η αυτόματη αντιγραφή της προτροπής. Επιλέξτε όλο το κείμενο "
+"και αντιγράψτε το από το παρακάτω πλαίσιο."
+
+#: includes/class-admin.php:81
+msgid "AI prompt (copied to clipboard — or select all and copy manually):"
+msgstr ""
+"Προτροπή AI (αντιγράφηκε στο πρόχειρο — ή επιλέξτε όλο το κείμενο και "
+"αντιγράψτε το χειροκίνητα):"
+
+#: includes/class-admin.php:82
+msgid ""
+"Policy page AI prompt (copied to clipboard — or select all and copy "
+"manually):"
+msgstr ""
+"Προτροπή AI για τη σελίδα πολιτικής (αντιγράφηκε στο πρόχειρο — ή επιλέξτε "
+"όλο το κείμενο και αντιγράψτε το χειροκίνητα):"
+
+#: includes/class-admin.php:83
+msgid ""
+"Prompt ready below — select all (Ctrl+A) inside the box and copy (Ctrl+C)."
+msgstr ""
+"Η προτροπή είναι έτοιμη παρακάτω — επιλέξτε όλο το κείμενο (Ctrl+A) μέσα στο "
+"πλαίσιο και αντιγράψτε το (Ctrl+C)."
+
+#: includes/class-admin.php:80
+msgid "All cookies are done! Every cookie has a description."
+msgstr "Όλα τα cookies είναι έτοιμα! Κάθε cookie έχει περιγραφή."
+
+#: includes/class-admin.php:81 includes/class-admin.php:457
+msgid "No cookies registered yet."
+msgstr "Δεν έχουν καταχωριστεί ακόμη cookies."
+
+#: includes/class-admin.php:82 includes/class-admin.php:473
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: includes/class-admin.php:83
+msgid ""
+"This will permanently delete all consent log records and statistics. "
+"Continue?"
+msgstr ""
+"Θα διαγραφούν οριστικά όλες οι εγγραφές του αρχείου καταγραφής συγκαταθέσεων "
+"και τα στατιστικά. Θέλετε να συνεχίσετε;"
+
+#: includes/class-admin.php:84 includes/class-admin.php:1150
+msgid "All consent log records and statistics have been purged."
+msgstr ""
+"Όλες οι εγγραφές του αρχείου καταγραφής συγκαταθέσεων και τα στατιστικά "
+"εκκαθαρίστηκαν."
+
+#: includes/class-admin.php:85
+msgid "AI prompt for policy page copied to clipboard."
+msgstr "Η προτροπή AI για τη σελίδα πολιτικής αντιγράφηκε στο πρόχειρο."
+
+#: includes/class-admin.php:86
+msgid "CSS template copied to clipboard."
+msgstr "Το πρότυπο CSS αντιγράφηκε στο πρόχειρο."
+
+#: includes/class-admin.php:88
+#, php-format
+msgid "%d known cookie(s) added automatically:"
+msgstr "Γνωστά cookies που προστέθηκαν αυτόματα (%d):"
+
+#: includes/class-admin.php:90
+#, php-format
+msgid ""
+"%d unknown cookie(s) added — please set their category and description "
+"below."
+msgstr ""
+"Άγνωστα cookies που προστέθηκαν (%d) — ορίστε παρακάτω την κατηγορία και την "
+"περιγραφή τους."
+
+#: includes/class-admin.php:91
+msgid "Unknown"
+msgstr "Άγνωστα"
+
+#: includes/class-admin.php:92
+msgid "Added — categorize and describe in the table below"
+msgstr "Προστέθηκε — ορίστε κατηγορία και περιγραφή στον παρακάτω πίνακα"
+
+#: includes/class-admin.php:94
+#, php-format
+msgid "%d cookie(s) inferred from detected scripts on your site:"
+msgstr ""
+"Cookies που συμπεραίνονται από σενάρια που εντοπίστηκαν στον ιστότοπό σας "
+"(%d):"
+
+#: includes/class-admin.php:95
+msgid ""
+"These cookies are expected from tracking scripts on your site, even when "
+"blocked until consent."
+msgstr ""
+"Αυτά τα cookies αναμένονται από τα σενάρια παρακολούθησης του ιστότοπού σας, "
+"ακόμη και όταν αυτά αποκλείονται μέχρι να δοθεί συγκατάθεση."
+
+#: includes/class-admin.php:97
+#, php-format
+msgid ""
+"%d browser cookie(s) skipped — found in your browser but no matching script "
+"on this site:"
+msgstr ""
+"Cookies προγράμματος περιήγησης που παραλείφθηκαν (%d) — βρέθηκαν στο "
+"πρόγραμμα περιήγησής σας, αλλά δεν υπάρχει αντίστοιχο σενάριο σε αυτόν τον "
+"ιστότοπο:"
+
+#: includes/class-admin.php:481
+msgid ""
+"%d cookie was automatically added based on tracking scripts detected on your"
+" site."
+msgid_plural ""
+"%d cookies were automatically added based on tracking scripts detected on "
+"your site."
+msgstr[0] ""
+"Προστέθηκε αυτόματα %d cookie, με βάση τα σενάρια παρακολούθησης που "
+"εντοπίστηκαν στον ιστότοπό σας."
+msgstr[1] ""
+"Προστέθηκαν αυτόματα %d cookies, με βάση τα σενάρια παρακολούθησης που "
+"εντοπίστηκαν στον ιστότοπό σας."
+
+#: includes/class-admin.php:128
+msgid "General"
+msgstr "Γενικά"
+
+#: includes/class-admin.php:131 kansleri-cookie-consent.php:571
+msgid "Cookies"
+msgstr "Cookies"
+
+#: includes/class-admin.php:134
+msgid "Policy Page"
+msgstr "Σελίδα πολιτικής"
+
+#: includes/class-admin.php:137
+msgid "Integration"
+msgstr "Ενσωμάτωση"
+
+#: includes/class-admin.php:140
+msgid "Script Blocking"
+msgstr "Αποκλεισμός σεναρίων"
+
+#: includes/class-admin.php:143
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+#: includes/class-admin.php:146
+msgid "Documentations"
+msgstr "Τεκμηρίωση"
+
+#: includes/class-admin.php:210
+msgid "Open banner preview"
+msgstr "Άνοιγμα προεπισκόπησης μπάνερ"
+
+#: includes/class-admin.php:222 includes/class-admin.php:689
+msgid "Banner style"
+msgstr "Στυλ μπάνερ"
+
+#: includes/class-admin.php:225
+msgid "Bottom bar"
+msgstr "Γραμμή στο κάτω μέρος"
+
+#: includes/class-admin.php:226
+msgid "Centered modal"
+msgstr "Παράθυρο στο κέντρο"
+
+#: includes/class-admin.php:227
+msgid "Corner popup"
+msgstr "Αναδυόμενο παράθυρο στη γωνία"
+
+#: includes/class-admin.php:233
+msgid "Colors"
+msgstr "Χρώματα"
+
+#: includes/class-admin.php:237
+msgid "Banner background"
+msgstr "Φόντο μπάνερ"
+
+#: includes/class-admin.php:238 includes/class-admin.php:275
+msgid "Heading text"
+msgstr "Κείμενο επικεφαλίδας"
+
+#: includes/class-admin.php:239
+msgid "Body text"
+msgstr "Κύριο κείμενο"
+
+#: includes/class-admin.php:240
+msgid "Primary button"
+msgstr "Κύριο κουμπί"
+
+#: includes/class-admin.php:241
+msgid "Primary button text"
+msgstr "Κείμενο κύριου κουμπιού"
+
+#: includes/class-admin.php:242
+msgid "Secondary button"
+msgstr "Δευτερεύον κουμπί"
+
+#: includes/class-admin.php:243
+msgid "Secondary button text"
+msgstr "Κείμενο δευτερεύοντος κουμπιού"
+
+#: includes/class-admin.php:265 includes/class-admin.php:691
+msgid "Text and font style"
+msgstr "Στυλ κειμένου και γραμματοσειράς"
+
+#: includes/class-admin.php:268 includes/class-admin.php:521
+msgid "Theme style (inherit site typography)"
+msgstr "Στυλ θέματος (κληρονομεί την τυπογραφία του ιστότοπου)"
+
+#: includes/class-admin.php:269 includes/class-admin.php:522
+msgid "Plugin style (strict font sizes/colors)"
+msgstr "Στυλ προσθέτου (αυστηρά μεγέθη γραμματοσειράς/χρώματα)"
+
+#: includes/class-admin.php:281
+msgid "Description text"
+msgstr "Κείμενο περιγραφής"
+
+#: includes/class-admin.php:287
+msgid "Accept button text"
+msgstr "Κείμενο κουμπιού αποδοχής"
+
+#: includes/class-admin.php:291
+msgid "Reject button text"
+msgstr "Κείμενο κουμπιού απόρριψης"
+
+#: includes/class-admin.php:295
+msgid "Customize button text"
+msgstr "Κείμενο κουμπιού προσαρμογής"
+
+#: includes/class-admin.php:299
+msgid "Save preferences button text"
+msgstr "Κείμενο κουμπιού αποθήκευσης προτιμήσεων"
+
+#: includes/class-admin.php:303 includes/class-script-blocker.php:187
+msgid "This content is blocked because it requires marketing cookies."
+msgstr ""
+"Αυτό το περιεχόμενο έχει αποκλειστεί, επειδή απαιτεί cookies μάρκετινγκ."
+
+#: includes/class-admin.php:304 includes/class-script-blocker.php:190
+msgid "Accept marketing cookies"
+msgstr "Αποδοχή cookies μάρκετινγκ"
+
+#: includes/class-admin.php:318 includes/class-admin.php:693
+msgid "Floating settings button"
+msgstr "Αιωρούμενο κουμπί ρυθμίσεων"
+
+#: includes/class-admin.php:322
+msgid ""
+"Show a small floating button so visitors can re-open their cookie "
+"preferences"
+msgstr ""
+"Εμφάνιση ενός μικρού αιωρούμενου κουμπιού, ώστε οι επισκέπτες να μπορούν να "
+"ανοίξουν ξανά τις προτιμήσεις τους για τα cookies"
+
+#: includes/class-admin.php:329
+msgid "Copied!"
+msgstr "Αντιγράφηκε!"
+
+#: includes/class-admin.php:329 includes/class-admin.php:330
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: includes/class-admin.php:346 includes/class-admin.php:531
+#: includes/class-admin.php:664
+msgid "Save Settings"
+msgstr "Αποθήκευση ρυθμίσεων"
+
+#: includes/class-admin.php:370
+msgid "Banner preview"
+msgstr "Προεπισκόπηση μπάνερ"
+
+#: includes/class-admin.php:415
+msgid "Add Cookie"
+msgstr "Προσθήκη cookie"
+
+#: includes/class-admin.php:419
+msgid "Need help describing these cookies?"
+msgstr "Χρειάζεστε βοήθεια για την περιγραφή αυτών των cookies;"
+
+#: includes/class-admin.php:421
+msgid ""
+"Click the button below to copy a ready-made AI prompt with your cookie data."
+msgstr ""
+"Κάντε κλικ στο παρακάτω κουμπί για να αντιγράψετε μια έτοιμη προτροπή AI με "
+"τα δεδομένα των cookies σας."
+
+#: includes/class-admin.php:422
+msgid "Paste the prompt into an AI tool (ChatGPT, Claude, Gemini, etc.)."
+msgstr ""
+"Επικολλήστε την προτροπή σε ένα εργαλείο AI (ChatGPT, Claude, Gemini κ.λπ.)."
+
+#: includes/class-admin.php:423
+msgid "The AI will return improved JSON with clear cookie descriptions."
+msgstr "Το AI θα επιστρέψει βελτιωμένο JSON με σαφείς περιγραφές των cookies."
+
+#: includes/class-admin.php:424
+msgid ""
+"Copy the AI response and paste it into the text box that appears below."
+msgstr ""
+"Αντιγράψτε την απάντηση του AI και επικολλήστε την στο πλαίσιο κειμένου που "
+"εμφανίζεται παρακάτω."
+
+#: includes/class-admin.php:425
+msgid "Click Import — cookies are saved automatically."
+msgstr "Κάντε κλικ στην «Εισαγωγή» — τα cookies αποθηκεύονται αυτόματα."
+
+#: includes/class-admin.php:429
+msgid "Copy AI Prompt to Clipboard"
+msgstr "Αντιγραφή προτροπής AI στο πρόχειρο"
+
+#: includes/class-admin.php:433
+msgid "Paste the AI response here:"
+msgstr "Επικολλήστε εδώ την απάντηση του AI:"
+
+#: includes/class-admin.php:434
+msgid "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+msgstr "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+
+#: includes/class-admin.php:436
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: includes/class-admin.php:447
+msgid "Name"
+msgstr "Όνομα"
+
+#: includes/class-admin.php:448 includes/class-admin.php:989
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: includes/class-admin.php:449 includes/class-policy-page.php:91
+#: includes/class-policy-page.php:100
+msgid "Provider"
+msgstr "Πάροχος"
+
+#: includes/class-admin.php:450 includes/class-policy-page.php:93
+#: includes/class-policy-page.php:102
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: includes/class-admin.php:451
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: includes/class-admin.php:464 kansleri-cookie-consent.php:335
+msgid "Necessary"
+msgstr "Απαραίτητα"
+
+#: includes/class-admin.php:465 kansleri-cookie-consent.php:339
+msgid "Analytics"
+msgstr "Αναλυτικά"
+
+#: includes/class-admin.php:466 kansleri-cookie-consent.php:343
+msgid "Marketing"
+msgstr "Μάρκετινγκ"
+
+#: includes/class-admin.php:467 kansleri-cookie-consent.php:347
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: includes/class-admin.php:480 includes/class-admin.php:700
+msgid "Save Cookies"
+msgstr "Αποθήκευση cookies"
+
+#: includes/class-admin.php:494
+msgid ""
+"No cookie policy page has been selected. Set a Privacy Policy page in "
+"Settings → Privacy, or choose a page below."
+msgstr ""
+"Δεν έχει επιλεγεί σελίδα πολιτικής cookies. Ορίστε μια σελίδα Πολιτικής "
+"απορρήτου στις Ρυθμίσεις → Απόρρητο ή επιλέξτε μια σελίδα παρακάτω."
+
+#: includes/class-admin.php:502 includes/class-admin.php:705
+msgid "Cookie policy page"
+msgstr "Σελίδα πολιτικής cookies"
+
+#: includes/class-admin.php:505
+msgid "— Select a page —"
+msgstr "— Επιλογή σελίδας —"
+
+#: includes/class-admin.php:510
+#, php-format
+msgid "%s (WordPress Privacy Policy)"
+msgstr "%s (Πολιτική απορρήτου του WordPress)"
+
+#: includes/class-admin.php:513
+msgid ""
+"Defaults automatically to the WordPress Privacy Policy page (Settings → "
+"Privacy). Add the shortcode [kncc_cookie_policy] to that page to show the "
+"cookie declaration."
+msgstr ""
+"Από προεπιλογή χρησιμοποιείται αυτόματα η σελίδα Πολιτικής απορρήτου του "
+"WordPress (Ρυθμίσεις → Απόρρητο). Προσθέστε τον σύντομο κώδικα "
+"[kncc_cookie_policy] σε αυτήν τη σελίδα, για να εμφανίζεται η δήλωση cookies."
+
+#: includes/class-admin.php:518
+msgid "Policy page style"
+msgstr "Στυλ σελίδας πολιτικής"
+
+#: includes/class-admin.php:525
+msgid ""
+"Controls the styling of the [kncc_cookie_policy] cookie declaration table."
+msgstr "Ελέγχει το στυλ του πίνακα δήλωσης cookies [kncc_cookie_policy]."
+
+#: includes/class-admin.php:628
+msgid ""
+"Theme style is the default so the policy page matches your site typography. "
+"Switch to Plugin style for strict plugin sizes and colors."
+msgstr ""
+"Το «Στυλ θέματος» είναι η προεπιλογή, ώστε η σελίδα πολιτικής να ταιριάζει "
+"με την τυπογραφία του ιστότοπού σας. Επιλέξτε το «Στυλ προσθέτου» για "
+"αυστηρά μεγέθη και χρώματα του προσθέτου."
+
+#: includes/class-admin.php:539
+msgid "Preview Policy Page"
+msgstr "Προεπισκόπηση σελίδας πολιτικής"
+
+#: includes/class-admin.php:546
+msgid "Generate cookie policy page content with AI"
+msgstr "Δημιουργία περιεχομένου σελίδας πολιτικής cookies με AI"
+
+#: includes/class-admin.php:548
+msgid ""
+"Copy the prompt below and paste it into an AI tool. It will generate a "
+"complete cookie and privacy policy page in your site language. The cookie "
+"declaration will be handled automatically by the [kncc_cookie_policy] "
+"shortcode. Paste the generated HTML into your policy page."
+msgstr ""
+"Αντιγράψτε την παρακάτω προτροπή και επικολλήστε την σε ένα εργαλείο AI. Θα "
+"δημιουργήσει μια πλήρη σελίδα πολιτικής cookies και απορρήτου στη γλώσσα του "
+"ιστότοπού σας. Η δήλωση cookies θα διαχειρίζεται αυτόματα από τον σύντομο "
+"κώδικα [kncc_cookie_policy]. Επικολλήστε το HTML που θα δημιουργηθεί στη "
+"σελίδα πολιτικής σας."
+
+#: includes/class-admin.php:552
+msgid "Copy AI Prompt for Policy Page"
+msgstr "Αντιγραφή προτροπής AI για τη σελίδα πολιτικής"
+
+#: includes/class-admin.php:565
+msgid "Detected integrations"
+msgstr "Εντοπισμένες ενσωματώσεις"
+
+#: includes/class-admin.php:692
+msgid ""
+"Active — Site Kit sets consent defaults for its own regions. This plugin "
+"sets a denied default for all other visitors and sends consent updates."
+msgstr ""
+"Ενεργό — Το Site Kit ορίζει προεπιλογές συγκατάθεσης για τις δικές του "
+"περιοχές. Αυτό το πρόσθετο ορίζει προεπιλεγμένη άρνηση για όλους τους "
+"υπόλοιπους επισκέπτες και στέλνει ενημερώσεις συγκατάθεσης."
+
+#: includes/class-admin.php:575
+msgid ""
+"Active — Site Kit consent mode not enabled. This plugin handles all consent "
+"signals."
+msgstr ""
+"Ενεργό — Το Consent Mode του Site Kit δεν είναι ενεργοποιημένο. Αυτό το "
+"πρόσθετο διαχειρίζεται όλα τα σήματα συγκατάθεσης."
+
+#: includes/class-admin.php:586
+msgid ""
+"Active — consent status is shared with other plugins via the WP Consent API."
+msgstr ""
+"Ενεργό — η κατάσταση συγκατάθεσης κοινοποιείται σε άλλα πρόσθετα μέσω του WP "
+"Consent API."
+
+#: includes/class-admin.php:598 includes/class-admin.php:712
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: includes/class-admin.php:602
+msgid ""
+"Enable Consent Mode v2 (outputs consent defaults in &lt;head&gt; before GTM)"
+msgstr ""
+"Ενεργοποίηση Consent Mode v2 (προσθέτει τις προεπιλογές συγκατάθεσης στο "
+"&lt;head&gt; πριν από το GTM)"
+
+#: includes/class-admin.php:610
+msgid ""
+"Forced on because Google Site Kit is active. Consent Mode is required for "
+"Site Kit to receive consent signals."
+msgstr ""
+"Ενεργοποιημένο αναγκαστικά, επειδή το Google Site Kit είναι ενεργό. Το "
+"Consent Mode απαιτείται ώστε το Site Kit να λαμβάνει σήματα συγκατάθεσης."
+
+#: includes/class-admin.php:614
+msgid ""
+"Consent Mode tells Google tags what the visitor has allowed (for example "
+"analytics or ads). This plugin sends a denied-by-default signal before tags "
+"run, and sends an updated signal after the visitor chooses. It controls "
+"consent signals only: you still need to install GTM/GA scripts separately."
+msgstr ""
+"Το Consent Mode ενημερώνει τις ετικέτες Google για το τι έχει επιτρέψει ο "
+"επισκέπτης (για παράδειγμα αναλύσεις ή διαφημίσεις). Αυτό το πρόσθετο "
+"στέλνει ένα σήμα άρνησης ως προεπιλογή πριν εκτελεστούν οι ετικέτες και ένα "
+"ενημερωμένο σήμα αφού επιλέξει ο επισκέπτης. Ελέγχει μόνο τα σήματα "
+"συγκατάθεσης: πρέπει να εγκαταστήσετε ξεχωριστά τα σενάρια GTM/GA."
+
+#: includes/class-admin.php:740
+msgid ""
+"Site Kit sets consent defaults for its own regions. This plugin adds a "
+"denied default for all other visitors and sends each visitor's choice as a "
+"consent update."
+msgstr ""
+"Το Site Kit ορίζει προεπιλογές συγκατάθεσης για τις δικές του περιοχές. Αυτό "
+"το πρόσθετο προσθέτει προεπιλεγμένη άρνηση για όλους τους υπόλοιπους "
+"επισκέπτες και στέλνει την επιλογή κάθε επισκέπτη ως ενημέρωση συγκατάθεσης."
+
+#: includes/class-admin.php:630
+msgid "Need Google Analytics 4 or Google Tag Manager?"
+msgstr "Χρειάζεστε Google Analytics 4 ή Google Tag Manager;"
+
+#: includes/class-admin.php:633
+msgid ""
+"We recommend installing Google Site Kit — Google's official WordPress "
+"plugin. It sets up GA4 and GTM in a few clicks, and works seamlessly with "
+"Kansleri Cookie Consent: Consent Mode v2 signals are handled automatically, "
+"with no double-loading or conflicts."
+msgstr ""
+"Συνιστούμε την εγκατάσταση του Google Site Kit — του επίσημου πρόσθετου "
+"WordPress της Google. Ρυθμίζει το GA4 και το GTM με λίγα κλικ και λειτουργεί "
+"άψογα με το Kansleri Cookie Consent: τα σήματα του Consent Mode v2 "
+"διαχειρίζονται αυτόματα, χωρίς διπλή φόρτωση ή συγκρούσεις."
+
+#: includes/class-admin.php:638
+msgid "Install Google Site Kit"
+msgstr "Εγκατάσταση του Google Site Kit"
+
+#: includes/class-admin.php:649
+msgid "Consent Mode defaults (auto-injected in &lt;head&gt;)"
+msgstr "Προεπιλογές Consent Mode (προστίθενται αυτόματα στο &lt;head&gt;)"
+
+#: includes/class-admin.php:673
+msgid "Installation guide"
+msgstr "Οδηγός εγκατάστασης"
+
+#: includes/class-admin.php:675
+msgid "Activate the plugin and open Settings > Cookie Consent."
+msgstr "Ενεργοποιήστε το πρόσθετο και ανοίξτε Ρυθμίσεις > Συγκατάθεση cookies."
+
+#: includes/class-admin.php:676
+msgid "Configure banner texts, style, and button labels in the General tab."
+msgstr ""
+"Ρυθμίστε τα κείμενα, το στυλ και τις ετικέτες των κουμπιών του μπάνερ στην "
+"καρτέλα Γενικά."
+
+#: includes/class-admin.php:677
+msgid ""
+"Open the Integration tab and enable Google Consent Mode v2 if you use "
+"GTM/Google tags."
+msgstr ""
+"Ανοίξτε την καρτέλα Ενσωμάτωση και ενεργοποιήστε το Google Consent Mode v2, "
+"αν χρησιμοποιείτε GTM/ετικέτες Google."
+
+#: includes/class-admin.php:678
+msgid ""
+"Open the Cookies tab, run Scan Cookies, then review and categorize unknown "
+"cookies."
+msgstr ""
+"Ανοίξτε την καρτέλα Cookies, εκτελέστε τη «Σάρωση cookies» και, στη "
+"συνέχεια, ελέγξτε και κατηγοριοποιήστε τα άγνωστα cookies."
+
+#: includes/class-admin.php:679
+msgid ""
+"If unknown cookies are found, an AI helper appears: copy the prompt, paste "
+"it into an AI tool, paste the response back into the text box, click Import,"
+" then Save Cookies."
+msgstr ""
+"Αν βρεθούν άγνωστα cookies, εμφανίζεται ένας βοηθός AI: αντιγράψτε την "
+"προτροπή, επικολλήστε την σε ένα εργαλείο AI, επικολλήστε την απάντηση πίσω "
+"στο πλαίσιο κειμένου, κάντε κλικ στην «Εισαγωγή» και, στη συνέχεια, στην "
+"«Αποθήκευση cookies»."
+
+#: includes/class-admin.php:680
+msgid ""
+"Confirm the Cookie Policy page in the Policy Page tab — it defaults to the "
+"WordPress Privacy Policy page."
+msgstr ""
+"Επιβεβαιώστε τη σελίδα «Πολιτική cookies» στην καρτέλα Σελίδα πολιτικής — "
+"από προεπιλογή είναι η σελίδα Πολιτικής απορρήτου του WordPress."
+
+#: includes/class-admin.php:681
+msgid ""
+"Use the AI prompt on the Policy Page tab to generate the full cookie policy "
+"page content. Paste the generated HTML into your policy page."
+msgstr ""
+"Χρησιμοποιήστε την προτροπή AI στην καρτέλα Σελίδα πολιτικής για να "
+"δημιουργήσετε το πλήρες περιεχόμενο της σελίδας πολιτικής cookies. "
+"Επικολλήστε το HTML που θα δημιουργηθεί στη σελίδα πολιτικής σας."
+
+#: includes/class-admin.php:682
+msgid "Review the Script Blocking tab to see which scripts are auto-blocked."
+msgstr ""
+"Δείτε την καρτέλα Αποκλεισμός σεναρίων για να ενημερωθείτε ποια σενάρια "
+"αποκλείονται αυτόματα."
+
+#: includes/class-admin.php:685
+msgid "What each option means"
+msgstr "Τι σημαίνει κάθε επιλογή"
+
+#: includes/class-admin.php:687
+msgid "General tab"
+msgstr "Καρτέλα Γενικά"
+
+#: includes/class-admin.php:689
+msgid "Choose visual placement of the banner (bar, modal, corner)."
+msgstr ""
+"Επιλέξτε την τοποθέτηση του μπάνερ στη σελίδα (γραμμή, παράθυρο, γωνία)."
+
+#: includes/class-admin.php:690
+msgid "Controls the main accent color used by buttons and links."
+msgstr ""
+"Ελέγχει το κύριο χρώμα έμφασης που χρησιμοποιούν τα κουμπιά και οι σύνδεσμοι."
+
+#: includes/class-admin.php:690
+msgid "Primary color"
+msgstr "Κύριο χρώμα"
+
+#: includes/class-admin.php:691
+msgid ""
+"Theme style inherits site typography. Plugin style uses strict sizes/colors "
+"for consistent readability."
+msgstr ""
+"Το «Στυλ θέματος» κληρονομεί την τυπογραφία του ιστότοπου. Το «Στυλ "
+"προσθέτου» χρησιμοποιεί αυστηρά μεγέθη/χρώματα για συνεπή αναγνωσιμότητα."
+
+#: includes/class-admin.php:692
+msgid "Customize visible wording in the consent banner."
+msgstr "Προσαρμόστε τα κείμενα που εμφανίζονται στο μπάνερ συγκατάθεσης."
+
+#: includes/class-admin.php:692
+msgid "Heading/Description/Button texts"
+msgstr "Κείμενα επικεφαλίδας/περιγραφής/κουμπιών"
+
+#: includes/class-admin.php:693
+msgid "Lets visitors re-open cookie settings after they close the banner."
+msgstr ""
+"Επιτρέπει στους επισκέπτες να ανοίξουν ξανά τις ρυθμίσεις cookies αφού "
+"κλείσουν το μπάνερ."
+
+#: includes/class-admin.php:696
+msgid "Cookies tab"
+msgstr "Καρτέλα Cookies"
+
+#: includes/class-admin.php:777
+msgid ""
+"Scans browser cookies and infers expected cookies from tracking scripts on "
+"your site (even when blocked until consent). Known cookies are auto-mapped "
+"to categories."
+msgstr ""
+"Σαρώνει τα cookies του προγράμματος περιήγησης και συμπεραίνει τα "
+"αναμενόμενα cookies από τα σενάρια παρακολούθησης του ιστότοπού σας (ακόμη "
+"και όταν αποκλείονται μέχρι τη συγκατάθεση). Τα γνωστά cookies "
+"αντιστοιχίζονται αυτόματα σε κατηγορίες."
+
+#: includes/class-admin.php:699
+msgid "AI Helper"
+msgstr "Βοηθός AI"
+
+#: includes/class-admin.php:699
+msgid ""
+"Appears after scanning when unknown cookies are found. Copies a ready prompt"
+" to paste into an AI tool. After the AI responds, paste the JSON back into "
+"the text box and click Import."
+msgstr ""
+"Εμφανίζεται μετά τη σάρωση, όταν βρεθούν άγνωστα cookies. Αντιγράφει μια "
+"έτοιμη προτροπή για επικόλληση σε εργαλείο AI. Όταν το AI απαντήσει, "
+"επικολλήστε το JSON πίσω στο πλαίσιο κειμένου και κάντε κλικ στην «Εισαγωγή»."
+
+#: includes/class-admin.php:700
+msgid ""
+"Persists current cookie table values to be used in policy output and consent"
+" details."
+msgstr ""
+"Αποθηκεύει μόνιμα τις τρέχουσες τιμές του πίνακα cookies, ώστε να "
+"χρησιμοποιούνται στο περιεχόμενο της πολιτικής και στις λεπτομέρειες "
+"συγκατάθεσης."
+
+#: includes/class-admin.php:703
+msgid "Policy Page tab"
+msgstr "Καρτέλα Σελίδα πολιτικής"
+
+#: includes/class-admin.php:705
+msgid ""
+"Selects which page is used for cookie policy content generated by shortcode."
+msgstr ""
+"Επιλέγει ποια σελίδα χρησιμοποιείται για το περιεχόμενο πολιτικής cookies "
+"που δημιουργείται μέσω σύντομου κώδικα."
+
+#: includes/class-admin.php:706
+msgid "AI Prompt for Policy Page"
+msgstr "Προτροπή AI για τη σελίδα πολιτικής"
+
+#: includes/class-admin.php:706
+msgid ""
+"Generates a prompt you can paste into an AI tool to create a full privacy "
+"and cookie policy. The generated text will include the [kncc_cookie_policy] "
+"shortcode for the cookie declaration section."
+msgstr ""
+"Δημιουργεί μια προτροπή που μπορείτε να επικολλήσετε σε ένα εργαλείο AI, "
+"ώστε να δημιουργήσετε μια πλήρη πολιτική απορρήτου και cookies. Το κείμενο "
+"που θα δημιουργηθεί θα περιλαμβάνει τον σύντομο κώδικα [kncc_cookie_policy] "
+"για την ενότητα της δήλωσης cookies."
+
+#: includes/class-admin.php:707
+msgid ""
+"If Polylang or WPML is active, each language can have its own translated "
+"policy page. If a translation is missing for some language, the default-"
+"language policy page is used as a fallback."
+msgstr ""
+"Αν είναι ενεργό το Polylang ή το WPML, κάθε γλώσσα μπορεί να έχει τη δική "
+"της μεταφρασμένη σελίδα πολιτικής. Αν λείπει η μετάφραση για κάποια γλώσσα, "
+"χρησιμοποιείται ως εναλλακτική η σελίδα πολιτικής της προεπιλεγμένης γλώσσας."
+
+#: includes/class-admin.php:707
+msgid "Multilingual support"
+msgstr "Πολυγλωσσική υποστήριξη"
+
+#: includes/class-admin.php:710
+msgid "Integration tab"
+msgstr "Καρτέλα Ενσωμάτωση"
+
+#: includes/class-admin.php:712
+msgid ""
+"A Google framework for privacy-safe tag behavior. Before consent, storage "
+"signals are denied; after user choice, signals are updated (for example "
+"analytics_storage=granted). This helps GTM/Google tags respect user consent "
+"state."
+msgstr ""
+"Ένα πλαίσιο της Google για συμπεριφορά ετικετών που προστατεύει το απόρρητο. "
+"Πριν από τη συγκατάθεση, τα σήματα αποθήκευσης απορρίπτονται. Μετά την "
+"επιλογή του χρήστη, τα σήματα ενημερώνονται (για παράδειγμα "
+"analytics_storage=granted). Έτσι οι ετικέτες GTM/Google σέβονται την "
+"κατάσταση συγκατάθεσης του χρήστη."
+
+#: includes/class-admin.php:713
+msgid "GTM Container ID"
+msgstr "Αναγνωριστικό κοντέινερ GTM"
+
+#: includes/class-admin.php:713
+msgid ""
+"Your GTM container identifier (for example GTM-N6828NL). It identifies which"
+" tag container your site uses. This field is informational in this plugin "
+"and does not inject GTM scripts."
+msgstr ""
+"Το αναγνωριστικό του κοντέινερ GTM σας (για παράδειγμα GTM-N6828NL). Δείχνει "
+"ποιο κοντέινερ ετικετών χρησιμοποιεί ο ιστότοπός σας. Αυτό το πεδίο έχει "
+"μόνο ενημερωτικό χαρακτήρα σε αυτό το πρόσθετο και δεν προσθέτει σενάρια GTM."
+
+#: includes/class-admin.php:716
+msgid "Script Blocking tab"
+msgstr "Καρτέλα Αποκλεισμός σεναρίων"
+
+#: includes/class-admin.php:798
+msgid ""
+"Tools like Google Analytics are blocked automatically when added through "
+"WordPress plugins (e.g. Google Site Kit)."
+msgstr ""
+"Εργαλεία όπως το Google Analytics αποκλείονται αυτόματα όταν προστίθενται "
+"μέσω προσθέτων του WordPress (π.χ. Google Site Kit)."
+
+#: includes/class-admin.php:799 includes/class-admin.php:1071
+msgid "Custom Code blocking"
+msgstr "Αποκλεισμός προσαρμοσμένου κώδικα"
+
+#: includes/class-admin.php:799
+msgid ""
+"Stops tracking pasted into Bricks, Elementor, or similar Custom Code fields "
+"until the visitor gives consent."
+msgstr ""
+"Αποκλείει την παρακολούθηση που έχει επικολληθεί σε πεδία προσαρμοσμένου "
+"κώδικα του Bricks, του Elementor ή παρόμοιων εργαλείων, μέχρι ο επισκέπτης "
+"να δώσει τη συγκατάθεσή του."
+
+#: includes/class-admin.php:719
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
+msgstr ""
+"Τα ενσωματωμένα βίντεο από το YouTube και το Vimeo αποκλείονται αυτόματα "
+"μέχρι ο επισκέπτης να αποδεχτεί τα cookies μάρκετινγκ. Στη θέση τους "
+"εμφανίζεται ένα μήνυμα με κουμπί αποδοχής. Όταν ο επισκέπτης έχει ήδη δώσει "
+"συγκατάθεση, τα βίντεο φορτώνονται κανονικά."
+
+#: includes/class-admin.php:719
+msgid "YouTube & Vimeo iframe blocking"
+msgstr "Αποκλεισμός iframe YouTube & Vimeo"
+
+#: includes/class-admin.php:722
+msgid "Statistics tab"
+msgstr "Καρτέλα Στατιστικά"
+
+#: includes/class-admin.php:724
+msgid "Consent statistics"
+msgstr "Στατιστικά συγκατάθεσης"
+
+#: includes/class-admin.php:724
+msgid ""
+"Shows how many visitors accepted, rejected, or customized cookies over 7, "
+"30, or 90 day periods. Data is aggregated and anonymous — no personal data "
+"is stored."
+msgstr ""
+"Εμφανίζει πόσοι επισκέπτες αποδέχτηκαν, απέρριψαν ή προσάρμοσαν τα cookies "
+"σε περιόδους 7, 30 ή 90 ημερών. Τα δεδομένα είναι συγκεντρωτικά και ανώνυμα "
+"— δεν αποθηκεύονται προσωπικά δεδομένα."
+
+#: includes/class-admin.php:725 includes/class-admin.php:1022
+msgid "Consent Log"
+msgstr "Αρχείο καταγραφής συγκαταθέσεων"
+
+#: includes/class-admin.php:725
+msgid ""
+"Individual anonymized consent records for GDPR audit compliance. Records "
+"contain a hashed visitor identifier, the consent choice, accepted "
+"categories, and the policy version. Records are automatically purged after "
+"13 months."
+msgstr ""
+"Μεμονωμένες ανωνυμοποιημένες εγγραφές συγκατάθεσης για τον έλεγχο "
+"συμμόρφωσης με το GDPR. Οι εγγραφές περιέχουν ένα κατακερματισμένο "
+"αναγνωριστικό επισκέπτη, την επιλογή συγκατάθεσης, τις κατηγορίες που έγιναν "
+"αποδεκτές και την έκδοση της πολιτικής. Οι εγγραφές εκκαθαρίζονται αυτόματα "
+"μετά από 13 μήνες."
+
+#: includes/class-admin.php:726
+msgid "Downloads all consent log records as a CSV file for auditing."
+msgstr ""
+"Κατεβάζει όλες τις εγγραφές του αρχείου καταγραφής συγκαταθέσεων ως αρχείο "
+"CSV για έλεγχο."
+
+#: includes/class-admin.php:726 includes/class-admin.php:1038
+msgid "Export CSV"
+msgstr "Εξαγωγή CSV"
+
+#: includes/class-admin.php:727
+msgid "Permanently deletes all consent log records and aggregate statistics."
+msgstr ""
+"Διαγράφει οριστικά όλες τις εγγραφές του αρχείου καταγραφής συγκαταθέσεων "
+"και τα συγκεντρωτικά στατιστικά."
+
+#: includes/class-admin.php:727 includes/class-admin.php:1039
+msgid "Purge All Records"
+msgstr "Εκκαθάριση όλων των εγγραφών"
+
+#: includes/class-admin.php:730
+msgid "Multilingual support (WPML & Polylang)"
+msgstr "Πολυγλωσσική υποστήριξη (WPML & Polylang)"
+
+#: includes/class-admin.php:732
+msgid "Per-language banner texts"
+msgstr "Κείμενα μπάνερ ανά γλώσσα"
+
+#: includes/class-admin.php:732
+msgid ""
+"When WPML or Polylang is active, switch to a secondary language in the admin"
+" bar and edit General tab settings (saved per language). With WPML String "
+"Translation, you can also translate the [kncc_settings]* admin text strings "
+"— those are used when no per-language override is saved. Otherwise each "
+"language uses its own plugin defaults (English if unsupported). Texts are "
+"never copied blindly from the default language."
+msgstr ""
+"Όταν είναι ενεργό το WPML ή το Polylang, μεταβείτε σε μια δευτερεύουσα "
+"γλώσσα από τη γραμμή εργαλείων και επεξεργαστείτε τις ρυθμίσεις στην καρτέλα "
+"Γενικά (αποθηκεύονται ανά γλώσσα). Με το WPML String Translation μπορείτε "
+"επίσης να μεταφράσετε τις συμβολοσειρές κειμένου διαχείρισης "
+"[kncc_settings]* — αυτές χρησιμοποιούνται όταν δεν έχει αποθηκευτεί "
+"παράκαμψη ανά γλώσσα. Διαφορετικά, κάθε γλώσσα χρησιμοποιεί τις δικές της "
+"προεπιλογές του προσθέτου (αγγλικά, αν η γλώσσα δεν υποστηρίζεται). Τα "
+"κείμενα δεν αντιγράφονται ποτέ τυφλά από την προεπιλεγμένη γλώσσα."
+
+#: includes/class-admin.php:733
+msgid ""
+"Cookie names, categories, providers, and durations are shared across all "
+"languages. Only the description field can be translated per language. Switch"
+" language and edit descriptions in the Cookies tab."
+msgstr ""
+"Τα ονόματα, οι κατηγορίες, οι πάροχοι και οι διάρκειες των cookies είναι "
+"κοινά για όλες τις γλώσσες. Μόνο το πεδίο περιγραφής μπορεί να μεταφραστεί "
+"ανά γλώσσα. Αλλάξτε γλώσσα και επεξεργαστείτε τις περιγραφές στην καρτέλα "
+"Cookies."
+
+#: includes/class-admin.php:733
+msgid "Per-language cookie descriptions"
+msgstr "Περιγραφές cookies ανά γλώσσα"
+
+#: includes/class-admin.php:734
+msgid ""
+"Banner style, colors, and policy page can be set per language. Non-text "
+"settings fall back to the default language; banner texts use per-language "
+"overrides, WPML String Translation, or each language's own defaults."
+msgstr ""
+"Το στυλ του μπάνερ, τα χρώματα και η σελίδα πολιτικής μπορούν να οριστούν "
+"ανά γλώσσα. Οι ρυθμίσεις που δεν αφορούν κείμενο ακολουθούν την "
+"προεπιλεγμένη γλώσσα. Τα κείμενα του μπάνερ χρησιμοποιούν παρακάμψεις ανά "
+"γλώσσα, το WPML String Translation ή τις δικές προεπιλογές κάθε γλώσσας."
+
+#: includes/class-admin.php:734
+msgid "Per-language settings"
+msgstr "Ρυθμίσεις ανά γλώσσα"
+
+#: includes/class-admin.php:735
+msgid "AI prompts"
+msgstr "Προτροπές AI"
+
+#: includes/class-admin.php:735
+msgid ""
+"AI prompts for cookie descriptions and policy pages are automatically "
+"generated in the language matching the current admin locale."
+msgstr ""
+"Οι προτροπές AI για τις περιγραφές των cookies και τις σελίδες πολιτικής "
+"δημιουργούνται αυτόματα στη γλώσσα που αντιστοιχεί στην τρέχουσα γλώσσα της "
+"διαχείρισης."
+
+#: includes/class-admin.php:738
+msgid "Shortcodes"
+msgstr "Σύντομοι κώδικες"
+
+#: includes/class-admin.php:740
+msgid "Displays the full cookie declaration table on your policy page."
+msgstr "Εμφανίζει τον πλήρη πίνακα δήλωσης cookies στη σελίδα πολιτικής σας."
+
+#: includes/class-admin.php:741
+msgid ""
+"Renders a link that opens the cookie settings dialog. Use in footers, menus,"
+" or widgets. Customize the link text with the text attribute, e.g. "
+"[kncc_cookie_settings text=\"Manage cookies\"]."
+msgstr ""
+"Εμφανίζει έναν σύνδεσμο που ανοίγει το παράθυρο ρυθμίσεων cookies. "
+"Χρησιμοποιήστε τον σε υποσέλιδα, μενού ή γραφικά στοιχεία. Προσαρμόστε το "
+"κείμενο του συνδέσμου με το χαρακτηριστικό text, π.χ. [kncc_cookie_settings "
+"text=\"Διαχείριση cookies\"]."
+
+#: includes/class-admin.php:744
+msgid "Custom CSS"
+msgstr "Προσαρμοσμένο CSS"
+
+#: includes/class-admin.php:748
+#, php-format
+msgid ""
+"Need to fine-tune the look beyond the General tab? Add CSS to %s, your child"
+" theme, or a Code Snippets plugin."
+msgstr ""
+"Θέλετε να προσαρμόσετε με ακρίβεια την εμφάνιση πέρα από όσα προσφέρει η "
+"καρτέλα Γενικά; Προσθέστε CSS στο %s, στο θυγατρικό σας θέμα ή σε ένα "
+"πρόσθετο Code Snippets."
+
+#: includes/class-admin.php:749
+msgid "Appearance → Customize → Additional CSS"
+msgstr "Εμφάνιση → Προσαρμογή → Πρόσθετο CSS"
+
+#: includes/class-admin.php:752
+msgid ""
+"Copy the template below, uncomment the rules you want to change, save. Every"
+" selector the plugin uses is included."
+msgstr ""
+"Αντιγράψτε το παρακάτω πρότυπο, αφαιρέστε τη σήμανση σχολίου από τους "
+"κανόνες που θέλετε να αλλάξετε και αποθηκεύστε. Περιλαμβάνονται όλοι οι "
+"επιλογείς που χρησιμοποιεί το πρόσθετο."
+
+#: includes/class-admin.php:756
+msgid "Copy CSS template"
+msgstr "Αντιγραφή προτύπου CSS"
+
+#: includes/class-admin.php:828
+msgid "Tips:"
+msgstr "Συμβουλές:"
+
+#: includes/class-admin.php:830
+msgid ""
+"If a rule does not apply, prepend .kncc-banner or add !important — your CSS "
+"file loads after the plugin's, but theme styles can occasionally beat it on "
+"specificity."
+msgstr ""
+"Αν ένας κανόνας δεν εφαρμόζεται, προσθέστε μπροστά το .kncc-banner ή "
+"προσθέστε !important — το αρχείο CSS σας φορτώνεται μετά από εκείνο του "
+"προσθέτου, αλλά τα στυλ του θέματος μπορεί περιστασιακά να υπερισχύσουν λόγω "
+"ειδικότητας."
+
+#: includes/class-admin.php:831
+msgid ""
+"When General → Text and font style is set to Plugin style, typography rules "
+"use !important. Switch to Theme style for easier overrides."
+msgstr ""
+"Όταν η επιλογή Γενικά → Στυλ κειμένου και γραμματοσειράς έχει οριστεί σε "
+"«Στυλ προσθέτου», οι κανόνες τυπογραφίας χρησιμοποιούν !important. Αλλάξτε "
+"σε «Στυλ θέματος» για ευκολότερες παρακάμψεις."
+
+#: includes/class-admin.php:832
+msgid ""
+"Banner z-index is 999999 and the floating button is 999998 — raise them if "
+"your theme renders overlays on top of the banner."
+msgstr ""
+"Το z-index του μπάνερ είναι 999999 και του αιωρούμενου κουμπιού 999998 — "
+"αυξήστε τα αν το θέμα σας εμφανίζει επικαλύψεις πάνω από το μπάνερ."
+
+#: includes/class-admin.php:835
+msgid "Troubleshooting"
+msgstr "Αντιμετώπιση προβλημάτων"
+
+#: includes/class-admin.php:837
+msgid ""
+"If GTM Preview does not show consent updates, verify Consent Mode v2 is "
+"enabled and test in a fresh browser session without existing consent cookie."
+msgstr ""
+"Αν η Προεπισκόπηση του GTM δεν εμφανίζει ενημερώσεις συγκατάθεσης, ελέγξτε "
+"ότι το Consent Mode v2 είναι ενεργοποιημένο και δοκιμάστε σε μια νέα "
+"συνεδρία προγράμματος περιήγησης χωρίς υπάρχον cookie συγκατάθεσης."
+
+#: includes/class-admin.php:838
+msgid ""
+"If banner typography looks odd with your theme, switch General > Text and "
+"font style to Plugin style."
+msgstr ""
+"Αν η τυπογραφία του μπάνερ φαίνεται περίεργη με το θέμα σας, αλλάξτε την "
+"επιλογή Γενικά > Στυλ κειμένου και γραμματοσειράς σε «Στυλ προσθέτου»."
+
+#: includes/class-admin.php:839
+msgid ""
+"If tracking still runs before consent, make sure Custom Code blocking is "
+"checked on the Script Blocking tab."
+msgstr ""
+"Αν η παρακολούθηση εξακολουθεί να εκτελείται πριν από τη συγκατάθεση, "
+"βεβαιωθείτε ότι η επιλογή Αποκλεισμός προσαρμοσμένου κώδικα είναι επιλεγμένη "
+"στην καρτέλα Αποκλεισμός σεναρίων."
+
+#: includes/class-admin.php:840
+msgid ""
+"If the statistics are empty, make sure visitors have interacted with the "
+"banner. Data starts recording after the first consent choice."
+msgstr ""
+"Αν τα στατιστικά είναι κενά, βεβαιωθείτε ότι οι επισκέπτες έχουν "
+"αλληλεπιδράσει με το μπάνερ. Η καταγραφή δεδομένων ξεκινά μετά την πρώτη "
+"επιλογή συγκατάθεσης."
+
+#: includes/class-admin.php:841
+msgid ""
+"If the policy page warning shows missing translations, create the translated"
+" page in each language and add the [kncc_cookie_policy] shortcode."
+msgstr ""
+"Αν η προειδοποίηση για τη σελίδα πολιτικής εμφανίζει ελλείπουσες "
+"μεταφράσεις, δημιουργήστε τη μεταφρασμένη σελίδα σε κάθε γλώσσα και "
+"προσθέστε τον σύντομο κώδικα [kncc_cookie_policy]."
+
+#: includes/class-admin.php:845
+msgid ""
+"I made this plugin for free because I got frustrated by the existing cookie "
+"consent plugins — too much bloat and useless features. If you like it and "
+"want to buy me a coffee, you can do it here:"
+msgstr ""
+"Δημιούργησα αυτό το πρόσθετο δωρεάν, επειδή απογοητεύτηκα από τα υπάρχοντα "
+"πρόσθετα συγκατάθεσης cookies — υπερβολικά φορτωμένα και με άχρηστες "
+"λειτουργίες. Αν σας αρέσει και θέλετε να μου κεράσετε έναν καφέ, μπορείτε να "
+"το κάνετε εδώ:"
+
+#: includes/class-admin.php:873
+#, php-format
+msgid "%d days"
+msgstr "%d ημέρες"
+
+#: includes/class-admin.php:884
+msgid "Total responses"
+msgstr "Σύνολο απαντήσεων"
+
+#: includes/class-admin.php:888 includes/class-admin.php:903
+#: includes/class-admin.php:913
+msgid "Accepted all"
+msgstr "Αποδοχή όλων"
+
+#: includes/class-admin.php:892 includes/class-admin.php:909
+#: includes/class-admin.php:915
+msgid "Rejected all"
+msgstr "Απόρριψη όλων"
+
+#: includes/class-admin.php:896 includes/class-admin.php:906
+#: includes/class-admin.php:914
+msgid "Custom selection"
+msgstr "Προσαρμοσμένη επιλογή"
+
+#: includes/class-admin.php:920
+msgid ""
+"No consent data recorded yet. Statistics will appear after visitors start "
+"interacting with the cookie banner."
+msgstr ""
+"Δεν έχουν καταγραφεί ακόμη δεδομένα συγκατάθεσης. Τα στατιστικά θα "
+"εμφανιστούν όταν οι επισκέπτες αρχίσουν να αλληλεπιδρούν με το μπάνερ "
+"cookies."
+
+#: includes/class-admin.php:937
+#, php-format
+msgid "Cron error: %s"
+msgstr "Σφάλμα cron: %s"
+
+#: includes/class-admin.php:955
+msgid "All systems are good!"
+msgstr "Όλα λειτουργούν σωστά!"
+
+#: includes/class-admin.php:957
+msgid "The plugin re-checks cookies every day via cron."
+msgstr "Το πρόσθετο ελέγχει ξανά τα cookies κάθε ημέρα μέσω cron."
+
+#: includes/class-admin.php:962
+#, php-format
+msgid "Next check: %s"
+msgstr "Επόμενος έλεγχος: %s"
+
+#: includes/class-admin.php:1075
+msgid ""
+"Also block tracking added in Bricks, Elementor, or other Custom Code fields"
+msgstr ""
+"Αποκλεισμός και της παρακολούθησης που προστίθεται στο Bricks, στο Elementor "
+"ή σε άλλα πεδία προσαρμοσμένου κώδικα"
+
+#: includes/class-admin.php:1094
+msgid "Save blocking settings"
+msgstr "Αποθήκευση ρυθμίσεων αποκλεισμού"
+
+#: includes/class-admin.php:1099
+msgid "Recognized tracking tools"
+msgstr "Αναγνωρισμένα εργαλεία παρακολούθησης"
+
+#: includes/class-admin.php:1106
+msgid "Script Handle"
+msgstr "Handle σεναρίου"
+
+#: includes/class-admin.php:1024
+msgid ""
+"Individual consent records for GDPR audit compliance. Records are "
+"automatically purged after the retention period (13 months)."
+msgstr ""
+"Μεμονωμένες εγγραφές συγκατάθεσης για τον έλεγχο συμμόρφωσης με το GDPR. Οι "
+"εγγραφές εκκαθαρίζονται αυτόματα μετά την περίοδο διατήρησης (13 μήνες)."
+
+#: includes/class-admin.php:1028
+msgid "Total records:"
+msgstr "Σύνολο εγγραφών:"
+
+#: includes/class-admin.php:1030
+msgid "Oldest:"
+msgstr "Παλαιότερη:"
+
+#: includes/class-admin.php:1033
+msgid "Newest:"
+msgstr "Νεότερη:"
+
+#: includes/class-admin.php:1043
+msgid "No consent log records yet."
+msgstr "Δεν υπάρχουν ακόμη εγγραφές συγκατάθεσης."
+
+#: includes/class-admin.php:1048
+msgid "Date/Time"
+msgstr "Ημερομηνία/Ώρα"
+
+#: includes/class-admin.php:1049
+msgid "Visitor"
+msgstr "Επισκέπτης"
+
+#: includes/class-admin.php:1050
+msgid "Choice"
+msgstr "Επιλογή"
+
+#: includes/class-admin.php:1051
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: includes/class-admin.php:1052
+msgid "Policy Version"
+msgstr "Έκδοση πολιτικής"
+
+#: includes/class-admin.php:1311
+msgid "Cookies saved."
+msgstr "Τα cookies αποθηκεύτηκαν."
+
+#: includes/class-consent.php:135
+msgid "Cookie consent"
+msgstr "Συγκατάθεση cookies"
+
+#: includes/class-consent.php:147 includes/class-policy-page.php:27
+msgid "Cookie Policy"
+msgstr "Πολιτική cookies"
+
+#: includes/class-consent.php:155
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: includes/class-consent.php:187 includes/class-consent.php:188
+#: kansleri-cookie-consent.php:590
+msgid "Cookie settings"
+msgstr "Ρυθμίσεις cookies"
+
+#: includes/class-policy-page.php:48
+msgid "No cookies have been registered yet."
+msgstr "Δεν έχουν καταχωριστεί ακόμη cookies."
+
+#: includes/class-policy-page.php:58
+msgid ""
+"These cookies are essential for the website to function and cannot be "
+"switched off."
+msgstr ""
+"Αυτά τα cookies είναι απαραίτητα για τη λειτουργία του ιστότοπου και δεν "
+"μπορούν να απενεργοποιηθούν."
+
+#: includes/class-policy-page.php:59
+msgid ""
+"These cookies help us understand how visitors interact with the website by "
+"collecting and reporting information anonymously."
+msgstr ""
+"Αυτά τα cookies μας βοηθούν να κατανοήσουμε πώς αλληλεπιδρούν οι επισκέπτες "
+"με τον ιστότοπο, συλλέγοντας και αναφέροντας πληροφορίες ανώνυμα."
+
+#: includes/class-policy-page.php:60
+msgid ""
+"These cookies are used to deliver relevant advertisements and track ad "
+"campaign performance."
+msgstr ""
+"Αυτά τα cookies χρησιμοποιούνται για την εμφάνιση σχετικών διαφημίσεων και "
+"την παρακολούθηση της απόδοσης των διαφημιστικών καμπανιών."
+
+#: includes/class-policy-page.php:61
+msgid ""
+"These cookies allow the website to remember choices you make and provide "
+"enhanced functionality and personalisation."
+msgstr ""
+"Αυτά τα cookies επιτρέπουν στον ιστότοπο να θυμάται τις επιλογές σας και να "
+"προσφέρει βελτιωμένη λειτουργικότητα και εξατομίκευση."
+
+#: includes/class-policy-page.php:79
+msgid "Edit cookie preferences"
+msgstr "Αλλαγή προτιμήσεων cookies"
+
+#: includes/class-policy-page.php:90 includes/class-policy-page.php:99
+msgid "Cookie"
+msgstr "Cookie"
+
+#: includes/class-policy-page.php:92 includes/class-policy-page.php:101
+msgid "Purpose"
+msgstr "Σκοπός"
+
+#: includes/class-script-blocker.php:306
+msgid "Script blocking settings saved."
+msgstr "Οι ρυθμίσεις αποκλεισμού σεναρίων αποθηκεύτηκαν."
+
+#: kansleri-cookie-consent.php:57 kansleri-cookie-consent.php:404
+msgid "We use cookies"
+msgstr "Χρησιμοποιούμε cookies"
+
+#: kansleri-cookie-consent.php:58 kansleri-cookie-consent.php:405
+msgid ""
+"We use cookies to improve your experience and analyze site traffic. Choose "
+"which cookies you allow."
+msgstr ""
+"Χρησιμοποιούμε cookies για να βελτιώσουμε την εμπειρία σας και να αναλύσουμε "
+"την επισκεψιμότητα του ιστότοπου. Επιλέξτε ποια cookies επιτρέπετε."
+
+#: kansleri-cookie-consent.php:59 kansleri-cookie-consent.php:406
+msgid "Accept all"
+msgstr "Αποδοχή όλων"
+
+#: kansleri-cookie-consent.php:60 kansleri-cookie-consent.php:407
+msgid "Reject all"
+msgstr "Απόρριψη όλων"
+
+#: kansleri-cookie-consent.php:61 kansleri-cookie-consent.php:408
+msgid "Customize"
+msgstr "Προσαρμογή"
+
+#: kansleri-cookie-consent.php:62 kansleri-cookie-consent.php:409
+msgid "Save preferences"
+msgstr "Αποθήκευση προτιμήσεων"
+
+#: kansleri-cookie-consent.php:336
+msgid "Required for the website to function. Cannot be disabled."
+msgstr ""
+"Απαραίτητα για τη λειτουργία του ιστότοπου. Δεν μπορούν να απενεργοποιηθούν."
+
+#: kansleri-cookie-consent.php:340
+msgid "Help us understand how visitors interact with the website."
+msgstr ""
+"Μας βοηθούν να κατανοήσουμε πώς αλληλεπιδρούν οι επισκέπτες με τον ιστότοπο."
+
+#: kansleri-cookie-consent.php:344
+msgid "Used to deliver relevant advertisements and track campaigns."
+msgstr ""
+"Χρησιμοποιούνται για την εμφάνιση σχετικών διαφημίσεων και την παρακολούθηση "
+"καμπανιών."
+
+#: kansleri-cookie-consent.php:348
+msgid "Remember your settings and preferences for a better experience."
+msgstr "Θυμούνται τις ρυθμίσεις και τις προτιμήσεις σας για καλύτερη εμπειρία."
+
+#: kansleri-cookie-consent.php:499
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: kansleri-cookie-consent.php:522
+#, php-format
+msgid ""
+"Kansleri Cookie Consent is now active. Next steps: %1$s to discover cookies "
+"and %2$s to review banner and consent settings."
+msgstr ""
+"Το Kansleri Cookie Consent είναι πλέον ενεργό. Επόμενα βήματα: %1$s για τον "
+"εντοπισμό των cookies και %2$s για το μπάνερ και τη συγκατάθεση."
+
+#: kansleri-cookie-consent.php:523
+msgid "Scan cookies"
+msgstr "Σάρωση cookies"
+
+#: kansleri-cookie-consent.php:524
+msgid "review settings"
+msgstr "έλεγχος ρυθμίσεων"
+
+#: kansleri-cookie-consent.php:555
+#, php-format
+msgid ""
+"Cookie Consent: %1$d cookie(s) are missing descriptions: %2$s. %3$s to add "
+"them."
+msgstr ""
+"Συγκατάθεση cookies: δεν έχουν περιγραφή τα εξής cookies (%1$d): %2$s. %3$s "
+"για να προσθέσετε περιγραφές."
+
+#: kansleri-cookie-consent.php:558
+msgid "Go to Cookies tab"
+msgstr "Μετάβαση στην καρτέλα Cookies"
+
+#: kansleri-cookie-consent.php:572
+msgid ""
+"This site uses a cookie consent banner powered by Kansleri Cookie Consent. "
+"When you interact with the banner, a cookie named <code>kncc_consent</code> "
+"is stored in your browser for up to 1 year. It records your consent "
+"preferences (which cookie categories you accepted or rejected) so the site "
+"can remember your choice on future visits. No personal data is stored in "
+"this cookie."
+msgstr ""
+"Αυτός ο ιστότοπος χρησιμοποιεί ένα μπάνερ συγκατάθεσης cookies που "
+"λειτουργεί με το Kansleri Cookie Consent. Όταν αλληλεπιδράτε με το μπάνερ, "
+"στο πρόγραμμα περιήγησής σας αποθηκεύεται ένα cookie με το όνομα "
+"<code>kncc_consent</code> για έως 1 έτος. Καταγράφει τις προτιμήσεις "
+"συγκατάθεσής σας (ποιες κατηγορίες cookies αποδεχτήκατε ή απορρίψατε), ώστε "
+"ο ιστότοπος να θυμάται την επιλογή σας στις επόμενες επισκέψεις σας. Σε αυτό "
+"το cookie δεν αποθηκεύονται προσωπικά δεδομένα."
+
+#: kansleri-cookie-consent.php:573
+msgid ""
+"The plugin also records anonymous, aggregated consent statistics (how many "
+"visitors accepted, rejected, or customized cookies each day) and individual "
+"consent log entries for GDPR audit compliance. Consent log entries contain a"
+" hashed (non-reversible) visitor identifier, the consent choice, which "
+"categories were accepted, and the policy version. No IP addresses, user "
+"identifiers, or personal data are stored in plain text. Consent log records "
+"are automatically deleted after 13 months."
+msgstr ""
+"Το πρόσθετο καταγράφει επίσης ανώνυμα, συγκεντρωτικά στατιστικά συγκατάθεσης "
+"(πόσοι επισκέπτες αποδέχτηκαν, απέρριψαν ή προσάρμοσαν τα cookies κάθε "
+"ημέρα) και μεμονωμένες εγγραφές στο αρχείο καταγραφής συγκαταθέσεων, για τον "
+"έλεγχο συμμόρφωσης με το GDPR. Οι εγγραφές περιέχουν ένα κατακερματισμένο "
+"(μη αναστρέψιμο) αναγνωριστικό επισκέπτη, την επιλογή συγκατάθεσης, τις "
+"κατηγορίες που έγιναν αποδεκτές και την έκδοση της πολιτικής. Δεν "
+"αποθηκεύονται διευθύνσεις IP, αναγνωριστικά χρηστών ή προσωπικά δεδομένα σε "
+"απλό κείμενο. Οι εγγραφές του αρχείου καταγραφής συγκαταθέσεων διαγράφονται "
+"αυτόματα μετά από 13 μήνες."
+
+#: includes/class-admin.php:318
+msgid "Empty cookie categories"
+msgstr "Κενές κατηγορίες cookies"
+
+#: includes/class-admin.php:322
+msgid "Show but lock (disable) the switch"
+msgstr "Εμφάνιση με κλειδωμένο (απενεργοποιημένο) διακόπτη"
+
+#: includes/class-admin.php:323
+msgid "Hide categories with no cookies"
+msgstr "Απόκρυψη κατηγοριών χωρίς cookies"
+
+#: includes/class-admin.php:378 includes/class-consent.php:95
+msgid "No analytics cookies are used on this site."
+msgstr "Σε αυτόν τον ιστότοπο δεν χρησιμοποιούνται αναλυτικά cookies."
+
+#: includes/class-admin.php:379 includes/class-consent.php:96
+msgid "No marketing cookies are used on this site."
+msgstr "Σε αυτόν τον ιστότοπο δεν χρησιμοποιούνται cookies μάρκετινγκ."
+
+#: includes/class-admin.php:380 includes/class-consent.php:97
+msgid "No preference cookies are used on this site."
+msgstr "Σε αυτόν τον ιστότοπο δεν χρησιμοποιούνται cookies προτιμήσεων."
+
+#: includes/class-admin.php:323
+msgid "Close button label"
+msgstr "Ετικέτα κουμπιού κλεισίματος"
+
+#: includes/class-consent.php:50
+msgid "You have not made a choice yet."
+msgstr "Δεν έχετε κάνει ακόμη επιλογή."
+
+#: includes/class-consent.php:51
+msgid "Allowed"
+msgstr "Επιτρέπεται"
+
+#: includes/class-consent.php:52
+msgid "Denied"
+msgstr "Δεν επιτρέπεται"
+
+#: includes/class-consent.php:53
+msgid "Always active"
+msgstr "Πάντα ενεργά"
+
+#: includes/class-policy-page.php:85
+msgid "Your current cookie preferences"
+msgstr "Οι τρέχουσες προτιμήσεις cookies σας"
+
+#: includes/class-policy-page.php:93
+msgid ""
+"These choices are stored technically as wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing, and wp_consent_preferences for "
+"compatibility with WordPress plugins."
+msgstr ""
+"Αυτές οι επιλογές αποθηκεύονται τεχνικά ως wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing και wp_consent_preferences για "
+"συμβατότητα με πρόσθετα του WordPress."
+
+#: includes/class-admin.php:99
+msgid "Possibly removed"
+msgstr "Πιθανώς αφαιρεμένα"
+
+#: includes/class-admin.php:100
+msgid ""
+"These cookies are still in your list, but their tracking scripts were not "
+"found on the homepage. Review and remove any that are no longer used."
+msgstr ""
+"Αυτά τα cookies βρίσκονται ακόμη στη λίστα σας, αλλά τα σενάρια "
+"παρακολούθησής τους δεν βρέθηκαν στην αρχική σελίδα. Ελέγξτε και αφαιρέστε "
+"όσα δεν χρησιμοποιούνται πλέον."
+
+#: includes/class-admin.php:102
+#, php-format
+msgid ""
+"Remove %d cookie(s) from the list? This cannot be undone automatically."
+msgstr ""
+"Να αφαιρεθούν cookies (%d) από τη λίστα; Αυτό δεν μπορεί να αναιρεθεί "
+"αυτόματα."
+
+#: includes/class-admin.php:103 includes/class-admin.php:1527
+msgid "Selected cookies removed from the list."
+msgstr "Τα επιλεγμένα cookies αφαιρέθηκαν από τη λίστα."
+
+#: includes/class-admin.php:104
+msgid "Remove selected cookies"
+msgstr "Αφαίρεση επιλεγμένων cookies"
+
+#: includes/class-admin.php:1482
+msgid ""
+"None of the selected cookies can be removed. Run Scan Cookies again to "
+"refresh the list."
+msgstr ""
+"Κανένα από τα επιλεγμένα cookies δεν μπορεί να αφαιρεθεί. Εκτελέστε ξανά τη "
+"«Σάρωση cookies» για να ανανεωθεί η λίστα."
+
+#: includes/class-admin.php:791
+msgid ""
+"After scanning, cookies whose tracking scripts are no longer found on the "
+"homepage are listed under \"Possibly removed\". Review the list and use "
+"Remove selected cookies to delete entries you no longer need — nothing is "
+"removed automatically."
+msgstr ""
+"Μετά τη σάρωση, τα cookies των οποίων τα σενάρια παρακολούθησης δεν "
+"εντοπίζονται πλέον στην αρχική σελίδα εμφανίζονται στην ενότητα «Πιθανώς "
+"αφαιρεμένα». Ελέγξτε τη λίστα και χρησιμοποιήστε την «Αφαίρεση επιλεγμένων "
+"cookies» για να διαγράψετε τις εγγραφές που δεν χρειάζεστε πλέον — τίποτα "
+"δεν αφαιρείται αυτόματα."
+
+#: includes/class-admin.php:797
+msgid "Current consent status"
+msgstr "Τρέχουσα κατάσταση συγκατάθεσης"
+
+#: includes/class-admin.php:797
+msgid ""
+"The [kncc_cookie_policy] shortcode shows each category as allowed, denied, "
+"or not yet chosen above the Edit cookie preferences button. When WP Consent "
+"API is active, a note explains the technical wp_consent_* cookie names used "
+"by WordPress plugins."
+msgstr ""
+"Ο σύντομος κώδικας [kncc_cookie_policy] εμφανίζει κάθε κατηγορία ως "
+"επιτρεπόμενη, μη επιτρεπόμενη ή μη επιλεγμένη ακόμη, πάνω από το κουμπί "
+"«Αλλαγή προτιμήσεων cookies». Όταν το WP Consent API είναι ενεργό, μια "
+"σημείωση εξηγεί τα τεχνικά ονόματα cookies wp_consent_* που χρησιμοποιούν τα "
+"πρόσθετα του WordPress."
+
+#: includes/class-admin.php:806
+msgid "WP Consent API sync"
+msgstr "Συγχρονισμός με το WP Consent API"
+
+#: includes/class-admin.php:806
+msgid ""
+"When the WP Consent API plugin is active, Kansleri automatically syncs your "
+"banner choices to wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing, and wp_consent_preferences. This lets consent-aware "
+"plugins such as Google Site Kit read the visitor's choice. Banner labels "
+"(Necessary, Analytics) map to these technical cookie names."
+msgstr ""
+"Όταν το πρόσθετο WP Consent API είναι ενεργό, το Kansleri συγχρονίζει "
+"αυτόματα τις επιλογές του μπάνερ σας με τα wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing και wp_consent_preferences. "
+"Έτσι, πρόσθετα που υποστηρίζουν τη συγκατάθεση, όπως το Google Site Kit, "
+"μπορούν να διαβάσουν την επιλογή του επισκέπτη. Οι ετικέτες του μπάνερ "
+"(Απαραίτητα, Αναλυτικά) αντιστοιχούν σε αυτά τα τεχνικά ονόματα cookies."
+
+#: includes/class-admin.php:939
+msgid ""
+"If wp_consent_statistics stays deny after Accept all, clear site cookies or "
+"test in a private window, hard-refresh (Ctrl+Shift+R), and confirm the WP "
+"Consent API plugin is active."
+msgstr ""
+"Αν το wp_consent_statistics παραμένει deny μετά την «Αποδοχή όλων», "
+"διαγράψτε τα cookies του ιστότοπου ή δοκιμάστε σε ιδιωτικό παράθυρο, κάντε "
+"πλήρη ανανέωση (Ctrl+Shift+R) και βεβαιωθείτε ότι το πρόσθετο WP Consent API "
+"είναι ενεργό."
+
+#: includes/class-admin.php:746 includes/class-admin.php:854
+msgid "Advanced Consent Mode"
+msgstr "Προηγμένο Consent Mode"
+
+#: includes/class-admin.php:750
+msgid "Load Google tags before consent, with consent denied"
+msgstr ""
+"Φόρτωση ετικετών Google πριν από τη συγκατάθεση, με άρνηση συγκατάθεσης"
+
+#: includes/class-admin.php:753
+msgid "Off (default, Basic Consent Mode): the Google tag is blocked until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies, so Google receives nothing from visitors who have not consented."
+msgstr ""
+"Ανενεργό (προεπιλογή, Βασικό Consent Mode): η ετικέτα Google αποκλείεται "
+"μέχρι ο επισκέπτης να αποδεχτεί τα αναλυτικά cookies και το Google Tag "
+"Manager μέχρι ο επισκέπτης να αποδεχτεί τα αναλυτικά cookies ή τα cookies "
+"μάρκετινγκ, έτσι ώστε η Google να μη λαμβάνει τίποτα από επισκέπτες που δεν "
+"έχουν δώσει συγκατάθεση."
+
+#: includes/class-admin.php:756
+msgid ""
+"On (Advanced Consent Mode): the Google tag and Google Tag Manager load "
+"right away. Until the visitor accepts, they set no cookies and send Google "
+"only cookieless pings, which Google uses to model the missing data. Google "
+"Analytics and Google Ads expect this mode, and with Basic mode they can "
+"report your consent signals as not active."
+msgstr ""
+"Ενεργό (Προηγμένο Consent Mode): η ετικέτα Google και το Google Tag Manager "
+"φορτώνονται αμέσως. Μέχρι ο επισκέπτης να αποδεχτεί, δεν ορίζουν cookies και "
+"στέλνουν στη Google μόνο pings χωρίς cookies, τα οποία η Google χρησιμοποιεί "
+"για να μοντελοποιήσει τα δεδομένα που λείπουν. Το Google Analytics και το "
+"Google Ads αναμένουν αυτήν τη λειτουργία και με το Βασικό Consent Mode "
+"μπορεί να αναφέρουν ότι τα σήματα συγκατάθεσής σας δεν είναι ενεργά."
+
+#: includes/class-admin.php:759
+msgid "Only applies while Consent Mode v2 is enabled. Other tracking scripts on the site stay blocked until consent, also those that Google Tag Manager adds (for example a Meta Pixel or LinkedIn in a Custom HTML tag): each waits for its own category, with no changes needed in the container."
+msgstr ""
+"Ισχύει μόνο όσο το Consent Mode v2 είναι ενεργοποιημένο. Τα υπόλοιπα σενάρια "
+"παρακολούθησης του ιστότοπου παραμένουν αποκλεισμένα μέχρι τη συγκατάθεση, "
+"και όσα προσθέτει το Google Tag Manager (για παράδειγμα ένα Meta Pixel ή το "
+"LinkedIn σε μια ετικέτα Custom HTML): το καθένα περιμένει τη δική του "
+"κατηγορία, χωρίς να χρειάζονται αλλαγές στο κοντέινερ."
+
+#: includes/class-admin.php:854
+msgid ""
+"Off by default. When on, the Google tag and Google Tag Manager load before "
+"consent instead of being blocked. Until the visitor accepts, they set no "
+"cookies and send Google only cookieless pings."
+msgstr ""
+"Ανενεργό από προεπιλογή. Όταν είναι ενεργό, η ετικέτα Google και το Google "
+"Tag Manager φορτώνονται πριν από τη συγκατάθεση αντί να αποκλείονται. Μέχρι "
+"ο επισκέπτης να αποδεχτεί, δεν ορίζουν cookies και στέλνουν στη Google μόνο "
+"pings χωρίς cookies."
+
+#: includes/class-admin.php:863
+msgid "You can turn this off on the Script Blocking tab."
+msgstr "Μπορείτε να το απενεργοποιήσετε στην καρτέλα Αποκλεισμός σεναρίων."
+
+#: includes/class-admin.php:1136
+msgid ""
+"Advanced Consent Mode is on (Integration tab): the Google tag and Google "
+"Tag Manager load before consent and follow the Consent Mode signals instead "
+"of being blocked."
+msgstr ""
+"Το Προηγμένο Consent Mode είναι ενεργό (καρτέλα Ενσωμάτωση): η ετικέτα "
+"Google και το Google Tag Manager φορτώνονται πριν από τη συγκατάθεση και "
+"ακολουθούν τα σήματα του Consent Mode αντί να αποκλείονται."
+
+#: includes/class-admin.php:1168
+msgid ""
+"Block YouTube and Vimeo videos until the visitor accepts marketing cookies"
+msgstr ""
+"Αποκλεισμός βίντεο YouTube και Vimeo μέχρι ο επισκέπτης να αποδεχτεί τα "
+"cookies μάρκετινγκ"
+
+#: includes/class-admin.php:684
+msgid "More information"
+msgstr "Περισσότερες πληροφορίες"
+
+#: includes/class-admin.php:823
+msgid "Basic Consent Mode: the Google tag waits until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies."
+msgstr ""
+"Βασικό Consent Mode: η ετικέτα Google περιμένει μέχρι ο επισκέπτης να "
+"αποδεχτεί τα αναλυτικά cookies και το Google Tag Manager μέχρι ο επισκέπτης "
+"να αποδεχτεί τα αναλυτικά cookies ή τα cookies μάρκετινγκ."
+
+#: includes/class-admin.php:823
+msgid ""
+"Advanced Consent Mode: the Google tag and Google Tag Manager load right "
+"away with these defaults, and send only cookieless pings until the visitor "
+"accepts."
+msgstr ""
+"Προηγμένο Consent Mode: η ετικέτα Google και το Google Tag Manager "
+"φορτώνονται αμέσως με αυτές τις προεπιλογές και στέλνουν μόνο pings χωρίς "
+"cookies μέχρι να αποδεχτεί ο επισκέπτης."
+
+#: includes/class-scanner.php:122
+msgctxt "cookie duration"
+msgid "1 minute"
+msgstr "1 λεπτό"
+
+#: includes/class-scanner.php:123
+msgctxt "cookie duration"
+msgid "30 minutes"
+msgstr "30 λεπτά"
+
+#: includes/class-scanner.php:124
+msgctxt "cookie duration"
+msgid "24 hours"
+msgstr "24 ώρες"
+
+#: includes/class-scanner.php:125
+msgctxt "cookie duration"
+msgid "1 day"
+msgstr "1 ημέρα"
+
+#: includes/class-scanner.php:126
+msgctxt "cookie duration"
+msgid "30 days"
+msgstr "30 ημέρες"
+
+#: includes/class-scanner.php:127
+msgctxt "cookie duration"
+msgid "90 days"
+msgstr "90 ημέρες"
+
+#: includes/class-scanner.php:128
+msgctxt "cookie duration"
+msgid "6 months"
+msgstr "6 μήνες"
+
+#: includes/class-scanner.php:129
+msgctxt "cookie duration"
+msgid "1 year"
+msgstr "1 έτος"
+
+#: includes/class-scanner.php:130
+msgctxt "cookie duration"
+msgid "2 years"
+msgstr "2 έτη"
+
+#: includes/class-scanner.php:131
+msgctxt "cookie duration"
+msgid "Session"
+msgstr "Συνεδρία"
+
+#: includes/class-scanner.php:132
+msgctxt "cookie duration"
+msgid "Varies"
+msgstr "Ποικίλλει"
+
+#: includes/class-scanner.php:135
+msgid "Google Analytics: stores and counts page views."
+msgstr "Google Analytics: αποθηκεύει και μετρά τις προβολές σελίδων."
+
+#: includes/class-scanner.php:136
+msgid "Google Analytics: distinguishes unique users."
+msgstr "Google Analytics: διακρίνει μοναδικούς χρήστες."
+
+#: includes/class-scanner.php:137
+msgid "Google Analytics: distinguishes users for 24 hours."
+msgstr "Google Analytics: διακρίνει τους χρήστες για 24 ώρες."
+
+#: includes/class-scanner.php:138
+msgid "Google Analytics: throttles request rate."
+msgstr "Google Analytics: περιορίζει τον ρυθμό αιτημάτων."
+
+#: includes/class-scanner.php:139
+msgid "Google Ads: stores conversion data."
+msgstr "Google Ads: αποθηκεύει δεδομένα μετατροπών."
+
+#: includes/class-scanner.php:140
+msgid "Google Ads: click tracking."
+msgstr "Google Ads: παρακολούθηση κλικ."
+
+#: includes/class-scanner.php:141
+msgid "Google Tag Manager: throttles request rate."
+msgstr "Google Tag Manager: περιορίζει τον ρυθμό αιτημάτων."
+
+#: includes/class-scanner.php:144
+msgid "Meta Pixel: tracks visits across websites for ad targeting."
+msgstr ""
+"Meta Pixel: παρακολουθεί επισκέψεις σε διάφορους ιστότοπους για στόχευση "
+"διαφημίσεων."
+
+#: includes/class-scanner.php:145
+msgid "Meta Pixel: stores click identifiers."
+msgstr "Meta Pixel: αποθηκεύει αναγνωριστικά κλικ."
+
+#: includes/class-scanner.php:146
+msgid "Facebook: ad delivery and measurement."
+msgstr "Facebook: προβολή και μέτρηση διαφημίσεων."
+
+#: includes/class-scanner.php:149
+msgid "HubSpot: tracks visitor identity."
+msgstr "HubSpot: παρακολουθεί την ταυτότητα του επισκέπτη."
+
+#: includes/class-scanner.php:150
+msgid "HubSpot: tracks session information."
+msgstr "HubSpot: παρακολουθεί πληροφορίες συνεδρίας."
+
+#: includes/class-scanner.php:151
+msgid "HubSpot: tracks sessions for analytics."
+msgstr "HubSpot: παρακολουθεί συνεδρίες για αναλύσεις."
+
+#: includes/class-scanner.php:152
+msgid "HubSpot: determines if visitor has restarted browser."
+msgstr ""
+"HubSpot: εντοπίζει αν ο επισκέπτης έχει επανεκκινήσει το πρόγραμμα "
+"περιήγησης."
+
+#: includes/class-scanner.php:153
+msgid "HubSpot: analytics and tracking."
+msgstr "HubSpot: αναλύσεις και παρακολούθηση."
+
+#: includes/class-scanner.php:156
+msgid "LinkedIn: browser identifier for ad targeting."
+msgstr ""
+"LinkedIn: αναγνωριστικό προγράμματος περιήγησης για στόχευση διαφημίσεων."
+
+#: includes/class-scanner.php:157
+msgid "LinkedIn: browser identifier."
+msgstr "LinkedIn: αναγνωριστικό προγράμματος περιήγησης."
+
+#: includes/class-scanner.php:158
+msgid "LinkedIn: data centre selection."
+msgstr "LinkedIn: επιλογή κέντρου δεδομένων."
+
+#: includes/class-scanner.php:161
+msgid "WordPress: stores admin settings timestamp."
+msgstr "WordPress: αποθηκεύει τη χρονική σήμανση των ρυθμίσεων διαχείρισης."
+
+#: includes/class-scanner.php:162
+msgid "WordPress: stores admin personalisation settings."
+msgstr "WordPress: αποθηκεύει ρυθμίσεις εξατομίκευσης της διαχείρισης."
+
+#: includes/class-scanner.php:163
+msgid "WordPress: authentication cookie for logged-in users."
+msgstr "WordPress: cookie ταυτοποίησης για συνδεδεμένους χρήστες."
+
+#: includes/class-scanner.php:164
+msgid "WordPress: secure authentication cookie."
+msgstr "WordPress: ασφαλές cookie ταυτοποίησης."
+
+#: includes/class-scanner.php:165
+msgid "WordPress: tests if cookies are enabled."
+msgstr "WordPress: ελέγχει αν τα cookies είναι ενεργοποιημένα."
+
+#: includes/class-scanner.php:166
+msgid "WordPress: stores language preference."
+msgstr "WordPress: αποθηκεύει την προτίμηση γλώσσας."
+
+#: includes/class-scanner.php:167
+msgid "WordPress: remembers comment author details."
+msgstr "WordPress: θυμάται τα στοιχεία του συγγραφέα του σχολίου."
+
+#: includes/class-scanner.php:170
+msgid "WooCommerce: stores cart and session data."
+msgstr "WooCommerce: αποθηκεύει δεδομένα καλαθιού και συνεδρίας."
+
+#: includes/class-scanner.php:171
+msgid "WooCommerce: stores customer session."
+msgstr "WooCommerce: αποθηκεύει τη συνεδρία του πελάτη."
+
+#: includes/class-scanner.php:174
+msgid ""
+"Order attribution: keeps traffic-source tracking data compatible across "
+"updates."
+msgstr ""
+"Απόδοση παραγγελιών: διατηρεί τα δεδομένα παρακολούθησης της πηγής "
+"επισκεψιμότητας συμβατά μετά από ενημερώσεις."
+
+#: includes/class-scanner.php:175
+msgid ""
+"Order attribution: records how you reached the site on your current visit."
+msgstr ""
+"Απόδοση παραγγελιών: καταγράφει πώς φτάσατε στον ιστότοπο κατά την τρέχουσα "
+"επίσκεψή σας."
+
+#: includes/class-scanner.php:176
+msgid "Order attribution: records how you first reached the site."
+msgstr ""
+"Απόδοση παραγγελιών: καταγράφει πώς φτάσατε για πρώτη φορά στον ιστότοπο."
+
+#: includes/class-scanner.php:177
+msgid ""
+"Order attribution: stores the traffic source and campaign of your current "
+"visit."
+msgstr ""
+"Απόδοση παραγγελιών: αποθηκεύει την πηγή επισκεψιμότητας και την καμπάνια "
+"της τρέχουσας επίσκεψής σας."
+
+#: includes/class-scanner.php:178
+msgid ""
+"Order attribution: stores the traffic source and campaign of your first "
+"visit."
+msgstr ""
+"Απόδοση παραγγελιών: αποθηκεύει την πηγή επισκεψιμότητας και την καμπάνια "
+"της πρώτης επίσκεψής σας."
+
+#: includes/class-scanner.php:179
+msgid ""
+"Order attribution: stores visitor/session data used for marketing "
+"attribution."
+msgstr ""
+"Απόδοση παραγγελιών: αποθηκεύει δεδομένα επισκέπτη/συνεδρίας που "
+"χρησιμοποιούνται για την απόδοση μάρκετινγκ."
+
+#: includes/class-scanner.php:180
+msgid "Order attribution: links page views within a visit for attribution."
+msgstr ""
+"Απόδοση παραγγελιών: συνδέει τις προβολές σελίδων μέσα σε μια επίσκεψη για "
+"σκοπούς απόδοσης."
+
+#: includes/class-scanner.php:181
+msgid "Order attribution: tracks the marketing source of your visit."
+msgstr ""
+"Απόδοση παραγγελιών: παρακολουθεί την πηγή μάρκετινγκ της επίσκεψής σας."
+
+#: includes/class-scanner.php:184
+msgid ""
+"Jetpack Stats: assigns an anonymous identifier used to measure site traffic."
+msgstr ""
+"Jetpack Stats: αντιστοιχίζει ένα ανώνυμο αναγνωριστικό που χρησιμοποιείται "
+"για τη μέτρηση της επισκεψιμότητας του ιστότοπου."
+
+#: includes/class-scanner.php:185
+msgid "Jetpack Stats: records referral and navigation data for analytics."
+msgstr ""
+"Jetpack Stats: καταγράφει δεδομένα παραπομπής και πλοήγησης για αναλύσεις."
+
+#: includes/class-scanner.php:186
+msgid "Jetpack Stats: measures site traffic and visitor activity."
+msgstr ""
+"Jetpack Stats: μετρά την επισκεψιμότητα του ιστότοπου και τη δραστηριότητα "
+"των επισκεπτών."
+
+#: includes/class-scanner.php:189
+msgid "Polylang: stores visitor language preference."
+msgstr "Polylang: αποθηκεύει την προτίμηση γλώσσας του επισκέπτη."
+
+#: includes/class-scanner.php:190
+msgid "MailPoet: tracks email subscriber activity."
+msgstr "MailPoet: παρακολουθεί τη δραστηριότητα των συνδρομητών email."
+
+#: includes/class-scanner.php:191
+msgid "Plausible: privacy-friendly analytics."
+msgstr "Plausible: αναλύσεις που σέβονται το απόρρητο."
+
+#: includes/class-scanner.php:194
+msgid "Cloudflare: bot management cookie."
+msgstr "Cloudflare: cookie διαχείρισης bots."
+
+#: includes/class-scanner.php:195
+msgid "Cloudflare: verifies legitimate visitor."
+msgstr "Cloudflare: επαληθεύει τους νόμιμους επισκέπτες."
+
+#: includes/class-scanner.php:196
+msgid "Cloudflare: identifies trusted web traffic."
+msgstr "Cloudflare: αναγνωρίζει αξιόπιστη κίνηση στον ιστό."
+
+#: includes/class-scanner.php:199
+msgid "Hotjar: tracks user behaviour and feedback."
+msgstr "Hotjar: παρακολουθεί τη συμπεριφορά και τα σχόλια των χρηστών."
+
+#: includes/class-scanner.php:200
+msgid "Microsoft Clarity: stores a user ID and preferences."
+msgstr ""
+"Microsoft Clarity: αποθηκεύει ένα αναγνωριστικό χρήστη και προτιμήσεις."
+
+#: includes/class-scanner.php:201
+msgid "Microsoft Clarity: connects page views into a session."
+msgstr "Microsoft Clarity: συνδέει τις προβολές σελίδων σε μία συνεδρία."
+
+#: includes/class-scanner.php:204
+msgid "Stores your cookie consent preferences."
+msgstr "Αποθηκεύει τις προτιμήσεις συγκατάθεσής σας για τα cookies."
+
+#: includes/class-scanner.php:205
+msgid ""
+"WP Consent API: stores your consent choice for necessary cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: αποθηκεύει την επιλογή συγκατάθεσής σας για τα απαραίτητα "
+"cookies. Συγχρονίζεται από το μπάνερ συγκατάθεσής σας."
+
+#: includes/class-scanner.php:206
+msgid ""
+"WP Consent API: stores your consent choice for analytics cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: αποθηκεύει την επιλογή συγκατάθεσής σας για τα αναλυτικά "
+"cookies. Συγχρονίζεται από το μπάνερ συγκατάθεσής σας."
+
+#: includes/class-scanner.php:207
+msgid ""
+"WP Consent API: stores your consent choice for anonymous statistics. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: αποθηκεύει την επιλογή συγκατάθεσής σας για τα ανώνυμα "
+"στατιστικά. Συγχρονίζεται από το μπάνερ συγκατάθεσής σας."
+
+#: includes/class-scanner.php:208
+msgid ""
+"WP Consent API: stores your consent choice for marketing cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: αποθηκεύει την επιλογή συγκατάθεσής σας για τα cookies "
+"μάρκετινγκ. Συγχρονίζεται από το μπάνερ συγκατάθεσής σας."
+
+#: includes/class-scanner.php:209
+msgid ""
+"WP Consent API: stores your consent choice for preference cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: αποθηκεύει την επιλογή συγκατάθεσής σας για τα cookies "
+"προτιμήσεων. Συγχρονίζεται από το μπάνερ συγκατάθεσής σας."
+
+#: includes/class-scanner.php:210
+msgid ""
+"WP Consent API: stores per-service consent overrides used by integrated "
+"plugins."
+msgstr ""
+"WP Consent API: αποθηκεύει παρακάμψεις συγκατάθεσης ανά υπηρεσία που "
+"χρησιμοποιούνται από ενσωματωμένα πρόσθετα."
+
+#: includes/class-scanner.php:211
+msgid ""
+"WP Consent API: stores your cookie consent choice. Synced from your consent "
+"banner."
+msgstr ""
+"WP Consent API: αποθηκεύει την επιλογή συγκατάθεσής σας για τα cookies. "
+"Συγχρονίζεται από το μπάνερ συγκατάθεσής σας."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:195
+#, php-format
+msgid "“%s” is not a usable address. Use at least 4 characters without spaces, for example widget.example.com."
+msgstr ""
+"Η διεύθυνση «%s» δεν είναι έγκυρη. Χρησιμοποιήστε τουλάχιστον 4 χαρακτήρες "
+"χωρίς κενά, για παράδειγμα widget.example.com."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:200
+#, php-format
+msgid "“%s” would block every script on this site. Enter the address of the external service instead."
+msgstr ""
+"Η διεύθυνση «%s» θα αποκλείσει όλα τα σενάρια αυτού του ιστότοπου. "
+"Εισαγάγετε στη θέση της τη διεύθυνση της εξωτερικής υπηρεσίας."
+
+#: includes/class-script-blocker.php:840
+msgid "This content is blocked because it requires analytics cookies."
+msgstr ""
+"Αυτό το περιεχόμενο έχει αποκλειστεί, επειδή απαιτεί αναλυτικά cookies."
+
+#: includes/class-script-blocker.php:841
+msgid "Accept analytics cookies"
+msgstr "Αποδοχή αναλυτικών cookies"
+
+#: includes/class-script-blocker.php:845
+msgid "This content is blocked because it requires preference cookies."
+msgstr ""
+"Αυτό το περιεχόμενο έχει αποκλειστεί, επειδή απαιτεί cookies προτιμήσεων."
+
+#: includes/class-script-blocker.php:846
+msgid "Accept preference cookies"
+msgstr "Αποδοχή cookies προτιμήσεων"
+
+#: includes/class-admin.php:890 includes/class-admin.php:1203
+msgid "Block by address"
+msgstr "Αποκλεισμός με βάση τη διεύθυνση"
+
+#: includes/class-admin.php:1213
+msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
+msgstr ""
+"Τα σενάρια στο HTML της σελίδας αντιστοιχίζονται μόνο όσο είναι ενεργός ο "
+"Αποκλεισμός προσαρμοσμένου κώδικα."
+
+#: includes/class-admin.php:1259 includes/class-admin.php:1289
+msgid "Address contains"
+msgstr "Η διεύθυνση περιέχει"
+
+#: includes/class-admin.php:1274
+msgid "Add address"
+msgstr "Προσθήκη διεύθυνσης"
+
+#: includes/class-admin.php:1284
+msgid "Necessary (never blocked)"
+msgstr "Απαραίτητα (δεν αποκλείονται ποτέ)"
+
+#: includes/class-admin.php:889
+msgid "Reviews widgets"
+msgstr "Γραφικά στοιχεία αξιολογήσεων"
+
+#: includes/class-admin.php:889
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgstr ""
+"Το γραφικό στοιχείο αξιολογήσεων Trustmary περιμένει τη συγκατάθεση για "
+"αναλυτικά cookies, επειδή αποθηκεύει αναγνωριστικό επισκέπτη στο πρόγραμμα "
+"περιήγησης. Στη θέση του εμφανίζεται ένα μήνυμα με κουμπί αποδοχής. Για να "
+"φορτώνεται αμέσως, προσθέστε το widget.trustmary.com στην ενότητα "
+"«Αποκλεισμός με βάση τη διεύθυνση» με την κατηγορία «Απαραίτητα (δεν "
+"αποκλείονται ποτέ)»."
+
+#: includes/class-admin.php:890
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
+msgstr ""
+"Αποκλείει οποιοδήποτε άλλο σενάριο με βάση μέρος της διεύθυνσής του μέχρι ο "
+"επισκέπτης να αποδεχτεί την κατηγορία που επιλέγετε, για παράδειγμα ένα "
+"γραφικό στοιχείο που το πρόσθετο δεν αναγνωρίζει. Ενεργοποιήστε την επιλογή "
+"«Εμφάνιση μηνύματος» για σενάρια που εμφανίζουν περιεχόμενο στη σελίδα."
+
+#: includes/class-scanner.php:137
+msgctxt "cookie duration"
+msgid "Persistent"
+msgstr "Μόνιμο"
+
+#: includes/class-scanner.php:209
+msgid "Trustmary: stores a visitor ID, the landing page and conversions in the browser’s local storage."
+msgstr ""
+"Trustmary: αποθηκεύει αναγνωριστικό επισκέπτη, τη σελίδα προσγείωσης και τις "
+"μετατροπές στον τοπικό χώρο αποθήκευσης του προγράμματος περιήγησης."
+
+#: includes/class-scanner.php:224
+msgid "Reddit Pixel: identifies the browser for ad measurement."
+msgstr ""
+"Reddit Pixel: αναγνωρίζει το πρόγραμμα περιήγησης για τη μέτρηση διαφημίσεων."
+
+#: includes/class-scanner.php:225
+msgid ""
+"Microsoft Advertising: groups page views into a session for ad measurement."
+msgstr ""
+"Microsoft Advertising: ομαδοποιεί τις προβολές σελίδων σε μια συνεδρία για "
+"τη μέτρηση διαφημίσεων."
+
+#: includes/class-scanner.php:226
+msgid ""
+"Microsoft Advertising: identifies the visitor across visits for ad "
+"measurement."
+msgstr ""
+"Microsoft Advertising: αναγνωρίζει τον επισκέπτη μεταξύ επισκέψεων για τη "
+"μέτρηση διαφημίσεων."
+
+#: includes/class-scanner.php:227
+msgid "Criteo: stores a browser identifier for ad personalisation."
+msgstr ""
+"Criteo: αποθηκεύει αναγνωριστικό προγράμματος περιήγησης για εξατομίκευση "
+"διαφημίσεων."
+
+#: includes/class-scanner.php:228
+msgid "Taboola: identifies the browser for ad targeting."
+msgstr "Taboola: αναγνωρίζει το πρόγραμμα περιήγησης για στόχευση διαφημίσεων."
+
+#: includes/class-scanner.php:229
+msgid "Klaviyo: recognises returning visitors for email marketing."
+msgstr ""
+"Klaviyo: αναγνωρίζει τους επισκέπτες που επιστρέφουν για μάρκετινγκ μέσω "
+"email."
+
+#: includes/class-scanner.php:230
+msgid "Yandex Metrica: identifies visitors and stores session settings."
+msgstr ""
+"Yandex Metrica: αναγνωρίζει επισκέπτες και αποθηκεύει ρυθμίσεις συνεδρίας."
+
+#: includes/class-scanner.php:231
+msgid "Segment: stores an anonymous visitor ID and traits."
+msgstr ""
+"Segment: αποθηκεύει ένα ανώνυμο αναγνωριστικό επισκέπτη και χαρακτηριστικά."
+
+#: includes/class-scanner.php:232
+msgid "Intercom: keeps the chat messenger session and visitor identity."
+msgstr ""
+"Intercom: διατηρεί τη συνεδρία του messenger συνομιλίας και την ταυτότητα "
+"του επισκέπτη."
+
+#: includes/class-scanner.php:233
+msgid "Crisp: keeps the chat session and visitor identity."
+msgstr ""
+"Crisp: διατηρεί τη συνεδρία συνομιλίας και την ταυτότητα του επισκέπτη."
+
+#: includes/class-admin.php
+msgid "Cookie policy link text"
+msgstr "Κείμενο συνδέσμου πολιτικής cookies"
+
+#: includes/class-admin.php
+msgid "Cookie settings label"
+msgstr "Ετικέτα ρυθμίσεων cookies"
+
+#: includes/class-admin.php
+msgid "Tooltip and screen reader label of the floating button, and the default text of the [kncc_cookie_settings] link."
+msgstr ""
+"Επεξήγηση εργαλείου και ετικέτα για προγράμματα ανάγνωσης οθόνης του "
+"αιωρούμενου κουμπιού, καθώς και το προεπιλεγμένο κείμενο του συνδέσμου "
+"[kncc_cookie_settings]."
+
+#: includes/class-admin.php
+msgid "Banner label for screen readers"
+msgstr "Ετικέτα μπάνερ για προγράμματα ανάγνωσης οθόνης"
+
+#: includes/class-admin.php
+msgid "Cookie categories"
+msgstr "Κατηγορίες cookies"
+
+#: includes/class-admin.php
+msgid "Text when no cookies are used"
+msgstr "Κείμενο όταν δεν χρησιμοποιούνται cookies"
+
+#: includes/class-admin.php
+msgid "Policy page texts"
+msgstr "Κείμενα σελίδας πολιτικής"
+
+#: includes/class-admin.php
+msgid "Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab."
+msgstr ""
+"Κείμενα της δήλωσης cookies [kncc_cookie_policy]. Αφήστε ένα πεδίο κενό για "
+"να χρησιμοποιηθεί το ενσωματωμένο κείμενο, το οποίο είναι μεταφρασμένο σε "
+"κάθε γλώσσα. Τα ονόματα των κατηγοριών επεξεργάζονται στην καρτέλα Γενικά."
+
+#: includes/class-admin.php
+msgid "Category descriptions"
+msgstr "Περιγραφές κατηγοριών"
+
+#: includes/class-admin.php
+msgid "Consent status"
+msgstr "Κατάσταση συγκατάθεσης"
+
+#: includes/class-admin.php
+msgid "Heading"
+msgstr "Επικεφαλίδα"
+
+#: includes/class-admin.php
+msgid "Before the visitor chooses"
+msgstr "Πριν επιλέξει ο επισκέπτης"
+
+#: includes/class-admin.php
+msgid "Technical note (shown when WP Consent API is active)"
+msgstr "Τεχνική σημείωση (εμφανίζεται όταν το WP Consent API είναι ενεργό)"
+
+#: includes/class-admin.php
+msgid "Buttons and messages"
+msgstr "Κουμπιά και μηνύματα"
+
+#: includes/class-admin.php
+msgid "Edit preferences button"
+msgstr "Κουμπί αλλαγής προτιμήσεων"
+
+#: includes/class-admin.php
+msgid "Message when no cookies are registered"
+msgstr "Μήνυμα όταν δεν υπάρχουν καταχωρισμένα cookies"
+
+#: includes/class-admin.php
+msgid "Table column headings"
+msgstr "Επικεφαλίδες στηλών πίνακα"
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 added cookies for services that are not on your site. They have been removed from the cookie list: %s. If your site does use some of these services, put the cookies back and delete the ones it does not use."
+msgstr ""
+"Η έκδοση 1.8.10 πρόσθεσε cookies για υπηρεσίες που δεν υπάρχουν στον "
+"ιστότοπό σας. Αφαιρέθηκαν από τη λίστα cookies: %s. Αν ο ιστότοπός σας "
+"χρησιμοποιεί κάποιες από αυτές τις υπηρεσίες, επαναφέρετε τα cookies και "
+"διαγράψτε όσα δεν χρησιμοποιεί."
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 may have added cookies for services that are not on your site: %s. The Google Tag Manager on your site can load any of them, so they were kept. Remove the ones your site does not use."
+msgstr ""
+"Η έκδοση 1.8.10 ενδέχεται να έχει προσθέσει cookies για υπηρεσίες που δεν "
+"υπάρχουν στον ιστότοπό σας: %s. Το Google Tag Manager του ιστότοπού σας "
+"μπορεί να φορτώσει οποιαδήποτε από αυτές τις υπηρεσίες, για αυτό τα cookies "
+"διατηρήθηκαν. Αφαιρέστε όσα ο ιστότοπός σας δεν χρησιμοποιεί."
+
+#: includes/class-admin.php
+msgid "Put the cookies back"
+msgstr "Επαναφορά των cookies"
+
+#: includes/class-admin.php
+msgid "Hide this notice"
+msgstr "Απόκρυψη αυτής της ειδοποίησης"
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr ""
+"Εμφανίζεται όταν οι επισκέπτες ανοίγουν την «Προσαρμογή». Αφήστε ένα πεδίο "
+"κενό για να χρησιμοποιηθεί το ενσωματωμένο κείμενο."
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr "Μηνύματα αποκλεισμένου περιεχομένου"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr "Μήνυμα για YouTube & Vimeo"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr "Κουμπί αποδοχής για YouTube & Vimeo"
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr "Μήνυμα περιεχομένου αναλυτικών cookies"
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr "Κουμπί αποδοχής περιεχομένου αναλυτικών cookies"
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr "Μήνυμα περιεχομένου cookies προτιμήσεων"
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr "Κουμπί αποδοχής περιεχομένου cookies προτιμήσεων"
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr "Ή προσθέστε έναν σύνδεσμο οπουδήποτε με τον σύντομο κώδικα:"
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr ""
+"Συνιστάται. Απενεργοποιήστε το μόνο αν ένα πρόσθετο προσωρινής αποθήκευσης ή "
+"ταχύτητας προκαλεί προβλήματα στον ιστότοπο."
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr "Αυτόματος αποκλεισμός, χωρίς καμία ρύθμιση."
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr "Εμφάνιση μηνύματος"
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr "Δεν έχουν επιλεγεί cookies."
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr "Δεν εντοπίζονται πλέον σενάρια %s στην αρχική σελίδα"
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr ""
+"Γλώσσα επεξεργασίας: %s. Οι αλλαγές που αποθηκεύετε ισχύουν μόνο για αυτήν "
+"τη γλώσσα."
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr ""
+"Επεξεργασία της προεπιλεγμένης γλώσσας. Οι άλλες γλώσσες έχουν τα δικά τους "
+"κείμενα."
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr ""
+"Δείτε προεπισκόπηση του μπάνερ με τις τρέχουσες, μη αποθηκευμένες ρυθμίσεις "
+"σας."
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr "Η ζωντανή προεπισκόπηση λειτουργεί μόνο με το «Στυλ προσθέτου»."
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr "Ετικέτα για προγράμματα ανάγνωσης οθόνης του κουμπιού ×."
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr ""
+"Κρατά σε αναμονή οποιοδήποτε άλλο σενάριο μέχρι ο επισκέπτης να αποδεχτεί "
+"την κατηγορία του. Χρησιμοποιήστε το για γραφικά στοιχεία και εργαλεία που "
+"το πρόσθετο δεν αναγνωρίζει."
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr ""
+"Η επιλογή «Απαραίτητα (δεν αποκλείονται ποτέ)» επιτρέπει σε μια διεύθυνση να "
+"φορτωθεί αμέσως, ακόμη και σε μια διεύθυνση που θα αποκλειόταν από το "
+"πρόσθετο."
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr ""
+"Εμφάνιση μηνύματος: όπου το αποκλεισμένο σενάριο θα εμφάνιζε περιεχόμενο "
+"(αξιολογήσεις, κρατήσεις, χάρτη), εμφανίζεται ένα μήνυμα με κουμπί αποδοχής "
+"αντί για ένα κενό. Δεν χρειάζεται για σενάρια παρακολούθησης."
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
+msgstr "ανοίγει σε νέα καρτέλα"

@@ -1,0 +1,2331 @@
+# Hungarian translation for Kansleri Cookie Consent
+# Copyright (C) 2024 Kansleri.fi
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kansleri Cookie Consent 1.8.13\n"
+"Report-Msgid-Bugs-To: https://kansleri.fi\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
+"PO-Revision-Date: 2026-11-03 12:00+0200\n"
+"Last-Translator: Kansleri.fi\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-admin.php:20 includes/class-admin.php:21
+#: includes/class-admin.php:122
+msgid "Cookie Consent"
+msgstr "Süti-hozzájárulás"
+
+#: includes/class-admin.php:67 includes/class-admin.php:1228
+msgid "Settings saved."
+msgstr "Beállítások mentve."
+
+#: includes/class-admin.php:68
+msgid "An error occurred."
+msgstr "Hiba történt."
+
+#: includes/class-admin.php:69
+msgid "Scanning..."
+msgstr "Átvizsgálás…"
+
+#: includes/class-admin.php:70
+msgid "Scan complete."
+msgstr "Az átvizsgálás befejeződött."
+
+#: includes/class-admin.php:71
+msgid "No new cookies found."
+msgstr "Nem található új süti."
+
+#: includes/class-admin.php:72
+msgid "Remove this cookie?"
+msgstr "Eltávolítja ezt a sütit?"
+
+#: includes/class-admin.php:73 includes/class-admin.php:414
+#: includes/class-admin.php:698
+msgid "Scan Cookies"
+msgstr "Sütik átvizsgálása"
+
+#: includes/class-admin.php:74
+msgid "Invalid JSON format. Please import a valid cookie array."
+msgstr "Érvénytelen JSON-formátum. Importáljon érvényes sütilistát."
+
+#: includes/class-admin.php:75
+msgid "Cookies imported into the table. Save cookies to persist changes."
+msgstr ""
+"A sütik bekerültek a táblázatba. A módosítások megőrzéséhez mentse a sütiket."
+
+#: includes/class-admin.php:76
+msgid "No valid cookies found in imported JSON."
+msgstr "Az importált JSON-ban nem található érvényes süti."
+
+#: includes/class-admin.php:77
+msgid "No cookie rows available to export."
+msgstr "Nincs exportálható sütisor."
+
+#: includes/class-admin.php:78
+msgid "AI prompt copied to clipboard."
+msgstr "Az AI-prompt a vágólapra másolva."
+
+#: includes/class-admin.php:79
+msgid ""
+"Could not copy prompt automatically. Select all and copy from the box below."
+msgstr ""
+"A prompt automatikus másolása nem sikerült. Jelölje ki az egészet, és "
+"másolja ki az alábbi mezőből."
+
+#: includes/class-admin.php:81
+msgid "AI prompt (copied to clipboard — or select all and copy manually):"
+msgstr ""
+"AI-prompt (a vágólapra másolva – vagy jelölje ki az egészet, és másolja ki "
+"kézzel):"
+
+#: includes/class-admin.php:82
+msgid ""
+"Policy page AI prompt (copied to clipboard — or select all and copy "
+"manually):"
+msgstr ""
+"Szabályzat oldalhoz készült AI-prompt (a vágólapra másolva – vagy jelölje ki "
+"az egészet, és másolja ki kézzel):"
+
+#: includes/class-admin.php:83
+msgid ""
+"Prompt ready below — select all (Ctrl+A) inside the box and copy (Ctrl+C)."
+msgstr ""
+"A prompt készen áll alább – jelölje ki az egészet (Ctrl+A) a mezőben, és "
+"másolja ki (Ctrl+C)."
+
+#: includes/class-admin.php:80
+msgid "All cookies are done! Every cookie has a description."
+msgstr "Minden süti kész! Minden sütihez tartozik leírás."
+
+#: includes/class-admin.php:81 includes/class-admin.php:457
+msgid "No cookies registered yet."
+msgstr "Még nincs regisztrált süti."
+
+#: includes/class-admin.php:82 includes/class-admin.php:473
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: includes/class-admin.php:83
+msgid ""
+"This will permanently delete all consent log records and statistics. "
+"Continue?"
+msgstr ""
+"Ezzel véglegesen törli az összes hozzájárulási naplórekordot és "
+"statisztikát. Folytatja?"
+
+#: includes/class-admin.php:84 includes/class-admin.php:1150
+msgid "All consent log records and statistics have been purged."
+msgstr "Az összes hozzájárulási naplórekord és statisztika törölve."
+
+#: includes/class-admin.php:85
+msgid "AI prompt for policy page copied to clipboard."
+msgstr "A szabályzat oldalhoz készült AI-prompt a vágólapra másolva."
+
+#: includes/class-admin.php:86
+msgid "CSS template copied to clipboard."
+msgstr "A CSS-sablon a vágólapra másolva."
+
+#: includes/class-admin.php:88
+#, php-format
+msgid "%d known cookie(s) added automatically:"
+msgstr "%d ismert süti automatikusan hozzáadva:"
+
+#: includes/class-admin.php:90
+#, php-format
+msgid ""
+"%d unknown cookie(s) added — please set their category and description "
+"below."
+msgstr ""
+"%d ismeretlen süti hozzáadva – adja meg a kategóriájukat és a leírásukat "
+"alább."
+
+#: includes/class-admin.php:91
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: includes/class-admin.php:92
+msgid "Added — categorize and describe in the table below"
+msgstr "Hozzáadva – kategorizálja és írja le az alábbi táblázatban"
+
+#: includes/class-admin.php:94
+#, php-format
+msgid "%d cookie(s) inferred from detected scripts on your site:"
+msgstr "%d süti kikövetkeztetve a weboldalon észlelt szkriptekből:"
+
+#: includes/class-admin.php:95
+msgid ""
+"These cookies are expected from tracking scripts on your site, even when "
+"blocked until consent."
+msgstr ""
+"Ezek a sütik a weboldalon lévő követőszkriptek alapján várhatók, akkor is, "
+"ha a hozzájárulásig blokkolva vannak."
+
+#: includes/class-admin.php:97
+#, php-format
+msgid ""
+"%d browser cookie(s) skipped — found in your browser but no matching script "
+"on this site:"
+msgstr ""
+"%d böngészősüti kihagyva – megtalálhatók a böngészőben, de ezen a weboldalon "
+"nincs hozzájuk tartozó szkript:"
+
+#: includes/class-admin.php:481
+msgid ""
+"%d cookie was automatically added based on tracking scripts detected on your"
+" site."
+msgid_plural ""
+"%d cookies were automatically added based on tracking scripts detected on "
+"your site."
+msgstr[0] ""
+"%d süti automatikusan hozzáadva a weboldalon észlelt követőszkriptek alapján."
+msgstr[1] ""
+"%d süti automatikusan hozzáadva a weboldalon észlelt követőszkriptek alapján."
+
+#: includes/class-admin.php:128
+msgid "General"
+msgstr "Általános"
+
+#: includes/class-admin.php:131 kansleri-cookie-consent.php:571
+msgid "Cookies"
+msgstr "Sütik"
+
+#: includes/class-admin.php:134
+msgid "Policy Page"
+msgstr "Szabályzat oldal"
+
+#: includes/class-admin.php:137
+msgid "Integration"
+msgstr "Integráció"
+
+#: includes/class-admin.php:140
+msgid "Script Blocking"
+msgstr "Szkriptblokkolás"
+
+#: includes/class-admin.php:143
+msgid "Statistics"
+msgstr "Statisztika"
+
+#: includes/class-admin.php:146
+msgid "Documentations"
+msgstr "Dokumentáció"
+
+#: includes/class-admin.php:210
+msgid "Open banner preview"
+msgstr "Banner előnézetének megnyitása"
+
+#: includes/class-admin.php:222 includes/class-admin.php:689
+msgid "Banner style"
+msgstr "Banner stílusa"
+
+#: includes/class-admin.php:225
+msgid "Bottom bar"
+msgstr "Alsó sáv"
+
+#: includes/class-admin.php:226
+msgid "Centered modal"
+msgstr "Középső párbeszédablak"
+
+#: includes/class-admin.php:227
+msgid "Corner popup"
+msgstr "Sarokban megjelenő ablak"
+
+#: includes/class-admin.php:233
+msgid "Colors"
+msgstr "Színek"
+
+#: includes/class-admin.php:237
+msgid "Banner background"
+msgstr "Banner háttere"
+
+#: includes/class-admin.php:238 includes/class-admin.php:275
+msgid "Heading text"
+msgstr "Címsor szövege"
+
+#: includes/class-admin.php:239
+msgid "Body text"
+msgstr "Törzsszöveg"
+
+#: includes/class-admin.php:240
+msgid "Primary button"
+msgstr "Elsődleges gomb"
+
+#: includes/class-admin.php:241
+msgid "Primary button text"
+msgstr "Elsődleges gomb szövege"
+
+#: includes/class-admin.php:242
+msgid "Secondary button"
+msgstr "Másodlagos gomb"
+
+#: includes/class-admin.php:243
+msgid "Secondary button text"
+msgstr "Másodlagos gomb szövege"
+
+#: includes/class-admin.php:265 includes/class-admin.php:691
+msgid "Text and font style"
+msgstr "Szöveg és betűtípus stílusa"
+
+#: includes/class-admin.php:268 includes/class-admin.php:521
+msgid "Theme style (inherit site typography)"
+msgstr "Téma stílusa (a weboldal tipográfiáját örökli)"
+
+#: includes/class-admin.php:269 includes/class-admin.php:522
+msgid "Plugin style (strict font sizes/colors)"
+msgstr "Bővítmény stílusa (kötött betűméretek és színek)"
+
+#: includes/class-admin.php:281
+msgid "Description text"
+msgstr "Leírás szövege"
+
+#: includes/class-admin.php:287
+msgid "Accept button text"
+msgstr "Elfogadás gomb szövege"
+
+#: includes/class-admin.php:291
+msgid "Reject button text"
+msgstr "Elutasítás gomb szövege"
+
+#: includes/class-admin.php:295
+msgid "Customize button text"
+msgstr "Testreszabás gomb szövege"
+
+#: includes/class-admin.php:299
+msgid "Save preferences button text"
+msgstr "Beállítások mentése gomb szövege"
+
+#: includes/class-admin.php:303 includes/class-script-blocker.php:187
+msgid "This content is blocked because it requires marketing cookies."
+msgstr ""
+"Ez a tartalom blokkolva van, mert marketingsütik engedélyezését igényli."
+
+#: includes/class-admin.php:304 includes/class-script-blocker.php:190
+msgid "Accept marketing cookies"
+msgstr "Marketingsütik elfogadása"
+
+#: includes/class-admin.php:318 includes/class-admin.php:693
+msgid "Floating settings button"
+msgstr "Lebegő beállítások gomb"
+
+#: includes/class-admin.php:322
+msgid ""
+"Show a small floating button so visitors can re-open their cookie "
+"preferences"
+msgstr ""
+"Kis lebegő gomb megjelenítése, hogy a látogatók újra megnyithassák a "
+"süti-beállításaikat"
+
+#: includes/class-admin.php:329
+msgid "Copied!"
+msgstr "Másolva!"
+
+#: includes/class-admin.php:329 includes/class-admin.php:330
+msgid "Copy"
+msgstr "Másolás"
+
+#: includes/class-admin.php:346 includes/class-admin.php:531
+#: includes/class-admin.php:664
+msgid "Save Settings"
+msgstr "Beállítások mentése"
+
+#: includes/class-admin.php:370
+msgid "Banner preview"
+msgstr "Banner előnézete"
+
+#: includes/class-admin.php:415
+msgid "Add Cookie"
+msgstr "Süti hozzáadása"
+
+#: includes/class-admin.php:419
+msgid "Need help describing these cookies?"
+msgstr "Segítségre van szüksége a sütik leírásához?"
+
+#: includes/class-admin.php:421
+msgid ""
+"Click the button below to copy a ready-made AI prompt with your cookie data."
+msgstr ""
+"Kattintson az alábbi gombra, hogy a sütiadataival elkészített AI-promptot a "
+"vágólapra másolja."
+
+#: includes/class-admin.php:422
+msgid "Paste the prompt into an AI tool (ChatGPT, Claude, Gemini, etc.)."
+msgstr "Illessze be a promptot egy AI-eszközbe (ChatGPT, Claude, Gemini stb.)."
+
+#: includes/class-admin.php:423
+msgid "The AI will return improved JSON with clear cookie descriptions."
+msgstr "Az AI egy javított JSON-t ad vissza, érthető sütileírásokkal."
+
+#: includes/class-admin.php:424
+msgid ""
+"Copy the AI response and paste it into the text box that appears below."
+msgstr ""
+"Másolja ki az AI válaszát, és illessze be az alább megjelenő szövegmezőbe."
+
+#: includes/class-admin.php:425
+msgid "Click Import — cookies are saved automatically."
+msgstr ""
+"Kattintson az Importálás gombra – a sütik automatikusan mentésre kerülnek."
+
+#: includes/class-admin.php:429
+msgid "Copy AI Prompt to Clipboard"
+msgstr "AI-prompt másolása a vágólapra"
+
+#: includes/class-admin.php:433
+msgid "Paste the AI response here:"
+msgstr "Illessze be ide az AI válaszát:"
+
+#: includes/class-admin.php:434
+msgid "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+msgstr "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+
+#: includes/class-admin.php:436
+msgid "Import"
+msgstr "Importálás"
+
+#: includes/class-admin.php:447
+msgid "Name"
+msgstr "Név"
+
+#: includes/class-admin.php:448 includes/class-admin.php:989
+msgid "Category"
+msgstr "Kategória"
+
+#: includes/class-admin.php:449 includes/class-policy-page.php:91
+#: includes/class-policy-page.php:100
+msgid "Provider"
+msgstr "Szolgáltató"
+
+#: includes/class-admin.php:450 includes/class-policy-page.php:93
+#: includes/class-policy-page.php:102
+msgid "Duration"
+msgstr "Időtartam"
+
+#: includes/class-admin.php:451
+msgid "Description"
+msgstr "Leírás"
+
+#: includes/class-admin.php:464 kansleri-cookie-consent.php:335
+msgid "Necessary"
+msgstr "Szükséges"
+
+#: includes/class-admin.php:465 kansleri-cookie-consent.php:339
+msgid "Analytics"
+msgstr "Analitika"
+
+#: includes/class-admin.php:466 kansleri-cookie-consent.php:343
+msgid "Marketing"
+msgstr "Marketing"
+
+#: includes/class-admin.php:467 kansleri-cookie-consent.php:347
+msgid "Preferences"
+msgstr "Preferenciák"
+
+#: includes/class-admin.php:480 includes/class-admin.php:700
+msgid "Save Cookies"
+msgstr "Sütik mentése"
+
+#: includes/class-admin.php:494
+msgid ""
+"No cookie policy page has been selected. Set a Privacy Policy page in "
+"Settings → Privacy, or choose a page below."
+msgstr ""
+"Nincs kiválasztva sütiszabályzat oldal. Állítson be Adatvédelmi irányelvek "
+"oldalt a Beállítások → Adatvédelem menüben, vagy válasszon egy oldalt alább."
+
+#: includes/class-admin.php:502 includes/class-admin.php:705
+msgid "Cookie policy page"
+msgstr "Sütiszabályzat oldala"
+
+#: includes/class-admin.php:505
+msgid "— Select a page —"
+msgstr "— Válasszon oldalt —"
+
+#: includes/class-admin.php:510
+#, php-format
+msgid "%s (WordPress Privacy Policy)"
+msgstr "%s (WordPress adatvédelmi irányelvek)"
+
+#: includes/class-admin.php:513
+msgid ""
+"Defaults automatically to the WordPress Privacy Policy page (Settings → "
+"Privacy). Add the shortcode [kncc_cookie_policy] to that page to show the "
+"cookie declaration."
+msgstr ""
+"Alapértelmezés szerint a WordPress Adatvédelmi irányelvek oldala "
+"(Beállítások → Adatvédelem). Adja hozzá a [kncc_cookie_policy] rövidkódot "
+"ahhoz az oldalhoz a sütinyilatkozat megjelenítéséhez."
+
+#: includes/class-admin.php:518
+msgid "Policy page style"
+msgstr "Szabályzat oldal stílusa"
+
+#: includes/class-admin.php:525
+msgid ""
+"Controls the styling of the [kncc_cookie_policy] cookie declaration table."
+msgstr ""
+"A [kncc_cookie_policy] sütinyilatkozat-táblázat megjelenését szabályozza."
+
+#: includes/class-admin.php:628
+msgid ""
+"Theme style is the default so the policy page matches your site typography. "
+"Switch to Plugin style for strict plugin sizes and colors."
+msgstr ""
+"Alapértelmezés a Téma stílusa, így a szabályzat oldal igazodik a weboldal "
+"tipográfiájához. Kötött méretekhez és színekhez váltson Bővítmény stílusára."
+
+#: includes/class-admin.php:539
+msgid "Preview Policy Page"
+msgstr "Szabályzat oldal előnézete"
+
+#: includes/class-admin.php:546
+msgid "Generate cookie policy page content with AI"
+msgstr "Sütiszabályzat oldal tartalmának létrehozása AI-val"
+
+#: includes/class-admin.php:548
+msgid ""
+"Copy the prompt below and paste it into an AI tool. It will generate a "
+"complete cookie and privacy policy page in your site language. The cookie "
+"declaration will be handled automatically by the [kncc_cookie_policy] "
+"shortcode. Paste the generated HTML into your policy page."
+msgstr ""
+"Másolja ki az alábbi promptot, és illessze be egy AI-eszközbe. Az AI teljes "
+"süti- és adatvédelmi szabályzat oldalt készít a weboldal nyelvén. A "
+"sütinyilatkozatot a [kncc_cookie_policy] rövidkód automatikusan kezeli. "
+"Illessze be a létrehozott HTML-t a szabályzat oldalra."
+
+#: includes/class-admin.php:552
+msgid "Copy AI Prompt for Policy Page"
+msgstr "AI-prompt másolása a szabályzat oldalhoz"
+
+#: includes/class-admin.php:565
+msgid "Detected integrations"
+msgstr "Észlelt integrációk"
+
+#: includes/class-admin.php:692
+msgid ""
+"Active — Site Kit sets consent defaults for its own regions. This plugin "
+"sets a denied default for all other visitors and sends consent updates."
+msgstr ""
+"Aktív – a Site Kit a saját régióira állítja be a hozzájárulási "
+"alapértékeket. Ez a bővítmény az összes többi látogatóra megtiltott "
+"alapértéket állít be, és elküldi a hozzájárulási frissítéseket."
+
+#: includes/class-admin.php:575
+msgid ""
+"Active — Site Kit consent mode not enabled. This plugin handles all consent "
+"signals."
+msgstr ""
+"Aktív – a Site Kit Consent Mode funkciója nincs engedélyezve. Ez a bővítmény "
+"kezeli az összes hozzájárulási jelzést."
+
+#: includes/class-admin.php:586
+msgid ""
+"Active — consent status is shared with other plugins via the WP Consent API."
+msgstr ""
+"Aktív – a hozzájárulási állapotot a WP Consent API-n keresztül megosztja a "
+"többi bővítménnyel."
+
+#: includes/class-admin.php:598 includes/class-admin.php:712
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: includes/class-admin.php:602
+msgid ""
+"Enable Consent Mode v2 (outputs consent defaults in &lt;head&gt; before GTM)"
+msgstr ""
+"Consent Mode v2 engedélyezése (a hozzájárulási alapértékeket a &lt;head&gt; "
+"részben adja ki a GTM előtt)"
+
+#: includes/class-admin.php:610
+msgid ""
+"Forced on because Google Site Kit is active. Consent Mode is required for "
+"Site Kit to receive consent signals."
+msgstr ""
+"Kényszerítve bekapcsolva, mert a Google Site Kit aktív. A Site Kitnek "
+"Consent Mode szükséges a hozzájárulási jelzések fogadásához."
+
+#: includes/class-admin.php:614
+msgid ""
+"Consent Mode tells Google tags what the visitor has allowed (for example "
+"analytics or ads). This plugin sends a denied-by-default signal before tags "
+"run, and sends an updated signal after the visitor chooses. It controls "
+"consent signals only: you still need to install GTM/GA scripts separately."
+msgstr ""
+"A Consent Mode megmondja a Google-címkéknek, mit engedélyezett a látogató "
+"(például az analitikát vagy a hirdetéseket). Ez a bővítmény "
+"alapértelmezetten megtiltott jelzést küld, mielőtt a címkék futnának, majd "
+"frissített jelzést küld, miután a látogató választott. Csak a hozzájárulási "
+"jelzéseket kezeli: a GTM/GA szkripteket külön kell telepítenie."
+
+#: includes/class-admin.php:740
+msgid ""
+"Site Kit sets consent defaults for its own regions. This plugin adds a "
+"denied default for all other visitors and sends each visitor's choice as a "
+"consent update."
+msgstr ""
+"A Site Kit a saját régióira állít be hozzájárulási alapértékeket. Ez a "
+"bővítmény az összes többi látogatóra megtiltott alapértéket ad hozzá, és "
+"minden látogató választását hozzájárulási frissítésként elküldi."
+
+#: includes/class-admin.php:630
+msgid "Need Google Analytics 4 or Google Tag Manager?"
+msgstr "Szüksége van Google Analytics 4-re vagy Google Tag Managerre?"
+
+#: includes/class-admin.php:633
+msgid ""
+"We recommend installing Google Site Kit — Google's official WordPress "
+"plugin. It sets up GA4 and GTM in a few clicks, and works seamlessly with "
+"Kansleri Cookie Consent: Consent Mode v2 signals are handled automatically, "
+"with no double-loading or conflicts."
+msgstr ""
+"Javasoljuk a Google Site Kit telepítését – a Google hivatalos "
+"WordPress-bővítményét. Néhány kattintással beállítja a GA4-et és a GTM-et, "
+"és zökkenőmentesen működik együtt a Kansleri Cookie Consent bővítménnyel: a "
+"Consent Mode v2 jelzéseit automatikusan kezeli, kettős betöltés és ütközések "
+"nélkül."
+
+#: includes/class-admin.php:638
+msgid "Install Google Site Kit"
+msgstr "Google Site Kit telepítése"
+
+#: includes/class-admin.php:649
+msgid "Consent Mode defaults (auto-injected in &lt;head&gt;)"
+msgstr ""
+"Consent Mode alapértékek (automatikusan beillesztve a &lt;head&gt; részbe)"
+
+#: includes/class-admin.php:673
+msgid "Installation guide"
+msgstr "Telepítési útmutató"
+
+#: includes/class-admin.php:675
+msgid "Activate the plugin and open Settings > Cookie Consent."
+msgstr ""
+"Aktiválja a bővítményt, majd nyissa meg a Beállítások > Süti-hozzájárulás "
+"menüpontot."
+
+#: includes/class-admin.php:676
+msgid "Configure banner texts, style, and button labels in the General tab."
+msgstr ""
+"Az Általános fülön állítsa be a banner szövegeit, stílusát és gombfeliratait."
+
+#: includes/class-admin.php:677
+msgid ""
+"Open the Integration tab and enable Google Consent Mode v2 if you use "
+"GTM/Google tags."
+msgstr ""
+"Nyissa meg az Integráció fület, és kapcsolja be a Google Consent Mode v2 "
+"funkciót, ha GTM-et vagy Google-címkéket használ."
+
+#: includes/class-admin.php:678
+msgid ""
+"Open the Cookies tab, run Scan Cookies, then review and categorize unknown "
+"cookies."
+msgstr ""
+"Nyissa meg a Sütik fület, futtassa a Sütik átvizsgálása funkciót, majd nézze "
+"át és kategorizálja az ismeretlen sütiket."
+
+#: includes/class-admin.php:679
+msgid ""
+"If unknown cookies are found, an AI helper appears: copy the prompt, paste "
+"it into an AI tool, paste the response back into the text box, click Import,"
+" then Save Cookies."
+msgstr ""
+"Ha ismeretlen sütik kerülnek elő, megjelenik egy AI-segéd: másolja ki a "
+"promptot, illessze be egy AI-eszközbe, illessze vissza a választ a "
+"szövegmezőbe, kattintson az Importálás, majd a Sütik mentése gombra."
+
+#: includes/class-admin.php:680
+msgid ""
+"Confirm the Cookie Policy page in the Policy Page tab — it defaults to the "
+"WordPress Privacy Policy page."
+msgstr ""
+"Erősítse meg a sütiszabályzat oldalát a Szabályzat oldal fülön – "
+"alapértelmezés szerint a WordPress Adatvédelmi irányelvek oldala van "
+"beállítva."
+
+#: includes/class-admin.php:681
+msgid ""
+"Use the AI prompt on the Policy Page tab to generate the full cookie policy "
+"page content. Paste the generated HTML into your policy page."
+msgstr ""
+"A Szabályzat oldal fülön található AI-prompttal hozza létre a teljes "
+"sütiszabályzat oldal tartalmát. Illessze be a létrehozott HTML-t a "
+"szabályzat oldalra."
+
+#: includes/class-admin.php:682
+msgid "Review the Script Blocking tab to see which scripts are auto-blocked."
+msgstr ""
+"A Szkriptblokkolás fülön megnézheti, mely szkriptek vannak automatikusan "
+"blokkolva."
+
+#: includes/class-admin.php:685
+msgid "What each option means"
+msgstr "Az egyes beállítások jelentése"
+
+#: includes/class-admin.php:687
+msgid "General tab"
+msgstr "Általános fül"
+
+#: includes/class-admin.php:689
+msgid "Choose visual placement of the banner (bar, modal, corner)."
+msgstr "Válassza ki a banner elhelyezését (sáv, felugró ablak, sarok)."
+
+#: includes/class-admin.php:690
+msgid "Controls the main accent color used by buttons and links."
+msgstr "A gombok és hivatkozások fő kiemelő színét szabályozza."
+
+#: includes/class-admin.php:690
+msgid "Primary color"
+msgstr "Elsődleges szín"
+
+#: includes/class-admin.php:691
+msgid ""
+"Theme style inherits site typography. Plugin style uses strict sizes/colors "
+"for consistent readability."
+msgstr ""
+"A Téma stílusa örökli a weboldal tipográfiáját. A Bővítmény stílusa kötött "
+"méreteket és színeket használ az egységes olvashatóságért."
+
+#: includes/class-admin.php:692
+msgid "Customize visible wording in the consent banner."
+msgstr "A hozzájárulási banner látható szövegeinek testreszabása."
+
+#: includes/class-admin.php:692
+msgid "Heading/Description/Button texts"
+msgstr "Címsor/Leírás/Gombok szövege"
+
+#: includes/class-admin.php:693
+msgid "Lets visitors re-open cookie settings after they close the banner."
+msgstr ""
+"Lehetővé teszi, hogy a látogatók a banner bezárása után újra megnyissák a "
+"süti-beállításokat."
+
+#: includes/class-admin.php:696
+msgid "Cookies tab"
+msgstr "Sütik fül"
+
+#: includes/class-admin.php:777
+msgid ""
+"Scans browser cookies and infers expected cookies from tracking scripts on "
+"your site (even when blocked until consent). Known cookies are auto-mapped "
+"to categories."
+msgstr ""
+"Átvizsgálja a böngészőben tárolt sütiket, és a weboldalon lévő "
+"követőszkriptek alapján kikövetkezteti a várható sütiket (akkor is, ha a "
+"hozzájárulásig blokkolva vannak). Az ismert sütik automatikusan "
+"kategóriákhoz kerülnek."
+
+#: includes/class-admin.php:699
+msgid "AI Helper"
+msgstr "AI-segéd"
+
+#: includes/class-admin.php:699
+msgid ""
+"Appears after scanning when unknown cookies are found. Copies a ready prompt"
+" to paste into an AI tool. After the AI responds, paste the JSON back into "
+"the text box and click Import."
+msgstr ""
+"Akkor jelenik meg az átvizsgálás után, ha ismeretlen sütik kerülnek elő. "
+"Kész promptot másol egy AI-eszközbe való beillesztéshez. Miután az AI "
+"válaszolt, illessze vissza a JSON-t a szövegmezőbe, és kattintson az "
+"Importálás gombra."
+
+#: includes/class-admin.php:700
+msgid ""
+"Persists current cookie table values to be used in policy output and consent"
+" details."
+msgstr ""
+"A jelenlegi sütitáblázat értékeit tartósan elmenti, hogy a szabályzat "
+"kimenetében és a hozzájárulási részletekben felhasználhatók legyenek."
+
+#: includes/class-admin.php:703
+msgid "Policy Page tab"
+msgstr "Szabályzat oldal fül"
+
+#: includes/class-admin.php:705
+msgid ""
+"Selects which page is used for cookie policy content generated by shortcode."
+msgstr ""
+"Kiválasztja, melyik oldal szolgál a rövidkóddal létrehozott sütiszabályzat "
+"tartalmához."
+
+#: includes/class-admin.php:706
+msgid "AI Prompt for Policy Page"
+msgstr "AI-prompt a szabályzat oldalhoz"
+
+#: includes/class-admin.php:706
+msgid ""
+"Generates a prompt you can paste into an AI tool to create a full privacy "
+"and cookie policy. The generated text will include the [kncc_cookie_policy] "
+"shortcode for the cookie declaration section."
+msgstr ""
+"Promptot hoz létre, amelyet egy AI-eszközbe beillesztve teljes adatvédelmi "
+"és sütiszabályzatot készíttethet. A létrehozott szöveg tartalmazni fogja a "
+"[kncc_cookie_policy] rövidkódot a sütinyilatkozat részhez."
+
+#: includes/class-admin.php:707
+msgid ""
+"If Polylang or WPML is active, each language can have its own translated "
+"policy page. If a translation is missing for some language, the default-"
+"language policy page is used as a fallback."
+msgstr ""
+"Ha a Polylang vagy a WPML aktív, minden nyelvnek lehet saját lefordított "
+"szabályzat oldala. Ha valamelyik nyelvhez hiányzik a fordítás, tartalékként "
+"az alapértelmezett nyelv szabályzat oldala jelenik meg."
+
+#: includes/class-admin.php:707
+msgid "Multilingual support"
+msgstr "Többnyelvű támogatás"
+
+#: includes/class-admin.php:710
+msgid "Integration tab"
+msgstr "Integráció fül"
+
+#: includes/class-admin.php:712
+msgid ""
+"A Google framework for privacy-safe tag behavior. Before consent, storage "
+"signals are denied; after user choice, signals are updated (for example "
+"analytics_storage=granted). This helps GTM/Google tags respect user consent "
+"state."
+msgstr ""
+"A Google keretrendszere az adatvédelmi szempontból biztonságos "
+"címkeműködéshez. A hozzájárulás előtt a tárolási jelzések meg vannak tiltva; "
+"a felhasználó döntése után a jelzések frissülnek (például "
+"analytics_storage=granted). Ez segít, hogy a GTM/Google-címkék tiszteletben "
+"tartsák a felhasználó hozzájárulási állapotát."
+
+#: includes/class-admin.php:713
+msgid "GTM Container ID"
+msgstr "GTM-tároló azonosítója"
+
+#: includes/class-admin.php:713
+msgid ""
+"Your GTM container identifier (for example GTM-N6828NL). It identifies which"
+" tag container your site uses. This field is informational in this plugin "
+"and does not inject GTM scripts."
+msgstr ""
+"A GTM-tároló azonosítója (például GTM-N6828NL). Megadja, melyik címketárolót "
+"használja a weboldal. Ez a mező ebben a bővítményben csak tájékoztató "
+"jellegű, és nem szúr be GTM-szkripteket."
+
+#: includes/class-admin.php:716
+msgid "Script Blocking tab"
+msgstr "Szkriptblokkolás fül"
+
+#: includes/class-admin.php:798
+msgid ""
+"Tools like Google Analytics are blocked automatically when added through "
+"WordPress plugins (e.g. Google Site Kit)."
+msgstr ""
+"A Google Analyticshez hasonló eszközök automatikusan blokkolva vannak, ha "
+"WordPress-bővítményeken keresztül kerültek fel (pl. Google Site Kit)."
+
+#: includes/class-admin.php:799 includes/class-admin.php:1071
+msgid "Custom Code blocking"
+msgstr "Egyéni kód blokkolása"
+
+#: includes/class-admin.php:799
+msgid ""
+"Stops tracking pasted into Bricks, Elementor, or similar Custom Code fields "
+"until the visitor gives consent."
+msgstr ""
+"Leállítja a Bricksbe, az Elementorba vagy hasonló Egyéni kód mezőkbe "
+"beillesztett követést, amíg a látogató nem járul hozzá."
+
+#: includes/class-admin.php:719
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
+msgstr ""
+"A YouTube-os és Vimeo-s videóbeágyazások automatikusan blokkolva vannak, "
+"amíg a látogató el nem fogadja a marketingsütiket. Helyette egy elfogadás "
+"gombos üzenet jelenik meg. Ha a látogató már hozzájárult, a videók a "
+"szokásos módon töltődnek be."
+
+#: includes/class-admin.php:719
+msgid "YouTube & Vimeo iframe blocking"
+msgstr "YouTube & Vimeo iframe blokkolása"
+
+#: includes/class-admin.php:722
+msgid "Statistics tab"
+msgstr "Statisztika fül"
+
+#: includes/class-admin.php:724
+msgid "Consent statistics"
+msgstr "Hozzájárulási statisztika"
+
+#: includes/class-admin.php:724
+msgid ""
+"Shows how many visitors accepted, rejected, or customized cookies over 7, "
+"30, or 90 day periods. Data is aggregated and anonymous — no personal data "
+"is stored."
+msgstr ""
+"Megmutatja, hány látogató fogadta el, utasította el vagy szabta testre a "
+"sütiket 7, 30 vagy 90 napos időszakokban. Az adatok összesítettek és "
+"névtelenek – személyes adat nem kerül tárolásra."
+
+#: includes/class-admin.php:725 includes/class-admin.php:1022
+msgid "Consent Log"
+msgstr "Hozzájárulási napló"
+
+#: includes/class-admin.php:725
+msgid ""
+"Individual anonymized consent records for GDPR audit compliance. Records "
+"contain a hashed visitor identifier, the consent choice, accepted "
+"categories, and the policy version. Records are automatically purged after "
+"13 months."
+msgstr ""
+"Egyedi, anonimizált hozzájárulási rekordok a GDPR-auditnak való "
+"megfeleléshez. A rekordok tartalmaznak egy kivonatolt látogatóazonosítót, a "
+"hozzájárulási döntést, az elfogadott kategóriákat és a szabályzat verzióját. "
+"A rekordokat 13 hónap után automatikusan törli a rendszer."
+
+#: includes/class-admin.php:726
+msgid "Downloads all consent log records as a CSV file for auditing."
+msgstr ""
+"Letölti az összes hozzájárulási naplórekordot CSV-fájlként auditálás "
+"céljából."
+
+#: includes/class-admin.php:726 includes/class-admin.php:1038
+msgid "Export CSV"
+msgstr "CSV exportálása"
+
+#: includes/class-admin.php:727
+msgid "Permanently deletes all consent log records and aggregate statistics."
+msgstr ""
+"Véglegesen törli az összes hozzájárulási naplórekordot és az összesített "
+"statisztikát."
+
+#: includes/class-admin.php:727 includes/class-admin.php:1039
+msgid "Purge All Records"
+msgstr "Összes rekord törlése"
+
+#: includes/class-admin.php:730
+msgid "Multilingual support (WPML & Polylang)"
+msgstr "Többnyelvű támogatás (WPML & Polylang)"
+
+#: includes/class-admin.php:732
+msgid "Per-language banner texts"
+msgstr "Nyelvenkénti bannerszövegek"
+
+#: includes/class-admin.php:732
+msgid ""
+"When WPML or Polylang is active, switch to a secondary language in the admin"
+" bar and edit General tab settings (saved per language). With WPML String "
+"Translation, you can also translate the [kncc_settings]* admin text strings "
+"— those are used when no per-language override is saved. Otherwise each "
+"language uses its own plugin defaults (English if unsupported). Texts are "
+"never copied blindly from the default language."
+msgstr ""
+"Ha a WPML vagy a Polylang aktív, váltson másodlagos nyelvre az admin sávban, "
+"és szerkessze az Általános fül beállításait (nyelvenként mentődnek). A WPML "
+"String Translation segítségével a [kncc_settings]* adminisztrációs "
+"szövegeket is lefordíthatja – ezeket akkor használja a rendszer, ha nincs "
+"mentve nyelvenkénti felülbírálás. Egyébként minden nyelv a bővítmény saját "
+"alapértelmezett szövegeit használja (angolt, ha az adott nyelv nem "
+"támogatott). A szövegek soha nem másolódnak vakon az alapértelmezett "
+"nyelvből."
+
+#: includes/class-admin.php:733
+msgid ""
+"Cookie names, categories, providers, and durations are shared across all "
+"languages. Only the description field can be translated per language. Switch"
+" language and edit descriptions in the Cookies tab."
+msgstr ""
+"A sütik nevei, kategóriái, szolgáltatói és időtartamai minden nyelven "
+"közösek. Csak a leírás mező fordítható nyelvenként. Váltson nyelvet, és "
+"szerkessze a leírásokat a Sütik fülön."
+
+#: includes/class-admin.php:733
+msgid "Per-language cookie descriptions"
+msgstr "Nyelvenkénti sütileírások"
+
+#: includes/class-admin.php:734
+msgid ""
+"Banner style, colors, and policy page can be set per language. Non-text "
+"settings fall back to the default language; banner texts use per-language "
+"overrides, WPML String Translation, or each language's own defaults."
+msgstr ""
+"A banner stílusa, színei és a szabályzat oldal nyelvenként állíthatók. A nem "
+"szöveges beállítások az alapértelmezett nyelvből öröklődnek; a "
+"bannerszövegek nyelvenkénti felülbírálást, a WPML String Translation "
+"funkciót vagy az adott nyelv saját alapértelmezéseit használják."
+
+#: includes/class-admin.php:734
+msgid "Per-language settings"
+msgstr "Nyelvenkénti beállítások"
+
+#: includes/class-admin.php:735
+msgid "AI prompts"
+msgstr "AI-promptok"
+
+#: includes/class-admin.php:735
+msgid ""
+"AI prompts for cookie descriptions and policy pages are automatically "
+"generated in the language matching the current admin locale."
+msgstr ""
+"A sütileírásokhoz és a szabályzat oldalakhoz készült AI-promptok "
+"automatikusan az aktuális admin nyelvi beállításnak megfelelő nyelven jönnek "
+"létre."
+
+#: includes/class-admin.php:738
+msgid "Shortcodes"
+msgstr "Rövidkódok"
+
+#: includes/class-admin.php:740
+msgid "Displays the full cookie declaration table on your policy page."
+msgstr "Megjeleníti a teljes sütinyilatkozat-táblázatot a szabályzat oldalon."
+
+#: includes/class-admin.php:741
+msgid ""
+"Renders a link that opens the cookie settings dialog. Use in footers, menus,"
+" or widgets. Customize the link text with the text attribute, e.g. "
+"[kncc_cookie_settings text=\"Manage cookies\"]."
+msgstr ""
+"Hivatkozást jelenít meg, amely megnyitja a süti-beállítások ablakát. "
+"Használhatja láblécben, menükben vagy widgetekben. A hivatkozás szövegét a "
+"text attribútummal szabhatja testre, pl. [kncc_cookie_settings text=\"Sütik "
+"kezelése\"]."
+
+#: includes/class-admin.php:744
+msgid "Custom CSS"
+msgstr "Egyéni CSS"
+
+#: includes/class-admin.php:748
+#, php-format
+msgid ""
+"Need to fine-tune the look beyond the General tab? Add CSS to %s, your child"
+" theme, or a Code Snippets plugin."
+msgstr ""
+"Az Általános fülön túl is finomhangolná a megjelenést? Adja hozzá a CSS-t "
+"ide: %s, a gyermektémához vagy egy Code Snippets bővítményhez."
+
+#: includes/class-admin.php:749
+msgid "Appearance → Customize → Additional CSS"
+msgstr "Megjelenés → Testreszabás → További CSS"
+
+#: includes/class-admin.php:752
+msgid ""
+"Copy the template below, uncomment the rules you want to change, save. Every"
+" selector the plugin uses is included."
+msgstr ""
+"Másolja ki az alábbi sablont, szüntesse meg a megjegyzésjelölést azoknál a "
+"szabályoknál, amelyeket módosítani szeretne, majd mentse. A bővítmény által "
+"használt összes szelektor szerepel benne."
+
+#: includes/class-admin.php:756
+msgid "Copy CSS template"
+msgstr "CSS-sablon másolása"
+
+#: includes/class-admin.php:828
+msgid "Tips:"
+msgstr "Tippek:"
+
+#: includes/class-admin.php:830
+msgid ""
+"If a rule does not apply, prepend .kncc-banner or add !important — your CSS "
+"file loads after the plugin's, but theme styles can occasionally beat it on "
+"specificity."
+msgstr ""
+"Ha egy szabály nem érvényesül, tegye elé a .kncc-banner szelektort, vagy "
+"adja hozzá az !important értéket – a CSS-fájl a bővítményé után töltődik be, "
+"de a téma stílusai alkalmanként erősebbek lehetnek nála a specificitás miatt."
+
+#: includes/class-admin.php:831
+msgid ""
+"When General → Text and font style is set to Plugin style, typography rules "
+"use !important. Switch to Theme style for easier overrides."
+msgstr ""
+"Ha az Általános → Szöveg és betűtípus stílusa beállítása Bővítmény stílusa, "
+"a tipográfiai szabályok !important értéket használnak. A könnyebb "
+"felülírásért váltson Téma stílusára."
+
+#: includes/class-admin.php:832
+msgid ""
+"Banner z-index is 999999 and the floating button is 999998 — raise them if "
+"your theme renders overlays on top of the banner."
+msgstr ""
+"A banner z-indexe 999999, a lebegő gombé 999998 – növelje őket, ha a téma "
+"átfedő elemeket jelenít meg a banner fölött."
+
+#: includes/class-admin.php:835
+msgid "Troubleshooting"
+msgstr "Hibaelhárítás"
+
+#: includes/class-admin.php:837
+msgid ""
+"If GTM Preview does not show consent updates, verify Consent Mode v2 is "
+"enabled and test in a fresh browser session without existing consent cookie."
+msgstr ""
+"Ha a GTM előnézet nem mutatja a hozzájárulási frissítéseket, ellenőrizze, "
+"hogy a Consent Mode v2 be van-e kapcsolva, és tesztelje új "
+"böngészőmunkamenetben, meglévő hozzájárulási süti nélkül."
+
+#: includes/class-admin.php:838
+msgid ""
+"If banner typography looks odd with your theme, switch General > Text and "
+"font style to Plugin style."
+msgstr ""
+"Ha a banner tipográfiája furcsán néz ki a témájával, állítsa az Általános > "
+"Szöveg és betűtípus stílusa beállítást Bővítmény stílusa értékre."
+
+#: includes/class-admin.php:839
+msgid ""
+"If tracking still runs before consent, make sure Custom Code blocking is "
+"checked on the Script Blocking tab."
+msgstr ""
+"Ha a követés a hozzájárulás előtt is fut, ellenőrizze, hogy az Egyéni kód "
+"blokkolása be van jelölve a Szkriptblokkolás fülön."
+
+#: includes/class-admin.php:840
+msgid ""
+"If the statistics are empty, make sure visitors have interacted with the "
+"banner. Data starts recording after the first consent choice."
+msgstr ""
+"Ha a statisztika üres, ellenőrizze, hogy a látogatók használták-e a bannert. "
+"Az adatok az első hozzájárulási döntés után kezdenek rögzülni."
+
+#: includes/class-admin.php:841
+msgid ""
+"If the policy page warning shows missing translations, create the translated"
+" page in each language and add the [kncc_cookie_policy] shortcode."
+msgstr ""
+"Ha a szabályzat oldal figyelmeztetése hiányzó fordításokat jelez, hozza "
+"létre a lefordított oldalt minden nyelven, és adja hozzá a "
+"[kncc_cookie_policy] rövidkódot."
+
+#: includes/class-admin.php:845
+msgid ""
+"I made this plugin for free because I got frustrated by the existing cookie "
+"consent plugins — too much bloat and useless features. If you like it and "
+"want to buy me a coffee, you can do it here:"
+msgstr ""
+"Ezt a bővítményt ingyen készítettem, mert elegem lett a meglévő "
+"sütihozzájárulási bővítményekből – túl sok a felesleges ballaszt és "
+"haszontalan funkció. Ha tetszik Önnek, és szeretne meghívni egy kávéra, itt "
+"megteheti:"
+
+#: includes/class-admin.php:873
+#, php-format
+msgid "%d days"
+msgstr "%d nap"
+
+#: includes/class-admin.php:884
+msgid "Total responses"
+msgstr "Összes válasz"
+
+#: includes/class-admin.php:888 includes/class-admin.php:903
+#: includes/class-admin.php:913
+msgid "Accepted all"
+msgstr "Összes elfogadva"
+
+#: includes/class-admin.php:892 includes/class-admin.php:909
+#: includes/class-admin.php:915
+msgid "Rejected all"
+msgstr "Összes elutasítva"
+
+#: includes/class-admin.php:896 includes/class-admin.php:906
+#: includes/class-admin.php:914
+msgid "Custom selection"
+msgstr "Egyéni választás"
+
+#: includes/class-admin.php:920
+msgid ""
+"No consent data recorded yet. Statistics will appear after visitors start "
+"interacting with the cookie banner."
+msgstr ""
+"Még nincs rögzített hozzájárulási adat. A statisztika akkor jelenik meg, "
+"amikor a látogatók elkezdik használni a sütibannert."
+
+#: includes/class-admin.php:937
+#, php-format
+msgid "Cron error: %s"
+msgstr "Cron-hiba: %s"
+
+#: includes/class-admin.php:955
+msgid "All systems are good!"
+msgstr "Minden rendben!"
+
+#: includes/class-admin.php:957
+msgid "The plugin re-checks cookies every day via cron."
+msgstr "A bővítmény minden nap újra ellenőrzi a sütiket a cron segítségével."
+
+#: includes/class-admin.php:962
+#, php-format
+msgid "Next check: %s"
+msgstr "Következő ellenőrzés: %s"
+
+#: includes/class-admin.php:1075
+msgid ""
+"Also block tracking added in Bricks, Elementor, or other Custom Code fields"
+msgstr ""
+"Blokkolja a Bricksben, az Elementorban vagy más Egyéni kód mezőkben "
+"hozzáadott követést is"
+
+#: includes/class-admin.php:1094
+msgid "Save blocking settings"
+msgstr "Blokkolási beállítások mentése"
+
+#: includes/class-admin.php:1099
+msgid "Recognized tracking tools"
+msgstr "Felismert követőeszközök"
+
+#: includes/class-admin.php:1106
+msgid "Script Handle"
+msgstr "Szkript handle"
+
+#: includes/class-admin.php:1024
+msgid ""
+"Individual consent records for GDPR audit compliance. Records are "
+"automatically purged after the retention period (13 months)."
+msgstr ""
+"Egyedi hozzájárulási rekordok a GDPR-auditnak való megfeleléshez. A "
+"rekordokat a megőrzési idő (13 hónap) után automatikusan törli a rendszer."
+
+#: includes/class-admin.php:1028
+msgid "Total records:"
+msgstr "Rekordok összesen:"
+
+#: includes/class-admin.php:1030
+msgid "Oldest:"
+msgstr "Legrégebbi:"
+
+#: includes/class-admin.php:1033
+msgid "Newest:"
+msgstr "Legújabb:"
+
+#: includes/class-admin.php:1043
+msgid "No consent log records yet."
+msgstr "Még nincsenek hozzájárulási naplórekordok."
+
+#: includes/class-admin.php:1048
+msgid "Date/Time"
+msgstr "Dátum/idő"
+
+#: includes/class-admin.php:1049
+msgid "Visitor"
+msgstr "Látogató"
+
+#: includes/class-admin.php:1050
+msgid "Choice"
+msgstr "Döntés"
+
+#: includes/class-admin.php:1051
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: includes/class-admin.php:1052
+msgid "Policy Version"
+msgstr "Szabályzat verziója"
+
+#: includes/class-admin.php:1311
+msgid "Cookies saved."
+msgstr "A sütik mentve."
+
+#: includes/class-consent.php:135
+msgid "Cookie consent"
+msgstr "Süti-hozzájárulás"
+
+#: includes/class-consent.php:147 includes/class-policy-page.php:27
+msgid "Cookie Policy"
+msgstr "Sütiszabályzat"
+
+#: includes/class-consent.php:155
+msgid "Close"
+msgstr "Bezárás"
+
+#: includes/class-consent.php:187 includes/class-consent.php:188
+#: kansleri-cookie-consent.php:590
+msgid "Cookie settings"
+msgstr "Süti-beállítások"
+
+#: includes/class-policy-page.php:48
+msgid "No cookies have been registered yet."
+msgstr "Még nincs regisztrált süti."
+
+#: includes/class-policy-page.php:58
+msgid ""
+"These cookies are essential for the website to function and cannot be "
+"switched off."
+msgstr ""
+"Ezek a sütik elengedhetetlenek a weboldal működéséhez, és nem kapcsolhatók "
+"ki."
+
+#: includes/class-policy-page.php:59
+msgid ""
+"These cookies help us understand how visitors interact with the website by "
+"collecting and reporting information anonymously."
+msgstr ""
+"Ezek a sütik azáltal segítenek megérteni, hogyan használják a látogatók a "
+"weboldalt, hogy névtelenül gyűjtenek és jelentenek információkat."
+
+#: includes/class-policy-page.php:60
+msgid ""
+"These cookies are used to deliver relevant advertisements and track ad "
+"campaign performance."
+msgstr ""
+"Ezeket a sütiket releváns hirdetések megjelenítésére és a hirdetési "
+"kampányok teljesítményének követésére használjuk."
+
+#: includes/class-policy-page.php:61
+msgid ""
+"These cookies allow the website to remember choices you make and provide "
+"enhanced functionality and personalisation."
+msgstr ""
+"Ezek a sütik lehetővé teszik, hogy a weboldal megjegyezze az Ön "
+"választásait, és fejlettebb funkciókat, valamint személyre szabást "
+"biztosítson."
+
+#: includes/class-policy-page.php:79
+msgid "Edit cookie preferences"
+msgstr "Süti-beállítások szerkesztése"
+
+#: includes/class-policy-page.php:90 includes/class-policy-page.php:99
+msgid "Cookie"
+msgstr "Süti"
+
+#: includes/class-policy-page.php:92 includes/class-policy-page.php:101
+msgid "Purpose"
+msgstr "Cél"
+
+#: includes/class-script-blocker.php:306
+msgid "Script blocking settings saved."
+msgstr "A szkriptblokkolás beállításai mentve."
+
+#: kansleri-cookie-consent.php:57 kansleri-cookie-consent.php:404
+msgid "We use cookies"
+msgstr "Sütiket használunk"
+
+#: kansleri-cookie-consent.php:58 kansleri-cookie-consent.php:405
+msgid ""
+"We use cookies to improve your experience and analyze site traffic. Choose "
+"which cookies you allow."
+msgstr ""
+"Sütiket használunk az Ön élményének javítására és a weboldal forgalmának "
+"elemzésére. Válassza ki, mely sütiket engedélyezi."
+
+#: kansleri-cookie-consent.php:59 kansleri-cookie-consent.php:406
+msgid "Accept all"
+msgstr "Összes elfogadása"
+
+#: kansleri-cookie-consent.php:60 kansleri-cookie-consent.php:407
+msgid "Reject all"
+msgstr "Összes elutasítása"
+
+#: kansleri-cookie-consent.php:61 kansleri-cookie-consent.php:408
+msgid "Customize"
+msgstr "Testreszabás"
+
+#: kansleri-cookie-consent.php:62 kansleri-cookie-consent.php:409
+msgid "Save preferences"
+msgstr "Beállítások mentése"
+
+#: kansleri-cookie-consent.php:336
+msgid "Required for the website to function. Cannot be disabled."
+msgstr "A weboldal működéséhez szükséges. Nem kapcsolható ki."
+
+#: kansleri-cookie-consent.php:340
+msgid "Help us understand how visitors interact with the website."
+msgstr "Segít megérteni, hogyan használják a látogatók a weboldalt."
+
+#: kansleri-cookie-consent.php:344
+msgid "Used to deliver relevant advertisements and track campaigns."
+msgstr "Releváns hirdetések megjelenítésére és kampányok követésére szolgál."
+
+#: kansleri-cookie-consent.php:348
+msgid "Remember your settings and preferences for a better experience."
+msgstr "Megjegyzi a beállításait és preferenciáit a jobb élmény érdekében."
+
+#: kansleri-cookie-consent.php:499
+msgid "Settings"
+msgstr "Beállítások"
+
+#: kansleri-cookie-consent.php:522
+#, php-format
+msgid ""
+"Kansleri Cookie Consent is now active. Next steps: %1$s to discover cookies "
+"and %2$s to review banner and consent settings."
+msgstr ""
+"A Kansleri Cookie Consent mostantól aktív. Következő lépések: %1$s (a sütik "
+"felderítéséhez), majd %2$s (a banner és a hozzájárulás beállításainak "
+"áttekintéséhez)."
+
+#: kansleri-cookie-consent.php:523
+msgid "Scan cookies"
+msgstr "Sütik átvizsgálása"
+
+#: kansleri-cookie-consent.php:524
+msgid "review settings"
+msgstr "beállítások áttekintése"
+
+#: kansleri-cookie-consent.php:555
+#, php-format
+msgid ""
+"Cookie Consent: %1$d cookie(s) are missing descriptions: %2$s. %3$s to add "
+"them."
+msgstr ""
+"Süti-hozzájárulás: %1$d süti leírása hiányzik: %2$s. A pótláshoz: %3$s."
+
+#: kansleri-cookie-consent.php:558
+msgid "Go to Cookies tab"
+msgstr "Ugrás a Sütik fülre"
+
+#: kansleri-cookie-consent.php:572
+msgid ""
+"This site uses a cookie consent banner powered by Kansleri Cookie Consent. "
+"When you interact with the banner, a cookie named <code>kncc_consent</code> "
+"is stored in your browser for up to 1 year. It records your consent "
+"preferences (which cookie categories you accepted or rejected) so the site "
+"can remember your choice on future visits. No personal data is stored in "
+"this cookie."
+msgstr ""
+"Ez a weboldal a Kansleri Cookie Consent által működtetett sütibannert "
+"használ. Amikor Ön választ a bannerben, a böngészőjében legfeljebb 1 évig "
+"tárolódik egy <code>kncc_consent</code> nevű süti. Ez a süti rögzíti az Ön "
+"hozzájárulási beállításait (mely sütikategóriákat fogadta el vagy utasította "
+"el), hogy a weboldal a későbbi látogatások során is emlékezzen a döntésére. "
+"Ebben a sütiben nem tárolunk személyes adatot."
+
+#: kansleri-cookie-consent.php:573
+msgid ""
+"The plugin also records anonymous, aggregated consent statistics (how many "
+"visitors accepted, rejected, or customized cookies each day) and individual "
+"consent log entries for GDPR audit compliance. Consent log entries contain a"
+" hashed (non-reversible) visitor identifier, the consent choice, which "
+"categories were accepted, and the policy version. No IP addresses, user "
+"identifiers, or personal data are stored in plain text. Consent log records "
+"are automatically deleted after 13 months."
+msgstr ""
+"A bővítmény névtelen, összesített hozzájárulási statisztikát (naponta hány "
+"látogató fogadta el, utasította el vagy szabta testre a sütiket), valamint "
+"egyedi hozzájárulási naplórekordokat is rögzít a GDPR-auditnak való "
+"megfeleléshez. A hozzájárulási naplórekordok egy kivonatolt "
+"(visszafordíthatatlan) látogatóazonosítót, a hozzájárulási döntést, az "
+"elfogadott kategóriákat és a szabályzat verzióját tartalmazzák. IP-címet, "
+"felhasználói azonosítót vagy személyes adatot nem tárolunk egyszerű "
+"szövegként. A hozzájárulási naplórekordokat 13 hónap után automatikusan "
+"töröljük."
+
+#: includes/class-admin.php:318
+msgid "Empty cookie categories"
+msgstr "Üres sütikategóriák"
+
+#: includes/class-admin.php:322
+msgid "Show but lock (disable) the switch"
+msgstr "Megjelenítés, de a kapcsoló zárolása (letiltása)"
+
+#: includes/class-admin.php:323
+msgid "Hide categories with no cookies"
+msgstr "A sütik nélküli kategóriák elrejtése"
+
+#: includes/class-admin.php:378 includes/class-consent.php:95
+msgid "No analytics cookies are used on this site."
+msgstr "Ez a weboldal nem használ analitikai sütiket."
+
+#: includes/class-admin.php:379 includes/class-consent.php:96
+msgid "No marketing cookies are used on this site."
+msgstr "Ez a weboldal nem használ marketingsütiket."
+
+#: includes/class-admin.php:380 includes/class-consent.php:97
+msgid "No preference cookies are used on this site."
+msgstr "Ez a weboldal nem használ preferenciasütiket."
+
+#: includes/class-admin.php:323
+msgid "Close button label"
+msgstr "Bezárás gomb felirata"
+
+#: includes/class-consent.php:50
+msgid "You have not made a choice yet."
+msgstr "Még nem hozott döntést."
+
+#: includes/class-consent.php:51
+msgid "Allowed"
+msgstr "Engedélyezve"
+
+#: includes/class-consent.php:52
+msgid "Denied"
+msgstr "Letiltva"
+
+#: includes/class-consent.php:53
+msgid "Always active"
+msgstr "Mindig aktív"
+
+#: includes/class-policy-page.php:85
+msgid "Your current cookie preferences"
+msgstr "Az Ön jelenlegi süti-beállításai"
+
+#: includes/class-policy-page.php:93
+msgid ""
+"These choices are stored technically as wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing, and wp_consent_preferences for "
+"compatibility with WordPress plugins."
+msgstr ""
+"Ezek a döntések technikailag wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing és wp_consent_preferences néven tárolódnak a "
+"WordPress-bővítményekkel való kompatibilitás érdekében."
+
+#: includes/class-admin.php:99
+msgid "Possibly removed"
+msgstr "Esetleg eltávolítható"
+
+#: includes/class-admin.php:100
+msgid ""
+"These cookies are still in your list, but their tracking scripts were not "
+"found on the homepage. Review and remove any that are no longer used."
+msgstr ""
+"Ezek a sütik még szerepelnek a listán, de követőszkriptjeik nem találhatók a "
+"kezdőlapon. Nézze át, és távolítsa el azokat, amelyeket már nem használ."
+
+#: includes/class-admin.php:102
+#, php-format
+msgid ""
+"Remove %d cookie(s) from the list? This cannot be undone automatically."
+msgstr ""
+"Eltávolítja a listáról a kijelölt sütiket (%d)? Ezt nem lehet automatikusan "
+"visszavonni."
+
+#: includes/class-admin.php:103 includes/class-admin.php:1527
+msgid "Selected cookies removed from the list."
+msgstr "A kijelölt sütik eltávolítva a listáról."
+
+#: includes/class-admin.php:104
+msgid "Remove selected cookies"
+msgstr "Kijelölt sütik eltávolítása"
+
+#: includes/class-admin.php:1482
+msgid ""
+"None of the selected cookies can be removed. Run Scan Cookies again to "
+"refresh the list."
+msgstr ""
+"A kijelölt sütik egyike sem távolítható el. A lista frissítéséhez futtassa "
+"újra a Sütik átvizsgálása funkciót."
+
+#: includes/class-admin.php:791
+msgid ""
+"After scanning, cookies whose tracking scripts are no longer found on the "
+"homepage are listed under \"Possibly removed\". Review the list and use "
+"Remove selected cookies to delete entries you no longer need — nothing is "
+"removed automatically."
+msgstr ""
+"Az átvizsgálás után azok a sütik, amelyek követőszkriptjei már nem "
+"találhatók a kezdőlapon, az „Esetleg eltávolítható” alatt jelennek meg. "
+"Nézze át a listát, és a Kijelölt sütik eltávolítása gombbal törölje a már "
+"nem szükséges sütiket – automatikusan semmi sem törlődik."
+
+#: includes/class-admin.php:797
+msgid "Current consent status"
+msgstr "Jelenlegi hozzájárulási állapot"
+
+#: includes/class-admin.php:797
+msgid ""
+"The [kncc_cookie_policy] shortcode shows each category as allowed, denied, "
+"or not yet chosen above the Edit cookie preferences button. When WP Consent "
+"API is active, a note explains the technical wp_consent_* cookie names used "
+"by WordPress plugins."
+msgstr ""
+"A [kncc_cookie_policy] rövidkód a Süti-beállítások szerkesztése gomb fölött "
+"megmutatja az egyes kategóriákat: engedélyezve, letiltva vagy még nincs "
+"kiválasztva. Ha a WP Consent API aktív, egy megjegyzés ismerteti a "
+"WordPress-bővítmények által használt technikai wp_consent_* sütineveket."
+
+#: includes/class-admin.php:806
+msgid "WP Consent API sync"
+msgstr "WP Consent API szinkronizálás"
+
+#: includes/class-admin.php:806
+msgid ""
+"When the WP Consent API plugin is active, Kansleri automatically syncs your "
+"banner choices to wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing, and wp_consent_preferences. This lets consent-aware "
+"plugins such as Google Site Kit read the visitor's choice. Banner labels "
+"(Necessary, Analytics) map to these technical cookie names."
+msgstr ""
+"Ha a WP Consent API bővítmény aktív, a Kansleri automatikusan szinkronizálja "
+"a banner döntéseit a következő sütikkel: wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing és wp_consent_preferences. Így a "
+"hozzájárulást figyelembe vevő bővítmények, például a Google Site Kit, "
+"kiolvashatják a látogató választását. A banner feliratai (Szükséges, "
+"Analitika) ezekhez a technikai sütinevekhez rendelődnek."
+
+#: includes/class-admin.php:939
+msgid ""
+"If wp_consent_statistics stays deny after Accept all, clear site cookies or "
+"test in a private window, hard-refresh (Ctrl+Shift+R), and confirm the WP "
+"Consent API plugin is active."
+msgstr ""
+"Ha a wp_consent_statistics az Összes elfogadása után is deny értéken marad, "
+"törölje az oldalhoz tartozó sütiket, vagy tesztelje privát ablakban, "
+"frissítsen kényszerítetten (Ctrl+Shift+R), és ellenőrizze, hogy a WP Consent "
+"API bővítmény aktív-e."
+
+#: includes/class-admin.php:746 includes/class-admin.php:854
+msgid "Advanced Consent Mode"
+msgstr "Fejlett Consent Mode"
+
+#: includes/class-admin.php:750
+msgid "Load Google tags before consent, with consent denied"
+msgstr ""
+"Google-címkék betöltése a hozzájárulás előtt, megtagadott hozzájárulással"
+
+#: includes/class-admin.php:753
+msgid "Off (default, Basic Consent Mode): the Google tag is blocked until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies, so Google receives nothing from visitors who have not consented."
+msgstr ""
+"Ki (alapértelmezett, Alap Consent Mode): a Google-címke blokkolva van, amíg "
+"a látogató el nem fogadja az analitikai sütiket, a Google Tag Manager pedig "
+"addig, amíg a látogató el nem fogadja az analitikai vagy marketingsütiket, "
+"így a Google semmit sem kap azoktól a látogatóktól, akik nem járultak hozzá."
+
+#: includes/class-admin.php:756
+msgid ""
+"On (Advanced Consent Mode): the Google tag and Google Tag Manager load "
+"right away. Until the visitor accepts, they set no cookies and send Google "
+"only cookieless pings, which Google uses to model the missing data. Google "
+"Analytics and Google Ads expect this mode, and with Basic mode they can "
+"report your consent signals as not active."
+msgstr ""
+"Be (Fejlett Consent Mode): a Google-címke és a Google Tag Manager azonnal "
+"betöltődik. Amíg a látogató nem járul hozzá, nem állítanak be sütiket, és "
+"csak süti nélküli pingeket küldenek a Google-nek, amelyekből a Google "
+"modellezi a hiányzó adatokat. A Google Analytics és a Google Ads ezt a módot "
+"várja el, Alap módban pedig a hozzájárulási jelzéseit nem aktívként "
+"jelenthetik."
+
+#: includes/class-admin.php:759
+msgid "Only applies while Consent Mode v2 is enabled. Other tracking scripts on the site stay blocked until consent, also those that Google Tag Manager adds (for example a Meta Pixel or LinkedIn in a Custom HTML tag): each waits for its own category, with no changes needed in the container."
+msgstr ""
+"Csak akkor érvényes, ha a Consent Mode v2 engedélyezve van. A weboldal többi "
+"követőszkriptje a hozzájárulásig blokkolva marad, azok is, amelyeket a "
+"Google Tag Manager ad hozzá (például egy Meta Pixel vagy a LinkedIn egy "
+"egyéni HTML-címkében): mindegyik a saját kategóriájára vár, a tárolóban "
+"nincs szükség módosításra."
+
+#: includes/class-admin.php:854
+msgid ""
+"Off by default. When on, the Google tag and Google Tag Manager load before "
+"consent instead of being blocked. Until the visitor accepts, they set no "
+"cookies and send Google only cookieless pings."
+msgstr ""
+"Alapértelmezés szerint ki van kapcsolva. Bekapcsolva a Google-címke és a "
+"Google Tag Manager a hozzájárulás előtt betöltődik a blokkolás helyett. Amíg "
+"a látogató nem járul hozzá, nem állítanak be sütiket, és csak süti nélküli "
+"pingeket küldenek a Google-nek."
+
+#: includes/class-admin.php:863
+msgid "You can turn this off on the Script Blocking tab."
+msgstr "Ezt a Szkriptblokkolás fülön kapcsolhatja ki."
+
+#: includes/class-admin.php:1136
+msgid ""
+"Advanced Consent Mode is on (Integration tab): the Google tag and Google "
+"Tag Manager load before consent and follow the Consent Mode signals instead "
+"of being blocked."
+msgstr ""
+"A Fejlett Consent Mode be van kapcsolva (Integráció fül): a Google-címke és "
+"a Google Tag Manager a hozzájárulás előtt betöltődik, és a blokkolás helyett "
+"a Consent Mode jelzéseit követi."
+
+#: includes/class-admin.php:1168
+msgid ""
+"Block YouTube and Vimeo videos until the visitor accepts marketing cookies"
+msgstr ""
+"A YouTube- és Vimeo-videók blokkolása, amíg a látogató el nem fogadja a "
+"marketingsütiket"
+
+#: includes/class-admin.php:684
+msgid "More information"
+msgstr "További információk"
+
+#: includes/class-admin.php:823
+msgid "Basic Consent Mode: the Google tag waits until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies."
+msgstr ""
+"Alap Consent Mode: a Google-címke megvárja, amíg a látogató elfogadja az "
+"analitikai sütiket, a Google Tag Manager pedig azt, hogy elfogadja az "
+"analitikai vagy marketingsütiket."
+
+#: includes/class-admin.php:823
+msgid ""
+"Advanced Consent Mode: the Google tag and Google Tag Manager load right "
+"away with these defaults, and send only cookieless pings until the visitor "
+"accepts."
+msgstr ""
+"Fejlett Consent Mode: a Google-címke és a Google Tag Manager azonnal "
+"betöltődik ezekkel az alapértékekkel, és csak süti nélküli pingeket küld, "
+"amíg a látogató hozzá nem járul."
+
+#: includes/class-scanner.php:122
+msgctxt "cookie duration"
+msgid "1 minute"
+msgstr "1 perc"
+
+#: includes/class-scanner.php:123
+msgctxt "cookie duration"
+msgid "30 minutes"
+msgstr "30 perc"
+
+#: includes/class-scanner.php:124
+msgctxt "cookie duration"
+msgid "24 hours"
+msgstr "24 óra"
+
+#: includes/class-scanner.php:125
+msgctxt "cookie duration"
+msgid "1 day"
+msgstr "1 nap"
+
+#: includes/class-scanner.php:126
+msgctxt "cookie duration"
+msgid "30 days"
+msgstr "30 nap"
+
+#: includes/class-scanner.php:127
+msgctxt "cookie duration"
+msgid "90 days"
+msgstr "90 nap"
+
+#: includes/class-scanner.php:128
+msgctxt "cookie duration"
+msgid "6 months"
+msgstr "6 hónap"
+
+#: includes/class-scanner.php:129
+msgctxt "cookie duration"
+msgid "1 year"
+msgstr "1 év"
+
+#: includes/class-scanner.php:130
+msgctxt "cookie duration"
+msgid "2 years"
+msgstr "2 év"
+
+#: includes/class-scanner.php:131
+msgctxt "cookie duration"
+msgid "Session"
+msgstr "Munkamenet"
+
+#: includes/class-scanner.php:132
+msgctxt "cookie duration"
+msgid "Varies"
+msgstr "Változó"
+
+#: includes/class-scanner.php:135
+msgid "Google Analytics: stores and counts page views."
+msgstr "Google Analytics: tárolja és számolja az oldalmegtekintéseket."
+
+#: includes/class-scanner.php:136
+msgid "Google Analytics: distinguishes unique users."
+msgstr "Google Analytics: megkülönbözteti az egyedi felhasználókat."
+
+#: includes/class-scanner.php:137
+msgid "Google Analytics: distinguishes users for 24 hours."
+msgstr "Google Analytics: 24 órán át megkülönbözteti a felhasználókat."
+
+#: includes/class-scanner.php:138
+msgid "Google Analytics: throttles request rate."
+msgstr "Google Analytics: korlátozza a kérések gyakoriságát."
+
+#: includes/class-scanner.php:139
+msgid "Google Ads: stores conversion data."
+msgstr "Google Ads: konverziós adatokat tárol."
+
+#: includes/class-scanner.php:140
+msgid "Google Ads: click tracking."
+msgstr "Google Ads: kattintáskövetés."
+
+#: includes/class-scanner.php:141
+msgid "Google Tag Manager: throttles request rate."
+msgstr "Google Tag Manager: korlátozza a kérések gyakoriságát."
+
+#: includes/class-scanner.php:144
+msgid "Meta Pixel: tracks visits across websites for ad targeting."
+msgstr ""
+"Meta Pixel: több weboldalon át követi a látogatásokat a hirdetések "
+"célzásához."
+
+#: includes/class-scanner.php:145
+msgid "Meta Pixel: stores click identifiers."
+msgstr "Meta Pixel: kattintásazonosítókat tárol."
+
+#: includes/class-scanner.php:146
+msgid "Facebook: ad delivery and measurement."
+msgstr "Facebook: hirdetések megjelenítése és mérése."
+
+#: includes/class-scanner.php:149
+msgid "HubSpot: tracks visitor identity."
+msgstr "HubSpot: követi a látogató azonosságát."
+
+#: includes/class-scanner.php:150
+msgid "HubSpot: tracks session information."
+msgstr "HubSpot: munkamenet-információkat követ."
+
+#: includes/class-scanner.php:151
+msgid "HubSpot: tracks sessions for analytics."
+msgstr "HubSpot: munkameneteket követ az analitikához."
+
+#: includes/class-scanner.php:152
+msgid "HubSpot: determines if visitor has restarted browser."
+msgstr "HubSpot: megállapítja, hogy a látogató újraindította-e a böngészőt."
+
+#: includes/class-scanner.php:153
+msgid "HubSpot: analytics and tracking."
+msgstr "HubSpot: analitika és követés."
+
+#: includes/class-scanner.php:156
+msgid "LinkedIn: browser identifier for ad targeting."
+msgstr "LinkedIn: böngészőazonosító a hirdetések célzásához."
+
+#: includes/class-scanner.php:157
+msgid "LinkedIn: browser identifier."
+msgstr "LinkedIn: böngészőazonosító."
+
+#: includes/class-scanner.php:158
+msgid "LinkedIn: data centre selection."
+msgstr "LinkedIn: adatközpont kiválasztása."
+
+#: includes/class-scanner.php:161
+msgid "WordPress: stores admin settings timestamp."
+msgstr "WordPress: az adminisztrációs beállítások időbélyegét tárolja."
+
+#: includes/class-scanner.php:162
+msgid "WordPress: stores admin personalisation settings."
+msgstr "WordPress: az adminisztrációs személyre szabási beállításokat tárolja."
+
+#: includes/class-scanner.php:163
+msgid "WordPress: authentication cookie for logged-in users."
+msgstr "WordPress: hitelesítési süti a bejelentkezett felhasználóknak."
+
+#: includes/class-scanner.php:164
+msgid "WordPress: secure authentication cookie."
+msgstr "WordPress: biztonságos hitelesítési süti."
+
+#: includes/class-scanner.php:165
+msgid "WordPress: tests if cookies are enabled."
+msgstr "WordPress: teszteli, hogy a sütik engedélyezve vannak-e."
+
+#: includes/class-scanner.php:166
+msgid "WordPress: stores language preference."
+msgstr "WordPress: a nyelvi beállítást tárolja."
+
+#: includes/class-scanner.php:167
+msgid "WordPress: remembers comment author details."
+msgstr "WordPress: megjegyzi a hozzászóló adatait."
+
+#: includes/class-scanner.php:170
+msgid "WooCommerce: stores cart and session data."
+msgstr "WooCommerce: a kosár és a munkamenet adatait tárolja."
+
+#: includes/class-scanner.php:171
+msgid "WooCommerce: stores customer session."
+msgstr "WooCommerce: a vásárlói munkamenetet tárolja."
+
+#: includes/class-scanner.php:174
+msgid ""
+"Order attribution: keeps traffic-source tracking data compatible across "
+"updates."
+msgstr ""
+"Rendelés-attribúció: a forgalmi forrást követő adatokat a frissítések során "
+"is kompatibilisen megőrzi."
+
+#: includes/class-scanner.php:175
+msgid ""
+"Order attribution: records how you reached the site on your current visit."
+msgstr ""
+"Rendelés-attribúció: rögzíti, hogyan jutott el a weboldalra az aktuális "
+"látogatása során."
+
+#: includes/class-scanner.php:176
+msgid "Order attribution: records how you first reached the site."
+msgstr "Rendelés-attribúció: rögzíti, hogyan jutott el először a weboldalra."
+
+#: includes/class-scanner.php:177
+msgid ""
+"Order attribution: stores the traffic source and campaign of your current "
+"visit."
+msgstr ""
+"Rendelés-attribúció: tárolja az aktuális látogatás forgalmi forrását és "
+"kampányát."
+
+#: includes/class-scanner.php:178
+msgid ""
+"Order attribution: stores the traffic source and campaign of your first "
+"visit."
+msgstr ""
+"Rendelés-attribúció: tárolja az első látogatás forgalmi forrását és "
+"kampányát."
+
+#: includes/class-scanner.php:179
+msgid ""
+"Order attribution: stores visitor/session data used for marketing "
+"attribution."
+msgstr ""
+"Rendelés-attribúció: a marketing-attribúcióhoz használt látogatói és "
+"munkamenet-adatokat tárolja."
+
+#: includes/class-scanner.php:180
+msgid "Order attribution: links page views within a visit for attribution."
+msgstr ""
+"Rendelés-attribúció: egy látogatáson belül összekapcsolja az "
+"oldalmegtekintéseket az attribúcióhoz."
+
+#: includes/class-scanner.php:181
+msgid "Order attribution: tracks the marketing source of your visit."
+msgstr "Rendelés-attribúció: követi a látogatás marketingforrását."
+
+#: includes/class-scanner.php:184
+msgid ""
+"Jetpack Stats: assigns an anonymous identifier used to measure site traffic."
+msgstr ""
+"Jetpack Stats: névtelen azonosítót rendel a látogatóhoz a weboldal "
+"forgalmának méréséhez."
+
+#: includes/class-scanner.php:185
+msgid "Jetpack Stats: records referral and navigation data for analytics."
+msgstr ""
+"Jetpack Stats: hivatkozási és navigációs adatokat rögzít az analitikához."
+
+#: includes/class-scanner.php:186
+msgid "Jetpack Stats: measures site traffic and visitor activity."
+msgstr "Jetpack Stats: méri a weboldal forgalmát és a látogatói aktivitást."
+
+#: includes/class-scanner.php:189
+msgid "Polylang: stores visitor language preference."
+msgstr "Polylang: a látogató nyelvi beállítását tárolja."
+
+#: includes/class-scanner.php:190
+msgid "MailPoet: tracks email subscriber activity."
+msgstr "MailPoet: követi az e-mail-feliratkozók aktivitását."
+
+#: includes/class-scanner.php:191
+msgid "Plausible: privacy-friendly analytics."
+msgstr "Plausible: adatvédelembarát analitika."
+
+#: includes/class-scanner.php:194
+msgid "Cloudflare: bot management cookie."
+msgstr "Cloudflare: botkezelési süti."
+
+#: includes/class-scanner.php:195
+msgid "Cloudflare: verifies legitimate visitor."
+msgstr "Cloudflare: ellenőrzi, hogy a látogató valódi."
+
+#: includes/class-scanner.php:196
+msgid "Cloudflare: identifies trusted web traffic."
+msgstr "Cloudflare: azonosítja a megbízható webes forgalmat."
+
+#: includes/class-scanner.php:199
+msgid "Hotjar: tracks user behaviour and feedback."
+msgstr "Hotjar: követi a felhasználói viselkedést és a visszajelzéseket."
+
+#: includes/class-scanner.php:200
+msgid "Microsoft Clarity: stores a user ID and preferences."
+msgstr "Microsoft Clarity: felhasználói azonosítót és beállításokat tárol."
+
+#: includes/class-scanner.php:201
+msgid "Microsoft Clarity: connects page views into a session."
+msgstr "Microsoft Clarity: az oldalmegtekintéseket egy munkamenetbe kapcsolja."
+
+#: includes/class-scanner.php:204
+msgid "Stores your cookie consent preferences."
+msgstr "Az Ön sütikkel kapcsolatos hozzájárulási beállításait tárolja."
+
+#: includes/class-scanner.php:205
+msgid ""
+"WP Consent API: stores your consent choice for necessary cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: a szükséges sütikre vonatkozó hozzájárulási döntését "
+"tárolja. A hozzájárulási bannerből szinkronizálódik."
+
+#: includes/class-scanner.php:206
+msgid ""
+"WP Consent API: stores your consent choice for analytics cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: az analitikai sütikre vonatkozó hozzájárulási döntését "
+"tárolja. A hozzájárulási bannerből szinkronizálódik."
+
+#: includes/class-scanner.php:207
+msgid ""
+"WP Consent API: stores your consent choice for anonymous statistics. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: a névtelen statisztikára vonatkozó hozzájárulási döntését "
+"tárolja. A hozzájárulási bannerből szinkronizálódik."
+
+#: includes/class-scanner.php:208
+msgid ""
+"WP Consent API: stores your consent choice for marketing cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: a marketingsütikre vonatkozó hozzájárulási döntését tárolja. "
+"A hozzájárulási bannerből szinkronizálódik."
+
+#: includes/class-scanner.php:209
+msgid ""
+"WP Consent API: stores your consent choice for preference cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: a preferenciasütikre vonatkozó hozzájárulási döntését "
+"tárolja. A hozzájárulási bannerből szinkronizálódik."
+
+#: includes/class-scanner.php:210
+msgid ""
+"WP Consent API: stores per-service consent overrides used by integrated "
+"plugins."
+msgstr ""
+"WP Consent API: szolgáltatásonkénti hozzájárulási felülbírálásokat tárol, "
+"amelyeket az integrált bővítmények használnak."
+
+#: includes/class-scanner.php:211
+msgid ""
+"WP Consent API: stores your cookie consent choice. Synced from your consent "
+"banner."
+msgstr ""
+"WP Consent API: a sütikre vonatkozó hozzájárulási döntését tárolja. A "
+"hozzájárulási bannerből szinkronizálódik."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:195
+#, php-format
+msgid "“%s” is not a usable address. Use at least 4 characters without spaces, for example widget.example.com."
+msgstr ""
+"A(z) „%s” nem használható cím. Legalább 4 karaktert használjon szóköz "
+"nélkül, például widget.example.com."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:200
+#, php-format
+msgid "“%s” would block every script on this site. Enter the address of the external service instead."
+msgstr ""
+"A(z) „%s” a weboldal minden szkriptjét blokkolná. Adja meg inkább a külső "
+"szolgáltatás címét."
+
+#: includes/class-script-blocker.php:840
+msgid "This content is blocked because it requires analytics cookies."
+msgstr ""
+"Ez a tartalom blokkolva van, mert analitikai sütik engedélyezését igényli."
+
+#: includes/class-script-blocker.php:841
+msgid "Accept analytics cookies"
+msgstr "Analitikai sütik elfogadása"
+
+#: includes/class-script-blocker.php:845
+msgid "This content is blocked because it requires preference cookies."
+msgstr ""
+"Ez a tartalom blokkolva van, mert preferenciasütik engedélyezését igényli."
+
+#: includes/class-script-blocker.php:846
+msgid "Accept preference cookies"
+msgstr "Preferenciasütik elfogadása"
+
+#: includes/class-admin.php:890 includes/class-admin.php:1203
+msgid "Block by address"
+msgstr "Blokkolás cím alapján"
+
+#: includes/class-admin.php:1213
+msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
+msgstr ""
+"Az oldal HTML-kódjában lévő szkripteket csak akkor azonosítja a rendszer, ha "
+"az Egyéni kód blokkolása be van kapcsolva."
+
+#: includes/class-admin.php:1259 includes/class-admin.php:1289
+msgid "Address contains"
+msgstr "A cím tartalmazza"
+
+#: includes/class-admin.php:1274
+msgid "Add address"
+msgstr "Cím hozzáadása"
+
+#: includes/class-admin.php:1284
+msgid "Necessary (never blocked)"
+msgstr "Szükséges (soha nem blokkolt)"
+
+#: includes/class-admin.php:889
+msgid "Reviews widgets"
+msgstr "Értékelési widgetek"
+
+#: includes/class-admin.php:889
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgstr ""
+"A Trustmary értékelési widgetje megvárja az analitikai hozzájárulást, mert "
+"látogatóazonosítót tárol a böngészőben. Helyette egy elfogadás gombos üzenet "
+"jelenik meg. Ha azonnal be szeretné tölteni, adja hozzá a "
+"widget.trustmary.com címet a Blokkolás cím alapján alatt a „Szükséges (soha "
+"nem blokkolt)” kategóriával."
+
+#: includes/class-admin.php:890
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
+msgstr ""
+"Bármely más szkriptet a címe egy része alapján blokkol, amíg a látogató el "
+"nem fogadja az Ön által kiválasztott kategóriát, például egy olyan widgetet, "
+"amelyet a bővítmény nem ismer fel. Kapcsolja be az Üzenet megjelenítése "
+"beállítást azoknál a szkripteknél, amelyek tartalmat jelenítenek meg az "
+"oldalon."
+
+#: includes/class-scanner.php:137
+msgctxt "cookie duration"
+msgid "Persistent"
+msgstr "Állandó"
+
+#: includes/class-scanner.php:209
+msgid "Trustmary: stores a visitor ID, the landing page and conversions in the browser’s local storage."
+msgstr ""
+"Trustmary: látogatóazonosítót, a céloldalt és a konverziókat tárolja a "
+"böngésző helyi tárolójában."
+
+#: includes/class-scanner.php:224
+msgid "Reddit Pixel: identifies the browser for ad measurement."
+msgstr "Reddit Pixel: azonosítja a böngészőt a hirdetésmérés céljából."
+
+#: includes/class-scanner.php:225
+msgid ""
+"Microsoft Advertising: groups page views into a session for ad measurement."
+msgstr ""
+"Microsoft Advertising: munkamenetbe csoportosítja az oldalmegtekintéseket a "
+"hirdetésmérés céljából."
+
+#: includes/class-scanner.php:226
+msgid ""
+"Microsoft Advertising: identifies the visitor across visits for ad "
+"measurement."
+msgstr ""
+"Microsoft Advertising: a látogatásokon át azonosítja a látogatót a "
+"hirdetésmérés céljából."
+
+#: includes/class-scanner.php:227
+msgid "Criteo: stores a browser identifier for ad personalisation."
+msgstr "Criteo: böngészőazonosítót tárol a hirdetések személyre szabásához."
+
+#: includes/class-scanner.php:228
+msgid "Taboola: identifies the browser for ad targeting."
+msgstr "Taboola: azonosítja a böngészőt a hirdetések célzásához."
+
+#: includes/class-scanner.php:229
+msgid "Klaviyo: recognises returning visitors for email marketing."
+msgstr "Klaviyo: felismeri a visszatérő látogatókat az e-mail-marketinghez."
+
+#: includes/class-scanner.php:230
+msgid "Yandex Metrica: identifies visitors and stores session settings."
+msgstr ""
+"Yandex Metrica: azonosítja a látogatókat, és a munkamenet beállításait "
+"tárolja."
+
+#: includes/class-scanner.php:231
+msgid "Segment: stores an anonymous visitor ID and traits."
+msgstr "Segment: névtelen látogatóazonosítót és jellemzőket tárol."
+
+#: includes/class-scanner.php:232
+msgid "Intercom: keeps the chat messenger session and visitor identity."
+msgstr ""
+"Intercom: fenntartja a csevegőablak munkamenetét és a látogató azonosságát."
+
+#: includes/class-scanner.php:233
+msgid "Crisp: keeps the chat session and visitor identity."
+msgstr "Crisp: fenntartja a csevegés munkamenetét és a látogató azonosságát."
+
+#: includes/class-admin.php
+msgid "Cookie policy link text"
+msgstr "Sütiszabályzat hivatkozásának szövege"
+
+#: includes/class-admin.php
+msgid "Cookie settings label"
+msgstr "Süti-beállítások felirata"
+
+#: includes/class-admin.php
+msgid "Tooltip and screen reader label of the floating button, and the default text of the [kncc_cookie_settings] link."
+msgstr ""
+"A lebegő gomb elemleírása és képernyőolvasós felirata, valamint a "
+"[kncc_cookie_settings] hivatkozás alapértelmezett szövege."
+
+#: includes/class-admin.php
+msgid "Banner label for screen readers"
+msgstr "Banner felirata képernyőolvasókhoz"
+
+#: includes/class-admin.php
+msgid "Cookie categories"
+msgstr "Sütikategóriák"
+
+#: includes/class-admin.php
+msgid "Text when no cookies are used"
+msgstr "Szöveg, ha nincs használt süti"
+
+#: includes/class-admin.php
+msgid "Policy page texts"
+msgstr "Szabályzat oldal szövegei"
+
+#: includes/class-admin.php
+msgid "Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab."
+msgstr ""
+"A [kncc_cookie_policy] sütinyilatkozat szövegei. Hagyja üresen a mezőt a "
+"beépített szöveg használatához, amely minden nyelvre le van fordítva. A "
+"kategóriák nevei az Általános fülön szerkeszthetők."
+
+#: includes/class-admin.php
+msgid "Category descriptions"
+msgstr "Kategórialeírások"
+
+#: includes/class-admin.php
+msgid "Consent status"
+msgstr "Hozzájárulási állapot"
+
+#: includes/class-admin.php
+msgid "Heading"
+msgstr "Címsor"
+
+#: includes/class-admin.php
+msgid "Before the visitor chooses"
+msgstr "Mielőtt a látogató választ"
+
+#: includes/class-admin.php
+msgid "Technical note (shown when WP Consent API is active)"
+msgstr "Technikai megjegyzés (a WP Consent API aktív állapotában jelenik meg)"
+
+#: includes/class-admin.php
+msgid "Buttons and messages"
+msgstr "Gombok és üzenetek"
+
+#: includes/class-admin.php
+msgid "Edit preferences button"
+msgstr "Beállítások szerkesztése gomb"
+
+#: includes/class-admin.php
+msgid "Message when no cookies are registered"
+msgstr "Üzenet, ha nincs regisztrált süti"
+
+#: includes/class-admin.php
+msgid "Table column headings"
+msgstr "Táblázatoszlopok fejlécei"
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 added cookies for services that are not on your site. They have been removed from the cookie list: %s. If your site does use some of these services, put the cookies back and delete the ones it does not use."
+msgstr ""
+"Az 1.8.10-es verzió olyan szolgáltatásokhoz adott hozzá sütiket, amelyek "
+"nincsenek a weboldalán. Ezeket eltávolítottuk a sütilistáról: %s. Ha a "
+"weboldala használja valamelyik szolgáltatást, tegye vissza a sütiket, a nem "
+"használtakat pedig törölje."
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 may have added cookies for services that are not on your site: %s. The Google Tag Manager on your site can load any of them, so they were kept. Remove the ones your site does not use."
+msgstr ""
+"Az 1.8.10-es verzió olyan szolgáltatásokhoz is hozzáadhatott sütiket, "
+"amelyek nincsenek a weboldalán: %s. A weboldalon lévő Google Tag Manager "
+"bármelyiket betöltheti, ezért megtartottuk őket. Távolítsa el azokat, "
+"amelyeket a weboldala nem használ."
+
+#: includes/class-admin.php
+msgid "Put the cookies back"
+msgstr "Sütik visszaállítása"
+
+#: includes/class-admin.php
+msgid "Hide this notice"
+msgstr "Az értesítés elrejtése"
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr ""
+"Akkor jelenik meg, amikor a látogatók megnyitják a Testreszabás ablakot. "
+"Hagyja üresen a mezőt a beépített szöveg használatához."
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr "Blokkolt tartalom üzenetei"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr "YouTube & Vimeo üzenet"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr "YouTube & Vimeo elfogadás gombja"
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr "Analitikai tartalom üzenete"
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr "Analitikai tartalom elfogadás gombja"
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr "Preferenciális tartalom üzenete"
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr "Preferenciális tartalom elfogadás gombja"
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr "Vagy adjon hozzá bárhol egy hivatkozást a rövidkóddal:"
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr ""
+"Ajánlott. Csak akkor kapcsolja ki, ha egy gyorsítótár- vagy "
+"sebességbővítmény elrontja a weboldalt."
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr "Automatikusan blokkolva, beállítás nem szükséges."
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr "Üzenet megjelenítése"
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr "Nincs kijelölt süti."
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr "%s szkriptjei már nem észlelhetők a kezdőlapon"
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr "Szerkesztett nyelv: %s. A mentések csak erre a nyelvre vonatkoznak."
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr ""
+"Az alapértelmezett nyelv szerkesztése. A többi nyelvnek saját szövegei "
+"vannak."
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr "A banner előnézete a jelenlegi, még nem mentett beállításokkal."
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr "Az élő előnézet csak a Bővítmény stílusa esetén működik."
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr "Az × gomb felirata képernyőolvasókhoz."
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr ""
+"Bármely más szkriptet visszatart, amíg a látogató el nem fogadja a "
+"kategóriáját. Olyan widgetekhez és eszközökhöz használja, amelyeket a "
+"bővítmény nem ismer fel."
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr ""
+"A Szükséges (soha nem blokkolt) azonnal betölteni engedi a címet, még azt "
+"is, amelyet a bővítmény egyébként blokkolna."
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr ""
+"Üzenet megjelenítése: ahol a blokkolt szkript tartalmat (értékeléseket, "
+"foglalást, térképet) jelenítene meg, egy elfogadás gombos üzenetet mutat az "
+"üres hely helyett. Követőszkriptekhez nem szükséges."
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
+msgstr "új lapon nyílik meg"

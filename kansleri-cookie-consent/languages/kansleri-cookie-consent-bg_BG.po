@@ -1,0 +1,2348 @@
+# Bulgarian translation for Kansleri Cookie Consent
+# Copyright (C) 2024 Kansleri.fi
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kansleri Cookie Consent 1.8.13\n"
+"Report-Msgid-Bugs-To: https://kansleri.fi\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
+"PO-Revision-Date: 2026-11-03 12:00+0200\n"
+"Last-Translator: Kansleri.fi\n"
+"Language-Team: Bulgarian\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-admin.php:20 includes/class-admin.php:21
+#: includes/class-admin.php:122
+msgid "Cookie Consent"
+msgstr "Съгласие за бисквитки"
+
+#: includes/class-admin.php:67 includes/class-admin.php:1228
+msgid "Settings saved."
+msgstr "Настройките са запазени."
+
+#: includes/class-admin.php:68
+msgid "An error occurred."
+msgstr "Възникна грешка."
+
+#: includes/class-admin.php:69
+msgid "Scanning..."
+msgstr "Сканиране…"
+
+#: includes/class-admin.php:70
+msgid "Scan complete."
+msgstr "Сканирането приключи."
+
+#: includes/class-admin.php:71
+msgid "No new cookies found."
+msgstr "Не са намерени нови бисквитки."
+
+#: includes/class-admin.php:72
+msgid "Remove this cookie?"
+msgstr "Да се премахне ли тази бисквитка?"
+
+#: includes/class-admin.php:73 includes/class-admin.php:414
+#: includes/class-admin.php:698
+msgid "Scan Cookies"
+msgstr "Сканиране на бисквитките"
+
+#: includes/class-admin.php:74
+msgid "Invalid JSON format. Please import a valid cookie array."
+msgstr "Невалиден JSON формат. Моля, импортирайте валиден масив с бисквитки."
+
+#: includes/class-admin.php:75
+msgid "Cookies imported into the table. Save cookies to persist changes."
+msgstr ""
+"Бисквитките са импортирани в таблицата. Запазете бисквитките, за да се "
+"съхранят промените."
+
+#: includes/class-admin.php:76
+msgid "No valid cookies found in imported JSON."
+msgstr "В импортирания JSON не са намерени валидни бисквитки."
+
+#: includes/class-admin.php:77
+msgid "No cookie rows available to export."
+msgstr "Няма редове с бисквитки за експортиране."
+
+#: includes/class-admin.php:78
+msgid "AI prompt copied to clipboard."
+msgstr "ИИ промптът е копиран в клипборда."
+
+#: includes/class-admin.php:79
+msgid ""
+"Could not copy prompt automatically. Select all and copy from the box below."
+msgstr ""
+"Промптът не можа да бъде копиран автоматично. Маркирайте целия текст и го "
+"копирайте от полето по-долу."
+
+#: includes/class-admin.php:81
+msgid "AI prompt (copied to clipboard — or select all and copy manually):"
+msgstr ""
+"ИИ промпт (копиран в клипборда — или маркирайте целия текст и копирайте "
+"ръчно):"
+
+#: includes/class-admin.php:82
+msgid ""
+"Policy page AI prompt (copied to clipboard — or select all and copy "
+"manually):"
+msgstr ""
+"ИИ промпт за страницата с политиката (копиран в клипборда — или маркирайте "
+"целия текст и копирайте ръчно):"
+
+#: includes/class-admin.php:83
+msgid ""
+"Prompt ready below — select all (Ctrl+A) inside the box and copy (Ctrl+C)."
+msgstr ""
+"Промптът е готов по-долу — маркирайте целия текст (Ctrl+A) в полето и го "
+"копирайте (Ctrl+C)."
+
+#: includes/class-admin.php:80
+msgid "All cookies are done! Every cookie has a description."
+msgstr "Всички бисквитки са готови! Всяка бисквитка има описание."
+
+#: includes/class-admin.php:81 includes/class-admin.php:457
+msgid "No cookies registered yet."
+msgstr "Все още няма регистрирани бисквитки."
+
+#: includes/class-admin.php:82 includes/class-admin.php:473
+msgid "Remove"
+msgstr "Премахване"
+
+#: includes/class-admin.php:83
+msgid ""
+"This will permanently delete all consent log records and statistics. "
+"Continue?"
+msgstr ""
+"Това ще изтрие завинаги всички записи в дневника на съгласията и цялата "
+"статистика. Да се продължи ли?"
+
+#: includes/class-admin.php:84 includes/class-admin.php:1150
+msgid "All consent log records and statistics have been purged."
+msgstr ""
+"Всички записи в дневника на съгласията и цялата статистика са изчистени."
+
+#: includes/class-admin.php:85
+msgid "AI prompt for policy page copied to clipboard."
+msgstr "ИИ промптът за страницата с политиката е копиран в клипборда."
+
+#: includes/class-admin.php:86
+msgid "CSS template copied to clipboard."
+msgstr "CSS шаблонът е копиран в клипборда."
+
+#: includes/class-admin.php:88
+#, php-format
+msgid "%d known cookie(s) added automatically:"
+msgstr "Автоматично добавени известни бисквитки (%d):"
+
+#: includes/class-admin.php:90
+#, php-format
+msgid ""
+"%d unknown cookie(s) added — please set their category and description "
+"below."
+msgstr ""
+"Добавени неизвестни бисквитки (%d) — моля, задайте им категория и описание "
+"по-долу."
+
+#: includes/class-admin.php:91
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: includes/class-admin.php:92
+msgid "Added — categorize and describe in the table below"
+msgstr "Добавена — задайте категория и описание в таблицата по-долу"
+
+#: includes/class-admin.php:94
+#, php-format
+msgid "%d cookie(s) inferred from detected scripts on your site:"
+msgstr "Бисквитки, определени по засечените скриптове на сайта ви (%d):"
+
+#: includes/class-admin.php:95
+msgid ""
+"These cookies are expected from tracking scripts on your site, even when "
+"blocked until consent."
+msgstr ""
+"Тези бисквитки се очакват от скриптовете за проследяване на сайта ви, дори "
+"когато са блокирани до получаване на съгласие."
+
+#: includes/class-admin.php:97
+#, php-format
+msgid ""
+"%d browser cookie(s) skipped — found in your browser but no matching script "
+"on this site:"
+msgstr ""
+"Пропуснати бисквитки от браузъра (%d) — намерени във вашия браузър, но без "
+"съответстващ скрипт на този сайт:"
+
+#: includes/class-admin.php:481
+msgid ""
+"%d cookie was automatically added based on tracking scripts detected on your"
+" site."
+msgid_plural ""
+"%d cookies were automatically added based on tracking scripts detected on "
+"your site."
+msgstr[0] ""
+"%d бисквитка беше добавена автоматично въз основа на засечени на сайта ви "
+"скриптове за проследяване."
+msgstr[1] ""
+"%d бисквитки бяха добавени автоматично въз основа на засечени на сайта ви "
+"скриптове за проследяване."
+
+#: includes/class-admin.php:128
+msgid "General"
+msgstr "Общи"
+
+#: includes/class-admin.php:131 kansleri-cookie-consent.php:571
+msgid "Cookies"
+msgstr "Бисквитки"
+
+#: includes/class-admin.php:134
+msgid "Policy Page"
+msgstr "Страница с политиката"
+
+#: includes/class-admin.php:137
+msgid "Integration"
+msgstr "Интеграция"
+
+#: includes/class-admin.php:140
+msgid "Script Blocking"
+msgstr "Блокиране на скриптове"
+
+#: includes/class-admin.php:143
+msgid "Statistics"
+msgstr "Статистика"
+
+#: includes/class-admin.php:146
+msgid "Documentations"
+msgstr "Документация"
+
+#: includes/class-admin.php:210
+msgid "Open banner preview"
+msgstr "Отваряне на прегледа на банера"
+
+#: includes/class-admin.php:222 includes/class-admin.php:689
+msgid "Banner style"
+msgstr "Стил на банера"
+
+#: includes/class-admin.php:225
+msgid "Bottom bar"
+msgstr "Долна лента"
+
+#: includes/class-admin.php:226
+msgid "Centered modal"
+msgstr "Модален прозорец в центъра"
+
+#: includes/class-admin.php:227
+msgid "Corner popup"
+msgstr "Изскачащ прозорец в ъгъла"
+
+#: includes/class-admin.php:233
+msgid "Colors"
+msgstr "Цветове"
+
+#: includes/class-admin.php:237
+msgid "Banner background"
+msgstr "Фон на банера"
+
+#: includes/class-admin.php:238 includes/class-admin.php:275
+msgid "Heading text"
+msgstr "Текст на заглавието"
+
+#: includes/class-admin.php:239
+msgid "Body text"
+msgstr "Основен текст"
+
+#: includes/class-admin.php:240
+msgid "Primary button"
+msgstr "Основен бутон"
+
+#: includes/class-admin.php:241
+msgid "Primary button text"
+msgstr "Текст на основния бутон"
+
+#: includes/class-admin.php:242
+msgid "Secondary button"
+msgstr "Вторичен бутон"
+
+#: includes/class-admin.php:243
+msgid "Secondary button text"
+msgstr "Текст на вторичния бутон"
+
+#: includes/class-admin.php:265 includes/class-admin.php:691
+msgid "Text and font style"
+msgstr "Стил на текста и шрифта"
+
+#: includes/class-admin.php:268 includes/class-admin.php:521
+msgid "Theme style (inherit site typography)"
+msgstr "Стил на темата (наследява типографията на сайта)"
+
+#: includes/class-admin.php:269 includes/class-admin.php:522
+msgid "Plugin style (strict font sizes/colors)"
+msgstr "Стил на добавката (строги размери на шрифта и цветове)"
+
+#: includes/class-admin.php:281
+msgid "Description text"
+msgstr "Текст на описанието"
+
+#: includes/class-admin.php:287
+msgid "Accept button text"
+msgstr "Текст на бутона за приемане"
+
+#: includes/class-admin.php:291
+msgid "Reject button text"
+msgstr "Текст на бутона за отхвърляне"
+
+#: includes/class-admin.php:295
+msgid "Customize button text"
+msgstr "Текст на бутона за персонализиране"
+
+#: includes/class-admin.php:299
+msgid "Save preferences button text"
+msgstr "Текст на бутона за запазване на предпочитанията"
+
+#: includes/class-admin.php:303 includes/class-script-blocker.php:187
+msgid "This content is blocked because it requires marketing cookies."
+msgstr "Това съдържание е блокирано, защото изисква маркетингови бисквитки."
+
+#: includes/class-admin.php:304 includes/class-script-blocker.php:190
+msgid "Accept marketing cookies"
+msgstr "Приемане на маркетингови бисквитки"
+
+#: includes/class-admin.php:318 includes/class-admin.php:693
+msgid "Floating settings button"
+msgstr "Плаващ бутон за настройки"
+
+#: includes/class-admin.php:322
+msgid ""
+"Show a small floating button so visitors can re-open their cookie "
+"preferences"
+msgstr ""
+"Показване на малък плаващ бутон, чрез който посетителите могат да отворят "
+"отново предпочитанията си за бисквитки"
+
+#: includes/class-admin.php:329
+msgid "Copied!"
+msgstr "Копирано!"
+
+#: includes/class-admin.php:329 includes/class-admin.php:330
+msgid "Copy"
+msgstr "Копиране"
+
+#: includes/class-admin.php:346 includes/class-admin.php:531
+#: includes/class-admin.php:664
+msgid "Save Settings"
+msgstr "Запазване на настройките"
+
+#: includes/class-admin.php:370
+msgid "Banner preview"
+msgstr "Преглед на банера"
+
+#: includes/class-admin.php:415
+msgid "Add Cookie"
+msgstr "Добавяне на бисквитка"
+
+#: includes/class-admin.php:419
+msgid "Need help describing these cookies?"
+msgstr "Нужна ли ви е помощ при описването на тези бисквитки?"
+
+#: includes/class-admin.php:421
+msgid ""
+"Click the button below to copy a ready-made AI prompt with your cookie data."
+msgstr ""
+"Натиснете бутона по-долу, за да копирате готов ИИ промпт с данните за вашите "
+"бисквитки."
+
+#: includes/class-admin.php:422
+msgid "Paste the prompt into an AI tool (ChatGPT, Claude, Gemini, etc.)."
+msgstr "Поставете промпта в ИИ инструмент (ChatGPT, Claude, Gemini и др.)."
+
+#: includes/class-admin.php:423
+msgid "The AI will return improved JSON with clear cookie descriptions."
+msgstr "ИИ ще върне подобрен JSON с ясни описания на бисквитките."
+
+#: includes/class-admin.php:424
+msgid ""
+"Copy the AI response and paste it into the text box that appears below."
+msgstr ""
+"Копирайте отговора на ИИ и го поставете в текстовото поле, което се появява "
+"по-долу."
+
+#: includes/class-admin.php:425
+msgid "Click Import — cookies are saved automatically."
+msgstr "Натиснете „Импортиране“ — бисквитките се запазват автоматично."
+
+#: includes/class-admin.php:429
+msgid "Copy AI Prompt to Clipboard"
+msgstr "Копиране на ИИ промпта в клипборда"
+
+#: includes/class-admin.php:433
+msgid "Paste the AI response here:"
+msgstr "Поставете тук отговора на ИИ:"
+
+#: includes/class-admin.php:434
+msgid "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+msgstr "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+
+#: includes/class-admin.php:436
+msgid "Import"
+msgstr "Импортиране"
+
+#: includes/class-admin.php:447
+msgid "Name"
+msgstr "Име"
+
+#: includes/class-admin.php:448 includes/class-admin.php:989
+msgid "Category"
+msgstr "Категория"
+
+#: includes/class-admin.php:449 includes/class-policy-page.php:91
+#: includes/class-policy-page.php:100
+msgid "Provider"
+msgstr "Доставчик"
+
+#: includes/class-admin.php:450 includes/class-policy-page.php:93
+#: includes/class-policy-page.php:102
+msgid "Duration"
+msgstr "Срок"
+
+#: includes/class-admin.php:451
+msgid "Description"
+msgstr "Описание"
+
+#: includes/class-admin.php:464 kansleri-cookie-consent.php:335
+msgid "Necessary"
+msgstr "Необходими"
+
+#: includes/class-admin.php:465 kansleri-cookie-consent.php:339
+msgid "Analytics"
+msgstr "Аналитични"
+
+#: includes/class-admin.php:466 kansleri-cookie-consent.php:343
+msgid "Marketing"
+msgstr "Маркетингови"
+
+#: includes/class-admin.php:467 kansleri-cookie-consent.php:347
+msgid "Preferences"
+msgstr "Предпочитания"
+
+#: includes/class-admin.php:480 includes/class-admin.php:700
+msgid "Save Cookies"
+msgstr "Запазване на бисквитките"
+
+#: includes/class-admin.php:494
+msgid ""
+"No cookie policy page has been selected. Set a Privacy Policy page in "
+"Settings → Privacy, or choose a page below."
+msgstr ""
+"Не е избрана страница с политиката за бисквитките. Задайте страница с "
+"политика за поверителност в Настройки → Поверителност или изберете страница "
+"по-долу."
+
+#: includes/class-admin.php:502 includes/class-admin.php:705
+msgid "Cookie policy page"
+msgstr "Страница с политиката за бисквитките"
+
+#: includes/class-admin.php:505
+msgid "— Select a page —"
+msgstr "— Изберете страница —"
+
+#: includes/class-admin.php:510
+#, php-format
+msgid "%s (WordPress Privacy Policy)"
+msgstr "%s (политика за поверителност на WordPress)"
+
+#: includes/class-admin.php:513
+msgid ""
+"Defaults automatically to the WordPress Privacy Policy page (Settings → "
+"Privacy). Add the shortcode [kncc_cookie_policy] to that page to show the "
+"cookie declaration."
+msgstr ""
+"По подразбиране автоматично се използва страницата с политиката за "
+"поверителност на WordPress (Настройки → Поверителност). Добавете шорткода "
+"[kncc_cookie_policy] към тази страница, за да се покаже декларацията за "
+"бисквитките."
+
+#: includes/class-admin.php:518
+msgid "Policy page style"
+msgstr "Стил на страницата с политиката"
+
+#: includes/class-admin.php:525
+msgid ""
+"Controls the styling of the [kncc_cookie_policy] cookie declaration table."
+msgstr ""
+"Определя стила на таблицата с декларацията за бисквитките "
+"[kncc_cookie_policy]."
+
+#: includes/class-admin.php:628
+msgid ""
+"Theme style is the default so the policy page matches your site typography. "
+"Switch to Plugin style for strict plugin sizes and colors."
+msgstr ""
+"По подразбиране е избран „Стил на темата“, за да съответства страницата с "
+"политиката на типографията на сайта ви. Изберете „Стил на добавката“ за "
+"строги размери и цветове."
+
+#: includes/class-admin.php:539
+msgid "Preview Policy Page"
+msgstr "Преглед на страницата с политиката"
+
+#: includes/class-admin.php:546
+msgid "Generate cookie policy page content with AI"
+msgstr ""
+"Генериране на съдържание за страницата с политиката за бисквитките с ИИ"
+
+#: includes/class-admin.php:548
+msgid ""
+"Copy the prompt below and paste it into an AI tool. It will generate a "
+"complete cookie and privacy policy page in your site language. The cookie "
+"declaration will be handled automatically by the [kncc_cookie_policy] "
+"shortcode. Paste the generated HTML into your policy page."
+msgstr ""
+"Копирайте промпта по-долу и го поставете в ИИ инструмент. Той ще генерира на "
+"езика на сайта ви пълна страница с политика за бисквитките и "
+"поверителността. Декларацията за бисквитките се обработва автоматично от "
+"шорткода [kncc_cookie_policy]. Поставете генерирания HTML код в страницата с "
+"политиката."
+
+#: includes/class-admin.php:552
+msgid "Copy AI Prompt for Policy Page"
+msgstr "Копиране на ИИ промпта за страницата с политиката"
+
+#: includes/class-admin.php:565
+msgid "Detected integrations"
+msgstr "Засечени интеграции"
+
+#: includes/class-admin.php:692
+msgid ""
+"Active — Site Kit sets consent defaults for its own regions. This plugin "
+"sets a denied default for all other visitors and sends consent updates."
+msgstr ""
+"Активна — Site Kit задава стойности по подразбиране за съгласието в "
+"собствените си региони. Тази добавка задава „отказано“ по подразбиране за "
+"всички останали посетители и изпраща актуализации на съгласието."
+
+#: includes/class-admin.php:575
+msgid ""
+"Active — Site Kit consent mode not enabled. This plugin handles all consent "
+"signals."
+msgstr ""
+"Активна — Consent Mode на Site Kit не е включен. Тази добавка обработва "
+"всички сигнали за съгласие."
+
+#: includes/class-admin.php:586
+msgid ""
+"Active — consent status is shared with other plugins via the WP Consent API."
+msgstr ""
+"Активна — състоянието на съгласието се споделя с други добавки чрез WP "
+"Consent API."
+
+#: includes/class-admin.php:598 includes/class-admin.php:712
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: includes/class-admin.php:602
+msgid ""
+"Enable Consent Mode v2 (outputs consent defaults in &lt;head&gt; before GTM)"
+msgstr ""
+"Включване на Consent Mode v2 (добавя стойностите по подразбиране за "
+"съгласието в &lt;head&gt; преди GTM)"
+
+#: includes/class-admin.php:610
+msgid ""
+"Forced on because Google Site Kit is active. Consent Mode is required for "
+"Site Kit to receive consent signals."
+msgstr ""
+"Включено принудително, защото добавката Google Site Kit е активна. Consent "
+"Mode е необходим, за да получава Site Kit сигнали за съгласие."
+
+#: includes/class-admin.php:614
+msgid ""
+"Consent Mode tells Google tags what the visitor has allowed (for example "
+"analytics or ads). This plugin sends a denied-by-default signal before tags "
+"run, and sends an updated signal after the visitor chooses. It controls "
+"consent signals only: you still need to install GTM/GA scripts separately."
+msgstr ""
+"Consent Mode съобщава на таговете на Google какво е разрешил посетителят "
+"(например аналитика или реклама). Тази добавка изпраща сигнал „отказано“ по "
+"подразбиране, преди да се изпълнят таговете, и актуализиран сигнал, след "
+"като посетителят направи избор. Тя управлява само сигналите за съгласие: "
+"скриптовете за GTM/GA все пак трябва да се инсталират отделно."
+
+#: includes/class-admin.php:740
+msgid ""
+"Site Kit sets consent defaults for its own regions. This plugin adds a "
+"denied default for all other visitors and sends each visitor's choice as a "
+"consent update."
+msgstr ""
+"Site Kit задава стойности по подразбиране за съгласието в собствените си "
+"региони. Тази добавка добавя „отказано“ по подразбиране за всички останали "
+"посетители и изпраща избора на всеки посетител като актуализация на "
+"съгласието."
+
+#: includes/class-admin.php:630
+msgid "Need Google Analytics 4 or Google Tag Manager?"
+msgstr "Нуждаете ли се от Google Analytics 4 или Google Tag Manager?"
+
+#: includes/class-admin.php:633
+msgid ""
+"We recommend installing Google Site Kit — Google's official WordPress "
+"plugin. It sets up GA4 and GTM in a few clicks, and works seamlessly with "
+"Kansleri Cookie Consent: Consent Mode v2 signals are handled automatically, "
+"with no double-loading or conflicts."
+msgstr ""
+"Препоръчваме да инсталирате Google Site Kit — официалната добавка на Google "
+"за WordPress. Тя настройва GA4 и GTM с няколко кликвания и работи "
+"безпроблемно с Kansleri Cookie Consent: сигналите на Consent Mode v2 се "
+"обработват автоматично, без двойно зареждане или конфликти."
+
+#: includes/class-admin.php:638
+msgid "Install Google Site Kit"
+msgstr "Инсталиране на Google Site Kit"
+
+#: includes/class-admin.php:649
+msgid "Consent Mode defaults (auto-injected in &lt;head&gt;)"
+msgstr ""
+"Стойности по подразбиране на Consent Mode (добавят се автоматично в "
+"&lt;head&gt;)"
+
+#: includes/class-admin.php:673
+msgid "Installation guide"
+msgstr "Ръководство за инсталиране"
+
+#: includes/class-admin.php:675
+msgid "Activate the plugin and open Settings > Cookie Consent."
+msgstr "Активирайте добавката и отворете Настройки > Съгласие за бисквитки."
+
+#: includes/class-admin.php:676
+msgid "Configure banner texts, style, and button labels in the General tab."
+msgstr ""
+"Настройте текстовете, стила и етикетите на бутоните на банера в раздела "
+"„Общи“."
+
+#: includes/class-admin.php:677
+msgid ""
+"Open the Integration tab and enable Google Consent Mode v2 if you use "
+"GTM/Google tags."
+msgstr ""
+"Отворете раздела „Интеграция“ и включете Google Consent Mode v2, ако "
+"използвате GTM или тагове на Google."
+
+#: includes/class-admin.php:678
+msgid ""
+"Open the Cookies tab, run Scan Cookies, then review and categorize unknown "
+"cookies."
+msgstr ""
+"Отворете раздела „Бисквитки“, стартирайте „Сканиране на бисквитките“, след "
+"което прегледайте и категоризирайте неизвестните бисквитки."
+
+#: includes/class-admin.php:679
+msgid ""
+"If unknown cookies are found, an AI helper appears: copy the prompt, paste "
+"it into an AI tool, paste the response back into the text box, click Import,"
+" then Save Cookies."
+msgstr ""
+"Ако бъдат намерени неизвестни бисквитки, се появява ИИ помощник: копирайте "
+"промпта, поставете го в ИИ инструмент, поставете отговора обратно в "
+"текстовото поле, натиснете „Импортиране“, след което „Запазване на "
+"бисквитките“."
+
+#: includes/class-admin.php:680
+msgid ""
+"Confirm the Cookie Policy page in the Policy Page tab — it defaults to the "
+"WordPress Privacy Policy page."
+msgstr ""
+"Потвърдете страницата с политиката за бисквитките в раздела „Страница с "
+"политиката“ — по подразбиране това е страницата с политиката за "
+"поверителност на WordPress."
+
+#: includes/class-admin.php:681
+msgid ""
+"Use the AI prompt on the Policy Page tab to generate the full cookie policy "
+"page content. Paste the generated HTML into your policy page."
+msgstr ""
+"Използвайте ИИ промпта в раздела „Страница с политиката“, за да генерирате "
+"пълното съдържание на страницата с политиката за бисквитките. Поставете "
+"генерирания HTML код в страницата с политиката."
+
+#: includes/class-admin.php:682
+msgid "Review the Script Blocking tab to see which scripts are auto-blocked."
+msgstr ""
+"Прегледайте раздела „Блокиране на скриптове“, за да видите кои скриптове се "
+"блокират автоматично."
+
+#: includes/class-admin.php:685
+msgid "What each option means"
+msgstr "Какво означава всяка опция"
+
+#: includes/class-admin.php:687
+msgid "General tab"
+msgstr "Раздел „Общи“"
+
+#: includes/class-admin.php:689
+msgid "Choose visual placement of the banner (bar, modal, corner)."
+msgstr "Изберете разположението на банера (лента, модален прозорец, ъгъл)."
+
+#: includes/class-admin.php:690
+msgid "Controls the main accent color used by buttons and links."
+msgstr "Определя основния акцентен цвят на бутоните и връзките."
+
+#: includes/class-admin.php:690
+msgid "Primary color"
+msgstr "Основен цвят"
+
+#: includes/class-admin.php:691
+msgid ""
+"Theme style inherits site typography. Plugin style uses strict sizes/colors "
+"for consistent readability."
+msgstr ""
+"„Стил на темата“ наследява типографията на сайта. „Стил на добавката“ "
+"използва строги размери и цветове за последователна четимост."
+
+#: includes/class-admin.php:692
+msgid "Customize visible wording in the consent banner."
+msgstr "Настройва видимите текстове в банера за съгласие."
+
+#: includes/class-admin.php:692
+msgid "Heading/Description/Button texts"
+msgstr "Текстове на заглавието/описанието/бутоните"
+
+#: includes/class-admin.php:693
+msgid "Lets visitors re-open cookie settings after they close the banner."
+msgstr ""
+"Позволява на посетителите да отворят отново настройките за бисквитки, след "
+"като затворят банера."
+
+#: includes/class-admin.php:696
+msgid "Cookies tab"
+msgstr "Раздел „Бисквитки“"
+
+#: includes/class-admin.php:777
+msgid ""
+"Scans browser cookies and infers expected cookies from tracking scripts on "
+"your site (even when blocked until consent). Known cookies are auto-mapped "
+"to categories."
+msgstr ""
+"Сканира бисквитките в браузъра и определя очакваните бисквитки по "
+"скриптовете за проследяване на сайта ви (дори когато са блокирани до "
+"получаване на съгласие). Известните бисквитки се свързват автоматично с "
+"категории."
+
+#: includes/class-admin.php:699
+msgid "AI Helper"
+msgstr "ИИ помощник"
+
+#: includes/class-admin.php:699
+msgid ""
+"Appears after scanning when unknown cookies are found. Copies a ready prompt"
+" to paste into an AI tool. After the AI responds, paste the JSON back into "
+"the text box and click Import."
+msgstr ""
+"Появява се след сканиране, когато са намерени неизвестни бисквитки. Копира "
+"готов промпт, който да поставите в ИИ инструмент. След като ИИ отговори, "
+"поставете JSON обратно в текстовото поле и натиснете „Импортиране“."
+
+#: includes/class-admin.php:700
+msgid ""
+"Persists current cookie table values to be used in policy output and consent"
+" details."
+msgstr ""
+"Запазва текущите стойности от таблицата с бисквитки, за да се използват в "
+"страницата с политиката и в подробностите за съгласието."
+
+#: includes/class-admin.php:703
+msgid "Policy Page tab"
+msgstr "Раздел „Страница с политиката“"
+
+#: includes/class-admin.php:705
+msgid ""
+"Selects which page is used for cookie policy content generated by shortcode."
+msgstr ""
+"Избира коя страница се използва за съдържанието на политиката за "
+"бисквитките, генерирано от шорткод."
+
+#: includes/class-admin.php:706
+msgid "AI Prompt for Policy Page"
+msgstr "ИИ промпт за страницата с политиката"
+
+#: includes/class-admin.php:706
+msgid ""
+"Generates a prompt you can paste into an AI tool to create a full privacy "
+"and cookie policy. The generated text will include the [kncc_cookie_policy] "
+"shortcode for the cookie declaration section."
+msgstr ""
+"Генерира промпт, който можете да поставите в ИИ инструмент, за да създадете "
+"пълна политика за поверителност и бисквитки. Генерираният текст ще включва "
+"шорткода [kncc_cookie_policy] за раздела с декларацията за бисквитките."
+
+#: includes/class-admin.php:707
+msgid ""
+"If Polylang or WPML is active, each language can have its own translated "
+"policy page. If a translation is missing for some language, the default-"
+"language policy page is used as a fallback."
+msgstr ""
+"Ако Polylang или WPML са активни, всеки език може да има собствена преведена "
+"страница с политиката. Ако за даден език липсва превод, като резервна се "
+"използва страницата с политиката на езика по подразбиране."
+
+#: includes/class-admin.php:707
+msgid "Multilingual support"
+msgstr "Многоезична поддръжка"
+
+#: includes/class-admin.php:710
+msgid "Integration tab"
+msgstr "Раздел „Интеграция“"
+
+#: includes/class-admin.php:712
+msgid ""
+"A Google framework for privacy-safe tag behavior. Before consent, storage "
+"signals are denied; after user choice, signals are updated (for example "
+"analytics_storage=granted). This helps GTM/Google tags respect user consent "
+"state."
+msgstr ""
+"Рамка на Google за поведение на таговете, съобразено с поверителността. "
+"Преди да е дадено съгласие, сигналите за съхранение са отказани; след избора "
+"на потребителя те се актуализират (например analytics_storage=granted). Това "
+"помага на GTM и таговете на Google да спазват състоянието на съгласието на "
+"потребителя."
+
+#: includes/class-admin.php:713
+msgid "GTM Container ID"
+msgstr "ID на контейнера на GTM"
+
+#: includes/class-admin.php:713
+msgid ""
+"Your GTM container identifier (for example GTM-N6828NL). It identifies which"
+" tag container your site uses. This field is informational in this plugin "
+"and does not inject GTM scripts."
+msgstr ""
+"Идентификаторът на вашия GTM контейнер (например GTM-N6828NL). Той показва "
+"кой контейнер с тагове използва сайтът ви. В тази добавка полето е само "
+"информативно и не добавя GTM скриптове."
+
+#: includes/class-admin.php:716
+msgid "Script Blocking tab"
+msgstr "Раздел „Блокиране на скриптове“"
+
+#: includes/class-admin.php:798
+msgid ""
+"Tools like Google Analytics are blocked automatically when added through "
+"WordPress plugins (e.g. Google Site Kit)."
+msgstr ""
+"Инструменти като Google Analytics се блокират автоматично, когато са "
+"добавени чрез добавки за WordPress (напр. Google Site Kit)."
+
+#: includes/class-admin.php:799 includes/class-admin.php:1071
+msgid "Custom Code blocking"
+msgstr "Блокиране на персонализиран код"
+
+#: includes/class-admin.php:799
+msgid ""
+"Stops tracking pasted into Bricks, Elementor, or similar Custom Code fields "
+"until the visitor gives consent."
+msgstr ""
+"Спира проследяването, поставено в Bricks, Elementor или подобни полета за "
+"персонализиран код, докато посетителят не даде съгласие."
+
+#: includes/class-admin.php:719
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
+msgstr ""
+"Вградените видеа от YouTube и Vimeo се блокират автоматично, докато "
+"посетителят не приеме маркетингови бисквитки. Вместо тях се показва "
+"съобщение с бутон за приемане. Ако посетителят вече е дал съгласие, видеата "
+"се зареждат нормално."
+
+#: includes/class-admin.php:719
+msgid "YouTube & Vimeo iframe blocking"
+msgstr "Блокиране на iframe за YouTube и Vimeo"
+
+#: includes/class-admin.php:722
+msgid "Statistics tab"
+msgstr "Раздел „Статистика“"
+
+#: includes/class-admin.php:724
+msgid "Consent statistics"
+msgstr "Статистика на съгласията"
+
+#: includes/class-admin.php:724
+msgid ""
+"Shows how many visitors accepted, rejected, or customized cookies over 7, "
+"30, or 90 day periods. Data is aggregated and anonymous — no personal data "
+"is stored."
+msgstr ""
+"Показва колко посетители са приели, отхвърлили или персонализирали "
+"бисквитките за периоди от 7, 30 или 90 дни. Данните са обобщени и анонимни — "
+"не се съхраняват лични данни."
+
+#: includes/class-admin.php:725 includes/class-admin.php:1022
+msgid "Consent Log"
+msgstr "Дневник на съгласията"
+
+#: includes/class-admin.php:725
+msgid ""
+"Individual anonymized consent records for GDPR audit compliance. Records "
+"contain a hashed visitor identifier, the consent choice, accepted "
+"categories, and the policy version. Records are automatically purged after "
+"13 months."
+msgstr ""
+"Отделни анонимизирани записи за съгласие за одит на съответствието с GDPR. "
+"Записите съдържат хеширан идентификатор на посетителя, избора за съгласие, "
+"приетите категории и версията на политиката. Записите се изтриват "
+"автоматично след 13 месеца."
+
+#: includes/class-admin.php:726
+msgid "Downloads all consent log records as a CSV file for auditing."
+msgstr "Изтегля всички записи от дневника на съгласията като CSV файл за одит."
+
+#: includes/class-admin.php:726 includes/class-admin.php:1038
+msgid "Export CSV"
+msgstr "Експортиране на CSV"
+
+#: includes/class-admin.php:727
+msgid "Permanently deletes all consent log records and aggregate statistics."
+msgstr ""
+"Изтрива завинаги всички записи от дневника на съгласията и обобщената "
+"статистика."
+
+#: includes/class-admin.php:727 includes/class-admin.php:1039
+msgid "Purge All Records"
+msgstr "Изчистване на всички записи"
+
+#: includes/class-admin.php:730
+msgid "Multilingual support (WPML & Polylang)"
+msgstr "Многоезична поддръжка (WPML и Polylang)"
+
+#: includes/class-admin.php:732
+msgid "Per-language banner texts"
+msgstr "Текстове на банера за всеки език"
+
+#: includes/class-admin.php:732
+msgid ""
+"When WPML or Polylang is active, switch to a secondary language in the admin"
+" bar and edit General tab settings (saved per language). With WPML String "
+"Translation, you can also translate the [kncc_settings]* admin text strings "
+"— those are used when no per-language override is saved. Otherwise each "
+"language uses its own plugin defaults (English if unsupported). Texts are "
+"never copied blindly from the default language."
+msgstr ""
+"Когато WPML или Polylang са активни, превключете към допълнителен език в "
+"административната лента и редактирайте настройките в раздела „Общи“ "
+"(запазват се за всеки език поотделно). С WPML String Translation можете да "
+"превеждате и текстовите низове [kncc_settings]* в администрацията — те се "
+"използват, когато няма запазена стойност за съответния език. В противен "
+"случай всеки език използва собствените си стойности по подразбиране в "
+"добавката (английски, ако не се поддържа). Текстовете никога не се копират "
+"сляпо от езика по подразбиране."
+
+#: includes/class-admin.php:733
+msgid ""
+"Cookie names, categories, providers, and durations are shared across all "
+"languages. Only the description field can be translated per language. Switch"
+" language and edit descriptions in the Cookies tab."
+msgstr ""
+"Имената, категориите, доставчиците и сроковете на бисквитките са общи за "
+"всички езици. Само полето за описание може да се превежда за всеки език "
+"поотделно. Превключете езика и редактирайте описанията в раздела „Бисквитки“."
+
+#: includes/class-admin.php:733
+msgid "Per-language cookie descriptions"
+msgstr "Описания на бисквитките за всеки език"
+
+#: includes/class-admin.php:734
+msgid ""
+"Banner style, colors, and policy page can be set per language. Non-text "
+"settings fall back to the default language; banner texts use per-language "
+"overrides, WPML String Translation, or each language's own defaults."
+msgstr ""
+"Стилът на банера, цветовете и страницата с политиката могат да се задават за "
+"всеки език поотделно. Настройките, които не са текстови, се вземат от езика "
+"по подразбиране; текстовете на банера използват стойностите за съответния "
+"език, WPML String Translation или собствените стойности по подразбиране на "
+"всеки език."
+
+#: includes/class-admin.php:734
+msgid "Per-language settings"
+msgstr "Настройки за всеки език"
+
+#: includes/class-admin.php:735
+msgid "AI prompts"
+msgstr "ИИ промптове"
+
+#: includes/class-admin.php:735
+msgid ""
+"AI prompts for cookie descriptions and policy pages are automatically "
+"generated in the language matching the current admin locale."
+msgstr ""
+"ИИ промптовете за описанията на бисквитките и за страниците с политиката се "
+"генерират автоматично на езика, зададен за администрацията."
+
+#: includes/class-admin.php:738
+msgid "Shortcodes"
+msgstr "Шорткодове"
+
+#: includes/class-admin.php:740
+msgid "Displays the full cookie declaration table on your policy page."
+msgstr ""
+"Показва пълната таблица с декларацията за бисквитките на страницата с "
+"политиката."
+
+#: includes/class-admin.php:741
+msgid ""
+"Renders a link that opens the cookie settings dialog. Use in footers, menus,"
+" or widgets. Customize the link text with the text attribute, e.g. "
+"[kncc_cookie_settings text=\"Manage cookies\"]."
+msgstr ""
+"Показва връзка, която отваря прозореца с настройките за бисквитки. "
+"Използвайте я в долния колонтитул, менюта или джаджи. Променете текста на "
+"връзката с атрибута text, напр. [kncc_cookie_settings text=\"Управление на "
+"бисквитките\"]."
+
+#: includes/class-admin.php:744
+msgid "Custom CSS"
+msgstr "Собствен CSS"
+
+#: includes/class-admin.php:748
+#, php-format
+msgid ""
+"Need to fine-tune the look beyond the General tab? Add CSS to %s, your child"
+" theme, or a Code Snippets plugin."
+msgstr ""
+"Нужна ви е по-фина настройка на външния вид извън раздела „Общи“? Добавете "
+"CSS в %s, в дъщерната си тема или в добавка Code Snippets."
+
+#: includes/class-admin.php:749
+msgid "Appearance → Customize → Additional CSS"
+msgstr "Облик → Персонализиране → Допълнителен CSS"
+
+#: includes/class-admin.php:752
+msgid ""
+"Copy the template below, uncomment the rules you want to change, save. Every"
+" selector the plugin uses is included."
+msgstr ""
+"Копирайте шаблона по-долу, премахнете коментарите от правилата, които искате "
+"да промените, и запазете. Включени са всички селектори, които използва "
+"добавката."
+
+#: includes/class-admin.php:756
+msgid "Copy CSS template"
+msgstr "Копиране на CSS шаблона"
+
+#: includes/class-admin.php:828
+msgid "Tips:"
+msgstr "Съвети:"
+
+#: includes/class-admin.php:830
+msgid ""
+"If a rule does not apply, prepend .kncc-banner or add !important — your CSS "
+"file loads after the plugin's, but theme styles can occasionally beat it on "
+"specificity."
+msgstr ""
+"Ако правило не се прилага, добавете отпред .kncc-banner или добавете "
+"!important — вашият CSS файл се зарежда след този на добавката, но стиловете "
+"на темата понякога имат предимство заради по-висока специфичност."
+
+#: includes/class-admin.php:831
+msgid ""
+"When General → Text and font style is set to Plugin style, typography rules "
+"use !important. Switch to Theme style for easier overrides."
+msgstr ""
+"Когато „Общи → Стил на текста и шрифта“ е зададено на „Стил на добавката“, "
+"правилата за типографията използват !important. Превключете на „Стил на "
+"темата“ за по-лесно презаписване."
+
+#: includes/class-admin.php:832
+msgid ""
+"Banner z-index is 999999 and the floating button is 999998 — raise them if "
+"your theme renders overlays on top of the banner."
+msgstr ""
+"z-index на банера е 999999, а на плаващия бутон — 999998. Увеличете ги, ако "
+"темата ви показва слоеве над банера."
+
+#: includes/class-admin.php:835
+msgid "Troubleshooting"
+msgstr "Отстраняване на неизправности"
+
+#: includes/class-admin.php:837
+msgid ""
+"If GTM Preview does not show consent updates, verify Consent Mode v2 is "
+"enabled and test in a fresh browser session without existing consent cookie."
+msgstr ""
+"Ако GTM Preview не показва актуализации на съгласието, проверете дали "
+"Consent Mode v2 е включен, и тествайте в нова сесия на браузъра без "
+"съществуваща бисквитка за съгласие."
+
+#: includes/class-admin.php:838
+msgid ""
+"If banner typography looks odd with your theme, switch General > Text and "
+"font style to Plugin style."
+msgstr ""
+"Ако типографията на банера изглежда странно с вашата тема, превключете „Общи "
+"> Стил на текста и шрифта“ на „Стил на добавката“."
+
+#: includes/class-admin.php:839
+msgid ""
+"If tracking still runs before consent, make sure Custom Code blocking is "
+"checked on the Script Blocking tab."
+msgstr ""
+"Ако проследяването все още се изпълнява преди съгласие, уверете се, че "
+"„Блокиране на персонализиран код“ е отметнато в раздела „Блокиране на "
+"скриптове“."
+
+#: includes/class-admin.php:840
+msgid ""
+"If the statistics are empty, make sure visitors have interacted with the "
+"banner. Data starts recording after the first consent choice."
+msgstr ""
+"Ако статистиката е празна, уверете се, че посетителите са взаимодействали с "
+"банера. Данните започват да се записват след първия избор за съгласие."
+
+#: includes/class-admin.php:841
+msgid ""
+"If the policy page warning shows missing translations, create the translated"
+" page in each language and add the [kncc_cookie_policy] shortcode."
+msgstr ""
+"Ако предупреждението за страницата с политиката показва липсващи преводи, "
+"създайте преведената страница за всеки език и добавете шорткода "
+"[kncc_cookie_policy]."
+
+#: includes/class-admin.php:845
+msgid ""
+"I made this plugin for free because I got frustrated by the existing cookie "
+"consent plugins — too much bloat and useless features. If you like it and "
+"want to buy me a coffee, you can do it here:"
+msgstr ""
+"Направих тази добавка безплатна, защото се разочаровах от съществуващите "
+"добавки за съгласие за бисквитки — твърде претрупани са и имат безполезни "
+"функции. Ако ви харесва и искате да ми купите кафе, можете да го направите "
+"тук:"
+
+#: includes/class-admin.php:873
+#, php-format
+msgid "%d days"
+msgstr "%d дни"
+
+#: includes/class-admin.php:884
+msgid "Total responses"
+msgstr "Общо отговори"
+
+#: includes/class-admin.php:888 includes/class-admin.php:903
+#: includes/class-admin.php:913
+msgid "Accepted all"
+msgstr "Приели всички"
+
+#: includes/class-admin.php:892 includes/class-admin.php:909
+#: includes/class-admin.php:915
+msgid "Rejected all"
+msgstr "Отхвърлили всички"
+
+#: includes/class-admin.php:896 includes/class-admin.php:906
+#: includes/class-admin.php:914
+msgid "Custom selection"
+msgstr "Персонализиран избор"
+
+#: includes/class-admin.php:920
+msgid ""
+"No consent data recorded yet. Statistics will appear after visitors start "
+"interacting with the cookie banner."
+msgstr ""
+"Все още няма записани данни за съгласие. Статистиката ще се появи, след като "
+"посетителите започнат да взаимодействат с банера за бисквитки."
+
+#: includes/class-admin.php:937
+#, php-format
+msgid "Cron error: %s"
+msgstr "Грешка в cron: %s"
+
+#: includes/class-admin.php:955
+msgid "All systems are good!"
+msgstr "Всичко е наред!"
+
+#: includes/class-admin.php:957
+msgid "The plugin re-checks cookies every day via cron."
+msgstr "Добавката проверява бисквитките отново всеки ден чрез cron."
+
+#: includes/class-admin.php:962
+#, php-format
+msgid "Next check: %s"
+msgstr "Следваща проверка: %s"
+
+#: includes/class-admin.php:1075
+msgid ""
+"Also block tracking added in Bricks, Elementor, or other Custom Code fields"
+msgstr ""
+"Блокиране и на проследяването, добавено в Bricks, Elementor или други полета "
+"за персонализиран код"
+
+#: includes/class-admin.php:1094
+msgid "Save blocking settings"
+msgstr "Запазване на настройките за блокиране"
+
+#: includes/class-admin.php:1099
+msgid "Recognized tracking tools"
+msgstr "Разпознати инструменти за проследяване"
+
+#: includes/class-admin.php:1106
+msgid "Script Handle"
+msgstr "Handle на скрипта"
+
+#: includes/class-admin.php:1024
+msgid ""
+"Individual consent records for GDPR audit compliance. Records are "
+"automatically purged after the retention period (13 months)."
+msgstr ""
+"Отделни записи за съгласие за одит на съответствието с GDPR. Записите се "
+"изтриват автоматично след изтичане на срока на съхранение (13 месеца)."
+
+#: includes/class-admin.php:1028
+msgid "Total records:"
+msgstr "Общо записи:"
+
+#: includes/class-admin.php:1030
+msgid "Oldest:"
+msgstr "Най-стар:"
+
+#: includes/class-admin.php:1033
+msgid "Newest:"
+msgstr "Най-нов:"
+
+#: includes/class-admin.php:1043
+msgid "No consent log records yet."
+msgstr "Все още няма записи в дневника на съгласията."
+
+#: includes/class-admin.php:1048
+msgid "Date/Time"
+msgstr "Дата/час"
+
+#: includes/class-admin.php:1049
+msgid "Visitor"
+msgstr "Посетител"
+
+#: includes/class-admin.php:1050
+msgid "Choice"
+msgstr "Избор"
+
+#: includes/class-admin.php:1051
+msgid "Categories"
+msgstr "Категории"
+
+#: includes/class-admin.php:1052
+msgid "Policy Version"
+msgstr "Версия на политиката"
+
+#: includes/class-admin.php:1311
+msgid "Cookies saved."
+msgstr "Бисквитките са запазени."
+
+#: includes/class-consent.php:135
+msgid "Cookie consent"
+msgstr "Съгласие за бисквитки"
+
+#: includes/class-consent.php:147 includes/class-policy-page.php:27
+msgid "Cookie Policy"
+msgstr "Политика за бисквитките"
+
+#: includes/class-consent.php:155
+msgid "Close"
+msgstr "Затваряне"
+
+#: includes/class-consent.php:187 includes/class-consent.php:188
+#: kansleri-cookie-consent.php:590
+msgid "Cookie settings"
+msgstr "Настройки за бисквитките"
+
+#: includes/class-policy-page.php:48
+msgid "No cookies have been registered yet."
+msgstr "Все още няма регистрирани бисквитки."
+
+#: includes/class-policy-page.php:58
+msgid ""
+"These cookies are essential for the website to function and cannot be "
+"switched off."
+msgstr ""
+"Тези бисквитки са необходими за функционирането на сайта и не могат да бъдат "
+"изключени."
+
+#: includes/class-policy-page.php:59
+msgid ""
+"These cookies help us understand how visitors interact with the website by "
+"collecting and reporting information anonymously."
+msgstr ""
+"Тези бисквитки ни помагат да разберем как посетителите взаимодействат със "
+"сайта, като събират и отчитат информация анонимно."
+
+#: includes/class-policy-page.php:60
+msgid ""
+"These cookies are used to deliver relevant advertisements and track ad "
+"campaign performance."
+msgstr ""
+"Тези бисквитки се използват за показване на подходящи реклами и за "
+"проследяване на ефективността на рекламните кампании."
+
+#: includes/class-policy-page.php:61
+msgid ""
+"These cookies allow the website to remember choices you make and provide "
+"enhanced functionality and personalisation."
+msgstr ""
+"Тези бисквитки позволяват на сайта да запомня направените от вас избори и "
+"осигуряват подобрена функционалност и персонализация."
+
+#: includes/class-policy-page.php:79
+msgid "Edit cookie preferences"
+msgstr "Промяна на предпочитанията за бисквитки"
+
+#: includes/class-policy-page.php:90 includes/class-policy-page.php:99
+msgid "Cookie"
+msgstr "Бисквитка"
+
+#: includes/class-policy-page.php:92 includes/class-policy-page.php:101
+msgid "Purpose"
+msgstr "Цел"
+
+#: includes/class-script-blocker.php:306
+msgid "Script blocking settings saved."
+msgstr "Настройките за блокиране на скриптове са запазени."
+
+#: kansleri-cookie-consent.php:57 kansleri-cookie-consent.php:404
+msgid "We use cookies"
+msgstr "Използваме бисквитки"
+
+#: kansleri-cookie-consent.php:58 kansleri-cookie-consent.php:405
+msgid ""
+"We use cookies to improve your experience and analyze site traffic. Choose "
+"which cookies you allow."
+msgstr ""
+"Използваме бисквитки, за да подобрим потребителския ви опит и да анализираме "
+"трафика на сайта. Изберете кои бисквитки разрешавате."
+
+#: kansleri-cookie-consent.php:59 kansleri-cookie-consent.php:406
+msgid "Accept all"
+msgstr "Приемане на всички"
+
+#: kansleri-cookie-consent.php:60 kansleri-cookie-consent.php:407
+msgid "Reject all"
+msgstr "Отхвърляне на всички"
+
+#: kansleri-cookie-consent.php:61 kansleri-cookie-consent.php:408
+msgid "Customize"
+msgstr "Персонализиране"
+
+#: kansleri-cookie-consent.php:62 kansleri-cookie-consent.php:409
+msgid "Save preferences"
+msgstr "Запазване на предпочитанията"
+
+#: kansleri-cookie-consent.php:336
+msgid "Required for the website to function. Cannot be disabled."
+msgstr "Необходими за функционирането на сайта. Не могат да бъдат изключени."
+
+#: kansleri-cookie-consent.php:340
+msgid "Help us understand how visitors interact with the website."
+msgstr "Помагат ни да разберем как посетителите взаимодействат със сайта."
+
+#: kansleri-cookie-consent.php:344
+msgid "Used to deliver relevant advertisements and track campaigns."
+msgstr ""
+"Използват се за показване на подходящи реклами и проследяване на кампании."
+
+#: kansleri-cookie-consent.php:348
+msgid "Remember your settings and preferences for a better experience."
+msgstr ""
+"Запомнят настройките и предпочитанията ви за по-добър потребителски опит."
+
+#: kansleri-cookie-consent.php:499
+msgid "Settings"
+msgstr "Настройки"
+
+#: kansleri-cookie-consent.php:522
+#, php-format
+msgid ""
+"Kansleri Cookie Consent is now active. Next steps: %1$s to discover cookies "
+"and %2$s to review banner and consent settings."
+msgstr ""
+"Добавката Kansleri Cookie Consent вече е активна. Следващи стъпки: %1$s, за "
+"да ги откриете, и %2$s на банера и съгласието."
+
+#: kansleri-cookie-consent.php:523
+msgid "Scan cookies"
+msgstr "Сканиране на бисквитките"
+
+#: kansleri-cookie-consent.php:524
+msgid "review settings"
+msgstr "преглед на настройките"
+
+#: kansleri-cookie-consent.php:555
+#, php-format
+msgid ""
+"Cookie Consent: %1$d cookie(s) are missing descriptions: %2$s. %3$s to add "
+"them."
+msgstr ""
+"Съгласие за бисквитки: липсват описания на бисквитки (%1$d): %2$s. %3$s, за "
+"да ги добавите."
+
+#: kansleri-cookie-consent.php:558
+msgid "Go to Cookies tab"
+msgstr "Отидете в раздела „Бисквитки“"
+
+#: kansleri-cookie-consent.php:572
+msgid ""
+"This site uses a cookie consent banner powered by Kansleri Cookie Consent. "
+"When you interact with the banner, a cookie named <code>kncc_consent</code> "
+"is stored in your browser for up to 1 year. It records your consent "
+"preferences (which cookie categories you accepted or rejected) so the site "
+"can remember your choice on future visits. No personal data is stored in "
+"this cookie."
+msgstr ""
+"Този сайт използва банер за съгласие за бисквитки, осигурен от Kansleri "
+"Cookie Consent. Когато взаимодействате с банера, в браузъра ви се съхранява "
+"бисквитка с име <code>kncc_consent</code> за срок до 1 година. Тя записва "
+"предпочитанията ви за съгласие (кои категории бисквитки сте приели или "
+"отхвърлили), за да може сайтът да запомни избора ви при следващи посещения. "
+"В тази бисквитка не се съхраняват лични данни."
+
+#: kansleri-cookie-consent.php:573
+msgid ""
+"The plugin also records anonymous, aggregated consent statistics (how many "
+"visitors accepted, rejected, or customized cookies each day) and individual "
+"consent log entries for GDPR audit compliance. Consent log entries contain a"
+" hashed (non-reversible) visitor identifier, the consent choice, which "
+"categories were accepted, and the policy version. No IP addresses, user "
+"identifiers, or personal data are stored in plain text. Consent log records "
+"are automatically deleted after 13 months."
+msgstr ""
+"Добавката записва и анонимна, обобщена статистика за съгласията (колко "
+"посетители са приели, отхвърлили или персонализирали бисквитките всеки ден), "
+"както и отделни записи в дневника на съгласията за одит на съответствието с "
+"GDPR. Записите в дневника съдържат хеширан (необратим) идентификатор на "
+"посетителя, избора за съгласие, приетите категории и версията на политиката. "
+"Не се съхраняват IP адреси, потребителски идентификатори или лични данни в "
+"открит вид. Записите в дневника на съгласията се изтриват автоматично след "
+"13 месеца."
+
+#: includes/class-admin.php:318
+msgid "Empty cookie categories"
+msgstr "Празни категории бисквитки"
+
+#: includes/class-admin.php:322
+msgid "Show but lock (disable) the switch"
+msgstr "Показване със заключен (неактивен) превключвател"
+
+#: includes/class-admin.php:323
+msgid "Hide categories with no cookies"
+msgstr "Скриване на категориите без бисквитки"
+
+#: includes/class-admin.php:378 includes/class-consent.php:95
+msgid "No analytics cookies are used on this site."
+msgstr "На този сайт не се използват аналитични бисквитки."
+
+#: includes/class-admin.php:379 includes/class-consent.php:96
+msgid "No marketing cookies are used on this site."
+msgstr "На този сайт не се използват маркетингови бисквитки."
+
+#: includes/class-admin.php:380 includes/class-consent.php:97
+msgid "No preference cookies are used on this site."
+msgstr "На този сайт не се използват бисквитки за предпочитания."
+
+#: includes/class-admin.php:323
+msgid "Close button label"
+msgstr "Етикет на бутона за затваряне"
+
+#: includes/class-consent.php:50
+msgid "You have not made a choice yet."
+msgstr "Все още не сте направили избор."
+
+#: includes/class-consent.php:51
+msgid "Allowed"
+msgstr "Разрешено"
+
+#: includes/class-consent.php:52
+msgid "Denied"
+msgstr "Отказано"
+
+#: includes/class-consent.php:53
+msgid "Always active"
+msgstr "Винаги активни"
+
+#: includes/class-policy-page.php:85
+msgid "Your current cookie preferences"
+msgstr "Текущите ви предпочитания за бисквитки"
+
+#: includes/class-policy-page.php:93
+msgid ""
+"These choices are stored technically as wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing, and wp_consent_preferences for "
+"compatibility with WordPress plugins."
+msgstr ""
+"Тези избори се съхраняват технически като wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing и wp_consent_preferences за "
+"съвместимост с добавките за WordPress."
+
+#: includes/class-admin.php:99
+msgid "Possibly removed"
+msgstr "Възможно премахнати"
+
+#: includes/class-admin.php:100
+msgid ""
+"These cookies are still in your list, but their tracking scripts were not "
+"found on the homepage. Review and remove any that are no longer used."
+msgstr ""
+"Тези бисквитки все още са в списъка ви, но скриптовете им за проследяване не "
+"бяха намерени на началната страница. Прегледайте ги и премахнете тези, които "
+"вече не се използват."
+
+#: includes/class-admin.php:102
+#, php-format
+msgid ""
+"Remove %d cookie(s) from the list? This cannot be undone automatically."
+msgstr ""
+"Да се премахнат ли бисквитките от списъка (%d)? Това не може да бъде "
+"отменено автоматично."
+
+#: includes/class-admin.php:103 includes/class-admin.php:1527
+msgid "Selected cookies removed from the list."
+msgstr "Избраните бисквитки са премахнати от списъка."
+
+#: includes/class-admin.php:104
+msgid "Remove selected cookies"
+msgstr "Премахване на избраните бисквитки"
+
+#: includes/class-admin.php:1482
+msgid ""
+"None of the selected cookies can be removed. Run Scan Cookies again to "
+"refresh the list."
+msgstr ""
+"Нито една от избраните бисквитки не може да бъде премахната. Стартирайте "
+"отново „Сканиране на бисквитките“, за да обновите списъка."
+
+#: includes/class-admin.php:791
+msgid ""
+"After scanning, cookies whose tracking scripts are no longer found on the "
+"homepage are listed under \"Possibly removed\". Review the list and use "
+"Remove selected cookies to delete entries you no longer need — nothing is "
+"removed automatically."
+msgstr ""
+"След сканирането бисквитките, чиито скриптове за проследяване вече не се "
+"намират на началната страница, се показват в „Възможно премахнати“. "
+"Прегледайте списъка и използвайте „Премахване на избраните бисквитки“, за да "
+"изтриете записите, които вече не са ви нужни — нищо не се премахва "
+"автоматично."
+
+#: includes/class-admin.php:797
+msgid "Current consent status"
+msgstr "Текущо състояние на съгласието"
+
+#: includes/class-admin.php:797
+msgid ""
+"The [kncc_cookie_policy] shortcode shows each category as allowed, denied, "
+"or not yet chosen above the Edit cookie preferences button. When WP Consent "
+"API is active, a note explains the technical wp_consent_* cookie names used "
+"by WordPress plugins."
+msgstr ""
+"Шорткодът [kncc_cookie_policy] показва всяка категория като разрешена, "
+"отказана или все още неизбрана над бутона „Промяна на предпочитанията за "
+"бисквитки“. Когато добавката WP Consent API е активна, бележка обяснява "
+"техническите имена на бисквитките wp_consent_*, използвани от добавките за "
+"WordPress."
+
+#: includes/class-admin.php:806
+msgid "WP Consent API sync"
+msgstr "Синхронизиране с WP Consent API"
+
+#: includes/class-admin.php:806
+msgid ""
+"When the WP Consent API plugin is active, Kansleri automatically syncs your "
+"banner choices to wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing, and wp_consent_preferences. This lets consent-aware "
+"plugins such as Google Site Kit read the visitor's choice. Banner labels "
+"(Necessary, Analytics) map to these technical cookie names."
+msgstr ""
+"Когато добавката WP Consent API е активна, Kansleri автоматично синхронизира "
+"избора от банера ви с wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing и wp_consent_preferences. Така добавки, които отчитат "
+"съгласието, като Google Site Kit, могат да прочетат избора на посетителя. "
+"Етикетите в банера (Необходими, Аналитични) съответстват на тези технически "
+"имена на бисквитки."
+
+#: includes/class-admin.php:939
+msgid ""
+"If wp_consent_statistics stays deny after Accept all, clear site cookies or "
+"test in a private window, hard-refresh (Ctrl+Shift+R), and confirm the WP "
+"Consent API plugin is active."
+msgstr ""
+"Ако wp_consent_statistics остава deny след „Приемане на всички“, изчистете "
+"бисквитките на сайта или тествайте в прозорец „инкогнито“, презаредете "
+"страницата принудително (Ctrl+Shift+R) и се уверете, че добавката WP Consent "
+"API е активна."
+
+#: includes/class-admin.php:746 includes/class-admin.php:854
+msgid "Advanced Consent Mode"
+msgstr "Разширен Consent Mode"
+
+#: includes/class-admin.php:750
+msgid "Load Google tags before consent, with consent denied"
+msgstr "Зареждане на таговете на Google преди съгласие, със статус „отказано“"
+
+#: includes/class-admin.php:753
+msgid "Off (default, Basic Consent Mode): the Google tag is blocked until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies, so Google receives nothing from visitors who have not consented."
+msgstr ""
+"Изключено (по подразбиране, Основен Consent Mode): тагът на Google е "
+"блокиран, докато посетителят не приеме аналитични бисквитки, а Google Tag "
+"Manager — докато посетителят не приеме аналитични или маркетингови "
+"бисквитки, така че Google не получава нищо от посетители, които не са дали "
+"съгласие."
+
+#: includes/class-admin.php:756
+msgid ""
+"On (Advanced Consent Mode): the Google tag and Google Tag Manager load "
+"right away. Until the visitor accepts, they set no cookies and send Google "
+"only cookieless pings, which Google uses to model the missing data. Google "
+"Analytics and Google Ads expect this mode, and with Basic mode they can "
+"report your consent signals as not active."
+msgstr ""
+"Включено (Разширен Consent Mode): тагът на Google и Google Tag Manager се "
+"зареждат веднага. Докато посетителят не приеме, те не задават бисквитки и "
+"изпращат на Google само пингове без бисквитки, които Google използва за "
+"моделиране на липсващите данни. Google Analytics и Google Ads очакват този "
+"режим, а при Основен Consent Mode могат да отчетат, че сигналите ви за "
+"съгласие не са активни."
+
+#: includes/class-admin.php:759
+msgid "Only applies while Consent Mode v2 is enabled. Other tracking scripts on the site stay blocked until consent, also those that Google Tag Manager adds (for example a Meta Pixel or LinkedIn in a Custom HTML tag): each waits for its own category, with no changes needed in the container."
+msgstr ""
+"Прилага се само докато Consent Mode v2 е включен. Останалите скриптове за "
+"проследяване на сайта остават блокирани до получаване на съгласие, "
+"включително тези, които Google Tag Manager добавя (например Meta Pixel или "
+"LinkedIn в таг Custom HTML): всеки изчаква своята категория и не са "
+"необходими промени в контейнера."
+
+#: includes/class-admin.php:854
+msgid ""
+"Off by default. When on, the Google tag and Google Tag Manager load before "
+"consent instead of being blocked. Until the visitor accepts, they set no "
+"cookies and send Google only cookieless pings."
+msgstr ""
+"По подразбиране е изключено. Когато е включено, тагът на Google и Google Tag "
+"Manager се зареждат преди съгласие, вместо да бъдат блокирани. Докато "
+"посетителят не приеме, те не задават бисквитки и изпращат на Google само "
+"пингове без бисквитки."
+
+#: includes/class-admin.php:863
+msgid "You can turn this off on the Script Blocking tab."
+msgstr "Можете да изключите това в раздела „Блокиране на скриптове“."
+
+#: includes/class-admin.php:1136
+msgid ""
+"Advanced Consent Mode is on (Integration tab): the Google tag and Google "
+"Tag Manager load before consent and follow the Consent Mode signals instead "
+"of being blocked."
+msgstr ""
+"Разширеният Consent Mode е включен (раздел „Интеграция“): тагът на Google и "
+"Google Tag Manager се зареждат преди съгласие и следват сигналите на Consent "
+"Mode, вместо да бъдат блокирани."
+
+#: includes/class-admin.php:1168
+msgid ""
+"Block YouTube and Vimeo videos until the visitor accepts marketing cookies"
+msgstr ""
+"Блокиране на видеата от YouTube и Vimeo, докато посетителят не приеме "
+"маркетингови бисквитки"
+
+#: includes/class-admin.php:684
+msgid "More information"
+msgstr "Повече информация"
+
+#: includes/class-admin.php:823
+msgid "Basic Consent Mode: the Google tag waits until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies."
+msgstr ""
+"Основен Consent Mode: тагът на Google изчаква, докато посетителят приеме "
+"аналитични бисквитки, а Google Tag Manager — докато посетителят приеме "
+"аналитични или маркетингови бисквитки."
+
+#: includes/class-admin.php:823
+msgid ""
+"Advanced Consent Mode: the Google tag and Google Tag Manager load right "
+"away with these defaults, and send only cookieless pings until the visitor "
+"accepts."
+msgstr ""
+"Разширен Consent Mode: тагът на Google и Google Tag Manager се зареждат "
+"веднага с тези стойности по подразбиране и изпращат само пингове без "
+"бисквитки, докато посетителят не приеме."
+
+#: includes/class-scanner.php:122
+msgctxt "cookie duration"
+msgid "1 minute"
+msgstr "1 минута"
+
+#: includes/class-scanner.php:123
+msgctxt "cookie duration"
+msgid "30 minutes"
+msgstr "30 минути"
+
+#: includes/class-scanner.php:124
+msgctxt "cookie duration"
+msgid "24 hours"
+msgstr "24 часа"
+
+#: includes/class-scanner.php:125
+msgctxt "cookie duration"
+msgid "1 day"
+msgstr "1 ден"
+
+#: includes/class-scanner.php:126
+msgctxt "cookie duration"
+msgid "30 days"
+msgstr "30 дни"
+
+#: includes/class-scanner.php:127
+msgctxt "cookie duration"
+msgid "90 days"
+msgstr "90 дни"
+
+#: includes/class-scanner.php:128
+msgctxt "cookie duration"
+msgid "6 months"
+msgstr "6 месеца"
+
+#: includes/class-scanner.php:129
+msgctxt "cookie duration"
+msgid "1 year"
+msgstr "1 година"
+
+#: includes/class-scanner.php:130
+msgctxt "cookie duration"
+msgid "2 years"
+msgstr "2 години"
+
+#: includes/class-scanner.php:131
+msgctxt "cookie duration"
+msgid "Session"
+msgstr "Сесия"
+
+#: includes/class-scanner.php:132
+msgctxt "cookie duration"
+msgid "Varies"
+msgstr "Варира"
+
+#: includes/class-scanner.php:135
+msgid "Google Analytics: stores and counts page views."
+msgstr "Google Analytics: съхранява и отчита прегледите на страници."
+
+#: includes/class-scanner.php:136
+msgid "Google Analytics: distinguishes unique users."
+msgstr "Google Analytics: разграничава уникалните потребители."
+
+#: includes/class-scanner.php:137
+msgid "Google Analytics: distinguishes users for 24 hours."
+msgstr "Google Analytics: разграничава потребителите в рамките на 24 часа."
+
+#: includes/class-scanner.php:138
+msgid "Google Analytics: throttles request rate."
+msgstr "Google Analytics: ограничава честотата на заявките."
+
+#: includes/class-scanner.php:139
+msgid "Google Ads: stores conversion data."
+msgstr "Google Ads: съхранява данни за конверсии."
+
+#: includes/class-scanner.php:140
+msgid "Google Ads: click tracking."
+msgstr "Google Ads: проследяване на кликвания."
+
+#: includes/class-scanner.php:141
+msgid "Google Tag Manager: throttles request rate."
+msgstr "Google Tag Manager: ограничава честотата на заявките."
+
+#: includes/class-scanner.php:144
+msgid "Meta Pixel: tracks visits across websites for ad targeting."
+msgstr ""
+"Meta Pixel: проследява посещенията в различни сайтове за насочване на "
+"реклами."
+
+#: includes/class-scanner.php:145
+msgid "Meta Pixel: stores click identifiers."
+msgstr "Meta Pixel: съхранява идентификатори на кликванията."
+
+#: includes/class-scanner.php:146
+msgid "Facebook: ad delivery and measurement."
+msgstr "Facebook: показване и измерване на реклами."
+
+#: includes/class-scanner.php:149
+msgid "HubSpot: tracks visitor identity."
+msgstr "HubSpot: проследява идентичността на посетителя."
+
+#: includes/class-scanner.php:150
+msgid "HubSpot: tracks session information."
+msgstr "HubSpot: проследява информация за сесията."
+
+#: includes/class-scanner.php:151
+msgid "HubSpot: tracks sessions for analytics."
+msgstr "HubSpot: проследява сесиите за целите на анализа."
+
+#: includes/class-scanner.php:152
+msgid "HubSpot: determines if visitor has restarted browser."
+msgstr "HubSpot: определя дали посетителят е рестартирал браузъра."
+
+#: includes/class-scanner.php:153
+msgid "HubSpot: analytics and tracking."
+msgstr "HubSpot: анализ и проследяване."
+
+#: includes/class-scanner.php:156
+msgid "LinkedIn: browser identifier for ad targeting."
+msgstr "LinkedIn: идентификатор на браузъра за насочване на реклами."
+
+#: includes/class-scanner.php:157
+msgid "LinkedIn: browser identifier."
+msgstr "LinkedIn: идентификатор на браузъра."
+
+#: includes/class-scanner.php:158
+msgid "LinkedIn: data centre selection."
+msgstr "LinkedIn: избор на център за данни."
+
+#: includes/class-scanner.php:161
+msgid "WordPress: stores admin settings timestamp."
+msgstr ""
+"WordPress: съхранява времева отметка за настройките на администрацията."
+
+#: includes/class-scanner.php:162
+msgid "WordPress: stores admin personalisation settings."
+msgstr "WordPress: съхранява настройките за персонализация на администрацията."
+
+#: includes/class-scanner.php:163
+msgid "WordPress: authentication cookie for logged-in users."
+msgstr "WordPress: бисквитка за удостоверяване на влезлите потребители."
+
+#: includes/class-scanner.php:164
+msgid "WordPress: secure authentication cookie."
+msgstr "WordPress: защитена бисквитка за удостоверяване."
+
+#: includes/class-scanner.php:165
+msgid "WordPress: tests if cookies are enabled."
+msgstr "WordPress: проверява дали бисквитките са разрешени."
+
+#: includes/class-scanner.php:166
+msgid "WordPress: stores language preference."
+msgstr "WordPress: съхранява предпочитания език."
+
+#: includes/class-scanner.php:167
+msgid "WordPress: remembers comment author details."
+msgstr "WordPress: запомня данните на автора на коментар."
+
+#: includes/class-scanner.php:170
+msgid "WooCommerce: stores cart and session data."
+msgstr "WooCommerce: съхранява данни за количката и сесията."
+
+#: includes/class-scanner.php:171
+msgid "WooCommerce: stores customer session."
+msgstr "WooCommerce: съхранява сесията на клиента."
+
+#: includes/class-scanner.php:174
+msgid ""
+"Order attribution: keeps traffic-source tracking data compatible across "
+"updates."
+msgstr ""
+"Атрибуция на поръчките: запазва съвместимостта на данните за проследяване на "
+"източника на трафик между актуализациите."
+
+#: includes/class-scanner.php:175
+msgid ""
+"Order attribution: records how you reached the site on your current visit."
+msgstr ""
+"Атрибуция на поръчките: записва как сте стигнали до сайта при текущото ви "
+"посещение."
+
+#: includes/class-scanner.php:176
+msgid "Order attribution: records how you first reached the site."
+msgstr ""
+"Атрибуция на поръчките: записва как сте стигнали до сайта за първи път."
+
+#: includes/class-scanner.php:177
+msgid ""
+"Order attribution: stores the traffic source and campaign of your current "
+"visit."
+msgstr ""
+"Атрибуция на поръчките: съхранява източника на трафика и кампанията при "
+"текущото ви посещение."
+
+#: includes/class-scanner.php:178
+msgid ""
+"Order attribution: stores the traffic source and campaign of your first "
+"visit."
+msgstr ""
+"Атрибуция на поръчките: съхранява източника на трафика и кампанията при "
+"първото ви посещение."
+
+#: includes/class-scanner.php:179
+msgid ""
+"Order attribution: stores visitor/session data used for marketing "
+"attribution."
+msgstr ""
+"Атрибуция на поръчките: съхранява данни за посетителя/сесията, използвани за "
+"маркетингова атрибуция."
+
+#: includes/class-scanner.php:180
+msgid "Order attribution: links page views within a visit for attribution."
+msgstr ""
+"Атрибуция на поръчките: свързва прегледите на страници в рамките на едно "
+"посещение за целите на атрибуцията."
+
+#: includes/class-scanner.php:181
+msgid "Order attribution: tracks the marketing source of your visit."
+msgstr ""
+"Атрибуция на поръчките: проследява маркетинговия източник на посещението ви."
+
+#: includes/class-scanner.php:184
+msgid ""
+"Jetpack Stats: assigns an anonymous identifier used to measure site traffic."
+msgstr ""
+"Jetpack Stats: задава анонимен идентификатор, използван за измерване на "
+"трафика на сайта."
+
+#: includes/class-scanner.php:185
+msgid "Jetpack Stats: records referral and navigation data for analytics."
+msgstr ""
+"Jetpack Stats: записва данни за препращащите сайтове и навигацията за целите "
+"на анализа."
+
+#: includes/class-scanner.php:186
+msgid "Jetpack Stats: measures site traffic and visitor activity."
+msgstr "Jetpack Stats: измерва трафика на сайта и активността на посетителите."
+
+#: includes/class-scanner.php:189
+msgid "Polylang: stores visitor language preference."
+msgstr "Polylang: съхранява предпочитания от посетителя език."
+
+#: includes/class-scanner.php:190
+msgid "MailPoet: tracks email subscriber activity."
+msgstr "MailPoet: проследява активността на имейл абонатите."
+
+#: includes/class-scanner.php:191
+msgid "Plausible: privacy-friendly analytics."
+msgstr "Plausible: аналитика, съобразена с поверителността."
+
+#: includes/class-scanner.php:194
+msgid "Cloudflare: bot management cookie."
+msgstr "Cloudflare: бисквитка за управление на ботове."
+
+#: includes/class-scanner.php:195
+msgid "Cloudflare: verifies legitimate visitor."
+msgstr "Cloudflare: потвърждава, че посетителят е легитимен."
+
+#: includes/class-scanner.php:196
+msgid "Cloudflare: identifies trusted web traffic."
+msgstr "Cloudflare: идентифицира надежден уеб трафик."
+
+#: includes/class-scanner.php:199
+msgid "Hotjar: tracks user behaviour and feedback."
+msgstr "Hotjar: проследява поведението на потребителите и обратната връзка."
+
+#: includes/class-scanner.php:200
+msgid "Microsoft Clarity: stores a user ID and preferences."
+msgstr ""
+"Microsoft Clarity: съхранява потребителски идентификатор и предпочитания."
+
+#: includes/class-scanner.php:201
+msgid "Microsoft Clarity: connects page views into a session."
+msgstr "Microsoft Clarity: свързва прегледите на страници в една сесия."
+
+#: includes/class-scanner.php:204
+msgid "Stores your cookie consent preferences."
+msgstr "Съхранява предпочитанията ви за съгласие за бисквитки."
+
+#: includes/class-scanner.php:205
+msgid ""
+"WP Consent API: stores your consent choice for necessary cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: съхранява избора ви за съгласие относно необходимите "
+"бисквитки. Синхронизира се от банера за съгласие."
+
+#: includes/class-scanner.php:206
+msgid ""
+"WP Consent API: stores your consent choice for analytics cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: съхранява избора ви за съгласие относно аналитичните "
+"бисквитки. Синхронизира се от банера за съгласие."
+
+#: includes/class-scanner.php:207
+msgid ""
+"WP Consent API: stores your consent choice for anonymous statistics. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: съхранява избора ви за съгласие относно анонимната "
+"статистика. Синхронизира се от банера за съгласие."
+
+#: includes/class-scanner.php:208
+msgid ""
+"WP Consent API: stores your consent choice for marketing cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: съхранява избора ви за съгласие относно маркетинговите "
+"бисквитки. Синхронизира се от банера за съгласие."
+
+#: includes/class-scanner.php:209
+msgid ""
+"WP Consent API: stores your consent choice for preference cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: съхранява избора ви за съгласие относно бисквитките за "
+"предпочитания. Синхронизира се от банера за съгласие."
+
+#: includes/class-scanner.php:210
+msgid ""
+"WP Consent API: stores per-service consent overrides used by integrated "
+"plugins."
+msgstr ""
+"WP Consent API: съхранява отделни настройки на съгласието за всяка услуга, "
+"използвани от интегрирани добавки."
+
+#: includes/class-scanner.php:211
+msgid ""
+"WP Consent API: stores your cookie consent choice. Synced from your consent "
+"banner."
+msgstr ""
+"WP Consent API: съхранява избора ви за съгласие за бисквитки. Синхронизира "
+"се от банера за съгласие."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:195
+#, php-format
+msgid "“%s” is not a usable address. Use at least 4 characters without spaces, for example widget.example.com."
+msgstr ""
+"„%s“ не е подходящ адрес. Използвайте поне 4 знака без интервали, например "
+"widget.example.com."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:200
+#, php-format
+msgid "“%s” would block every script on this site. Enter the address of the external service instead."
+msgstr ""
+"„%s“ ще блокира всички скриптове на този сайт. Вместо това въведете адреса "
+"на външната услуга."
+
+#: includes/class-script-blocker.php:840
+msgid "This content is blocked because it requires analytics cookies."
+msgstr "Това съдържание е блокирано, защото изисква аналитични бисквитки."
+
+#: includes/class-script-blocker.php:841
+msgid "Accept analytics cookies"
+msgstr "Приемане на аналитични бисквитки"
+
+#: includes/class-script-blocker.php:845
+msgid "This content is blocked because it requires preference cookies."
+msgstr ""
+"Това съдържание е блокирано, защото изисква бисквитки за предпочитания."
+
+#: includes/class-script-blocker.php:846
+msgid "Accept preference cookies"
+msgstr "Приемане на бисквитки за предпочитания"
+
+#: includes/class-admin.php:890 includes/class-admin.php:1203
+msgid "Block by address"
+msgstr "Блокиране по адрес"
+
+#: includes/class-admin.php:1213
+msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
+msgstr ""
+"Скриптовете в HTML кода на страницата се засичат само докато блокирането на "
+"персонализиран код е включено."
+
+#: includes/class-admin.php:1259 includes/class-admin.php:1289
+msgid "Address contains"
+msgstr "Адресът съдържа"
+
+#: includes/class-admin.php:1274
+msgid "Add address"
+msgstr "Добавяне на адрес"
+
+#: includes/class-admin.php:1284
+msgid "Necessary (never blocked)"
+msgstr "Необходими (никога не се блокират)"
+
+#: includes/class-admin.php:889
+msgid "Reviews widgets"
+msgstr "Джаджи за отзиви"
+
+#: includes/class-admin.php:889
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgstr ""
+"Джаджата за отзиви на Trustmary изчаква съгласие за аналитични бисквитки, "
+"защото съхранява идентификатор на посетителя в браузъра. На нейно място се "
+"показва съобщение с бутон за приемане. За да се зарежда веднага, добавете "
+"widget.trustmary.com в „Блокиране по адрес“ с категория „Необходими (никога "
+"не се блокират)“."
+
+#: includes/class-admin.php:890
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
+msgstr ""
+"Блокира всеки друг скрипт по част от адреса му, докато посетителят не приеме "
+"избраната от вас категория, например джаджа, която добавката не разпознава. "
+"Включете „Показване на съобщение“ за скриптове, които показват съдържание на "
+"страницата."
+
+#: includes/class-scanner.php:137
+msgctxt "cookie duration"
+msgid "Persistent"
+msgstr "Постоянен"
+
+#: includes/class-scanner.php:209
+msgid "Trustmary: stores a visitor ID, the landing page and conversions in the browser’s local storage."
+msgstr ""
+"Trustmary: съхранява идентификатор на посетителя, целевата страница и "
+"конверсиите в локалното хранилище на браузъра."
+
+#: includes/class-scanner.php:224
+msgid "Reddit Pixel: identifies the browser for ad measurement."
+msgstr "Reddit Pixel: идентифицира браузъра за измерване на реклами."
+
+#: includes/class-scanner.php:225
+msgid ""
+"Microsoft Advertising: groups page views into a session for ad measurement."
+msgstr ""
+"Microsoft Advertising: групира прегледите на страници в сесия за измерване "
+"на реклами."
+
+#: includes/class-scanner.php:226
+msgid ""
+"Microsoft Advertising: identifies the visitor across visits for ad "
+"measurement."
+msgstr ""
+"Microsoft Advertising: идентифицира посетителя при различни посещения за "
+"измерване на реклами."
+
+#: includes/class-scanner.php:227
+msgid "Criteo: stores a browser identifier for ad personalisation."
+msgstr ""
+"Criteo: съхранява идентификатор на браузъра за персонализиране на реклами."
+
+#: includes/class-scanner.php:228
+msgid "Taboola: identifies the browser for ad targeting."
+msgstr "Taboola: идентифицира браузъра за насочване на реклами."
+
+#: includes/class-scanner.php:229
+msgid "Klaviyo: recognises returning visitors for email marketing."
+msgstr "Klaviyo: разпознава завръщащите се посетители за имейл маркетинг."
+
+#: includes/class-scanner.php:230
+msgid "Yandex Metrica: identifies visitors and stores session settings."
+msgstr ""
+"Yandex Metrica: идентифицира посетителите и съхранява настройките на сесията."
+
+#: includes/class-scanner.php:231
+msgid "Segment: stores an anonymous visitor ID and traits."
+msgstr ""
+"Segment: съхранява анонимен идентификатор на посетителя и негови "
+"характеристики."
+
+#: includes/class-scanner.php:232
+msgid "Intercom: keeps the chat messenger session and visitor identity."
+msgstr ""
+"Intercom: поддържа сесията на чат месинджъра и идентичността на посетителя."
+
+#: includes/class-scanner.php:233
+msgid "Crisp: keeps the chat session and visitor identity."
+msgstr "Crisp: поддържа сесията на чата и идентичността на посетителя."
+
+#: includes/class-admin.php
+msgid "Cookie policy link text"
+msgstr "Текст на връзката към политиката за бисквитките"
+
+#: includes/class-admin.php
+msgid "Cookie settings label"
+msgstr "Етикет за настройките за бисквитки"
+
+#: includes/class-admin.php
+msgid "Tooltip and screen reader label of the floating button, and the default text of the [kncc_cookie_settings] link."
+msgstr ""
+"Подсказка и етикет за екранни четци на плаващия бутон, както и текст по "
+"подразбиране на връзката [kncc_cookie_settings]."
+
+#: includes/class-admin.php
+msgid "Banner label for screen readers"
+msgstr "Етикет на банера за екранни четци"
+
+#: includes/class-admin.php
+msgid "Cookie categories"
+msgstr "Категории бисквитки"
+
+#: includes/class-admin.php
+msgid "Text when no cookies are used"
+msgstr "Текст, когато не се използват бисквитки"
+
+#: includes/class-admin.php
+msgid "Policy page texts"
+msgstr "Текстове на страницата с политиката"
+
+#: includes/class-admin.php
+msgid "Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab."
+msgstr ""
+"Текстове на декларацията за бисквитките [kncc_cookie_policy]. Оставете "
+"полето празно, за да се използва вграденият текст, който е преведен на всеки "
+"език. Имената на категориите се редактират в раздела „Общи“."
+
+#: includes/class-admin.php
+msgid "Category descriptions"
+msgstr "Описания на категориите"
+
+#: includes/class-admin.php
+msgid "Consent status"
+msgstr "Състояние на съгласието"
+
+#: includes/class-admin.php
+msgid "Heading"
+msgstr "Заглавие"
+
+#: includes/class-admin.php
+msgid "Before the visitor chooses"
+msgstr "Преди посетителят да направи избор"
+
+#: includes/class-admin.php
+msgid "Technical note (shown when WP Consent API is active)"
+msgstr ""
+"Техническа бележка (показва се, когато добавката WP Consent API е активна)"
+
+#: includes/class-admin.php
+msgid "Buttons and messages"
+msgstr "Бутони и съобщения"
+
+#: includes/class-admin.php
+msgid "Edit preferences button"
+msgstr "Бутон за промяна на предпочитанията"
+
+#: includes/class-admin.php
+msgid "Message when no cookies are registered"
+msgstr "Съобщение, когато няма регистрирани бисквитки"
+
+#: includes/class-admin.php
+msgid "Table column headings"
+msgstr "Заглавия на колоните в таблицата"
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 added cookies for services that are not on your site. They have been removed from the cookie list: %s. If your site does use some of these services, put the cookies back and delete the ones it does not use."
+msgstr ""
+"Версия 1.8.10 добави бисквитки за услуги, които не са на вашия сайт. Те са "
+"премахнати от списъка с бисквитки: %s. Ако сайтът ви използва някои от тези "
+"услуги, върнете бисквитките и изтрийте тези, които не използва."
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 may have added cookies for services that are not on your site: %s. The Google Tag Manager on your site can load any of them, so they were kept. Remove the ones your site does not use."
+msgstr ""
+"Версия 1.8.10 може да е добавила бисквитки за услуги, които не са на вашия "
+"сайт: %s. Google Tag Manager на сайта ви може да зареди всяка от тези "
+"услуги, затова бисквитките бяха запазени. Премахнете тези, които сайтът ви "
+"не използва."
+
+#: includes/class-admin.php
+msgid "Put the cookies back"
+msgstr "Връщане на бисквитките"
+
+#: includes/class-admin.php
+msgid "Hide this notice"
+msgstr "Скриване на това известие"
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr ""
+"Показва се, когато посетителите отворят „Персонализиране“. Оставете полето "
+"празно, за да се използва вграденият текст."
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr "Съобщения за блокирано съдържание"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr "Съобщение за YouTube и Vimeo"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr "Бутон за приемане за YouTube и Vimeo"
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr "Съобщение за аналитично съдържание"
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr "Бутон за приемане за аналитично съдържание"
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr "Съобщение за съдържание за предпочитания"
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr "Бутон за приемане за съдържание за предпочитания"
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr "Или добавете връзка навсякъде с шорткода:"
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr ""
+"Препоръчително. Изключете само ако кеш добавка или добавка за ускоряване "
+"нарушава работата на сайта."
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr "Блокира се автоматично, не е нужна настройка."
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr "Показване на съобщение"
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr "Няма избрани бисквитки."
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr "Скриптове на %s, които вече не се засичат на началната страница"
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr "Език за редактиране: %s. Промените се запазват само за този език."
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr ""
+"Редактиране на езика по подразбиране. Останалите езици имат собствени "
+"текстове."
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr "Преглед на банера с текущите ви, още незапазени настройки."
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr "Прегледът на живо работи само със „Стил на добавката“."
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr "Етикет за екранни четци на бутона ×."
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr ""
+"Задържа всеки друг скрипт, докато посетителят не приеме неговата категория. "
+"Използвайте го за джаджи и инструменти, които добавката не разпознава."
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr ""
+"„Необходими (никога не се блокират)“ позволява даден адрес да се зареди "
+"веднага, дори такъв, който добавката би блокирала."
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr ""
+"„Показване на съобщение“: на мястото, където блокираният скрипт би показвал "
+"съдържание (отзиви, резервации, карта), се показва съобщение с бутон за "
+"приемане вместо празно място. Не е необходимо за скриптове за проследяване."
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
+msgstr "отваря се в нов раздел"

@@ -1,0 +1,2301 @@
+# Slovenian translation for Kansleri Cookie Consent
+# Copyright (C) 2024 Kansleri.fi
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kansleri Cookie Consent 1.8.13\n"
+"Report-Msgid-Bugs-To: https://kansleri.fi\n"
+"POT-Creation-Date: 2026-10-30 15:00+0200\n"
+"PO-Revision-Date: 2026-11-03 12:00+0200\n"
+"Last-Translator: Kansleri.fi\n"
+"Language-Team: Slovenian\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+#: includes/class-admin.php:20 includes/class-admin.php:21
+#: includes/class-admin.php:122
+msgid "Cookie Consent"
+msgstr "Privolitev za piškotke"
+
+#: includes/class-admin.php:67 includes/class-admin.php:1228
+msgid "Settings saved."
+msgstr "Nastavitve so shranjene."
+
+#: includes/class-admin.php:68
+msgid "An error occurred."
+msgstr "Prišlo je do napake."
+
+#: includes/class-admin.php:69
+msgid "Scanning..."
+msgstr "Pregledovanje …"
+
+#: includes/class-admin.php:70
+msgid "Scan complete."
+msgstr "Pregled je končan."
+
+#: includes/class-admin.php:71
+msgid "No new cookies found."
+msgstr "Ni bilo najdenih novih piškotkov."
+
+#: includes/class-admin.php:72
+msgid "Remove this cookie?"
+msgstr "Želite odstraniti ta piškotek?"
+
+#: includes/class-admin.php:73 includes/class-admin.php:414
+#: includes/class-admin.php:698
+msgid "Scan Cookies"
+msgstr "Preglej piškotke"
+
+#: includes/class-admin.php:74
+msgid "Invalid JSON format. Please import a valid cookie array."
+msgstr "Neveljavna oblika JSON. Uvozite veljavno polje piškotkov."
+
+#: includes/class-admin.php:75
+msgid "Cookies imported into the table. Save cookies to persist changes."
+msgstr ""
+"Piškotki so uvoženi v tabelo. Shranite piškotke, da se spremembe trajno "
+"ohranijo."
+
+#: includes/class-admin.php:76
+msgid "No valid cookies found in imported JSON."
+msgstr "V uvoženem JSON ni bilo najdenih veljavnih piškotkov."
+
+#: includes/class-admin.php:77
+msgid "No cookie rows available to export."
+msgstr "Ni vrstic s piškotki za izvoz."
+
+#: includes/class-admin.php:78
+msgid "AI prompt copied to clipboard."
+msgstr "Poziv UI je kopiran v odložišče."
+
+#: includes/class-admin.php:79
+msgid ""
+"Could not copy prompt automatically. Select all and copy from the box below."
+msgstr ""
+"Poziva ni bilo mogoče samodejno kopirati. Izberite vse in kopirajte iz "
+"spodnjega polja."
+
+#: includes/class-admin.php:81
+msgid "AI prompt (copied to clipboard — or select all and copy manually):"
+msgstr "Poziv UI (kopiran v odložišče – ali izberite vse in kopirajte ročno):"
+
+#: includes/class-admin.php:82
+msgid ""
+"Policy page AI prompt (copied to clipboard — or select all and copy "
+"manually):"
+msgstr ""
+"Poziv UI za stran s politiko (kopiran v odložišče – ali izberite vse in "
+"kopirajte ročno):"
+
+#: includes/class-admin.php:83
+msgid ""
+"Prompt ready below — select all (Ctrl+A) inside the box and copy (Ctrl+C)."
+msgstr ""
+"Poziv je pripravljen spodaj – v polju izberite vse (Ctrl+A) in kopirajte "
+"(Ctrl+C)."
+
+#: includes/class-admin.php:80
+msgid "All cookies are done! Every cookie has a description."
+msgstr "Vsi piškotki so urejeni! Vsak piškotek ima opis."
+
+#: includes/class-admin.php:81 includes/class-admin.php:457
+msgid "No cookies registered yet."
+msgstr "Noben piškotek še ni registriran."
+
+#: includes/class-admin.php:82 includes/class-admin.php:473
+msgid "Remove"
+msgstr "Odstrani"
+
+#: includes/class-admin.php:83
+msgid ""
+"This will permanently delete all consent log records and statistics. "
+"Continue?"
+msgstr ""
+"S tem boste trajno izbrisali vse zapise v dnevniku privolitev in statistiko. "
+"Želite nadaljevati?"
+
+#: includes/class-admin.php:84 includes/class-admin.php:1150
+msgid "All consent log records and statistics have been purged."
+msgstr "Vsi zapisi v dnevniku privolitev in statistika so bili izbrisani."
+
+#: includes/class-admin.php:85
+msgid "AI prompt for policy page copied to clipboard."
+msgstr "Poziv UI za stran s politiko je kopiran v odložišče."
+
+#: includes/class-admin.php:86
+msgid "CSS template copied to clipboard."
+msgstr "Predloga CSS je kopirana v odložišče."
+
+#: includes/class-admin.php:88
+#, php-format
+msgid "%d known cookie(s) added automatically:"
+msgstr "Samodejno dodani znani piškotki (%d):"
+
+#: includes/class-admin.php:90
+#, php-format
+msgid ""
+"%d unknown cookie(s) added — please set their category and description "
+"below."
+msgstr "Dodani neznani piškotki (%d) – spodaj jim določite kategorijo in opis."
+
+#: includes/class-admin.php:91
+msgid "Unknown"
+msgstr "Neznani"
+
+#: includes/class-admin.php:92
+msgid "Added — categorize and describe in the table below"
+msgstr "Dodano – v spodnji tabeli določite kategorijo in opis"
+
+#: includes/class-admin.php:94
+#, php-format
+msgid "%d cookie(s) inferred from detected scripts on your site:"
+msgstr ""
+"Piškotki, predvideni na podlagi skriptov, zaznanih na vašem spletnem mestu "
+"(%d):"
+
+#: includes/class-admin.php:95
+msgid ""
+"These cookies are expected from tracking scripts on your site, even when "
+"blocked until consent."
+msgstr ""
+"Te piškotke je mogoče pričakovati zaradi sledilnih skriptov na vašem "
+"spletnem mestu, tudi če so skripti do privolitve blokirani."
+
+#: includes/class-admin.php:97
+#, php-format
+msgid ""
+"%d browser cookie(s) skipped — found in your browser but no matching script "
+"on this site:"
+msgstr ""
+"Preskočeni piškotki brskalnika (%d) – najdeni v vašem brskalniku, vendar "
+"brez ustreznega skripta na tem spletnem mestu:"
+
+#: includes/class-admin.php:481
+msgid ""
+"%d cookie was automatically added based on tracking scripts detected on your"
+" site."
+msgid_plural ""
+"%d cookies were automatically added based on tracking scripts detected on "
+"your site."
+msgstr[0] ""
+"%d piškotek je bil samodejno dodan na podlagi sledilnih skriptov, zaznanih "
+"na vašem spletnem mestu."
+msgstr[1] ""
+"%d piškotka sta bila samodejno dodana na podlagi sledilnih skriptov, "
+"zaznanih na vašem spletnem mestu."
+msgstr[2] ""
+"%d piškotki so bili samodejno dodani na podlagi sledilnih skriptov, zaznanih "
+"na vašem spletnem mestu."
+msgstr[3] ""
+"%d piškotkov je bilo samodejno dodanih na podlagi sledilnih skriptov, "
+"zaznanih na vašem spletnem mestu."
+
+#: includes/class-admin.php:128
+msgid "General"
+msgstr "Splošno"
+
+#: includes/class-admin.php:131 kansleri-cookie-consent.php:571
+msgid "Cookies"
+msgstr "Piškotki"
+
+#: includes/class-admin.php:134
+msgid "Policy Page"
+msgstr "Stran s politiko"
+
+#: includes/class-admin.php:137
+msgid "Integration"
+msgstr "Integracija"
+
+#: includes/class-admin.php:140
+msgid "Script Blocking"
+msgstr "Blokiranje skriptov"
+
+#: includes/class-admin.php:143
+msgid "Statistics"
+msgstr "Statistika"
+
+#: includes/class-admin.php:146
+msgid "Documentations"
+msgstr "Dokumentacija"
+
+#: includes/class-admin.php:210
+msgid "Open banner preview"
+msgstr "Odpri predogled pasice"
+
+#: includes/class-admin.php:222 includes/class-admin.php:689
+msgid "Banner style"
+msgstr "Slog pasice"
+
+#: includes/class-admin.php:225
+msgid "Bottom bar"
+msgstr "Spodnja vrstica"
+
+#: includes/class-admin.php:226
+msgid "Centered modal"
+msgstr "Okno na sredini"
+
+#: includes/class-admin.php:227
+msgid "Corner popup"
+msgstr "Pojavno okno v kotu"
+
+#: includes/class-admin.php:233
+msgid "Colors"
+msgstr "Barve"
+
+#: includes/class-admin.php:237
+msgid "Banner background"
+msgstr "Ozadje pasice"
+
+#: includes/class-admin.php:238 includes/class-admin.php:275
+msgid "Heading text"
+msgstr "Besedilo naslova"
+
+#: includes/class-admin.php:239
+msgid "Body text"
+msgstr "Osnovno besedilo"
+
+#: includes/class-admin.php:240
+msgid "Primary button"
+msgstr "Primarni gumb"
+
+#: includes/class-admin.php:241
+msgid "Primary button text"
+msgstr "Besedilo primarnega gumba"
+
+#: includes/class-admin.php:242
+msgid "Secondary button"
+msgstr "Sekundarni gumb"
+
+#: includes/class-admin.php:243
+msgid "Secondary button text"
+msgstr "Besedilo sekundarnega gumba"
+
+#: includes/class-admin.php:265 includes/class-admin.php:691
+msgid "Text and font style"
+msgstr "Slog besedila in pisave"
+
+#: includes/class-admin.php:268 includes/class-admin.php:521
+msgid "Theme style (inherit site typography)"
+msgstr "Slog teme (podeduje tipografijo spletnega mesta)"
+
+#: includes/class-admin.php:269 includes/class-admin.php:522
+msgid "Plugin style (strict font sizes/colors)"
+msgstr "Slog vtičnika (fiksne velikosti pisave in barve)"
+
+#: includes/class-admin.php:281
+msgid "Description text"
+msgstr "Besedilo opisa"
+
+#: includes/class-admin.php:287
+msgid "Accept button text"
+msgstr "Besedilo gumba za sprejem"
+
+#: includes/class-admin.php:291
+msgid "Reject button text"
+msgstr "Besedilo gumba za zavrnitev"
+
+#: includes/class-admin.php:295
+msgid "Customize button text"
+msgstr "Besedilo gumba za prilagoditev"
+
+#: includes/class-admin.php:299
+msgid "Save preferences button text"
+msgstr "Besedilo gumba za shranjevanje nastavitev"
+
+#: includes/class-admin.php:303 includes/class-script-blocker.php:187
+msgid "This content is blocked because it requires marketing cookies."
+msgstr "Ta vsebina je blokirana, ker zahteva trženjske piškotke."
+
+#: includes/class-admin.php:304 includes/class-script-blocker.php:190
+msgid "Accept marketing cookies"
+msgstr "Sprejmi trženjske piškotke"
+
+#: includes/class-admin.php:318 includes/class-admin.php:693
+msgid "Floating settings button"
+msgstr "Plavajoči gumb za nastavitve"
+
+#: includes/class-admin.php:322
+msgid ""
+"Show a small floating button so visitors can re-open their cookie "
+"preferences"
+msgstr ""
+"Prikaži majhen plavajoči gumb, da lahko obiskovalci znova odprejo nastavitve "
+"piškotkov"
+
+#: includes/class-admin.php:329
+msgid "Copied!"
+msgstr "Kopirano!"
+
+#: includes/class-admin.php:329 includes/class-admin.php:330
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: includes/class-admin.php:346 includes/class-admin.php:531
+#: includes/class-admin.php:664
+msgid "Save Settings"
+msgstr "Shrani nastavitve"
+
+#: includes/class-admin.php:370
+msgid "Banner preview"
+msgstr "Predogled pasice"
+
+#: includes/class-admin.php:415
+msgid "Add Cookie"
+msgstr "Dodaj piškotek"
+
+#: includes/class-admin.php:419
+msgid "Need help describing these cookies?"
+msgstr "Potrebujete pomoč pri opisovanju teh piškotkov?"
+
+#: includes/class-admin.php:421
+msgid ""
+"Click the button below to copy a ready-made AI prompt with your cookie data."
+msgstr ""
+"Kliknite spodnji gumb, da kopirate pripravljen poziv UI s podatki o vaših "
+"piškotkih."
+
+#: includes/class-admin.php:422
+msgid "Paste the prompt into an AI tool (ChatGPT, Claude, Gemini, etc.)."
+msgstr "Prilepite poziv v orodje UI (ChatGPT, Claude, Gemini ipd.)."
+
+#: includes/class-admin.php:423
+msgid "The AI will return improved JSON with clear cookie descriptions."
+msgstr "UI bo vrnila izboljšan JSON z jasnimi opisi piškotkov."
+
+#: includes/class-admin.php:424
+msgid ""
+"Copy the AI response and paste it into the text box that appears below."
+msgstr ""
+"Kopirajte odgovor UI in ga prilepite v besedilno polje, ki se prikaže spodaj."
+
+#: includes/class-admin.php:425
+msgid "Click Import — cookies are saved automatically."
+msgstr "Kliknite Uvozi – piškotki se shranijo samodejno."
+
+#: includes/class-admin.php:429
+msgid "Copy AI Prompt to Clipboard"
+msgstr "Kopiraj poziv UI v odložišče"
+
+#: includes/class-admin.php:433
+msgid "Paste the AI response here:"
+msgstr "Sem prilepite odgovor UI:"
+
+#: includes/class-admin.php:434
+msgid "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+msgstr "[{\"name\":\"_ga\",\"category\":\"analytics\", ...}]"
+
+#: includes/class-admin.php:436
+msgid "Import"
+msgstr "Uvozi"
+
+#: includes/class-admin.php:447
+msgid "Name"
+msgstr "Ime"
+
+#: includes/class-admin.php:448 includes/class-admin.php:989
+msgid "Category"
+msgstr "Kategorija"
+
+#: includes/class-admin.php:449 includes/class-policy-page.php:91
+#: includes/class-policy-page.php:100
+msgid "Provider"
+msgstr "Ponudnik"
+
+#: includes/class-admin.php:450 includes/class-policy-page.php:93
+#: includes/class-policy-page.php:102
+msgid "Duration"
+msgstr "Trajanje"
+
+#: includes/class-admin.php:451
+msgid "Description"
+msgstr "Opis"
+
+#: includes/class-admin.php:464 kansleri-cookie-consent.php:335
+msgid "Necessary"
+msgstr "Nujni"
+
+#: includes/class-admin.php:465 kansleri-cookie-consent.php:339
+msgid "Analytics"
+msgstr "Analitika"
+
+#: includes/class-admin.php:466 kansleri-cookie-consent.php:343
+msgid "Marketing"
+msgstr "Trženje"
+
+#: includes/class-admin.php:467 kansleri-cookie-consent.php:347
+msgid "Preferences"
+msgstr "Nastavitve"
+
+#: includes/class-admin.php:480 includes/class-admin.php:700
+msgid "Save Cookies"
+msgstr "Shrani piškotke"
+
+#: includes/class-admin.php:494
+msgid ""
+"No cookie policy page has been selected. Set a Privacy Policy page in "
+"Settings → Privacy, or choose a page below."
+msgstr ""
+"Izbrana ni nobena stran s politiko piškotkov. Stran s politiko zasebnosti "
+"nastavite v razdelku Nastavitve → Zasebnost ali spodaj izberite stran."
+
+#: includes/class-admin.php:502 includes/class-admin.php:705
+msgid "Cookie policy page"
+msgstr "Stran s politiko piškotkov"
+
+#: includes/class-admin.php:505
+msgid "— Select a page —"
+msgstr "— Izberi stran —"
+
+#: includes/class-admin.php:510
+#, php-format
+msgid "%s (WordPress Privacy Policy)"
+msgstr "%s (politika zasebnosti v WordPressu)"
+
+#: includes/class-admin.php:513
+msgid ""
+"Defaults automatically to the WordPress Privacy Policy page (Settings → "
+"Privacy). Add the shortcode [kncc_cookie_policy] to that page to show the "
+"cookie declaration."
+msgstr ""
+"Privzeto se samodejno uporabi stran s politiko zasebnosti v WordPressu "
+"(Nastavitve → Zasebnost). Na to stran dodajte kratko kodo "
+"[kncc_cookie_policy], da se prikaže izjava o piškotkih."
+
+#: includes/class-admin.php:518
+msgid "Policy page style"
+msgstr "Slog strani s politiko"
+
+#: includes/class-admin.php:525
+msgid ""
+"Controls the styling of the [kncc_cookie_policy] cookie declaration table."
+msgstr "Določa slog tabele z izjavo o piškotkih [kncc_cookie_policy]."
+
+#: includes/class-admin.php:628
+msgid ""
+"Theme style is the default so the policy page matches your site typography. "
+"Switch to Plugin style for strict plugin sizes and colors."
+msgstr ""
+"Slog teme je privzet, da se stran s politiko ujema s tipografijo vašega "
+"spletnega mesta. Za fiksne velikosti in barve vtičnika preklopite na slog "
+"vtičnika."
+
+#: includes/class-admin.php:539
+msgid "Preview Policy Page"
+msgstr "Predogled strani s politiko"
+
+#: includes/class-admin.php:546
+msgid "Generate cookie policy page content with AI"
+msgstr "Ustvari vsebino strani s politiko piškotkov z UI"
+
+#: includes/class-admin.php:548
+msgid ""
+"Copy the prompt below and paste it into an AI tool. It will generate a "
+"complete cookie and privacy policy page in your site language. The cookie "
+"declaration will be handled automatically by the [kncc_cookie_policy] "
+"shortcode. Paste the generated HTML into your policy page."
+msgstr ""
+"Kopirajte spodnji poziv in ga prilepite v orodje UI. Ustvarilo bo celotno "
+"stran s politiko piškotkov in zasebnosti v jeziku vašega spletnega mesta. "
+"Izjavo o piškotkih bo samodejno prikazala kratka koda [kncc_cookie_policy]. "
+"Ustvarjeni HTML prilepite na stran s politiko."
+
+#: includes/class-admin.php:552
+msgid "Copy AI Prompt for Policy Page"
+msgstr "Kopiraj poziv UI za stran s politiko"
+
+#: includes/class-admin.php:565
+msgid "Detected integrations"
+msgstr "Zaznane integracije"
+
+#: includes/class-admin.php:692
+msgid ""
+"Active — Site Kit sets consent defaults for its own regions. This plugin "
+"sets a denied default for all other visitors and sends consent updates."
+msgstr ""
+"Aktivno – Site Kit nastavi privzete vrednosti privolitve za svoje regije. Ta "
+"vtičnik za vse druge obiskovalce nastavi privzeto zavrnitev in pošilja "
+"posodobitve privolitve."
+
+#: includes/class-admin.php:575
+msgid ""
+"Active — Site Kit consent mode not enabled. This plugin handles all consent "
+"signals."
+msgstr ""
+"Aktivno – Consent Mode v Site Kit ni omogočen. Ta vtičnik upravlja vse "
+"signale privolitve."
+
+#: includes/class-admin.php:586
+msgid ""
+"Active — consent status is shared with other plugins via the WP Consent API."
+msgstr ""
+"Aktivno – stanje privolitve se prek WP Consent API deli z drugimi vtičniki."
+
+#: includes/class-admin.php:598 includes/class-admin.php:712
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: includes/class-admin.php:602
+msgid ""
+"Enable Consent Mode v2 (outputs consent defaults in &lt;head&gt; before GTM)"
+msgstr ""
+"Omogoči Consent Mode v2 (izpiše privzete vrednosti privolitve v &lt;head&gt; "
+"pred GTM)"
+
+#: includes/class-admin.php:610
+msgid ""
+"Forced on because Google Site Kit is active. Consent Mode is required for "
+"Site Kit to receive consent signals."
+msgstr ""
+"Prisilno vklopljeno, ker je aktiven Google Site Kit. Consent Mode je "
+"potreben, da Site Kit prejema signale privolitve."
+
+#: includes/class-admin.php:614
+msgid ""
+"Consent Mode tells Google tags what the visitor has allowed (for example "
+"analytics or ads). This plugin sends a denied-by-default signal before tags "
+"run, and sends an updated signal after the visitor chooses. It controls "
+"consent signals only: you still need to install GTM/GA scripts separately."
+msgstr ""
+"Consent Mode oznakam Google sporoča, kaj je obiskovalec dovolil (na primer "
+"analitiko ali oglase). Ta vtičnik pred zagonom oznak pošlje signal s "
+"privzeto zavrnitvijo, po obiskovalčevi izbiri pa posodobljen signal. "
+"Upravlja samo signale privolitve: skripte GTM/GA morate še vedno namestiti "
+"posebej."
+
+#: includes/class-admin.php:740
+msgid ""
+"Site Kit sets consent defaults for its own regions. This plugin adds a "
+"denied default for all other visitors and sends each visitor's choice as a "
+"consent update."
+msgstr ""
+"Site Kit nastavi privzete vrednosti privolitve za svoje regije. Ta vtičnik "
+"za vse druge obiskovalce doda privzeto zavrnitev in izbiro vsakega "
+"obiskovalca pošlje kot posodobitev privolitve."
+
+#: includes/class-admin.php:630
+msgid "Need Google Analytics 4 or Google Tag Manager?"
+msgstr "Potrebujete Google Analytics 4 ali Google Tag Manager?"
+
+#: includes/class-admin.php:633
+msgid ""
+"We recommend installing Google Site Kit — Google's official WordPress "
+"plugin. It sets up GA4 and GTM in a few clicks, and works seamlessly with "
+"Kansleri Cookie Consent: Consent Mode v2 signals are handled automatically, "
+"with no double-loading or conflicts."
+msgstr ""
+"Priporočamo namestitev vtičnika Google Site Kit – uradnega vtičnika družbe "
+"Google za WordPress. GA4 in GTM nastavi z nekaj kliki in brezhibno deluje s "
+"Kansleri Cookie Consent: signali Consent Mode v2 se obravnavajo samodejno, "
+"brez dvojnega nalaganja ali konfliktov."
+
+#: includes/class-admin.php:638
+msgid "Install Google Site Kit"
+msgstr "Namesti Google Site Kit"
+
+#: includes/class-admin.php:649
+msgid "Consent Mode defaults (auto-injected in &lt;head&gt;)"
+msgstr "Privzete vrednosti Consent Mode (samodejno vstavljene v &lt;head&gt;)"
+
+#: includes/class-admin.php:673
+msgid "Installation guide"
+msgstr "Navodila za namestitev"
+
+#: includes/class-admin.php:675
+msgid "Activate the plugin and open Settings > Cookie Consent."
+msgstr "Aktivirajte vtičnik in odprite Nastavitve > Privolitev za piškotke."
+
+#: includes/class-admin.php:676
+msgid "Configure banner texts, style, and button labels in the General tab."
+msgstr "Na zavihku Splošno nastavite besedila pasice, slog in oznake gumbov."
+
+#: includes/class-admin.php:677
+msgid ""
+"Open the Integration tab and enable Google Consent Mode v2 if you use "
+"GTM/Google tags."
+msgstr ""
+"Odprite zavihek Integracija in omogočite Google Consent Mode v2, če "
+"uporabljate GTM/oznake Google."
+
+#: includes/class-admin.php:678
+msgid ""
+"Open the Cookies tab, run Scan Cookies, then review and categorize unknown "
+"cookies."
+msgstr ""
+"Odprite zavihek Piškotki, kliknite Preglej piškotke, nato preglejte neznane "
+"piškotke in jim določite kategorije."
+
+#: includes/class-admin.php:679
+msgid ""
+"If unknown cookies are found, an AI helper appears: copy the prompt, paste "
+"it into an AI tool, paste the response back into the text box, click Import,"
+" then Save Cookies."
+msgstr ""
+"Če so najdeni neznani piškotki, se prikaže pomočnik UI: kopirajte poziv, ga "
+"prilepite v orodje UI, odgovor prilepite nazaj v besedilno polje, kliknite "
+"Uvozi in nato Shrani piškotke."
+
+#: includes/class-admin.php:680
+msgid ""
+"Confirm the Cookie Policy page in the Policy Page tab — it defaults to the "
+"WordPress Privacy Policy page."
+msgstr ""
+"Na zavihku Stran s politiko potrdite stran Politika piškotkov – privzeto je "
+"to stran s politiko zasebnosti v WordPressu."
+
+#: includes/class-admin.php:681
+msgid ""
+"Use the AI prompt on the Policy Page tab to generate the full cookie policy "
+"page content. Paste the generated HTML into your policy page."
+msgstr ""
+"S pozivom UI na zavihku Stran s politiko ustvarite celotno vsebino strani s "
+"politiko piškotkov. Ustvarjeni HTML prilepite na svojo stran s politiko."
+
+#: includes/class-admin.php:682
+msgid "Review the Script Blocking tab to see which scripts are auto-blocked."
+msgstr ""
+"Na zavihku Blokiranje skriptov preverite, kateri skripti so samodejno "
+"blokirani."
+
+#: includes/class-admin.php:685
+msgid "What each option means"
+msgstr "Pomen posameznih možnosti"
+
+#: includes/class-admin.php:687
+msgid "General tab"
+msgstr "Zavihek Splošno"
+
+#: includes/class-admin.php:689
+msgid "Choose visual placement of the banner (bar, modal, corner)."
+msgstr "Izberite postavitev pasice (vrstica, okno, kot)."
+
+#: includes/class-admin.php:690
+msgid "Controls the main accent color used by buttons and links."
+msgstr "Določa glavno barvo poudarka, ki jo uporabljajo gumbi in povezave."
+
+#: includes/class-admin.php:690
+msgid "Primary color"
+msgstr "Primarna barva"
+
+#: includes/class-admin.php:691
+msgid ""
+"Theme style inherits site typography. Plugin style uses strict sizes/colors "
+"for consistent readability."
+msgstr ""
+"Slog teme podeduje tipografijo spletnega mesta. Slog vtičnika uporablja "
+"fiksne velikosti in barve za dosledno berljivost."
+
+#: includes/class-admin.php:692
+msgid "Customize visible wording in the consent banner."
+msgstr "Prilagodite vidna besedila v pasici za privolitev."
+
+#: includes/class-admin.php:692
+msgid "Heading/Description/Button texts"
+msgstr "Naslov/opis/besedila gumbov"
+
+#: includes/class-admin.php:693
+msgid "Lets visitors re-open cookie settings after they close the banner."
+msgstr ""
+"Obiskovalcem omogoča, da znova odprejo nastavitve piškotkov, ko zaprejo "
+"pasico."
+
+#: includes/class-admin.php:696
+msgid "Cookies tab"
+msgstr "Zavihek Piškotki"
+
+#: includes/class-admin.php:777
+msgid ""
+"Scans browser cookies and infers expected cookies from tracking scripts on "
+"your site (even when blocked until consent). Known cookies are auto-mapped "
+"to categories."
+msgstr ""
+"Pregleda piškotke brskalnika in iz sledilnih skriptov na vašem spletnem "
+"mestu predvidi pričakovane piškotke (tudi če so skripti do privolitve "
+"blokirani). Znani piškotki se samodejno razvrstijo v kategorije."
+
+#: includes/class-admin.php:699
+msgid "AI Helper"
+msgstr "Pomočnik UI"
+
+#: includes/class-admin.php:699
+msgid ""
+"Appears after scanning when unknown cookies are found. Copies a ready prompt"
+" to paste into an AI tool. After the AI responds, paste the JSON back into "
+"the text box and click Import."
+msgstr ""
+"Prikaže se po pregledu, če so najdeni neznani piškotki. Kopira pripravljen "
+"poziv, ki ga prilepite v orodje UI. Ko UI odgovori, prilepite JSON nazaj v "
+"besedilno polje in kliknite Uvozi."
+
+#: includes/class-admin.php:700
+msgid ""
+"Persists current cookie table values to be used in policy output and consent"
+" details."
+msgstr ""
+"Trajno shrani trenutne vrednosti tabele piškotkov, ki se uporabijo na strani "
+"s politiko in v podrobnostih privolitve."
+
+#: includes/class-admin.php:703
+msgid "Policy Page tab"
+msgstr "Zavihek Stran s politiko"
+
+#: includes/class-admin.php:705
+msgid ""
+"Selects which page is used for cookie policy content generated by shortcode."
+msgstr ""
+"Izbere stran, ki se uporablja za vsebino politike piškotkov, ustvarjeno s "
+"kratko kodo."
+
+#: includes/class-admin.php:706
+msgid "AI Prompt for Policy Page"
+msgstr "Poziv UI za stran s politiko"
+
+#: includes/class-admin.php:706
+msgid ""
+"Generates a prompt you can paste into an AI tool to create a full privacy "
+"and cookie policy. The generated text will include the [kncc_cookie_policy] "
+"shortcode for the cookie declaration section."
+msgstr ""
+"Ustvari poziv, ki ga lahko prilepite v orodje UI, da ustvarite celotno "
+"politiko zasebnosti in piškotkov. Ustvarjeno besedilo bo vključevalo kratko "
+"kodo [kncc_cookie_policy] za razdelek z izjavo o piškotkih."
+
+#: includes/class-admin.php:707
+msgid ""
+"If Polylang or WPML is active, each language can have its own translated "
+"policy page. If a translation is missing for some language, the default-"
+"language policy page is used as a fallback."
+msgstr ""
+"Če je aktiven Polylang ali WPML, ima lahko vsak jezik svojo prevedeno stran "
+"s politiko. Če za kateri jezik prevod manjka, se kot nadomestna uporabi "
+"stran s politiko v privzetem jeziku."
+
+#: includes/class-admin.php:707
+msgid "Multilingual support"
+msgstr "Večjezična podpora"
+
+#: includes/class-admin.php:710
+msgid "Integration tab"
+msgstr "Zavihek Integracija"
+
+#: includes/class-admin.php:712
+msgid ""
+"A Google framework for privacy-safe tag behavior. Before consent, storage "
+"signals are denied; after user choice, signals are updated (for example "
+"analytics_storage=granted). This helps GTM/Google tags respect user consent "
+"state."
+msgstr ""
+"Ogrodje družbe Google za delovanje oznak, ki varuje zasebnost. Pred "
+"privolitvijo so signali shranjevanja zavrnjeni, po uporabnikovi izbiri pa se "
+"posodobijo (na primer analytics_storage=granted). Tako oznake GTM/Google "
+"upoštevajo stanje privolitve uporabnika."
+
+#: includes/class-admin.php:713
+msgid "GTM Container ID"
+msgstr "ID vsebnika GTM"
+
+#: includes/class-admin.php:713
+msgid ""
+"Your GTM container identifier (for example GTM-N6828NL). It identifies which"
+" tag container your site uses. This field is informational in this plugin "
+"and does not inject GTM scripts."
+msgstr ""
+"Identifikator vašega vsebnika GTM (na primer GTM-N6828NL). Določa, kateri "
+"vsebnik oznak uporablja vaše spletno mesto. To polje je v tem vtičniku zgolj "
+"informativno in ne vstavlja skriptov GTM."
+
+#: includes/class-admin.php:716
+msgid "Script Blocking tab"
+msgstr "Zavihek Blokiranje skriptov"
+
+#: includes/class-admin.php:798
+msgid ""
+"Tools like Google Analytics are blocked automatically when added through "
+"WordPress plugins (e.g. Google Site Kit)."
+msgstr ""
+"Orodja, kot je Google Analytics, so samodejno blokirana, če so dodana prek "
+"vtičnikov za WordPress (npr. Google Site Kit)."
+
+#: includes/class-admin.php:799 includes/class-admin.php:1071
+msgid "Custom Code blocking"
+msgstr "Blokiranje kode po meri"
+
+#: includes/class-admin.php:799
+msgid ""
+"Stops tracking pasted into Bricks, Elementor, or similar Custom Code fields "
+"until the visitor gives consent."
+msgstr ""
+"Ustavi sledilno kodo, prilepljeno v Bricks, Elementor ali podobna polja za "
+"kodo po meri, dokler obiskovalec ne da privolitve."
+
+#: includes/class-admin.php:719
+msgid "Video embeds from YouTube and Vimeo are automatically blocked until the visitor accepts marketing cookies. A message with an accept button is shown instead. When the visitor has already consented, videos load normally."
+msgstr ""
+"Vdelani videoposnetki s storitev YouTube in Vimeo so samodejno blokirani, "
+"dokler obiskovalec ne sprejme trženjskih piškotkov. Namesto njih se prikaže "
+"sporočilo z gumbom za sprejem. Če je obiskovalec že dal privolitev, se "
+"videoposnetki naložijo normalno."
+
+#: includes/class-admin.php:719
+msgid "YouTube & Vimeo iframe blocking"
+msgstr "Blokiranje elementov iframe YouTube & Vimeo"
+
+#: includes/class-admin.php:722
+msgid "Statistics tab"
+msgstr "Zavihek Statistika"
+
+#: includes/class-admin.php:724
+msgid "Consent statistics"
+msgstr "Statistika privolitev"
+
+#: includes/class-admin.php:724
+msgid ""
+"Shows how many visitors accepted, rejected, or customized cookies over 7, "
+"30, or 90 day periods. Data is aggregated and anonymous — no personal data "
+"is stored."
+msgstr ""
+"Prikazuje, koliko obiskovalcev je v obdobju 7, 30 ali 90 dni sprejelo, "
+"zavrnilo ali prilagodilo piškotke. Podatki so združeni in anonimni – osebni "
+"podatki se ne shranjujejo."
+
+#: includes/class-admin.php:725 includes/class-admin.php:1022
+msgid "Consent Log"
+msgstr "Dnevnik privolitev"
+
+#: includes/class-admin.php:725
+msgid ""
+"Individual anonymized consent records for GDPR audit compliance. Records "
+"contain a hashed visitor identifier, the consent choice, accepted "
+"categories, and the policy version. Records are automatically purged after "
+"13 months."
+msgstr ""
+"Posamezni anonimizirani zapisi privolitev za skladnost z revizijskimi "
+"zahtevami GDPR. Zapisi vsebujejo zgoščeni identifikator obiskovalca, izbiro "
+"privolitve, sprejete kategorije in različico politike. Zapisi se samodejno "
+"izbrišejo po 13 mesecih."
+
+#: includes/class-admin.php:726
+msgid "Downloads all consent log records as a CSV file for auditing."
+msgstr "Prenese vse zapise v dnevniku privolitev kot datoteko CSV za revizijo."
+
+#: includes/class-admin.php:726 includes/class-admin.php:1038
+msgid "Export CSV"
+msgstr "Izvozi CSV"
+
+#: includes/class-admin.php:727
+msgid "Permanently deletes all consent log records and aggregate statistics."
+msgstr ""
+"Trajno izbriše vse zapise v dnevniku privolitev in združeno statistiko."
+
+#: includes/class-admin.php:727 includes/class-admin.php:1039
+msgid "Purge All Records"
+msgstr "Izbriši vse zapise"
+
+#: includes/class-admin.php:730
+msgid "Multilingual support (WPML & Polylang)"
+msgstr "Večjezična podpora (WPML & Polylang)"
+
+#: includes/class-admin.php:732
+msgid "Per-language banner texts"
+msgstr "Besedila pasice po jezikih"
+
+#: includes/class-admin.php:732
+msgid ""
+"When WPML or Polylang is active, switch to a secondary language in the admin"
+" bar and edit General tab settings (saved per language). With WPML String "
+"Translation, you can also translate the [kncc_settings]* admin text strings "
+"— those are used when no per-language override is saved. Otherwise each "
+"language uses its own plugin defaults (English if unsupported). Texts are "
+"never copied blindly from the default language."
+msgstr ""
+"Ko je aktiven WPML ali Polylang, v orodni vrstici preklopite na drug jezik "
+"in uredite nastavitve na zavihku Splošno (shranijo se ločeno za vsak jezik). "
+"Z WPML String Translation lahko prevedete tudi skrbniška besedila "
+"[kncc_settings]* – ta se uporabijo, kadar za jezik ni shranjena lastna "
+"različica. Sicer vsak jezik uporablja privzeta besedila vtičnika v svojem "
+"jeziku (angleščino, če jezik ni podprt). Besedila se nikoli ne kopirajo "
+"slepo iz privzetega jezika."
+
+#: includes/class-admin.php:733
+msgid ""
+"Cookie names, categories, providers, and durations are shared across all "
+"languages. Only the description field can be translated per language. Switch"
+" language and edit descriptions in the Cookies tab."
+msgstr ""
+"Imena piškotkov, kategorije, ponudniki in trajanja so skupni za vse jezike. "
+"Za vsak jezik posebej je mogoče prevesti samo polje z opisom. Preklopite "
+"jezik in uredite opise na zavihku Piškotki."
+
+#: includes/class-admin.php:733
+msgid "Per-language cookie descriptions"
+msgstr "Opisi piškotkov po jezikih"
+
+#: includes/class-admin.php:734
+msgid ""
+"Banner style, colors, and policy page can be set per language. Non-text "
+"settings fall back to the default language; banner texts use per-language "
+"overrides, WPML String Translation, or each language's own defaults."
+msgstr ""
+"Slog pasice, barve in stran s politiko je mogoče nastaviti za vsak jezik "
+"posebej. Za nebesedilne nastavitve se kot nadomestne uporabijo vrednosti "
+"privzetega jezika; besedila pasice uporabljajo lastne različice za posamezni "
+"jezik, WPML String Translation ali privzeta besedila posameznega jezika."
+
+#: includes/class-admin.php:734
+msgid "Per-language settings"
+msgstr "Nastavitve po jezikih"
+
+#: includes/class-admin.php:735
+msgid "AI prompts"
+msgstr "Pozivi UI"
+
+#: includes/class-admin.php:735
+msgid ""
+"AI prompts for cookie descriptions and policy pages are automatically "
+"generated in the language matching the current admin locale."
+msgstr ""
+"Pozivi UI za opise piškotkov in strani s politiko se samodejno ustvarijo v "
+"jeziku, ki ustreza trenutnemu jeziku skrbniškega vmesnika."
+
+#: includes/class-admin.php:738
+msgid "Shortcodes"
+msgstr "Kratke kode"
+
+#: includes/class-admin.php:740
+msgid "Displays the full cookie declaration table on your policy page."
+msgstr "Na strani s politiko prikaže celotno tabelo z izjavo o piškotkih."
+
+#: includes/class-admin.php:741
+msgid ""
+"Renders a link that opens the cookie settings dialog. Use in footers, menus,"
+" or widgets. Customize the link text with the text attribute, e.g. "
+"[kncc_cookie_settings text=\"Manage cookies\"]."
+msgstr ""
+"Prikaže povezavo, ki odpre pogovorno okno z nastavitvami piškotkov. "
+"Uporabite jo v nogah, menijih ali gradnikih. Besedilo povezave prilagodite z "
+"atributom text, npr. [kncc_cookie_settings text=\"Upravljanje piškotkov\"]."
+
+#: includes/class-admin.php:744
+msgid "Custom CSS"
+msgstr "CSS po meri"
+
+#: includes/class-admin.php:748
+#, php-format
+msgid ""
+"Need to fine-tune the look beyond the General tab? Add CSS to %s, your child"
+" theme, or a Code Snippets plugin."
+msgstr ""
+"Želite videz prilagoditi natančneje, kot omogoča zavihek Splošno? Dodajte "
+"CSS v %s, v podrejeno temo ali v vtičnik Code Snippets."
+
+#: includes/class-admin.php:749
+msgid "Appearance → Customize → Additional CSS"
+msgstr "Videz → Prilagodi → Dodatni CSS"
+
+#: includes/class-admin.php:752
+msgid ""
+"Copy the template below, uncomment the rules you want to change, save. Every"
+" selector the plugin uses is included."
+msgstr ""
+"Kopirajte spodnjo predlogo, odkomentirajte pravila, ki jih želite "
+"spremeniti, in shranite. Vključeni so vsi izbirniki, ki jih uporablja "
+"vtičnik."
+
+#: includes/class-admin.php:756
+msgid "Copy CSS template"
+msgstr "Kopiraj predlogo CSS"
+
+#: includes/class-admin.php:828
+msgid "Tips:"
+msgstr "Nasveti:"
+
+#: includes/class-admin.php:830
+msgid ""
+"If a rule does not apply, prepend .kncc-banner or add !important — your CSS "
+"file loads after the plugin's, but theme styles can occasionally beat it on "
+"specificity."
+msgstr ""
+"Če se pravilo ne uveljavi, pred izbirnik dodajte .kncc-banner ali dodajte "
+"!important – vaša datoteka CSS se naloži za datoteko vtičnika, vendar jo "
+"lahko slogi teme zaradi specifičnosti včasih preglasijo."
+
+#: includes/class-admin.php:831
+msgid ""
+"When General → Text and font style is set to Plugin style, typography rules "
+"use !important. Switch to Theme style for easier overrides."
+msgstr ""
+"Ko je Splošno → Slog besedila in pisave nastavljeno na slog vtičnika, "
+"pravila tipografije uporabljajo !important. Za lažje preglasitve preklopite "
+"na slog teme."
+
+#: includes/class-admin.php:832
+msgid ""
+"Banner z-index is 999999 and the floating button is 999998 — raise them if "
+"your theme renders overlays on top of the banner."
+msgstr ""
+"Vrednost z-index pasice je 999999, plavajočega gumba pa 999998 – povečajte "
+"ju, če vaša tema prikazuje prekrivne elemente nad pasico."
+
+#: includes/class-admin.php:835
+msgid "Troubleshooting"
+msgstr "Odpravljanje težav"
+
+#: includes/class-admin.php:837
+msgid ""
+"If GTM Preview does not show consent updates, verify Consent Mode v2 is "
+"enabled and test in a fresh browser session without existing consent cookie."
+msgstr ""
+"Če predogled GTM ne prikazuje posodobitev privolitve, preverite, ali je "
+"Consent Mode v2 omogočen, in preizkusite v novi seji brskalnika brez "
+"obstoječega piškotka privolitve."
+
+#: includes/class-admin.php:838
+msgid ""
+"If banner typography looks odd with your theme, switch General > Text and "
+"font style to Plugin style."
+msgstr ""
+"Če je tipografija pasice z vašo temo videti nenavadno, nastavite Splošno > "
+"Slog besedila in pisave na slog vtičnika."
+
+#: includes/class-admin.php:839
+msgid ""
+"If tracking still runs before consent, make sure Custom Code blocking is "
+"checked on the Script Blocking tab."
+msgstr ""
+"Če se sledenje še vedno izvaja pred privolitvijo, preverite, ali je na "
+"zavihku Blokiranje skriptov označeno Blokiranje kode po meri."
+
+#: includes/class-admin.php:840
+msgid ""
+"If the statistics are empty, make sure visitors have interacted with the "
+"banner. Data starts recording after the first consent choice."
+msgstr ""
+"Če je statistika prazna, preverite, ali so obiskovalci že uporabili pasico. "
+"Podatki se začnejo beležiti po prvi izbiri privolitve."
+
+#: includes/class-admin.php:841
+msgid ""
+"If the policy page warning shows missing translations, create the translated"
+" page in each language and add the [kncc_cookie_policy] shortcode."
+msgstr ""
+"Če opozorilo o strani s politiko prikazuje manjkajoče prevode, ustvarite "
+"prevedeno stran v vsakem jeziku in dodajte kratko kodo [kncc_cookie_policy]."
+
+#: includes/class-admin.php:845
+msgid ""
+"I made this plugin for free because I got frustrated by the existing cookie "
+"consent plugins — too much bloat and useless features. If you like it and "
+"want to buy me a coffee, you can do it here:"
+msgstr ""
+"Ta vtičnik sem naredil brezplačno, ker so me obstoječi vtičniki za "
+"privolitev v piškotke spravljali ob živce – preveč nepotrebne navlake in "
+"nekoristnih funkcij. Če vam je všeč in bi mi radi plačali kavo, lahko to "
+"storite tukaj:"
+
+#: includes/class-admin.php:873
+#, php-format
+msgid "%d days"
+msgstr "%d dni"
+
+#: includes/class-admin.php:884
+msgid "Total responses"
+msgstr "Skupaj odgovorov"
+
+#: includes/class-admin.php:888 includes/class-admin.php:903
+#: includes/class-admin.php:913
+msgid "Accepted all"
+msgstr "Sprejeli vse"
+
+#: includes/class-admin.php:892 includes/class-admin.php:909
+#: includes/class-admin.php:915
+msgid "Rejected all"
+msgstr "Zavrnili vse"
+
+#: includes/class-admin.php:896 includes/class-admin.php:906
+#: includes/class-admin.php:914
+msgid "Custom selection"
+msgstr "Izbira po meri"
+
+#: includes/class-admin.php:920
+msgid ""
+"No consent data recorded yet. Statistics will appear after visitors start "
+"interacting with the cookie banner."
+msgstr ""
+"Podatki o privolitvah še niso bili zabeleženi. Statistika se bo prikazala, "
+"ko bodo obiskovalci začeli uporabljati pasico o piškotkih."
+
+#: includes/class-admin.php:937
+#, php-format
+msgid "Cron error: %s"
+msgstr "Napaka crona: %s"
+
+#: includes/class-admin.php:955
+msgid "All systems are good!"
+msgstr "Vse deluje brezhibno!"
+
+#: includes/class-admin.php:957
+msgid "The plugin re-checks cookies every day via cron."
+msgstr "Vtičnik vsak dan prek crona znova preveri piškotke."
+
+#: includes/class-admin.php:962
+#, php-format
+msgid "Next check: %s"
+msgstr "Naslednje preverjanje: %s"
+
+#: includes/class-admin.php:1075
+msgid ""
+"Also block tracking added in Bricks, Elementor, or other Custom Code fields"
+msgstr ""
+"Blokiraj tudi sledenje, dodano v Bricks, Elementor ali druga polja za kodo "
+"po meri"
+
+#: includes/class-admin.php:1094
+msgid "Save blocking settings"
+msgstr "Shrani nastavitve blokiranja"
+
+#: includes/class-admin.php:1099
+msgid "Recognized tracking tools"
+msgstr "Prepoznana sledilna orodja"
+
+#: includes/class-admin.php:1106
+msgid "Script Handle"
+msgstr "Handle skripta"
+
+#: includes/class-admin.php:1024
+msgid ""
+"Individual consent records for GDPR audit compliance. Records are "
+"automatically purged after the retention period (13 months)."
+msgstr ""
+"Posamezni zapisi privolitev za skladnost z revizijskimi zahtevami GDPR. "
+"Zapisi se samodejno izbrišejo po izteku obdobja hrambe (13 mesecev)."
+
+#: includes/class-admin.php:1028
+msgid "Total records:"
+msgstr "Skupaj zapisov:"
+
+#: includes/class-admin.php:1030
+msgid "Oldest:"
+msgstr "Najstarejši:"
+
+#: includes/class-admin.php:1033
+msgid "Newest:"
+msgstr "Najnovejši:"
+
+#: includes/class-admin.php:1043
+msgid "No consent log records yet."
+msgstr "V dnevniku privolitev še ni zapisov."
+
+#: includes/class-admin.php:1048
+msgid "Date/Time"
+msgstr "Datum/čas"
+
+#: includes/class-admin.php:1049
+msgid "Visitor"
+msgstr "Obiskovalec"
+
+#: includes/class-admin.php:1050
+msgid "Choice"
+msgstr "Izbira"
+
+#: includes/class-admin.php:1051
+msgid "Categories"
+msgstr "Kategorije"
+
+#: includes/class-admin.php:1052
+msgid "Policy Version"
+msgstr "Različica politike"
+
+#: includes/class-admin.php:1311
+msgid "Cookies saved."
+msgstr "Piškotki so shranjeni."
+
+#: includes/class-consent.php:135
+msgid "Cookie consent"
+msgstr "Privolitev za piškotke"
+
+#: includes/class-consent.php:147 includes/class-policy-page.php:27
+msgid "Cookie Policy"
+msgstr "Politika piškotkov"
+
+#: includes/class-consent.php:155
+msgid "Close"
+msgstr "Zapri"
+
+#: includes/class-consent.php:187 includes/class-consent.php:188
+#: kansleri-cookie-consent.php:590
+msgid "Cookie settings"
+msgstr "Nastavitve piškotkov"
+
+#: includes/class-policy-page.php:48
+msgid "No cookies have been registered yet."
+msgstr "Noben piškotek še ni bil registriran."
+
+#: includes/class-policy-page.php:58
+msgid ""
+"These cookies are essential for the website to function and cannot be "
+"switched off."
+msgstr ""
+"Ti piškotki so nujni za delovanje spletnega mesta in jih ni mogoče izklopiti."
+
+#: includes/class-policy-page.php:59
+msgid ""
+"These cookies help us understand how visitors interact with the website by "
+"collecting and reporting information anonymously."
+msgstr ""
+"Ti piškotki nam pomagajo razumeti, kako obiskovalci uporabljajo spletno "
+"mesto, tako da anonimno zbirajo in sporočajo podatke."
+
+#: includes/class-policy-page.php:60
+msgid ""
+"These cookies are used to deliver relevant advertisements and track ad "
+"campaign performance."
+msgstr ""
+"Ti piškotki se uporabljajo za prikazovanje ustreznih oglasov in spremljanje "
+"uspešnosti oglaševalskih kampanj."
+
+#: includes/class-policy-page.php:61
+msgid ""
+"These cookies allow the website to remember choices you make and provide "
+"enhanced functionality and personalisation."
+msgstr ""
+"Ti piškotki spletnemu mestu omogočajo, da si zapomni vaše izbire ter ponudi "
+"izboljšano delovanje in personalizacijo."
+
+#: includes/class-policy-page.php:79
+msgid "Edit cookie preferences"
+msgstr "Uredi nastavitve piškotkov"
+
+#: includes/class-policy-page.php:90 includes/class-policy-page.php:99
+msgid "Cookie"
+msgstr "Piškotek"
+
+#: includes/class-policy-page.php:92 includes/class-policy-page.php:101
+msgid "Purpose"
+msgstr "Namen"
+
+#: includes/class-script-blocker.php:306
+msgid "Script blocking settings saved."
+msgstr "Nastavitve blokiranja skriptov so shranjene."
+
+#: kansleri-cookie-consent.php:57 kansleri-cookie-consent.php:404
+msgid "We use cookies"
+msgstr "Uporabljamo piškotke"
+
+#: kansleri-cookie-consent.php:58 kansleri-cookie-consent.php:405
+msgid ""
+"We use cookies to improve your experience and analyze site traffic. Choose "
+"which cookies you allow."
+msgstr ""
+"Piškotke uporabljamo za izboljšanje vaše izkušnje in analizo prometa na "
+"spletnem mestu. Izberite, katere piškotke dovolite."
+
+#: kansleri-cookie-consent.php:59 kansleri-cookie-consent.php:406
+msgid "Accept all"
+msgstr "Sprejmi vse"
+
+#: kansleri-cookie-consent.php:60 kansleri-cookie-consent.php:407
+msgid "Reject all"
+msgstr "Zavrni vse"
+
+#: kansleri-cookie-consent.php:61 kansleri-cookie-consent.php:408
+msgid "Customize"
+msgstr "Prilagodi"
+
+#: kansleri-cookie-consent.php:62 kansleri-cookie-consent.php:409
+msgid "Save preferences"
+msgstr "Shrani nastavitve"
+
+#: kansleri-cookie-consent.php:336
+msgid "Required for the website to function. Cannot be disabled."
+msgstr "Potrebni za delovanje spletnega mesta. Ni jih mogoče onemogočiti."
+
+#: kansleri-cookie-consent.php:340
+msgid "Help us understand how visitors interact with the website."
+msgstr "Pomagajo nam razumeti, kako obiskovalci uporabljajo spletno mesto."
+
+#: kansleri-cookie-consent.php:344
+msgid "Used to deliver relevant advertisements and track campaigns."
+msgstr ""
+"Uporabljajo se za prikazovanje ustreznih oglasov in spremljanje kampanj."
+
+#: kansleri-cookie-consent.php:348
+msgid "Remember your settings and preferences for a better experience."
+msgstr "Zapomnijo si vaše nastavitve in izbire za boljšo izkušnjo."
+
+#: kansleri-cookie-consent.php:499
+msgid "Settings"
+msgstr "Nastavitve"
+
+#: kansleri-cookie-consent.php:522
+#, php-format
+msgid ""
+"Kansleri Cookie Consent is now active. Next steps: %1$s to discover cookies "
+"and %2$s to review banner and consent settings."
+msgstr ""
+"Kansleri Cookie Consent je zdaj aktiven. Naslednja koraka: %1$s, da jih "
+"odkrijete, in %2$s pasice in privolitve."
+
+#: kansleri-cookie-consent.php:523
+msgid "Scan cookies"
+msgstr "Preglejte piškotke"
+
+#: kansleri-cookie-consent.php:524
+msgid "review settings"
+msgstr "preverite nastavitve"
+
+#: kansleri-cookie-consent.php:555
+#, php-format
+msgid ""
+"Cookie Consent: %1$d cookie(s) are missing descriptions: %2$s. %3$s to add "
+"them."
+msgstr ""
+"Privolitev za piškotke: piškotki brez opisa (%1$d): %2$s. %3$s in dodajte "
+"opise."
+
+#: kansleri-cookie-consent.php:558
+msgid "Go to Cookies tab"
+msgstr "Pojdite na zavihek Piškotki"
+
+#: kansleri-cookie-consent.php:572
+msgid ""
+"This site uses a cookie consent banner powered by Kansleri Cookie Consent. "
+"When you interact with the banner, a cookie named <code>kncc_consent</code> "
+"is stored in your browser for up to 1 year. It records your consent "
+"preferences (which cookie categories you accepted or rejected) so the site "
+"can remember your choice on future visits. No personal data is stored in "
+"this cookie."
+msgstr ""
+"To spletno mesto uporablja pasico za privolitev v piškotke, ki deluje z "
+"vtičnikom Kansleri Cookie Consent. Ko uporabite pasico, se v vašem "
+"brskalniku za največ 1 leto shrani piškotek z imenom "
+"<code>kncc_consent</code>. V njem so zabeležene vaše nastavitve privolitve "
+"(katere kategorije piškotkov ste sprejeli ali zavrnili), da si spletno mesto "
+"lahko zapomni vašo izbiro ob prihodnjih obiskih. V tem piškotku se ne "
+"shranjujejo nobeni osebni podatki."
+
+#: kansleri-cookie-consent.php:573
+msgid ""
+"The plugin also records anonymous, aggregated consent statistics (how many "
+"visitors accepted, rejected, or customized cookies each day) and individual "
+"consent log entries for GDPR audit compliance. Consent log entries contain a"
+" hashed (non-reversible) visitor identifier, the consent choice, which "
+"categories were accepted, and the policy version. No IP addresses, user "
+"identifiers, or personal data are stored in plain text. Consent log records "
+"are automatically deleted after 13 months."
+msgstr ""
+"Vtičnik beleži tudi anonimno, združeno statistiko privolitev (koliko "
+"obiskovalcev je vsak dan sprejelo, zavrnilo ali prilagodilo piškotke) in "
+"posamezne zapise v dnevniku privolitev za skladnost z revizijskimi zahtevami "
+"GDPR. Zapisi v dnevniku privolitev vsebujejo zgoščeni (nepovratni) "
+"identifikator obiskovalca, izbiro privolitve, sprejete kategorije in "
+"različico politike. Nobeni naslovi IP, identifikatorji uporabnikov ali "
+"osebni podatki se ne shranjujejo v berljivi obliki. Zapisi v dnevniku "
+"privolitev se samodejno izbrišejo po 13 mesecih."
+
+#: includes/class-admin.php:318
+msgid "Empty cookie categories"
+msgstr "Prazne kategorije piškotkov"
+
+#: includes/class-admin.php:322
+msgid "Show but lock (disable) the switch"
+msgstr "Prikaži, vendar zakleni (onemogoči) stikalo"
+
+#: includes/class-admin.php:323
+msgid "Hide categories with no cookies"
+msgstr "Skrij kategorije brez piškotkov"
+
+#: includes/class-admin.php:378 includes/class-consent.php:95
+msgid "No analytics cookies are used on this site."
+msgstr "Na tem spletnem mestu se ne uporabljajo analitični piškotki."
+
+#: includes/class-admin.php:379 includes/class-consent.php:96
+msgid "No marketing cookies are used on this site."
+msgstr "Na tem spletnem mestu se ne uporabljajo trženjski piškotki."
+
+#: includes/class-admin.php:380 includes/class-consent.php:97
+msgid "No preference cookies are used on this site."
+msgstr "Na tem spletnem mestu se ne uporabljajo piškotki nastavitev."
+
+#: includes/class-admin.php:323
+msgid "Close button label"
+msgstr "Oznaka gumba za zapiranje"
+
+#: includes/class-consent.php:50
+msgid "You have not made a choice yet."
+msgstr "Izbire še niste opravili."
+
+#: includes/class-consent.php:51
+msgid "Allowed"
+msgstr "Dovoljeno"
+
+#: includes/class-consent.php:52
+msgid "Denied"
+msgstr "Zavrnjeno"
+
+#: includes/class-consent.php:53
+msgid "Always active"
+msgstr "Vedno aktivno"
+
+#: includes/class-policy-page.php:85
+msgid "Your current cookie preferences"
+msgstr "Vaše trenutne nastavitve piškotkov"
+
+#: includes/class-policy-page.php:93
+msgid ""
+"These choices are stored technically as wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing, and wp_consent_preferences for "
+"compatibility with WordPress plugins."
+msgstr ""
+"Te izbire so tehnično shranjene kot wp_consent_functional, "
+"wp_consent_statistics, wp_consent_marketing in wp_consent_preferences zaradi "
+"združljivosti z vtičniki za WordPress."
+
+#: includes/class-admin.php:99
+msgid "Possibly removed"
+msgstr "Morda odstranjeni"
+
+#: includes/class-admin.php:100
+msgid ""
+"These cookies are still in your list, but their tracking scripts were not "
+"found on the homepage. Review and remove any that are no longer used."
+msgstr ""
+"Ti piškotki so še vedno na vašem seznamu, vendar njihovih sledilnih skriptov "
+"na domači strani ni bilo mogoče najti. Preglejte jih in odstranite tiste, ki "
+"se ne uporabljajo več."
+
+#: includes/class-admin.php:102
+#, php-format
+msgid ""
+"Remove %d cookie(s) from the list? This cannot be undone automatically."
+msgstr ""
+"Želite s seznama odstraniti piškotke (%d)? Tega ni mogoče samodejno "
+"razveljaviti."
+
+#: includes/class-admin.php:103 includes/class-admin.php:1527
+msgid "Selected cookies removed from the list."
+msgstr "Izbrani piškotki so odstranjeni s seznama."
+
+#: includes/class-admin.php:104
+msgid "Remove selected cookies"
+msgstr "Odstrani izbrane piškotke"
+
+#: includes/class-admin.php:1482
+msgid ""
+"None of the selected cookies can be removed. Run Scan Cookies again to "
+"refresh the list."
+msgstr ""
+"Nobenega od izbranih piškotkov ni mogoče odstraniti. Znova kliknite Preglej "
+"piškotke, da osvežite seznam."
+
+#: includes/class-admin.php:791
+msgid ""
+"After scanning, cookies whose tracking scripts are no longer found on the "
+"homepage are listed under \"Possibly removed\". Review the list and use "
+"Remove selected cookies to delete entries you no longer need — nothing is "
+"removed automatically."
+msgstr ""
+"Po pregledu so piškotki, katerih sledilnih skriptov na domači strani ni več "
+"mogoče najti, navedeni pod »Morda odstranjeni«. Preglejte seznam in z gumbom "
+"Odstrani izbrane piškotke izbrišite zapise, ki jih ne potrebujete več – nič "
+"se ne odstrani samodejno."
+
+#: includes/class-admin.php:797
+msgid "Current consent status"
+msgstr "Trenutno stanje privolitve"
+
+#: includes/class-admin.php:797
+msgid ""
+"The [kncc_cookie_policy] shortcode shows each category as allowed, denied, "
+"or not yet chosen above the Edit cookie preferences button. When WP Consent "
+"API is active, a note explains the technical wp_consent_* cookie names used "
+"by WordPress plugins."
+msgstr ""
+"Kratka koda [kncc_cookie_policy] nad gumbom Uredi nastavitve piškotkov "
+"prikaže vsako kategorijo kot dovoljeno, zavrnjeno ali še neizbrano. Ko je "
+"aktiven WP Consent API, opomba pojasni tehnična imena piškotkov "
+"wp_consent_*, ki jih uporabljajo vtičniki za WordPress."
+
+#: includes/class-admin.php:806
+msgid "WP Consent API sync"
+msgstr "Sinhronizacija z WP Consent API"
+
+#: includes/class-admin.php:806
+msgid ""
+"When the WP Consent API plugin is active, Kansleri automatically syncs your "
+"banner choices to wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing, and wp_consent_preferences. This lets consent-aware "
+"plugins such as Google Site Kit read the visitor's choice. Banner labels "
+"(Necessary, Analytics) map to these technical cookie names."
+msgstr ""
+"Ko je aktiven vtičnik WP Consent API, Kansleri samodejno sinhronizira izbire "
+"iz vaše pasice v wp_consent_functional, wp_consent_statistics, "
+"wp_consent_marketing in wp_consent_preferences. Tako lahko vtičniki, ki "
+"upoštevajo privolitev, kot je Google Site Kit, preberejo izbiro obiskovalca. "
+"Oznake v pasici (Nujni, Analitika) se preslikajo v ta tehnična imena "
+"piškotkov."
+
+#: includes/class-admin.php:939
+msgid ""
+"If wp_consent_statistics stays deny after Accept all, clear site cookies or "
+"test in a private window, hard-refresh (Ctrl+Shift+R), and confirm the WP "
+"Consent API plugin is active."
+msgstr ""
+"Če wp_consent_statistics po kliku Sprejmi vse ostane deny, izbrišite "
+"piškotke spletnega mesta ali preizkusite v zasebnem oknu, izvedite trdo "
+"osvežitev (Ctrl+Shift+R) in preverite, ali je vtičnik WP Consent API aktiven."
+
+#: includes/class-admin.php:746 includes/class-admin.php:854
+msgid "Advanced Consent Mode"
+msgstr "Napredni Consent Mode"
+
+#: includes/class-admin.php:750
+msgid "Load Google tags before consent, with consent denied"
+msgstr "Naloži oznake Google pred privolitvijo, z zavrnjeno privolitvijo"
+
+#: includes/class-admin.php:753
+msgid "Off (default, Basic Consent Mode): the Google tag is blocked until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies, so Google receives nothing from visitors who have not consented."
+msgstr ""
+"Izklopljeno (privzeto, osnovni Consent Mode): oznaka Google je blokirana, "
+"dokler obiskovalec ne sprejme analitičnih piškotkov, Google Tag Manager pa, "
+"dokler obiskovalec ne sprejme analitičnih ali trženjskih piškotkov, zato "
+"Google od obiskovalcev, ki niso dali privolitve, ne prejme ničesar."
+
+#: includes/class-admin.php:756
+msgid ""
+"On (Advanced Consent Mode): the Google tag and Google Tag Manager load "
+"right away. Until the visitor accepts, they set no cookies and send Google "
+"only cookieless pings, which Google uses to model the missing data. Google "
+"Analytics and Google Ads expect this mode, and with Basic mode they can "
+"report your consent signals as not active."
+msgstr ""
+"Vklopljeno (napredni Consent Mode): oznaka Google in Google Tag Manager se "
+"naložita takoj. Dokler obiskovalec ne sprejme, ne nastavljata piškotkov in "
+"Googlu pošiljata samo pinge brez piškotkov, s katerimi Google modelira "
+"manjkajoče podatke. Google Analytics in Google Ads pričakujeta ta način, pri "
+"osnovnem načinu pa lahko vaše signale privolitve prikažeta kot neaktivne."
+
+#: includes/class-admin.php:759
+msgid "Only applies while Consent Mode v2 is enabled. Other tracking scripts on the site stay blocked until consent, also those that Google Tag Manager adds (for example a Meta Pixel or LinkedIn in a Custom HTML tag): each waits for its own category, with no changes needed in the container."
+msgstr ""
+"Velja samo, ko je Consent Mode v2 omogočen. Drugi sledilni skripti na "
+"spletnem mestu ostanejo blokirani do privolitve, tudi tisti, ki jih doda "
+"Google Tag Manager (na primer Meta Pixel ali LinkedIn v oznaki Custom HTML): "
+"vsak čaka na svojo kategorijo, v vsebniku pa ni treba ničesar spreminjati."
+
+#: includes/class-admin.php:854
+msgid ""
+"Off by default. When on, the Google tag and Google Tag Manager load before "
+"consent instead of being blocked. Until the visitor accepts, they set no "
+"cookies and send Google only cookieless pings."
+msgstr ""
+"Privzeto izklopljeno. Ko je vklopljeno, se oznaka Google in Google Tag "
+"Manager naložita pred privolitvijo, namesto da bi bila blokirana. Dokler "
+"obiskovalec ne sprejme, ne nastavljata piškotkov in Googlu pošiljata samo "
+"pinge brez piškotkov."
+
+#: includes/class-admin.php:863
+msgid "You can turn this off on the Script Blocking tab."
+msgstr "To lahko izklopite na zavihku Blokiranje skriptov."
+
+#: includes/class-admin.php:1136
+msgid ""
+"Advanced Consent Mode is on (Integration tab): the Google tag and Google "
+"Tag Manager load before consent and follow the Consent Mode signals instead "
+"of being blocked."
+msgstr ""
+"Napredni Consent Mode je vklopljen (zavihek Integracija): oznaka Google in "
+"Google Tag Manager se naložita pred privolitvijo in namesto blokiranja "
+"upoštevata signale Consent Mode."
+
+#: includes/class-admin.php:1168
+msgid ""
+"Block YouTube and Vimeo videos until the visitor accepts marketing cookies"
+msgstr ""
+"Blokiraj videoposnetke YouTube in Vimeo, dokler obiskovalec ne sprejme "
+"trženjskih piškotkov"
+
+#: includes/class-admin.php:684
+msgid "More information"
+msgstr "Več informacij"
+
+#: includes/class-admin.php:823
+msgid "Basic Consent Mode: the Google tag waits until the visitor accepts analytics cookies, and Google Tag Manager until the visitor accepts analytics or marketing cookies."
+msgstr ""
+"Osnovni Consent Mode: oznaka Google počaka, da obiskovalec sprejme "
+"analitične piškotke, Google Tag Manager pa, da obiskovalec sprejme "
+"analitične ali trženjske piškotke."
+
+#: includes/class-admin.php:823
+msgid ""
+"Advanced Consent Mode: the Google tag and Google Tag Manager load right "
+"away with these defaults, and send only cookieless pings until the visitor "
+"accepts."
+msgstr ""
+"Napredni Consent Mode: oznaka Google in Google Tag Manager se s temi "
+"privzetimi vrednostmi naložita takoj in pošiljata samo pinge brez piškotkov, "
+"dokler obiskovalec ne sprejme."
+
+#: includes/class-scanner.php:122
+msgctxt "cookie duration"
+msgid "1 minute"
+msgstr "1 minuta"
+
+#: includes/class-scanner.php:123
+msgctxt "cookie duration"
+msgid "30 minutes"
+msgstr "30 minut"
+
+#: includes/class-scanner.php:124
+msgctxt "cookie duration"
+msgid "24 hours"
+msgstr "24 ur"
+
+#: includes/class-scanner.php:125
+msgctxt "cookie duration"
+msgid "1 day"
+msgstr "1 dan"
+
+#: includes/class-scanner.php:126
+msgctxt "cookie duration"
+msgid "30 days"
+msgstr "30 dni"
+
+#: includes/class-scanner.php:127
+msgctxt "cookie duration"
+msgid "90 days"
+msgstr "90 dni"
+
+#: includes/class-scanner.php:128
+msgctxt "cookie duration"
+msgid "6 months"
+msgstr "6 mesecev"
+
+#: includes/class-scanner.php:129
+msgctxt "cookie duration"
+msgid "1 year"
+msgstr "1 leto"
+
+#: includes/class-scanner.php:130
+msgctxt "cookie duration"
+msgid "2 years"
+msgstr "2 leti"
+
+#: includes/class-scanner.php:131
+msgctxt "cookie duration"
+msgid "Session"
+msgstr "Seja"
+
+#: includes/class-scanner.php:132
+msgctxt "cookie duration"
+msgid "Varies"
+msgstr "Različno"
+
+#: includes/class-scanner.php:135
+msgid "Google Analytics: stores and counts page views."
+msgstr "Google Analytics: shranjuje in šteje oglede strani."
+
+#: includes/class-scanner.php:136
+msgid "Google Analytics: distinguishes unique users."
+msgstr "Google Analytics: razlikuje posamezne uporabnike."
+
+#: includes/class-scanner.php:137
+msgid "Google Analytics: distinguishes users for 24 hours."
+msgstr "Google Analytics: razlikuje uporabnike v obdobju 24 ur."
+
+#: includes/class-scanner.php:138
+msgid "Google Analytics: throttles request rate."
+msgstr "Google Analytics: omejuje pogostost zahtev."
+
+#: includes/class-scanner.php:139
+msgid "Google Ads: stores conversion data."
+msgstr "Google Ads: shranjuje podatke o konverzijah."
+
+#: includes/class-scanner.php:140
+msgid "Google Ads: click tracking."
+msgstr "Google Ads: sledenje klikom."
+
+#: includes/class-scanner.php:141
+msgid "Google Tag Manager: throttles request rate."
+msgstr "Google Tag Manager: omejuje pogostost zahtev."
+
+#: includes/class-scanner.php:144
+msgid "Meta Pixel: tracks visits across websites for ad targeting."
+msgstr ""
+"Meta Pixel: sledi obiskom na različnih spletnih mestih za ciljanje oglasov."
+
+#: includes/class-scanner.php:145
+msgid "Meta Pixel: stores click identifiers."
+msgstr "Meta Pixel: shranjuje identifikatorje klikov."
+
+#: includes/class-scanner.php:146
+msgid "Facebook: ad delivery and measurement."
+msgstr "Facebook: prikazovanje in merjenje oglasov."
+
+#: includes/class-scanner.php:149
+msgid "HubSpot: tracks visitor identity."
+msgstr "HubSpot: sledi identiteti obiskovalca."
+
+#: includes/class-scanner.php:150
+msgid "HubSpot: tracks session information."
+msgstr "HubSpot: sledi podatkom o seji."
+
+#: includes/class-scanner.php:151
+msgid "HubSpot: tracks sessions for analytics."
+msgstr "HubSpot: sledi sejam za analitiko."
+
+#: includes/class-scanner.php:152
+msgid "HubSpot: determines if visitor has restarted browser."
+msgstr "HubSpot: ugotavlja, ali je obiskovalec znova zagnal brskalnik."
+
+#: includes/class-scanner.php:153
+msgid "HubSpot: analytics and tracking."
+msgstr "HubSpot: analitika in sledenje."
+
+#: includes/class-scanner.php:156
+msgid "LinkedIn: browser identifier for ad targeting."
+msgstr "LinkedIn: identifikator brskalnika za ciljanje oglasov."
+
+#: includes/class-scanner.php:157
+msgid "LinkedIn: browser identifier."
+msgstr "LinkedIn: identifikator brskalnika."
+
+#: includes/class-scanner.php:158
+msgid "LinkedIn: data centre selection."
+msgstr "LinkedIn: izbira podatkovnega centra."
+
+#: includes/class-scanner.php:161
+msgid "WordPress: stores admin settings timestamp."
+msgstr "WordPress: shranjuje časovni žig skrbniških nastavitev."
+
+#: includes/class-scanner.php:162
+msgid "WordPress: stores admin personalisation settings."
+msgstr "WordPress: shranjuje nastavitve prilagoditve skrbniškega vmesnika."
+
+#: includes/class-scanner.php:163
+msgid "WordPress: authentication cookie for logged-in users."
+msgstr ""
+"WordPress: piškotek za preverjanje pristnosti prijavljenih uporabnikov."
+
+#: includes/class-scanner.php:164
+msgid "WordPress: secure authentication cookie."
+msgstr "WordPress: varni piškotek za preverjanje pristnosti."
+
+#: includes/class-scanner.php:165
+msgid "WordPress: tests if cookies are enabled."
+msgstr "WordPress: preverja, ali so piškotki omogočeni."
+
+#: includes/class-scanner.php:166
+msgid "WordPress: stores language preference."
+msgstr "WordPress: shranjuje izbrani jezik."
+
+#: includes/class-scanner.php:167
+msgid "WordPress: remembers comment author details."
+msgstr "WordPress: zapomni si podatke avtorja komentarja."
+
+#: includes/class-scanner.php:170
+msgid "WooCommerce: stores cart and session data."
+msgstr "WooCommerce: shranjuje podatke o košarici in seji."
+
+#: includes/class-scanner.php:171
+msgid "WooCommerce: stores customer session."
+msgstr "WooCommerce: shranjuje sejo kupca."
+
+#: includes/class-scanner.php:174
+msgid ""
+"Order attribution: keeps traffic-source tracking data compatible across "
+"updates."
+msgstr ""
+"Pripisovanje naročil: ohranja združljivost podatkov o sledenju virov prometa "
+"med posodobitvami."
+
+#: includes/class-scanner.php:175
+msgid ""
+"Order attribution: records how you reached the site on your current visit."
+msgstr ""
+"Pripisovanje naročil: beleži, kako ste prišli na spletno mesto ob trenutnem "
+"obisku."
+
+#: includes/class-scanner.php:176
+msgid "Order attribution: records how you first reached the site."
+msgstr "Pripisovanje naročil: beleži, kako ste prvič prišli na spletno mesto."
+
+#: includes/class-scanner.php:177
+msgid ""
+"Order attribution: stores the traffic source and campaign of your current "
+"visit."
+msgstr ""
+"Pripisovanje naročil: shranjuje vir prometa in kampanjo vašega trenutnega "
+"obiska."
+
+#: includes/class-scanner.php:178
+msgid ""
+"Order attribution: stores the traffic source and campaign of your first "
+"visit."
+msgstr ""
+"Pripisovanje naročil: shranjuje vir prometa in kampanjo vašega prvega obiska."
+
+#: includes/class-scanner.php:179
+msgid ""
+"Order attribution: stores visitor/session data used for marketing "
+"attribution."
+msgstr ""
+"Pripisovanje naročil: shranjuje podatke o obiskovalcu in seji za trženjsko "
+"pripisovanje."
+
+#: includes/class-scanner.php:180
+msgid "Order attribution: links page views within a visit for attribution."
+msgstr ""
+"Pripisovanje naročil: povezuje oglede strani v okviru obiska za pripisovanje."
+
+#: includes/class-scanner.php:181
+msgid "Order attribution: tracks the marketing source of your visit."
+msgstr "Pripisovanje naročil: sledi trženjskemu viru vašega obiska."
+
+#: includes/class-scanner.php:184
+msgid ""
+"Jetpack Stats: assigns an anonymous identifier used to measure site traffic."
+msgstr ""
+"Jetpack Stats: dodeli anonimni identifikator za merjenje prometa na spletnem "
+"mestu."
+
+#: includes/class-scanner.php:185
+msgid "Jetpack Stats: records referral and navigation data for analytics."
+msgstr "Jetpack Stats: beleži podatke o napotitvah in navigaciji za analitiko."
+
+#: includes/class-scanner.php:186
+msgid "Jetpack Stats: measures site traffic and visitor activity."
+msgstr ""
+"Jetpack Stats: meri promet na spletnem mestu in dejavnost obiskovalcev."
+
+#: includes/class-scanner.php:189
+msgid "Polylang: stores visitor language preference."
+msgstr "Polylang: shranjuje jezik, ki ga je izbral obiskovalec."
+
+#: includes/class-scanner.php:190
+msgid "MailPoet: tracks email subscriber activity."
+msgstr "MailPoet: sledi dejavnosti naročnikov na e-novice."
+
+#: includes/class-scanner.php:191
+msgid "Plausible: privacy-friendly analytics."
+msgstr "Plausible: analitika, prijazna do zasebnosti."
+
+#: includes/class-scanner.php:194
+msgid "Cloudflare: bot management cookie."
+msgstr "Cloudflare: piškotek za upravljanje botov."
+
+#: includes/class-scanner.php:195
+msgid "Cloudflare: verifies legitimate visitor."
+msgstr "Cloudflare: preverja, ali gre za legitimnega obiskovalca."
+
+#: includes/class-scanner.php:196
+msgid "Cloudflare: identifies trusted web traffic."
+msgstr "Cloudflare: prepoznava zaupanja vreden spletni promet."
+
+#: includes/class-scanner.php:199
+msgid "Hotjar: tracks user behaviour and feedback."
+msgstr "Hotjar: sledi vedenju uporabnikov in povratnim informacijam."
+
+#: includes/class-scanner.php:200
+msgid "Microsoft Clarity: stores a user ID and preferences."
+msgstr "Microsoft Clarity: shranjuje ID uporabnika in nastavitve."
+
+#: includes/class-scanner.php:201
+msgid "Microsoft Clarity: connects page views into a session."
+msgstr "Microsoft Clarity: povezuje oglede strani v sejo."
+
+#: includes/class-scanner.php:204
+msgid "Stores your cookie consent preferences."
+msgstr "Shranjuje vaše nastavitve privolitve za piškotke."
+
+#: includes/class-scanner.php:205
+msgid ""
+"WP Consent API: stores your consent choice for necessary cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: shranjuje vašo izbiro privolitve za nujne piškotke. "
+"Sinhronizirano s pasico za privolitev."
+
+#: includes/class-scanner.php:206
+msgid ""
+"WP Consent API: stores your consent choice for analytics cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: shranjuje vašo izbiro privolitve za analitične piškotke. "
+"Sinhronizirano s pasico za privolitev."
+
+#: includes/class-scanner.php:207
+msgid ""
+"WP Consent API: stores your consent choice for anonymous statistics. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: shranjuje vašo izbiro privolitve za anonimno statistiko. "
+"Sinhronizirano s pasico za privolitev."
+
+#: includes/class-scanner.php:208
+msgid ""
+"WP Consent API: stores your consent choice for marketing cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: shranjuje vašo izbiro privolitve za trženjske piškotke. "
+"Sinhronizirano s pasico za privolitev."
+
+#: includes/class-scanner.php:209
+msgid ""
+"WP Consent API: stores your consent choice for preference cookies. Synced "
+"from your consent banner."
+msgstr ""
+"WP Consent API: shranjuje vašo izbiro privolitve za piškotke nastavitev. "
+"Sinhronizirano s pasico za privolitev."
+
+#: includes/class-scanner.php:210
+msgid ""
+"WP Consent API: stores per-service consent overrides used by integrated "
+"plugins."
+msgstr ""
+"WP Consent API: shranjuje preglasitve privolitve za posamezne storitve, ki "
+"jih uporabljajo integrirani vtičniki."
+
+#: includes/class-scanner.php:211
+msgid ""
+"WP Consent API: stores your cookie consent choice. Synced from your consent "
+"banner."
+msgstr ""
+"WP Consent API: shranjuje vašo izbiro privolitve za piškotke. Sinhronizirano "
+"s pasico za privolitev."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:195
+#, php-format
+msgid "“%s” is not a usable address. Use at least 4 characters without spaces, for example widget.example.com."
+msgstr ""
+"»%s« ni uporaben naslov. Uporabite vsaj 4 znake brez presledkov, na primer "
+"widget.example.com."
+
+#. translators: %s: the address the site owner entered
+#: includes/class-script-blocker.php:200
+#, php-format
+msgid "“%s” would block every script on this site. Enter the address of the external service instead."
+msgstr ""
+"»%s« bi blokiral vse skripte na tem spletnem mestu. Namesto tega vnesite "
+"naslov zunanje storitve."
+
+#: includes/class-script-blocker.php:840
+msgid "This content is blocked because it requires analytics cookies."
+msgstr "Ta vsebina je blokirana, ker zahteva analitične piškotke."
+
+#: includes/class-script-blocker.php:841
+msgid "Accept analytics cookies"
+msgstr "Sprejmi analitične piškotke"
+
+#: includes/class-script-blocker.php:845
+msgid "This content is blocked because it requires preference cookies."
+msgstr "Ta vsebina je blokirana, ker zahteva piškotke nastavitev."
+
+#: includes/class-script-blocker.php:846
+msgid "Accept preference cookies"
+msgstr "Sprejmi piškotke nastavitev"
+
+#: includes/class-admin.php:890 includes/class-admin.php:1203
+msgid "Block by address"
+msgstr "Blokiranje po naslovu"
+
+#: includes/class-admin.php:1213
+msgid "Scripts in page HTML are matched only while Custom Code blocking is on."
+msgstr ""
+"Skripti v HTML strani se preverjajo samo, ko je vklopljeno Blokiranje kode "
+"po meri."
+
+#: includes/class-admin.php:1259 includes/class-admin.php:1289
+msgid "Address contains"
+msgstr "Naslov vsebuje"
+
+#: includes/class-admin.php:1274
+msgid "Add address"
+msgstr "Dodaj naslov"
+
+#: includes/class-admin.php:1284
+msgid "Necessary (never blocked)"
+msgstr "Nujni (nikoli blokirani)"
+
+#: includes/class-admin.php:889
+msgid "Reviews widgets"
+msgstr "Gradniki z mnenji"
+
+#: includes/class-admin.php:889
+msgid "The Trustmary reviews widget waits for analytics consent, because it stores a visitor ID in the browser. A message with an accept button is shown in its place. To load it right away, add widget.trustmary.com under Block by address with the category “Necessary (never blocked)”."
+msgstr ""
+"Gradnik z mnenji Trustmary čaka na privolitev za analitiko, ker v brskalniku "
+"shrani ID obiskovalca. Na njegovem mestu se prikaže sporočilo z gumbom za "
+"sprejem. Če ga želite naložiti takoj, dodajte widget.trustmary.com pod "
+"Blokiranje po naslovu s kategorijo »Nujni (nikoli blokirani)«."
+
+#: includes/class-admin.php:890
+msgid "Blocks any other script by part of its address until the visitor accepts the category you choose, for example a widget the plugin does not recognize. Turn on Show message for scripts that show content on the page."
+msgstr ""
+"Blokira kateri koli drug skript po delu njegovega naslova, dokler "
+"obiskovalec ne sprejme kategorije, ki jo izberete, na primer gradnik, ki ga "
+"vtičnik ne prepozna. Za skripte, ki na strani prikazujejo vsebino, vklopite "
+"Prikaži sporočilo."
+
+#: includes/class-scanner.php:137
+msgctxt "cookie duration"
+msgid "Persistent"
+msgstr "Trajno"
+
+#: includes/class-scanner.php:209
+msgid "Trustmary: stores a visitor ID, the landing page and conversions in the browser’s local storage."
+msgstr ""
+"Trustmary: v lokalno shrambo brskalnika shranjuje ID obiskovalca, "
+"pristajalno stran in konverzije."
+
+#: includes/class-scanner.php:224
+msgid "Reddit Pixel: identifies the browser for ad measurement."
+msgstr "Reddit Pixel: prepozna brskalnik za merjenje oglasov."
+
+#: includes/class-scanner.php:225
+msgid ""
+"Microsoft Advertising: groups page views into a session for ad measurement."
+msgstr ""
+"Microsoft Advertising: združuje oglede strani v sejo za merjenje oglasov."
+
+#: includes/class-scanner.php:226
+msgid ""
+"Microsoft Advertising: identifies the visitor across visits for ad "
+"measurement."
+msgstr ""
+"Microsoft Advertising: prepozna obiskovalca ob ponovnih obiskih za merjenje "
+"oglasov."
+
+#: includes/class-scanner.php:227
+msgid "Criteo: stores a browser identifier for ad personalisation."
+msgstr "Criteo: shranjuje identifikator brskalnika za prilagajanje oglasov."
+
+#: includes/class-scanner.php:228
+msgid "Taboola: identifies the browser for ad targeting."
+msgstr "Taboola: prepozna brskalnik za ciljanje oglasov."
+
+#: includes/class-scanner.php:229
+msgid "Klaviyo: recognises returning visitors for email marketing."
+msgstr "Klaviyo: prepozna povratne obiskovalce za trženje po e-pošti."
+
+#: includes/class-scanner.php:230
+msgid "Yandex Metrica: identifies visitors and stores session settings."
+msgstr "Yandex Metrica: prepozna obiskovalce in shranjuje nastavitve seje."
+
+#: includes/class-scanner.php:231
+msgid "Segment: stores an anonymous visitor ID and traits."
+msgstr "Segment: shranjuje anonimni ID obiskovalca in njegove lastnosti."
+
+#: includes/class-scanner.php:232
+msgid "Intercom: keeps the chat messenger session and visitor identity."
+msgstr "Intercom: ohranja sejo klepetalnika in identiteto obiskovalca."
+
+#: includes/class-scanner.php:233
+msgid "Crisp: keeps the chat session and visitor identity."
+msgstr "Crisp: ohranja sejo klepeta in identiteto obiskovalca."
+
+#: includes/class-admin.php
+msgid "Cookie policy link text"
+msgstr "Besedilo povezave do politike piškotkov"
+
+#: includes/class-admin.php
+msgid "Cookie settings label"
+msgstr "Oznaka nastavitev piškotkov"
+
+#: includes/class-admin.php
+msgid "Tooltip and screen reader label of the floating button, and the default text of the [kncc_cookie_settings] link."
+msgstr ""
+"Namig in oznaka za bralnike zaslona pri plavajočem gumbu ter privzeto "
+"besedilo povezave [kncc_cookie_settings]."
+
+#: includes/class-admin.php
+msgid "Banner label for screen readers"
+msgstr "Oznaka pasice za bralnike zaslona"
+
+#: includes/class-admin.php
+msgid "Cookie categories"
+msgstr "Kategorije piškotkov"
+
+#: includes/class-admin.php
+msgid "Text when no cookies are used"
+msgstr "Besedilo, ko se piškotki ne uporabljajo"
+
+#: includes/class-admin.php
+msgid "Policy page texts"
+msgstr "Besedila strani s politiko"
+
+#: includes/class-admin.php
+msgid "Texts of the [kncc_cookie_policy] cookie declaration. Leave a field empty to use the built-in text, which is translated into each language. Category names are edited on the General tab."
+msgstr ""
+"Besedila izjave o piškotkih [kncc_cookie_policy]. Če pustite polje prazno, "
+"se uporabi vgrajeno besedilo, ki je prevedeno v vse jezike. Imena kategorij "
+"urejate na zavihku Splošno."
+
+#: includes/class-admin.php
+msgid "Category descriptions"
+msgstr "Opisi kategorij"
+
+#: includes/class-admin.php
+msgid "Consent status"
+msgstr "Stanje privolitve"
+
+#: includes/class-admin.php
+msgid "Heading"
+msgstr "Naslov"
+
+#: includes/class-admin.php
+msgid "Before the visitor chooses"
+msgstr "Preden obiskovalec izbere"
+
+#: includes/class-admin.php
+msgid "Technical note (shown when WP Consent API is active)"
+msgstr "Tehnična opomba (prikazana, ko je aktiven WP Consent API)"
+
+#: includes/class-admin.php
+msgid "Buttons and messages"
+msgstr "Gumbi in sporočila"
+
+#: includes/class-admin.php
+msgid "Edit preferences button"
+msgstr "Gumb za urejanje nastavitev"
+
+#: includes/class-admin.php
+msgid "Message when no cookies are registered"
+msgstr "Sporočilo, ko ni registriranih piškotkov"
+
+#: includes/class-admin.php
+msgid "Table column headings"
+msgstr "Naslovi stolpcev tabele"
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 added cookies for services that are not on your site. They have been removed from the cookie list: %s. If your site does use some of these services, put the cookies back and delete the ones it does not use."
+msgstr ""
+"Različica 1.8.10 je dodala piškotke za storitve, ki jih na vašem spletnem "
+"mestu ni. Odstranjeni so bili s seznama piškotkov: %s. Če vaše spletno mesto "
+"nekatere od teh storitev vendarle uporablja, vrnite piškotke in izbrišite "
+"tiste, ki jih ne uporablja."
+
+#. translators: %s: comma-separated cookie names
+#: includes/class-admin.php
+#, php-format
+msgid "Version 1.8.10 may have added cookies for services that are not on your site: %s. The Google Tag Manager on your site can load any of them, so they were kept. Remove the ones your site does not use."
+msgstr ""
+"Različica 1.8.10 je morda dodala piškotke za storitve, ki jih na vašem "
+"spletnem mestu ni: %s. Google Tag Manager na vašem spletnem mestu lahko "
+"naloži katero koli od njih, zato so bili ohranjeni. Odstranite tiste, ki jih "
+"vaše spletno mesto ne uporablja."
+
+#: includes/class-admin.php
+msgid "Put the cookies back"
+msgstr "Vrni piškotke"
+
+#: includes/class-admin.php
+msgid "Hide this notice"
+msgstr "Skrij to obvestilo"
+
+#: includes/class-admin.php
+msgid "Shown when visitors open Customize. Leave a field empty to use the built-in text."
+msgstr ""
+"Prikazano, ko obiskovalci kliknejo Prilagodi. Če pustite polje prazno, se "
+"uporabi vgrajeno besedilo."
+
+#: includes/class-admin.php
+msgid "Blocked content messages"
+msgstr "Sporočila za blokirano vsebino"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo message"
+msgstr "Sporočilo za YouTube & Vimeo"
+
+#: includes/class-admin.php
+msgid "YouTube & Vimeo accept button"
+msgstr "Gumb za sprejem (YouTube & Vimeo)"
+
+#: includes/class-admin.php
+msgid "Analytics content message"
+msgstr "Sporočilo za vsebino (Analitika)"
+
+#: includes/class-admin.php
+msgid "Analytics content accept button"
+msgstr "Gumb za sprejem (Analitika)"
+
+#: includes/class-admin.php
+msgid "Preferences content message"
+msgstr "Sporočilo za vsebino (Nastavitve)"
+
+#: includes/class-admin.php
+msgid "Preferences content accept button"
+msgstr "Gumb za sprejem (Nastavitve)"
+
+#: includes/class-admin.php
+msgid "Or add a link anywhere with the shortcode:"
+msgstr "Ali pa povezavo kjer koli dodajte s kratko kodo:"
+
+#: includes/class-admin.php
+msgid "Recommended. Turn off only if a cache or speed plugin breaks the site."
+msgstr ""
+"Priporočeno. Izklopite samo, če vtičnik za predpomnjenje ali pospeševanje "
+"pokvari spletno mesto."
+
+#: includes/class-admin.php
+msgid "Blocked automatically, no setup needed."
+msgstr "Samodejno blokirano, nastavitev ni potrebna."
+
+#: includes/class-admin.php
+msgid "Show message"
+msgstr "Prikaži sporočilo"
+
+#: includes/class-admin.php
+msgid "No cookies selected."
+msgstr "Izbran ni noben piškotek."
+
+#: includes/class-admin.php
+msgid "%s scripts no longer detected on homepage"
+msgstr "Skripti %s na domači strani niso več zaznani"
+
+#: includes/class-admin.php
+msgid "Editing language: %s. Saves apply to this language only."
+msgstr "Urejanje jezika: %s. Shranjene spremembe veljajo samo za ta jezik."
+
+#: includes/class-admin.php
+msgid "Editing the default language. Other languages have their own texts."
+msgstr "Urejanje privzetega jezika. Drugi jeziki imajo svoja besedila."
+
+#: includes/class-admin.php
+msgid "Preview the banner with your current, unsaved settings."
+msgstr "Predogled pasice s trenutnimi, neshranjenimi nastavitvami."
+
+#: includes/class-admin.php
+msgid "Live preview works with Plugin style only."
+msgstr "Predogled v živo deluje samo s slogom vtičnika."
+
+#: includes/class-admin.php
+msgid "Screen reader label of the × button."
+msgstr "Oznaka gumba × za bralnike zaslona."
+
+#: includes/class-admin.php
+msgid "Holds any other script back until the visitor accepts its category. Use it for widgets and tools the plugin does not recognize."
+msgstr ""
+"Zadrži kateri koli drug skript, dokler obiskovalec ne sprejme njegove "
+"kategorije. Uporabite ga za gradnike in orodja, ki jih vtičnik ne prepozna."
+
+#: includes/class-admin.php
+msgid "Necessary (never blocked) lets an address load right away, even one the plugin would block."
+msgstr ""
+"Kategorija »Nujni (nikoli blokirani)« omogoča, da se naslov naloži takoj, "
+"tudi če bi ga vtičnik sicer blokiral."
+
+#: includes/class-admin.php
+msgid "Show message: where the blocked script would show content (reviews, booking, a map), show a message with an accept button instead of an empty gap. Not needed for tracking scripts."
+msgstr ""
+"Prikaži sporočilo: kjer bi blokirani skript prikazal vsebino (mnenja, "
+"rezervacije, zemljevid), se namesto prazne vrzeli prikaže sporočilo z gumbom "
+"za sprejem. Ni potrebno za sledilne skripte."
+
+#: includes/class-consent.php
+msgid "opens in a new tab"
+msgstr "odpre se v novem zavihku"

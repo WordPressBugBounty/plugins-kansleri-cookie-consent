@@ -3,7 +3,7 @@ return array (
   'domain' => 'kansleri-cookie-consent',
   'plural-forms' => 'nplurals=2; plural=(n != 1);',
   'language' => 'es_ES',
-  'project-id-version' => 'Kansleri Cookie Consent 1.8.12',
+  'project-id-version' => 'Kansleri Cookie Consent 1.8.13',
   'x-generator' => 'kncc gen-l10n.php',
   'messages' => 
   array (

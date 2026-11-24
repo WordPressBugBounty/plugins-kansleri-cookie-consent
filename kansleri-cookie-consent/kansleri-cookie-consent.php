@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Kansleri Cookie Consent
  * Description: Free, no-ads GDPR cookie consent with script blocking, consent logging, Google Consent Mode v2, and AI-assisted setup. Perfect for personal sites and small businesses.
- * Version: 1.8.12
+ * Version: 1.8.13
  * Author: Kansleri.fi
  * Author URI: https://kansleri.fi
  * License: GPLv2 or later
@@ -19,7 +19,7 @@ if (!defined('ABSPATH')) {
   exit;
 }
 
-define('KNCC_VERSION', '1.8.12');
+define('KNCC_VERSION', '1.8.13');
 // Bump whenever the consent log schema changes so dbDelta runs on upgrade.
 define('KNCC_DB_VERSION', '1.3.0');
 define('KNCC_PLUGIN_DIR', plugin_dir_path(__FILE__));
@@ -239,15 +239,21 @@ endif;
 
 if (!function_exists('kncc_language_file')) :
 /**
- * The plugin's own translation file (.mo) for a language code ("es" → languages/kansleri-cookie-consent-es_ES.mo),
- * or '' when the plugin has none. The main variant (es_ES, de_DE) is preferred when there are several.
+ * The plugin's own translation file (.mo) for a language code ("es" → languages/kansleri-cookie-consent-es_ES.mo,
+ * "el" → languages/kansleri-cookie-consent-el.mo), or '' when the plugin has none. The main variant (es_ES, de_DE)
+ * is preferred when there are several. Norwegian Nynorsk readers get the Bokmål translation, the plugin's only
+ * Norwegian one.
  */
 function kncc_language_file($lang) {
   static $found = array();
+  if ($lang === 'nn' || $lang === 'no') {
+    $lang = 'nb';
+  }
   if (!isset($found[$lang])) {
-    $files = glob(KNCC_PLUGIN_DIR . 'languages/kansleri-cookie-consent-' . $lang . '_*.mo');
-    $main = KNCC_PLUGIN_DIR . 'languages/kansleri-cookie-consent-' . $lang . '_' . strtoupper($lang) . '.mo';
-    $found[$lang] = in_array($main, (array) $files, true) ? $main : (empty($files) ? '' : $files[0]);
+    $base = KNCC_PLUGIN_DIR . 'languages/kansleri-cookie-consent-' . $lang;
+    $files = array_merge((array) glob($base . '.mo'), (array) glob($base . '_*.mo'));
+    $main = $base . '_' . strtoupper($lang) . '.mo';
+    $found[$lang] = in_array($main, $files, true) ? $main : (empty($files) ? '' : $files[0]);
   }
   return $found[$lang];
 }
@@ -264,7 +270,7 @@ function kncc_language_variant_mofile($mofile, $domain) {
   if ($domain !== 'kansleri-cookie-consent' || file_exists($mofile) || file_exists(substr_replace($mofile, '.l10n.php', -strlen('.mo')))) {
     return $mofile;
   }
-  if (!preg_match('/kansleri-cookie-consent-([a-z]{2,3})_[A-Za-z_]+\.mo$/', $mofile, $m)) {
+  if (!preg_match('/kansleri-cookie-consent-([a-z]{2,3})_[A-Za-z0-9_]+\.mo$/', $mofile, $m)) {
     return $mofile;
   }
   $own = kncc_language_file($m[1]);
@@ -272,6 +278,77 @@ function kncc_language_variant_mofile($mofile, $domain) {
 }
 endif;
 add_filter('load_textdomain_mofile', 'kncc_language_variant_mofile', 10, 2);
+
+if (!function_exists('kncc_load_translations')) :
+/**
+ * The plugin's translations for a locale, read from the .mo file WordPress would load (a language pack from
+ * translate.wordpress.org first), or false when there is none.
+ */
+function kncc_load_translations($locale) {
+  static $loaded = array();
+  if (!array_key_exists($locale, $loaded)) {
+    $loaded[$locale] = false;
+    $file = trailingslashit(WP_LANG_DIR) . 'plugins/kansleri-cookie-consent-' . $locale . '.mo';
+    if (!is_readable($file)) {
+      $file = kncc_language_variant_mofile(KNCC_PLUGIN_DIR . 'languages/kansleri-cookie-consent-' . $locale . '.mo', 'kansleri-cookie-consent');
+    }
+    if (is_readable($file)) {
+      require_once ABSPATH . WPINC . '/pomo/mo.php';
+      $mo = new MO();
+      if ($mo->import_from_file($file)) {
+        $loaded[$locale] = $mo;
+      }
+    }
+  }
+  return $loaded[$locale];
+}
+endif;
+
+if (!function_exists('kncc_call_in_locale')) :
+/**
+ * Run $callback with the plugin's texts in $locale and return what it returns.
+ *
+ * Normally that is switch_to_locale(). WordPress can only switch to a language it has core language files for, and it
+ * has none for Irish or Maltese, nor for a language that a multilingual plugin added on a host where WordPress cannot
+ * write to wp-content/languages. Then the plugin's own translation file answers the plugin's texts instead.
+ *
+ * @param string   $locale   WordPress locale, for example sv_SE.
+ * @param callable $callback Called with no arguments.
+ * @return mixed
+ */
+function kncc_call_in_locale($locale, $callback) {
+  if (!$locale || $locale === determine_locale()) {
+    return call_user_func($callback);
+  }
+
+  if (switch_to_locale($locale)) {
+    try {
+      return call_user_func($callback);
+    } finally {
+      restore_previous_locale();
+    }
+  }
+
+  $translations = kncc_load_translations($locale);
+  if (!$translations) {
+    return call_user_func($callback);
+  }
+  $plain = function ($translated, $text) use ($translations) {
+    return $translations->translate($text);
+  };
+  $with_context = function ($translated, $text, $context) use ($translations) {
+    return $translations->translate($text, $context);
+  };
+  add_filter('gettext_kansleri-cookie-consent', $plain, 10, 2);
+  add_filter('gettext_with_context_kansleri-cookie-consent', $with_context, 10, 3);
+  try {
+    return call_user_func($callback);
+  } finally {
+    remove_filter('gettext_kansleri-cookie-consent', $plain, 10);
+    remove_filter('gettext_with_context_kansleri-cookie-consent', $with_context, 10);
+  }
+}
+endif;
 
 if (!function_exists('kncc_get_content_locale')) :
 /**
@@ -303,16 +380,7 @@ if (!function_exists('kncc_get_default_settings_for_language')) :
  * language's plugin defaults. Unsupported locales (e.g. Greek with no .mo) fall back to English.
  */
 function kncc_get_default_settings_for_language($lang = null) {
-  $target_locale = kncc_get_content_locale($lang);
-
-  if ($target_locale === determine_locale()) {
-    return kncc_get_default_settings();
-  }
-
-  switch_to_locale($target_locale);
-  $defaults = kncc_get_default_settings();
-  restore_previous_locale();
-  return $defaults;
+  return kncc_call_in_locale(kncc_get_content_locale($lang), 'kncc_get_default_settings');
 }
 endif;
 
@@ -382,16 +450,7 @@ if (!function_exists('kncc_get_builtin_texts_for_language')) :
  * kncc_get_builtin_texts() in the given language (the admin shows them as placeholders).
  */
 function kncc_get_builtin_texts_for_language($lang = null) {
-  $target_locale = kncc_get_content_locale($lang);
-
-  if ($target_locale === determine_locale()) {
-    return kncc_get_builtin_texts();
-  }
-
-  switch_to_locale($target_locale);
-  $texts = kncc_get_builtin_texts();
-  restore_previous_locale();
-  return $texts;
+  return kncc_call_in_locale(kncc_get_content_locale($lang), 'kncc_get_builtin_texts');
 }
 endif;
 
@@ -622,12 +681,7 @@ function kncc_get_cookie_text_translations($lang = null) {
   }
 
   // On admin requests __() follows the admin's profile language; translate in the language's locale.
-  $switched = $locale !== determine_locale() && switch_to_locale($locale);
-  $texts = KNCC_Scanner::get_cookie_texts();
-  if ($switched) {
-    restore_previous_locale();
-  }
-  return $texts;
+  return kncc_call_in_locale($locale, array('KNCC_Scanner', 'get_cookie_texts'));
 }
 endif;
 
@@ -855,43 +909,13 @@ function kncc_deactivate() {
 endif;
 register_deactivation_hook(__FILE__, 'kncc_deactivate');
 
-if (!function_exists('kncc_maybe_localize_defaults')) :
+if (!function_exists('kncc_get_saved_text_defaults')) :
 /**
- * Migration: if the saved banner texts are still the English defaults and the site's language is not English,
- * update them to the translated defaults. Version 2 runs it once more on every site, because 1.8.12 added German,
- * French, Spanish, Italian and Dutch: a site in one of them kept the English texts it got at activation.
+ * The banner texts that are saved with the settings, each as array( English source text, the text in the current
+ * locale ).
  */
-function kncc_maybe_localize_defaults() {
-  if ((int) get_option('kncc_defaults_localized') >= 2) {
-    return;
-  }
-  // Only in wp-admin and WP-CLI: on the front end a language plugin (TranslatePress) switches the locale to the
-  // language of the page, and the saved texts would be translated into that language.
-  if (!(is_admin() && !wp_doing_ajax()) && !(defined('WP_CLI') && WP_CLI)) {
-    return;
-  }
-
-  // The language of the saved texts: the default language of a Polylang or WPML site.
-  $locale = kncc_get_default_language_locale();
-  if (strpos($locale, 'en') === 0) {
-    update_option('kncc_defaults_localized', 2, false);
-    return;
-  }
-
-  $saved = get_option('kncc_settings', array());
-  if (empty($saved)) {
-    update_option('kncc_defaults_localized', 2, false);
-    return;
-  }
-
-  // On admin requests __() follows the admin's profile language; translate in the site locale. When WordPress cannot
-  // switch to it (its core language files are missing), try again on a later request.
-  $switched = switch_to_locale($locale);
-  if (!$switched && determine_locale() !== $locale) {
-    return;
-  }
-
-  $translations = array(
+function kncc_get_saved_text_defaults() {
+  return array(
     'heading_text'     => array( 'We use cookies', __( 'We use cookies', 'kansleri-cookie-consent' ) ),
     'description_text' => array( 'We use cookies to improve your experience and analyze site traffic. Choose which cookies you allow.', __( 'We use cookies to improve your experience and analyze site traffic. Choose which cookies you allow.', 'kansleri-cookie-consent' ) ),
     'accept_text'      => array( 'Accept all', __( 'Accept all', 'kansleri-cookie-consent' ) ),
@@ -902,25 +926,74 @@ function kncc_maybe_localize_defaults() {
     'iframe_placeholder_text' => array( 'This content is blocked because it requires marketing cookies.', __( 'This content is blocked because it requires marketing cookies.', 'kansleri-cookie-consent' ) ),
     'iframe_accept_text'      => array( 'Accept marketing cookies', __( 'Accept marketing cookies', 'kansleri-cookie-consent' ) ),
   );
+}
+endif;
 
-  if ($switched) {
-    restore_previous_locale();
+if (!function_exists('kncc_translate_saved_defaults')) :
+/**
+ * $saved with the texts that are still the English defaults replaced by their translation in $locale. A text the
+ * site owner has written or changed is never touched.
+ */
+function kncc_translate_saved_defaults($saved, $locale) {
+  // On admin requests __() follows the admin's profile language; translate in the language of the texts.
+  foreach (kncc_call_in_locale($locale, 'kncc_get_saved_text_defaults') as $key => $pair) {
+    if (isset($saved[$key]) && $saved[$key] === $pair[0] && $pair[1] !== $pair[0]) {
+      $saved[$key] = $pair[1];
+    }
+  }
+  return $saved;
+}
+endif;
+
+if (!function_exists('kncc_maybe_localize_defaults')) :
+/**
+ * Migration: if the saved banner texts are still the English defaults and their language is not English, update
+ * them to the translated defaults. Version 3 runs it once more on every site, because 1.8.13 added the other
+ * official languages of the EU and EEA countries (1.8.12 added German, French, Spanish, Italian and Dutch): a site
+ * in one of them kept the English texts it got at activation. It now also covers the texts saved for each other
+ * language of a Polylang or WPML site, which are English when the language tab was saved before the plugin had
+ * that language.
+ */
+function kncc_maybe_localize_defaults() {
+  if ((int) get_option('kncc_defaults_localized') >= 3) {
+    return;
+  }
+  // Only in wp-admin and WP-CLI: on the front end a language plugin (TranslatePress) switches the locale to the
+  // language of the page, and the saved texts would be translated into that language.
+  if (!(is_admin() && !wp_doing_ajax()) && !(defined('WP_CLI') && WP_CLI)) {
+    return;
   }
 
-  $changed = false;
-  foreach ( $translations as $key => $pair ) {
-    $english    = $pair[0];
-    $translated = $pair[1];
-    if ( isset( $saved[ $key ] ) && $saved[ $key ] === $english && $translated !== $english ) {
-      $saved[ $key ] = $translated;
-      $changed = true;
+  // The default language of a Polylang or WPML site (the site language on any other site) keeps its texts with the
+  // settings.
+  $locale = kncc_get_default_language_locale();
+  $saved = get_option('kncc_settings', array());
+  if (strpos($locale, 'en') !== 0 && !empty($saved)) {
+    $translated = kncc_translate_saved_defaults($saved, $locale);
+    if ($translated !== $saved) {
+      update_option('kncc_settings', $translated, false);
     }
   }
 
-  if ($changed) {
-    update_option('kncc_settings', $saved, false);
+  // Every other language has its own texts. If WPML has not listed its languages yet, try again on a later request
+  // instead of marking the update as done.
+  $slugs = kncc_get_language_slugs();
+  if (!$slugs && defined('ICL_SITEPRESS_VERSION')) {
+    return;
   }
-  update_option('kncc_defaults_localized', 2, false);
+  foreach ($slugs as $slug) {
+    $texts = get_option('kncc_texts_' . $slug);
+    $slug_locale = kncc_get_locale_for_slug($slug);
+    if (empty($texts) || !is_array($texts) || strpos($slug_locale, 'en') === 0 || !kncc_plugin_supports_locale($slug_locale)) {
+      continue;
+    }
+    $translated = kncc_translate_saved_defaults($texts, $slug_locale);
+    if ($translated !== $texts) {
+      update_option('kncc_texts_' . $slug, $translated, false);
+    }
+  }
+
+  update_option('kncc_defaults_localized', 3, false);
 }
 endif;
 // Hooked on init (not plugins_loaded) because the migration map below contains
